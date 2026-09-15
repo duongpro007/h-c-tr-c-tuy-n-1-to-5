@@ -12,6 +12,62 @@ export interface LessonContent {
   funFact: string;
 }
 
+// Mục tiêu và mẹo nhỏ dùng chung cho các bài "Thực hành / Luyện tập / Vận dụng /
+// Trò chơi ôn tập / Thử thách nhỏ" tự sinh theo từng chủ đề lõi — phần khác biệt
+// giữa các bài cùng chủ đề nằm ở nội dung ôn lại và bộ câu hỏi quiz riêng.
+const PRACTICE_OBJECTIVES: Record<string, string[]> = {
+  "Thực hành": [
+    "Củng cố kiến thức vừa học ở bài trước qua bài tập thực hành.",
+    "Làm đúng và nhanh các dạng bài tương tự bài đã học.",
+  ],
+  "Luyện tập": [
+    "Luyện tập thêm với nhiều dạng bài đa dạng, tăng dần độ khó.",
+    "Rèn kỹ năng làm bài chính xác và tự tin hơn.",
+  ],
+  "Vận dụng": [
+    "Vận dụng kiến thức đã học vào tình huống cụ thể, gần gũi.",
+    "Rèn khả năng áp dụng linh hoạt kiến thức vào thực tế.",
+  ],
+  "Trò chơi ôn tập": [
+    "Ôn lại kiến thức đã học qua hình thức trò chơi vui nhộn.",
+    "Tạo hứng thú, giảm áp lực khi ôn tập kiến thức cũ.",
+  ],
+  "Thử thách nhỏ": [
+    "Thử sức với các câu hỏi có độ khó tăng dần.",
+    "Tự đánh giá mức độ hiểu bài của bản thân sau khi học.",
+  ],
+};
+
+const PRACTICE_FUNFACT: Record<string, string> = {
+  "Thực hành": "Mẹo nhỏ: Làm bài tập thực hành ngay sau khi học sẽ giúp em nhớ bài lâu hơn rất nhiều!",
+  "Luyện tập": "Mẹo nhỏ: Luyện tập đều đặn mỗi ngày, dù chỉ vài phút, cũng giúp em tiến bộ rõ rệt!",
+  "Vận dụng": "Mẹo nhỏ: Thử liên hệ kiến thức với những điều em gặp hằng ngày để nhớ bài lâu hơn!",
+  "Trò chơi ôn tập": "Mẹo nhỏ: Học qua trò chơi giúp não bộ ghi nhớ kiến thức một cách tự nhiên và thú vị hơn!",
+  "Thử thách nhỏ": "Mẹo nhỏ: Đừng ngại sai — mỗi lần thử thách là một cơ hội để em tiến bộ hơn!",
+};
+
+function practiceContent(
+  verb: keyof typeof PRACTICE_OBJECTIVES,
+  coreTitle: string,
+  recap: string,
+  quiz: QuizQuestion[]
+): LessonContent {
+  return {
+    objectives: PRACTICE_OBJECTIVES[verb],
+    sections: [
+      {
+        heading: "Ôn lại kiến thức",
+        body: [
+          `Bài này giúp em ôn luyện lại nội dung của bài "${coreTitle}". ${recap}`,
+          "Hãy vận dụng những gì đã học để hoàn thành các câu hỏi dưới đây nhé!",
+        ],
+      },
+    ],
+    quiz,
+    funFact: PRACTICE_FUNFACT[verb],
+  };
+}
+
 export const lessonContent: Record<string, LessonContent> = {
   "toan:1:cac-so-den-10": {
     objectives: [
@@ -4784,6 +4840,1097 @@ export const lessonContent: Record<string, LessonContent> = {
     ],
     funFact: "Bạn có biết? Những kỹ năng tin học cơ bản em học hôm nay sẽ là nền tảng quan trọng cho việc học lập trình và công nghệ trong tương lai!",
   },
+
+  // ─────────────── TOÁN — LỚP 3 — bài thực hành ───────────────
+  "toan:3:thuc-hanh-on-tap-cac-so-den-1000": practiceContent(
+    "Thực hành",
+    "Ôn tập các số đến 1000",
+    "Hãy nhớ lại cách đọc, viết và so sánh các số có ba chữ số.",
+    [
+      { question: "Số 726 gồm mấy trăm, mấy chục, mấy đơn vị?", options: ["7 trăm, 2 chục, 6 đơn vị", "2 trăm, 7 chục, 6 đơn vị", "6 trăm, 2 chục, 7 đơn vị", "7 trăm, 6 chục, 2 đơn vị"], correctIndex: 0, explanation: "726 = 700 + 20 + 6." },
+      { question: "Số nào lớn hơn: 634 hay 643?", options: ["634", "643", "Bằng nhau", "Không so sánh được"], correctIndex: 1, explanation: "Hàng chục: 3 < 4 nên 643 lớn hơn." },
+      { question: "Số liền sau số 799 là số nào?", options: ["798", "800", "810", "789"], correctIndex: 1, explanation: "Số liền sau 799 là 800." },
+      { question: "Sắp xếp 410, 140, 401 theo thứ tự giảm dần, số nào đứng đầu?", options: ["410", "140", "401", "Không xác định được"], correctIndex: 0, explanation: "So hàng trăm: 4=4=1, so hàng chục: 1 > 0, vậy 410 lớn nhất." },
+    ]
+  ),
+
+  "toan:3:luyen-tap-cong-tru-cac-so-trong-pham-vi-1000": practiceContent(
+    "Luyện tập",
+    "Cộng, trừ các số trong phạm vi 1000",
+    "Hãy nhớ lại cách đặt tính và thực hiện phép cộng, trừ có nhớ.",
+    [
+      { question: "427 + 186 = ?", options: ["603", "613", "623", "593"], correctIndex: 1, explanation: "427 + 186 = 613." },
+      { question: "800 - 345 = ?", options: ["445", "455", "465", "545"], correctIndex: 1, explanation: "800 - 345 = 455." },
+      { question: "519 + 275 = ?", options: ["784", "794", "804", "774"], correctIndex: 1, explanation: "519 + 275 = 794." },
+      { question: "Một cửa hàng có 650kg gạo, đã bán đi 275kg. Hỏi còn lại bao nhiêu ki-lô-gam gạo?", options: ["365kg", "375kg", "385kg", "425kg"], correctIndex: 1, explanation: "650 - 275 = 375kg." },
+    ]
+  ),
+
+  "toan:3:van-dung-bang-nhan-6-7-8-9": practiceContent(
+    "Vận dụng",
+    "Bảng nhân 6, 7, 8, 9",
+    "Hãy nhớ lại các bảng nhân 6, 7, 8, 9 đã học.",
+    [
+      { question: "6 × 9 = ?", options: ["45", "54", "56", "63"], correctIndex: 1, explanation: "6 × 9 = 54." },
+      { question: "8 × 7 = ?", options: ["54", "56", "64", "48"], correctIndex: 1, explanation: "8 × 7 = 56." },
+      { question: "9 × 8 = ?", options: ["63", "72", "81", "64"], correctIndex: 1, explanation: "9 × 8 = 72." },
+      { question: "Mỗi túi có 7 viên bi, có 9 túi như vậy. Hỏi có tất cả bao nhiêu viên bi?", options: ["56", "63", "72", "49"], correctIndex: 1, explanation: "9 × 7 = 63 viên bi." },
+    ]
+  ),
+
+  "toan:3:tro-choi-on-tap-bang-chia-6-7-8-9": practiceContent(
+    "Trò chơi ôn tập",
+    "Bảng chia 6, 7, 8, 9",
+    "Hãy nhớ lại các bảng chia 6, 7, 8, 9 đã học.",
+    [
+      { question: "72 : 8 = ?", options: ["8", "9", "7", "6"], correctIndex: 1, explanation: "8 × 9 = 72 nên 72 : 8 = 9." },
+      { question: "45 : 9 = ?", options: ["4", "5", "6", "9"], correctIndex: 1, explanation: "9 × 5 = 45 nên 45 : 9 = 5." },
+      { question: "48 : 6 = ?", options: ["6", "7", "8", "9"], correctIndex: 2, explanation: "6 × 8 = 48 nên 48 : 6 = 8." },
+      { question: "Có 63 quyển vở chia đều cho 7 bạn. Mỗi bạn được mấy quyển vở?", options: ["7", "8", "9", "10"], correctIndex: 2, explanation: "63 : 7 = 9 quyển vở." },
+    ]
+  ),
+
+  "toan:3:thu-thach-nho-nhan-chia-so-co-hai-ba-chu-so": practiceContent(
+    "Thử thách nhỏ",
+    "Nhân, chia số có hai, ba chữ số",
+    "Hãy nhớ lại cách đặt tính nhân, chia số có nhiều chữ số cho số có một chữ số.",
+    [
+      { question: "132 × 3 = ?", options: ["396", "386", "406", "396"], correctIndex: 0, explanation: "132 × 3 = 396." },
+      { question: "168 : 4 = ?", options: ["40", "41", "42", "43"], correctIndex: 2, explanation: "168 : 4 = 42." },
+      { question: "214 × 4 = ?", options: ["846", "856", "866", "856"], correctIndex: 1, explanation: "214 × 4 = 856." },
+      { question: "Một đội có 324 quả bóng chia đều vào 4 hộp. Mỗi hộp có bao nhiêu quả bóng?", options: ["79", "80", "81", "82"], correctIndex: 2, explanation: "324 : 4 = 81 quả." },
+    ]
+  ),
+
+  "toan:3:thuc-hanh-goc-vuong-goc-khong-vuong": practiceContent(
+    "Thực hành",
+    "Góc vuông, góc không vuông",
+    "Hãy nhớ lại cách nhận biết góc vuông bằng ê-ke.",
+    [
+      { question: "Góc lớn hơn góc vuông được gọi là gì?", options: ["Góc nhọn", "Góc tù", "Góc bẹt", "Góc vuông"], correctIndex: 1, explanation: "Góc lớn hơn 90 độ gọi là góc tù." },
+      { question: "Hai cạnh của một trang giấy hình chữ nhật tạo với nhau một góc gì?", options: ["Góc nhọn", "Góc tù", "Góc vuông", "Góc bẹt"], correctIndex: 2, explanation: "Các góc của hình chữ nhật đều là góc vuông." },
+      { question: "Góc nhỏ hơn góc vuông được gọi là gì?", options: ["Góc nhọn", "Góc tù", "Góc bẹt", "Không có tên gọi"], correctIndex: 0, explanation: "Góc nhỏ hơn 90 độ gọi là góc nhọn." },
+      { question: "Dụng cụ nào giúp em kiểm tra một góc có phải góc vuông không?", options: ["Thước dây", "Ê-ke", "Compa", "Bút chì"], correctIndex: 1, explanation: "Ê-ke có sẵn góc vuông để kiểm tra." },
+    ]
+  ),
+
+  "toan:3:luyen-tap-chu-vi-hinh-chu-nhat-hinh-vuong": practiceContent(
+    "Luyện tập",
+    "Chu vi hình chữ nhật, hình vuông",
+    "Hãy nhớ lại công thức tính chu vi hình chữ nhật và hình vuông.",
+    [
+      { question: "Hình chữ nhật dài 12cm, rộng 5cm. Chu vi hình đó là bao nhiêu?", options: ["17cm", "34cm", "60cm", "24cm"], correctIndex: 1, explanation: "Chu vi = (12+5) × 2 = 34cm." },
+      { question: "Hình vuông cạnh 9cm. Chu vi hình đó là bao nhiêu?", options: ["18cm", "27cm", "36cm", "81cm"], correctIndex: 2, explanation: "Chu vi = 9 × 4 = 36cm." },
+      { question: "Một sân chơi hình chữ nhật có chu vi 60m, chiều rộng 10m. Chiều dài sân là bao nhiêu?", options: ["15m", "20m", "25m", "30m"], correctIndex: 1, explanation: "Nửa chu vi = 30m, chiều dài = 30 - 10 = 20m." },
+      { question: "Muốn tính chu vi hình vuông, ta làm thế nào?", options: ["Lấy cạnh nhân 2", "Lấy cạnh nhân 3", "Lấy cạnh nhân 4", "Lấy cạnh cộng 4"], correctIndex: 2, explanation: "Chu vi hình vuông = cạnh × 4." },
+    ]
+  ),
+
+  "toan:3:van-dung-lam-quen-voi-phan-so": practiceContent(
+    "Vận dụng",
+    "Làm quen với phân số",
+    "Hãy nhớ lại cách đọc, viết phân số và ý nghĩa của tử số, mẫu số.",
+    [
+      { question: "Chia một hình tròn thành 6 phần bằng nhau, tô màu 5 phần. Phân số biểu diễn phần tô màu là gì?", options: ["5/6", "6/5", "1/6", "5/1"], correctIndex: 0, explanation: "Tô màu 5 trong 6 phần bằng nhau, viết là 5/6." },
+      { question: "Trong phân số 7/10, số nào là tử số?", options: ["7", "10", "17", "Không có tử số"], correctIndex: 0, explanation: "Số trên gạch ngang (7) là tử số." },
+      { question: "Phân số nào biểu diễn 'một phần ba'?", options: ["3/1", "1/2", "1/3", "1/4"], correctIndex: 2, explanation: "'Một phần ba' viết là 1/3." },
+      { question: "Mẫu số của một phân số cho biết điều gì?", options: ["Số phần đã lấy", "Số phần bằng nhau mà hình được chia", "Không có ý nghĩa gì", "Luôn luôn bằng 1"], correctIndex: 1, explanation: "Mẫu số cho biết hình được chia thành mấy phần bằng nhau." },
+    ]
+  ),
+
+  "toan:3:tro-choi-on-tap-cac-so-den-10-000-100-000": practiceContent(
+    "Trò chơi ôn tập",
+    "Các số đến 10 000, 100 000",
+    "Hãy nhớ lại cấu tạo và cách so sánh các số có bốn, năm chữ số.",
+    [
+      { question: "Số 46 210 gồm mấy chục nghìn?", options: ["4", "6", "2", "46"], correctIndex: 0, explanation: "Chữ số hàng chục nghìn của 46 210 là 4." },
+      { question: "So sánh 15 300 và 15 030, số nào lớn hơn?", options: ["15 300", "15 030", "Bằng nhau", "Không so sánh được"], correctIndex: 0, explanation: "Hàng trăm: 3 > 0 nên 15 300 lớn hơn." },
+      { question: "Số liền trước số 10 000 là số nào?", options: ["9999", "10 001", "9000", "10 010"], correctIndex: 0, explanation: "Số liền trước 10 000 là 9999." },
+      { question: "Số nào sau đây có đúng 4 chữ số?", options: ["999", "1000", "10 000", "99"], correctIndex: 1, explanation: "1000 có 4 chữ số: 1, 0, 0, 0." },
+    ]
+  ),
+
+  "toan:3:thu-thach-nho-dien-tich-hinh-chu-nhat-hinh-vuong": practiceContent(
+    "Thử thách nhỏ",
+    "Diện tích hình chữ nhật, hình vuông",
+    "Hãy nhớ lại công thức tính diện tích hình chữ nhật và hình vuông.",
+    [
+      { question: "Hình chữ nhật dài 10cm, rộng 6cm. Diện tích hình đó là bao nhiêu?", options: ["16cm²", "32cm²", "60cm²", "50cm²"], correctIndex: 2, explanation: "Diện tích = 10 × 6 = 60cm²." },
+      { question: "Hình vuông cạnh 8cm. Diện tích hình đó là bao nhiêu?", options: ["16cm²", "32cm²", "56cm²", "64cm²"], correctIndex: 3, explanation: "Diện tích = 8 × 8 = 64cm²." },
+      { question: "Một mảnh vườn hình vuông có diện tích 49m². Cạnh của mảnh vườn dài bao nhiêu?", options: ["6m", "7m", "8m", "9m"], correctIndex: 1, explanation: "7 × 7 = 49 nên cạnh dài 7m." },
+      { question: "Công thức tính diện tích hình chữ nhật là gì?", options: ["(dài + rộng) × 2", "dài × rộng", "cạnh × 4", "cạnh × cạnh"], correctIndex: 1, explanation: "Diện tích hình chữ nhật = chiều dài × chiều rộng." },
+    ]
+  ),
+
+  "toan:3:thuc-hanh-gam-mi-li-lit": practiceContent(
+    "Thực hành",
+    "Gam, mi-li-lít",
+    "Hãy nhớ lại mối quan hệ giữa ki-lô-gam với gam, và giữa lít với mi-li-lít.",
+    [
+      { question: "3kg bằng bao nhiêu gam?", options: ["30g", "300g", "3000g", "30 000g"], correctIndex: 2, explanation: "1kg = 1000g nên 3kg = 3000g." },
+      { question: "2 lít bằng bao nhiêu mi-li-lít?", options: ["20ml", "200ml", "2000ml", "20 000ml"], correctIndex: 2, explanation: "1 lít = 1000ml nên 2 lít = 2000ml." },
+      { question: "Đơn vị nào phù hợp để đo lượng nước trong một cốc nhỏ?", options: ["Ki-lô-gam", "Gam", "Mi-li-lít", "Mét"], correctIndex: 2, explanation: "Mi-li-lít phù hợp để đo lượng nước ít trong cốc nhỏ." },
+      { question: "500g + 300g = ?", options: ["700g", "800g", "80g", "8000g"], correctIndex: 1, explanation: "500g + 300g = 800g." },
+    ]
+  ),
+
+  "toan:3:luyen-tap-bai-toan-lien-quan-den-rut-ve-don-vi": practiceContent(
+    "Luyện tập",
+    "Bài toán liên quan đến rút về đơn vị",
+    "Hãy nhớ lại hai bước giải bài toán rút về đơn vị: tìm giá trị 1 đơn vị rồi tính tiếp.",
+    [
+      { question: "6 quyển vở giá 30 000 đồng. Hỏi 4 quyển vở giá bao nhiêu?", options: ["15 000 đồng", "18 000 đồng", "20 000 đồng", "24 000 đồng"], correctIndex: 2, explanation: "Giá 1 quyển = 30 000 : 6 = 5000 đồng; giá 4 quyển = 5000 × 4 = 20 000 đồng." },
+      { question: "Ở bước thứ hai của bài toán rút về đơn vị, ta thường dùng phép tính gì?", options: ["Phép cộng", "Phép trừ", "Phép nhân", "Không cần tính"], correctIndex: 2, explanation: "Sau khi tìm giá trị 1 đơn vị, ta nhân để tính giá trị cần tìm." },
+      { question: "9 hộp bút có tổng cộng 45 chiếc bút. Hỏi 4 hộp có bao nhiêu chiếc bút?", options: ["16", "18", "20", "22"], correctIndex: 2, explanation: "Mỗi hộp có 45:9=5 chiếc; 4 hộp có 5×4=20 chiếc." },
+      { question: "Vì sao phương pháp này được gọi là 'rút về đơn vị'?", options: ["Vì luôn cộng số lớn nhất", "Vì tìm giá trị của 1 đơn vị trước", "Vì không cần phép tính nào", "Vì chỉ dùng cho số lẻ"], correctIndex: 1, explanation: "'Rút về đơn vị' nghĩa là tìm giá trị của 1 đơn vị trước khi tính tiếp." },
+    ]
+  ),
+
+  "toan:3:van-dung-nhan-chia-so-co-bon-nam-chu-so-cho-so-co-mot-chu-so": practiceContent(
+    "Vận dụng",
+    "Nhân, chia số có bốn, năm chữ số cho số có một chữ số",
+    "Hãy nhớ lại cách đặt tính nhân, chia số lớn cho số có một chữ số.",
+    [
+      { question: "3125 × 2 = ?", options: ["6150", "6250", "6350", "6450"], correctIndex: 1, explanation: "3125 × 2 = 6250." },
+      { question: "6996 : 3 = ?", options: ["2232", "2322", "2332", "2432"], correctIndex: 2, explanation: "6996 : 3 = 2332." },
+      { question: "1224 × 4 = ?", options: ["4886", "4896", "4906", "4796"], correctIndex: 1, explanation: "1224 × 4 = 4896." },
+      { question: "Một kho có 8435kg gạo, chia đều lên 5 xe. Mỗi xe chở bao nhiêu ki-lô-gam?", options: ["1657kg", "1677kg", "1687kg", "1697kg"], correctIndex: 2, explanation: "8435 : 5 = 1687kg." },
+    ]
+  ),
+
+  "toan:3:tro-choi-on-tap-lam-quen-voi-du-lieu-bang-so-lieu": practiceContent(
+    "Trò chơi ôn tập",
+    "Làm quen với dữ liệu, bảng số liệu",
+    "Hãy nhớ lại cách đọc và nhận xét thông tin từ bảng số liệu.",
+    [
+      { question: "Trong bảng số liệu, thông tin thường được trình bày theo dạng nào?", options: ["Đoạn văn dài", "Hàng và cột", "Chỉ có hình vẽ", "Chỉ có số duy nhất"], correctIndex: 1, explanation: "Bảng số liệu trình bày thông tin theo hàng và cột." },
+      { question: "Để tìm số lớn nhất trong bảng số liệu, em cần làm gì?", options: ["Đoán ngẫu nhiên", "So sánh các số liệu trong bảng", "Không cần làm gì", "Chỉ nhìn dòng đầu tiên"], correctIndex: 1, explanation: "Cần so sánh các số liệu để tìm ra số lớn nhất." },
+      { question: "Bảng thống kê số học sinh mỗi lớp giúp ích điều gì?", options: ["Không giúp ích gì", "Dễ so sánh sĩ số giữa các lớp", "Làm bài khó hơn", "Chỉ để trang trí"], correctIndex: 1, explanation: "Bảng thống kê giúp dễ dàng so sánh số liệu giữa các lớp." },
+      { question: "Khi đọc một bảng số liệu, điều đầu tiên em nên xem là gì?", options: ["Số liệu cuối bảng", "Tiêu đề bảng", "Màu sắc bảng", "Không cần xem gì"], correctIndex: 1, explanation: "Xem tiêu đề bảng giúp em biết bảng đang nói về nội dung gì." },
+    ]
+  ),
+
+  "toan:3:thu-thach-nho-on-tap-cuoi-nam-hoc": practiceContent(
+    "Thử thách nhỏ",
+    "Ôn tập cuối năm học",
+    "Hãy nhớ lại các kiến thức Toán lớp 3 trọng tâm đã học trong năm.",
+    [
+      { question: "Phép tính nào dùng để tìm số lượng mỗi phần khi chia đều?", options: ["Phép cộng", "Phép trừ", "Phép nhân", "Phép chia"], correctIndex: 3, explanation: "Phép chia dùng để tìm số lượng mỗi phần khi chia đều." },
+      { question: "Đơn vị nào dùng để đo diện tích mà em đã học?", options: ["cm", "cm²", "kg", "lít"], correctIndex: 1, explanation: "cm² (xăng-ti-mét vuông) là đơn vị đo diện tích." },
+      { question: "Số có 5 chữ số lớn nhất là số nào?", options: ["9999", "90000", "99999", "100000"], correctIndex: 2, explanation: "99999 là số có 5 chữ số lớn nhất." },
+      { question: "Công thức tính chu vi hình vuông là gì?", options: ["cạnh × 4", "cạnh × cạnh", "cạnh + 4", "cạnh × 2"], correctIndex: 0, explanation: "Chu vi hình vuông = cạnh × 4." },
+    ]
+  ),
+
+  // ─────────────── TIẾNG VIỆT — LỚP 3 — bài thực hành ───────────────
+  "tieng-viet:3:thuc-hanh-tu-loai-danh-tu-dong-tu-tinh-tu": practiceContent(
+    "Thực hành",
+    "Từ loại: danh từ, động từ, tính từ",
+    "Hãy nhớ lại cách phân biệt danh từ, động từ, tính từ.",
+    [
+      { question: "Từ nào là danh từ trong câu 'Chú mèo nhỏ đang chạy nhanh'?", options: ["chạy", "nhanh", "mèo", "đang"], correctIndex: 2, explanation: "'Mèo' chỉ sự vật, là danh từ." },
+      { question: "Từ nào là động từ trong câu 'Bạn Lan hát rất hay'?", options: ["Lan", "hát", "hay", "rất"], correctIndex: 1, explanation: "'Hát' chỉ hoạt động, là động từ." },
+      { question: "Từ nào là tính từ trong câu 'Bầu trời hôm nay trong xanh'?", options: ["Bầu trời", "hôm nay", "trong xanh", "Không có"], correctIndex: 2, explanation: "'Trong xanh' chỉ đặc điểm, là tính từ." },
+      { question: "Từ 'quyển sách' thuộc loại từ nào?", options: ["Danh từ", "Động từ", "Tính từ", "Không thuộc loại nào"], correctIndex: 0, explanation: "'Quyển sách' chỉ sự vật, là danh từ." },
+    ]
+  ),
+
+  "tieng-viet:3:luyen-tap-cau-ke-cau-hoi-cau-cam": practiceContent(
+    "Luyện tập",
+    "Câu kể, câu hỏi, câu cảm",
+    "Hãy nhớ lại đặc điểm và dấu câu của từng kiểu câu.",
+    [
+      { question: "Câu 'Hôm nay là thứ Hai.' là kiểu câu gì?", options: ["Câu kể", "Câu hỏi", "Câu cảm", "Câu khiến"], correctIndex: 0, explanation: "Câu kể dùng để nêu sự việc, kết thúc bằng dấu chấm." },
+      { question: "Câu nào là câu hỏi?", options: ["Trời đẹp quá!", "Bạn tên là gì?", "Em đi học.", "Hãy giữ trật tự."], correctIndex: 1, explanation: "Câu hỏi kết thúc bằng dấu chấm hỏi, dùng để hỏi." },
+      { question: "Câu 'Ôi, con mèo dễ thương quá!' là kiểu câu gì?", options: ["Câu kể", "Câu hỏi", "Câu cảm", "Câu khiến"], correctIndex: 2, explanation: "Câu bộc lộ cảm xúc, kết thúc bằng dấu chấm than, là câu cảm." },
+      { question: "Câu hỏi thường kết thúc bằng dấu gì?", options: ["Dấu chấm", "Dấu chấm hỏi", "Dấu chấm than", "Dấu phẩy"], correctIndex: 1, explanation: "Câu hỏi kết thúc bằng dấu chấm hỏi." },
+    ]
+  ),
+
+  "tieng-viet:3:van-dung-doc-hieu-truyen-thieu-nhi": practiceContent(
+    "Vận dụng",
+    "Đọc hiểu truyện thiếu nhi",
+    "Hãy nhớ lại cách xác định nhân vật, sự việc chính trong truyện.",
+    [
+      { question: "Khi đọc một câu chuyện, 'nhân vật' là gì?", options: ["Nơi câu chuyện diễn ra", "Người hoặc con vật trong truyện", "Tên của truyện", "Số trang của truyện"], correctIndex: 1, explanation: "Nhân vật là người hoặc con vật xuất hiện, hành động trong truyện." },
+      { question: "Phần nào của câu chuyện thường giới thiệu nhân vật và hoàn cảnh?", options: ["Mở đầu", "Diễn biến", "Kết thúc", "Không có phần nào"], correctIndex: 0, explanation: "Phần mở đầu thường giới thiệu nhân vật và hoàn cảnh câu chuyện." },
+      { question: "Bài học rút ra từ câu chuyện thường được gọi là gì?", options: ["Nhân vật chính", "Ý nghĩa câu chuyện", "Tên tác giả", "Số lượng trang"], correctIndex: 1, explanation: "Bài học rút ra được gọi là ý nghĩa của câu chuyện." },
+      { question: "Để hiểu rõ câu chuyện, em nên làm gì sau khi đọc xong?", options: ["Quên ngay nội dung", "Suy nghĩ về nhân vật, sự việc và ý nghĩa", "Không cần suy nghĩ gì thêm", "Chỉ nhớ tên truyện"], correctIndex: 1, explanation: "Suy nghĩ về nội dung giúp em hiểu sâu và nhớ lâu câu chuyện." },
+    ]
+  ),
+
+  "tieng-viet:3:tro-choi-on-tap-doc-hieu-tho-thieu-nhi": practiceContent(
+    "Trò chơi ôn tập",
+    "Đọc hiểu thơ thiếu nhi",
+    "Hãy nhớ lại khái niệm vần thơ và cách đọc diễn cảm.",
+    [
+      { question: "Các tiếng cuối dòng thơ có âm giống nhau được gọi là gì?", options: ["Nhịp thơ", "Vần thơ", "Đoạn thơ", "Câu thơ"], correctIndex: 1, explanation: "Các tiếng có âm giống nhau ở cuối dòng gọi là vần thơ." },
+      { question: "Khi đọc diễn cảm một bài thơ, em cần chú ý điều gì?", options: ["Đọc thật nhanh", "Ngắt nghỉ đúng nhịp, có cảm xúc", "Không cần lên giọng", "Đọc thật nhỏ"], correctIndex: 1, explanation: "Đọc diễn cảm cần ngắt nghỉ đúng nhịp và thể hiện cảm xúc." },
+      { question: "Vì sao thơ thường dễ thuộc hơn văn xuôi?", options: ["Vì thơ dài hơn", "Vì thơ có vần, nhịp điệu", "Vì thơ không có nghĩa", "Không có lý do gì"], correctIndex: 1, explanation: "Vần và nhịp điệu giúp thơ dễ đọc, dễ thuộc hơn." },
+      { question: "Một bài thơ thường được chia thành các phần nhỏ gọi là gì?", options: ["Đoạn văn", "Khổ thơ", "Chương", "Mục"], correctIndex: 1, explanation: "Các phần nhỏ trong bài thơ được gọi là khổ thơ." },
+    ]
+  ),
+
+  "tieng-viet:3:thu-thach-nho-viet-thu-cho-nguoi-than": practiceContent(
+    "Thử thách nhỏ",
+    "Viết thư cho người thân",
+    "Hãy nhớ lại thể thức của một bức thư.",
+    [
+      { question: "Phần đầu bức thư thường ghi những gì?", options: ["Chữ ký người viết", "Địa điểm, ngày tháng và lời chào", "Chỉ có lời chào cuối", "Không cần ghi gì"], correctIndex: 1, explanation: "Đầu thư ghi địa điểm, ngày tháng viết thư và lời chào." },
+      { question: "Phần nào thường nằm ở cuối bức thư?", options: ["Địa điểm, ngày tháng", "Lời chào cuối và chữ ký", "Lời chào đầu thư", "Không có phần cuối"], correctIndex: 1, explanation: "Cuối thư thường có lời chào tạm biệt và chữ ký người viết." },
+      { question: "Khi viết thư cho ông bà, giọng văn nên như thế nào?", options: ["Kính trọng, chân thành", "Trang trọng như văn bản", "Không cần lễ phép", "Ngắn gọn không cần chào hỏi"], correctIndex: 0, explanation: "Viết thư cho ông bà cần thể hiện sự kính trọng, chân thành." },
+      { question: "Nội dung chính của một bức thư thường nói về điều gì?", options: ["Chỉ có lời chào", "Tình hình học tập, sức khoẻ, lời hỏi thăm", "Không cần nội dung gì", "Chỉ có chữ ký"], correctIndex: 1, explanation: "Nội dung chính thường kể về tình hình bản thân và hỏi thăm người nhận." },
+    ]
+  ),
+
+  "tieng-viet:3:thuc-hanh-ta-do-vat-quen-thuoc": practiceContent(
+    "Thực hành",
+    "Tả đồ vật quen thuộc",
+    "Hãy nhớ lại cách quan sát và miêu tả một đồ vật.",
+    [
+      { question: "Trước khi tả một đồ vật, em cần làm gì?", options: ["Viết ngay không cần quan sát", "Quan sát kỹ hình dáng, màu sắc, công dụng", "Hỏi bạn bè viết hộ", "Không cần chuẩn bị gì"], correctIndex: 1, explanation: "Quan sát kỹ giúp bài văn miêu tả chính xác, sinh động." },
+      { question: "Từ nào là từ ngữ gợi tả phù hợp khi tả một chiếc bàn học?", options: ["Chắc chắn", "Vui vẻ", "Nhanh nhẹn", "Ồn ào"], correctIndex: 0, explanation: "'Chắc chắn' phù hợp để miêu tả đặc điểm của một chiếc bàn." },
+      { question: "Đoạn văn tả đồ vật thường có phần nào ở cuối?", options: ["Công thức toán học", "Tình cảm của em với đồ vật", "Không cần phần kết", "Tên một bài hát"], correctIndex: 1, explanation: "Phần cuối thường nêu tình cảm, cảm nghĩ của em về đồ vật." },
+      { question: "Khi tả chiếc cặp sách, em nên miêu tả những gì?", options: ["Chỉ tên đồ vật", "Hình dáng, màu sắc, các ngăn và công dụng", "Không cần miêu tả chi tiết", "Chỉ nói giá tiền"], correctIndex: 1, explanation: "Miêu tả đầy đủ hình dáng, màu sắc, công dụng giúp bài văn sinh động." },
+    ]
+  ),
+
+  "tieng-viet:3:luyen-tap-so-sanh-nhan-hoa-trong-cau-van": practiceContent(
+    "Luyện tập",
+    "So sánh, nhân hoá trong câu văn",
+    "Hãy nhớ lại đặc điểm của biện pháp so sánh và nhân hoá.",
+    [
+      { question: "Câu nào sử dụng biện pháp so sánh?", options: ["Ông mặt trời cười tươi.", "Nước hồ trong như gương.", "Chú chim đang hót.", "Em đi học."], correctIndex: 1, explanation: "Từ 'như' dùng để so sánh nước hồ với gương." },
+      { question: "Câu nào sử dụng biện pháp nhân hoá?", options: ["Hoa hồng đẹp như tranh vẽ.", "Hàng cây đang thì thầm trò chuyện.", "Con đường dài 2km.", "Quyển vở có 50 trang."], correctIndex: 1, explanation: "'Hàng cây thì thầm trò chuyện' gán hành động người cho cây, là nhân hoá." },
+      { question: "Từ nào thường xuất hiện trong câu so sánh?", options: ["Như", "Đang", "Rất", "Và"], correctIndex: 0, explanation: "Từ 'như' thường dùng để tạo phép so sánh." },
+      { question: "Biện pháp so sánh, nhân hoá thường được dùng trong loại văn bản nào?", options: ["Văn miêu tả, văn kể chuyện", "Chỉ trong toán học", "Chỉ trong danh sách", "Không dùng ở đâu cả"], correctIndex: 0, explanation: "So sánh, nhân hoá thường dùng trong văn miêu tả, kể chuyện để tăng sức gợi hình." },
+    ]
+  ),
+
+  "tieng-viet:3:van-dung-cau-khien": practiceContent(
+    "Vận dụng",
+    "Câu khiến",
+    "Hãy nhớ lại dấu hiệu nhận biết và cách đặt câu khiến.",
+    [
+      { question: "Câu nào là câu khiến?", options: ["Trời hôm nay đẹp quá!", "Em hãy dọn dẹp bàn học.", "Bạn đã ăn cơm chưa?", "Hôm nay là thứ Ba."], correctIndex: 1, explanation: "'Em hãy dọn dẹp bàn học' nêu yêu cầu, là câu khiến." },
+      { question: "Từ nào thường KHÔNG xuất hiện trong câu khiến?", options: ["Hãy", "Đừng", "Chớ", "Ôi"], correctIndex: 3, explanation: "'Ôi' thường xuất hiện trong câu cảm, không phải câu khiến." },
+      { question: "Để câu khiến lịch sự hơn khi nhờ vả, em nên thêm từ nào?", options: ["Ngay lập tức", "Làm ơn", "Bắt buộc", "Cấm"], correctIndex: 1, explanation: "'Làm ơn' giúp câu khiến trở nên lịch sự, nhã nhặn." },
+      { question: "Câu khiến dùng để làm gì?", options: ["Kể một sự việc", "Hỏi thông tin", "Nêu yêu cầu, đề nghị", "Bộc lộ cảm xúc"], correctIndex: 2, explanation: "Câu khiến dùng để nêu yêu cầu, đề nghị, mong muốn." },
+    ]
+  ),
+
+  "tieng-viet:3:tro-choi-on-tap-doc-hieu-van-ban-thong-tin-don-gian": practiceContent(
+    "Trò chơi ôn tập",
+    "Đọc hiểu văn bản thông tin đơn giản",
+    "Hãy nhớ lại cách tìm thông tin chính trong một văn bản thông tin.",
+    [
+      { question: "Văn bản thông tin khác với truyện kể ở điểm nào?", options: ["Cung cấp kiến thức, sự việc có thật", "Luôn có nhân vật tưởng tượng", "Không có tiêu đề", "Không có sự khác biệt"], correctIndex: 0, explanation: "Văn bản thông tin cung cấp kiến thức, sự việc thực tế." },
+      { question: "Ví dụ nào là một văn bản thông tin?", options: ["Truyện cổ tích", "Thông báo lịch nghỉ lễ", "Bài thơ", "Câu chuyện tưởng tượng"], correctIndex: 1, explanation: "Thông báo lịch nghỉ lễ cung cấp thông tin thực tế." },
+      { question: "Để tìm thông tin chính, em nên chú ý điều gì?", options: ["Chỉ đọc câu cuối", "Đọc tiêu đề và câu quan trọng đầu đoạn", "Bỏ qua tiêu đề", "Đếm số từ trong bài"], correctIndex: 1, explanation: "Tiêu đề và câu đầu đoạn thường chứa thông tin chính." },
+      { question: "Kỹ năng đọc hiểu văn bản thông tin giúp ích gì cho em?", options: ["Không có ích gì", "Đọc hiểu biển báo, hướng dẫn trong đời sống", "Chỉ dùng trong bài kiểm tra", "Không liên quan đến cuộc sống"], correctIndex: 1, explanation: "Kỹ năng này giúp em đọc hiểu thông tin thực tế trong đời sống hàng ngày." },
+    ]
+  ),
+
+  "tieng-viet:3:thu-thach-nho-ta-cay-coi": practiceContent(
+    "Thử thách nhỏ",
+    "Tả cây cối",
+    "Hãy nhớ lại cách quan sát và miêu tả một loài cây theo trình tự hợp lý.",
+    [
+      { question: "Khi tả một cây, em nên quan sát những bộ phận nào?", options: ["Chỉ lá cây", "Gốc, thân, cành, lá, hoa, quả", "Chỉ hoa", "Không cần quan sát gì"], correctIndex: 1, explanation: "Quan sát đầy đủ các bộ phận giúp bài văn chi tiết, sinh động." },
+      { question: "Cây nào thường gắn với hình ảnh mùa hè, sân trường?", options: ["Cây phượng", "Cây thông", "Cây dừa", "Cây bàng"], correctIndex: 0, explanation: "Cây phượng nở hoa đỏ vào mùa hè, gắn liền với kỷ niệm học trò." },
+      { question: "Bài văn tả cây hay nên có thêm yếu tố nào?", options: ["Công thức toán học", "Tình cảm, kỷ niệm của người viết", "Số liệu thống kê", "Không cần thêm gì"], correctIndex: 1, explanation: "Thể hiện tình cảm giúp bài văn chân thực, cảm động hơn." },
+      { question: "Em có thể tả cây theo trình tự nào sau đây?", options: ["Chỉ tả ngọn cây", "Từ gốc đến ngọn hoặc theo mùa", "Không cần trình tự", "Chỉ tả một chi tiết bất kỳ"], correctIndex: 1, explanation: "Tả theo trình tự từ gốc đến ngọn hoặc theo mùa giúp bài văn mạch lạc." },
+    ]
+  ),
+
+  "tieng-viet:3:thuc-hanh-ta-con-vat": practiceContent(
+    "Thực hành",
+    "Tả con vật",
+    "Hãy nhớ lại cách quan sát hình dáng và hoạt động của một con vật.",
+    [
+      { question: "Khi tả một con vật, em nên chú ý điều gì đầu tiên?", options: ["Chép văn mẫu", "Quan sát kỹ đặc điểm và hoạt động", "Chỉ ghi tên con vật", "Không cần quan sát"], correctIndex: 1, explanation: "Quan sát kỹ giúp em có chi tiết chính xác để miêu tả." },
+      { question: "Câu văn nào miêu tả hoạt động của con vật?", options: ["Chú chó có bộ lông vàng óng.", "Chú chó đang vẫy đuôi mừng rỡ.", "Chú chó nặng 5kg.", "Chú chó tên là Lu."], correctIndex: 1, explanation: "'Vẫy đuôi mừng rỡ' là hoạt động của con vật." },
+      { question: "Nội dung nào KHÔNG nên có trong bài văn tả con vật?", options: ["Hình dáng con vật", "Hoạt động, thói quen", "Công thức tính diện tích", "Tình cảm với con vật"], correctIndex: 2, explanation: "Công thức tính diện tích thuộc môn Toán, không liên quan." },
+      { question: "Để bài văn tả con vật sinh động hơn, em nên làm gì?", options: ["Kể thêm một kỷ niệm với con vật", "Chỉ liệt kê đặc điểm khô khan", "Không cần cảm xúc gì", "Viết càng ngắn càng tốt"], correctIndex: 0, explanation: "Kể một kỷ niệm giúp bài văn thêm sinh động, gần gũi." },
+    ]
+  ),
+
+  "tieng-viet:3:luyen-tap-ke-lai-mot-cau-chuyen-da-doc-da-nghe": practiceContent(
+    "Luyện tập",
+    "Kể lại một câu chuyện đã đọc, đã nghe",
+    "Hãy nhớ lại trình tự kể chuyện: mở đầu, diễn biến, kết thúc.",
+    [
+      { question: "Khi kể lại một câu chuyện, em nên kể theo trình tự nào?", options: ["Kể lộn xộn", "Mở đầu, diễn biến, kết thúc", "Chỉ kể phần kết", "Chỉ kể tên nhân vật"], correctIndex: 1, explanation: "Kể theo trình tự giúp người nghe dễ theo dõi." },
+      { question: "Khi kể chuyện, em nên dùng lời văn như thế nào?", options: ["Chép nguyên văn trong sách", "Lời văn của mình, tự nhiên", "Không cần rõ ràng", "Chỉ nói một câu"], correctIndex: 1, explanation: "Kể bằng lời văn của mình thể hiện cách hiểu của em." },
+      { question: "Điều gì giúp câu chuyện kể lại hấp dẫn hơn?", options: ["Giọng đều đều, không cảm xúc", "Thêm cảm xúc, giọng điệu phù hợp", "Kể càng nhanh càng tốt", "Bỏ bớt chi tiết chính"], correctIndex: 1, explanation: "Thêm cảm xúc giúp câu chuyện sinh động, hấp dẫn hơn." },
+      { question: "Phần 'diễn biến' trong câu chuyện là gì?", options: ["Phần giới thiệu nhân vật", "Các sự việc chính xảy ra trong truyện", "Phần kết thúc truyện", "Tên của câu chuyện"], correctIndex: 1, explanation: "Diễn biến là các sự việc chính xảy ra trong câu chuyện." },
+    ]
+  ),
+
+  "tieng-viet:3:van-dung-viet-doan-van-neu-tinh-cam-cam-xuc": practiceContent(
+    "Vận dụng",
+    "Viết đoạn văn nêu tình cảm, cảm xúc",
+    "Hãy nhớ lại cách viết đoạn văn nêu tình cảm chân thật, cụ thể.",
+    [
+      { question: "Khi viết đoạn văn nêu tình cảm, em nên viết như thế nào?", options: ["Chép văn mẫu", "Viết chân thật theo cảm nhận của mình", "Viết chung chung không cụ thể", "Không cần nêu lý do"], correctIndex: 1, explanation: "Viết chân thật giúp đoạn văn cảm động, thuyết phục hơn." },
+      { question: "Đoạn văn nêu tình cảm nên có phần nào ở cuối?", options: ["Một câu hỏi bất kỳ", "Câu khẳng định lại tình cảm", "Một phép tính", "Không cần câu kết"], correctIndex: 1, explanation: "Câu kết khẳng định lại tình cảm giúp đoạn văn trọn vẹn." },
+      { question: "Cách nào giúp đoạn văn nêu tình cảm sinh động hơn?", options: ["Kể một kỷ niệm cụ thể", "Chỉ nói chung chung", "Không cần ví dụ", "Chỉ liệt kê tên đối tượng"], correctIndex: 0, explanation: "Kể một kỷ niệm cụ thể giúp minh hoạ rõ ràng cho tình cảm." },
+      { question: "Đoạn văn nêu tình cảm có thể viết về đối tượng nào?", options: ["Chỉ về người thân", "Người thân, bạn bè, đồ vật, cảnh vật quen thuộc", "Chỉ về đồ vật", "Không có đối tượng cụ thể"], correctIndex: 1, explanation: "Có thể viết về nhiều đối tượng gần gũi, gắn bó với em." },
+    ]
+  ),
+
+  "tieng-viet:3:tro-choi-on-tap-mo-rong-von-tu-theo-chu-diem-que-huong": practiceContent(
+    "Trò chơi ôn tập",
+    "Mở rộng vốn từ theo chủ điểm quê hương",
+    "Hãy nhớ lại các từ ngữ về quê hương, đất nước đã học.",
+    [
+      { question: "Từ nào sau đây thuộc chủ điểm quê hương?", options: ["Máy tính", "Cánh đồng", "Điện thoại", "Ô tô"], correctIndex: 1, explanation: "'Cánh đồng' là hình ảnh quen thuộc của làng quê." },
+      { question: "Từ nào thể hiện tình cảm với đất nước?", options: ["Non sông", "Bàn ghế", "Con số", "Đồ chơi"], correctIndex: 0, explanation: "'Non sông' là từ thể hiện tình cảm với đất nước." },
+      { question: "Hình ảnh nào KHÔNG gắn với làng quê Việt Nam truyền thống?", options: ["Luỹ tre", "Dòng sông", "Toà nhà chọc trời", "Cánh đồng lúa"], correctIndex: 2, explanation: "Toà nhà chọc trời là hình ảnh đô thị hiện đại, không phải làng quê truyền thống." },
+      { question: "Từ 'Tổ quốc' có nghĩa gần với từ nào sau đây?", options: ["Đất nước", "Cái bàn", "Con vật", "Đồ chơi"], correctIndex: 0, explanation: "'Tổ quốc' có nghĩa gần với 'đất nước'." },
+    ]
+  ),
+
+  "tieng-viet:3:thu-thach-nho-on-tap-cuoi-nam-hoc": practiceContent(
+    "Thử thách nhỏ",
+    "Ôn tập cuối năm học",
+    "Hãy nhớ lại các kiến thức Tiếng Việt lớp 3 trọng tâm đã học trong năm.",
+    [
+      { question: "Loại từ nào chỉ hoạt động, trạng thái của sự vật?", options: ["Danh từ", "Động từ", "Tính từ", "Số từ"], correctIndex: 1, explanation: "Động từ là từ chỉ hoạt động, trạng thái." },
+      { question: "Kiểu câu nào dùng để bộc lộ cảm xúc?", options: ["Câu kể", "Câu hỏi", "Câu cảm", "Câu khiến"], correctIndex: 2, explanation: "Câu cảm dùng để bộc lộ cảm xúc." },
+      { question: "Biện pháp nào gán đặc điểm, hành động của người cho sự vật?", options: ["So sánh", "Nhân hoá", "Điệp từ", "Không có biện pháp nào"], correctIndex: 1, explanation: "Nhân hoá là gán đặc điểm, hành động của người cho sự vật." },
+      { question: "Dạng bài tập làm văn nào em đã học trong năm lớp 3?", options: ["Tả đồ vật, tả con vật, tả cây cối", "Viết bài văn nghị luận", "Viết báo cáo khoa học", "Không học tập làm văn"], correctIndex: 0, explanation: "Em đã học tả đồ vật, tả con vật, tả cây cối trong chương trình lớp 3." },
+    ]
+  ),
+
+  // ─────────────── TIẾNG ANH — LỚP 3 — bài thực hành ───────────────
+  "tieng-anh:3:thuc-hanh-hello-chao-hoi-va-gioi-thieu": practiceContent(
+    "Thực hành",
+    "Hello - Chào hỏi và giới thiệu",
+    "Hãy nhớ lại các mẫu câu chào hỏi và giới thiệu bản thân.",
+    [
+      { question: "Đáp lại câu 'Hello! What is your name?', em nên nói gì?", options: ["Goodbye!", "My name is Nam.", "Thank you.", "Sorry."], correctIndex: 1, explanation: "'My name is Nam.' là câu trả lời phù hợp cho câu hỏi tên." },
+      { question: "'Nice to meet you!' có nghĩa là gì?", options: ["Tạm biệt bạn!", "Rất vui được gặp bạn!", "Xin lỗi bạn!", "Cảm ơn bạn!"], correctIndex: 1, explanation: "'Nice to meet you!' nghĩa là 'Rất vui được gặp bạn!'." },
+      { question: "Câu nào dùng để chào buổi sáng?", options: ["Good night!", "Good morning!", "Goodbye!", "See you!"], correctIndex: 1, explanation: "'Good morning!' nghĩa là 'Chào buổi sáng!'." },
+      { question: "'How are you?' dùng để hỏi điều gì?", options: ["Hỏi tên", "Hỏi tuổi", "Hỏi tình hình sức khoẻ", "Hỏi địa chỉ"], correctIndex: 2, explanation: "'How are you?' dùng để hỏi thăm tình hình, sức khoẻ của người khác." },
+    ]
+  ),
+
+  "tieng-anh:3:luyen-tap-my-school": practiceContent(
+    "Luyện tập",
+    "My School",
+    "Hãy nhớ lại tên các môn học bằng tiếng Anh.",
+    [
+      { question: "'Âm nhạc' trong tiếng Anh là gì?", options: ["Art", "Music", "Math", "PE"], correctIndex: 1, explanation: "'Music' nghĩa là môn Âm nhạc." },
+      { question: "'Mỹ thuật' trong tiếng Anh là gì?", options: ["Art", "Music", "English", "Math"], correctIndex: 0, explanation: "'Art' nghĩa là môn Mỹ thuật." },
+      { question: "Câu 'I study English.' nghĩa là gì?", options: ["Em học Toán", "Em học Tiếng Anh", "Em học Âm nhạc", "Em học Thể dục"], correctIndex: 1, explanation: "'I study English.' nghĩa là 'Em học Tiếng Anh.'." },
+      { question: "Câu nào dùng để hỏi môn học yêu thích?", options: ["What is your name?", "What is your favourite subject?", "How old are you?", "Where do you live?"], correctIndex: 1, explanation: "Câu này dùng để hỏi môn học yêu thích của người khác." },
+    ]
+  ),
+
+  "tieng-anh:3:van-dung-this-is-my-house": practiceContent(
+    "Vận dụng",
+    "This Is My House",
+    "Hãy nhớ lại tên các phòng trong nhà và cấu trúc 'There is/There are'.",
+    [
+      { question: "'Phòng ngủ' trong tiếng Anh là gì?", options: ["Kitchen", "Bedroom", "Bathroom", "Living room"], correctIndex: 1, explanation: "'Bedroom' nghĩa là phòng ngủ." },
+      { question: "Câu nào đúng ngữ pháp?", options: ["There is a sofa.", "There are a sofa.", "There am a sofa.", "There be a sofa."], correctIndex: 0, explanation: "'Sofa' là số ít nên dùng 'There is'." },
+      { question: "'Phòng tắm' trong tiếng Anh là gì?", options: ["Bedroom", "Kitchen", "Bathroom", "Garden"], correctIndex: 2, explanation: "'Bathroom' nghĩa là phòng tắm." },
+      { question: "Câu 'My house has two bedrooms.' nghĩa là gì?", options: ["Nhà em có hai phòng ngủ", "Nhà em có hai phòng bếp", "Nhà em không có phòng ngủ", "Nhà em có hai tầng"], correctIndex: 0, explanation: "Câu này nghĩa là 'Nhà em có hai phòng ngủ.'." },
+    ]
+  ),
+
+  "tieng-anh:3:tro-choi-on-tap-in-my-room": practiceContent(
+    "Trò chơi ôn tập",
+    "In My Room",
+    "Hãy nhớ lại từ vựng đồ đạc trong phòng và giới từ chỉ vị trí.",
+    [
+      { question: "'Bàn học' trong tiếng Anh là gì?", options: ["Bed", "Desk", "Wardrobe", "Lamp"], correctIndex: 1, explanation: "'Desk' nghĩa là bàn học." },
+      { question: "Từ nào nghĩa là 'ở trên'?", options: ["On", "Under", "Next to", "In front of"], correctIndex: 0, explanation: "'On' nghĩa là 'ở trên'." },
+      { question: "Câu 'The book is on the desk.' nghĩa là gì?", options: ["Quyển sách ở dưới bàn", "Quyển sách ở trên bàn", "Quyển sách trong tủ", "Quyển sách bên cạnh bàn"], correctIndex: 1, explanation: "'On' nghĩa là 'ở trên', nên câu này nghĩa là quyển sách ở trên bàn." },
+      { question: "'Cái đèn' trong tiếng Anh là gì?", options: ["Lamp", "Chair", "Bed", "Wardrobe"], correctIndex: 0, explanation: "'Lamp' nghĩa là cái đèn." },
+    ]
+  ),
+
+  "tieng-anh:3:thu-thach-nho-my-hobbies": practiceContent(
+    "Thử thách nhỏ",
+    "My Hobbies",
+    "Hãy nhớ lại cách nói về sở thích bằng tiếng Anh.",
+    [
+      { question: "'Bơi lội' trong tiếng Anh là gì?", options: ["Reading", "Swimming", "Singing", "Drawing"], correctIndex: 1, explanation: "'Swimming' nghĩa là bơi lội." },
+      { question: "Câu nào đúng ngữ pháp khi nói về sở thích?", options: ["I like read.", "I like reading.", "I likes reading.", "I like to reading."], correctIndex: 1, explanation: "Sau 'like' thường dùng động từ thêm '-ing': 'reading'." },
+      { question: "'What do you like doing?' dùng để hỏi điều gì?", options: ["Tên", "Tuổi", "Sở thích", "Gia đình"], correctIndex: 2, explanation: "Câu này dùng để hỏi về sở thích của người khác." },
+      { question: "'Vẽ tranh' trong tiếng Anh là gì?", options: ["Singing", "Drawing", "Swimming", "Reading"], correctIndex: 1, explanation: "'Drawing' nghĩa là vẽ tranh." },
+    ]
+  ),
+
+  "tieng-anh:3:thuc-hanh-weather-and-seasons": practiceContent(
+    "Thực hành",
+    "Weather and Seasons",
+    "Hãy nhớ lại từ vựng về thời tiết và bốn mùa trong năm.",
+    [
+      { question: "'Trời nắng' trong tiếng Anh là gì?", options: ["Rainy", "Sunny", "Windy", "Cloudy"], correctIndex: 1, explanation: "'Sunny' nghĩa là trời nắng." },
+      { question: "Mùa nào có nhiều hoa nở nhất?", options: ["Spring", "Summer", "Autumn", "Winter"], correctIndex: 0, explanation: "'Spring' (mùa xuân) là mùa hoa nở nhiều nhất." },
+      { question: "'Có gió' trong tiếng Anh là gì?", options: ["Sunny", "Rainy", "Windy", "Hot"], correctIndex: 2, explanation: "'Windy' nghĩa là có gió." },
+      { question: "Câu 'It is cold in winter.' nghĩa là gì?", options: ["Trời nóng vào mùa đông", "Trời lạnh vào mùa đông", "Trời mưa vào mùa đông", "Trời nắng vào mùa đông"], correctIndex: 1, explanation: "'Cold' nghĩa là lạnh." },
+    ]
+  ),
+
+  "tieng-anh:3:luyen-tap-my-friends": practiceContent(
+    "Luyện tập",
+    "My Friends",
+    "Hãy nhớ lại cách giới thiệu và miêu tả bạn bè.",
+    [
+      { question: "'Tốt bụng' trong tiếng Anh là gì?", options: ["Funny", "Kind", "Tall", "Short"], correctIndex: 1, explanation: "'Kind' nghĩa là tốt bụng." },
+      { question: "Câu 'He is very friendly.' nghĩa là gì?", options: ["Bạn ấy rất cao", "Bạn ấy rất thân thiện", "Bạn ấy rất thấp", "Bạn ấy rất buồn"], correctIndex: 1, explanation: "'Friendly' nghĩa là thân thiện." },
+      { question: "Để giới thiệu bạn của mình, em dùng câu nào?", options: ["This is my friend.", "This are my friend.", "This am my friend.", "This be my friend."], correctIndex: 0, explanation: "'This is my friend.' là cách giới thiệu đúng ngữ pháp." },
+      { question: "'Hài hước' trong tiếng Anh là gì?", options: ["Kind", "Funny", "Tall", "Friendly"], correctIndex: 1, explanation: "'Funny' nghĩa là hài hước." },
+    ]
+  ),
+
+  "tieng-anh:3:van-dung-numbers-and-time": practiceContent(
+    "Vận dụng",
+    "Numbers and Time",
+    "Hãy nhớ lại cách đếm số và nói giờ bằng tiếng Anh.",
+    [
+      { question: "Số 60 trong tiếng Anh đọc là gì?", options: ["Sixteen", "Sixty", "Six", "Sixth"], correctIndex: 1, explanation: "'Sixty' nghĩa là 60." },
+      { question: "Câu 'What time is it?' dùng để hỏi điều gì?", options: ["Hỏi tên", "Hỏi giờ", "Hỏi tuổi", "Hỏi địa chỉ"], correctIndex: 1, explanation: "Câu này dùng để hỏi giờ hiện tại." },
+      { question: "'It's 9 o'clock.' nghĩa là mấy giờ?", options: ["9 giờ", "9 giờ rưỡi", "9 giờ kém 15", "10 giờ"], correctIndex: 0, explanation: "'9 o'clock' nghĩa là đúng 9 giờ." },
+      { question: "Số 80 trong tiếng Anh đọc là gì?", options: ["Eight", "Eighteen", "Eighty", "Eighth"], correctIndex: 2, explanation: "'Eighty' nghĩa là 80." },
+    ]
+  ),
+
+  "tieng-anh:3:tro-choi-on-tap-my-daily-activities": practiceContent(
+    "Trò chơi ôn tập",
+    "My Daily Activities",
+    "Hãy nhớ lại các từ vựng hoạt động hàng ngày.",
+    [
+      { question: "'Ăn sáng' trong tiếng Anh là gì?", options: ["Wake up", "Have breakfast", "Go to bed", "Brush teeth"], correctIndex: 1, explanation: "'Have breakfast' nghĩa là ăn sáng." },
+      { question: "Câu nào đúng ngữ pháp?", options: ["He go to school at 7.", "He goes to school at 7.", "He going to school at 7.", "He to go to school at 7."], correctIndex: 1, explanation: "Với chủ ngữ 'he', động từ thêm 's': 'goes'." },
+      { question: "'Làm bài tập' trong tiếng Anh là gì?", options: ["Do homework", "Go to bed", "Wake up", "Have dinner"], correctIndex: 0, explanation: "'Do homework' nghĩa là làm bài tập." },
+      { question: "Hoạt động nào thường diễn ra cuối cùng trong ngày?", options: ["Wake up", "Have breakfast", "Go to school", "Go to bed"], correctIndex: 3, explanation: "'Go to bed' (đi ngủ) thường là hoạt động cuối cùng trong ngày." },
+    ]
+  ),
+
+  "tieng-anh:3:thu-thach-nho-at-the-zoo": practiceContent(
+    "Thử thách nhỏ",
+    "At the Zoo",
+    "Hãy nhớ lại tên các con vật ở sở thú.",
+    [
+      { question: "'Con hổ' trong tiếng Anh là gì?", options: ["Lion", "Tiger", "Monkey", "Elephant"], correctIndex: 1, explanation: "'Tiger' nghĩa là con hổ." },
+      { question: "'Con khỉ' trong tiếng Anh là gì?", options: ["Elephant", "Giraffe", "Monkey", "Lion"], correctIndex: 2, explanation: "'Monkey' nghĩa là con khỉ." },
+      { question: "Câu 'The elephant is very big.' nghĩa là gì?", options: ["Con voi rất nhỏ", "Con voi rất to", "Con voi rất nhanh", "Con voi rất đẹp"], correctIndex: 1, explanation: "'Big' nghĩa là to lớn." },
+      { question: "Con vật nào có chiếc cổ dài nhất?", options: ["Lion", "Monkey", "Giraffe", "Tiger"], correctIndex: 2, explanation: "'Giraffe' (hươu cao cổ) có chiếc cổ dài đặc trưng." },
+    ]
+  ),
+
+  "tieng-anh:3:thuc-hanh-my-favourite-food": practiceContent(
+    "Thực hành",
+    "My Favourite Food",
+    "Hãy nhớ lại từ vựng về các món ăn quen thuộc.",
+    [
+      { question: "'Cơm' trong tiếng Anh là gì?", options: ["Noodles", "Rice", "Fish", "Chicken"], correctIndex: 1, explanation: "'Rice' nghĩa là cơm." },
+      { question: "Câu 'I like fish.' nghĩa là gì?", options: ["Em thích cá", "Em không thích cá", "Em thích cơm", "Em thích gà"], correctIndex: 0, explanation: "'Like' nghĩa là thích." },
+      { question: "'Rau' trong tiếng Anh là gì?", options: ["Chicken", "Fish", "Vegetables", "Rice"], correctIndex: 2, explanation: "'Vegetables' nghĩa là rau." },
+      { question: "Câu nào dùng để hỏi món ăn yêu thích?", options: ["What is your name?", "What is your favourite food?", "How old are you?", "Where do you live?"], correctIndex: 1, explanation: "Câu này dùng để hỏi món ăn yêu thích của người khác." },
+    ]
+  ),
+
+  "tieng-anh:3:luyen-tap-in-the-classroom": practiceContent(
+    "Luyện tập",
+    "In the Classroom",
+    "Hãy nhớ lại các mẫu câu giao tiếp thường dùng trong lớp học.",
+    [
+      { question: "'Đứng lên' trong tiếng Anh là gì?", options: ["Sit down", "Stand up", "Open your book", "Close your book"], correctIndex: 1, explanation: "'Stand up' nghĩa là đứng lên." },
+      { question: "Câu 'Can I go to the toilet?' dùng để làm gì?", options: ["Xin phép đi vệ sinh", "Chào tạm biệt", "Hỏi giờ", "Giới thiệu tên"], correctIndex: 0, explanation: "Câu này dùng để xin phép đi vệ sinh một cách lịch sự." },
+      { question: "'Mở sách ra' trong tiếng Anh là gì?", options: ["Close your book", "Open your book", "Stand up", "Sit down"], correctIndex: 1, explanation: "'Open your book' nghĩa là mở sách ra." },
+      { question: "'Nghe kỹ' trong tiếng Anh là gì?", options: ["Look carefully", "Listen carefully", "Write carefully", "Read carefully"], correctIndex: 1, explanation: "'Listen carefully' nghĩa là nghe kỹ." },
+    ]
+  ),
+
+  "tieng-anh:3:van-dung-places-in-my-neighbourhood": practiceContent(
+    "Vận dụng",
+    "Places in My Neighbourhood",
+    "Hãy nhớ lại từ vựng về các địa điểm quen thuộc và cách chỉ đường.",
+    [
+      { question: "'Siêu thị' trong tiếng Anh là gì?", options: ["Park", "Market", "Supermarket", "Hospital"], correctIndex: 2, explanation: "'Supermarket' nghĩa là siêu thị." },
+      { question: "'Rẽ phải' trong tiếng Anh là gì?", options: ["Turn left", "Go straight", "Turn right", "Stop"], correctIndex: 2, explanation: "'Turn right' nghĩa là rẽ phải." },
+      { question: "'Bệnh viện' trong tiếng Anh là gì?", options: ["Hospital", "Post office", "Market", "Park"], correctIndex: 0, explanation: "'Hospital' nghĩa là bệnh viện." },
+      { question: "Câu 'Go straight, then turn left.' nghĩa là gì?", options: ["Đi thẳng rồi rẽ trái", "Rẽ phải rồi dừng lại", "Đi thẳng rồi rẽ phải", "Dừng lại ngay"], correctIndex: 0, explanation: "Câu này nghĩa là 'Đi thẳng rồi rẽ trái.'." },
+    ]
+  ),
+
+  "tieng-anh:3:tro-choi-on-tap-my-birthday": practiceContent(
+    "Trò chơi ôn tập",
+    "My Birthday",
+    "Hãy nhớ lại tên các tháng trong năm và từ vựng tiệc sinh nhật.",
+    [
+      { question: "'Tháng 12' trong tiếng Anh là gì?", options: ["October", "November", "December", "September"], correctIndex: 2, explanation: "'December' nghĩa là tháng 12." },
+      { question: "'Nến' trong tiếng Anh là gì?", options: ["Cake", "Candles", "Presents", "Balloons"], correctIndex: 1, explanation: "'Candles' nghĩa là nến." },
+      { question: "'Quà tặng' trong tiếng Anh là gì?", options: ["Cake", "Candles", "Presents", "Balloons"], correctIndex: 2, explanation: "'Presents' nghĩa là quà tặng." },
+      { question: "Lời chúc mừng sinh nhật bằng tiếng Anh là gì?", options: ["Good morning!", "Happy birthday!", "Thank you!", "See you!"], correctIndex: 1, explanation: "'Happy birthday!' là lời chúc mừng sinh nhật." },
+    ]
+  ),
+
+  "tieng-anh:3:thu-thach-nho-review-my-world": practiceContent(
+    "Thử thách nhỏ",
+    "Review: My World",
+    "Hãy ôn lại toàn bộ từ vựng và mẫu câu đã học trong năm.",
+    [
+      { question: "Câu nào dùng để giới thiệu bản thân?", options: ["My name is Mai.", "Turn left.", "It's 7 o'clock.", "The cake is sweet."], correctIndex: 0, explanation: "'My name is Mai.' là câu giới thiệu tên bản thân." },
+      { question: "Từ nào thuộc chủ đề thời tiết?", options: ["Sunny", "Chicken", "Bedroom", "Monkey"], correctIndex: 0, explanation: "'Sunny' (nắng) thuộc chủ đề thời tiết." },
+      { question: "Câu nào dùng để hỏi giờ?", options: ["What is your name?", "What time is it?", "What is your favourite food?", "Where do you live?"], correctIndex: 1, explanation: "'What time is it?' dùng để hỏi giờ hiện tại." },
+      { question: "'Trường học' trong tiếng Anh là gì?", options: ["House", "School", "Zoo", "Market"], correctIndex: 1, explanation: "'School' nghĩa là trường học." },
+    ]
+  ),
+
+  // ─────────────── KHÁM PHÁ — LỚP 3 — bài thực hành ───────────────
+  "kham-pha:3:thuc-hanh-ho-hang-noi-ngoai": practiceContent(
+    "Thực hành",
+    "Họ hàng nội, ngoại",
+    "Hãy nhớ lại cách gọi tên các thành viên trong họ hàng nội, ngoại.",
+    [
+      { question: "Chị gái của mẹ được gọi là gì?", options: ["Cô", "Dì", "Bác gái (nếu lớn hơn mẹ) hoặc dì (nếu nhỏ hơn)", "Mợ"], correctIndex: 2, explanation: "Chị/em gái của mẹ được gọi là bác gái hoặc dì tuỳ theo tuổi so với mẹ." },
+      { question: "Anh trai của bố được gọi là gì?", options: ["Chú", "Bác trai", "Cậu", "Dượng"], correctIndex: 1, explanation: "Anh trai của bố được gọi là bác trai." },
+      { question: "Vợ của cậu được gọi là gì?", options: ["Mợ", "Thím", "Dì", "Cô"], correctIndex: 0, explanation: "Vợ của cậu được gọi là mợ." },
+      { question: "Họ hàng bên ngoại là những người có quan hệ huyết thống với ai?", options: ["Bố", "Mẹ", "Thầy cô", "Hàng xóm"], correctIndex: 1, explanation: "Họ hàng bên ngoại có quan hệ huyết thống với mẹ." },
+    ]
+  ),
+
+  "kham-pha:3:luyen-tap-phong-tranh-hoa-hoan": practiceContent(
+    "Luyện tập",
+    "Phòng tránh hoả hoạn",
+    "Hãy nhớ lại nguyên nhân và cách phòng tránh hoả hoạn.",
+    [
+      { question: "Hành động nào có thể gây ra hoả hoạn?", options: ["Tắt bếp sau khi nấu", "Để trẻ em nghịch bật lửa", "Rút phích cắm khi không dùng", "Kiểm tra dây điện định kỳ"], correctIndex: 1, explanation: "Để trẻ em nghịch bật lửa rất nguy hiểm, dễ gây cháy." },
+      { question: "Khi phát hiện có khói trong nhà, em nên làm gì đầu tiên?", options: ["Trốn trong tủ quần áo", "Báo ngay cho người lớn", "Tự dập lửa một mình", "Không làm gì cả"], correctIndex: 1, explanation: "Báo ngay cho người lớn giúp xử lý tình huống nhanh chóng, an toàn." },
+      { question: "Vật dụng nào có thể giúp dập tắt đám cháy nhỏ?", options: ["Bình chữa cháy mini", "Quạt điện", "Gương soi", "Đồng hồ"], correctIndex: 0, explanation: "Bình chữa cháy mini có thể dập tắt đám cháy nhỏ hiệu quả." },
+      { question: "Số điện thoại nào dùng để gọi cứu hoả ở Việt Nam?", options: ["113", "114", "115", "116"], correctIndex: 1, explanation: "114 là số điện thoại gọi lực lượng phòng cháy chữa cháy." },
+    ]
+  ),
+
+  "kham-pha:3:van-dung-hoat-dong-ket-noi-cong-dong": practiceContent(
+    "Vận dụng",
+    "Hoạt động kết nối cộng đồng",
+    "Hãy nhớ lại ý nghĩa của các hoạt động ngoại khoá ở trường.",
+    [
+      { question: "Hoạt động nào sau đây là hoạt động kết nối cộng đồng?", options: ["Làm bài kiểm tra", "Quyên góp từ thiện", "Ngủ trưa", "Chép bài"], correctIndex: 1, explanation: "Quyên góp từ thiện là hoạt động giúp đỡ cộng đồng." },
+      { question: "Tham gia hoạt động ngoại khoá giúp em rèn luyện điều gì?", options: ["Kỹ năng làm việc nhóm", "Không có lợi ích gì", "Chỉ tốn thời gian", "Không liên quan đến bạn bè"], correctIndex: 0, explanation: "Hoạt động ngoại khoá giúp rèn luyện kỹ năng làm việc nhóm." },
+      { question: "Thái độ nào phù hợp khi tham gia hoạt động chung của trường?", options: ["Thờ ơ", "Tích cực tham gia, hợp tác", "Gây mất trật tự", "Từ chối tham gia"], correctIndex: 1, explanation: "Tích cực tham gia và hợp tác giúp hoạt động diễn ra tốt đẹp." },
+      { question: "Câu lạc bộ ở trường học thường tổ chức theo chủ đề nào?", options: ["Sở thích, năng khiếu của học sinh", "Không có chủ đề cụ thể", "Chỉ về học thuật", "Chỉ dành cho giáo viên"], correctIndex: 0, explanation: "Câu lạc bộ thường tổ chức theo sở thích, năng khiếu của học sinh." },
+    ]
+  ),
+
+  "kham-pha:3:tro-choi-on-tap-truyen-thong-nha-truong": practiceContent(
+    "Trò chơi ôn tập",
+    "Truyền thống nhà trường",
+    "Hãy nhớ lại các truyền thống tiêu biểu của nhà trường.",
+    [
+      { question: "Ngày nào là Ngày Nhà giáo Việt Nam?", options: ["1/6", "20/10", "20/11", "8/3"], correctIndex: 2, explanation: "Ngày 20/11 là Ngày Nhà giáo Việt Nam." },
+      { question: "Lễ khai giảng thường diễn ra vào thời điểm nào trong năm?", options: ["Đầu năm học", "Cuối năm học", "Giữa học kỳ 2", "Mùa hè"], correctIndex: 0, explanation: "Lễ khai giảng đánh dấu sự bắt đầu của năm học mới." },
+      { question: "Truyền thống nhà trường mang lại ý nghĩa gì?", options: ["Không có ý nghĩa gì", "Giúp học sinh gắn kết, tự hào về trường", "Chỉ tốn thời gian", "Không liên quan đến học sinh"], correctIndex: 1, explanation: "Truyền thống giúp học sinh gắn kết và tự hào về trường." },
+      { question: "Em nên làm gì để giữ gìn truyền thống nhà trường?", options: ["Không quan tâm", "Tích cực tham gia và giữ gìn nề nếp", "Phá vỡ quy định", "Chỉ tham gia khi có lợi"], correctIndex: 1, explanation: "Tích cực tham gia và giữ nề nếp thể hiện trách nhiệm với truyền thống." },
+    ]
+  ),
+
+  "kham-pha:3:thu-thach-nho-hoat-dong-san-xuat": practiceContent(
+    "Thử thách nhỏ",
+    "Hoạt động sản xuất",
+    "Hãy nhớ lại các hoạt động sản xuất phổ biến ở địa phương.",
+    [
+      { question: "Hoạt động nào sau đây là hoạt động sản xuất?", options: ["Xem phim hoạt hình", "Nuôi trồng thuỷ sản", "Ngủ trưa", "Chơi trò chơi"], correctIndex: 1, explanation: "Nuôi trồng thuỷ sản là một hoạt động sản xuất." },
+      { question: "Hoạt động sản xuất mang lại điều gì cho địa phương?", options: ["Không mang lại lợi ích gì", "Của cải vật chất và việc làm", "Chỉ gây ô nhiễm", "Không liên quan đến đời sống"], correctIndex: 1, explanation: "Sản xuất tạo ra của cải vật chất và việc làm." },
+      { question: "Việt Nam nổi tiếng xuất khẩu loại nông sản nào hàng đầu thế giới?", options: ["Gạo", "Ô tô", "Máy tính", "Đồ chơi"], correctIndex: 0, explanation: "Việt Nam là một trong những nước xuất khẩu gạo hàng đầu thế giới." },
+      { question: "Vì sao em cần trân trọng sản phẩm mình sử dụng hàng ngày?", options: ["Vì tự nhiên mà có", "Vì đó là công sức lao động của nhiều người", "Không cần trân trọng", "Vì sản phẩm không có giá trị"], correctIndex: 1, explanation: "Mỗi sản phẩm đều là kết quả lao động vất vả, cần được trân trọng." },
+    ]
+  ),
+
+  "kham-pha:3:thuc-hanh-di-tich-lich-su-van-hoa": practiceContent(
+    "Thực hành",
+    "Di tích lịch sử - văn hoá",
+    "Hãy nhớ lại tên một số di tích lịch sử - văn hoá tiêu biểu.",
+    [
+      { question: "Văn Miếu - Quốc Tử Giám là di tích thuộc thành phố nào?", options: ["TP. Hồ Chí Minh", "Hà Nội", "Đà Nẵng", "Huế"], correctIndex: 1, explanation: "Văn Miếu - Quốc Tử Giám nằm ở thủ đô Hà Nội." },
+      { question: "Hành động nào KHÔNG nên làm khi tham quan di tích?", options: ["Giữ trật tự", "Viết vẽ bậy lên di tích", "Nghe hướng dẫn viên", "Không xả rác"], correctIndex: 1, explanation: "Viết vẽ bậy làm hư hại di tích." },
+      { question: "Di tích lịch sử - văn hoá gắn liền với điều gì?", options: ["Sự kiện lịch sử hoặc giá trị văn hoá quan trọng", "Không có ý nghĩa gì", "Chỉ để trang trí", "Chỉ dành cho khách du lịch nước ngoài"], correctIndex: 0, explanation: "Di tích gắn liền với sự kiện lịch sử hoặc giá trị văn hoá quan trọng." },
+      { question: "Hoàng thành Thăng Long được UNESCO công nhận là gì vào năm 2010?", options: ["Kỳ quan thiên nhiên", "Di sản Văn hoá Thế giới", "Công viên quốc gia", "Không được công nhận gì"], correctIndex: 1, explanation: "Hoàng thành Thăng Long được UNESCO công nhận là Di sản Văn hoá Thế giới năm 2010." },
+    ]
+  ),
+
+  "kham-pha:3:luyen-tap-cac-bo-phan-cua-thuc-vat": practiceContent(
+    "Luyện tập",
+    "Các bộ phận của thực vật",
+    "Hãy nhớ lại chức năng của rễ, thân, lá, hoa, quả.",
+    [
+      { question: "Bộ phận nào giúp cây hút nước và chất dinh dưỡng từ đất?", options: ["Lá", "Rễ", "Hoa", "Quả"], correctIndex: 1, explanation: "Rễ cây có chức năng hút nước và chất dinh dưỡng từ đất." },
+      { question: "Bộ phận nào của cây thực hiện quá trình quang hợp?", options: ["Rễ", "Thân", "Lá", "Hạt"], correctIndex: 2, explanation: "Lá cây là nơi diễn ra quá trình quang hợp." },
+      { question: "Quả cây có chức năng gì?", options: ["Hút nước", "Bảo vệ hạt và giúp phát tán hạt", "Quang hợp", "Giữ cây đứng vững"], correctIndex: 1, explanation: "Quả bảo vệ hạt bên trong và giúp phát tán hạt." },
+      { question: "Bộ phận nào giúp cây đứng vững và vận chuyển chất dinh dưỡng?", options: ["Thân", "Hoa", "Quả", "Hạt"], correctIndex: 0, explanation: "Thân cây giúp cây đứng vững và vận chuyển nước, chất dinh dưỡng." },
+    ]
+  ),
+
+  "kham-pha:3:van-dung-bao-ve-moi-truong-song": practiceContent(
+    "Vận dụng",
+    "Bảo vệ môi trường sống",
+    "Hãy nhớ lại các hành động bảo vệ môi trường sống của sinh vật.",
+    [
+      { question: "Hành động nào gây hại cho môi trường sống của sinh vật?", options: ["Trồng cây xanh", "Chặt phá rừng bừa bãi", "Tiết kiệm nước", "Không xả rác"], correctIndex: 1, explanation: "Chặt phá rừng bừa bãi phá huỷ môi trường sống của nhiều loài." },
+      { question: "Em có thể làm gì để bảo vệ môi trường sống?", options: ["Xả rác bừa bãi", "Trồng thêm cây xanh", "Săn bắt động vật hoang dã", "Chặt cây không cần thiết"], correctIndex: 1, explanation: "Trồng thêm cây xanh giúp cải thiện môi trường sống." },
+      { question: "Một cây xanh trưởng thành có thể hấp thụ bao nhiêu khí CO2 mỗi năm (ước tính)?", options: ["Khoảng 2kg", "Khoảng 22kg", "Khoảng 220kg", "Không hấp thụ khí gì"], correctIndex: 1, explanation: "Một cây xanh trưởng thành có thể hấp thụ khoảng 22kg CO2 mỗi năm." },
+      { question: "Vì sao cần bảo vệ môi trường sống của sinh vật?", options: ["Vì sinh vật không quan trọng", "Để duy trì cân bằng tự nhiên và cuộc sống con người", "Không có lý do gì", "Chỉ để làm đẹp cảnh quan"], correctIndex: 1, explanation: "Bảo vệ môi trường sống giúp duy trì cân bằng tự nhiên." },
+    ]
+  ),
+
+  "kham-pha:3:tro-choi-on-tap-ngay-ki-niem-cua-gia-dinh": practiceContent(
+    "Trò chơi ôn tập",
+    "Ngày kỉ niệm của gia đình",
+    "Hãy nhớ lại các ngày kỉ niệm quan trọng của gia đình.",
+    [
+      { question: "Ngày nào sau đây là một ngày kỉ niệm của gia đình?", options: ["Ngày khai giảng", "Ngày sinh nhật của bố", "Ngày Quốc khánh", "Ngày Nhà giáo Việt Nam"], correctIndex: 1, explanation: "Sinh nhật của bố là một ngày kỉ niệm riêng của gia đình." },
+      { question: "Ý nghĩa của ngày kỉ niệm gia đình là gì?", options: ["Không có ý nghĩa gì", "Gắn kết tình cảm các thành viên", "Chỉ để nghỉ ngơi", "Chỉ dành cho người lớn"], correctIndex: 1, explanation: "Ngày kỉ niệm giúp gắn kết tình cảm gia đình." },
+      { question: "Em có thể làm gì để ngày kỉ niệm gia đình thêm ý nghĩa?", options: ["Không quan tâm", "Tự tay làm thiệp chúc mừng", "Đi chơi một mình", "Không tham gia"], correctIndex: 1, explanation: "Tự tay làm thiệp chúc mừng thể hiện tình cảm chân thành." },
+      { question: "Ngày giỗ tổ tiên có ý nghĩa gì với gia đình Việt Nam?", options: ["Không có ý nghĩa gì", "Dịp con cháu tưởng nhớ người đã khuất", "Chỉ là ngày nghỉ", "Không liên quan đến gia đình"], correctIndex: 1, explanation: "Ngày giỗ là dịp để con cháu tưởng nhớ và sum họp." },
+    ]
+  ),
+
+  "kham-pha:3:thu-thach-nho-ve-sinh-truong-hoc": practiceContent(
+    "Thử thách nhỏ",
+    "Vệ sinh trường học",
+    "Hãy nhớ lại các việc làm giữ vệ sinh trường lớp.",
+    [
+      { question: "Vì sao cần giữ vệ sinh trường học?", options: ["Không có lý do gì", "Phòng tránh bệnh tật, tạo môi trường học tập tốt", "Chỉ để đẹp mắt", "Không liên quan đến sức khoẻ"], correctIndex: 1, explanation: "Vệ sinh sạch sẽ giúp phòng tránh bệnh tật." },
+      { question: "Hành động nào giúp giữ vệ sinh trường lớp?", options: ["Vứt rác bừa bãi", "Bỏ rác đúng nơi quy định", "Vẽ bậy lên tường", "Xô đẩy bàn ghế"], correctIndex: 1, explanation: "Bỏ rác đúng nơi quy định giữ vệ sinh trường lớp." },
+      { question: "Rửa tay đúng cách có thể giúp phòng tránh bao nhiêu phần trăm bệnh lây qua đường tiêu hoá (ước tính)?", options: ["Khoảng 10%", "Khoảng 50%", "100%", "Không có tác dụng"], correctIndex: 1, explanation: "Rửa tay đúng cách có thể giúp phòng tránh tới hơn 50% bệnh lây qua đường tiêu hoá." },
+      { question: "Giữ vệ sinh trường học là trách nhiệm của ai?", options: ["Chỉ của bác lao công", "Chỉ của thầy cô", "Của tất cả học sinh", "Không phải trách nhiệm của ai"], correctIndex: 2, explanation: "Giữ vệ sinh trường học là trách nhiệm chung của tất cả học sinh." },
+    ]
+  ),
+
+  "kham-pha:3:thuc-hanh-mot-so-nghe-truyen-thong-o-dia-phuong": practiceContent(
+    "Thực hành",
+    "Một số nghề truyền thống ở địa phương",
+    "Hãy nhớ lại tên một số làng nghề truyền thống nổi tiếng.",
+    [
+      { question: "Gốm Bát Tràng là làng nghề nổi tiếng ở đâu?", options: ["TP. Hồ Chí Minh", "Hà Nội", "Đà Nẵng", "Cần Thơ"], correctIndex: 1, explanation: "Làng gốm Bát Tràng thuộc Hà Nội." },
+      { question: "Nghề truyền thống nào liên quan đến vải, lụa?", options: ["Làm gốm", "Dệt lụa", "Đóng thuyền", "Làm mộc"], correctIndex: 1, explanation: "Dệt lụa là nghề truyền thống tạo ra sản phẩm vải lụa." },
+      { question: "Tranh Đông Hồ được làm bằng phương pháp nào?", options: ["In bằng máy hiện đại", "In bằng bản khắc gỗ thủ công", "Vẽ bằng bút chì", "Chụp ảnh"], correctIndex: 1, explanation: "Tranh Đông Hồ được in bằng bản khắc gỗ và giấy dó truyền thống." },
+      { question: "Vì sao cần giữ gìn nghề truyền thống?", options: ["Không cần thiết", "Bảo tồn văn hoá và tạo việc làm", "Chỉ để trưng bày", "Không có ý nghĩa gì"], correctIndex: 1, explanation: "Giữ gìn nghề truyền thống giúp bảo tồn văn hoá và tạo việc làm." },
+    ]
+  ),
+
+  "kham-pha:3:luyen-tap-co-quan-ho-hap": practiceContent(
+    "Luyện tập",
+    "Cơ quan hô hấp",
+    "Hãy nhớ lại các bộ phận và vai trò của cơ quan hô hấp.",
+    [
+      { question: "Bộ phận nào KHÔNG thuộc cơ quan hô hấp?", options: ["Mũi", "Phổi", "Dạ dày", "Khí quản"], correctIndex: 2, explanation: "Dạ dày thuộc cơ quan tiêu hoá." },
+      { question: "Cơ quan hô hấp giúp cơ thể làm gì?", options: ["Tiêu hoá thức ăn", "Lấy khí ô-xy và thải khí các-bô-níc", "Bài tiết nước tiểu", "Vận động cơ thể"], correctIndex: 1, explanation: "Cơ quan hô hấp giúp lấy ô-xy và thải khí các-bô-níc." },
+      { question: "Hành động nào giúp bảo vệ cơ quan hô hấp?", options: ["Hút thuốc lá", "Đeo khẩu trang khi nhiều khói bụi", "Không tập thể dục", "Ở nơi nhiều khói bụi lâu"], correctIndex: 1, explanation: "Đeo khẩu trang giúp hạn chế bụi bẩn xâm nhập đường hô hấp." },
+      { question: "Mỗi ngày một người trưởng thành hít thở trung bình khoảng bao nhiêu lần?", options: ["200 lần", "2000 lần", "20 000 lần", "200 000 lần"], correctIndex: 2, explanation: "Trung bình một người trưởng thành hít thở khoảng 20 000 lần mỗi ngày." },
+    ]
+  ),
+
+  "kham-pha:3:van-dung-co-quan-bai-tiet-nuoc-tieu": practiceContent(
+    "Vận dụng",
+    "Cơ quan bài tiết nước tiểu",
+    "Hãy nhớ lại chức năng và cách chăm sóc cơ quan bài tiết.",
+    [
+      { question: "Cơ quan nào có chức năng lọc máu và tạo ra nước tiểu?", options: ["Phổi", "Thận", "Dạ dày", "Tim"], correctIndex: 1, explanation: "Thận có chức năng lọc máu và tạo ra nước tiểu." },
+      { question: "Nước tiểu được chứa tạm thời ở bộ phận nào?", options: ["Bóng đái (bàng quang)", "Dạ dày", "Phổi", "Gan"], correctIndex: 0, explanation: "Bóng đái là nơi chứa nước tiểu trước khi thải ra ngoài." },
+      { question: "Thói quen nào tốt cho cơ quan bài tiết?", options: ["Nhịn tiểu thường xuyên", "Uống đủ nước mỗi ngày", "Uống rất ít nước", "Không đi vệ sinh khi cần"], correctIndex: 1, explanation: "Uống đủ nước giúp thận hoạt động tốt." },
+      { question: "Mỗi quả thận chứa gì giúp lọc máu hiệu quả?", options: ["Hàng triệu bộ lọc siêu nhỏ", "Không có bộ phận lọc nào", "Chỉ có một bộ lọc lớn", "Không thể lọc máu"], correctIndex: 0, explanation: "Mỗi quả thận chứa hàng triệu bộ lọc siêu nhỏ để lọc máu." },
+    ]
+  ),
+
+  "kham-pha:3:tro-choi-on-tap-phong-tranh-duoi-nuoc": practiceContent(
+    "Trò chơi ôn tập",
+    "Phòng tránh đuối nước",
+    "Hãy nhớ lại cách phòng tránh và xử lý khi gặp nguy cơ đuối nước.",
+    [
+      { question: "Hành động nào có thể dẫn đến nguy cơ đuối nước?", options: ["Bơi có người lớn giám sát", "Tự ý bơi ở sông, hồ một mình", "Học bơi bài bản", "Mặc áo phao khi đi thuyền"], correctIndex: 1, explanation: "Tự ý bơi một mình rất nguy hiểm." },
+      { question: "Khi thấy bạn bị đuối nước, em nên làm gì?", options: ["Tự ý nhảy xuống cứu dù không biết bơi giỏi", "Hô hoán gọi người lớn giúp đỡ ngay", "Bỏ đi không quan tâm", "Đứng xem không làm gì"], correctIndex: 1, explanation: "Hô hoán gọi người lớn là cách xử lý an toàn nhất." },
+      { question: "Để phòng tránh đuối nước, em nên làm gì?", options: ["Học bơi bài bản, có người lớn giám sát", "Bơi ở nơi nước chảy xiết", "Không cần học bơi", "Bơi một mình ở ao hồ"], correctIndex: 0, explanation: "Học bơi bài bản và có người giám sát giúp phòng tránh đuối nước." },
+      { question: "Mặc áo phao khi tham gia hoạt động dưới nước có tác dụng gì?", options: ["Không có tác dụng gì", "Giảm nguy cơ đuối nước", "Làm chậm bơi", "Chỉ để trang trí"], correctIndex: 1, explanation: "Áo phao giúp giảm đáng kể nguy cơ đuối nước." },
+    ]
+  ),
+
+  "kham-pha:3:thu-thach-nho-on-tap-cuoi-nam-hoc": practiceContent(
+    "Thử thách nhỏ",
+    "Ôn tập cuối năm học",
+    "Hãy nhớ lại các kiến thức Khám Phá lớp 3 trọng tâm đã học trong năm.",
+    [
+      { question: "Cơ quan nào giúp cơ thể lấy khí ô-xy?", options: ["Cơ quan tiêu hoá", "Cơ quan hô hấp", "Cơ quan bài tiết", "Cơ quan vận động"], correctIndex: 1, explanation: "Cơ quan hô hấp giúp lấy khí ô-xy." },
+      { question: "Số điện thoại nào dùng để gọi cứu hoả?", options: ["113", "114", "115", "112"], correctIndex: 1, explanation: "114 là số điện thoại gọi lực lượng phòng cháy chữa cháy." },
+      { question: "Bộ phận nào của cây thực hiện quá trình quang hợp?", options: ["Rễ", "Lá", "Hoa", "Quả"], correctIndex: 1, explanation: "Lá cây là nơi diễn ra quang hợp." },
+      { question: "Di tích Văn Miếu - Quốc Tử Giám nằm ở thành phố nào?", options: ["Hà Nội", "TP. Hồ Chí Minh", "Đà Nẵng", "Huế"], correctIndex: 0, explanation: "Văn Miếu - Quốc Tử Giám nằm ở Hà Nội." },
+    ]
+  ),
+
+  // ─────────────── ĐẠO ĐỨC — LỚP 3 — bài thực hành ───────────────
+  "dao-duc:3:thuc-hanh-tu-hao-truyen-thong-que-huong": practiceContent(
+    "Thực hành",
+    "Tự hào truyền thống quê hương",
+    "Hãy nhớ lại các nét đẹp truyền thống của quê hương.",
+    [
+      { question: "Điều gì thể hiện lòng tự hào về quê hương?", options: ["Chê bai quê hương", "Giới thiệu nét đẹp quê hương với bạn bè", "Không quan tâm đến quê hương", "Phá hoại di tích quê hương"], correctIndex: 1, explanation: "Giới thiệu nét đẹp quê hương thể hiện tình yêu, niềm tự hào." },
+      { question: "Việt Nam có khoảng bao nhiêu lễ hội truyền thống mỗi năm (ước tính)?", options: ["Khoảng 80", "Khoảng 800", "Khoảng 8000", "Không có lễ hội nào"], correctIndex: 2, explanation: "Việt Nam có tới hơn 8000 lễ hội truyền thống mỗi năm." },
+      { question: "Em có thể làm gì để giữ gìn truyền thống quê hương?", options: ["Không quan tâm", "Giữ gìn vệ sinh, cảnh quan quê hương", "Phá hoại cảnh quan", "Chê bai truyền thống"], correctIndex: 1, explanation: "Giữ gìn vệ sinh, cảnh quan là hành động thiết thực." },
+      { question: "Nét đẹp truyền thống của quê hương có thể là gì?", options: ["Lễ hội truyền thống", "Rác thải bừa bãi", "Ô nhiễm môi trường", "Không có gì đặc biệt"], correctIndex: 0, explanation: "Lễ hội truyền thống là nét đẹp văn hoá của quê hương." },
+    ]
+  ),
+
+  "dao-duc:3:luyen-tap-ham-hoc-hoi": practiceContent(
+    "Luyện tập",
+    "Ham học hỏi",
+    "Hãy nhớ lại biểu hiện và lợi ích của tinh thần ham học hỏi.",
+    [
+      { question: "Biểu hiện nào thể hiện tinh thần ham học hỏi?", options: ["Không bao giờ đặt câu hỏi", "Tích cực tìm hiểu, đặt câu hỏi khi chưa hiểu", "Bỏ cuộc khi gặp bài khó", "Chỉ học khi bị ép buộc"], correctIndex: 1, explanation: "Tích cực tìm hiểu và đặt câu hỏi thể hiện tinh thần ham học hỏi." },
+      { question: "Khi gặp bài toán khó, người ham học hỏi sẽ làm gì?", options: ["Bỏ qua không làm", "Tìm cách giải quyết, hỏi thầy cô hoặc bạn bè", "Chép bài của bạn", "Tức giận, bỏ cuộc"], correctIndex: 1, explanation: "Người ham học hỏi luôn tìm cách giải quyết vấn đề." },
+      { question: "Ham học hỏi mang lại lợi ích gì?", options: ["Không có lợi ích gì", "Mở rộng hiểu biết, phát triển bản thân", "Làm mất thời gian", "Chỉ gây thêm áp lực"], correctIndex: 1, explanation: "Ham học hỏi giúp mở rộng hiểu biết và phát triển bản thân." },
+      { question: "Nhà bác học nào từng nói ông thành công nhờ luôn tò mò, ham học hỏi?", options: ["Isaac Newton", "Charles Darwin", "Albert Einstein", "Thomas Edison"], correctIndex: 1, explanation: "Charles Darwin từng nói ông không phải người thông minh nhất nhưng luôn ham học hỏi." },
+    ]
+  ),
+
+  "dao-duc:3:van-dung-quan-tam-hang-xom-lang-gieng": practiceContent(
+    "Vận dụng",
+    "Quan tâm hàng xóm láng giềng",
+    "Hãy nhớ lại các hành động thể hiện sự quan tâm với hàng xóm.",
+    [
+      { question: "Câu tục ngữ nào nói về tình cảm hàng xóm láng giềng?", options: ["Ăn quả nhớ kẻ trồng cây", "Bán anh em xa, mua láng giềng gần", "Có công mài sắt, có ngày nên kim", "Uống nước nhớ nguồn"], correctIndex: 1, explanation: "'Bán anh em xa, mua láng giềng gần' nói về giá trị của tình cảm hàng xóm." },
+      { question: "Hành động nào thể hiện sự quan tâm đến hàng xóm?", options: ["Gây ồn ào", "Chào hỏi lễ phép, giúp đỡ khi cần", "Không quan tâm ai cả", "Tranh cãi thường xuyên"], correctIndex: 1, explanation: "Chào hỏi lễ phép và giúp đỡ là biểu hiện của sự quan tâm." },
+      { question: "Sống hoà đồng với hàng xóm mang lại điều gì?", options: ["Không mang lại lợi ích gì", "Khu phố gắn kết, an toàn hơn", "Gây thêm rắc rối", "Không có tác dụng gì"], correctIndex: 1, explanation: "Sống hoà đồng giúp khu phố đoàn kết, an toàn hơn." },
+      { question: "Khi hàng xóm gặp khó khăn, em nên làm gì?", options: ["Không quan tâm", "Giúp đỡ trong khả năng của mình", "Tránh mặt", "Chê cười"], correctIndex: 1, explanation: "Giúp đỡ trong khả năng thể hiện tình cảm tốt đẹp với hàng xóm." },
+    ]
+  ),
+
+  "dao-duc:3:tro-choi-on-tap-giu-loi-hua": practiceContent(
+    "Trò chơi ôn tập",
+    "Giữ lời hứa",
+    "Hãy nhớ lại ý nghĩa của việc giữ lời hứa.",
+    [
+      { question: "Giữ lời hứa mang lại điều gì cho em?", options: ["Mất niềm tin từ mọi người", "Được mọi người tin tưởng, tôn trọng", "Không có tác dụng gì", "Gây phiền phức"], correctIndex: 1, explanation: "Giữ lời hứa giúp em được mọi người tin tưởng." },
+      { question: "Nếu không thể giữ lời hứa vì lý do đặc biệt, em nên làm gì?", options: ["Im lặng không nói gì", "Xin lỗi và giải thích rõ ràng", "Đổ lỗi cho người khác", "Tránh mặt người đó"], correctIndex: 1, explanation: "Xin lỗi và giải thích thể hiện sự trung thực." },
+      { question: "Trước khi hứa điều gì, em nên làm gì?", options: ["Hứa ngay không suy nghĩ", "Suy nghĩ kỹ xem có thể thực hiện được không", "Không cần quan tâm", "Hứa cho qua chuyện"], correctIndex: 1, explanation: "Suy nghĩ kỹ trước khi hứa giúp em tránh thất hứa." },
+      { question: "'Chữ tín' trong cuộc sống có nghĩa gần với điều gì?", options: ["Sự dối trá", "Giữ đúng lời đã hứa", "Sự lười biếng", "Không liên quan đến lời hứa"], correctIndex: 1, explanation: "'Chữ tín' nghĩa là giữ đúng lời đã hứa, cam kết." },
+    ]
+  ),
+
+  "dao-duc:3:thu-thach-nho-phong-tranh-tai-nan-thuong-tich": practiceContent(
+    "Thử thách nhỏ",
+    "Phòng tránh tai nạn thương tích",
+    "Hãy nhớ lại nguyên nhân và cách phòng tránh tai nạn thương tích.",
+    [
+      { question: "Nguyên nhân chính gây ra nhiều tai nạn thương tích ở học sinh là gì?", options: ["Học tập chăm chỉ", "Sự bất cẩn, nghịch ngợm quá mức", "Ngủ đủ giấc", "Ăn uống đầy đủ"], correctIndex: 1, explanation: "Sự bất cẩn và nghịch ngợm quá mức là nguyên nhân chính." },
+      { question: "Hành động nào giúp phòng tránh tai nạn thương tích?", options: ["Chạy nhảy ở nơi trơn trượt", "Nghịch vật sắc nhọn", "Tuân thủ hướng dẫn an toàn", "Nghịch ổ điện"], correctIndex: 2, explanation: "Tuân thủ hướng dẫn an toàn giúp phòng tránh tai nạn." },
+      { question: "Đội mũ bảo hiểm đúng cách có thể giảm nguy cơ chấn thương đầu bao nhiêu phần trăm (ước tính)?", options: ["Khoảng 10%", "Khoảng 30%", "Hơn 70%", "Không có tác dụng"], correctIndex: 2, explanation: "Đội mũ bảo hiểm đúng cách có thể giảm nguy cơ chấn thương đầu tới hơn 70%." },
+      { question: "Khi vui chơi, em nên làm gì để đảm bảo an toàn?", options: ["Chơi ở nơi nguy hiểm", "Cẩn thận, chơi đúng khu vực an toàn", "Không cần chú ý gì", "Trêu chọc bạn khi chơi"], correctIndex: 1, explanation: "Chơi cẩn thận, đúng khu vực an toàn giúp giảm nguy cơ tai nạn." },
+    ]
+  ),
+
+  "dao-duc:3:thuc-hanh-ung-pho-voi-tinh-huong-bat-an": practiceContent(
+    "Thực hành",
+    "Ứng phó với tình huống bất an",
+    "Hãy nhớ lại cách ứng phó khi gặp tình huống bất an.",
+    [
+      { question: "Khi gặp tình huống bất an, em nên làm gì đầu tiên?", options: ["Hoảng loạn", "Bình tĩnh và tìm người lớn tin cậy", "Tự giải quyết một mình", "Im lặng không nói với ai"], correctIndex: 1, explanation: "Bình tĩnh và tìm người lớn tin cậy là cách ứng phó an toàn." },
+      { question: "Tổng đài quốc gia bảo vệ trẻ em có số điện thoại là gì?", options: ["111", "112", "113", "115"], correctIndex: 0, explanation: "111 là số điện thoại của Tổng đài quốc gia bảo vệ trẻ em." },
+      { question: "Ai là người em có thể tìm đến khi gặp tình huống bất an?", options: ["Người lạ trên đường", "Bố mẹ, thầy cô, chú công an", "Không cần tìm ai", "Chỉ có thể tự lo"], correctIndex: 1, explanation: "Bố mẹ, thầy cô, công an là người lớn đáng tin cậy." },
+      { question: "Tổng đài 111 hoạt động vào thời gian nào?", options: ["Chỉ giờ hành chính", "24/24 giờ tất cả các ngày", "Chỉ ngày lễ", "Không hoạt động thường xuyên"], correctIndex: 1, explanation: "Tổng đài 111 hoạt động 24/24 giờ tất cả các ngày trong tuần." },
+    ]
+  ),
+
+  "dao-duc:3:luyen-tap-yeu-quy-va-bao-ve-moi-truong": practiceContent(
+    "Luyện tập",
+    "Yêu quý và bảo vệ môi trường",
+    "Hãy nhớ lại các hành động bảo vệ môi trường phù hợp với lứa tuổi.",
+    [
+      { question: "Hành động nào giúp bảo vệ môi trường?", options: ["Xả rác bừa bãi", "Trồng thêm cây xanh", "Lãng phí nước", "Chặt phá rừng"], correctIndex: 1, explanation: "Trồng thêm cây xanh giúp bảo vệ môi trường." },
+      { question: "Vì sao cần bảo vệ môi trường?", options: ["Vì môi trường không quan trọng", "Vì môi trường cung cấp không khí, nước sạch cho sự sống", "Không có lý do gì", "Chỉ để làm đẹp"], correctIndex: 1, explanation: "Môi trường trong lành cung cấp điều kiện sống cho con người." },
+      { question: "Một chiếc túi ni lông mất bao lâu để phân huỷ (ước tính)?", options: ["Khoảng 1 năm", "Khoảng 10 năm", "500-1000 năm", "Phân huỷ ngay lập tức"], correctIndex: 2, explanation: "Túi ni lông có thể mất tới 500-1000 năm để phân huỷ hoàn toàn." },
+      { question: "Bảo vệ môi trường là trách nhiệm của ai?", options: ["Chỉ của người lớn", "Chỉ của nhà khoa học", "Của tất cả mọi người", "Không phải trách nhiệm của ai"], correctIndex: 2, explanation: "Bảo vệ môi trường là trách nhiệm chung của tất cả mọi người." },
+    ]
+  ),
+
+  "dao-duc:3:van-dung-tich-cuc-hoan-thanh-nhiem-vu": practiceContent(
+    "Vận dụng",
+    "Tích cực hoàn thành nhiệm vụ",
+    "Hãy nhớ lại biểu hiện của tinh thần trách nhiệm với nhiệm vụ được giao.",
+    [
+      { question: "Biểu hiện nào thể hiện tinh thần trách nhiệm với nhiệm vụ?", options: ["Đùn đẩy công việc", "Hoàn thành đúng thời hạn, cẩn thận", "Làm qua loa", "Bỏ dở giữa chừng"], correctIndex: 1, explanation: "Hoàn thành đúng thời hạn, cẩn thận là biểu hiện của tinh thần trách nhiệm." },
+      { question: "Khi được giao nhiệm vụ trực nhật lớp, em nên làm gì?", options: ["Nhờ bạn làm hộ", "Tự giác hoàn thành công việc", "Bỏ qua không làm", "Làm không cẩn thận"], correctIndex: 1, explanation: "Tự giác hoàn thành công việc thể hiện tinh thần trách nhiệm." },
+      { question: "Tích cực hoàn thành nhiệm vụ mang lại lợi ích gì?", options: ["Không có lợi ích gì", "Rèn luyện tính kỷ luật, được tin tưởng", "Chỉ tốn thời gian", "Gây thêm áp lực"], correctIndex: 1, explanation: "Tích cực hoàn thành nhiệm vụ rèn luyện tính kỷ luật." },
+      { question: "Trẻ em được giao việc nhà phù hợp từ nhỏ thường có điều gì khi trưởng thành?", options: ["Tinh thần trách nhiệm cao hơn", "Không có gì thay đổi", "Kém tự lập hơn", "Sợ làm việc"], correctIndex: 0, explanation: "Nhiều nghiên cứu cho thấy trẻ được giao việc nhà có tinh thần trách nhiệm cao hơn." },
+    ]
+  ),
+
+  "dao-duc:3:tro-choi-on-tap-ton-trong-nguoi-khuyet-tat": practiceContent(
+    "Trò chơi ôn tập",
+    "Tôn trọng người khuyết tật",
+    "Hãy nhớ lại thái độ và hành động đúng đắn với người khuyết tật.",
+    [
+      { question: "Thái độ nào đúng đắn khi gặp người khuyết tật?", options: ["Trêu chọc, kỳ thị", "Tôn trọng, đối xử bình đẳng", "Xa lánh, tránh né", "Thương hại quá mức"], correctIndex: 1, explanation: "Tôn trọng và đối xử bình đẳng là thái độ đúng đắn." },
+      { question: "Người khuyết tật có thể làm được điều gì?", options: ["Không thể làm gì cả", "Vẫn có thể học tập, làm việc, đóng góp cho xã hội", "Chỉ có thể ở nhà", "Không cần được tôn trọng"], correctIndex: 1, explanation: "Người khuyết tật vẫn có khả năng học tập, làm việc." },
+      { question: "Khi giúp đỡ người khuyết tật, em nên làm như thế nào?", options: ["Giúp một cách tế nhị, tôn trọng ý muốn của họ", "Ép buộc phải nhận sự giúp đỡ", "Không cần quan tâm", "Chế giễu khi họ gặp khó khăn"], correctIndex: 0, explanation: "Giúp đỡ tế nhị, tôn trọng ý muốn thể hiện sự văn minh." },
+      { question: "Paralympic là đại hội thể thao dành cho ai?", options: ["Vận động viên chuyên nghiệp", "Vận động viên khuyết tật", "Trẻ em dưới 10 tuổi", "Người cao tuổi"], correctIndex: 1, explanation: "Paralympic là đại hội thể thao lớn nhất dành cho người khuyết tật." },
+    ]
+  ),
+
+  "dao-duc:3:thu-thach-nho-chia-se-voi-ban-co-hoan-canh-kho-khan": practiceContent(
+    "Thử thách nhỏ",
+    "Chia sẻ với bạn có hoàn cảnh khó khăn",
+    "Hãy nhớ lại ý nghĩa của việc chia sẻ, giúp đỡ bạn bè.",
+    [
+      { question: "Hành động nào thể hiện sự chia sẻ với bạn có hoàn cảnh khó khăn?", options: ["Chê bai hoàn cảnh của bạn", "Chia sẻ đồ dùng học tập, giúp đỡ bạn", "Xa lánh không chơi cùng", "Không quan tâm"], correctIndex: 1, explanation: "Chia sẻ đồ dùng học tập thể hiện sự quan tâm." },
+      { question: "Chia sẻ với bạn bè giúp em rèn luyện điều gì?", options: ["Lòng nhân ái, biết quan tâm người khác", "Không có tác dụng gì", "Tính ích kỷ", "Sự thờ ơ"], correctIndex: 0, explanation: "Chia sẻ giúp rèn luyện lòng nhân ái." },
+      { question: "Khi bạn buồn vì gia đình gặp khó khăn, em nên làm gì?", options: ["Trêu chọc bạn", "An ủi, động viên bạn", "Không quan tâm", "Kể chuyện đó cho người khác"], correctIndex: 1, explanation: "An ủi, động viên là cách thể hiện sự quan tâm đúng đắn." },
+      { question: "Chương trình 'Nuôi heo đất' ở trường học nhằm mục đích gì?", options: ["Trang trí lớp học", "Quyên góp giúp đỡ bạn khó khăn", "Không có mục đích cụ thể", "Chỉ để vui chơi"], correctIndex: 1, explanation: "Chương trình 'Nuôi heo đất' nhằm quyên góp giúp đỡ các bạn có hoàn cảnh khó khăn." },
+    ]
+  ),
+
+  "dao-duc:3:thuc-hanh-ung-xu-noi-cong-cong": practiceContent(
+    "Thực hành",
+    "Ứng xử nơi công cộng",
+    "Hãy nhớ lại các quy tắc ứng xử văn minh nơi công cộng.",
+    [
+      { question: "Hành động nào thể hiện ứng xử văn minh nơi công cộng?", options: ["Nói to gây ồn ào", "Xếp hàng trật tự khi cần", "Xả rác bừa bãi", "Chen lấn, xô đẩy"], correctIndex: 1, explanation: "Xếp hàng trật tự thể hiện ứng xử văn minh." },
+      { question: "Nơi nào sau đây được coi là nơi công cộng?", options: ["Phòng ngủ của em", "Công viên", "Phòng riêng trong nhà", "Tủ quần áo"], correctIndex: 1, explanation: "Công viên là nơi dùng chung cho nhiều người." },
+      { question: "Ứng xử văn minh nơi công cộng mang lại lợi ích gì?", options: ["Không có lợi ích gì", "Tạo môi trường thoải mái, an toàn cho mọi người", "Gây phiền phức", "Chỉ có lợi cho bản thân"], correctIndex: 1, explanation: "Ứng xử văn minh tạo môi trường thoải mái cho mọi người." },
+      { question: "Xếp hàng trật tự nơi công cộng được xem là gì ở nhiều nước?", options: ["Không quan trọng", "Một phép lịch sự cơ bản", "Chỉ dành cho người lớn", "Không cần thiết"], correctIndex: 1, explanation: "Xếp hàng trật tự được xem là phép lịch sự cơ bản." },
+    ]
+  ),
+
+  "dao-duc:3:luyen-tap-tiet-kiem-thoi-gian": practiceContent(
+    "Luyện tập",
+    "Tiết kiệm thời gian",
+    "Hãy nhớ lại các biểu hiện của việc sử dụng thời gian hợp lý.",
+    [
+      { question: "Vì sao cần tiết kiệm thời gian?", options: ["Thời gian có thể lấy lại được", "Thời gian đã trôi qua không thể lấy lại", "Thời gian không quan trọng", "Không có lý do gì"], correctIndex: 1, explanation: "Thời gian đã trôi qua thì không thể lấy lại." },
+      { question: "Hành động nào thể hiện việc sử dụng thời gian hợp lý?", options: ["Trì hoãn công việc", "Lập kế hoạch học tập rõ ràng", "Xao nhãng khi học bài", "Không có kế hoạch gì"], correctIndex: 1, explanation: "Lập kế hoạch rõ ràng giúp sử dụng thời gian hiệu quả." },
+      { question: "Công cụ nào giúp em sắp xếp thời gian khoa học hơn?", options: ["Thời gian biểu hàng ngày", "Không cần công cụ gì", "Chơi điện thoại liên tục", "Không lập kế hoạch"], correctIndex: 0, explanation: "Thời gian biểu giúp sắp xếp công việc khoa học." },
+      { question: "Ai từng nói câu 'Thời gian là tiền bạc'?", options: ["Isaac Newton", "Benjamin Franklin", "Albert Einstein", "Charles Darwin"], correctIndex: 1, explanation: "Benjamin Franklin từng nói câu nổi tiếng này." },
+    ]
+  ),
+
+  "dao-duc:3:van-dung-bao-ve-cua-cong": practiceContent(
+    "Vận dụng",
+    "Bảo vệ của công",
+    "Hãy nhớ lại ý nghĩa của việc bảo vệ tài sản chung.",
+    [
+      { question: "Tài sản nào sau đây là của công?", options: ["Cặp sách của em", "Ghế đá trong công viên", "Quần áo của em", "Đồ chơi riêng"], correctIndex: 1, explanation: "Ghế đá trong công viên là tài sản chung." },
+      { question: "Hành động nào thể hiện ý thức bảo vệ của công?", options: ["Vẽ bậy lên tường trường học", "Giữ gìn bàn ghế lớp học sạch đẹp", "Bẻ cành cây công viên", "Phá hoại đồ dùng chung"], correctIndex: 1, explanation: "Giữ gìn bàn ghế lớp học thể hiện ý thức bảo vệ tài sản chung." },
+      { question: "Vì sao cần bảo vệ của công?", options: ["Vì của công không quan trọng", "Vì của công phục vụ lợi ích chung", "Không cần bảo vệ", "Chỉ người lớn cần quan tâm"], correctIndex: 1, explanation: "Của công phục vụ lợi ích chung, cần được giữ gìn." },
+      { question: "Phá hoại tài sản công cộng có thể bị xử lý như thế nào?", options: ["Không bị xử lý gì", "Có thể bị xử phạt hành chính", "Được khen thưởng", "Không có quy định nào"], correctIndex: 1, explanation: "Phá hoại tài sản công cộng có thể bị xử phạt theo quy định." },
+    ]
+  ),
+
+  "dao-duc:3:tro-choi-on-tap-kinh-gia-yeu-tre": practiceContent(
+    "Trò chơi ôn tập",
+    "Kính già, yêu trẻ",
+    "Hãy nhớ lại ý nghĩa của truyền thống kính già, yêu trẻ.",
+    [
+      { question: "Hành động nào thể hiện sự kính trọng người già?", options: ["Chen lấn không nhường chỗ", "Nhường chỗ ngồi cho người già trên xe buýt", "Nói trống không", "Không chào hỏi"], correctIndex: 1, explanation: "Nhường chỗ ngồi thể hiện sự kính trọng." },
+      { question: "Hành động nào thể hiện tình yêu thương với trẻ nhỏ?", options: ["Bắt nạt em nhỏ", "Nhường nhịn, bảo vệ em nhỏ", "Trêu chọc em nhỏ", "Không quan tâm"], correctIndex: 1, explanation: "Nhường nhịn, bảo vệ em nhỏ thể hiện tình yêu thương." },
+      { question: "Ngày Quốc tế Người cao tuổi là ngày nào?", options: ["1/6", "20/11", "1/10", "8/3"], correctIndex: 2, explanation: "Ngày 1/10 hàng năm là Ngày Quốc tế Người cao tuổi." },
+      { question: "Ngày Quốc tế Thiếu nhi là ngày nào?", options: ["1/6", "20/11", "1/10", "8/3"], correctIndex: 0, explanation: "Ngày 1/6 là Ngày Quốc tế Thiếu nhi." },
+    ]
+  ),
+
+  "dao-duc:3:thu-thach-nho-on-tap-cuoi-nam-hoc": practiceContent(
+    "Thử thách nhỏ",
+    "Ôn tập cuối năm học",
+    "Hãy nhớ lại các giá trị đạo đức trọng tâm đã học trong năm lớp 3.",
+    [
+      { question: "Khi gặp tình huống bất an, em nên tìm đến ai để được giúp đỡ?", options: ["Người lạ", "Người lớn đáng tin cậy", "Không cần tìm ai", "Tự giải quyết một mình"], correctIndex: 1, explanation: "Người lớn đáng tin cậy sẽ giúp em xử lý tình huống an toàn." },
+      { question: "'Kính già, yêu trẻ' thể hiện điều gì?", options: ["Sự ích kỷ", "Truyền thống đạo đức tốt đẹp", "Không có ý nghĩa gì", "Chỉ dành cho người lớn"], correctIndex: 1, explanation: "Đây là truyền thống đạo đức tốt đẹp của dân tộc." },
+      { question: "Vì sao cần giữ lời hứa?", options: ["Không cần thiết", "Để được mọi người tin tưởng", "Chỉ để cho vui", "Không có lý do gì"], correctIndex: 1, explanation: "Giữ lời hứa giúp em được mọi người tin tưởng." },
+      { question: "Số điện thoại của Tổng đài quốc gia bảo vệ trẻ em là gì?", options: ["111", "113", "114", "115"], correctIndex: 0, explanation: "111 là số điện thoại của Tổng đài quốc gia bảo vệ trẻ em." },
+    ]
+  ),
+
+  // ─────────────── TIN HỌC — LỚP 3 — bài thực hành ───────────────
+  "tin-hoc:3:thuc-hanh-thong-tin-va-xu-li-thong-tin": practiceContent(
+    "Thực hành",
+    "Thông tin và xử lí thông tin",
+    "Hãy nhớ lại các dạng thông tin và vai trò của máy tính.",
+    [
+      { question: "Biển báo giao thông là thông tin dạng nào?", options: ["Chữ viết", "Âm thanh", "Hình ảnh", "Không phải thông tin"], correctIndex: 2, explanation: "Biển báo giao thông truyền tải thông tin bằng hình ảnh, ký hiệu." },
+      { question: "Cuốn sách truyền tải thông tin chủ yếu dưới dạng nào?", options: ["Âm thanh", "Chữ viết", "Chỉ hình ảnh", "Không có dạng nào"], correctIndex: 1, explanation: "Sách chủ yếu truyền tải thông tin dưới dạng chữ viết." },
+      { question: "Tiếng chuông báo hết giờ học là thông tin dạng gì?", options: ["Chữ viết", "Âm thanh", "Hình ảnh", "Không phải thông tin"], correctIndex: 1, explanation: "Tiếng chuông là âm thanh, báo hiệu hết giờ học." },
+      { question: "Máy tính giúp con người làm gì với thông tin?", options: ["Chỉ lưu trữ", "Xử lí và đưa ra kết quả", "Không làm gì cả", "Chỉ hiển thị hình ảnh"], correctIndex: 1, explanation: "Máy tính giúp xử lí thông tin và đưa ra kết quả hữu ích." },
+    ]
+  ),
+
+  "tin-hoc:3:luyen-tap-go-van-ban-don-gian": practiceContent(
+    "Luyện tập",
+    "Gõ văn bản đơn giản",
+    "Hãy nhớ lại cách gõ chữ và sửa lỗi trong văn bản.",
+    [
+      { question: "Phím nào dùng để tạo khoảng trắng giữa các từ?", options: ["Enter", "Space", "Shift", "Tab"], correctIndex: 1, explanation: "Phím Space dùng để tạo khoảng trắng giữa các từ." },
+      { question: "Phím nào dùng để xoá chữ phía trước con trỏ?", options: ["Delete", "Backspace", "Enter", "Shift"], correctIndex: 1, explanation: "Phím Backspace xoá chữ ở phía trước con trỏ." },
+      { question: "Phím Enter thường dùng để làm gì khi soạn thảo văn bản?", options: ["Xoá chữ", "Xuống dòng mới", "Tạo khoảng trắng", "Đóng phần mềm"], correctIndex: 1, explanation: "Phím Enter dùng để xuống dòng mới khi soạn thảo." },
+      { question: "Để mở phần mềm soạn thảo văn bản, em thường làm gì?", options: ["Nháy đúp chuột vào biểu tượng phần mềm", "Tắt máy tính", "Rút dây nguồn", "Không cần thao tác gì"], correctIndex: 0, explanation: "Nháy đúp chuột vào biểu tượng là cách mở phần mềm." },
+    ]
+  ),
+
+  "tin-hoc:3:van-dung-tu-the-ngoi-va-an-toan-khi-dung-may-tinh": practiceContent(
+    "Vận dụng",
+    "Tư thế ngồi và an toàn khi dùng máy tính",
+    "Hãy nhớ lại tư thế ngồi đúng khi sử dụng máy tính.",
+    [
+      { question: "Khoảng cách hợp lý giữa mắt và màn hình máy tính là bao nhiêu?", options: ["10cm", "khoảng 50cm", "2m", "5m"], correctIndex: 1, explanation: "Khoảng cách hợp lý là khoảng 50cm." },
+      { question: "Ngồi sai tư thế lâu ngày có thể gây ra hậu quả gì?", options: ["Không ảnh hưởng gì", "Mỏi mắt, đau lưng, cong vẹo cột sống", "Giúp học giỏi hơn", "Không có tác hại"], correctIndex: 1, explanation: "Ngồi sai tư thế lâu có thể gây mỏi mắt, đau lưng." },
+      { question: "Sau bao lâu sử dụng máy tính thì em nên cho mắt nghỉ ngơi?", options: ["Mỗi 20-30 phút", "Mỗi 5 giờ", "Không cần nghỉ", "Mỗi 10 giây"], correctIndex: 0, explanation: "Nên cho mắt nghỉ sau mỗi 20-30 phút." },
+      { question: "Tư thế ngồi đúng khi dùng máy tính là như thế nào?", options: ["Ngồi thẳng lưng, chân vuông góc trên sàn", "Ngồi cong lưng, chân co lên ghế", "Nằm khi dùng máy tính", "Không cần chú ý tư thế"], correctIndex: 0, explanation: "Ngồi thẳng lưng, chân vuông góc trên sàn là tư thế đúng." },
+    ]
+  ),
+
+  "tin-hoc:3:tro-choi-on-tap-cac-dang-thong-tin-chu-am-thanh-hinh-anh": practiceContent(
+    "Trò chơi ôn tập",
+    "Các dạng thông tin: chữ, âm thanh, hình ảnh",
+    "Hãy nhớ lại ba dạng thông tin cơ bản.",
+    [
+      { question: "Một bài hát là thông tin dạng nào?", options: ["Chữ viết", "Âm thanh", "Hình ảnh", "Không phải thông tin"], correctIndex: 1, explanation: "Bài hát truyền tải thông tin qua âm thanh." },
+      { question: "Một bức ảnh chụp gia đình là thông tin dạng nào?", options: ["Chữ viết", "Âm thanh", "Hình ảnh", "Không có dạng nào"], correctIndex: 2, explanation: "Ảnh chụp truyền tải thông tin qua hình ảnh." },
+      { question: "Video kết hợp những dạng thông tin nào?", options: ["Chỉ hình ảnh", "Chỉ âm thanh", "Cả hình ảnh và âm thanh", "Không chứa thông tin gì"], correctIndex: 2, explanation: "Video kết hợp cả hình ảnh chuyển động và âm thanh." },
+      { question: "Tin nhắn văn bản em gửi cho bạn là thông tin dạng gì?", options: ["Chữ viết", "Âm thanh", "Hình ảnh", "Không phải thông tin"], correctIndex: 0, explanation: "Tin nhắn văn bản là thông tin dạng chữ viết." },
+    ]
+  ),
+
+  "tin-hoc:3:thu-thach-nho-may-tinh-giup-xu-li-thong-tin-nhu-the-nao": practiceContent(
+    "Thử thách nhỏ",
+    "Máy tính giúp xử lí thông tin như thế nào",
+    "Hãy nhớ lại ba bước xử lí thông tin của máy tính.",
+    [
+      { question: "Ba bước xử lí thông tin của máy tính là gì?", options: ["Nhận thông tin - Xử lí - Đưa ra kết quả", "Chỉ có một bước", "Tắt máy - Bật máy - Xử lí", "Không có bước nào"], correctIndex: 0, explanation: "Ba bước là nhận vào, xử lí, và đưa ra kết quả." },
+      { question: "Khi em gõ phép tính vào máy tính, đó là bước nào?", options: ["Đầu vào (input)", "Xử lí", "Đầu ra (output)", "Không phải bước nào"], correctIndex: 0, explanation: "Gõ phép tính vào là bước nhận thông tin đầu vào." },
+      { question: "Kết quả hiển thị trên màn hình sau khi xử lí được gọi là gì?", options: ["Đầu vào", "Đầu ra", "Không có tên gọi", "Dữ liệu thô"], correctIndex: 1, explanation: "Kết quả sau xử lí được gọi là đầu ra (output)." },
+      { question: "Bộ vi xử lý trong máy tính hiện đại có thể thực hiện bao nhiêu phép tính mỗi giây (ước tính)?", options: ["Hàng chục", "Hàng nghìn", "Hàng triệu", "Hàng tỷ"], correctIndex: 3, explanation: "Bộ vi xử lý hiện đại có thể thực hiện hàng tỷ phép tính mỗi giây." },
+    ]
+  ),
+
+  "tin-hoc:3:thuc-hanh-lam-quen-phan-mem-soan-thao-van-ban": practiceContent(
+    "Thực hành",
+    "Làm quen phần mềm soạn thảo văn bản",
+    "Hãy nhớ lại các thành phần chính trong giao diện phần mềm soạn thảo.",
+    [
+      { question: "Vùng nào trong phần mềm soạn thảo dùng để gõ chữ?", options: ["Thanh tiêu đề", "Vùng soạn thảo", "Thanh công cụ", "Không có vùng nào"], correctIndex: 1, explanation: "Vùng soạn thảo là nơi em gõ nội dung văn bản." },
+      { question: "Thanh công cụ trong phần mềm soạn thảo dùng để làm gì?", options: ["Chỉ để trang trí", "Chứa các nút chức năng như in đậm, lưu tài liệu", "Không có tác dụng gì", "Để tắt máy tính"], correctIndex: 1, explanation: "Thanh công cụ chứa các nút chức năng để định dạng, thao tác." },
+      { question: "Để đóng phần mềm, em thường nháy vào đâu?", options: ["Dấu X ở góc trên bên phải", "Giữa màn hình", "Không cần thao tác gì", "Phím Enter"], correctIndex: 0, explanation: "Nháy vào dấu X để đóng phần mềm." },
+      { question: "Để mở một phần mềm mới, em thường làm gì?", options: ["Nháy đúp vào biểu tượng phần mềm", "Rút dây nguồn máy tính", "Gõ liên tục phím Enter", "Không cần thao tác gì"], correctIndex: 0, explanation: "Nháy đúp vào biểu tượng là cách mở phần mềm." },
+    ]
+  ),
+
+  "tin-hoc:3:luyen-tap-go-chu-co-dau-tieng-viet": practiceContent(
+    "Luyện tập",
+    "Gõ chữ có dấu tiếng Việt",
+    "Hãy nhớ lại cách gõ dấu theo kiểu Telex.",
+    [
+      { question: "Trong kiểu gõ Telex, gõ chữ nào để tạo dấu huyền?", options: ["s", "f", "r", "x"], correctIndex: 1, explanation: "Gõ 'f' để tạo dấu huyền trong kiểu gõ Telex." },
+      { question: "Trong kiểu gõ Telex, gõ chữ nào để tạo dấu hỏi?", options: ["s", "f", "r", "x"], correctIndex: 2, explanation: "Gõ 'r' để tạo dấu hỏi trong kiểu gõ Telex." },
+      { question: "Để gõ chữ 'ã', em gõ tổ hợp nào theo kiểu Telex?", options: ["as", "af", "ar", "ax"], correctIndex: 3, explanation: "Gõ 'ax' sẽ cho ra chữ 'ã' (x tạo dấu ngã)." },
+      { question: "Phần mềm nào thường dùng để gõ được chữ tiếng Việt có dấu?", options: ["Unikey", "Paint", "Calculator", "Notepad"], correctIndex: 0, explanation: "Unikey là phần mềm bộ gõ tiếng Việt phổ biến." },
+    ]
+  ),
+
+  "tin-hoc:3:van-dung-dinh-dang-chu-dam-chu-nghieng": practiceContent(
+    "Vận dụng",
+    "Định dạng chữ đậm, chữ nghiêng",
+    "Hãy nhớ lại cách sử dụng các nút định dạng chữ.",
+    [
+      { question: "Nút nào trên thanh công cụ dùng để in đậm chữ?", options: ["B", "I", "U", "X"], correctIndex: 0, explanation: "Nút 'B' (Bold) dùng để in đậm chữ." },
+      { question: "Trước khi định dạng chữ đậm hoặc nghiêng, em cần làm gì?", options: ["Tắt máy tính", "Bôi đen đoạn chữ cần định dạng", "Không cần thao tác gì", "Xoá hết văn bản"], correctIndex: 1, explanation: "Cần bôi đen đoạn chữ trước khi định dạng." },
+      { question: "Chữ nghiêng thường được dùng để làm gì?", options: ["Xoá văn bản", "Nhấn mạnh hoặc trích dẫn", "Đổi màu nền", "Không có tác dụng gì"], correctIndex: 1, explanation: "Chữ nghiêng thường dùng để nhấn mạnh hoặc trích dẫn." },
+      { question: "Nút nào dùng để gạch chân chữ?", options: ["B", "I", "U", "X"], correctIndex: 2, explanation: "Nút 'U' (Underline) dùng để gạch chân chữ." },
+    ]
+  ),
+
+  "tin-hoc:3:tro-choi-on-tap-chen-hinh-anh-vao-van-ban": practiceContent(
+    "Trò chơi ôn tập",
+    "Chèn hình ảnh vào văn bản",
+    "Hãy nhớ lại các bước chèn và điều chỉnh hình ảnh trong văn bản.",
+    [
+      { question: "Để chèn hình ảnh vào văn bản, em vào mục nào trên thanh công cụ?", options: ["Chèn (Insert)", "Xoá (Delete)", "Lưu (Save)", "Thoát (Exit)"], correctIndex: 0, explanation: "Mục 'Chèn' chứa chức năng chèn hình ảnh." },
+      { question: "Sau khi chèn hình ảnh, em có thể làm gì với hình ảnh đó?", options: ["Không thể thay đổi gì", "Thay đổi kích thước bằng cách kéo góc hình", "Chỉ có thể xoá", "Không thể di chuyển"], correctIndex: 1, explanation: "Em có thể kéo góc để thay đổi kích thước hình ảnh." },
+      { question: "Chèn hình ảnh vào văn bản mang lại lợi ích gì?", options: ["Không có lợi ích gì", "Giúp bài viết sinh động, dễ hiểu hơn", "Làm bài viết khó đọc hơn", "Không liên quan đến nội dung"], correctIndex: 1, explanation: "Hình ảnh minh hoạ giúp bài viết sinh động hơn." },
+      { question: "Câu nói nào thể hiện giá trị của hình ảnh trong việc truyền đạt thông tin?", options: ["Một bức tranh đáng giá ngàn lời nói", "Không có câu nói nào phù hợp", "Hình ảnh không quan trọng", "Chữ viết luôn tốt hơn hình ảnh"], correctIndex: 0, explanation: "Câu 'một bức tranh đáng giá ngàn lời nói' thể hiện giá trị của hình ảnh." },
+    ]
+  ),
+
+  "tin-hoc:3:thu-thach-nho-luu-va-mo-lai-tep-van-ban": practiceContent(
+    "Thử thách nhỏ",
+    "Lưu và mở lại tệp văn bản",
+    "Hãy nhớ lại các bước lưu và mở lại một tệp văn bản.",
+    [
+      { question: "Điều gì có thể xảy ra nếu em không lưu tệp văn bản?", options: ["Không có gì xảy ra", "Nội dung có thể bị mất", "Máy tính sẽ tự lưu mãi mãi", "Tệp sẽ tự động in ra"], correctIndex: 1, explanation: "Nếu không lưu, nội dung có thể bị mất." },
+      { question: "Để lưu tệp văn bản, em vào mục nào?", options: ["Tệp (File) > Lưu (Save)", "Xem (View)", "Trợ giúp (Help)", "Không cần vào mục nào"], correctIndex: 0, explanation: "Vào mục 'Tệp' rồi chọn 'Lưu' để lưu văn bản." },
+      { question: "Để mở lại một tệp đã lưu trước đó, em làm gì?", options: ["Vào Tệp > Mở, tìm và nháy đúp vào tên tệp", "Xoá máy tính đi", "Không thể mở lại", "Gõ lại toàn bộ nội dung"], correctIndex: 0, explanation: "Vào mục 'Tệp' chọn 'Mở' để mở lại tệp đã lưu." },
+      { question: "Tính năng nào giúp giảm nguy cơ mất dữ liệu khi quên lưu tệp?", options: ["Tự động lưu (auto-save)", "Không có tính năng nào", "Xoá tự động", "Tắt máy tự động"], correctIndex: 0, explanation: "Tính năng tự động lưu giúp giảm nguy cơ mất dữ liệu." },
+    ]
+  ),
+
+  "tin-hoc:3:thuc-hanh-nhan-biet-thong-tin-tren-internet-co-su-ho-tro": practiceContent(
+    "Thực hành",
+    "Nhận biết thông tin trên Internet có sự hỗ trợ",
+    "Hãy nhớ lại khái niệm Internet và cách sử dụng an toàn.",
+    [
+      { question: "Internet là gì?", options: ["Một loại đồ chơi", "Mạng lưới kết nối hàng triệu máy tính trên thế giới", "Một phần mềm vẽ tranh", "Một loại virus máy tính"], correctIndex: 1, explanation: "Internet là mạng lưới kết nối hàng triệu máy tính." },
+      { question: "Khi sử dụng Internet, em nên làm gì?", options: ["Tự ý truy cập một mình", "Có người lớn hướng dẫn, đi cùng", "Trò chuyện với người lạ", "Không cần thận trọng gì"], correctIndex: 1, explanation: "Trẻ em nên sử dụng Internet có sự hướng dẫn của người lớn." },
+      { question: "Internet có thể giúp ích gì cho việc học tập?", options: ["Không có ích gì", "Tìm kiếm thông tin, tài liệu học tập", "Chỉ dùng để chơi game", "Không liên quan đến học tập"], correctIndex: 1, explanation: "Internet là nguồn tài nguyên phong phú giúp tìm kiếm thông tin." },
+      { question: "Internet trở nên phổ biến rộng rãi trên thế giới từ khoảng thời gian nào?", options: ["Những năm 1960", "Những năm 1990", "Những năm 2020", "Chưa bao giờ phổ biến"], correctIndex: 1, explanation: "Internet chỉ thực sự phổ biến rộng rãi từ những năm 1990." },
+    ]
+  ),
+
+  "tin-hoc:3:luyen-tap-tri-tue-nhan-tao-ai-la-gi": practiceContent(
+    "Luyện tập",
+    "Trí tuệ nhân tạo (AI) là gì?",
+    "Hãy nhớ lại khái niệm AI và các ví dụ gần gũi trong đời sống.",
+    [
+      { question: "AI là viết tắt của cụm từ nào?", options: ["Artificial Intelligence", "Automatic Internet", "Amazing Information", "Active Interaction"], correctIndex: 0, explanation: "AI là viết tắt của 'Artificial Intelligence'." },
+      { question: "Ví dụ nào sau đây là một ứng dụng của AI?", options: ["Trợ lý giọng nói trên điện thoại", "Cái bút chì", "Quyển vở", "Cái bàn học"], correctIndex: 0, explanation: "Trợ lý giọng nói sử dụng công nghệ AI." },
+      { question: "Điều nào sau đây đúng về AI?", options: ["AI có cảm xúc giống hệt con người", "AI là chương trình máy tính, không có cảm xúc thật", "AI không thể giúp ích gì cho con người", "AI chỉ tồn tại trong phim khoa học viễn tưởng"], correctIndex: 1, explanation: "AI là chương trình máy tính được lập trình, không có cảm xúc thật." },
+      { question: "Từ 'trí tuệ nhân tạo' lần đầu được sử dụng vào khoảng thời gian nào?", options: ["Năm 1956", "Năm 1900", "Năm 2000", "Năm 2020"], correctIndex: 0, explanation: "Từ 'trí tuệ nhân tạo' lần đầu được sử dụng vào năm 1956." },
+    ]
+  ),
+
+  "tin-hoc:3:van-dung-bao-ve-mat-khi-dung-thiet-bi-dien-tu": practiceContent(
+    "Vận dụng",
+    "Bảo vệ mắt khi dùng thiết bị điện tử",
+    "Hãy nhớ lại cách bảo vệ mắt khi sử dụng máy tính, điện thoại.",
+    [
+      { question: "Nhìn màn hình quá lâu có thể gây ra tác hại gì?", options: ["Không có tác hại gì", "Mỏi mắt, giảm thị lực", "Giúp mắt khoẻ hơn", "Không ảnh hưởng đến giấc ngủ"], correctIndex: 1, explanation: "Nhìn màn hình quá lâu có thể gây mỏi mắt." },
+      { question: "Để bảo vệ mắt, em nên làm gì khi dùng máy tính?", options: ["Ngồi sát màn hình", "Giữ khoảng cách hợp lý và cho mắt nghỉ ngơi", "Dùng thiết bị liên tục không nghỉ", "Tắt hết đèn trong phòng"], correctIndex: 1, explanation: "Giữ khoảng cách hợp lý và nghỉ ngơi định kỳ giúp bảo vệ mắt." },
+      { question: "Quy tắc '20-20-20' khuyên điều gì?", options: [
+          "Học 20 phút, chơi 20 phút, ngủ 20 phút",
+          "Sau 20 phút nhìn màn hình, nhìn xa 20 feet trong 20 giây",
+          "Ăn 20 bữa một ngày",
+          "Không có quy tắc này",
+        ], correctIndex: 1, explanation: "Quy tắc 20-20-20 giúp mắt được thư giãn sau khi nhìn màn hình lâu." },
+      { question: "Các bác sĩ khuyên trẻ em dưới 10 tuổi nên dùng thiết bị điện tử tối đa bao lâu mỗi ngày?", options: ["1-2 tiếng", "5-6 tiếng", "Cả ngày", "Không có giới hạn"], correctIndex: 0, explanation: "Các bác sĩ khuyên nên giới hạn 1-2 tiếng mỗi ngày." },
+    ]
+  ),
+
+  "tin-hoc:3:tro-choi-on-tap-tro-choi-ren-tu-duy-logic-tren-may-tinh": practiceContent(
+    "Trò chơi ôn tập",
+    "Trò chơi rèn tư duy logic trên máy tính",
+    "Hãy nhớ lại lợi ích của các trò chơi rèn tư duy logic.",
+    [
+      { question: "Trò chơi rèn tư duy logic có thể giúp ích điều gì?", options: ["Không có lợi ích gì", "Rèn khả năng quan sát, suy luận", "Chỉ gây mất thời gian", "Làm giảm khả năng tập trung"], correctIndex: 1, explanation: "Trò chơi tư duy logic rèn khả năng quan sát, suy luận." },
+      { question: "Ví dụ nào là trò chơi rèn tư duy logic?", options: ["Xếp hình, giải đố mê cung", "Xem phim hoạt hình", "Nghe nhạc", "Ngủ trưa"], correctIndex: 0, explanation: "Xếp hình, giải đố mê cung là trò chơi rèn tư duy logic." },
+      { question: "Khi chơi trò chơi trên máy tính, em cần lưu ý điều gì?", options: ["Chơi thoải mái không giới hạn", "Chơi có kiểm soát thời gian hợp lý", "Chơi cả ngày không nghỉ", "Không cần quan tâm học tập"], correctIndex: 1, explanation: "Chơi có kiểm soát thời gian giúp cân bằng học tập và giải trí." },
+      { question: "Trò chơi nào được xem là rèn luyện tư duy logic tốt nhất, được nhiều nhà khoa học nghiên cứu?", options: ["Cờ vua", "Trốn tìm", "Nhảy dây", "Đá bóng"], correctIndex: 0, explanation: "Cờ vua được xem là trò chơi rèn tư duy logic rất tốt." },
+    ]
+  ),
+
+  "tin-hoc:3:thu-thach-nho-on-tap-cuoi-nam-hoc": practiceContent(
+    "Thử thách nhỏ",
+    "Ôn tập cuối năm học",
+    "Hãy nhớ lại các kiến thức Tin Học lớp 3 trọng tâm đã học trong năm.",
+    [
+      { question: "Ba dạng thông tin cơ bản mà em đã học là gì?", options: ["Chữ, âm thanh, hình ảnh", "Chỉ có chữ viết", "Chỉ có âm thanh", "Không có dạng nào cụ thể"], correctIndex: 0, explanation: "Ba dạng thông tin cơ bản là chữ, âm thanh và hình ảnh." },
+      { question: "Phần mềm nào giúp gõ được chữ tiếng Việt có dấu?", options: ["Unikey", "Paint", "Calculator", "Không cần phần mềm nào"], correctIndex: 0, explanation: "Unikey là phần mềm bộ gõ tiếng Việt phổ biến." },
+      { question: "Khi sử dụng Internet, trẻ em nên làm gì để đảm bảo an toàn?", options: ["Tự ý dùng một mình", "Có người lớn hướng dẫn, giám sát", "Không cần thận trọng", "Trò chuyện với người lạ"], correctIndex: 1, explanation: "Trẻ em nên sử dụng Internet có sự hướng dẫn của người lớn." },
+      { question: "AI là viết tắt của cụm từ nào?", options: ["Artificial Intelligence", "Automatic Internet", "Amazing Information", "Active Interaction"], correctIndex: 0, explanation: "AI là viết tắt của 'Artificial Intelligence'." },
+    ]
+  ),
 
 };
 

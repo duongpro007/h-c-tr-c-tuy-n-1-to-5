@@ -53,12 +53,17 @@ const PRACTICE_TEXT: Record<(typeof PRACTICE_VERBS)[number], string> = {
   "Thử thách nhỏ": "Thử sức với một thử thách nhỏ để kiểm tra mức độ hiểu bài.",
 };
 
-function unit(chapterTitle: string, chapterDescription: string, topics: Topic[]): Chapter {
+function unit(
+  chapterTitle: string,
+  chapterDescription: string,
+  topics: Topic[],
+  practiceReady?: boolean
+): Chapter {
   const lessons: Lesson[] = [];
   topics.forEach((t, i) => {
     lessons.push(L(t.title, t.summary, t.opts));
     const verb = PRACTICE_VERBS[i % PRACTICE_VERBS.length];
-    lessons.push(L(`${verb}: ${t.title}`, PRACTICE_TEXT[verb]));
+    lessons.push(L(`${verb}: ${t.title}`, PRACTICE_TEXT[verb], practiceReady ? { ready: true } : undefined));
   });
   return C(chapterTitle, chapterDescription, lessons);
 }
@@ -70,10 +75,11 @@ function readyAll(topics: Topic[]): Topic[] {
 }
 
 // Ghép 15 chủ đề lõi thành 3 chương (5 chủ đề/chương); mỗi chương sau khi ghép thực hành có 10 bài,
-// tổng 3 chương = 30 bài/môn/lớp.
-function grade30(chapterDefs: [string, string][], topics: Topic[]): Chapter[] {
+// tổng 3 chương = 30 bài/môn/lớp. Truyền practiceReady=true khi các bài "Thực hành/Luyện tập..."
+// của khối lớp/môn đó cũng đã được biên soạn xong bộ câu hỏi riêng trong lessons.ts.
+function grade30(chapterDefs: [string, string][], topics: Topic[], practiceReady?: boolean): Chapter[] {
   const chunks = [topics.slice(0, 5), topics.slice(5, 10), topics.slice(10, 15)];
-  return chapterDefs.map(([title, description], i) => unit(title, description, chunks[i]));
+  return chapterDefs.map(([title, description], i) => unit(title, description, chunks[i], practiceReady));
 }
 
 const TOAN_CHAPTERS: [string, string][] = [
@@ -651,37 +657,37 @@ const th5Topics: Topic[] = [
 export const curriculum: SubjectCurriculum[] = [
   { subject: "toan", grade: 1, intro: "Làm quen số đếm, hình học và phép tính đầu tiên qua trò chơi trực quan.", chapters: grade30(TOAN_CHAPTERS, toan1Topics) },
   { subject: "toan", grade: 2, intro: "Củng cố phép cộng trừ có nhớ, làm quen phép nhân, phép chia.", chapters: grade30(TOAN_CHAPTERS, toan2Topics) },
-  { subject: "toan", grade: 3, intro: "Hoàn thiện bảng nhân chia, làm quen phân số và số lớn.", chapters: grade30(TOAN_CHAPTERS, readyAll(toan3Topics)) },
+  { subject: "toan", grade: 3, intro: "Hoàn thiện bảng nhân chia, làm quen phân số và số lớn.", chapters: grade30(TOAN_CHAPTERS, readyAll(toan3Topics), true) },
   { subject: "toan", grade: 4, intro: "Số tự nhiên lớn, phân số và hình học nâng cao.", chapters: grade30(TOAN_CHAPTERS, toan4Topics) },
   { subject: "toan", grade: 5, intro: "Số thập phân, hình học không gian và toán chuyển động.", chapters: grade30(TOAN_CHAPTERS, toan5Topics) },
 
   { subject: "tieng-viet", grade: 1, intro: "Học vần, tập đọc, tập viết những nét chữ đầu tiên.", chapters: grade30(TV_CHAPTERS, tv1Topics) },
   { subject: "tieng-viet", grade: 2, intro: "Mở rộng vốn từ, luyện chính tả và viết đoạn văn ngắn.", chapters: grade30(TV_CHAPTERS, tv2Topics) },
-  { subject: "tieng-viet", grade: 3, intro: "Từ loại, đọc hiểu văn bản và tập làm văn cơ bản.", chapters: grade30(TV_CHAPTERS, readyAll(tv3Topics)) },
+  { subject: "tieng-viet", grade: 3, intro: "Từ loại, đọc hiểu văn bản và tập làm văn cơ bản.", chapters: grade30(TV_CHAPTERS, readyAll(tv3Topics), true) },
   { subject: "tieng-viet", grade: 4, intro: "Luyện từ câu nâng cao, cảm thụ văn học và văn miêu tả.", chapters: grade30(TV_CHAPTERS, tv4Topics) },
   { subject: "tieng-viet", grade: 5, intro: "Câu ghép nâng cao, đọc hiểu văn bản và văn tả người.", chapters: grade30(TV_CHAPTERS, tv5Topics) },
 
   { subject: "tieng-anh", grade: 1, intro: "Làm quen tiếng Anh qua chào hỏi, bảng chữ cái, màu sắc.", chapters: grade30(TA_CHAPTERS, ta1Topics) },
   { subject: "tieng-anh", grade: 2, intro: "Giới thiệu bản thân, gia đình, số đếm và đồ chơi.", chapters: grade30(TA_CHAPTERS, ta2Topics) },
-  { subject: "tieng-anh", grade: 3, intro: "Giao tiếp cơ bản về trường học, ngôi nhà và sở thích.", chapters: grade30(TA_CHAPTERS, readyAll(ta3Topics)) },
+  { subject: "tieng-anh", grade: 3, intro: "Giao tiếp cơ bản về trường học, ngôi nhà và sở thích.", chapters: grade30(TA_CHAPTERS, readyAll(ta3Topics), true) },
   { subject: "tieng-anh", grade: 4, intro: "Mô tả người thân, hoạt động hàng ngày, món ăn và nghề nghiệp.", chapters: grade30(TA_CHAPTERS, ta4Topics) },
   { subject: "tieng-anh", grade: 5, intro: "Cộng đồng, sức khoẻ, môi trường và chuẩn bị lên lớp 6.", chapters: grade30(TA_CHAPTERS, ta5Topics) },
 
   { subject: "kham-pha", grade: 1, intro: "Khám phá gia đình, trường học và thiên nhiên quanh em.", chapters: grade30(KP_CHAPTERS, kp1Topics) },
   { subject: "kham-pha", grade: 2, intro: "Tìm hiểu trường học, cộng đồng, cơ thể người và bầu trời.", chapters: grade30(KP_CHAPTERS, kp2Topics) },
-  { subject: "kham-pha", grade: 3, intro: "Mở rộng hiểu biết về gia đình, cộng đồng và thế giới tự nhiên.", chapters: grade30(KP_CHAPTERS, readyAll(kp3Topics)) },
+  { subject: "kham-pha", grade: 3, intro: "Mở rộng hiểu biết về gia đình, cộng đồng và thế giới tự nhiên.", chapters: grade30(KP_CHAPTERS, readyAll(kp3Topics), true) },
   { subject: "kham-pha", grade: 4, intro: "Khoa học về chất, sức khoẻ; lịch sử dựng nước và địa lí Việt Nam.", chapters: grade30(KP_CHAPTERS, kp4Topics) },
   { subject: "kham-pha", grade: 5, intro: "Khoa học sự sống, năng lượng; lịch sử cận đại và địa lí thế giới.", chapters: grade30(KP_CHAPTERS, kp5Topics) },
 
   { subject: "dao-duc", grade: 1, intro: "Tình cảm gia đình và những giá trị sống đầu tiên.", chapters: grade30(DD_CHAPTERS, dd1Topics) },
   { subject: "dao-duc", grade: 2, intro: "Ứng xử ở trường học và trong cộng đồng nhỏ.", chapters: grade30(DD_CHAPTERS, dd2Topics) },
-  { subject: "dao-duc", grade: 3, intro: "Tình yêu Tổ quốc, ứng xử với mọi người và tự bảo vệ bản thân.", chapters: grade30(DD_CHAPTERS, readyAll(dd3Topics)) },
+  { subject: "dao-duc", grade: 3, intro: "Tình yêu Tổ quốc, ứng xử với mọi người và tự bảo vệ bản thân.", chapters: grade30(DD_CHAPTERS, readyAll(dd3Topics), true) },
   { subject: "dao-duc", grade: 4, intro: "Lòng biết ơn, tính trung thực, yêu lao động và hợp tác.", chapters: grade30(DD_CHAPTERS, dd4Topics) },
   { subject: "dao-duc", grade: 5, intro: "Tinh thần trách nhiệm, bảo vệ lẽ phải và định hướng tương lai.", chapters: grade30(DD_CHAPTERS, dd5Topics) },
 
   { subject: "tin-hoc", grade: 1, intro: "Làm quen máy tính và phần mềm vẽ đơn giản.", chapters: grade30(TH_CHAPTERS, th1Topics) },
   { subject: "tin-hoc", grade: 2, intro: "Sử dụng chuột, bàn phím và quản lý tệp tin cơ bản.", chapters: grade30(TH_CHAPTERS, th2Topics) },
-  { subject: "tin-hoc", grade: 3, intro: "Thông tin, soạn thảo văn bản và an toàn khi dùng máy tính.", chapters: grade30(TH_CHAPTERS, readyAll(th3Topics)) },
+  { subject: "tin-hoc", grade: 3, intro: "Thông tin, soạn thảo văn bản và an toàn khi dùng máy tính.", chapters: grade30(TH_CHAPTERS, readyAll(th3Topics), true) },
   { subject: "tin-hoc", grade: 4, intro: "Internet, soạn thảo nâng cao và lập trình kéo-thả Scratch.", chapters: grade30(TH_CHAPTERS, th4Topics) },
   { subject: "tin-hoc", grade: 5, intro: "Kỹ năng tìm kiếm thông tin, lập trình Scratch nâng cao và văn hoá số.", chapters: grade30(TH_CHAPTERS, th5Topics) },
 ];
