@@ -73,7 +73,7 @@ export default function HomePage() {
             <FeatureCard
               icon={<IconBook className="h-6 w-6" />}
               title="Giáo trình bài bản"
-              description="Bám sát chương trình GDPT 2018, cập nhật trong 4-5 năm gần nhất."
+              description="Bám sát chương trình GDPT 2018, cập nhật theo năm học 2025 - 2026."
               color="blue"
             />
             <FeatureCard

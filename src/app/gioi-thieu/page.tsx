@@ -45,7 +45,7 @@ export default function AboutPage() {
           <FeatureCard
             icon={<IconBook className="h-6 w-6" />}
             title="Kiến thức chuẩn hoá"
-            description="Nội dung bám sát chương trình GDPT 2018, cập nhật liên tục theo sách giáo khoa mới nhất."
+            description="Nội dung bám sát chương trình GDPT 2018, cập nhật theo năm học 2025 - 2026 và sách giáo khoa mới nhất."
             color="blue"
           />
           <FeatureCard

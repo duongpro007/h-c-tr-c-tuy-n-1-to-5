@@ -18,7 +18,7 @@ export function Hero() {
         <div className="bounce-in">
           <span className="inline-flex items-center gap-2 rounded-full bg-accent/10 px-4 py-1.5 text-sm font-display font-bold text-accent">
             <IconSparkles className="h-4 w-4" />
-            Giáo trình Tiểu học lớp 1 - lớp 5
+            Giáo trình Tiểu học lớp 1 - lớp 5 · Năm học 2025 - 2026
           </span>
           <h1 className="mt-5 font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight text-balance">
             <span className="text-primary">Học Mà Chơi,</span>

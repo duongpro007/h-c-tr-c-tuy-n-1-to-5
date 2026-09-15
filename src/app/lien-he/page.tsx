@@ -9,10 +9,10 @@ export const metadata: Metadata = {
 };
 
 const infoItems = [
-  { icon: IconMail, label: "Email", value: "hoccungbe@hocmachoi.vn" },
-  { icon: IconPhone, label: "Hotline", value: "1900 6868" },
-  { icon: IconMapPin, label: "Địa chỉ", value: "Quận 1, TP. Hồ Chí Minh, Việt Nam" },
-  { icon: IconClock, label: "Giờ hỗ trợ", value: "7:30 - 21:00, tất cả các ngày trong tuần" },
+  { icon: IconMail, label: "Email", value: "duongpro007@gmail.com" },
+  { icon: IconPhone, label: "Hotline", value: "0988 737 878" },
+  { icon: IconMapPin, label: "Địa chỉ", value: "Kim Giang, Hà Nội, Việt Nam" },
+  { icon: IconClock, label: "Giờ hỗ trợ", value: "9h30 - 22h, tất cả các ngày trong tuần" },
 ];
 
 export default function ContactPage() {
