@@ -1,0 +1,60 @@
+name: Deploy to Hostinger VPS
+
+# Workflow này CHỈ chạy khi bạn tự thêm đủ 4 secrets bên dưới trong
+# Settings > Secrets and variables > Actions của repo GitHub. Nếu chưa cấu hình,
+# bấm "Run workflow" cũng sẽ không có tác dụng gì (job tự thoát an toàn).
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Kiểm tra đã cấu hình secrets chưa
+        id: check
+        run: |
+          if [ -n "${{ secrets.VPS_HOST }}" ] && [ -n "${{ secrets.VPS_USER }}" ] && [ -n "${{ secrets.VPS_SSH_KEY }}" ]; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::Bỏ qua deploy — chưa cấu hình VPS_HOST, VPS_USER, VPS_SSH_KEY trong GitHub Secrets. Xem README.md mục 'Triển khai lên Hostinger VPS'."
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.check.outputs.ready == 'true'
+
+      - uses: actions/setup-node@v4
+        if: steps.check.outputs.ready == 'true'
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Cài đặt & build
+        if: steps.check.outputs.ready == 'true'
+        run: |
+          npm ci
+          npm run build
+
+      - name: Đồng bộ mã nguồn build lên VPS qua rsync (SSH)
+        if: steps.check.outputs.ready == 'true'
+        uses: burnett01/rsync-deployments@7.0.2
+        with:
+          switches: -avzr --delete
+          path: .next/standalone/ ecosystem.config.js
+          remote_path: ${{ secrets.VPS_APP_PATH }}
+          remote_host: ${{ secrets.VPS_HOST }}
+          remote_user: ${{ secrets.VPS_USER }}
+          remote_key: ${{ secrets.VPS_SSH_KEY }}
+
+      - name: Khởi động lại ứng dụng bằng PM2
+        if: steps.check.outputs.ready == 'true'
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          script: |
+            cd ${{ secrets.VPS_APP_PATH }}
+            pm2 reload ecosystem.config.js --update-env || pm2 start ecosystem.config.js

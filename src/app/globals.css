@@ -1,0 +1,187 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #2563eb;
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #f59e0b;
+  --color-secondary-foreground: #1e1a08;
+  --color-accent: #ec4899;
+  --color-accent-foreground: #ffffff;
+
+  --color-background: #eff6ff;
+  --color-foreground: #0f172a;
+  --color-card: #ffffff;
+  --color-card-foreground: #0f172a;
+  --color-muted: #f1f5fd;
+  --color-muted-foreground: #475569;
+  --color-border: #dbe6fb;
+  --color-destructive: #dc2626;
+  --color-destructive-foreground: #ffffff;
+  --color-success: #16a34a;
+  --color-success-foreground: #ffffff;
+  --color-ring: #2563eb;
+
+  /* subject / grade accent colors */
+  --color-blue: #2563eb;
+  --color-blue-soft: #dbeafe;
+  --color-amber: #f59e0b;
+  --color-amber-soft: #fef3c7;
+  --color-pink: #ec4899;
+  --color-pink-soft: #fce7f3;
+  --color-green: #16a34a;
+  --color-green-soft: #dcfce7;
+  --color-purple: #9333ea;
+  --color-purple-soft: #f3e8ff;
+  --color-cyan: #0891b2;
+  --color-cyan-soft: #cffafe;
+
+  --shadow-clay: 0 10px 0 0 rgba(15, 23, 42, 0.08), 0 18px 34px -14px rgba(37, 99, 235, 0.25);
+  --shadow-clay-sm: 0 6px 0 0 rgba(15, 23, 42, 0.08), 0 10px 20px -10px rgba(37, 99, 235, 0.25);
+}
+
+@theme inline {
+  --color-primary: var(--color-primary);
+  --color-primary-foreground: var(--color-primary-foreground);
+  --color-secondary: var(--color-secondary);
+  --color-secondary-foreground: var(--color-secondary-foreground);
+  --color-accent: var(--color-accent);
+  --color-accent-foreground: var(--color-accent-foreground);
+  --color-background: var(--color-background);
+  --color-foreground: var(--color-foreground);
+  --color-card: var(--color-card);
+  --color-card-foreground: var(--color-card-foreground);
+  --color-muted: var(--color-muted);
+  --color-muted-foreground: var(--color-muted-foreground);
+  --color-border: var(--color-border);
+  --color-destructive: var(--color-destructive);
+  --color-destructive-foreground: var(--color-destructive-foreground);
+  --color-success: var(--color-success);
+  --color-success-foreground: var(--color-success-foreground);
+  --color-ring: var(--color-ring);
+
+  --color-blue: var(--color-blue);
+  --color-blue-soft: var(--color-blue-soft);
+  --color-amber: var(--color-amber);
+  --color-amber-soft: var(--color-amber-soft);
+  --color-pink: var(--color-pink);
+  --color-pink-soft: var(--color-pink-soft);
+  --color-green: var(--color-green);
+  --color-green-soft: var(--color-green-soft);
+  --color-purple: var(--color-purple);
+  --color-purple-soft: var(--color-purple-soft);
+  --color-cyan: var(--color-cyan);
+  --color-cyan-soft: var(--color-cyan-soft);
+
+  --font-display: var(--font-baloo);
+  --font-body: var(--font-nunito);
+
+  --radius-clay: 28px;
+  --radius-clay-sm: 18px;
+}
+
+* {
+  border-color: var(--color-border);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-body), "Nunito", ui-sans-serif, system-ui, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+.font-display {
+  font-family: var(--font-display), "Baloo 2", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Claymorphism building blocks */
+.clay {
+  border-radius: var(--radius-clay);
+  border: 3px solid var(--color-border);
+  box-shadow: var(--shadow-clay);
+  background: var(--color-card);
+}
+
+.clay-sm {
+  border-radius: var(--radius-clay-sm);
+  border: 3px solid var(--color-border);
+  box-shadow: var(--shadow-clay-sm);
+}
+
+.clay-btn {
+  border-radius: 999px;
+  border: 3px solid rgba(15, 23, 42, 0.08);
+  box-shadow: 0 6px 0 0 rgba(15, 23, 42, 0.18);
+  transition: transform 150ms ease-out, box-shadow 150ms ease-out;
+}
+
+.clay-btn:hover {
+  transform: translateY(-2px);
+}
+
+.clay-btn:active {
+  transform: translateY(3px);
+  box-shadow: 0 2px 0 0 rgba(15, 23, 42, 0.18);
+}
+
+.clay-float {
+  transition: transform 200ms ease-out, box-shadow 200ms ease-out;
+}
+
+.clay-float:hover {
+  transform: translateY(-4px) rotate(-0.5deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.bounce-in {
+  animation: bounce-in 500ms cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+@keyframes bounce-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.8) translateY(12px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.wiggle:hover {
+  animation: wiggle 400ms ease-in-out;
+}
+
+@keyframes wiggle {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-4deg); }
+  75% { transform: rotate(4deg); }
+}
+
+::selection {
+  background: var(--color-secondary);
+  color: var(--color-secondary-foreground);
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 3px;
+  border-radius: 8px;
+}
