@@ -178,3 +178,59 @@ Xem đầy đủ trong [`.env.example`](.env.example):
 
 Nếu chưa cấu hình SMTP, form Liên hệ vẫn hoạt động bình thường nhưng sẽ báo lỗi thân thiện thay vì
 gửi được email — không làm sập ứng dụng.
+
+**Không commit `SMTP_PASS` thật vào Git** — `.env.local` đã được `.gitignore` loại trừ sẵn, chỉ
+điền giá trị thật vào đó trên máy của bạn hoặc trực tiếp trên VPS, không đưa vào `.env.example`.
+
+## Cấu hình hệ thống gửi email (SMTP)
+
+Hệ thống gửi email của form Liên hệ (`src/app/api/contact/route.ts`) đã có sẵn đầy đủ:
+
+- Gửi tin nhắn của người dùng đến `CONTACT_TO_EMAIL` (hộp thư quản trị).
+- Tự động gửi email xác nhận đã nhận được tin nhắn cho chính người gửi.
+- Honeypot chống bot, validate dữ liệu đầu vào, giới hạn tối đa **5 lượt gửi / 10 phút / mỗi IP**
+  (`src/lib/rateLimit.ts`) để chống spam.
+- Nếu chưa cấu hình SMTP, trả lỗi thân thiện thay vì làm sập ứng dụng.
+
+Bạn chỉ cần điền 5 biến `SMTP_*` và `CONTACT_TO_EMAIL` thật vào `.env.local` (local) hoặc file môi
+trường trên VPS. Chọn một trong hai cách sau để lấy thông tin SMTP:
+
+### Cách 1 — Gmail (nhanh, phù hợp để chạy thử ngay)
+
+1. Bật xác minh 2 bước cho tài khoản Gmail tại https://myaccount.google.com/security (nếu chưa bật).
+2. Vào https://myaccount.google.com/apppasswords, tạo một **App Password** mới (chọn ứng dụng
+   "Mail", thiết bị tuỳ chọn) — Google sẽ cho ra một mã 16 ký tự, đây chính là `SMTP_PASS` (**không
+   phải** mật khẩu đăng nhập Gmail thông thường).
+3. Điền vào `.env.local`:
+   ```
+   SMTP_HOST=smtp.gmail.com
+   SMTP_PORT=587
+   SMTP_USER=duongpro007@gmail.com
+   SMTP_PASS=<mã app password 16 ký tự>
+   CONTACT_TO_EMAIL=duongpro007@gmail.com
+   ```
+
+### Cách 2 — Hostinger Email (khuyến nghị khi đã có domain riêng, ví dụ `noreply@hocmachoi.vn`)
+
+1. Trong **hPanel → Emails**, tạo một hộp thư mới thuộc domain của bạn (ví dụ `noreply@hocmachoi.vn`)
+   và đặt mật khẩu cho hộp thư đó.
+2. Hostinger hiển thị sẵn thông tin SMTP tại trang quản lý email đó, thường là:
+   ```
+   SMTP_HOST=smtp.hostinger.com
+   SMTP_PORT=587
+   SMTP_USER=noreply@hocmachoi.vn
+   SMTP_PASS=<mật khẩu hộp thư bạn vừa đặt>
+   CONTACT_TO_EMAIL=duongpro007@gmail.com
+   ```
+
+### Áp dụng cấu hình
+
+- **Local**: tạo/sửa file `.env.local` ở thư mục gốc dự án với 5 dòng ở trên, rồi chạy lại
+  `npm run dev`.
+- **Trên VPS**: SSH vào VPS, `nano /var/www/hoc-ma-choi/.env.local`, dán 5 dòng trên (thay giá trị
+  thật), lưu lại, rồi `pm2 reload ecosystem.config.js --update-env`.
+- Kiểm tra hoạt động: gửi thử một tin nhắn tại trang **Liên hệ** của site — nếu thấy thông báo
+  "Đã gửi thành công!" và nhận được cả email ở hộp thư quản trị lẫn email xác nhận ở hộp thư người
+  gửi là hệ thống đã hoạt động đúng. Nếu lỗi, xem log: `pm2 logs hoc-ma-choi` (VPS) hoặc terminal
+  chạy `npm run dev` (local) để biết nguyên nhân cụ thể (sai mật khẩu, sai host/port, tài khoản
+  chặn đăng nhập từ ứng dụng lạ...).
