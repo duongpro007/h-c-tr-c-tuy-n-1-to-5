@@ -40,20 +40,31 @@ src/
   lib/                      Types, helper màu sắc, tiến độ học tập (localStorage)
 ```
 
+### Cấu trúc "30 bài / môn / lớp"
+
+Mỗi môn học ở mỗi khối lớp có đúng **30 bài**: 15 chủ đề lõi (`topic(...)`) và mỗi chủ đề tự động
+sinh thêm 1 bài thực hành/luyện tập đi kèm ngay sau (luân phiên 5 kiểu: Thực hành, Luyện tập, Vận
+dụng, Trò chơi ôn tập, Thử thách nhỏ) — nên bạn **chỉ cần khai báo 15 chủ đề lõi**, phần còn lại
+được `unit()`/`grade30()` trong `curriculum.ts` tự ghép.
+
 ### Thêm / chỉnh sửa nội dung giáo trình
 
-1. **Thêm bài học mới vào một chương đã có**: mở `src/content/curriculum.ts`, tìm biến chương
-   tương ứng (ví dụ `toan1` cho Toán lớp 1) và thêm một dòng `L("Tên bài học", "Mô tả ngắn")` vào
-   mảng lessons.
-2. **Soạn nội dung chi tiết cho một bài học** (để bài học chuyển từ "sắp ra mắt" sang có thể học
-   được): thêm `ready: true` vào lesson trong `curriculum.ts`, sau đó thêm nội dung đầy đủ (mục
-   tiêu, các phần bài giảng, câu hỏi kiểm tra) vào `src/content/lessons.ts` theo khoá
-   `"<mon>:<lop>:<slug-bai-hoc>"`.
-3. **Gắn trò chơi vào bài học**: thêm `gameSlug: "do-vui-toan-hoc"` (hoặc trò chơi khác) khi tạo
-   lesson trong `curriculum.ts`.
+1. **Thêm/sửa một chủ đề bài học**: mở `src/content/curriculum.ts`, tìm mảng topics tương ứng
+   (ví dụ `toan1Topics` cho Toán lớp 1 — đặt tên theo mẫu `<mon><lop>Topics`) và thêm/sửa một dòng
+   `topic("Tên bài học", "Mô tả ngắn")`. Mỗi mảng nên giữ đúng 15 phần tử để tổng vẫn là 30 bài;
+   nếu thêm/bớt chủ đề, chương sẽ tự phân bổ lại theo `grade30()` (chia đều 5 chủ đề/chương).
+2. **Soạn nội dung chi tiết cho một bài học lõi** (để bài học chuyển từ "sắp ra mắt" sang có thể
+   học được): thêm `{ ready: true }` làm tham số thứ 3 của `topic(...)`, sau đó thêm nội dung đầy
+   đủ (mục tiêu, các phần bài giảng, câu hỏi kiểm tra) vào `src/content/lessons.ts` theo khoá
+   `"<mon>:<lop>:<slug-bai-hoc>"`. Các bài "Thực hành/Luyện tập..." tự sinh không cần nội dung
+   riêng trong `lessons.ts`.
+3. **Gắn trò chơi vào một bài học lõi**: thêm `{ gameSlug: "do-vui-toan-hoc" }` (hoặc trò chơi
+   khác) vào tham số thứ 3 của `topic(...)`.
+4. **Đổi tên/mô tả 3 chương của một môn**: sửa hằng số `..._CHAPTERS` tương ứng (ví dụ
+   `TOAN_CHAPTERS`) — dùng chung cho cả 5 khối lớp của môn đó.
 
-Toàn bộ trang giáo trình (247+ trang) được tạo tĩnh (Static Generation) tại thời điểm build, nên
-sau khi chỉnh nội dung cần chạy lại `npm run build` để cập nhật.
+Toàn bộ trang giáo trình (~950 trang, gồm 900 bài học) được tạo tĩnh (Static Generation) tại thời
+điểm build, nên sau khi chỉnh nội dung cần chạy lại `npm run build` để cập nhật.
 
 ## Kiểm tra chất lượng trước khi triển khai
 
