@@ -1027,7 +1027,7 @@ const th5Topics: Topic[] = [
 export const curriculum: SubjectCurriculum[] = [
   { subject: "toan", grade: 1, intro: "Làm quen số đếm, hình học và phép tính đầu tiên qua trò chơi trực quan.", chapters: grade30(TOAN_CHAPTERS, toan1Topics) },
   { subject: "toan", grade: 2, intro: "Củng cố phép cộng trừ có nhớ, làm quen phép nhân, phép chia.", chapters: grade30(TOAN_CHAPTERS, toan2Topics) },
-  { subject: "toan", grade: 3, intro: "Hoàn thiện bảng nhân chia, làm quen phân số và số lớn.", chapters: grade30(TOAN_CHAPTERS, readyFirst(toan3Topics, 15)) },
+  { subject: "toan", grade: 3, intro: "Hoàn thiện bảng nhân chia, làm quen phân số và số lớn.", chapters: grade30(TOAN_CHAPTERS, readyFirst(toan3Topics, 75)) },
   { subject: "toan", grade: 4, intro: "Số tự nhiên lớn, phân số và hình học nâng cao.", chapters: grade30(TOAN_CHAPTERS, toan4Topics) },
   { subject: "toan", grade: 5, intro: "Số thập phân, hình học không gian và toán chuyển động.", chapters: grade30(TOAN_CHAPTERS, toan5Topics) },
 

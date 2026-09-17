@@ -5932,6 +5932,1211 @@ export const lessonContent: Record<string, LessonContent> = {
     ]
   ),
 
+  // ─────────────── TOÁN — LỚP 3 — 60 bài lõi mở rộng (16-75) ───────────────
+  "toan:3:bang-nhan-2-3-4-5-on-tap-nhanh": {
+    objectives: ["Ôn lại nhanh các bảng nhân 2, 3, 4, 5 đã học ở lớp 2.", "Tính nhẩm nhanh và chính xác.", "Vận dụng vào bài toán đơn giản."],
+    sections: [
+      { heading: "1. Ôn lại bảng nhân 2, 3, 4, 5", body: ["Đây là các bảng nhân em đã học ở lớp 2. Hãy đọc lại thật to để nhớ nhanh: 2×1=2, 2×2=4... đến 5×10=50."] },
+      { heading: "2. Mẹo tính nhẩm nhanh", body: ["Nhân với 2 là cộng số đó với chính nó. Nhân với 4 là nhân 2 hai lần liên tiếp — mẹo này giúp em tính nhanh hơn."] },
+      { heading: "3. Vận dụng", body: ["Việc thuộc chắc các bảng nhân nhỏ sẽ giúp em học các bảng nhân 6,7,8,9 nhanh và dễ dàng hơn rất nhiều."] },
+    ],
+    quiz: [
+      { question: "4 × 6 = ?", options: ["20", "24", "28", "18"], correctIndex: 1, explanation: "4 × 6 = 24." },
+      { question: "5 × 7 = ?", options: ["30", "35", "40", "25"], correctIndex: 1, explanation: "5 × 7 = 35." },
+      { question: "3 × 9 = ?", options: ["24", "27", "21", "30"], correctIndex: 1, explanation: "3 × 9 = 27." },
+    ],
+    funFact: "Bạn có biết? Thuộc lòng bảng cửu chương giúp em tính toán nhanh hơn máy tính bỏ túi trong nhiều trường hợp đơn giản!",
+  },
+  "toan:3:bang-chia-2-3-4-5-on-tap-nhanh": {
+    objectives: ["Ôn lại nhanh các bảng chia 2, 3, 4, 5 đã học.", "Hiểu mối liên hệ giữa bảng nhân và bảng chia.", "Tính nhẩm chia nhanh, chính xác."],
+    sections: [
+      { heading: "1. Ôn lại bảng chia 2, 3, 4, 5", body: ["Nếu 4×5=20 thì 20:4=5 và 20:5=4. Ôn lại các bảng chia bằng cách liên hệ ngược với bảng nhân tương ứng."] },
+      { heading: "2. Luyện tính nhẩm", body: ["Khi thấy phép chia, em hãy nghĩ ngay đến bảng nhân tương ứng để tìm thương nhanh hơn."] },
+      { heading: "3. Vận dụng", body: ["Bảng chia được dùng thường xuyên khi chia đều đồ vật, chia nhóm bạn chơi trò chơi."] },
+    ],
+    quiz: [
+      { question: "24 : 4 = ?", options: ["5", "6", "7", "8"], correctIndex: 1, explanation: "4 × 6 = 24 nên 24:4=6." },
+      { question: "35 : 5 = ?", options: ["6", "7", "8", "9"], correctIndex: 1, explanation: "5 × 7 = 35 nên 35:5=7." },
+      { question: "27 : 3 = ?", options: ["7", "8", "9", "10"], correctIndex: 2, explanation: "3 × 9 = 27 nên 27:3=9." },
+    ],
+    funFact: "Bạn có biết? Phép chia là phép tính ngược của phép nhân — biết một bảng, em có thể suy ra bảng kia!",
+  },
+  "toan:3:nhan-so-tron-chuc-voi-so-co-mot-chu-so": {
+    objectives: ["Thực hiện phép nhân số tròn chục với số có một chữ số.", "Hiểu quy tắc thêm số 0.", "Vận dụng vào bài toán thực tế."],
+    sections: [
+      { heading: "1. Cách nhân số tròn chục", body: ["Để nhân 30 × 4, em nhân 3 × 4 = 12 rồi thêm một chữ số 0 vào sau, được 120."] },
+      { heading: "2. Ví dụ minh hoạ", body: ["50 × 6: nhân 5×6=30, thêm số 0 được 300."] },
+      { heading: "3. Vận dụng", body: ["Cách tính này giúp em nhân nhanh các số tròn chục mà không cần đặt tính dài dòng."] },
+    ],
+    quiz: [
+      { question: "40 × 3 = ?", options: ["120", "140", "12", "43"], correctIndex: 0, explanation: "4×3=12, thêm 0 được 120." },
+      { question: "70 × 5 = ?", options: ["350", "75", "3500", "35"], correctIndex: 0, explanation: "7×5=35, thêm 0 được 350." },
+      { question: "60 × 4 = ?", options: ["24", "240", "640", "2400"], correctIndex: 1, explanation: "6×4=24, thêm 0 được 240." },
+    ],
+    funFact: "Bạn có biết? Mẹo 'thêm số 0' chỉ áp dụng khi nhân với số tròn chục — đây là cách tính nhẩm rất hữu ích!",
+  },
+  "toan:3:chia-so-tron-tram-cho-so-co-mot-chu-so": {
+    objectives: ["Thực hiện phép chia số tròn trăm cho số có một chữ số.", "Hiểu quy tắc rút gọn khi chia.", "Vận dụng vào bài toán thực tế."],
+    sections: [
+      { heading: "1. Cách chia số tròn trăm", body: ["Để chia 600 : 2, em chia 6 : 2 = 3 rồi thêm hai chữ số 0, được 300."] },
+      { heading: "2. Ví dụ minh hoạ", body: ["800 : 4: chia 8:4=2, thêm hai số 0 được 200."] },
+      { heading: "3. Vận dụng", body: ["Cách tính nhẩm này giúp em chia nhanh các số tròn trăm trong đầu."] },
+    ],
+    quiz: [
+      { question: "600 : 3 = ?", options: ["200", "20", "2000", "2"], correctIndex: 0, explanation: "6:3=2, thêm hai số 0 được 200." },
+      { question: "900 : 3 = ?", options: ["30", "300", "3000", "3"], correctIndex: 1, explanation: "9:3=3, thêm hai số 0 được 300." },
+      { question: "400 : 4 = ?", options: ["10", "100", "1000", "1"], correctIndex: 1, explanation: "4:4=1, thêm hai số 0 được 100." },
+    ],
+    funFact: "Bạn có biết? Tính nhẩm với số tròn trăm giúp em ước lượng nhanh kết quả trong cuộc sống hàng ngày!",
+  },
+  "toan:3:tinh-gia-tri-bieu-thuc-co-hai-phep-tinh": {
+    objectives: ["Tính đúng giá trị biểu thức có hai phép tính.", "Nắm thứ tự thực hiện phép nhân, chia trước cộng, trừ.", "Trình bày bài giải rõ ràng."],
+    sections: [
+      { heading: "1. Quy tắc thứ tự tính", body: ["Trong biểu thức không có dấu ngoặc, ta thực hiện nhân, chia trước; cộng, trừ sau."] },
+      { heading: "2. Ví dụ minh hoạ", body: ["3 × 4 + 5 = 12 + 5 = 17 (nhân trước, cộng sau)."] },
+      { heading: "3. Lưu ý khi tính", body: ["Nếu biểu thức chỉ có cộng và trừ (hoặc chỉ có nhân và chia), ta tính lần lượt từ trái sang phải."] },
+    ],
+    quiz: [
+      { question: "5 × 2 + 3 = ?", options: ["13", "25", "10", "16"], correctIndex: 0, explanation: "5×2=10, 10+3=13." },
+      { question: "20 - 4 × 3 = ?", options: ["48", "8", "16", "24"], correctIndex: 1, explanation: "4×3=12, 20-12=8." },
+      { question: "6 + 3 × 5 = ?", options: ["45", "21", "30", "15"], correctIndex: 1, explanation: "3×5=15, 6+15=21." },
+    ],
+    funFact: "Bạn có biết? Quy tắc thứ tự thực hiện phép tính được dùng trên toàn thế giới để đảm bảo mọi người tính ra cùng một kết quả!",
+  },
+  "toan:3:tinh-gia-tri-bieu-thuc-co-dau-ngoac": {
+    objectives: ["Tính đúng giá trị biểu thức có dấu ngoặc đơn.", "Nắm quy tắc ưu tiên tính trong ngoặc trước.", "Trình bày bài giải rõ ràng."],
+    sections: [
+      { heading: "1. Quy tắc với dấu ngoặc", body: ["Khi biểu thức có dấu ngoặc, ta luôn tính phần trong ngoặc trước, sau đó mới tính tiếp theo thứ tự thông thường."] },
+      { heading: "2. Ví dụ minh hoạ", body: ["(3 + 2) × 4 = 5 × 4 = 20 (tính trong ngoặc trước)."] },
+      { heading: "3. So sánh có và không có ngoặc", body: ["3 + 2 × 4 = 3+8 = 11, nhưng (3+2) × 4 = 20 — dấu ngoặc làm thay đổi kết quả!"] },
+    ],
+    quiz: [
+      { question: "(4 + 3) × 2 = ?", options: ["10", "14", "9", "11"], correctIndex: 1, explanation: "4+3=7, 7×2=14." },
+      { question: "(10 - 4) : 2 = ?", options: ["3", "6", "8", "2"], correctIndex: 0, explanation: "10-4=6, 6:2=3." },
+      { question: "5 × (6 - 2) = ?", options: ["28", "20", "30", "18"], correctIndex: 1, explanation: "6-2=4, 5×4=20." },
+    ],
+    funFact: "Bạn có biết? Dấu ngoặc trong toán học giống như một 'ưu tiên đặc biệt' — luôn được xử lý trước tiên!",
+  },
+  "toan:3:thu-tu-thuc-hien-phep-tinh": {
+    objectives: ["Nắm vững thứ tự thực hiện các phép tính trong biểu thức.", "Áp dụng đúng quy tắc khi có nhiều phép tính.", "Tránh sai sót khi tính biểu thức phức tạp."],
+    sections: [
+      { heading: "1. Thứ tự ưu tiên", body: ["Trong ngoặc trước → nhân, chia → cộng, trừ. Đây là thứ tự em cần nhớ khi gặp biểu thức nhiều phép tính."] },
+      { heading: "2. Ví dụ tổng hợp", body: ["(2 + 3) × 4 - 5 = 5×4-5 = 20-5 = 15."] },
+      { heading: "3. Kiểm tra lại", body: ["Sau khi tính, em nên đọc lại biểu thức một lần nữa để chắc chắn không bỏ sót bước nào."] },
+    ],
+    quiz: [
+      { question: "2 + 3 × 4 - 1 = ?", options: ["19", "13", "15", "9"], correctIndex: 1, explanation: "3×4=12, 2+12-1=13." },
+      { question: "(6 - 2) × 3 + 1 = ?", options: ["13", "12", "15", "10"], correctIndex: 0, explanation: "6-2=4, 4×3=12, 12+1=13." },
+      { question: "10 - (2 + 3) = ?", options: ["5", "9", "11", "15"], correctIndex: 0, explanation: "2+3=5, 10-5=5." },
+    ],
+    funFact: "Bạn có biết? Nếu tính sai thứ tự, kết quả biểu thức có thể hoàn toàn khác — vì vậy quy tắc này rất quan trọng!",
+  },
+  "toan:3:bai-toan-ve-nhieu-hon-it-hon-mot-so-don-vi": {
+    objectives: ["Giải được bài toán về nhiều hơn, ít hơn một số đơn vị.", "Xác định đúng phép tính cần dùng.", "Trình bày lời giải rõ ràng."],
+    sections: [
+      { heading: "1. Dạng toán nhiều hơn", body: ["Khi đề bài nói 'nhiều hơn', em thường dùng phép cộng để tìm số lớn hơn."] },
+      { heading: "2. Dạng toán ít hơn", body: ["Khi đề bài nói 'ít hơn', em thường dùng phép trừ để tìm số nhỏ hơn."] },
+      { heading: "3. Ví dụ minh hoạ", body: ["Lan có 15 viên bi, Hùng có nhiều hơn Lan 6 viên. Hùng có: 15+6=21 viên bi."] },
+    ],
+    quiz: [
+      { question: "An có 20 quyển vở, Bình có ít hơn An 5 quyển. Bình có bao nhiêu quyển vở?", options: ["15", "25", "10", "20"], correctIndex: 0, explanation: "20-5=15 quyển." },
+      { question: "Hộp A có 12 bút, hộp B có nhiều hơn hộp A 4 bút. Hộp B có bao nhiêu bút?", options: ["8", "16", "14", "20"], correctIndex: 1, explanation: "12+4=16 bút." },
+      { question: "Từ 'nhiều hơn' trong bài toán thường gợi ý dùng phép tính gì?", options: ["Phép cộng", "Phép trừ", "Phép nhân", "Phép chia"], correctIndex: 0, explanation: "Từ 'nhiều hơn' thường gợi ý phép cộng." },
+    ],
+    funFact: "Bạn có biết? Đọc kỹ từ khoá trong đề bài (nhiều hơn, ít hơn) là chìa khoá để chọn đúng phép tính!",
+  },
+  "toan:3:bai-toan-ve-gap-mot-so-len-nhieu-lan": {
+    objectives: ["Giải được bài toán về gấp một số lên nhiều lần.", "Hiểu ý nghĩa phép nhân trong dạng toán này.", "Trình bày lời giải rõ ràng."],
+    sections: [
+      { heading: "1. Gấp lên nhiều lần là gì?", body: ["Gấp một số lên nhiều lần nghĩa là nhân số đó với số lần được gấp. Ví dụ gấp 5 lên 3 lần là 5×3=15."] },
+      { heading: "2. Cách nhận biết", body: ["Đề bài thường có từ 'gấp ... lần' — đây là dấu hiệu để em dùng phép nhân."] },
+      { heading: "3. Ví dụ minh hoạ", body: ["Vườn nhà có 4 cây cam, số cây bưởi gấp 3 lần số cây cam. Số cây bưởi là: 4×3=12 cây."] },
+    ],
+    quiz: [
+      { question: "Số 6 gấp lên 4 lần là bao nhiêu?", options: ["10", "24", "20", "18"], correctIndex: 1, explanation: "6×4=24." },
+      { question: "Lớp 3A có 8 bạn nam, số bạn nữ gấp 2 lần số bạn nam. Lớp có bao nhiêu bạn nữ?", options: ["10", "16", "14", "12"], correctIndex: 1, explanation: "8×2=16 bạn nữ." },
+      { question: "Từ 'gấp ... lần' trong bài toán gợi ý dùng phép tính gì?", options: ["Phép cộng", "Phép trừ", "Phép nhân", "Phép chia"], correctIndex: 2, explanation: "'Gấp lên nhiều lần' dùng phép nhân." },
+    ],
+    funFact: "Bạn có biết? 'Gấp đôi' nghĩa là gấp lên 2 lần, còn 'gấp ba' nghĩa là gấp lên 3 lần!",
+  },
+  "toan:3:bai-toan-ve-giam-mot-so-di-nhieu-lan": {
+    objectives: ["Giải được bài toán về giảm một số đi nhiều lần.", "Hiểu ý nghĩa phép chia trong dạng toán này.", "Trình bày lời giải rõ ràng."],
+    sections: [
+      { heading: "1. Giảm đi nhiều lần là gì?", body: ["Giảm một số đi nhiều lần nghĩa là chia số đó cho số lần được giảm. Ví dụ giảm 20 đi 4 lần là 20:4=5."] },
+      { heading: "2. Cách nhận biết", body: ["Đề bài thường có từ 'giảm ... lần' — đây là dấu hiệu để em dùng phép chia."] },
+      { heading: "3. Ví dụ minh hoạ", body: ["Có 24 quả táo, số quả cam ít hơn số quả táo 4 lần (tức bằng 1/4). Số quả cam là: 24:4=6 quả."] },
+    ],
+    quiz: [
+      { question: "Số 36 giảm đi 4 lần là bao nhiêu?", options: ["9", "32", "40", "6"], correctIndex: 0, explanation: "36:4=9." },
+      { question: "Có 45 quả bóng, giảm đi 5 lần được bao nhiêu quả?", options: ["9", "40", "225", "5"], correctIndex: 0, explanation: "45:5=9." },
+      { question: "Từ 'giảm ... lần' trong bài toán gợi ý dùng phép tính gì?", options: ["Phép cộng", "Phép trừ", "Phép nhân", "Phép chia"], correctIndex: 3, explanation: "'Giảm đi nhiều lần' dùng phép chia." },
+    ],
+    funFact: "Bạn có biết? 'Giảm đi nhiều lần' khác với 'giảm đi nhiều đơn vị' — một bên dùng phép chia, một bên dùng phép trừ!",
+  },
+  "toan:3:so-sanh-so-be-bang-mot-phan-may-so-lon": {
+    objectives: ["So sánh được số bé bằng một phần mấy số lớn.", "Hiểu ý nghĩa của phép chia trong so sánh.", "Trình bày lời giải rõ ràng."],
+    sections: [
+      { heading: "1. Cách so sánh", body: ["Muốn biết số bé bằng một phần mấy số lớn, ta lấy số lớn chia cho số bé."] },
+      { heading: "2. Ví dụ minh hoạ", body: ["8 và 2: 8:2=4, vậy 2 bằng 1/4 của 8."] },
+      { heading: "3. Vận dụng", body: ["Dạng toán này thường xuất hiện khi so sánh số lượng giữa hai nhóm đồ vật."] },
+    ],
+    quiz: [
+      { question: "Số 3 bằng một phần mấy của số 15?", options: ["1/3", "1/5", "1/15", "1/45"], correctIndex: 1, explanation: "15:3=5, vậy 3 bằng 1/5 của 15." },
+      { question: "Số 4 bằng một phần mấy của số 24?", options: ["1/4", "1/6", "1/8", "1/24"], correctIndex: 1, explanation: "24:4=6, vậy 4 bằng 1/6 của 24." },
+      { question: "Để tìm số bé bằng một phần mấy số lớn, ta làm phép tính gì?", options: ["Số lớn cộng số bé", "Số lớn chia số bé", "Số lớn trừ số bé", "Số lớn nhân số bé"], correctIndex: 1, explanation: "Lấy số lớn chia cho số bé." },
+    ],
+    funFact: "Bạn có biết? Dạng toán so sánh phần này là bước đầu giúp em làm quen với khái niệm phân số và tỉ số sau này!",
+  },
+  "toan:3:tien-viet-nam-nhan-biet-menh-gia": {
+    objectives: ["Nhận biết được các mệnh giá tiền Việt Nam thường gặp.", "Phân biệt tiền giấy và tiền xu.", "Vận dụng vào tình huống mua sắm đơn giản."],
+    sections: [
+      { heading: "1. Các mệnh giá tiền giấy", body: ["Tiền giấy Việt Nam có các mệnh giá: 1000đ, 2000đ, 5000đ, 10 000đ, 20 000đ, 50 000đ, 100 000đ, 200 000đ, 500 000đ."] },
+      { heading: "2. Tiền xu", body: ["Trước đây Việt Nam cũng có tiền xu mệnh giá nhỏ như 200đ, 500đ, 1000đ, 2000đ, 5000đ."] },
+      { heading: "3. Nhận biết qua màu sắc, hình ảnh", body: ["Mỗi mệnh giá tiền có màu sắc và hình ảnh đặc trưng riêng để dễ phân biệt."] },
+    ],
+    quiz: [
+      { question: "Tờ tiền nào có mệnh giá lớn nhất trong các tờ sau?", options: ["10 000đ", "50 000đ", "100 000đ", "5000đ"], correctIndex: 2, explanation: "100 000đ lớn hơn các mệnh giá còn lại." },
+      { question: "2 tờ 10 000đ có tổng giá trị là bao nhiêu?", options: ["15 000đ", "20 000đ", "10 000đ", "100 000đ"], correctIndex: 1, explanation: "10 000 × 2 = 20 000đ." },
+      { question: "Tiền Việt Nam hiện nay chủ yếu là loại tiền gì?", options: ["Chỉ có tiền xu", "Chỉ có tiền giấy và tiền polymer", "Không có tiền nào", "Chỉ có vàng"], correctIndex: 1, explanation: "Tiền Việt Nam hiện nay chủ yếu là tiền giấy/polymer." },
+    ],
+    funFact: "Bạn có biết? Tiền polymer (nhựa dẻo) của Việt Nam bền hơn và khó làm giả hơn tiền giấy thông thường!",
+  },
+  "toan:3:bai-toan-ve-tien-mua-sam-don-gian": {
+    objectives: ["Giải được bài toán tính tiền khi mua sắm đơn giản.", "Tính đúng tiền thừa khi trả tiền.", "Vận dụng vào tình huống thực tế."],
+    sections: [
+      { heading: "1. Tính tổng tiền phải trả", body: ["Khi mua nhiều món đồ, em cộng giá tiền các món lại để biết tổng số tiền cần trả."] },
+      { heading: "2. Tính tiền thừa", body: ["Tiền thừa = Số tiền đưa - Số tiền phải trả."] },
+      { heading: "3. Ví dụ minh hoạ", body: ["Mua bút giá 5000đ, đưa tờ 10 000đ. Tiền thừa là: 10 000-5000=5000đ."] },
+    ],
+    quiz: [
+      { question: "Mua 2 quyển vở, mỗi quyển 8000đ. Tổng tiền phải trả là bao nhiêu?", options: ["10 000đ", "16 000đ", "18 000đ", "8000đ"], correctIndex: 1, explanation: "8000×2=16 000đ." },
+      { question: "Mua kẹo giá 7000đ, đưa tờ 20 000đ. Tiền thừa là bao nhiêu?", options: ["13 000đ", "27 000đ", "7000đ", "3000đ"], correctIndex: 0, explanation: "20 000-7000=13 000đ." },
+      { question: "Để tính tiền thừa, em làm phép tính gì?", options: ["Cộng", "Trừ", "Nhân", "Chia"], correctIndex: 1, explanation: "Tiền thừa = tiền đưa - tiền phải trả (phép trừ)." },
+    ],
+    funFact: "Bạn có biết? Biết tính tiền khi mua sắm là kỹ năng toán học em sẽ dùng suốt đời!",
+  },
+  "toan:3:xem-dong-ho-gio-phut": {
+    objectives: ["Đọc chính xác giờ, phút trên đồng hồ kim.", "Phân biệt kim giờ và kim phút.", "Vận dụng vào tình huống thực tế."],
+    sections: [
+      { heading: "1. Kim giờ và kim phút", body: ["Kim ngắn là kim giờ, kim dài là kim phút. Khi kim phút đi hết một vòng (60 phút) thì kim giờ di chuyển sang số tiếp theo."] },
+      { heading: "2. Cách đọc giờ, phút", body: ["Ví dụ kim giờ chỉ số 3, kim phút chỉ số 6 (tức 30 phút), ta đọc là 3 giờ 30 phút."] },
+      { heading: "3. Vận dụng", body: ["Biết xem giờ giúp em quản lý thời gian học tập, sinh hoạt hàng ngày tốt hơn."] },
+    ],
+    quiz: [
+      { question: "Kim phút chỉ số 3 nghĩa là bao nhiêu phút?", options: ["3 phút", "15 phút", "30 phút", "45 phút"], correctIndex: 1, explanation: "Mỗi số trên mặt đồng hồ ứng với 5 phút, 3×5=15 phút." },
+      { question: "Một giờ có bao nhiêu phút?", options: ["24 phút", "30 phút", "60 phút", "100 phút"], correctIndex: 2, explanation: "1 giờ = 60 phút." },
+      { question: "Kim nào trên đồng hồ di chuyển nhanh hơn?", options: ["Kim giờ", "Kim phút", "Cả hai như nhau", "Không có kim nào di chuyển"], correctIndex: 1, explanation: "Kim phút di chuyển nhanh hơn kim giờ." },
+    ],
+    funFact: "Bạn có biết? Đồng hồ cơ học đầu tiên trên thế giới ra đời từ hơn 700 năm trước!",
+  },
+  "toan:3:xem-lich-ngay-thang-nam": {
+    objectives: ["Đọc đúng thông tin ngày, tháng, năm trên tờ lịch.", "Biết một năm có bao nhiêu tháng, một tháng có bao nhiêu ngày.", "Vận dụng vào tình huống thực tế."],
+    sections: [
+      { heading: "1. Một năm có bao nhiêu tháng?", body: ["Một năm có 12 tháng, từ tháng 1 đến tháng 12."] },
+      { heading: "2. Số ngày trong mỗi tháng", body: ["Các tháng có 31 ngày, 30 ngày hoặc 28-29 ngày (tháng 2) tùy theo từng tháng."] },
+      { heading: "3. Đọc lịch", body: ["Khi đọc lịch, em cần xác định đúng thứ, ngày, tháng, năm của sự kiện cần tìm."] },
+    ],
+    quiz: [
+      { question: "Một năm có bao nhiêu tháng?", options: ["10", "11", "12", "13"], correctIndex: 2, explanation: "Một năm có 12 tháng." },
+      { question: "Tháng nào thường có ít ngày nhất trong năm?", options: ["Tháng 1", "Tháng 2", "Tháng 6", "Tháng 12"], correctIndex: 1, explanation: "Tháng 2 thường chỉ có 28 hoặc 29 ngày." },
+      { question: "Tháng 4 thường có bao nhiêu ngày?", options: ["28", "29", "30", "31"], correctIndex: 2, explanation: "Tháng 4 có 30 ngày." },
+    ],
+    funFact: "Bạn có biết? Cứ 4 năm lại có một năm nhuận với tháng 2 có 29 ngày thay vì 28 ngày!",
+  },
+  "toan:3:do-do-dai-bang-met-de-xi-met": {
+    objectives: ["Làm quen đơn vị đo độ dài mét, đề-xi-mét.", "Biết mối quan hệ giữa các đơn vị.", "Ước lượng độ dài đồ vật quen thuộc."],
+    sections: [
+      { heading: "1. Đơn vị mét", body: ["Mét (viết tắt m) là đơn vị đo độ dài cơ bản, thường dùng đo chiều dài lớp học, sân trường."] },
+      { heading: "2. Đơn vị đề-xi-mét", body: ["1 mét = 10 đề-xi-mét (dm). Đề-xi-mét dùng đo các vật có độ dài vừa phải."] },
+      { heading: "3. Ước lượng thực tế", body: ["Chiều cao một cái bàn học khoảng 7dm, chiều dài lớp học khoảng 8m."] },
+    ],
+    quiz: [
+      { question: "1 mét bằng bao nhiêu đề-xi-mét?", options: ["1dm", "10dm", "100dm", "1000dm"], correctIndex: 1, explanation: "1m = 10dm." },
+      { question: "3 mét bằng bao nhiêu đề-xi-mét?", options: ["3dm", "13dm", "30dm", "300dm"], correctIndex: 2, explanation: "3m = 30dm." },
+      { question: "Đơn vị nào phù hợp để đo chiều dài sân trường?", options: ["mm", "cm", "dm", "m"], correctIndex: 3, explanation: "Mét phù hợp để đo khoảng cách lớn như sân trường." },
+    ],
+    funFact: "Bạn có biết? Đơn vị mét được định nghĩa lần đầu vào thế kỷ 18 dựa trên khoảng cách từ xích đạo đến cực Bắc Trái Đất!",
+  },
+  "toan:3:doi-don-vi-do-do-dai": {
+    objectives: ["Chuyển đổi được giữa các đơn vị đo độ dài đã học.", "Ghi nhớ bảng đơn vị đo độ dài.", "Vận dụng vào bài toán thực tế."],
+    sections: [
+      { heading: "1. Bảng đơn vị đo độ dài", body: ["km, m, dm, cm, mm — mỗi đơn vị liền kề gấp/kém nhau 10 lần (riêng km và m gấp nhau 1000 lần)."] },
+      { heading: "2. Cách đổi đơn vị", body: ["Đổi từ đơn vị lớn sang nhỏ: nhân với 10 (hoặc 1000 với km-m). Đổi từ nhỏ sang lớn: chia cho 10 (hoặc 1000)."] },
+      { heading: "3. Ví dụ minh hoạ", body: ["2m = 20dm = 200cm."] },
+    ],
+    quiz: [
+      { question: "5m bằng bao nhiêu cm?", options: ["50cm", "500cm", "5000cm", "5cm"], correctIndex: 1, explanation: "1m=100cm nên 5m=500cm." },
+      { question: "3dm bằng bao nhiêu cm?", options: ["3cm", "30cm", "300cm", "0.3cm"], correctIndex: 1, explanation: "1dm=10cm nên 3dm=30cm." },
+      { question: "100cm bằng bao nhiêu mét?", options: ["1m", "10m", "100m", "0.1m"], correctIndex: 0, explanation: "100cm = 1m." },
+    ],
+    funFact: "Bạn có biết? Hệ đo lường mét là hệ thống được sử dụng chính thức ở hầu hết các quốc gia trên thế giới!",
+  },
+  "toan:3:diem-o-giua-trung-diem-cua-doan-thang": {
+    objectives: ["Nhận biết điểm ở giữa hai điểm cho trước.", "Nhận biết trung điểm của đoạn thẳng.", "Vận dụng vào bài tập hình học đơn giản."],
+    sections: [
+      { heading: "1. Điểm ở giữa", body: ["Điểm M nằm giữa A và B khi M nằm trên đoạn thẳng AB, giữa hai điểm A và B."] },
+      { heading: "2. Trung điểm", body: ["Trung điểm là điểm ở giữa và cách đều hai đầu đoạn thẳng. Nếu M là trung điểm của AB thì AM = MB."] },
+      { heading: "3. Ví dụ minh hoạ", body: ["Đoạn thẳng AB dài 10cm, trung điểm M chia AB thành hai đoạn bằng nhau, mỗi đoạn dài 5cm."] },
+    ],
+    quiz: [
+      { question: "Trung điểm của một đoạn thẳng chia đoạn đó thành mấy phần bằng nhau?", options: ["1", "2", "3", "4"], correctIndex: 1, explanation: "Trung điểm chia đoạn thẳng thành 2 phần bằng nhau." },
+      { question: "Đoạn thẳng AB dài 8cm, M là trung điểm. Đoạn AM dài bao nhiêu?", options: ["2cm", "4cm", "6cm", "8cm"], correctIndex: 1, explanation: "8:2=4cm." },
+      { question: "Điểm ở giữa hai điểm A, B có đặc điểm gì?", options: ["Nằm ngoài đoạn AB", "Nằm trên đoạn AB, giữa A và B", "Trùng với điểm A", "Không xác định được"], correctIndex: 1, explanation: "Điểm ở giữa nằm trên đoạn thẳng, giữa hai điểm A và B." },
+    ],
+    funFact: "Bạn có biết? Khái niệm trung điểm rất quan trọng trong hình học, được dùng nhiều ở các lớp học cao hơn!",
+  },
+  "toan:3:hinh-tam-giac-nhan-biet-va-dac-diem": {
+    objectives: ["Nhận biết hình tam giác trong thực tế.", "Nêu được đặc điểm của hình tam giác.", "Phân biệt hình tam giác với các hình khác."],
+    sections: [
+      { heading: "1. Hình tam giác là gì?", body: ["Hình tam giác là hình có 3 cạnh và 3 góc, 3 đỉnh."] },
+      { heading: "2. Đặc điểm", body: ["Ba cạnh của tam giác nối với nhau tạo thành ba góc. Có nhiều loại tam giác khác nhau về hình dạng."] },
+      { heading: "3. Hình tam giác trong thực tế", body: ["Mái nhà, biển báo giao thông, cờ đuôi nheo... đều có thể có dạng hình tam giác."] },
+    ],
+    quiz: [
+      { question: "Hình tam giác có bao nhiêu cạnh?", options: ["2", "3", "4", "5"], correctIndex: 1, explanation: "Hình tam giác có 3 cạnh." },
+      { question: "Hình tam giác có bao nhiêu đỉnh?", options: ["2", "3", "4", "5"], correctIndex: 1, explanation: "Hình tam giác có 3 đỉnh." },
+      { question: "Đồ vật nào sau đây thường có dạng hình tam giác?", options: ["Bánh xe", "Biển báo giao thông hình tam giác", "Quyển sách", "Viên gạch"], correctIndex: 1, explanation: "Nhiều biển báo giao thông có dạng hình tam giác." },
+    ],
+    funFact: "Bạn có biết? Hình tam giác là hình đa giác có ít cạnh nhất và cũng là hình rất chắc chắn trong xây dựng!",
+  },
+  "toan:3:hinh-tu-giac-nhan-biet-va-dac-diem": {
+    objectives: ["Nhận biết hình tứ giác trong thực tế.", "Nêu được đặc điểm của hình tứ giác.", "Phân biệt hình tứ giác với các hình khác."],
+    sections: [
+      { heading: "1. Hình tứ giác là gì?", body: ["Hình tứ giác là hình có 4 cạnh và 4 góc, 4 đỉnh."] },
+      { heading: "2. Đặc điểm", body: ["Hình chữ nhật và hình vuông đều là những trường hợp đặc biệt của hình tứ giác."] },
+      { heading: "3. Hình tứ giác trong thực tế", body: ["Cửa sổ, quyển sách, mặt bàn... thường có dạng hình tứ giác."] },
+    ],
+    quiz: [
+      { question: "Hình tứ giác có bao nhiêu cạnh?", options: ["3", "4", "5", "6"], correctIndex: 1, explanation: "Hình tứ giác có 4 cạnh." },
+      { question: "Hình nào sau đây KHÔNG phải là hình tứ giác?", options: ["Hình vuông", "Hình chữ nhật", "Hình tam giác", "Hình thang"], correctIndex: 2, explanation: "Hình tam giác chỉ có 3 cạnh, không phải tứ giác." },
+      { question: "Hình chữ nhật là một loại hình gì?", options: ["Hình tam giác", "Hình tứ giác đặc biệt", "Hình tròn", "Không phải hình nào"], correctIndex: 1, explanation: "Hình chữ nhật là một loại hình tứ giác đặc biệt." },
+    ],
+    funFact: "Bạn có biết? Có rất nhiều loại hình tứ giác khác nhau: hình vuông, hình chữ nhật, hình thang, hình bình hành...!",
+  },
+  "toan:3:chu-vi-hinh-tam-giac": {
+    objectives: ["Nêu được công thức tính chu vi hình tam giác.", "Tính được chu vi khi biết độ dài ba cạnh.", "Vận dụng vào bài toán thực tế."],
+    sections: [
+      { heading: "1. Công thức tính chu vi", body: ["Chu vi hình tam giác bằng tổng độ dài ba cạnh: Chu vi = cạnh 1 + cạnh 2 + cạnh 3."] },
+      { heading: "2. Ví dụ minh hoạ", body: ["Tam giác có ba cạnh 3cm, 4cm, 5cm. Chu vi là: 3+4+5=12cm."] },
+      { heading: "3. Trường hợp đặc biệt", body: ["Nếu tam giác có ba cạnh bằng nhau (tam giác đều), chu vi = cạnh × 3."] },
+    ],
+    quiz: [
+      { question: "Tam giác có ba cạnh 6cm, 7cm, 8cm. Chu vi là bao nhiêu?", options: ["20cm", "21cm", "22cm", "23cm"], correctIndex: 1, explanation: "6+7+8=21cm." },
+      { question: "Tam giác đều có cạnh 5cm. Chu vi là bao nhiêu?", options: ["10cm", "15cm", "20cm", "25cm"], correctIndex: 1, explanation: "5×3=15cm." },
+      { question: "Công thức tính chu vi tam giác là gì?", options: ["Tổng ba cạnh", "Tích ba cạnh", "Cạnh × 4", "Cạnh × 2"], correctIndex: 0, explanation: "Chu vi tam giác = tổng độ dài ba cạnh." },
+    ],
+    funFact: "Bạn có biết? Công thức tính chu vi áp dụng cho mọi loại tam giác, dù hình dạng khác nhau!",
+  },
+  "toan:3:compa-lam-quen-va-ve-hinh-tron": {
+    objectives: ["Làm quen với compa và cách cầm compa.", "Vẽ được hình tròn đơn giản bằng compa.", "Sử dụng compa an toàn."],
+    sections: [
+      { heading: "1. Compa là gì?", body: ["Compa là dụng cụ có hai chân, một chân có kim nhọn để cố định, chân kia gắn bút chì để vẽ hình tròn."] },
+      { heading: "2. Cách vẽ hình tròn", body: ["Đặt kim compa cố định tại một điểm (tâm), mở compa theo bán kính mong muốn, xoay compa một vòng để vẽ hình tròn."] },
+      { heading: "3. Sử dụng an toàn", body: ["Kim compa rất nhọn, em cần cẩn thận khi sử dụng để tránh gây thương tích cho bản thân và bạn bè."] },
+    ],
+    quiz: [
+      { question: "Compa dùng để làm gì?", options: ["Đo góc", "Vẽ hình tròn", "Đo khối lượng", "Viết chữ"], correctIndex: 1, explanation: "Compa dùng để vẽ hình tròn." },
+      { question: "Compa có mấy chân?", options: ["1", "2", "3", "4"], correctIndex: 1, explanation: "Compa có 2 chân." },
+      { question: "Khi sử dụng compa, em cần lưu ý điều gì?", options: ["Không cần cẩn thận", "Cẩn thận vì kim compa rất nhọn", "Dùng thật mạnh tay", "Không cần giữ cố định tâm"], correctIndex: 1, explanation: "Kim compa nhọn nên cần sử dụng cẩn thận." },
+    ],
+    funFact: "Bạn có biết? Compa đã được con người sử dụng từ thời Hy Lạp cổ đại để nghiên cứu hình học!",
+  },
+  "toan:3:tam-ban-kinh-duong-kinh-hinh-tron": {
+    objectives: ["Nhận biết tâm, bán kính, đường kính của hình tròn.", "Nêu được mối quan hệ giữa bán kính và đường kính.", "Vận dụng vào bài tập đơn giản."],
+    sections: [
+      { heading: "1. Tâm hình tròn", body: ["Tâm là điểm nằm chính giữa hình tròn, cách đều mọi điểm trên đường tròn."] },
+      { heading: "2. Bán kính và đường kính", body: ["Bán kính là đoạn thẳng nối từ tâm đến một điểm trên đường tròn. Đường kính là đoạn thẳng đi qua tâm, nối hai điểm đối diện trên đường tròn."] },
+      { heading: "3. Mối quan hệ", body: ["Đường kính luôn gấp đôi bán kính: Đường kính = Bán kính × 2."] },
+    ],
+    quiz: [
+      { question: "Bán kính hình tròn là 5cm. Đường kính là bao nhiêu?", options: ["5cm", "10cm", "15cm", "2.5cm"], correctIndex: 1, explanation: "Đường kính = 5×2=10cm." },
+      { question: "Đường kính hình tròn là 16cm. Bán kính là bao nhiêu?", options: ["4cm", "8cm", "32cm", "16cm"], correctIndex: 1, explanation: "Bán kính = 16:2=8cm." },
+      { question: "Điểm nào cách đều mọi điểm trên đường tròn?", options: ["Điểm bất kỳ", "Tâm", "Điểm trên đường kính", "Không có điểm nào"], correctIndex: 1, explanation: "Tâm cách đều mọi điểm trên đường tròn." },
+    ],
+    funFact: "Bạn có biết? Bánh xe hình tròn giúp xe di chuyển êm ái vì khoảng cách từ tâm đến mặt đường luôn không đổi!",
+  },
+  "toan:3:bai-toan-tinh-tuoi-don-gian": {
+    objectives: ["Giải được bài toán tính tuổi đơn giản.", "Hiểu mối quan hệ về tuổi giữa các thành viên trong gia đình.", "Trình bày lời giải rõ ràng."],
+    sections: [
+      { heading: "1. Cách giải bài toán tuổi", body: ["Bài toán tuổi thường dùng phép cộng hoặc trừ để tìm tuổi của người này khi biết tuổi người kia và mối quan hệ hơn kém."] },
+      { heading: "2. Ví dụ minh hoạ", body: ["Em năm nay 9 tuổi, mẹ hơn em 27 tuổi. Tuổi của mẹ là: 9+27=36 tuổi."] },
+      { heading: "3. Lưu ý", body: ["Sau một số năm, tuổi của cả hai người đều tăng lên cùng một số năm như nhau."] },
+    ],
+    quiz: [
+      { question: "Em 8 tuổi, anh hơn em 5 tuổi. Anh bao nhiêu tuổi?", options: ["3", "13", "10", "12"], correctIndex: 1, explanation: "8+5=13 tuổi." },
+      { question: "Bố 35 tuổi, con kém bố 27 tuổi. Con bao nhiêu tuổi?", options: ["8", "10", "62", "7"], correctIndex: 0, explanation: "35-27=8 tuổi." },
+      { question: "Sau 5 năm nữa, tuổi của em sẽ thay đổi thế nào?", options: ["Tăng thêm 5 tuổi", "Giảm 5 tuổi", "Không đổi", "Tăng gấp đôi"], correctIndex: 0, explanation: "Mỗi năm trôi qua, tuổi tăng thêm 1, sau 5 năm tăng thêm 5 tuổi." },
+    ],
+    funFact: "Bạn có biết? Hiệu số tuổi giữa hai người luôn không đổi theo thời gian, dù cả hai đều lớn lên mỗi năm!",
+  },
+  "toan:3:day-so-cach-deu-quy-luat-va-dien-so": {
+    objectives: ["Nhận biết quy luật của dãy số cách đều.", "Điền đúng số còn thiếu trong dãy số.", "Vận dụng vào bài tập thực hành."],
+    sections: [
+      { heading: "1. Dãy số cách đều là gì?", body: ["Dãy số cách đều là dãy số mà khoảng cách giữa hai số liền nhau luôn bằng nhau. Ví dụ: 2, 4, 6, 8... (cách đều 2 đơn vị)."] },
+      { heading: "2. Tìm quy luật", body: ["Để tìm quy luật, em lấy số sau trừ số liền trước để biết khoảng cách chung."] },
+      { heading: "3. Điền số còn thiếu", body: ["Sau khi biết quy luật, em cộng (hoặc trừ) khoảng cách chung vào số đã biết để tìm số còn thiếu."] },
+    ],
+    quiz: [
+      { question: "Dãy số 5, 10, 15, 20, ... Số tiếp theo là gì?", options: ["21", "25", "30", "22"], correctIndex: 1, explanation: "Dãy cách đều 5 đơn vị, số tiếp theo là 20+5=25." },
+      { question: "Dãy số 3, 6, 9, __, 15. Số còn thiếu là gì?", options: ["10", "11", "12", "13"], correctIndex: 2, explanation: "Dãy cách đều 3 đơn vị, số còn thiếu là 9+3=12." },
+      { question: "Dãy số 100, 90, 80, 70, ... cách đều bao nhiêu đơn vị?", options: ["5", "10", "15", "20"], correctIndex: 1, explanation: "100-90=10, dãy cách đều 10 đơn vị (giảm dần)." },
+    ],
+    funFact: "Bạn có biết? Dãy số cách đều là nền tảng cho khái niệm 'cấp số cộng' mà em sẽ học ở các lớp cao hơn!",
+  },
+  "toan:3:phep-nhan-voi-so-0-va-so-1": {
+    objectives: ["Nắm được tính chất khi nhân với số 0.", "Nắm được tính chất khi nhân với số 1.", "Vận dụng vào tính nhẩm nhanh."],
+    sections: [
+      { heading: "1. Nhân với số 0", body: ["Bất kỳ số nào nhân với 0 đều bằng 0. Ví dụ: 7×0=0, 100×0=0."] },
+      { heading: "2. Nhân với số 1", body: ["Bất kỳ số nào nhân với 1 đều bằng chính số đó. Ví dụ: 7×1=7, 100×1=100."] },
+      { heading: "3. Vận dụng tính nhẩm", body: ["Nhớ hai tính chất này giúp em tính nhẩm nhanh hơn khi gặp phép nhân có số 0 hoặc số 1."] },
+    ],
+    quiz: [
+      { question: "125 × 0 = ?", options: ["0", "1", "125", "1250"], correctIndex: 0, explanation: "Bất kỳ số nào nhân với 0 đều bằng 0." },
+      { question: "48 × 1 = ?", options: ["0", "1", "48", "49"], correctIndex: 2, explanation: "Bất kỳ số nào nhân với 1 đều bằng chính nó." },
+      { question: "0 × 999 = ?", options: ["999", "0", "1", "9990"], correctIndex: 1, explanation: "0 nhân với số nào cũng bằng 0." },
+    ],
+    funFact: "Bạn có biết? Số 0 và số 1 có những tính chất đặc biệt trong toán học mà không số nào khác có được!",
+  },
+  "toan:3:phep-chia-co-so-du": {
+    objectives: ["Thực hiện được phép chia có dư.", "Hiểu ý nghĩa của số dư.", "Vận dụng vào bài toán thực tế."],
+    sections: [
+      { heading: "1. Phép chia có dư là gì?", body: ["Khi số bị chia không chia hết cho số chia, phép chia sẽ có số dư. Số dư luôn nhỏ hơn số chia."] },
+      { heading: "2. Ví dụ minh hoạ", body: ["17 : 5 = 3 (dư 2), vì 5×3=15, còn dư 17-15=2."] },
+      { heading: "3. Vận dụng thực tế", body: ["Khi chia 17 quả táo cho 5 bạn, mỗi bạn được 3 quả, còn dư 2 quả."] },
+    ],
+    quiz: [
+      { question: "19 : 4 = ? (dư bao nhiêu)", options: ["4 dư 3", "5 dư 1", "4 dư 2", "5 dư 0"], correctIndex: 0, explanation: "4×4=16, 19-16=3, vậy 19:4=4 dư 3." },
+      { question: "Trong phép chia có dư, số dư phải như thế nào so với số chia?", options: ["Lớn hơn số chia", "Bằng số chia", "Nhỏ hơn số chia", "Không có quy tắc"], correctIndex: 2, explanation: "Số dư luôn nhỏ hơn số chia." },
+      { question: "23 : 6 = ? (dư bao nhiêu)", options: ["3 dư 5", "4 dư 0", "3 dư 4", "4 dư 1"], correctIndex: 0, explanation: "6×3=18, 23-18=5, vậy 23:6=3 dư 5." },
+    ],
+    funFact: "Bạn có biết? Phép chia có dư được dùng rất nhiều trong lập trình máy tính để kiểm tra số chẵn, lẻ!",
+  },
+  "toan:3:tim-thanh-phan-chua-biet-trong-phep-cong": {
+    objectives: ["Tìm được số hạng chưa biết trong phép cộng.", "Hiểu mối quan hệ giữa các thành phần của phép cộng.", "Trình bày lời giải rõ ràng."],
+    sections: [
+      { heading: "1. Các thành phần của phép cộng", body: ["Trong phép cộng a + b = c, a và b gọi là số hạng, c gọi là tổng."] },
+      { heading: "2. Tìm số hạng chưa biết", body: ["Muốn tìm một số hạng chưa biết, ta lấy tổng trừ đi số hạng đã biết."] },
+      { heading: "3. Ví dụ minh hoạ", body: ["x + 15 = 40. Ta có: x = 40 - 15 = 25."] },
+    ],
+    quiz: [
+      { question: "x + 12 = 30. x = ?", options: ["18", "42", "20", "16"], correctIndex: 0, explanation: "x = 30-12=18." },
+      { question: "25 + y = 60. y = ?", options: ["30", "35", "85", "25"], correctIndex: 1, explanation: "y = 60-25=35." },
+      { question: "Muốn tìm số hạng chưa biết, ta làm phép tính gì?", options: ["Tổng cộng số hạng đã biết", "Tổng trừ số hạng đã biết", "Tổng nhân số hạng đã biết", "Tổng chia số hạng đã biết"], correctIndex: 1, explanation: "Lấy tổng trừ đi số hạng đã biết." },
+    ],
+    funFact: "Bạn có biết? Đây là bước đầu tiên giúp em làm quen với khái niệm 'phương trình' ở các lớp học cao hơn!",
+  },
+  "toan:3:tim-thanh-phan-chua-biet-trong-phep-tru": {
+    objectives: ["Tìm được số bị trừ hoặc số trừ chưa biết.", "Hiểu mối quan hệ giữa các thành phần của phép trừ.", "Trình bày lời giải rõ ràng."],
+    sections: [
+      { heading: "1. Các thành phần của phép trừ", body: ["Trong phép trừ a - b = c, a gọi là số bị trừ, b gọi là số trừ, c gọi là hiệu."] },
+      { heading: "2. Tìm số bị trừ", body: ["Muốn tìm số bị trừ, ta lấy hiệu cộng với số trừ: a = c + b."] },
+      { heading: "3. Tìm số trừ", body: ["Muốn tìm số trừ, ta lấy số bị trừ trừ đi hiệu: b = a - c."] },
+    ],
+    quiz: [
+      { question: "x - 15 = 20. x = ?", options: ["5", "35", "30", "25"], correctIndex: 1, explanation: "x = 20+15=35 (tìm số bị trừ)." },
+      { question: "50 - y = 18. y = ?", options: ["32", "68", "28", "22"], correctIndex: 0, explanation: "y = 50-18=32 (tìm số trừ)." },
+      { question: "Muốn tìm số bị trừ, ta làm phép tính gì?", options: ["Hiệu trừ số trừ", "Hiệu cộng số trừ", "Hiệu nhân số trừ", "Hiệu chia số trừ"], correctIndex: 1, explanation: "Lấy hiệu cộng với số trừ." },
+    ],
+    funFact: "Bạn có biết? Việc tìm thành phần chưa biết chính là một dạng giải phương trình đơn giản đầu tiên em học!",
+  },
+  "toan:3:tim-thanh-phan-chua-biet-trong-phep-nhan": {
+    objectives: ["Tìm được thừa số chưa biết trong phép nhân.", "Hiểu mối quan hệ giữa các thành phần của phép nhân.", "Trình bày lời giải rõ ràng."],
+    sections: [
+      { heading: "1. Các thành phần của phép nhân", body: ["Trong phép nhân a × b = c, a và b gọi là thừa số, c gọi là tích."] },
+      { heading: "2. Tìm thừa số chưa biết", body: ["Muốn tìm một thừa số chưa biết, ta lấy tích chia cho thừa số đã biết."] },
+      { heading: "3. Ví dụ minh hoạ", body: ["x × 6 = 42. Ta có: x = 42 : 6 = 7."] },
+    ],
+    quiz: [
+      { question: "x × 4 = 28. x = ?", options: ["6", "7", "8", "24"], correctIndex: 1, explanation: "x = 28:4=7." },
+      { question: "5 × y = 45. y = ?", options: ["8", "9", "40", "50"], correctIndex: 1, explanation: "y = 45:5=9." },
+      { question: "Muốn tìm thừa số chưa biết, ta làm phép tính gì?", options: ["Tích cộng thừa số đã biết", "Tích trừ thừa số đã biết", "Tích chia thừa số đã biết", "Tích nhân thừa số đã biết"], correctIndex: 2, explanation: "Lấy tích chia cho thừa số đã biết." },
+    ],
+    funFact: "Bạn có biết? Kỹ năng tìm thành phần chưa biết sẽ giúp em giải các bài toán đại số phức tạp hơn sau này!",
+  },
+  "toan:3:tim-thanh-phan-chua-biet-trong-phep-chia": {
+    objectives: ["Tìm được số bị chia hoặc số chia chưa biết.", "Hiểu mối quan hệ giữa các thành phần của phép chia.", "Trình bày lời giải rõ ràng."],
+    sections: [
+      { heading: "1. Các thành phần của phép chia", body: ["Trong phép chia a : b = c, a gọi là số bị chia, b gọi là số chia, c gọi là thương."] },
+      { heading: "2. Tìm số bị chia", body: ["Muốn tìm số bị chia, ta lấy thương nhân với số chia: a = c × b."] },
+      { heading: "3. Tìm số chia", body: ["Muốn tìm số chia, ta lấy số bị chia chia cho thương: b = a : c."] },
+    ],
+    quiz: [
+      { question: "x : 5 = 8. x = ?", options: ["3", "13", "40", "45"], correctIndex: 2, explanation: "x = 8×5=40 (tìm số bị chia)." },
+      { question: "36 : y = 4. y = ?", options: ["9", "32", "40", "144"], correctIndex: 0, explanation: "y = 36:4=9 (tìm số chia)." },
+      { question: "Muốn tìm số bị chia, ta làm phép tính gì?", options: ["Thương cộng số chia", "Thương trừ số chia", "Thương nhân số chia", "Thương chia số chia"], correctIndex: 2, explanation: "Lấy thương nhân với số chia." },
+    ],
+    funFact: "Bạn có biết? Bốn dạng tìm thành phần chưa biết (cộng, trừ, nhân, chia) đều dựa trên mối quan hệ ngược giữa các phép tính!",
+  },
+
+  "toan:3:bai-toan-giai-bang-hai-phep-tinh": {
+    objectives: ["Giải được bài toán cần kết hợp hai phép tính.", "Xác định đúng thứ tự các bước giải.", "Trình bày lời giải rõ ràng, đầy đủ."],
+    sections: [
+      { heading: "1. Đặc điểm bài toán hai phép tính", body: ["Loại bài toán này cần thực hiện hai bước tính mới ra đáp số cuối cùng, thường dùng kết hợp hai phép tính khác nhau."] },
+      { heading: "2. Cách giải", body: ["Bước 1: Tìm kết quả trung gian. Bước 2: Dùng kết quả đó để tính ra đáp số cuối cùng."] },
+      { heading: "3. Ví dụ minh hoạ", body: ["Có 3 hộp bút, mỗi hộp 8 chiếc, đã dùng hết 6 chiếc. Còn lại: 3×8-6=24-6=18 chiếc."] },
+    ],
+    quiz: [
+      { question: "Có 4 túi kẹo, mỗi túi 6 viên, đã ăn 5 viên. Còn lại bao nhiêu viên?", options: ["19", "24", "18", "25"], correctIndex: 0, explanation: "4×6=24, 24-5=19 viên." },
+      { question: "Bước đầu tiên khi giải bài toán hai phép tính là gì?", options: ["Tính ngay đáp số cuối", "Tìm kết quả trung gian trước", "Bỏ qua bước tính toán", "Đọc lại đề bài nhiều lần"], correctIndex: 1, explanation: "Cần tìm kết quả trung gian trước khi tính bước tiếp theo." },
+      { question: "Một cửa hàng có 50kg gạo, bán 2 lần, mỗi lần 15kg. Còn lại bao nhiêu kg?", options: ["15", "20", "35", "30"], correctIndex: 1, explanation: "2×15=30, 50-30=20kg." },
+    ],
+    funFact: "Bạn có biết? Bài toán hai phép tính là bước đệm quan trọng để em giải các bài toán phức tạp hơn ở lớp trên!",
+  },
+  "toan:3:uoc-luong-ket-qua-phep-tinh": {
+    objectives: ["Ước lượng nhanh kết quả phép tính trước khi tính chính xác.", "Rèn khả năng cảm nhận về số.", "Kiểm tra tính hợp lý của kết quả."],
+    sections: [
+      { heading: "1. Ước lượng là gì?", body: ["Ước lượng là đoán nhanh kết quả gần đúng trước khi tính chính xác, giúp em kiểm tra xem đáp số có hợp lý không."] },
+      { heading: "2. Cách ước lượng", body: ["Em có thể làm tròn các số trong phép tính rồi tính nhẩm nhanh để có kết quả gần đúng."] },
+      { heading: "3. Ví dụ minh hoạ", body: ["298 + 405 ước lượng bằng 300+400=700, kết quả chính xác là 703 — khá gần với ước lượng."] },
+    ],
+    quiz: [
+      { question: "Ước lượng nhanh: 198 + 302 gần bằng bao nhiêu?", options: ["400", "500", "600", "300"], correctIndex: 1, explanation: "200+300=500, ước lượng gần đúng." },
+      { question: "Vì sao cần ước lượng trước khi tính chính xác?", options: ["Không cần thiết", "Giúp kiểm tra kết quả có hợp lý không", "Làm bài toán khó hơn", "Không có tác dụng gì"], correctIndex: 1, explanation: "Ước lượng giúp kiểm tra tính hợp lý của kết quả." },
+      { question: "Ước lượng nhanh: 505 - 198 gần bằng bao nhiêu?", options: ["200", "300", "400", "500"], correctIndex: 1, explanation: "500-200=300, ước lượng gần đúng." },
+    ],
+    funFact: "Bạn có biết? Người lớn thường dùng ước lượng khi đi chợ để nhanh chóng biết mình cần mang bao nhiêu tiền!",
+  },
+  "toan:3:lam-tron-so-den-hang-chuc": {
+    objectives: ["Làm tròn số tự nhiên đến hàng chục gần nhất.", "Nắm quy tắc làm tròn số.", "Vận dụng vào ước lượng."],
+    sections: [
+      { heading: "1. Quy tắc làm tròn", body: ["Nhìn vào chữ số hàng đơn vị: nếu từ 5 trở lên thì làm tròn lên, nếu nhỏ hơn 5 thì làm tròn xuống."] },
+      { heading: "2. Ví dụ minh hoạ", body: ["47 có chữ số hàng đơn vị là 7 (≥5), làm tròn lên thành 50. 43 có chữ số hàng đơn vị là 3 (<5), làm tròn xuống thành 40."] },
+      { heading: "3. Vận dụng", body: ["Làm tròn số giúp em tính nhẩm và ước lượng nhanh hơn trong cuộc sống."] },
+    ],
+    quiz: [
+      { question: "Làm tròn số 36 đến hàng chục là bao nhiêu?", options: ["30", "40", "35", "36"], correctIndex: 1, explanation: "Chữ số hàng đơn vị là 6 (≥5), làm tròn lên thành 40." },
+      { question: "Làm tròn số 82 đến hàng chục là bao nhiêu?", options: ["80", "90", "82", "85"], correctIndex: 0, explanation: "Chữ số hàng đơn vị là 2 (<5), làm tròn xuống thành 80." },
+      { question: "Làm tròn số 65 đến hàng chục là bao nhiêu?", options: ["60", "70", "65", "50"], correctIndex: 1, explanation: "Chữ số hàng đơn vị là 5 (≥5), làm tròn lên thành 70." },
+    ],
+    funFact: "Bạn có biết? Làm tròn số được sử dụng rất nhiều trong đời sống, ví dụ khi thông báo số liệu dân số, giá cả!",
+  },
+  "toan:3:lam-tron-so-den-hang-tram": {
+    objectives: ["Làm tròn số tự nhiên đến hàng trăm gần nhất.", "Nắm quy tắc làm tròn số.", "Vận dụng vào ước lượng."],
+    sections: [
+      { heading: "1. Quy tắc làm tròn", body: ["Nhìn vào chữ số hàng chục: nếu từ 5 trở lên thì làm tròn lên, nếu nhỏ hơn 5 thì làm tròn xuống."] },
+      { heading: "2. Ví dụ minh hoạ", body: ["370 có chữ số hàng chục là 7 (≥5), làm tròn lên thành 400. 320 có chữ số hàng chục là 2 (<5), làm tròn xuống thành 300."] },
+      { heading: "3. Vận dụng", body: ["Làm tròn đến hàng trăm thường dùng khi ước lượng các số lớn."] },
+    ],
+    quiz: [
+      { question: "Làm tròn số 460 đến hàng trăm là bao nhiêu?", options: ["400", "500", "450", "460"], correctIndex: 1, explanation: "Chữ số hàng chục là 6 (≥5), làm tròn lên thành 500." },
+      { question: "Làm tròn số 230 đến hàng trăm là bao nhiêu?", options: ["200", "300", "230", "250"], correctIndex: 0, explanation: "Chữ số hàng chục là 3 (<5), làm tròn xuống thành 200." },
+      { question: "Làm tròn số 750 đến hàng trăm là bao nhiêu?", options: ["700", "800", "750", "600"], correctIndex: 1, explanation: "Chữ số hàng chục là 5 (≥5), làm tròn lên thành 800." },
+    ],
+    funFact: "Bạn có biết? Các báo cáo thống kê thường làm tròn số để dễ đọc, dễ hiểu hơn với người đọc!",
+  },
+  "toan:3:doc-bieu-do-tranh-don-gian": {
+    objectives: ["Đọc được thông tin từ biểu đồ tranh đơn giản.", "Hiểu ý nghĩa của mỗi hình tượng trưng trong biểu đồ.", "Trả lời câu hỏi dựa vào biểu đồ."],
+    sections: [
+      { heading: "1. Biểu đồ tranh là gì?", body: ["Biểu đồ tranh dùng hình vẽ tượng trưng để thể hiện số lượng, mỗi hình có thể tượng trưng cho 1 hoặc nhiều đơn vị."] },
+      { heading: "2. Cách đọc biểu đồ tranh", body: ["Em đếm số hình tượng trưng ở mỗi hàng/cột rồi nhân với giá trị mỗi hình để biết tổng số lượng."] },
+      { heading: "3. Ví dụ minh hoạ", body: ["Nếu mỗi hình quả táo tượng trưng cho 2 quả, hàng có 3 hình thì có 3×2=6 quả táo."] },
+    ],
+    quiz: [
+      { question: "Biểu đồ tranh dùng gì để thể hiện số lượng?", options: ["Chữ số", "Hình vẽ tượng trưng", "Âm thanh", "Màu sắc duy nhất"], correctIndex: 1, explanation: "Biểu đồ tranh dùng hình vẽ tượng trưng để thể hiện số liệu." },
+      { question: "Nếu mỗi hình tượng trưng cho 3 đơn vị và có 4 hình, tổng số lượng là bao nhiêu?", options: ["7", "12", "9", "16"], correctIndex: 1, explanation: "3×4=12." },
+      { question: "Để đọc hiểu biểu đồ tranh, em cần biết điều gì trước?", options: ["Không cần biết gì", "Giá trị mỗi hình tượng trưng", "Màu sắc của hình", "Kích thước hình vẽ"], correctIndex: 1, explanation: "Cần biết mỗi hình tượng trưng cho bao nhiêu đơn vị." },
+    ],
+    funFact: "Bạn có biết? Biểu đồ tranh là một trong những cách trình bày số liệu trực quan, dễ hiểu nhất cho trẻ nhỏ!",
+  },
+  "toan:3:thu-thap-va-kiem-dem-so-lieu": {
+    objectives: ["Thực hành thu thập số liệu đơn giản.", "Kiểm đếm và ghi lại số liệu chính xác.", "Trình bày số liệu đã thu thập."],
+    sections: [
+      { heading: "1. Thu thập số liệu là gì?", body: ["Thu thập số liệu là quá trình quan sát, đếm và ghi lại thông tin về một sự vật, hiện tượng."] },
+      { heading: "2. Cách kiểm đếm chính xác", body: ["Em nên đếm cẩn thận, đánh dấu từng đối tượng đã đếm để tránh đếm sót hoặc đếm trùng."] },
+      { heading: "3. Ví dụ thực hành", body: ["Đếm số bạn thích màu đỏ, màu xanh trong lớp rồi ghi lại thành bảng số liệu đơn giản."] },
+    ],
+    quiz: [
+      { question: "Thu thập số liệu là quá trình gì?", options: ["Đoán số lượng", "Quan sát, đếm và ghi lại thông tin", "Không cần làm gì", "Chỉ nhìn qua một lần"], correctIndex: 1, explanation: "Thu thập số liệu cần quan sát, đếm và ghi lại cẩn thận." },
+      { question: "Để tránh đếm sót hoặc đếm trùng, em nên làm gì?", options: ["Đếm thật nhanh", "Đánh dấu từng đối tượng đã đếm", "Không cần đếm kỹ", "Đoán số lượng"], correctIndex: 1, explanation: "Đánh dấu giúp tránh đếm sót hoặc đếm trùng." },
+      { question: "Sau khi thu thập số liệu, em nên làm gì?", options: ["Vứt bỏ số liệu", "Trình bày thành bảng hoặc biểu đồ", "Không cần lưu lại", "Giữ bí mật số liệu"], correctIndex: 1, explanation: "Trình bày thành bảng/biểu đồ giúp số liệu dễ đọc, dễ hiểu." },
+    ],
+    funFact: "Bạn có biết? Thu thập số liệu là bước đầu tiên trong mọi nghiên cứu khoa học, kể cả các nghiên cứu lớn trên thế giới!",
+  },
+  "toan:3:hinh-khoi-nhan-biet-khoi-tru-khoi-cau": {
+    objectives: ["Nhận biết khối trụ, khối cầu trong thực tế.", "Nêu được đặc điểm của khối trụ, khối cầu.", "Phân biệt với các hình khối đã học."],
+    sections: [
+      { heading: "1. Khối trụ", body: ["Khối trụ có hai mặt đáy là hình tròn bằng nhau, mặt xung quanh cong. Ví dụ: lon nước ngọt, ống nước."] },
+      { heading: "2. Khối cầu", body: ["Khối cầu có hình dạng tròn đều ở mọi hướng, không có góc cạnh. Ví dụ: quả bóng, viên bi."] },
+      { heading: "3. Phân biệt với khối khác", body: ["Khác với khối hộp chữ nhật, khối lập phương (có mặt phẳng), khối trụ và khối cầu có mặt cong."] },
+    ],
+    quiz: [
+      { question: "Đồ vật nào có dạng khối trụ?", options: ["Quả bóng", "Lon nước ngọt", "Viên xúc xắc", "Hộp bút hình chữ nhật"], correctIndex: 1, explanation: "Lon nước ngọt có dạng khối trụ." },
+      { question: "Đồ vật nào có dạng khối cầu?", options: ["Quả bóng", "Lon nước ngọt", "Hộp phấn", "Viên xúc xắc"], correctIndex: 0, explanation: "Quả bóng có dạng khối cầu." },
+      { question: "Khối cầu có đặc điểm gì nổi bật?", options: ["Có các góc nhọn", "Tròn đều ở mọi hướng, không góc cạnh", "Có 6 mặt phẳng", "Có 2 mặt đáy hình tròn"], correctIndex: 1, explanation: "Khối cầu tròn đều ở mọi hướng, không có góc cạnh." },
+    ],
+    funFact: "Bạn có biết? Trái Đất mà chúng ta đang sống có hình dạng gần giống với một khối cầu khổng lồ!",
+  },
+  "toan:3:so-sanh-phan-so-cung-mau-so": {
+    objectives: ["So sánh được hai phân số có cùng mẫu số.", "Nắm quy tắc so sánh phân số cùng mẫu.", "Vận dụng vào bài tập thực hành."],
+    sections: [
+      { heading: "1. Quy tắc so sánh", body: ["Hai phân số có cùng mẫu số, phân số nào có tử số lớn hơn thì phân số đó lớn hơn."] },
+      { heading: "2. Ví dụ minh hoạ", body: ["So sánh 3/5 và 4/5: cùng mẫu số 5, vì 3<4 nên 3/5 < 4/5."] },
+      { heading: "3. Vận dụng", body: ["Quy tắc này giúp em nhanh chóng so sánh các phân số có cùng mẫu số mà không cần quy đổi."] },
+    ],
+    quiz: [
+      { question: "So sánh 2/7 và 5/7, phân số nào lớn hơn?", options: ["2/7", "5/7", "Bằng nhau", "Không so sánh được"], correctIndex: 1, explanation: "Cùng mẫu số, 5>2 nên 5/7 lớn hơn." },
+      { question: "So sánh 6/9 và 4/9, phân số nào nhỏ hơn?", options: ["6/9", "4/9", "Bằng nhau", "Không xác định"], correctIndex: 1, explanation: "Cùng mẫu số, 4<6 nên 4/9 nhỏ hơn." },
+      { question: "Để so sánh hai phân số cùng mẫu số, ta so sánh gì?", options: ["Mẫu số", "Tử số", "Cả tử và mẫu", "Không so sánh được"], correctIndex: 1, explanation: "Chỉ cần so sánh tử số khi mẫu số bằng nhau." },
+    ],
+    funFact: "Bạn có biết? So sánh phân số cùng mẫu là bước cơ bản trước khi học so sánh phân số khác mẫu ở lớp 4!",
+  },
+  "toan:3:cong-hai-phan-so-cung-mau-so": {
+    objectives: ["Thực hiện được phép cộng hai phân số cùng mẫu số.", "Nắm quy tắc cộng phân số cùng mẫu.", "Vận dụng vào bài tập thực hành."],
+    sections: [
+      { heading: "1. Quy tắc cộng phân số cùng mẫu", body: ["Muốn cộng hai phân số cùng mẫu số, ta cộng các tử số với nhau và giữ nguyên mẫu số."] },
+      { heading: "2. Ví dụ minh hoạ", body: ["2/7 + 3/7 = (2+3)/7 = 5/7."] },
+      { heading: "3. Lưu ý", body: ["Mẫu số không thay đổi khi cộng hai phân số cùng mẫu, chỉ có tử số được cộng lại."] },
+    ],
+    quiz: [
+      { question: "1/5 + 2/5 = ?", options: ["3/5", "3/10", "2/5", "1/10"], correctIndex: 0, explanation: "1+2=3, giữ nguyên mẫu số: 3/5." },
+      { question: "3/8 + 4/8 = ?", options: ["7/16", "7/8", "12/8", "1/8"], correctIndex: 1, explanation: "3+4=7, giữ nguyên mẫu số: 7/8." },
+      { question: "Khi cộng hai phân số cùng mẫu, mẫu số của kết quả là gì?", options: ["Tổng hai mẫu số", "Giữ nguyên mẫu số ban đầu", "Tích hai mẫu số", "Luôn bằng 1"], correctIndex: 1, explanation: "Mẫu số giữ nguyên khi cộng hai phân số cùng mẫu." },
+    ],
+    funFact: "Bạn có biết? Phép cộng phân số cùng mẫu đơn giản hơn nhiều so với phép cộng phân số khác mẫu mà em sẽ học sau này!",
+  },
+  "toan:3:tru-hai-phan-so-cung-mau-so": {
+    objectives: ["Thực hiện được phép trừ hai phân số cùng mẫu số.", "Nắm quy tắc trừ phân số cùng mẫu.", "Vận dụng vào bài tập thực hành."],
+    sections: [
+      { heading: "1. Quy tắc trừ phân số cùng mẫu", body: ["Muốn trừ hai phân số cùng mẫu số, ta trừ các tử số cho nhau và giữ nguyên mẫu số."] },
+      { heading: "2. Ví dụ minh hoạ", body: ["5/9 - 2/9 = (5-2)/9 = 3/9."] },
+      { heading: "3. Lưu ý", body: ["Tương tự phép cộng, mẫu số không thay đổi khi trừ hai phân số cùng mẫu."] },
+    ],
+    quiz: [
+      { question: "4/6 - 1/6 = ?", options: ["3/6", "5/6", "3/12", "1/6"], correctIndex: 0, explanation: "4-1=3, giữ nguyên mẫu số: 3/6." },
+      { question: "7/10 - 3/10 = ?", options: ["4/20", "4/10", "10/10", "3/10"], correctIndex: 1, explanation: "7-3=4, giữ nguyên mẫu số: 4/10." },
+      { question: "Khi trừ hai phân số cùng mẫu, ta làm gì với tử số?", options: ["Cộng lại", "Trừ cho nhau", "Nhân với nhau", "Không thay đổi"], correctIndex: 1, explanation: "Trừ các tử số cho nhau." },
+    ],
+    funFact: "Bạn có biết? Việc hiểu phép cộng, trừ phân số cùng mẫu sẽ giúp em học tốt hơn ở phần phân số khác mẫu sau này!",
+  },
+  "toan:3:bai-toan-ve-chia-nhom-deu": {
+    objectives: ["Giải được bài toán chia một tập hợp thành các nhóm đều.", "Xác định đúng phép tính cần dùng.", "Trình bày lời giải rõ ràng."],
+    sections: [
+      { heading: "1. Dạng toán chia nhóm đều", body: ["Đây là dạng toán chia một số lượng đồ vật thành các nhóm có số lượng bằng nhau, thường dùng phép chia."] },
+      { heading: "2. Hai dạng câu hỏi thường gặp", body: ["Dạng 1: Biết tổng số và số nhóm, tìm số lượng mỗi nhóm. Dạng 2: Biết tổng số và số lượng mỗi nhóm, tìm số nhóm."] },
+      { heading: "3. Ví dụ minh hoạ", body: ["Có 24 bạn chia thành 4 nhóm đều nhau. Mỗi nhóm có: 24:4=6 bạn."] },
+    ],
+    quiz: [
+      { question: "Có 36 quyển vở chia đều cho 6 bạn. Mỗi bạn được bao nhiêu quyển?", options: ["5", "6", "7", "8"], correctIndex: 1, explanation: "36:6=6 quyển." },
+      { question: "Có 45 cái kẹo, mỗi túi đựng 9 cái. Cần bao nhiêu túi?", options: ["4", "5", "6", "9"], correctIndex: 1, explanation: "45:9=5 túi." },
+      { question: "Dạng toán chia nhóm đều thường dùng phép tính gì?", options: ["Cộng", "Trừ", "Nhân", "Chia"], correctIndex: 3, explanation: "Dạng toán này thường dùng phép chia." },
+    ],
+    funFact: "Bạn có biết? Chia nhóm đều là kỹ năng em dùng thường xuyên khi chia đồ chơi, kẹo bánh cho bạn bè!",
+  },
+  "toan:3:met-vuong-lam-quen-don-vi-do-dien-tich-lon": {
+    objectives: ["Làm quen đơn vị đo diện tích mét vuông.", "Hiểu mối quan hệ giữa mét vuông và xăng-ti-mét vuông.", "Ước lượng diện tích các không gian quen thuộc."],
+    sections: [
+      { heading: "1. Đơn vị mét vuông", body: ["Mét vuông (m²) là đơn vị đo diện tích lớn hơn cm², thường dùng đo diện tích phòng học, sân trường."] },
+      { heading: "2. Mối quan hệ với cm²", body: ["1m² = 10 000cm² (vì 1m=100cm, diện tích = 100×100=10 000cm²)."] },
+      { heading: "3. Ước lượng thực tế", body: ["Một phòng học có diện tích khoảng 50m², một tờ giấy A4 có diện tích khoảng 600cm² (nhỏ hơn nhiều so với 1m²)."] },
+    ],
+    quiz: [
+      { question: "Đơn vị nào phù hợp để đo diện tích một căn phòng?", options: ["cm²", "m²", "mm²", "Không có đơn vị nào phù hợp"], correctIndex: 1, explanation: "Mét vuông (m²) phù hợp để đo diện tích phòng." },
+      { question: "1m² bằng bao nhiêu cm²?", options: ["100cm²", "1000cm²", "10 000cm²", "100 000cm²"], correctIndex: 2, explanation: "1m² = 10 000cm²." },
+      { question: "Diện tích sân trường thường được đo bằng đơn vị nào?", options: ["mm²", "cm²", "m²", "Không đo được"], correctIndex: 2, explanation: "Mét vuông phù hợp để đo diện tích lớn như sân trường." },
+    ],
+    funFact: "Bạn có biết? Diện tích một sân bóng đá tiêu chuẩn vào khoảng 7000m² — lớn hơn rất nhiều lần một phòng học!",
+  },
+  "toan:3:ki-lo-met-do-khoang-cach-xa": {
+    objectives: ["Làm quen đơn vị đo khoảng cách ki-lô-mét.", "Hiểu mối quan hệ giữa ki-lô-mét và mét.", "Ước lượng khoảng cách trong đời sống."],
+    sections: [
+      { heading: "1. Đơn vị ki-lô-mét", body: ["Ki-lô-mét (km) là đơn vị đo khoảng cách lớn, thường dùng đo quãng đường giữa các địa điểm xa nhau."] },
+      { heading: "2. Mối quan hệ với mét", body: ["1km = 1000m."] },
+      { heading: "3. Ước lượng thực tế", body: ["Quãng đường từ nhà đến trường có thể khoảng 2km, khoảng cách giữa hai thành phố có thể hàng trăm km."] },
+    ],
+    quiz: [
+      { question: "1km bằng bao nhiêu mét?", options: ["10m", "100m", "1000m", "10 000m"], correctIndex: 2, explanation: "1km = 1000m." },
+      { question: "Đơn vị nào phù hợp để đo khoảng cách giữa hai thành phố?", options: ["cm", "m", "km", "mm"], correctIndex: 2, explanation: "Ki-lô-mét phù hợp để đo khoảng cách rất xa." },
+      { question: "3km bằng bao nhiêu mét?", options: ["300m", "3000m", "30 000m", "30m"], correctIndex: 1, explanation: "3km = 3000m." },
+    ],
+    funFact: "Bạn có biết? Đường xích đạo bao quanh Trái Đất dài khoảng 40 075 km!",
+  },
+  "toan:3:van-dung-do-luong-vao-tinh-huong-thuc-te": {
+    objectives: ["Vận dụng các đơn vị đo đã học vào tình huống thực tế.", "Chọn đúng đơn vị đo phù hợp.", "Giải bài toán tổng hợp về đo lường."],
+    sections: [
+      { heading: "1. Chọn đơn vị đo phù hợp", body: ["Tuỳ vào đối tượng cần đo (nhỏ hay lớn) mà em chọn đơn vị đo phù hợp: mm, cm, dm, m, km cho độ dài; g, kg cho khối lượng; ml, lít cho dung tích."] },
+      { heading: "2. Giải bài toán tổng hợp", body: ["Bài toán thực tế có thể kết hợp nhiều đơn vị đo khác nhau, em cần đổi về cùng đơn vị trước khi tính toán."] },
+      { heading: "3. Ví dụ minh hoạ", body: ["Một đoạn dây dài 2m, cắt bớt 50cm (=5dm). Đổi 2m=20dm, còn lại: 20-5=15dm."] },
+    ],
+    quiz: [
+      { question: "Đơn vị nào phù hợp để đo khối lượng một quả dưa hấu?", options: ["mm", "gam", "ki-lô-gam", "lít"], correctIndex: 2, explanation: "Ki-lô-gam phù hợp để đo khối lượng vật có kích thước vừa và lớn." },
+      { question: "Một chai nước có dung tích 500ml, đổ ra 2 cốc bằng nhau. Mỗi cốc có bao nhiêu ml?", options: ["100ml", "200ml", "250ml", "300ml"], correctIndex: 2, explanation: "500:2=250ml." },
+      { question: "Khi bài toán có nhiều đơn vị đo khác nhau, em cần làm gì trước khi tính?", options: ["Bỏ qua đơn vị", "Đổi về cùng một đơn vị", "Không cần đổi gì", "Chọn đơn vị bất kỳ"], correctIndex: 1, explanation: "Cần đổi về cùng đơn vị trước khi thực hiện phép tính." },
+    ],
+    funFact: "Bạn có biết? Việc chọn sai đơn vị đo có thể dẫn đến những sai lầm lớn, thậm chí trong khoa học và kỹ thuật thực tế!",
+  },
+  "toan:3:on-tap-giua-hoc-ky-1": {
+    objectives: ["Hệ thống lại kiến thức đã học ở giữa học kỳ 1.", "Ôn luyện các dạng bài tập trọng tâm.", "Tự tin chuẩn bị cho bài kiểm tra."],
+    sections: [
+      { heading: "1. Nội dung trọng tâm", body: ["Giữa học kỳ 1, em đã học về các số đến 1000, phép cộng trừ có nhớ, và bước đầu làm quen bảng nhân chia 6,7,8,9."] },
+      { heading: "2. Cách ôn tập hiệu quả", body: ["Em nên làm lại các bài tập đã học, chú ý những dạng bài mình còn hay sai."] },
+      { heading: "3. Chuẩn bị tâm lý", body: ["Ôn tập đều đặn, ngủ đủ giấc trước ngày kiểm tra sẽ giúp em làm bài tốt hơn."] },
+    ],
+    quiz: [
+      { question: "356 + 278 = ?", options: ["634", "624", "534", "644"], correctIndex: 0, explanation: "356+278=634." },
+      { question: "7 × 8 = ?", options: ["54", "56", "64", "48"], correctIndex: 1, explanation: "7×8=56." },
+      { question: "604 - 168 = ?", options: ["446", "436", "536", "456"], correctIndex: 1, explanation: "604-168=436." },
+    ],
+    funFact: "Bạn có biết? Ôn tập giữa kỳ giúp em phát hiện sớm những phần kiến thức còn yếu để kịp thời củng cố!",
+  },
+  "toan:3:on-tap-cuoi-hoc-ky-1": {
+    objectives: ["Hệ thống lại toàn bộ kiến thức học kỳ 1.", "Ôn luyện tổng hợp các dạng bài đã học.", "Tự tin chuẩn bị cho bài kiểm tra cuối kỳ."],
+    sections: [
+      { heading: "1. Nội dung trọng tâm học kỳ 1", body: ["Học kỳ 1 gồm: số đến 1000, các phép tính cộng trừ nhân chia, bảng nhân chia 6-9, góc vuông và chu vi hình."] },
+      { heading: "2. Ôn luyện tổng hợp", body: ["Em nên luyện các đề tổng hợp có đủ các dạng bài đã học để làm quen với cấu trúc đề kiểm tra."] },
+      { heading: "3. Quản lý thời gian làm bài", body: ["Khi làm bài kiểm tra, em nên làm câu dễ trước, câu khó sau, và luôn kiểm tra lại bài trước khi nộp."] },
+    ],
+    quiz: [
+      { question: "Hình chữ nhật dài 9cm, rộng 4cm. Chu vi là bao nhiêu?", options: ["13cm", "26cm", "36cm", "18cm"], correctIndex: 1, explanation: "Chu vi = (9+4)×2=26cm." },
+      { question: "48 : 6 = ?", options: ["6", "7", "8", "9"], correctIndex: 2, explanation: "6×8=48 nên 48:6=8." },
+      { question: "Góc vuông có số đo bằng bao nhiêu độ?", options: ["45 độ", "60 độ", "90 độ", "180 độ"], correctIndex: 2, explanation: "Góc vuông có số đo đúng bằng 90 độ." },
+    ],
+    funFact: "Bạn có biết? Việc ôn tập tổng hợp trước kỳ thi giúp não bộ kết nối các kiến thức rời rạc thành một hệ thống vững chắc!",
+  },
+  "toan:3:on-tap-giua-hoc-ky-2": {
+    objectives: ["Hệ thống lại kiến thức đã học ở giữa học kỳ 2.", "Ôn luyện các dạng bài tập trọng tâm.", "Tự tin chuẩn bị cho bài kiểm tra."],
+    sections: [
+      { heading: "1. Nội dung trọng tâm", body: ["Giữa học kỳ 2, em đã học về phân số cơ bản, các số đến 100 000, diện tích hình chữ nhật, hình vuông."] },
+      { heading: "2. Cách ôn tập hiệu quả", body: ["Em nên tự làm lại các bài tập, đặc biệt chú ý các bài toán có lời văn liên quan đến diện tích."] },
+      { heading: "3. Luyện đề tổng hợp", body: ["Làm thử một vài đề ôn tập tổng hợp sẽ giúp em tự tin hơn khi bước vào bài kiểm tra thật."] },
+    ],
+    quiz: [
+      { question: "Hình vuông cạnh 6cm. Diện tích là bao nhiêu?", options: ["12cm²", "24cm²", "30cm²", "36cm²"], correctIndex: 3, explanation: "Diện tích = 6×6=36cm²." },
+      { question: "Chia hình tròn thành 4 phần bằng nhau, tô màu 3 phần. Phân số biểu diễn là gì?", options: ["1/4", "3/4", "4/3", "1/3"], correctIndex: 1, explanation: "Tô màu 3 trong 4 phần bằng nhau: 3/4." },
+      { question: "Số nào lớn hơn: 8695 hay 9012?", options: ["8695", "9012", "Bằng nhau", "Không so sánh được"], correctIndex: 1, explanation: "Hàng nghìn: 8<9 nên 9012 lớn hơn." },
+    ],
+    funFact: "Bạn có biết? Càng gần cuối năm học, kiến thức Toán càng kết hợp nhiều dạng bài với nhau — hãy ôn tập đều đặn nhé!",
+  },
+  "toan:3:so-la-ma-lam-quen-cac-so-co-ban": {
+    objectives: ["Nhận biết một số chữ số La Mã cơ bản.", "Đọc được các số La Mã thường gặp.", "Biết ứng dụng của số La Mã trong đời sống."],
+    sections: [
+      { heading: "1. Các chữ số La Mã cơ bản", body: ["I=1, V=5, X=10, L=50, C=100. Đây là các ký hiệu cơ bản của số La Mã."] },
+      { heading: "2. Cách đọc số La Mã đơn giản", body: ["II=2, III=3, IV=4 (viết trước V nghĩa là trừ đi), VI=6, VII=7, VIII=8, IX=9 (trước X)."] },
+      { heading: "3. Ứng dụng thực tế", body: ["Số La Mã thường xuất hiện trên mặt đồng hồ cổ, trong tên các vị vua, hoặc đánh số chương sách."] },
+    ],
+    quiz: [
+      { question: "Chữ số La Mã 'V' tương ứng với số nào?", options: ["1", "5", "10", "50"], correctIndex: 1, explanation: "'V' tương ứng với số 5." },
+      { question: "Số La Mã 'IV' tương ứng với số nào?", options: ["6", "4", "9", "14"], correctIndex: 1, explanation: "'IV' (I trước V) nghĩa là 5-1=4." },
+      { question: "Số La Mã thường xuất hiện ở đâu trong đời sống?", options: ["Mặt đồng hồ cổ", "Thực đơn nhà hàng", "Nhãn vở học sinh", "Không xuất hiện ở đâu"], correctIndex: 0, explanation: "Số La Mã thường thấy trên mặt đồng hồ cổ." },
+    ],
+    funFact: "Bạn có biết? Số La Mã không có số 0 — đây là một trong những lý do hệ số này ít được dùng để tính toán ngày nay!",
+  },
+  "toan:3:bai-toan-ve-van-toc-don-gian": {
+    objectives: ["Làm quen bài toán về quãng đường đi bộ, đi xe đơn giản.", "Hiểu mối quan hệ giữa quãng đường, thời gian.", "Vận dụng vào bài toán thực tế."],
+    sections: [
+      { heading: "1. Làm quen khái niệm", body: ["Nếu mỗi giờ đi được một quãng đường nhất định, sau nhiều giờ ta có thể tính tổng quãng đường đã đi."] },
+      { heading: "2. Ví dụ minh hoạ", body: ["Mỗi giờ đi bộ được 4km, đi trong 3 giờ thì đi được: 4×3=12km."] },
+      { heading: "3. Vận dụng", body: ["Đây là bước làm quen đầu tiên với bài toán chuyển động mà em sẽ học sâu hơn ở lớp 5."] },
+    ],
+    quiz: [
+      { question: "Mỗi giờ đi được 5km, đi trong 4 giờ thì đi được bao nhiêu km?", options: ["9km", "15km", "20km", "25km"], correctIndex: 2, explanation: "5×4=20km." },
+      { question: "Một người đi xe đạp mỗi giờ 12km, đi trong 2 giờ được bao nhiêu km?", options: ["14km", "24km", "6km", "20km"], correctIndex: 1, explanation: "12×2=24km." },
+      { question: "Để tính quãng đường khi biết quãng đường mỗi giờ và số giờ đi, ta dùng phép tính gì?", options: ["Cộng", "Trừ", "Nhân", "Chia"], correctIndex: 2, explanation: "Quãng đường = quãng đường mỗi giờ × số giờ (phép nhân)." },
+    ],
+    funFact: "Bạn có biết? Bài toán về vận tốc, quãng đường, thời gian là một trong những dạng toán quan trọng em sẽ gặp nhiều ở các lớp trên!",
+  },
+  "toan:3:tinh-nhanh-bang-cach-nhom-so": {
+    objectives: ["Vận dụng tính chất phép tính để tính nhanh.", "Nhận biết cách nhóm số hợp lý.", "Tính nhẩm nhanh và chính xác hơn."],
+    sections: [
+      { heading: "1. Tính chất giao hoán, kết hợp", body: ["Trong phép cộng và phép nhân, em có thể đổi chỗ và nhóm các số lại để tính cho thuận tiện hơn."] },
+      { heading: "2. Ví dụ minh hoạ", body: ["25 + 37 + 75 = (25+75) + 37 = 100 + 37 = 137 (nhóm hai số tròn trăm lại trước)."] },
+      { heading: "3. Vận dụng", body: ["Kỹ năng nhóm số hợp lý giúp em tính nhẩm nhanh hơn nhiều so với tính theo thứ tự thông thường."] },
+    ],
+    quiz: [
+      { question: "Tính nhanh: 18 + 45 + 2 = ?", options: ["63", "65", "60", "67"], correctIndex: 1, explanation: "(18+2)+45=20+45=65." },
+      { question: "Tính nhanh: 4 × 25 × 2 = ?", options: ["100", "200", "50", "150"], correctIndex: 1, explanation: "4×25=100, 100×2=200." },
+      { question: "Vì sao nên nhóm các số tròn chục, tròn trăm lại với nhau khi tính nhanh?", options: ["Để bài toán khó hơn", "Để tính nhẩm dễ dàng hơn", "Không có lý do gì", "Để sai kết quả"], correctIndex: 1, explanation: "Nhóm số tròn chục, tròn trăm giúp tính nhẩm dễ và nhanh hơn." },
+    ],
+    funFact: "Bạn có biết? Nhà toán học Carl Friedrich Gauss đã dùng cách nhóm số để tính tổng 1 đến 100 chỉ trong vài giây khi còn nhỏ!",
+  },
+  "toan:3:bai-toan-co-loi-van-ve-do-luong": {
+    objectives: ["Giải được bài toán có lời văn liên quan đến đo lường.", "Xác định đúng đơn vị đo trong bài toán.", "Trình bày lời giải rõ ràng."],
+    sections: [
+      { heading: "1. Đặc điểm bài toán đo lường", body: ["Loại bài toán này thường liên quan đến độ dài, khối lượng, dung tích và yêu cầu tính toán kết hợp với đổi đơn vị."] },
+      { heading: "2. Các bước giải", body: ["Đọc kỹ đề, xác định đơn vị đo, đổi về cùng đơn vị nếu cần, rồi thực hiện phép tính phù hợp."] },
+      { heading: "3. Ví dụ minh hoạ", body: ["Một sợi dây dài 5m, cắt đi 120cm. Đổi 5m=500cm, còn lại: 500-120=380cm."] },
+    ],
+    quiz: [
+      { question: "Một túi gạo nặng 25kg, dùng hết 8kg. Còn lại bao nhiêu ki-lô-gam?", options: ["15kg", "17kg", "33kg", "20kg"], correctIndex: 1, explanation: "25-8=17kg." },
+      { question: "Một chai dầu ăn có 2 lít, đã dùng 600ml. Đổi 2 lít = 2000ml, còn lại bao nhiêu ml?", options: ["1400ml", "1600ml", "1200ml", "2600ml"], correctIndex: 0, explanation: "2000-600=1400ml." },
+      { question: "Khi giải bài toán có đơn vị đo khác nhau, bước đầu tiên em cần làm là gì?", options: ["Bỏ qua đơn vị", "Đổi về cùng đơn vị", "Đoán kết quả", "Không cần làm gì"], correctIndex: 1, explanation: "Cần đổi về cùng đơn vị trước khi tính toán." },
+    ],
+    funFact: "Bạn có biết? Bài toán có lời văn về đo lường giúp em áp dụng kiến thức toán học vào cuộc sống hàng ngày!",
+  },
+  "toan:3:bai-toan-co-loi-van-ve-hinh-hoc": {
+    objectives: ["Giải được bài toán có lời văn liên quan đến hình học.", "Vận dụng công thức chu vi, diện tích vào bài toán.", "Trình bày lời giải rõ ràng."],
+    sections: [
+      { heading: "1. Đặc điểm bài toán hình học", body: ["Loại bài toán này thường yêu cầu tính chu vi hoặc diện tích của hình chữ nhật, hình vuông trong tình huống thực tế."] },
+      { heading: "2. Các bước giải", body: ["Xác định hình dạng, tìm số đo các cạnh liên quan, áp dụng đúng công thức chu vi hoặc diện tích."] },
+      { heading: "3. Ví dụ minh hoạ", body: ["Một khu vườn hình chữ nhật dài 8m, rộng 5m. Diện tích khu vườn là: 8×5=40m²."] },
+    ],
+    quiz: [
+      { question: "Một mảnh đất hình vuông cạnh 12m. Diện tích mảnh đất là bao nhiêu?", options: ["48m²", "144m²", "24m²", "120m²"], correctIndex: 1, explanation: "12×12=144m²." },
+      { question: "Một khung tranh hình chữ nhật dài 40cm, rộng 25cm. Chu vi khung tranh là bao nhiêu?", options: ["65cm", "130cm", "1000cm", "90cm"], correctIndex: 1, explanation: "(40+25)×2=130cm." },
+      { question: "Khi giải bài toán hình học có lời văn, em cần xác định điều gì đầu tiên?", options: ["Màu sắc của hình", "Hình dạng và số đo các cạnh", "Tên người ra đề", "Không cần xác định gì"], correctIndex: 1, explanation: "Cần xác định hình dạng và số đo các cạnh liên quan." },
+    ],
+    funFact: "Bạn có biết? Kiến thức về chu vi, diện tích được các kiến trúc sư sử dụng hàng ngày khi thiết kế nhà cửa, công trình!",
+  },
+  "toan:3:luyen-tap-bang-nhan-chia-tong-hop": {
+    objectives: ["Ôn luyện tổng hợp các bảng nhân, chia đã học.", "Tính nhẩm nhanh và chính xác.", "Tự tin vận dụng vào các bài toán khác."],
+    sections: [
+      { heading: "1. Tổng ôn các bảng nhân, chia", body: ["Em đã học các bảng nhân, chia từ 2 đến 9 — hãy ôn lại toàn bộ để thật thuộc lòng."] },
+      { heading: "2. Cách luyện tập hiệu quả", body: ["Luyện tập bằng flashcard, đọc to nhiều lần, hoặc chơi trò chơi đố bảng nhân chia với bạn bè."] },
+      { heading: "3. Kiểm tra bản thân", body: ["Hãy thử tự đố mình các phép nhân, chia ngẫu nhiên để kiểm tra mức độ thuộc bài."] },
+    ],
+    quiz: [
+      { question: "8 × 9 = ?", options: ["63", "72", "81", "64"], correctIndex: 1, explanation: "8×9=72." },
+      { question: "81 : 9 = ?", options: ["7", "8", "9", "10"], correctIndex: 2, explanation: "9×9=81 nên 81:9=9." },
+      { question: "6 × 7 = ?", options: ["36", "42", "48", "40"], correctIndex: 1, explanation: "6×7=42." },
+    ],
+    funFact: "Bạn có biết? Thuộc chắc bảng cửu chương là nền tảng quan trọng nhất giúp em học tốt Toán ở các lớp trên!",
+  },
+  "toan:3:luyen-tap-bon-phep-tinh-tong-hop": {
+    objectives: ["Ôn luyện tổng hợp cộng, trừ, nhân, chia.", "Vận dụng linh hoạt các phép tính đã học.", "Giải quyết bài toán kết hợp nhiều phép tính."],
+    sections: [
+      { heading: "1. Tổng ôn bốn phép tính", body: ["Em đã học đầy đủ bốn phép tính cơ bản: cộng, trừ, nhân, chia. Hãy ôn luyện đều cả bốn phép tính này."] },
+      { heading: "2. Kết hợp các phép tính", body: ["Nhiều bài toán yêu cầu kết hợp nhiều phép tính khác nhau, em cần xác định đúng thứ tự thực hiện."] },
+      { heading: "3. Luyện tập thường xuyên", body: ["Luyện tập mỗi ngày một ít sẽ giúp em thành thạo bốn phép tính hơn là học dồn một lúc."] },
+    ],
+    quiz: [
+      { question: "125 + 375 = ?", options: ["500", "450", "550", "400"], correctIndex: 0, explanation: "125+375=500." },
+      { question: "9 × 6 - 14 = ?", options: ["40", "54", "68", "44"], correctIndex: 0, explanation: "9×6=54, 54-14=40." },
+      { question: "144 : 12 = ?", options: ["11", "12", "13", "14"], correctIndex: 1, explanation: "12×12=144 nên 144:12=12." },
+    ],
+    funFact: "Bạn có biết? Bốn phép tính cơ bản là nền tảng của mọi phép toán phức tạp hơn trong toán học!",
+  },
+  "toan:3:tro-choi-ai-nhanh-ai-dung-voi-phep-tinh": {
+    objectives: ["Ôn luyện các phép tính đã học qua trò chơi.", "Rèn phản xạ tính toán nhanh.", "Tạo hứng thú học Toán."],
+    sections: [
+      { heading: "1. Cách chơi", body: ["Trò chơi 'Ai nhanh ai đúng' yêu cầu người chơi trả lời thật nhanh các phép tính được đưa ra, ai đúng và nhanh nhất sẽ thắng."] },
+      { heading: "2. Lợi ích của trò chơi", body: ["Trò chơi giúp em vừa ôn luyện kiến thức vừa cảm thấy vui vẻ, hào hứng hơn khi học Toán."] },
+      { heading: "3. Cách chơi cùng bạn bè", body: ["Em có thể rủ bạn bè cùng chơi, người nào trả lời đúng nhiều câu hỏi nhất trong thời gian quy định sẽ chiến thắng."] },
+    ],
+    quiz: [
+      { question: "7 × 6 = ?", options: ["36", "42", "48", "40"], correctIndex: 1, explanation: "7×6=42." },
+      { question: "100 - 45 = ?", options: ["45", "55", "65", "50"], correctIndex: 1, explanation: "100-45=55." },
+      { question: "9 × 5 = ?", options: ["40", "45", "50", "54"], correctIndex: 1, explanation: "9×5=45." },
+    ],
+    funFact: "Bạn có biết? Chơi trò chơi tính nhẩm thường xuyên có thể giúp cải thiện tốc độ phản xạ tư duy của não bộ!",
+  },
+  "toan:3:giai-o-so-toan-hoc": {
+    objectives: ["Rèn tư duy logic qua trò chơi ô số.", "Vận dụng các phép tính đã học để giải ô số.", "Tạo hứng thú học Toán."],
+    sections: [
+      { heading: "1. Ô số toán học là gì?", body: ["Ô số toán học là trò chơi điền các số vào ô trống sao cho các phép tính hàng ngang, hàng dọc đều đúng."] },
+      { heading: "2. Cách giải", body: ["Em cần quan sát kỹ các phép tính đã cho, suy luận để tìm ra số còn thiếu phù hợp."] },
+      { heading: "3. Lợi ích", body: ["Trò chơi này giúp rèn luyện tư duy logic và khả năng tính toán linh hoạt."] },
+    ],
+    quiz: [
+      { question: "5 + ? = 12. Số cần điền là gì?", options: ["6", "7", "8", "17"], correctIndex: 1, explanation: "12-5=7." },
+      { question: "? × 4 = 32. Số cần điền là gì?", options: ["6", "7", "8", "9"], correctIndex: 2, explanation: "32:4=8." },
+      { question: "18 - ? = 9. Số cần điền là gì?", options: ["7", "8", "9", "10"], correctIndex: 2, explanation: "18-9=9." },
+    ],
+    funFact: "Bạn có biết? Các trò chơi ô số như Sudoku được yêu thích trên toàn thế giới vì giúp rèn luyện tư duy logic!",
+  },
+  "toan:3:toan-vui-do-vui-ve-so": {
+    objectives: ["Giải các câu đố vui liên quan đến số học.", "Rèn tư duy sáng tạo khi giải toán.", "Tạo hứng thú, yêu thích môn Toán."],
+    sections: [
+      { heading: "1. Toán vui là gì?", body: ["Toán vui là những câu đố, bài toán được trình bày dưới dạng thú vị, hài hước để tạo hứng thú học tập."] },
+      { heading: "2. Cách giải toán vui", body: ["Em cần đọc kỹ đề bài, đôi khi câu đố có 'bẫy' đòi hỏi tư duy linh hoạt hơn bài toán thông thường."] },
+      { heading: "3. Lợi ích", body: ["Toán vui giúp em thấy môn Toán gần gũi, thú vị hơn, không còn cảm giác khô khan."] },
+    ],
+    quiz: [
+      { question: "Có 5 con chim đậu trên cành, bắn rơi 1 con. Hỏi còn mấy con trên cành?", options: ["4 con", "0 con (chim còn lại đã bay đi hết)", "5 con", "1 con"], correctIndex: 1, explanation: "Đây là câu đố vui: tiếng súng khiến các con chim còn lại bay đi hết." },
+      { question: "Một cây có 10 cành, mỗi cành có 2 quả táo. Có tất cả bao nhiêu quả táo?", options: ["12", "20", "10", "22"], correctIndex: 1, explanation: "10×2=20 quả (đây là câu hỏi tính toán thông thường)." },
+      { question: "Toán vui giúp ích điều gì cho việc học Toán?", options: ["Không có ích gì", "Tạo hứng thú, yêu thích môn học hơn", "Làm Toán khó hơn", "Không liên quan đến Toán"], correctIndex: 1, explanation: "Toán vui giúp tạo hứng thú và tình yêu với môn Toán." },
+    ],
+    funFact: "Bạn có biết? Nhiều nhà toán học nổi tiếng bắt đầu yêu thích Toán học từ những câu đố vui khi còn nhỏ!",
+  },
+  "toan:3:thuc-hanh-do-va-ve-hinh-don-gian": {
+    objectives: ["Thực hành đo độ dài bằng thước kẻ.", "Thực hành vẽ hình cơ bản theo số đo cho trước.", "Rèn tính cẩn thận, chính xác."],
+    sections: [
+      { heading: "1. Cách đo độ dài bằng thước", body: ["Đặt vạch số 0 của thước trùng với điểm đầu của đoạn cần đo, đọc số đo tại điểm cuối."] },
+      { heading: "2. Cách vẽ hình theo số đo", body: ["Dùng thước kẻ để vẽ các đoạn thẳng có độ dài chính xác theo yêu cầu, sau đó nối lại thành hình mong muốn."] },
+      { heading: "3. Rèn tính cẩn thận", body: ["Khi đo và vẽ, em cần giữ thước cố định, không để thước bị xê dịch để có số đo và hình vẽ chính xác."] },
+    ],
+    quiz: [
+      { question: "Khi đo độ dài bằng thước, em cần đặt vạch số nào trùng với điểm đầu?", options: ["Vạch số 1", "Vạch số 0", "Vạch bất kỳ", "Không cần đặt vạch nào"], correctIndex: 1, explanation: "Vạch số 0 cần trùng với điểm đầu của đoạn cần đo." },
+      { question: "Để vẽ một đoạn thẳng dài 6cm, em cần dụng cụ gì?", options: ["Compa", "Thước kẻ", "Ê-ke", "Bút màu"], correctIndex: 1, explanation: "Thước kẻ dùng để đo và vẽ đoạn thẳng có độ dài chính xác." },
+      { question: "Vì sao cần giữ thước cố định khi đo, vẽ?", options: ["Không cần thiết", "Để có số đo, hình vẽ chính xác", "Để vẽ nhanh hơn", "Không có lý do gì"], correctIndex: 1, explanation: "Giữ thước cố định giúp kết quả đo, vẽ chính xác hơn." },
+    ],
+    funFact: "Bạn có biết? Các kỹ sư, kiến trúc sư đều cần kỹ năng đo vẽ chính xác — đây là kỹ năng nền tảng quan trọng!",
+  },
+  "toan:3:on-tap-tong-hop-chuan-bi-kiem-tra-cuoi-nam": {
+    objectives: ["Hệ thống lại toàn bộ kiến thức trọng tâm trong năm.", "Ôn luyện tổng hợp các dạng bài đã học.", "Tự tin bước vào bài kiểm tra cuối năm."],
+    sections: [
+      { heading: "1. Tổng ôn kiến thức cả năm", body: ["Em đã học rất nhiều kiến thức trong năm: số học, bốn phép tính, hình học, đo lường, phân số, và các dạng toán có lời văn."] },
+      { heading: "2. Lập kế hoạch ôn tập", body: ["Em nên chia nhỏ nội dung ôn tập theo từng ngày, không nên dồn ôn tập vào một buổi."] },
+      { heading: "3. Tự tin bước vào kỳ thi", body: ["Ôn tập kỹ càng kết hợp nghỉ ngơi hợp lý sẽ giúp em tự tin và đạt kết quả tốt trong bài kiểm tra cuối năm."] },
+    ],
+    quiz: [
+      { question: "Diện tích hình chữ nhật được tính bằng công thức nào?", options: ["Dài + Rộng", "Dài × Rộng", "(Dài + Rộng) × 2", "Dài - Rộng"], correctIndex: 1, explanation: "Diện tích hình chữ nhật = chiều dài × chiều rộng." },
+      { question: "1km bằng bao nhiêu mét?", options: ["10m", "100m", "1000m", "10 000m"], correctIndex: 2, explanation: "1km = 1000m." },
+      { question: "2/6 + 3/6 = ?", options: ["5/6", "5/12", "1/6", "6/6"], correctIndex: 0, explanation: "2+3=5, giữ nguyên mẫu số: 5/6." },
+    ],
+    funFact: "Bạn có biết? Kiến thức Toán lớp 3 chính là nền tảng vững chắc để em học tốt các kiến thức nâng cao hơn ở lớp 4, lớp 5!",
+  },
+
+  // ─────────────── TOÁN — LỚP 3 — 60 bài thực hành mở rộng ───────────────
+  "toan:3:thuc-hanh-bang-nhan-2-3-4-5-on-tap-nhanh": practiceContent("Thực hành", "Bảng nhân 2, 3, 4, 5 (ôn tập nhanh)", "Hãy nhớ lại các bảng nhân 2, 3, 4, 5 đã học ở lớp 2.", [
+    { question: "2 × 8 = ?", options: ["16", "18", "10", "14"], correctIndex: 0, explanation: "2×8=16." },
+    { question: "3 × 7 = ?", options: ["18", "21", "24", "15"], correctIndex: 1, explanation: "3×7=21." },
+    { question: "4 × 5 = ?", options: ["16", "18", "20", "22"], correctIndex: 2, explanation: "4×5=20." },
+    { question: "5 × 9 = ?", options: ["40", "45", "50", "35"], correctIndex: 1, explanation: "5×9=45." },
+  ]),
+  "toan:3:luyen-tap-bang-chia-2-3-4-5-on-tap-nhanh": practiceContent("Luyện tập", "Bảng chia 2, 3, 4, 5 (ôn tập nhanh)", "Hãy nhớ lại các bảng chia 2, 3, 4, 5 đã học ở lớp 2.", [
+    { question: "16 : 2 = ?", options: ["6", "7", "8", "9"], correctIndex: 2, explanation: "16:2=8." },
+    { question: "21 : 3 = ?", options: ["6", "7", "8", "9"], correctIndex: 1, explanation: "21:3=7." },
+    { question: "20 : 4 = ?", options: ["4", "5", "6", "7"], correctIndex: 1, explanation: "20:4=5." },
+    { question: "45 : 5 = ?", options: ["8", "9", "10", "7"], correctIndex: 1, explanation: "45:5=9." },
+  ]),
+  "toan:3:van-dung-nhan-so-tron-chuc-voi-so-co-mot-chu-so": practiceContent("Vận dụng", "Nhân số tròn chục với số có một chữ số", "Hãy nhớ lại cách nhân số tròn chục với số có một chữ số.", [
+    { question: "20 × 4 = ?", options: ["80", "24", "8", "240"], correctIndex: 0, explanation: "2×4=8, thêm 0 được 80." },
+    { question: "90 × 2 = ?", options: ["18", "180", "1800", "92"], correctIndex: 1, explanation: "9×2=18, thêm 0 được 180." },
+    { question: "30 × 6 = ?", options: ["18", "180", "1800", "36"], correctIndex: 1, explanation: "3×6=18, thêm 0 được 180." },
+    { question: "80 × 3 = ?", options: ["24", "240", "2400", "83"], correctIndex: 1, explanation: "8×3=24, thêm 0 được 240." },
+  ]),
+  "toan:3:tro-choi-on-tap-chia-so-tron-tram-cho-so-co-mot-chu-so": practiceContent("Trò chơi ôn tập", "Chia số tròn trăm cho số có một chữ số", "Hãy nhớ lại cách chia số tròn trăm cho số có một chữ số.", [
+    { question: "800 : 2 = ?", options: ["40", "400", "4000", "4"], correctIndex: 1, explanation: "8:2=4, thêm hai số 0 được 400." },
+    { question: "300 : 3 = ?", options: ["10", "100", "1000", "1"], correctIndex: 1, explanation: "3:3=1, thêm hai số 0 được 100." },
+    { question: "500 : 5 = ?", options: ["10", "100", "1000", "1"], correctIndex: 1, explanation: "5:5=1, thêm hai số 0 được 100." },
+    { question: "900 : 9 = ?", options: ["10", "100", "1000", "1"], correctIndex: 1, explanation: "9:9=1, thêm hai số 0 được 100." },
+  ]),
+  "toan:3:thu-thach-nho-tinh-gia-tri-bieu-thuc-co-hai-phep-tinh": practiceContent("Thử thách nhỏ", "Tính giá trị biểu thức có hai phép tính", "Hãy nhớ lại quy tắc: nhân, chia trước; cộng, trừ sau.", [
+    { question: "4 × 3 + 6 = ?", options: ["18", "24", "13", "22"], correctIndex: 0, explanation: "4×3=12, 12+6=18." },
+    { question: "15 - 2 × 5 = ?", options: ["65", "5", "13", "7"], correctIndex: 1, explanation: "2×5=10, 15-10=5." },
+    { question: "8 + 4 × 2 = ?", options: ["24", "16", "12", "20"], correctIndex: 1, explanation: "4×2=8, 8+8=16." },
+    { question: "30 - 6 × 4 = ?", options: ["96", "6", "24", "12"], correctIndex: 1, explanation: "6×4=24, 30-24=6." },
+  ]),
+  "toan:3:thuc-hanh-tinh-gia-tri-bieu-thuc-co-dau-ngoac": practiceContent("Thực hành", "Tính giá trị biểu thức có dấu ngoặc", "Hãy nhớ lại quy tắc: luôn tính trong ngoặc trước.", [
+    { question: "(2 + 5) × 3 = ?", options: ["17", "21", "10", "13"], correctIndex: 1, explanation: "2+5=7, 7×3=21." },
+    { question: "(12 - 4) : 2 = ?", options: ["4", "6", "8", "2"], correctIndex: 0, explanation: "12-4=8, 8:2=4." },
+    { question: "4 × (6 - 3) = ?", options: ["12", "9", "24", "27"], correctIndex: 0, explanation: "6-3=3, 4×3=12." },
+    { question: "(9 + 3) : 4 = ?", options: ["3", "4", "12", "6"], correctIndex: 0, explanation: "9+3=12, 12:4=3." },
+  ]),
+  "toan:3:luyen-tap-thu-tu-thuc-hien-phep-tinh": practiceContent("Luyện tập", "Thứ tự thực hiện phép tính", "Hãy nhớ lại thứ tự: trong ngoặc trước, nhân chia, rồi cộng trừ.", [
+    { question: "5 + 2 × 3 - 4 = ?", options: ["7", "17", "9", "11"], correctIndex: 0, explanation: "2×3=6, 5+6-4=7." },
+    { question: "(4 + 1) × 2 - 3 = ?", options: ["7", "10", "9", "12"], correctIndex: 0, explanation: "4+1=5, 5×2=10, 10-3=7." },
+    { question: "20 - (3 + 2) = ?", options: ["15", "19", "10", "25"], correctIndex: 0, explanation: "3+2=5, 20-5=15." },
+    { question: "6 × 2 + 3 × 2 = ?", options: ["18", "24", "22", "12"], correctIndex: 0, explanation: "6×2=12, 3×2=6, 12+6=18." },
+  ]),
+  "toan:3:van-dung-bai-toan-ve-nhieu-hon-it-hon-mot-so-don-vi": practiceContent("Vận dụng", "Bài toán về nhiều hơn, ít hơn một số đơn vị", "Hãy nhớ lại: 'nhiều hơn' dùng phép cộng, 'ít hơn' dùng phép trừ.", [
+    { question: "Nam có 18 viên bi, Hùng có ít hơn Nam 5 viên. Hùng có bao nhiêu viên bi?", options: ["13", "23", "18", "5"], correctIndex: 0, explanation: "18-5=13 viên." },
+    { question: "Lan có 25 quyển sách, Mai có nhiều hơn Lan 8 quyển. Mai có bao nhiêu quyển?", options: ["17", "33", "25", "8"], correctIndex: 1, explanation: "25+8=33 quyển." },
+    { question: "Tổ 1 có 12 bạn, tổ 2 có nhiều hơn tổ 1 là 3 bạn. Tổ 2 có bao nhiêu bạn?", options: ["9", "15", "12", "3"], correctIndex: 1, explanation: "12+3=15 bạn." },
+    { question: "Từ 'ít hơn' trong bài toán gợi ý phép tính gì?", options: ["Cộng", "Trừ", "Nhân", "Chia"], correctIndex: 1, explanation: "'Ít hơn' thường dùng phép trừ." },
+  ]),
+  "toan:3:tro-choi-on-tap-bai-toan-ve-gap-mot-so-len-nhieu-lan": practiceContent("Trò chơi ôn tập", "Bài toán về gấp một số lên nhiều lần", "Hãy nhớ lại: gấp lên nhiều lần dùng phép nhân.", [
+    { question: "Số 7 gấp lên 5 lần là bao nhiêu?", options: ["12", "35", "30", "40"], correctIndex: 1, explanation: "7×5=35." },
+    { question: "Vườn có 5 cây xoài, số cây ổi gấp 4 lần số cây xoài. Có bao nhiêu cây ổi?", options: ["9", "20", "15", "25"], correctIndex: 1, explanation: "5×4=20 cây." },
+    { question: "Số 9 gấp lên 3 lần là bao nhiêu?", options: ["12", "27", "18", "30"], correctIndex: 1, explanation: "9×3=27." },
+    { question: "Lớp có 6 bạn đăng ký vẽ, số bạn đăng ký hát gấp 2 lần. Có bao nhiêu bạn đăng ký hát?", options: ["8", "12", "3", "18"], correctIndex: 1, explanation: "6×2=12 bạn." },
+  ]),
+  "toan:3:thu-thach-nho-bai-toan-ve-giam-mot-so-di-nhieu-lan": practiceContent("Thử thách nhỏ", "Bài toán về giảm một số đi nhiều lần", "Hãy nhớ lại: giảm đi nhiều lần dùng phép chia.", [
+    { question: "Số 40 giảm đi 5 lần là bao nhiêu?", options: ["8", "35", "45", "200"], correctIndex: 0, explanation: "40:5=8." },
+    { question: "Có 63 quả cam, số quả bưởi ít hơn số quả cam 9 lần. Có bao nhiêu quả bưởi?", options: ["7", "54", "72", "9"], correctIndex: 0, explanation: "63:9=7 quả." },
+    { question: "Số 48 giảm đi 6 lần là bao nhiêu?", options: ["6", "8", "42", "54"], correctIndex: 1, explanation: "48:6=8." },
+    { question: "Từ 'giảm đi ... lần' gợi ý phép tính gì?", options: ["Cộng", "Trừ", "Nhân", "Chia"], correctIndex: 3, explanation: "'Giảm đi nhiều lần' dùng phép chia." },
+  ]),
+  "toan:3:thuc-hanh-so-sanh-so-be-bang-mot-phan-may-so-lon": practiceContent("Thực hành", "So sánh số bé bằng một phần mấy số lớn", "Hãy nhớ lại: lấy số lớn chia cho số bé để tìm phần.", [
+    { question: "Số 2 bằng một phần mấy của số 16?", options: ["1/2", "1/8", "1/16", "1/4"], correctIndex: 1, explanation: "16:2=8, vậy 2 bằng 1/8 của 16." },
+    { question: "Số 5 bằng một phần mấy của số 20?", options: ["1/4", "1/5", "1/20", "1/2"], correctIndex: 0, explanation: "20:5=4, vậy 5 bằng 1/4 của 20." },
+    { question: "Số 3 bằng một phần mấy của số 27?", options: ["1/3", "1/9", "1/27", "1/6"], correctIndex: 1, explanation: "27:3=9, vậy 3 bằng 1/9 của 27." },
+    { question: "Muốn tìm số bé bằng một phần mấy số lớn, ta làm gì?", options: ["Cộng hai số", "Lấy số lớn chia số bé", "Lấy số bé chia số lớn", "Trừ hai số"], correctIndex: 1, explanation: "Lấy số lớn chia cho số bé." },
+  ]),
+  "toan:3:luyen-tap-tien-viet-nam-nhan-biet-menh-gia": practiceContent("Luyện tập", "Tiền Việt Nam: nhận biết mệnh giá", "Hãy nhớ lại các mệnh giá tiền Việt Nam thường gặp.", [
+    { question: "3 tờ 5000đ có tổng giá trị bao nhiêu?", options: ["8000đ", "15 000đ", "10 000đ", "5000đ"], correctIndex: 1, explanation: "5000×3=15 000đ." },
+    { question: "Tờ tiền nào có giá trị nhỏ hơn 10 000đ?", options: ["20 000đ", "5000đ", "50 000đ", "100 000đ"], correctIndex: 1, explanation: "5000đ nhỏ hơn 10 000đ." },
+    { question: "2 tờ 20 000đ có tổng giá trị bao nhiêu?", options: ["22 000đ", "40 000đ", "20 000đ", "42 000đ"], correctIndex: 1, explanation: "20 000×2=40 000đ." },
+    { question: "Tờ tiền mệnh giá lớn nhất trong lưu thông phổ biến là gì?", options: ["10 000đ", "50 000đ", "500 000đ", "100đ"], correctIndex: 2, explanation: "500 000đ là mệnh giá lớn nhất phổ biến." },
+  ]),
+  "toan:3:van-dung-bai-toan-ve-tien-mua-sam-don-gian": practiceContent("Vận dụng", "Bài toán về tiền: mua sắm đơn giản", "Hãy nhớ lại cách tính tổng tiền và tiền thừa.", [
+    { question: "Mua 3 cái bánh, mỗi cái 6000đ. Tổng tiền là bao nhiêu?", options: ["9000đ", "18 000đ", "24 000đ", "6000đ"], correctIndex: 1, explanation: "6000×3=18 000đ." },
+    { question: "Mua đồ giá 12 000đ, đưa tờ 20 000đ. Tiền thừa là bao nhiêu?", options: ["8000đ", "32 000đ", "12 000đ", "20 000đ"], correctIndex: 0, explanation: "20 000-12 000=8000đ." },
+    { question: "Mua 2 quyển vở giá 7000đ mỗi quyển, đưa 20 000đ. Tiền thừa là bao nhiêu?", options: ["6000đ", "14 000đ", "13 000đ", "20 000đ"], correctIndex: 0, explanation: "7000×2=14 000đ, 20 000-14 000=6000đ." },
+    { question: "Công thức tính tiền thừa là gì?", options: ["Tiền đưa + tiền phải trả", "Tiền đưa - tiền phải trả", "Tiền đưa × tiền phải trả", "Tiền đưa : tiền phải trả"], correctIndex: 1, explanation: "Tiền thừa = tiền đưa - tiền phải trả." },
+  ]),
+  "toan:3:tro-choi-on-tap-xem-dong-ho-gio-phut": practiceContent("Trò chơi ôn tập", "Xem đồng hồ: giờ, phút", "Hãy nhớ lại cách đọc giờ, phút trên đồng hồ kim.", [
+    { question: "Kim phút chỉ số 6 nghĩa là bao nhiêu phút?", options: ["6 phút", "30 phút", "36 phút", "60 phút"], correctIndex: 1, explanation: "6×5=30 phút." },
+    { question: "Kim phút chỉ số 9 nghĩa là bao nhiêu phút?", options: ["9 phút", "45 phút", "40 phút", "54 phút"], correctIndex: 1, explanation: "9×5=45 phút." },
+    { question: "Kim giờ chỉ giữa số 4 và 5, kim phút chỉ số 12. Đó là mấy giờ?", options: ["4 giờ", "4 giờ 30 phút", "5 giờ", "5 giờ 30 phút"], correctIndex: 1, explanation: "Kim giờ ở giữa 4 và 5, kim phút ở 12 nghĩa là 4 giờ 30 phút." },
+    { question: "1 giờ bằng bao nhiêu phút?", options: ["30", "45", "60", "100"], correctIndex: 2, explanation: "1 giờ = 60 phút." },
+  ]),
+  "toan:3:thu-thach-nho-xem-lich-ngay-thang-nam": practiceContent("Thử thách nhỏ", "Xem lịch: ngày, tháng, năm", "Hãy nhớ lại số ngày trong các tháng và số tháng trong năm.", [
+    { question: "Tháng 7 có bao nhiêu ngày?", options: ["28", "29", "30", "31"], correctIndex: 3, explanation: "Tháng 7 có 31 ngày." },
+    { question: "Tháng 11 có bao nhiêu ngày?", options: ["28", "29", "30", "31"], correctIndex: 2, explanation: "Tháng 11 có 30 ngày." },
+    { question: "Tháng nào có 29 ngày vào năm nhuận?", options: ["Tháng 1", "Tháng 2", "Tháng 3", "Tháng 4"], correctIndex: 1, explanation: "Tháng 2 có 29 ngày vào năm nhuận." },
+    { question: "Một tuần có bao nhiêu ngày?", options: ["5", "6", "7", "8"], correctIndex: 2, explanation: "Một tuần có 7 ngày." },
+  ]),
+  "toan:3:thuc-hanh-do-do-dai-bang-met-de-xi-met": practiceContent("Thực hành", "Đo độ dài bằng mét, đề-xi-mét", "Hãy nhớ lại: 1 mét = 10 đề-xi-mét.", [
+    { question: "2m bằng bao nhiêu dm?", options: ["2dm", "20dm", "200dm", "0.2dm"], correctIndex: 1, explanation: "1m=10dm nên 2m=20dm." },
+    { question: "50dm bằng bao nhiêu mét?", options: ["5m", "50m", "500m", "0.5m"], correctIndex: 0, explanation: "10dm=1m nên 50dm=5m." },
+    { question: "Đơn vị nào lớn hơn: mét hay đề-xi-mét?", options: ["Mét", "Đề-xi-mét", "Bằng nhau", "Không so sánh được"], correctIndex: 0, explanation: "1 mét lớn hơn 1 đề-xi-mét (1m=10dm)." },
+    { question: "7m bằng bao nhiêu dm?", options: ["7dm", "70dm", "700dm", "17dm"], correctIndex: 1, explanation: "7m=70dm." },
+  ]),
+  "toan:3:luyen-tap-doi-don-vi-do-do-dai": practiceContent("Luyện tập", "Đổi đơn vị đo độ dài", "Hãy nhớ lại bảng đơn vị đo độ dài: km, m, dm, cm, mm.", [
+    { question: "4m bằng bao nhiêu cm?", options: ["40cm", "400cm", "4000cm", "4cm"], correctIndex: 1, explanation: "4m=400cm." },
+    { question: "60cm bằng bao nhiêu dm?", options: ["6dm", "60dm", "0.6dm", "600dm"], correctIndex: 0, explanation: "60cm=6dm." },
+    { question: "2dm bằng bao nhiêu mm?", options: ["20mm", "200mm", "2mm", "2000mm"], correctIndex: 1, explanation: "1dm=100mm nên 2dm=200mm." },
+    { question: "1000m bằng bao nhiêu km?", options: ["1km", "10km", "100km", "0.1km"], correctIndex: 0, explanation: "1000m=1km." },
+  ]),
+  "toan:3:van-dung-diem-o-giua-trung-diem-cua-doan-thang": practiceContent("Vận dụng", "Điểm ở giữa, trung điểm của đoạn thẳng", "Hãy nhớ lại: trung điểm chia đoạn thẳng thành hai phần bằng nhau.", [
+    { question: "Đoạn thẳng AB dài 12cm, M là trung điểm. Đoạn AM dài bao nhiêu?", options: ["4cm", "6cm", "8cm", "12cm"], correctIndex: 1, explanation: "12:2=6cm." },
+    { question: "Đoạn thẳng CD dài 20cm, N là trung điểm. Đoạn ND dài bao nhiêu?", options: ["5cm", "10cm", "15cm", "20cm"], correctIndex: 1, explanation: "20:2=10cm." },
+    { question: "Nếu M là trung điểm của AB thì AM và MB như thế nào?", options: ["AM lớn hơn MB", "AM nhỏ hơn MB", "AM bằng MB", "Không xác định"], correctIndex: 2, explanation: "Trung điểm chia đoạn thẳng thành hai phần bằng nhau." },
+    { question: "Điểm nằm giữa hai điểm A và B luôn nằm ở đâu?", options: ["Ngoài đoạn AB", "Trên đoạn thẳng AB", "Trùng điểm A", "Trùng điểm B"], correctIndex: 1, explanation: "Điểm ở giữa nằm trên đoạn thẳng AB." },
+  ]),
+  "toan:3:tro-choi-on-tap-hinh-tam-giac-nhan-biet-va-dac-diem": practiceContent("Trò chơi ôn tập", "Hình tam giác: nhận biết và đặc điểm", "Hãy nhớ lại đặc điểm của hình tam giác.", [
+    { question: "Hình tam giác có bao nhiêu góc?", options: ["2", "3", "4", "5"], correctIndex: 1, explanation: "Hình tam giác có 3 góc." },
+    { question: "Đồ vật nào có dạng tam giác?", options: ["Bánh xe", "Cờ đuôi nheo", "Quyển sách", "Viên bi"], correctIndex: 1, explanation: "Cờ đuôi nheo thường có dạng tam giác." },
+    { question: "Hình tam giác có bao nhiêu cạnh?", options: ["2", "3", "4", "5"], correctIndex: 1, explanation: "Hình tam giác có 3 cạnh." },
+    { question: "Đặc điểm nào đúng với hình tam giác?", options: ["Có 4 đỉnh", "Có 3 đỉnh, 3 cạnh, 3 góc", "Không có góc", "Có 5 cạnh"], correctIndex: 1, explanation: "Hình tam giác có 3 đỉnh, 3 cạnh, 3 góc." },
+  ]),
+  "toan:3:thu-thach-nho-hinh-tu-giac-nhan-biet-va-dac-diem": practiceContent("Thử thách nhỏ", "Hình tứ giác: nhận biết và đặc điểm", "Hãy nhớ lại đặc điểm của hình tứ giác.", [
+    { question: "Hình tứ giác có bao nhiêu góc?", options: ["3", "4", "5", "6"], correctIndex: 1, explanation: "Hình tứ giác có 4 góc." },
+    { question: "Hình nào sau đây là hình tứ giác đặc biệt?", options: ["Hình tam giác", "Hình tròn", "Hình vuông", "Hình khối cầu"], correctIndex: 2, explanation: "Hình vuông là một loại hình tứ giác đặc biệt." },
+    { question: "Đồ vật nào thường có dạng tứ giác?", options: ["Quả bóng", "Cửa sổ hình chữ nhật", "Viên bi", "Ống nước hình trụ"], correctIndex: 1, explanation: "Cửa sổ hình chữ nhật là một dạng tứ giác." },
+    { question: "Hình tứ giác có bao nhiêu đỉnh?", options: ["3", "4", "5", "6"], correctIndex: 1, explanation: "Hình tứ giác có 4 đỉnh." },
+  ]),
+  "toan:3:thuc-hanh-chu-vi-hinh-tam-giac": practiceContent("Thực hành", "Chu vi hình tam giác", "Hãy nhớ lại: chu vi tam giác bằng tổng ba cạnh.", [
+    { question: "Tam giác có ba cạnh 4cm, 5cm, 6cm. Chu vi là bao nhiêu?", options: ["14cm", "15cm", "16cm", "20cm"], correctIndex: 1, explanation: "4+5+6=15cm." },
+    { question: "Tam giác đều có cạnh 8cm. Chu vi là bao nhiêu?", options: ["16cm", "24cm", "32cm", "8cm"], correctIndex: 1, explanation: "8×3=24cm." },
+    { question: "Tam giác có ba cạnh bằng nhau, mỗi cạnh 10cm. Chu vi là bao nhiêu?", options: ["20cm", "30cm", "40cm", "10cm"], correctIndex: 1, explanation: "10×3=30cm." },
+    { question: "Tam giác có ba cạnh 7cm, 9cm, 11cm. Chu vi là bao nhiêu?", options: ["25cm", "26cm", "27cm", "28cm"], correctIndex: 2, explanation: "7+9+11=27cm." },
+  ]),
+  "toan:3:luyen-tap-compa-lam-quen-va-ve-hinh-tron": practiceContent("Luyện tập", "Compa: làm quen và vẽ hình tròn", "Hãy nhớ lại cách sử dụng compa để vẽ hình tròn.", [
+    { question: "Compa dùng để vẽ hình gì?", options: ["Hình vuông", "Hình tròn", "Hình tam giác", "Hình chữ nhật"], correctIndex: 1, explanation: "Compa dùng để vẽ hình tròn." },
+    { question: "Bộ phận nào của compa cố định khi vẽ hình tròn?", options: ["Chân có kim nhọn", "Chân có bút chì", "Cả hai chân", "Không có bộ phận nào cố định"], correctIndex: 0, explanation: "Chân có kim nhọn giữ cố định tại tâm." },
+    { question: "Khi mở rộng compa, bán kính hình tròn sẽ thay đổi như thế nào?", options: ["Không đổi", "Tăng lên", "Giảm xuống", "Không xác định"], correctIndex: 1, explanation: "Mở rộng compa làm bán kính hình tròn tăng lên." },
+    { question: "Sử dụng compa cần lưu ý điều gì để an toàn?", options: ["Không cần lưu ý gì", "Cẩn thận vì kim nhọn", "Dùng thật mạnh tay", "Không cần giữ cố định"], correctIndex: 1, explanation: "Kim compa nhọn, cần sử dụng cẩn thận." },
+  ]),
+  "toan:3:van-dung-tam-ban-kinh-duong-kinh-hinh-tron": practiceContent("Vận dụng", "Tâm, bán kính, đường kính hình tròn", "Hãy nhớ lại: đường kính gấp đôi bán kính.", [
+    { question: "Bán kính hình tròn là 7cm. Đường kính là bao nhiêu?", options: ["7cm", "14cm", "21cm", "3.5cm"], correctIndex: 1, explanation: "Đường kính=7×2=14cm." },
+    { question: "Đường kính hình tròn là 20cm. Bán kính là bao nhiêu?", options: ["5cm", "10cm", "40cm", "20cm"], correctIndex: 1, explanation: "Bán kính=20:2=10cm." },
+    { question: "Bán kính hình tròn là 9cm. Đường kính là bao nhiêu?", options: ["9cm", "18cm", "27cm", "4.5cm"], correctIndex: 1, explanation: "Đường kính=9×2=18cm." },
+    { question: "Đoạn thẳng nối từ tâm đến một điểm trên đường tròn gọi là gì?", options: ["Đường kính", "Bán kính", "Chu vi", "Diện tích"], correctIndex: 1, explanation: "Đó là bán kính." },
+  ]),
+  "toan:3:tro-choi-on-tap-bai-toan-tinh-tuoi-don-gian": practiceContent("Trò chơi ôn tập", "Bài toán tính tuổi đơn giản", "Hãy nhớ lại cách tính tuổi dựa vào hiệu số tuổi.", [
+    { question: "Em 7 tuổi, chị hơn em 6 tuổi. Chị bao nhiêu tuổi?", options: ["1", "13", "43", "6"], correctIndex: 1, explanation: "7+6=13 tuổi." },
+    { question: "Mẹ 32 tuổi, con kém mẹ 25 tuổi. Con bao nhiêu tuổi?", options: ["7", "57", "25", "32"], correctIndex: 0, explanation: "32-25=7 tuổi." },
+    { question: "Ông 60 tuổi, cháu kém ông 52 tuổi. Cháu bao nhiêu tuổi?", options: ["8", "112", "52", "60"], correctIndex: 0, explanation: "60-52=8 tuổi." },
+    { question: "Sau 3 năm, hiệu số tuổi giữa hai anh em sẽ thay đổi như thế nào?", options: ["Tăng lên", "Giảm xuống", "Không đổi", "Tăng gấp đôi"], correctIndex: 2, explanation: "Hiệu số tuổi giữa hai người luôn không đổi theo thời gian." },
+  ]),
+  "toan:3:thu-thach-nho-day-so-cach-deu-quy-luat-va-dien-so": practiceContent("Thử thách nhỏ", "Dãy số cách đều: quy luật và điền số", "Hãy nhớ lại cách tìm khoảng cách chung của dãy số cách đều.", [
+    { question: "Dãy số 2, 5, 8, 11, ... Số tiếp theo là gì?", options: ["12", "13", "14", "15"], correctIndex: 2, explanation: "Dãy cách đều 3, số tiếp theo là 11+3=14." },
+    { question: "Dãy số 20, 18, 16, __, 12. Số còn thiếu là gì?", options: ["13", "14", "15", "17"], correctIndex: 1, explanation: "Dãy giảm đều 2, số còn thiếu là 16-2=14." },
+    { question: "Dãy số 4, 8, 12, 16, ... cách đều bao nhiêu đơn vị?", options: ["2", "3", "4", "5"], correctIndex: 2, explanation: "8-4=4, dãy cách đều 4 đơn vị." },
+    { question: "Dãy số 100, 200, 300, ... Số tiếp theo là gì?", options: ["350", "400", "450", "500"], correctIndex: 1, explanation: "Dãy cách đều 100, số tiếp theo là 300+100=400." },
+  ]),
+  "toan:3:thuc-hanh-phep-nhan-voi-so-0-va-so-1": practiceContent("Thực hành", "Phép nhân với số 0 và số 1", "Hãy nhớ lại: nhân với 0 luôn bằng 0, nhân với 1 giữ nguyên số.", [
+    { question: "356 × 1 = ?", options: ["0", "1", "356", "357"], correctIndex: 2, explanation: "Nhân với 1 giữ nguyên số." },
+    { question: "999 × 0 = ?", options: ["999", "0", "1", "9990"], correctIndex: 1, explanation: "Nhân với 0 luôn bằng 0." },
+    { question: "1 × 245 = ?", options: ["0", "1", "245", "246"], correctIndex: 2, explanation: "Nhân với 1 giữ nguyên số." },
+    { question: "0 × 78 = ?", options: ["0", "78", "1", "780"], correctIndex: 0, explanation: "Nhân với 0 luôn bằng 0." },
+  ]),
+  "toan:3:luyen-tap-phep-chia-co-so-du": practiceContent("Luyện tập", "Phép chia có số dư", "Hãy nhớ lại: số dư luôn nhỏ hơn số chia.", [
+    { question: "22 : 5 = ? (dư bao nhiêu)", options: ["4 dư 1", "4 dư 2", "3 dư 7", "5 dư 0"], correctIndex: 1, explanation: "5×4=20, 22-20=2, vậy 22:5=4 dư 2." },
+    { question: "29 : 6 = ? (dư bao nhiêu)", options: ["4 dư 5", "5 dư 1", "4 dư 4", "5 dư 0"], correctIndex: 0, explanation: "6×4=24, 29-24=5, vậy 29:6=4 dư 5." },
+    { question: "16 : 3 = ? (dư bao nhiêu)", options: ["5 dư 0", "5 dư 1", "4 dư 4", "6 dư 0"], correctIndex: 1, explanation: "3×5=15, 16-15=1, vậy 16:3=5 dư 1." },
+    { question: "Số dư trong phép chia phải như thế nào so với số chia?", options: ["Lớn hơn", "Bằng", "Nhỏ hơn", "Không có quy tắc"], correctIndex: 2, explanation: "Số dư luôn nhỏ hơn số chia." },
+  ]),
+  "toan:3:van-dung-tim-thanh-phan-chua-biet-trong-phep-cong": practiceContent("Vận dụng", "Tìm thành phần chưa biết trong phép cộng", "Hãy nhớ lại: tìm số hạng = tổng - số hạng đã biết.", [
+    { question: "x + 25 = 60. x = ?", options: ["35", "85", "45", "25"], correctIndex: 0, explanation: "x=60-25=35." },
+    { question: "18 + y = 50. y = ?", options: ["32", "68", "28", "22"], correctIndex: 0, explanation: "y=50-18=32." },
+    { question: "x + 100 = 250. x = ?", options: ["150", "350", "125", "100"], correctIndex: 0, explanation: "x=250-100=150." },
+    { question: "Để tìm số hạng chưa biết, ta lấy tổng làm gì với số hạng đã biết?", options: ["Cộng", "Trừ", "Nhân", "Chia"], correctIndex: 1, explanation: "Lấy tổng trừ số hạng đã biết." },
+  ]),
+  "toan:3:tro-choi-on-tap-tim-thanh-phan-chua-biet-trong-phep-tru": practiceContent("Trò chơi ôn tập", "Tìm thành phần chưa biết trong phép trừ", "Hãy nhớ lại: số bị trừ = hiệu + số trừ; số trừ = số bị trừ - hiệu.", [
+    { question: "x - 20 = 35. x = ?", options: ["15", "55", "45", "65"], correctIndex: 1, explanation: "x=35+20=55." },
+    { question: "80 - y = 25. y = ?", options: ["55", "105", "45", "65"], correctIndex: 0, explanation: "y=80-25=55." },
+    { question: "x - 45 = 30. x = ?", options: ["15", "75", "65", "85"], correctIndex: 1, explanation: "x=30+45=75." },
+    { question: "Để tìm số bị trừ, ta lấy hiệu làm gì với số trừ?", options: ["Trừ", "Cộng", "Nhân", "Chia"], correctIndex: 1, explanation: "Lấy hiệu cộng với số trừ." },
+  ]),
+  "toan:3:thu-thach-nho-tim-thanh-phan-chua-biet-trong-phep-nhan": practiceContent("Thử thách nhỏ", "Tìm thành phần chưa biết trong phép nhân", "Hãy nhớ lại: thừa số = tích : thừa số đã biết.", [
+    { question: "x × 7 = 56. x = ?", options: ["7", "8", "9", "49"], correctIndex: 1, explanation: "x=56:7=8." },
+    { question: "9 × y = 72. y = ?", options: ["7", "8", "9", "63"], correctIndex: 1, explanation: "y=72:9=8." },
+    { question: "x × 6 = 48. x = ?", options: ["6", "7", "8", "42"], correctIndex: 2, explanation: "x=48:6=8." },
+    { question: "Để tìm thừa số chưa biết, ta lấy tích làm gì với thừa số đã biết?", options: ["Cộng", "Trừ", "Nhân", "Chia"], correctIndex: 3, explanation: "Lấy tích chia cho thừa số đã biết." },
+  ]),
+  "toan:3:thuc-hanh-tim-thanh-phan-chua-biet-trong-phep-chia": practiceContent("Thực hành", "Tìm thành phần chưa biết trong phép chia", "Hãy nhớ lại: số bị chia = thương × số chia.", [
+    { question: "x : 4 = 9. x = ?", options: ["13", "36", "5", "45"], correctIndex: 1, explanation: "x=9×4=36." },
+    { question: "48 : y = 6. y = ?", options: ["8", "42", "54", "6"], correctIndex: 0, explanation: "y=48:6=8." },
+    { question: "x : 7 = 8. x = ?", options: ["15", "56", "1", "78"], correctIndex: 1, explanation: "x=8×7=56." },
+    { question: "Để tìm số bị chia, ta lấy thương làm gì với số chia?", options: ["Cộng", "Trừ", "Nhân", "Chia"], correctIndex: 2, explanation: "Lấy thương nhân với số chia." },
+  ]),
+  "toan:3:luyen-tap-bai-toan-giai-bang-hai-phep-tinh": practiceContent("Luyện tập", "Bài toán giải bằng hai phép tính", "Hãy nhớ lại: tìm kết quả trung gian trước, rồi tính tiếp.", [
+    { question: "Có 5 hộp bánh, mỗi hộp 6 cái, đã ăn 8 cái. Còn lại bao nhiêu cái?", options: ["22", "30", "38", "13"], correctIndex: 0, explanation: "5×6=30, 30-8=22." },
+    { question: "Một cửa hàng có 60kg táo, bán 2 lần, mỗi lần 12kg. Còn lại bao nhiêu kg?", options: ["24", "36", "48", "12"], correctIndex: 1, explanation: "2×12=24, 60-24=36." },
+    { question: "Có 4 túi kẹo, mỗi túi 9 viên, đã cho bạn 10 viên. Còn lại bao nhiêu viên?", options: ["26", "36", "46", "16"], correctIndex: 0, explanation: "4×9=36, 36-10=26." },
+    { question: "Bài toán hai phép tính cần thực hiện mấy bước tính?", options: ["1", "2", "3", "4"], correctIndex: 1, explanation: "Cần 2 bước: tìm kết quả trung gian rồi tính tiếp." },
+  ]),
+  "toan:3:van-dung-uoc-luong-ket-qua-phep-tinh": practiceContent("Vận dụng", "Ước lượng kết quả phép tính", "Hãy nhớ lại: làm tròn số để ước lượng nhanh.", [
+    { question: "Ước lượng nhanh: 402 + 297 gần bằng bao nhiêu?", options: ["600", "700", "800", "500"], correctIndex: 1, explanation: "400+300=700, ước lượng gần đúng." },
+    { question: "Ước lượng nhanh: 599 - 201 gần bằng bao nhiêu?", options: ["300", "400", "500", "200"], correctIndex: 1, explanation: "600-200=400, ước lượng gần đúng." },
+    { question: "Ước lượng nhanh: 199 × 3 gần bằng bao nhiêu?", options: ["400", "500", "600", "700"], correctIndex: 2, explanation: "200×3=600, ước lượng gần đúng." },
+    { question: "Ước lượng giúp ích gì khi làm bài kiểm tra?", options: ["Không giúp gì", "Kiểm tra kết quả có hợp lý không", "Làm bài chậm hơn", "Không có tác dụng"], correctIndex: 1, explanation: "Ước lượng giúp kiểm tra tính hợp lý của kết quả." },
+  ]),
+  "toan:3:tro-choi-on-tap-lam-tron-so-den-hang-chuc": practiceContent("Trò chơi ôn tập", "Làm tròn số đến hàng chục", "Hãy nhớ lại quy tắc làm tròn: từ 5 trở lên làm tròn lên.", [
+    { question: "Làm tròn số 76 đến hàng chục là bao nhiêu?", options: ["70", "80", "76", "75"], correctIndex: 1, explanation: "Chữ số hàng đơn vị là 6 (≥5), làm tròn lên thành 80." },
+    { question: "Làm tròn số 25 đến hàng chục là bao nhiêu?", options: ["20", "30", "25", "24"], correctIndex: 1, explanation: "Chữ số hàng đơn vị là 5 (≥5), làm tròn lên thành 30." },
+    { question: "Làm tròn số 91 đến hàng chục là bao nhiêu?", options: ["90", "100", "91", "95"], correctIndex: 0, explanation: "Chữ số hàng đơn vị là 1 (<5), làm tròn xuống thành 90." },
+    { question: "Làm tròn số 48 đến hàng chục là bao nhiêu?", options: ["40", "50", "45", "48"], correctIndex: 1, explanation: "Chữ số hàng đơn vị là 8 (≥5), làm tròn lên thành 50." },
+  ]),
+  "toan:3:thu-thach-nho-lam-tron-so-den-hang-tram": practiceContent("Thử thách nhỏ", "Làm tròn số đến hàng trăm", "Hãy nhớ lại quy tắc làm tròn dựa vào chữ số hàng chục.", [
+    { question: "Làm tròn số 540 đến hàng trăm là bao nhiêu?", options: ["500", "600", "540", "550"], correctIndex: 0, explanation: "Chữ số hàng chục là 4 (<5), làm tròn xuống 500." },
+    { question: "Làm tròn số 850 đến hàng trăm là bao nhiêu?", options: ["800", "900", "850", "750"], correctIndex: 1, explanation: "Chữ số hàng chục là 5 (≥5), làm tròn lên 900." },
+    { question: "Làm tròn số 120 đến hàng trăm là bao nhiêu?", options: ["100", "200", "120", "150"], correctIndex: 0, explanation: "Chữ số hàng chục là 2 (<5), làm tròn xuống 100." },
+    { question: "Làm tròn số 980 đến hàng trăm là bao nhiêu?", options: ["900", "1000", "980", "950"], correctIndex: 1, explanation: "Chữ số hàng chục là 8 (≥5), làm tròn lên 1000." },
+  ]),
+  "toan:3:thuc-hanh-doc-bieu-do-tranh-don-gian": practiceContent("Thực hành", "Đọc biểu đồ tranh đơn giản", "Hãy nhớ lại cách nhân số hình với giá trị mỗi hình.", [
+    { question: "Mỗi hình tượng trưng cho 5 đơn vị, có 3 hình. Tổng số lượng là bao nhiêu?", options: ["8", "15", "10", "20"], correctIndex: 1, explanation: "5×3=15." },
+    { question: "Mỗi hình tượng trưng cho 2 đơn vị, có 6 hình. Tổng số lượng là bao nhiêu?", options: ["8", "10", "12", "14"], correctIndex: 2, explanation: "2×6=12." },
+    { question: "Biểu đồ tranh thường dùng để làm gì?", options: ["Trang trí", "Thể hiện số lượng trực quan", "Không có tác dụng", "Chỉ để vẽ đẹp"], correctIndex: 1, explanation: "Biểu đồ tranh giúp thể hiện số lượng một cách trực quan." },
+    { question: "Mỗi hình tượng trưng cho 4 đơn vị, có 5 hình. Tổng số lượng là bao nhiêu?", options: ["9", "16", "20", "24"], correctIndex: 2, explanation: "4×5=20." },
+  ]),
+  "toan:3:luyen-tap-thu-thap-va-kiem-dem-so-lieu": practiceContent("Luyện tập", "Thu thập và kiểm đếm số liệu", "Hãy nhớ lại cách đếm cẩn thận để không bị sót hoặc trùng.", [
+    { question: "Khi kiểm đếm số liệu, em nên làm gì để tránh sai sót?", options: ["Đếm thật nhanh", "Đánh dấu từng đối tượng đã đếm", "Không cần cẩn thận", "Đoán số lượng"], correctIndex: 1, explanation: "Đánh dấu giúp tránh đếm sót hoặc trùng." },
+    { question: "Sau khi thu thập số liệu, cách trình bày nào giúp dễ đọc nhất?", options: ["Viết thành đoạn văn dài", "Trình bày thành bảng hoặc biểu đồ", "Không cần trình bày", "Giữ bí mật"], correctIndex: 1, explanation: "Bảng và biểu đồ giúp số liệu dễ đọc, dễ hiểu." },
+    { question: "Thu thập số liệu là bước quan trọng trong hoạt động nào?", options: ["Vẽ tranh tự do", "Nghiên cứu, thống kê", "Chơi thể thao", "Không có hoạt động nào"], correctIndex: 1, explanation: "Thu thập số liệu quan trọng trong nghiên cứu, thống kê." },
+    { question: "Nếu đếm sai số liệu, điều gì có thể xảy ra?", options: ["Không ảnh hưởng gì", "Kết quả thống kê bị sai lệch", "Không có hậu quả", "Số liệu tự động đúng"], correctIndex: 1, explanation: "Đếm sai làm kết quả thống kê không chính xác." },
+  ]),
+  "toan:3:van-dung-hinh-khoi-nhan-biet-khoi-tru-khoi-cau": practiceContent("Vận dụng", "Hình khối: nhận biết khối trụ, khối cầu", "Hãy nhớ lại đặc điểm của khối trụ và khối cầu.", [
+    { question: "Đồ vật nào có dạng khối trụ?", options: ["Quả địa cầu", "Ống nước", "Viên bi", "Quả bóng"], correctIndex: 1, explanation: "Ống nước có dạng khối trụ." },
+    { question: "Khối trụ có mấy mặt đáy hình tròn?", options: ["0", "1", "2", "3"], correctIndex: 2, explanation: "Khối trụ có 2 mặt đáy hình tròn." },
+    { question: "Đặc điểm nổi bật của khối cầu là gì?", options: ["Có góc nhọn", "Tròn đều mọi hướng", "Có 6 mặt", "Có 2 đáy"], correctIndex: 1, explanation: "Khối cầu tròn đều ở mọi hướng." },
+    { question: "Đồ vật nào có dạng khối cầu?", options: ["Lon sữa", "Quả bóng bàn", "Hộp phấn", "Cây bút chì"], correctIndex: 1, explanation: "Quả bóng bàn có dạng khối cầu." },
+  ]),
+  "toan:3:tro-choi-on-tap-so-sanh-phan-so-cung-mau-so": practiceContent("Trò chơi ôn tập", "So sánh phân số cùng mẫu số", "Hãy nhớ lại: cùng mẫu số, tử số lớn hơn thì phân số lớn hơn.", [
+    { question: "So sánh 3/8 và 5/8, phân số nào lớn hơn?", options: ["3/8", "5/8", "Bằng nhau", "Không xác định"], correctIndex: 1, explanation: "Cùng mẫu, 5>3 nên 5/8 lớn hơn." },
+    { question: "So sánh 7/10 và 4/10, phân số nào nhỏ hơn?", options: ["7/10", "4/10", "Bằng nhau", "Không xác định"], correctIndex: 1, explanation: "Cùng mẫu, 4<7 nên 4/10 nhỏ hơn." },
+    { question: "So sánh 2/6 và 2/6, kết quả là gì?", options: ["2/6 lớn hơn", "2/6 nhỏ hơn", "Hai phân số bằng nhau", "Không so sánh được"], correctIndex: 2, explanation: "Hai phân số giống hệt nhau nên bằng nhau." },
+    { question: "So sánh 1/9 và 8/9, phân số nào lớn hơn?", options: ["1/9", "8/9", "Bằng nhau", "Không xác định"], correctIndex: 1, explanation: "Cùng mẫu, 8>1 nên 8/9 lớn hơn." },
+  ]),
+  "toan:3:thu-thach-nho-cong-hai-phan-so-cung-mau-so": practiceContent("Thử thách nhỏ", "Cộng hai phân số cùng mẫu số", "Hãy nhớ lại: cộng tử số, giữ nguyên mẫu số.", [
+    { question: "2/9 + 4/9 = ?", options: ["6/9", "6/18", "2/9", "4/9"], correctIndex: 0, explanation: "2+4=6, giữ nguyên mẫu số: 6/9." },
+    { question: "3/10 + 5/10 = ?", options: ["8/20", "8/10", "15/10", "2/10"], correctIndex: 1, explanation: "3+5=8, giữ nguyên mẫu số: 8/10." },
+    { question: "1/4 + 1/4 = ?", options: ["2/4", "1/8", "2/8", "1/4"], correctIndex: 0, explanation: "1+1=2, giữ nguyên mẫu số: 2/4." },
+    { question: "4/7 + 2/7 = ?", options: ["6/14", "6/7", "8/7", "2/7"], correctIndex: 1, explanation: "4+2=6, giữ nguyên mẫu số: 6/7." },
+  ]),
+  "toan:3:thuc-hanh-tru-hai-phan-so-cung-mau-so": practiceContent("Thực hành", "Trừ hai phân số cùng mẫu số", "Hãy nhớ lại: trừ tử số, giữ nguyên mẫu số.", [
+    { question: "7/8 - 3/8 = ?", options: ["4/8", "4/16", "10/8", "3/8"], correctIndex: 0, explanation: "7-3=4, giữ nguyên mẫu số: 4/8." },
+    { question: "9/10 - 4/10 = ?", options: ["5/20", "5/10", "13/10", "4/10"], correctIndex: 1, explanation: "9-4=5, giữ nguyên mẫu số: 5/10." },
+    { question: "6/7 - 2/7 = ?", options: ["4/7", "4/14", "8/7", "2/7"], correctIndex: 0, explanation: "6-2=4, giữ nguyên mẫu số: 4/7." },
+    { question: "5/6 - 5/6 = ?", options: ["0/6", "10/6", "1", "5/6"], correctIndex: 0, explanation: "5-5=0, giữ nguyên mẫu số: 0/6 (bằng 0)." },
+  ]),
+  "toan:3:luyen-tap-bai-toan-ve-chia-nhom-deu": practiceContent("Luyện tập", "Bài toán về chia nhóm đều", "Hãy nhớ lại: chia nhóm đều thường dùng phép chia.", [
+    { question: "Có 48 quyển sách chia đều cho 8 kệ. Mỗi kệ có bao nhiêu quyển?", options: ["5", "6", "7", "8"], correctIndex: 1, explanation: "48:8=6 quyển." },
+    { question: "Có 54 cái bút, mỗi hộp đựng 6 cái. Cần bao nhiêu hộp?", options: ["7", "8", "9", "10"], correctIndex: 2, explanation: "54:6=9 hộp." },
+    { question: "Có 63 học sinh chia đều thành 7 nhóm. Mỗi nhóm có bao nhiêu bạn?", options: ["7", "8", "9", "10"], correctIndex: 2, explanation: "63:7=9 bạn." },
+    { question: "Khi chia nhóm đều, nếu không chia hết thì kết quả có gì?", options: ["Không có kết quả", "Có số dư", "Kết quả âm", "Kết quả là 0"], correctIndex: 1, explanation: "Nếu không chia hết, phép chia sẽ có số dư." },
+  ]),
+  "toan:3:van-dung-met-vuong-lam-quen-don-vi-do-dien-tich-lon": practiceContent("Vận dụng", "Mét vuông: làm quen đơn vị đo diện tích lớn", "Hãy nhớ lại: 1m² = 10 000cm².", [
+    { question: "Đơn vị nào phù hợp đo diện tích một sân trường?", options: ["cm²", "mm²", "m²", "Không có đơn vị phù hợp"], correctIndex: 2, explanation: "Mét vuông phù hợp đo diện tích lớn như sân trường." },
+    { question: "1m² bằng bao nhiêu cm²?", options: ["100cm²", "1000cm²", "10 000cm²", "100 000cm²"], correctIndex: 2, explanation: "1m² = 10 000cm²." },
+    { question: "Diện tích một căn phòng thường được đo bằng đơn vị nào?", options: ["mm²", "cm²", "m²", "km²"], correctIndex: 2, explanation: "Mét vuông phù hợp để đo diện tích phòng." },
+    { question: "2m² bằng bao nhiêu cm²?", options: ["2000cm²", "20 000cm²", "200cm²", "200 000cm²"], correctIndex: 1, explanation: "2m² = 20 000cm²." },
+  ]),
+  "toan:3:tro-choi-on-tap-ki-lo-met-do-khoang-cach-xa": practiceContent("Trò chơi ôn tập", "Ki-lô-mét: đo khoảng cách xa", "Hãy nhớ lại: 1km = 1000m.", [
+    { question: "2km bằng bao nhiêu mét?", options: ["200m", "2000m", "20 000m", "20m"], correctIndex: 1, explanation: "2km=2000m." },
+    { question: "5000m bằng bao nhiêu km?", options: ["5km", "50km", "500km", "0.5km"], correctIndex: 0, explanation: "5000m=5km." },
+    { question: "Đơn vị nào phù hợp để đo khoảng cách từ Hà Nội đến Đà Nẵng?", options: ["cm", "m", "km", "mm"], correctIndex: 2, explanation: "Ki-lô-mét phù hợp để đo khoảng cách rất xa giữa hai thành phố." },
+    { question: "10km bằng bao nhiêu mét?", options: ["100m", "1000m", "10 000m", "100 000m"], correctIndex: 2, explanation: "10km=10 000m." },
+  ]),
+  "toan:3:thu-thach-nho-van-dung-do-luong-vao-tinh-huong-thuc-te": practiceContent("Thử thách nhỏ", "Vận dụng đo lường vào tình huống thực tế", "Hãy nhớ lại cách chọn đơn vị đo phù hợp và đổi đơn vị khi cần.", [
+    { question: "Một đoạn dây dài 3m, cắt bớt 80cm. Đổi 3m=300cm, còn lại bao nhiêu cm?", options: ["220cm", "230cm", "380cm", "300cm"], correctIndex: 0, explanation: "300-80=220cm." },
+    { question: "Một túi gạo 5kg, chia đều vào 5 túi nhỏ. Mỗi túi nhỏ nặng bao nhiêu?", options: ["500g", "1000g", "100g", "5000g"], correctIndex: 1, explanation: "5kg:5=1kg=1000g." },
+    { question: "Đơn vị nào phù hợp để đo dung tích một bể bơi?", options: ["ml", "lít", "gam", "mét"], correctIndex: 1, explanation: "Lít phù hợp để đo dung tích lớn như bể bơi." },
+    { question: "Khi bài toán có đơn vị đo khác nhau, bước đầu tiên cần làm gì?", options: ["Bỏ qua đơn vị", "Đổi về cùng đơn vị", "Đoán kết quả", "Không cần làm gì"], correctIndex: 1, explanation: "Cần đổi về cùng đơn vị trước khi tính." },
+  ]),
+  "toan:3:thuc-hanh-on-tap-giua-hoc-ky-1": practiceContent("Thực hành", "Ôn tập giữa học kỳ 1", "Hãy ôn lại các kiến thức trọng tâm giữa học kỳ 1.", [
+    { question: "245 + 189 = ?", options: ["434", "424", "444", "414"], correctIndex: 0, explanation: "245+189=434." },
+    { question: "8 × 6 = ?", options: ["42", "48", "56", "54"], correctIndex: 1, explanation: "8×6=48." },
+    { question: "500 - 267 = ?", options: ["233", "243", "223", "253"], correctIndex: 0, explanation: "500-267=233." },
+    { question: "63 : 9 = ?", options: ["6", "7", "8", "9"], correctIndex: 1, explanation: "9×7=63 nên 63:9=7." },
+  ]),
+  "toan:3:luyen-tap-on-tap-cuoi-hoc-ky-1": practiceContent("Luyện tập", "Ôn tập cuối học kỳ 1", "Hãy ôn lại toàn bộ kiến thức đã học trong học kỳ 1.", [
+    { question: "Hình vuông cạnh 8cm. Chu vi là bao nhiêu?", options: ["16cm", "24cm", "32cm", "64cm"], correctIndex: 2, explanation: "8×4=32cm." },
+    { question: "72 : 8 = ?", options: ["8", "9", "10", "7"], correctIndex: 1, explanation: "8×9=72 nên 72:8=9." },
+    { question: "375 + 428 = ?", options: ["793", "803", "813", "703"], correctIndex: 1, explanation: "375+428=803." },
+    { question: "Góc nào lớn hơn góc vuông?", options: ["Góc nhọn", "Góc tù", "Không có góc nào", "Góc bẹt"], correctIndex: 1, explanation: "Góc tù lớn hơn góc vuông (90 độ)." },
+  ]),
+  "toan:3:van-dung-on-tap-giua-hoc-ky-2": practiceContent("Vận dụng", "Ôn tập giữa học kỳ 2", "Hãy ôn lại các kiến thức trọng tâm giữa học kỳ 2.", [
+    { question: "Hình chữ nhật dài 15cm, rộng 6cm. Diện tích là bao nhiêu?", options: ["21cm²", "42cm²", "90cm²", "84cm²"], correctIndex: 2, explanation: "15×6=90cm²." },
+    { question: "2/5 + 1/5 = ?", options: ["3/5", "3/10", "1/5", "2/5"], correctIndex: 0, explanation: "2+1=3, giữ nguyên mẫu số: 3/5." },
+    { question: "Số 56 720 có mấy chữ số?", options: ["4", "5", "6", "3"], correctIndex: 1, explanation: "56 720 có 5 chữ số." },
+    { question: "1kg bằng bao nhiêu gam?", options: ["10g", "100g", "1000g", "10 000g"], correctIndex: 2, explanation: "1kg=1000g." },
+  ]),
+  "toan:3:tro-choi-on-tap-so-la-ma-lam-quen-cac-so-co-ban": practiceContent("Trò chơi ôn tập", "Số La Mã: làm quen các số cơ bản", "Hãy nhớ lại các ký hiệu số La Mã: I, V, X, L, C.", [
+    { question: "Chữ số La Mã 'X' tương ứng với số nào?", options: ["5", "10", "50", "100"], correctIndex: 1, explanation: "'X' tương ứng với số 10." },
+    { question: "Số La Mã 'VI' tương ứng với số nào?", options: ["4", "5", "6", "11"], correctIndex: 2, explanation: "'VI' (V+I) = 5+1=6." },
+    { question: "Chữ số La Mã 'I' tương ứng với số nào?", options: ["1", "5", "10", "0"], correctIndex: 0, explanation: "'I' tương ứng với số 1." },
+    { question: "Số La Mã 'IX' tương ứng với số nào?", options: ["11", "9", "6", "4"], correctIndex: 1, explanation: "'IX' (I trước X) nghĩa là 10-1=9." },
+  ]),
+  "toan:3:thu-thach-nho-bai-toan-ve-van-toc-don-gian": practiceContent("Thử thách nhỏ", "Bài toán về vận tốc đơn giản", "Hãy nhớ lại: quãng đường = quãng đường mỗi giờ × số giờ.", [
+    { question: "Mỗi giờ đi được 6km, đi trong 5 giờ được bao nhiêu km?", options: ["11km", "30km", "35km", "25km"], correctIndex: 1, explanation: "6×5=30km." },
+    { question: "Một người đi bộ mỗi giờ 4km, đi trong 3 giờ được bao nhiêu km?", options: ["7km", "12km", "16km", "10km"], correctIndex: 1, explanation: "4×3=12km." },
+    { question: "Xe đạp đi mỗi giờ 15km, đi trong 2 giờ được bao nhiêu km?", options: ["17km", "30km", "13km", "25km"], correctIndex: 1, explanation: "15×2=30km." },
+    { question: "Để tính quãng đường, ta cần biết những đại lượng nào?", options: ["Chỉ cần thời gian", "Quãng đường mỗi giờ và số giờ", "Chỉ cần quãng đường mỗi giờ", "Không cần biết gì"], correctIndex: 1, explanation: "Cần biết quãng đường đi mỗi giờ và tổng số giờ." },
+  ]),
+  "toan:3:thuc-hanh-tinh-nhanh-bang-cach-nhom-so": practiceContent("Thực hành", "Tính nhanh bằng cách nhóm số", "Hãy nhớ lại cách nhóm các số tròn chục, tròn trăm lại với nhau.", [
+    { question: "Tính nhanh: 15 + 28 + 5 = ?", options: ["48", "38", "58", "43"], correctIndex: 0, explanation: "(15+5)+28=20+28=48." },
+    { question: "Tính nhanh: 2 × 17 × 5 = ?", options: ["170", "34", "85", "190"], correctIndex: 0, explanation: "2×5=10, 10×17=170." },
+    { question: "Tính nhanh: 47 + 23 + 3 = ?", options: ["70", "73", "63", "80"], correctIndex: 1, explanation: "(47+3)+23=50+23=73." },
+    { question: "Tính nhanh: 25 × 4 × 3 = ?", options: ["300", "100", "75", "225"], correctIndex: 0, explanation: "25×4=100, 100×3=300." },
+  ]),
+  "toan:3:luyen-tap-bai-toan-co-loi-van-ve-do-luong": practiceContent("Luyện tập", "Bài toán có lời văn về đo lường", "Hãy nhớ lại: đổi về cùng đơn vị trước khi tính.", [
+    { question: "Một bao gạo 30kg, dùng hết 12kg. Còn lại bao nhiêu ki-lô-gam?", options: ["18kg", "42kg", "22kg", "12kg"], correctIndex: 0, explanation: "30-12=18kg." },
+    { question: "Một sợi dây dài 4m, cắt đi 150cm. Đổi 4m=400cm, còn lại bao nhiêu cm?", options: ["250cm", "260cm", "550cm", "150cm"], correctIndex: 0, explanation: "400-150=250cm." },
+    { question: "Một bình có 3 lít nước, rót ra 800ml. Đổi 3 lít=3000ml, còn lại bao nhiêu ml?", options: ["2100ml", "2200ml", "3800ml", "800ml"], correctIndex: 1, explanation: "3000-800=2200ml." },
+    { question: "Khi bài toán có nhiều đơn vị đo, bước quan trọng đầu tiên là gì?", options: ["Bỏ qua đơn vị", "Đổi về cùng đơn vị", "Đoán kết quả", "Không cần đổi"], correctIndex: 1, explanation: "Cần đổi về cùng đơn vị trước khi tính." },
+  ]),
+  "toan:3:van-dung-bai-toan-co-loi-van-ve-hinh-hoc": practiceContent("Vận dụng", "Bài toán có lời văn về hình học", "Hãy nhớ lại công thức chu vi, diện tích hình chữ nhật, hình vuông.", [
+    { question: "Một khu vườn hình vuông cạnh 9m. Diện tích khu vườn là bao nhiêu?", options: ["36m²", "81m²", "18m²", "27m²"], correctIndex: 1, explanation: "9×9=81m²." },
+    { question: "Một tấm bảng hình chữ nhật dài 120cm, rộng 80cm. Chu vi tấm bảng là bao nhiêu?", options: ["200cm", "400cm", "9600cm", "300cm"], correctIndex: 1, explanation: "(120+80)×2=400cm." },
+    { question: "Một mảnh vườn hình chữ nhật dài 10m, rộng 6m. Diện tích là bao nhiêu?", options: ["16m²", "32m²", "60m²", "40m²"], correctIndex: 2, explanation: "10×6=60m²." },
+    { question: "Khi giải bài toán hình học có lời văn, em cần xác định gì trước?", options: ["Màu sắc hình", "Hình dạng và số đo các cạnh", "Tên người ra đề", "Không cần xác định"], correctIndex: 1, explanation: "Cần xác định hình dạng và số đo các cạnh." },
+  ]),
+  "toan:3:tro-choi-on-tap-luyen-tap-bang-nhan-chia-tong-hop": practiceContent("Trò chơi ôn tập", "Luyện tập bảng nhân, chia tổng hợp", "Hãy ôn lại toàn bộ các bảng nhân, chia từ 2 đến 9.", [
+    { question: "7 × 9 = ?", options: ["56", "63", "72", "54"], correctIndex: 1, explanation: "7×9=63." },
+    { question: "72 : 9 = ?", options: ["6", "7", "8", "9"], correctIndex: 2, explanation: "9×8=72 nên 72:9=8." },
+    { question: "6 × 6 = ?", options: ["30", "36", "42", "48"], correctIndex: 1, explanation: "6×6=36." },
+    { question: "56 : 7 = ?", options: ["6", "7", "8", "9"], correctIndex: 2, explanation: "7×8=56 nên 56:7=8." },
+  ]),
+  "toan:3:thu-thach-nho-luyen-tap-bon-phep-tinh-tong-hop": practiceContent("Thử thách nhỏ", "Luyện tập bốn phép tính tổng hợp", "Hãy ôn lại cả bốn phép tính: cộng, trừ, nhân, chia.", [
+    { question: "246 + 358 = ?", options: ["594", "604", "614", "584"], correctIndex: 1, explanation: "246+358=604." },
+    { question: "7 × 8 - 20 = ?", options: ["36", "56", "76", "16"], correctIndex: 0, explanation: "7×8=56, 56-20=36." },
+    { question: "900 - 456 = ?", options: ["444", "454", "434", "464"], correctIndex: 0, explanation: "900-456=444." },
+    { question: "96 : 8 = ?", options: ["10", "11", "12", "13"], correctIndex: 2, explanation: "8×12=96 nên 96:8=12." },
+  ]),
+  "toan:3:thuc-hanh-tro-choi-ai-nhanh-ai-dung-voi-phep-tinh": practiceContent("Thực hành", "Trò chơi: Ai nhanh ai đúng với phép tính", "Hãy luyện phản xạ tính toán nhanh và chính xác.", [
+    { question: "8 × 7 = ?", options: ["48", "54", "56", "64"], correctIndex: 2, explanation: "8×7=56." },
+    { question: "90 - 37 = ?", options: ["53", "63", "43", "57"], correctIndex: 0, explanation: "90-37=53." },
+    { question: "6 × 9 = ?", options: ["45", "54", "63", "48"], correctIndex: 1, explanation: "6×9=54." },
+    { question: "35 + 48 = ?", options: ["73", "83", "93", "63"], correctIndex: 1, explanation: "35+48=83." },
+  ]),
+  "toan:3:luyen-tap-giai-o-so-toan-hoc": practiceContent("Luyện tập", "Giải ô số toán học", "Hãy vận dụng các phép tính đã học để giải ô số.", [
+    { question: "6 + ? = 15. Số cần điền là gì?", options: ["8", "9", "10", "21"], correctIndex: 1, explanation: "15-6=9." },
+    { question: "? × 5 = 45. Số cần điền là gì?", options: ["8", "9", "10", "40"], correctIndex: 1, explanation: "45:5=9." },
+    { question: "24 - ? = 15. Số cần điền là gì?", options: ["7", "8", "9", "10"], correctIndex: 2, explanation: "24-15=9." },
+    { question: "? : 6 = 7. Số cần điền là gì?", options: ["36", "42", "48", "1"], correctIndex: 1, explanation: "7×6=42." },
+  ]),
+  "toan:3:van-dung-toan-vui-do-vui-ve-so": practiceContent("Vận dụng", "Toán vui: đố vui về số", "Hãy vận dụng tư duy linh hoạt để giải các câu đố vui.", [
+    { question: "Số nào cộng với chính nó bằng 0?", options: ["1", "0", "10", "Không có số nào"], correctIndex: 1, explanation: "0+0=0." },
+    { question: "Có 3 con vịt xếp thành một hàng dọc: một con đi trước 2 con, một con đi giữa, một con đi sau 2 con. Đàn vịt có ít nhất mấy con?", options: ["6", "3", "9", "2"], correctIndex: 1, explanation: "Đây là câu đố vui: chỉ cần 3 con xếp hàng dọc, mỗi con vừa 'đi trước', 'ở giữa', 'đi sau' tuỳ theo góc nhìn!" },
+    { question: "Số nào nhân với chính nó vẫn ra chính nó?", options: ["Số 0 và số 1", "Chỉ có số 2", "Chỉ có số 10", "Không có số nào"], correctIndex: 0, explanation: "0×0=0 và 1×1=1 — đây là hai trường hợp đặc biệt trong phép nhân." },
+    { question: "Toán vui giúp ích gì cho em?", options: ["Không có ích gì", "Tạo hứng thú và tư duy linh hoạt", "Làm Toán khó hơn", "Không liên quan đến Toán"], correctIndex: 1, explanation: "Toán vui giúp tạo hứng thú và rèn tư duy linh hoạt." },
+  ]),
+  "toan:3:tro-choi-on-tap-thuc-hanh-do-va-ve-hinh-don-gian": practiceContent("Trò chơi ôn tập", "Thực hành đo và vẽ hình đơn giản", "Hãy ôn lại cách sử dụng thước kẻ để đo và vẽ hình chính xác.", [
+    { question: "Để đo độ dài một đoạn thẳng, em cần dụng cụ gì?", options: ["Compa", "Thước kẻ", "Bút màu", "Ê-ke"], correctIndex: 1, explanation: "Thước kẻ dùng để đo độ dài." },
+    { question: "Khi vẽ hình vuông cạnh 5cm, em cần vẽ mấy đoạn thẳng bằng nhau?", options: ["2", "3", "4", "5"], correctIndex: 2, explanation: "Hình vuông có 4 cạnh bằng nhau." },
+    { question: "Để vẽ được góc vuông chính xác, em nên dùng dụng cụ gì?", options: ["Thước kẻ", "Ê-ke", "Bút chì", "Compa"], correctIndex: 1, explanation: "Ê-ke giúp vẽ góc vuông chính xác." },
+    { question: "Vì sao cần đo, vẽ cẩn thận, chính xác?", options: ["Không cần thiết", "Để hình vẽ đúng theo yêu cầu", "Để vẽ nhanh hơn", "Không có lý do gì"], correctIndex: 1, explanation: "Đo vẽ cẩn thận giúp hình vẽ chính xác theo yêu cầu." },
+  ]),
+  "toan:3:thu-thach-nho-on-tap-tong-hop-chuan-bi-kiem-tra-cuoi-nam": practiceContent("Thử thách nhỏ", "Ôn tập tổng hợp chuẩn bị kiểm tra cuối năm", "Hãy ôn lại toàn bộ kiến thức trọng tâm của năm học.", [
+    { question: "Hình chữ nhật dài 14cm, rộng 7cm. Diện tích là bao nhiêu?", options: ["42cm²", "98cm²", "21cm²", "84cm²"], correctIndex: 1, explanation: "14×7=98cm²." },
+    { question: "3/8 + 2/8 = ?", options: ["5/8", "5/16", "1/8", "6/8"], correctIndex: 0, explanation: "3+2=5, giữ nguyên mẫu số: 5/8." },
+    { question: "1000000... không, số lớn nhất có 5 chữ số là số nào?", options: ["10 000", "99 999", "90 000", "100 000"], correctIndex: 1, explanation: "99 999 là số có 5 chữ số lớn nhất." },
+    { question: "Chu vi hình vuông cạnh 11cm là bao nhiêu?", options: ["22cm", "33cm", "44cm", "121cm"], correctIndex: 2, explanation: "11×4=44cm." },
+  ]),
+
 };
 
 export function getLessonContent(subject: string, grade: number, lessonSlug: string) {
