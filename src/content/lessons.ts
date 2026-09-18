@@ -9534,6 +9534,1200 @@ export const lessonContent: Record<string, LessonContent> = {
     { question: "Kỹ năng nào quan trọng khi học một ngôn ngữ mới?", options: ["Chỉ cần nghe", "Nghe, nói, đọc, viết", "Chỉ cần viết", "Không cần kỹ năng nào"], correctIndex: 1, explanation: "Cần rèn luyện đầy đủ 4 kỹ năng: nghe, nói, đọc, viết." },
   ]),
 
+  // ─────────────── KHÁM PHÁ — LỚP 3 — 60 bài lõi mở rộng ───────────────
+  "kham-pha:3:tet-nguyen-dan-va-phong-tuc": {
+    objectives: ["Hiểu ý nghĩa của Tết Nguyên Đán.", "Biết một số phong tục ngày Tết cổ truyền."],
+    sections: [
+      { heading: "1. Ý nghĩa ngày Tết", body: ["Tết Nguyên Đán là dịp lễ quan trọng nhất của người Việt, đánh dấu năm mới theo âm lịch, là dịp gia đình sum họp."] },
+      { heading: "2. Phong tục ngày Tết", body: ["Gói bánh chưng, bánh tét; chúc Tết ông bà, cha mẹ; lì xì; đi chùa đầu năm; dọn dẹp, trang trí nhà cửa."] },
+    ],
+    quiz: [
+      { question: "Tết Nguyên Đán là gì?", options: ["Tết dương lịch", "Tết cổ truyền theo âm lịch", "Ngày lễ tôn giáo", "Ngày nghỉ cuối tuần"], correctIndex: 1, explanation: "Tết Nguyên Đán là Tết cổ truyền theo âm lịch của người Việt." },
+      { question: "Món bánh nào đặc trưng của Tết miền Bắc?", options: ["Bánh chưng", "Bánh mì", "Bánh xèo", "Bánh cuốn"], correctIndex: 0, explanation: "Bánh chưng là món ăn đặc trưng của Tết miền Bắc." },
+      { question: "Lì xì trong ngày Tết có ý nghĩa gì?", options: ["Chúc may mắn, sức khoẻ", "Không có ý nghĩa gì", "Chỉ là quà tặng thông thường", "Chỉ dành cho người lớn"], correctIndex: 0, explanation: "Lì xì mang ý nghĩa chúc may mắn, sức khoẻ đầu năm." },
+      { question: "Người Việt thường làm gì đầu năm mới?", options: ["Đi chùa cầu may", "Không làm gì đặc biệt", "Đi học bình thường", "Dọn nhà vào cuối năm"], correctIndex: 0, explanation: "Đi chùa cầu may là phong tục phổ biến đầu năm mới." },
+    ],
+    funFact: "Tết Nguyên Đán còn được gọi là 'Tết Âm lịch', thường rơi vào khoảng cuối tháng 1 đến giữa tháng 2 dương lịch!",
+  },
+  "kham-pha:3:trung-thu-va-y-nghia": {
+    objectives: ["Hiểu nguồn gốc và ý nghĩa Tết Trung Thu.", "Biết các hoạt động đặc trưng của Trung Thu."],
+    sections: [
+      { heading: "1. Nguồn gốc Trung Thu", body: ["Tết Trung Thu diễn ra vào rằm tháng Tám âm lịch, còn gọi là 'Tết Thiếu Nhi' hay 'Tết Trông Trăng'."] },
+      { heading: "2. Hoạt động Trung Thu", body: ["Rước đèn ông sao, phá cỗ, múa lân, ngắm trăng, ăn bánh Trung Thu."] },
+    ],
+    quiz: [
+      { question: "Tết Trung Thu diễn ra vào ngày nào?", options: ["Rằm tháng Giêng", "Rằm tháng Tám", "Mùng 1 Tết", "Rằm tháng Bảy"], correctIndex: 1, explanation: "Tết Trung Thu diễn ra vào rằm tháng Tám âm lịch." },
+      { question: "Trung Thu còn được gọi là gì?", options: ["Tết Thiếu Nhi", "Tết Nguyên Đán", "Tết Đoan Ngọ", "Tết ông Công ông Táo"], correctIndex: 0, explanation: "Trung Thu còn được gọi là 'Tết Thiếu Nhi'." },
+      { question: "Hoạt động nào đặc trưng trong Trung Thu?", options: ["Rước đèn ông sao", "Gói bánh chưng", "Đi khai giảng", "Cúng ông Táo"], correctIndex: 0, explanation: "Rước đèn ông sao là hoạt động đặc trưng của Trung Thu." },
+      { question: "Món bánh nào đặc trưng của Trung Thu?", options: ["Bánh Trung Thu", "Bánh chưng", "Bánh tét", "Bánh giò"], correctIndex: 0, explanation: "Bánh Trung Thu là món ăn đặc trưng của dịp lễ này." },
+    ],
+    funFact: "Chiếc đèn ông sao 5 cánh là hình ảnh biểu tượng gắn liền với Tết Trung Thu ở Việt Nam!",
+  },
+  "kham-pha:3:le-hoi-mua-xuan-o-dia-phuong": {
+    objectives: ["Tìm hiểu một lễ hội mùa xuân tiêu biểu.", "Biết ý nghĩa của lễ hội đối với cộng đồng."],
+    sections: [
+      { heading: "1. Lễ hội mùa xuân", body: ["Mùa xuân là thời điểm nhiều lễ hội truyền thống diễn ra như lễ hội đền Hùng, lễ hội chùa Hương, hội Lim."] },
+      { heading: "2. Ý nghĩa lễ hội", body: ["Lễ hội giúp gắn kết cộng đồng, tưởng nhớ tổ tiên và gìn giữ nét đẹp văn hoá dân tộc."] },
+    ],
+    quiz: [
+      { question: "Lễ hội thường diễn ra nhiều nhất vào mùa nào?", options: ["Mùa xuân", "Mùa hè", "Mùa thu", "Mùa đông"], correctIndex: 0, explanation: "Mùa xuân là thời điểm nhiều lễ hội truyền thống diễn ra." },
+      { question: "Lễ hội đền Hùng tưởng nhớ ai?", options: ["Các Vua Hùng", "Bác Hồ", "Hai Bà Trưng", "Trần Hưng Đạo"], correctIndex: 0, explanation: "Lễ hội đền Hùng tưởng nhớ công lao các Vua Hùng." },
+      { question: "Lễ hội có vai trò gì với cộng đồng?", options: ["Gắn kết cộng đồng, giữ gìn văn hoá", "Không có vai trò gì", "Chỉ để vui chơi", "Không liên quan đến văn hoá"], correctIndex: 0, explanation: "Lễ hội giúp gắn kết cộng đồng và giữ gìn văn hoá dân tộc." },
+      { question: "Hội Lim là lễ hội đặc trưng của tỉnh nào?", options: ["Bắc Ninh", "Hà Nội", "Huế", "Đà Nẵng"], correctIndex: 0, explanation: "Hội Lim là lễ hội quan họ đặc trưng của Bắc Ninh." },
+    ],
+    funFact: "Lễ hội đền Hùng diễn ra vào mùng 10 tháng Ba âm lịch, được công nhận là Di sản Văn hoá phi vật thể!",
+  },
+  "kham-pha:3:cho-que-va-hoat-dong-mua-ban": {
+    objectives: ["Tìm hiểu hoạt động mua bán ở chợ quê.", "Biết vai trò của chợ đối với đời sống người dân."],
+    sections: [
+      { heading: "1. Chợ quê là gì", body: ["Chợ quê là nơi người dân trao đổi, mua bán hàng hoá, thường họp theo phiên cố định."] },
+      { heading: "2. Hoạt động ở chợ", body: ["Người bán bày hàng hoá như rau củ, cá thịt, đồ thủ công; người mua trả giá và lựa chọn hàng."] },
+    ],
+    quiz: [
+      { question: "Chợ quê là nơi để làm gì?", options: ["Mua bán, trao đổi hàng hoá", "Chỉ để vui chơi", "Chỉ để họp lớp", "Không có chức năng gì"], correctIndex: 0, explanation: "Chợ quê là nơi mua bán, trao đổi hàng hoá." },
+      { question: "Chợ quê thường họp theo gì?", options: ["Phiên cố định", "Không theo quy luật nào", "Chỉ họp một lần trong năm", "Chỉ họp vào buổi tối"], correctIndex: 0, explanation: "Chợ quê thường họp theo phiên cố định (ví dụ chợ phiên)." },
+      { question: "Hàng hoá nào thường được bán ở chợ quê?", options: ["Rau củ, cá thịt", "Chỉ có đồ điện tử", "Chỉ có ô tô", "Không bán gì"], correctIndex: 0, explanation: "Chợ quê thường bán rau củ, cá thịt và các nông sản khác." },
+      { question: "Vì sao chợ quê quan trọng với người dân?", options: ["Đáp ứng nhu cầu mua bán hàng ngày", "Không quan trọng", "Chỉ mang tính giải trí", "Không liên quan đến đời sống"], correctIndex: 0, explanation: "Chợ quê đáp ứng nhu cầu mua bán thiết yếu hàng ngày." },
+    ],
+    funFact: "Nhiều vùng quê Việt Nam có 'chợ phiên' chỉ họp vào những ngày cố định trong tháng, ví dụ mùng 2, mùng 7!",
+  },
+  "kham-pha:3:nghe-nong-va-cong-cu-lao-dong": {
+    objectives: ["Tìm hiểu nghề nông và các công cụ lao động.", "Hiểu vai trò của nghề nông đối với đời sống."],
+    sections: [
+      { heading: "1. Nghề nông", body: ["Nghề nông là nghề trồng trọt, chăn nuôi để sản xuất lương thực, thực phẩm."] },
+      { heading: "2. Công cụ lao động", body: ["Cày, cuốc, liềm, máy cày là những công cụ quen thuộc của nghề nông."] },
+    ],
+    quiz: [
+      { question: "Nghề nông là nghề làm gì?", options: ["Trồng trọt, chăn nuôi", "Dạy học", "Chữa bệnh", "Xây dựng"], correctIndex: 0, explanation: "Nghề nông là nghề trồng trọt, chăn nuôi." },
+      { question: "Công cụ nào dùng để cắt lúa?", options: ["Liềm", "Cày", "Bút", "Búa"], correctIndex: 0, explanation: "Liềm là công cụ dùng để cắt lúa, gặt lúa." },
+      { question: "Nghề nông có vai trò gì?", options: ["Sản xuất lương thực, thực phẩm", "Không có vai trò gì", "Chỉ mang tính giải trí", "Không liên quan đến đời sống"], correctIndex: 0, explanation: "Nghề nông sản xuất lương thực, thực phẩm nuôi sống con người." },
+      { question: "Công cụ nào giúp cày đất trong nông nghiệp hiện đại?", options: ["Máy cày", "Bút chì", "Kéo", "Dao"], correctIndex: 0, explanation: "Máy cày là công cụ hiện đại giúp cày đất nhanh hơn." },
+    ],
+    funFact: "Việt Nam là một trong những nước xuất khẩu gạo hàng đầu thế giới nhờ nghề nông phát triển!",
+  },
+  "kham-pha:3:nghe-danh-bat-thuy-san": {
+    objectives: ["Tìm hiểu nghề đánh bắt thuỷ sản.", "Biết công cụ và hoạt động của nghề đánh bắt."],
+    sections: [
+      { heading: "1. Nghề đánh bắt thuỷ sản", body: ["Là nghề khai thác cá, tôm, cua từ sông, hồ, biển để làm thực phẩm."] },
+      { heading: "2. Công cụ đánh bắt", body: ["Lưới, thuyền, cần câu là những công cụ quen thuộc của ngư dân."] },
+    ],
+    quiz: [
+      { question: "Nghề đánh bắt thuỷ sản khai thác từ đâu?", options: ["Sông, hồ, biển", "Trên núi", "Trong rừng", "Trên cánh đồng"], correctIndex: 0, explanation: "Nghề này khai thác thuỷ sản từ sông, hồ, biển." },
+      { question: "Công cụ nào dùng để đánh bắt cá?", options: ["Lưới", "Cày", "Cuốc", "Liềm"], correctIndex: 0, explanation: "Lưới là công cụ phổ biến để đánh bắt cá." },
+      { question: "Người làm nghề đánh bắt thuỷ sản được gọi là gì?", options: ["Ngư dân", "Nông dân", "Công nhân", "Thợ mỏ"], correctIndex: 0, explanation: "Người làm nghề đánh bắt thuỷ sản được gọi là ngư dân." },
+      { question: "Nghề đánh bắt thuỷ sản phổ biến ở vùng nào?", options: ["Ven biển, sông nước", "Vùng núi cao", "Sa mạc", "Thành phố lớn"], correctIndex: 0, explanation: "Nghề này phổ biến ở vùng ven biển, sông nước." },
+    ],
+    funFact: "Việt Nam có bờ biển dài hơn 3.260 km, tạo điều kiện thuận lợi cho nghề đánh bắt thuỷ sản phát triển!",
+  },
+  "kham-pha:3:nghe-thu-cong-truyen-thong-khac": {
+    objectives: ["Tìm hiểu thêm một số nghề thủ công truyền thống.", "Biết giá trị văn hoá của các làng nghề."],
+    sections: [
+      { heading: "1. Nghề thủ công truyền thống", body: ["Gốm sứ, dệt lụa, đan lát, chạm khắc gỗ là những nghề thủ công lâu đời ở Việt Nam."] },
+      { heading: "2. Giá trị của nghề thủ công", body: ["Các sản phẩm thủ công thể hiện sự khéo léo, sáng tạo và được gìn giữ qua nhiều thế hệ."] },
+    ],
+    quiz: [
+      { question: "Nghề nào tạo ra sản phẩm từ đất sét nung?", options: ["Gốm sứ", "Dệt lụa", "Đan lát", "Rèn"], correctIndex: 0, explanation: "Nghề gốm sứ tạo ra sản phẩm từ đất sét nung." },
+      { question: "Làng gốm Bát Tràng nổi tiếng ở đâu?", options: ["Hà Nội", "Huế", "Đà Nẵng", "Cần Thơ"], correctIndex: 0, explanation: "Làng gốm Bát Tràng nổi tiếng ở Hà Nội." },
+      { question: "Nghề dệt lụa tạo ra sản phẩm gì?", options: ["Vải lụa", "Đồ gốm", "Đồ gỗ", "Giỏ tre"], correctIndex: 0, explanation: "Nghề dệt lụa tạo ra vải lụa mềm mại." },
+      { question: "Vì sao cần gìn giữ nghề thủ công truyền thống?", options: ["Đây là di sản văn hoá quý báu", "Không cần gìn giữ", "Không có giá trị gì", "Chỉ để bán cho khách du lịch"], correctIndex: 0, explanation: "Nghề thủ công truyền thống là di sản văn hoá quý báu cần gìn giữ." },
+    ],
+    funFact: "Việt Nam có hàng nghìn làng nghề truyền thống, mỗi làng nghề gắn với một sản phẩm đặc trưng riêng!",
+  },
+  "kham-pha:3:truong-hoc-ngay-xua-va-ngay-nay": {
+    objectives: ["So sánh trường học ngày xưa với ngày nay.", "Nhận biết sự phát triển của giáo dục."],
+    sections: [
+      { heading: "1. Trường học ngày xưa", body: ["Trường học ngày xưa thường đơn sơ, học sinh viết bằng bút lông, bảng đen, ít trang thiết bị."] },
+      { heading: "2. Trường học ngày nay", body: ["Trường học ngày nay hiện đại hơn với máy tính, bảng thông minh, thư viện, phòng thí nghiệm."] },
+    ],
+    quiz: [
+      { question: "Trường học ngày xưa có đặc điểm gì?", options: ["Đơn sơ, ít trang thiết bị", "Hiện đại như ngày nay", "Không có học sinh", "Chỉ dạy trực tuyến"], correctIndex: 0, explanation: "Trường học ngày xưa thường đơn sơ, ít trang thiết bị." },
+      { question: "Trường học ngày nay có gì khác biệt?", options: ["Hiện đại, nhiều trang thiết bị", "Giống hệt ngày xưa", "Không có gì thay đổi", "Không có học sinh"], correctIndex: 0, explanation: "Trường học ngày nay hiện đại hơn với nhiều trang thiết bị." },
+      { question: "Công cụ nào phổ biến trong lớp học hiện đại?", options: ["Bảng thông minh", "Bút lông và giấy", "Không có công cụ nào", "Chỉ có bảng đen"], correctIndex: 0, explanation: "Bảng thông minh là công cụ phổ biến trong lớp học hiện đại." },
+      { question: "So sánh trường học xưa và nay giúp em hiểu điều gì?", options: ["Sự phát triển của giáo dục", "Không hiểu thêm điều gì", "Trường học không thay đổi", "Không liên quan đến giáo dục"], correctIndex: 0, explanation: "Giúp em hiểu về sự phát triển của giáo dục qua thời gian." },
+    ],
+    funFact: "Ngày xưa, học sinh thường viết chữ bằng bút lông chấm mực trên giấy hoặc bảng đá!",
+  },
+  "kham-pha:3:trang-phuc-truyen-thong-cac-dan-toc": {
+    objectives: ["Tìm hiểu trang phục truyền thống một số dân tộc.", "Trân trọng sự đa dạng văn hoá Việt Nam."],
+    sections: [
+      { heading: "1. Trang phục các dân tộc", body: ["Áo dài (Kinh), váy thổ cẩm (H'Mông, Thái), áo chàm (Tày, Nùng) là những trang phục truyền thống đặc trưng."] },
+      { heading: "2. Ý nghĩa trang phục", body: ["Mỗi bộ trang phục thể hiện bản sắc văn hoá riêng của từng dân tộc."] },
+    ],
+    quiz: [
+      { question: "Áo dài là trang phục truyền thống của dân tộc nào?", options: ["Kinh", "H'Mông", "Thái", "Tày"], correctIndex: 0, explanation: "Áo dài là trang phục truyền thống của dân tộc Kinh." },
+      { question: "Trang phục thổ cẩm đặc trưng cho dân tộc nào?", options: ["H'Mông, Thái", "Kinh", "Chăm", "Hoa"], correctIndex: 0, explanation: "Trang phục thổ cẩm đặc trưng cho dân tộc H'Mông, Thái." },
+      { question: "Trang phục truyền thống thể hiện điều gì?", options: ["Bản sắc văn hoá dân tộc", "Không có ý nghĩa gì", "Chỉ để mặc khi lạnh", "Không liên quan đến văn hoá"], correctIndex: 0, explanation: "Trang phục truyền thống thể hiện bản sắc văn hoá riêng." },
+      { question: "Việt Nam có bao nhiêu dân tộc anh em?", options: ["54", "20", "100", "10"], correctIndex: 0, explanation: "Việt Nam có 54 dân tộc anh em cùng sinh sống." },
+    ],
+    funFact: "Mỗi dân tộc ở Việt Nam có hoa văn, màu sắc trang phục riêng, thể hiện qua nghề dệt thủ công độc đáo!",
+  },
+  "kham-pha:3:am-thuc-vung-mien": {
+    objectives: ["Tìm hiểu món ăn đặc trưng của các vùng miền.", "Trân trọng sự phong phú của ẩm thực Việt Nam."],
+    sections: [
+      { heading: "1. Ẩm thực ba miền", body: ["Miền Bắc: phở, bún chả. Miền Trung: bún bò Huế, mì Quảng. Miền Nam: hủ tiếu, bánh xèo."] },
+      { heading: "2. Đặc trưng vùng miền", body: ["Mỗi vùng miền có khẩu vị và cách chế biến riêng, tạo nên sự đa dạng ẩm thực Việt Nam."] },
+    ],
+    quiz: [
+      { question: "Phở là món ăn đặc trưng của vùng miền nào?", options: ["Miền Bắc", "Miền Trung", "Miền Nam", "Không có vùng nào"], correctIndex: 0, explanation: "Phở là món ăn đặc trưng của miền Bắc." },
+      { question: "Bún bò Huế là món ăn đặc trưng của đâu?", options: ["Miền Trung (Huế)", "Miền Bắc", "Miền Nam", "Miền núi"], correctIndex: 0, explanation: "Bún bò Huế là món ăn đặc trưng của Huế, miền Trung." },
+      { question: "Hủ tiếu thường phổ biến ở đâu?", options: ["Miền Nam", "Miền Bắc", "Miền Trung", "Miền núi phía Bắc"], correctIndex: 0, explanation: "Hủ tiếu là món ăn phổ biến ở miền Nam." },
+      { question: "Vì sao ẩm thực Việt Nam đa dạng?", options: ["Mỗi vùng miền có khẩu vị, cách chế biến riêng", "Vì tất cả các vùng ăn giống nhau", "Không có lý do gì", "Chỉ có một loại món ăn"], correctIndex: 0, explanation: "Mỗi vùng miền có khẩu vị và cách chế biến riêng." },
+    ],
+    funFact: "Phở Việt Nam đã được nhiều tổ chức quốc tế vinh danh là một trong những món ăn ngon nhất thế giới!",
+  },
+  "kham-pha:3:nui-doi-dong-bang-quanh-em": {
+    objectives: ["Tìm hiểu các dạng địa hình quen thuộc.", "Nhận biết núi, đồi, đồng bằng qua đặc điểm."],
+    sections: [
+      { heading: "1. Các dạng địa hình", body: ["Núi cao và dốc, đồi thấp hơn núi, đồng bằng là vùng đất bằng phẳng thấp."] },
+      { heading: "2. Đặc điểm địa hình", body: ["Đồng bằng thường thuận lợi cho trồng lúa; núi, đồi thích hợp trồng cây công nghiệp, cây ăn quả."] },
+    ],
+    quiz: [
+      { question: "Địa hình nào cao và dốc nhất?", options: ["Núi", "Đồi", "Đồng bằng", "Không có sự khác biệt"], correctIndex: 0, explanation: "Núi là địa hình cao và dốc nhất." },
+      { question: "Đồng bằng có đặc điểm gì?", options: ["Bằng phẳng, thấp", "Cao và dốc", "Nhiều đồi núi", "Không có đặc điểm gì"], correctIndex: 0, explanation: "Đồng bằng là vùng đất bằng phẳng, thấp." },
+      { question: "Địa hình nào thuận lợi cho trồng lúa?", options: ["Đồng bằng", "Núi cao", "Sa mạc", "Đồi dốc"], correctIndex: 0, explanation: "Đồng bằng thuận lợi cho trồng lúa nước." },
+      { question: "Đồi có độ cao như thế nào so với núi?", options: ["Thấp hơn núi", "Cao hơn núi", "Bằng núi", "Không so sánh được"], correctIndex: 0, explanation: "Đồi thấp hơn núi." },
+    ],
+    funFact: "Đỉnh Fansipan ở Lào Cai là ngọn núi cao nhất Việt Nam, được mệnh danh là 'Nóc nhà Đông Dương'!",
+  },
+  "kham-pha:3:song-ho-bien-quanh-em": {
+    objectives: ["Tìm hiểu các dạng nguồn nước quen thuộc.", "Nhận biết vai trò của sông, hồ, biển."],
+    sections: [
+      { heading: "1. Các dạng nguồn nước", body: ["Sông là dòng nước chảy dài, hồ là vùng nước tĩnh, biển là vùng nước mặn rộng lớn."] },
+      { heading: "2. Vai trò", body: ["Sông, hồ cung cấp nước sinh hoạt, tưới tiêu; biển cung cấp hải sản và giao thông đường thuỷ."] },
+    ],
+    quiz: [
+      { question: "Sông có đặc điểm gì?", options: ["Dòng nước chảy dài", "Nước tĩnh, không chảy", "Nước mặn", "Không có nước"], correctIndex: 0, explanation: "Sông là dòng nước chảy dài." },
+      { question: "Biển có đặc điểm gì về vị nước?", options: ["Nước ngọt", "Nước mặn", "Không có nước", "Nước có ga"], correctIndex: 1, explanation: "Nước biển có vị mặn." },
+      { question: "Sông, hồ có vai trò gì?", options: ["Cung cấp nước sinh hoạt, tưới tiêu", "Không có vai trò gì", "Chỉ để ngắm cảnh", "Không liên quan đến đời sống"], correctIndex: 0, explanation: "Sông, hồ cung cấp nước sinh hoạt và tưới tiêu." },
+      { question: "Sông nào dài nhất Việt Nam?", options: ["Sông Mê Kông (đoạn qua Việt Nam)", "Sông Hồng", "Sông Đồng Nai", "Sông Hương"], correctIndex: 0, explanation: "Sông Mê Kông là một trong những con sông dài và quan trọng nhất." },
+    ],
+    funFact: "Sông Hồng được gọi là 'sông Cái' vì mang phù sa đỏ, bồi đắp nên vùng đồng bằng Bắc Bộ trù phú!",
+  },
+  "kham-pha:3:thoi-tiet-bon-mua-va-suc-khoe": {
+    objectives: ["Tìm hiểu cách giữ sức khoẻ theo từng mùa.", "Nhận biết ảnh hưởng của thời tiết đến sức khoẻ."],
+    sections: [
+      { heading: "1. Thời tiết bốn mùa", body: ["Mùa xuân ẩm, mùa hè nóng, mùa thu mát, mùa đông lạnh — mỗi mùa cần cách chăm sóc sức khoẻ khác nhau."] },
+      { heading: "2. Giữ sức khoẻ theo mùa", body: ["Mùa hè: uống đủ nước, tránh nắng gắt. Mùa đông: giữ ấm cơ thể, tránh gió lạnh."] },
+    ],
+    quiz: [
+      { question: "Mùa hè cần chú ý điều gì để giữ sức khoẻ?", options: ["Uống đủ nước, tránh nắng gắt", "Mặc thật nhiều áo ấm", "Không cần chú ý gì", "Hạn chế uống nước"], correctIndex: 0, explanation: "Mùa hè cần uống đủ nước và tránh nắng gắt." },
+      { question: "Mùa đông cần chú ý điều gì?", options: ["Giữ ấm cơ thể", "Mặc đồ mỏng", "Tắm nước lạnh", "Không cần giữ ấm"], correctIndex: 0, explanation: "Mùa đông cần giữ ấm cơ thể để tránh cảm lạnh." },
+      { question: "Thời tiết ẩm thường xuất hiện vào mùa nào?", options: ["Mùa xuân", "Mùa hè", "Mùa thu", "Mùa đông"], correctIndex: 0, explanation: "Mùa xuân ở miền Bắc thường có thời tiết ẩm." },
+      { question: "Vì sao cần chăm sóc sức khoẻ theo từng mùa?", options: ["Mỗi mùa có đặc điểm thời tiết khác nhau ảnh hưởng đến cơ thể", "Không cần thiết", "Thời tiết không ảnh hưởng đến sức khoẻ", "Chỉ cần chăm sóc vào mùa đông"], correctIndex: 0, explanation: "Mỗi mùa có đặc điểm riêng ảnh hưởng khác nhau đến sức khoẻ." },
+    ],
+    funFact: "Cơ thể con người cần thời gian để thích nghi khi thời tiết thay đổi đột ngột, dễ gây cảm cúm!",
+  },
+  "kham-pha:3:cay-luong-thuc-quen-thuoc": {
+    objectives: ["Tìm hiểu một số cây lương thực quen thuộc.", "Biết vai trò của cây lương thực trong đời sống."],
+    sections: [
+      { heading: "1. Cây lương thực", body: ["Lúa, ngô, khoai, sắn là những cây lương thực quen thuộc, cung cấp tinh bột cho con người."] },
+      { heading: "2. Vai trò", body: ["Cây lương thực là nguồn thực phẩm chính, nuôi sống hàng triệu người."] },
+    ],
+    quiz: [
+      { question: "Cây lương thực nào phổ biến nhất ở Việt Nam?", options: ["Lúa", "Cà phê", "Cao su", "Điều"], correctIndex: 0, explanation: "Lúa là cây lương thực phổ biến nhất ở Việt Nam." },
+      { question: "Cây lương thực cung cấp chất gì chủ yếu?", options: ["Tinh bột", "Vitamin C", "Chất béo", "Không có chất gì"], correctIndex: 0, explanation: "Cây lương thực cung cấp tinh bột chủ yếu." },
+      { question: "Loại cây nào KHÔNG phải là cây lương thực?", options: ["Hoa hồng", "Lúa", "Ngô", "Khoai"], correctIndex: 0, explanation: "Hoa hồng là hoa cảnh, không phải cây lương thực." },
+      { question: "Sắn được chế biến thành món ăn nào?", options: ["Bánh sắn, sắn luộc", "Chỉ để làm cảnh", "Không ăn được", "Chỉ dùng làm thuốc"], correctIndex: 0, explanation: "Sắn được chế biến thành bánh sắn, sắn luộc và nhiều món khác." },
+    ],
+    funFact: "Việt Nam là một trong những nước xuất khẩu gạo lớn nhất thế giới, đứng trong top 3 toàn cầu!",
+  },
+  "kham-pha:3:cay-an-qua-quen-thuoc": {
+    objectives: ["Tìm hiểu một số cây ăn quả quen thuộc.", "Biết lợi ích của việc ăn trái cây."],
+    sections: [
+      { heading: "1. Cây ăn quả", body: ["Xoài, cam, chuối, nhãn, vải là những cây ăn quả quen thuộc ở Việt Nam."] },
+      { heading: "2. Lợi ích", body: ["Trái cây cung cấp vitamin, chất xơ, tốt cho sức khoẻ và hệ tiêu hoá."] },
+    ],
+    quiz: [
+      { question: "Loại quả nào phổ biến ở miền Nam Việt Nam?", options: ["Xoài", "Táo", "Nho", "Dâu tây"], correctIndex: 0, explanation: "Xoài là loại quả phổ biến ở miền Nam Việt Nam." },
+      { question: "Trái cây cung cấp chất gì tốt cho sức khoẻ?", options: ["Vitamin, chất xơ", "Chỉ có đường", "Không có chất gì", "Chỉ có nước"], correctIndex: 0, explanation: "Trái cây cung cấp vitamin và chất xơ tốt cho sức khoẻ." },
+      { question: "Vải, nhãn thường thu hoạch vào mùa nào?", options: ["Mùa hè", "Mùa đông", "Mùa xuân", "Mùa thu"], correctIndex: 0, explanation: "Vải, nhãn thường thu hoạch vào mùa hè." },
+      { question: "Vì sao nên ăn nhiều trái cây?", options: ["Tốt cho sức khoẻ và hệ tiêu hoá", "Không có lợi ích gì", "Chỉ để giải trí", "Không liên quan đến sức khoẻ"], correctIndex: 0, explanation: "Trái cây tốt cho sức khoẻ và hệ tiêu hoá." },
+    ],
+    funFact: "Việt Nam có nhiều loại trái cây đặc sản nổi tiếng như vải thiều Bắc Giang, xoài cát Hoà Lộc!",
+  },
+  "kham-pha:3:vat-nuoi-trong-gia-dinh": {
+    objectives: ["Tìm hiểu lợi ích của một số vật nuôi quen thuộc.", "Biết cách chăm sóc vật nuôi cơ bản."],
+    sections: [
+      { heading: "1. Vật nuôi quen thuộc", body: ["Chó, mèo, gà, lợn, trâu bò là những vật nuôi phổ biến trong gia đình Việt Nam."] },
+      { heading: "2. Lợi ích của vật nuôi", body: ["Chó giữ nhà, mèo bắt chuột, gà lợn cung cấp thực phẩm, trâu bò giúp cày kéo."] },
+    ],
+    quiz: [
+      { question: "Vật nuôi nào thường được nuôi để giữ nhà?", options: ["Chó", "Cá", "Gà", "Vịt"], correctIndex: 0, explanation: "Chó thường được nuôi để giữ nhà." },
+      { question: "Vật nuôi nào giúp bắt chuột?", options: ["Mèo", "Chó", "Gà", "Lợn"], correctIndex: 0, explanation: "Mèo là vật nuôi giúp bắt chuột." },
+      { question: "Trâu, bò thường được dùng để làm gì trong nông nghiệp?", options: ["Cày kéo", "Bắt chuột", "Giữ nhà", "Canh gác"], correctIndex: 0, explanation: "Trâu, bò được dùng để cày kéo trong nông nghiệp." },
+      { question: "Vì sao cần chăm sóc vật nuôi đúng cách?", options: ["Để vật nuôi khoẻ mạnh, có ích", "Không cần chăm sóc", "Không có lý do gì", "Chỉ để trang trí"], correctIndex: 0, explanation: "Chăm sóc đúng cách giúp vật nuôi khoẻ mạnh và có ích." },
+    ],
+    funFact: "Trâu được coi là biểu tượng gắn liền với nền văn minh lúa nước của người Việt từ hàng nghìn năm trước!",
+  },
+  "kham-pha:3:con-trung-co-ich-co-hai": {
+    objectives: ["Phân biệt côn trùng có ích và có hại.", "Biết cách bảo vệ côn trùng có ích."],
+    sections: [
+      { heading: "1. Côn trùng có ích", body: ["Ong giúp thụ phấn cho hoa, bướm giúp lan truyền phấn hoa, giun đất giúp đất tơi xốp."] },
+      { heading: "2. Côn trùng có hại", body: ["Muỗi truyền bệnh sốt xuất huyết, châu chấu phá hoại mùa màng."] },
+    ],
+    quiz: [
+      { question: "Côn trùng nào giúp thụ phấn cho hoa?", options: ["Ong", "Muỗi", "Ruồi", "Gián"], correctIndex: 0, explanation: "Ong giúp thụ phấn cho hoa, có ích cho cây trồng." },
+      { question: "Côn trùng nào có thể truyền bệnh cho con người?", options: ["Muỗi", "Ong", "Bướm", "Giun đất"], correctIndex: 0, explanation: "Muỗi có thể truyền bệnh như sốt xuất huyết." },
+      { question: "Côn trùng nào phá hoại mùa màng?", options: ["Châu chấu", "Ong", "Bướm", "Giun đất"], correctIndex: 0, explanation: "Châu chấu có thể phá hoại mùa màng." },
+      { question: "Vì sao cần bảo vệ côn trùng có ích như ong, bướm?", options: ["Chúng giúp cây trồng sinh sản, phát triển", "Không cần bảo vệ", "Chúng không có ích gì", "Chỉ cần bảo vệ động vật lớn"], correctIndex: 0, explanation: "Ong, bướm giúp thụ phấn, hỗ trợ cây trồng sinh sản." },
+    ],
+    funFact: "Nếu không có ong thụ phấn, nhiều loại cây trồng sẽ không thể ra quả, ảnh hưởng lớn đến nông nghiệp!",
+  },
+  "kham-pha:3:chuoi-thuc-an-don-gian-trong-tu-nhien": {
+    objectives: ["Làm quen khái niệm chuỗi thức ăn đơn giản.", "Hiểu mối quan hệ giữa các sinh vật trong tự nhiên."],
+    sections: [
+      { heading: "1. Chuỗi thức ăn là gì", body: ["Chuỗi thức ăn thể hiện mối quan hệ 'ăn và bị ăn' giữa các sinh vật, ví dụ: cỏ → thỏ → cáo."] },
+      { heading: "2. Vai trò của chuỗi thức ăn", body: ["Giúp duy trì cân bằng tự nhiên; nếu một mắt xích bị mất, cả hệ sinh thái có thể bị ảnh hưởng."] },
+    ],
+    quiz: [
+      { question: "Chuỗi thức ăn thể hiện điều gì?", options: ["Mối quan hệ ăn - bị ăn giữa sinh vật", "Không có ý nghĩa gì", "Chỉ là tên gọi của thực vật", "Không liên quan đến sinh vật"], correctIndex: 0, explanation: "Chuỗi thức ăn thể hiện mối quan hệ ăn - bị ăn." },
+      { question: "Trong chuỗi 'cỏ → thỏ → cáo', thỏ ăn gì?", options: ["Cỏ", "Cáo", "Không ăn gì", "Ăn thịt"], correctIndex: 0, explanation: "Trong chuỗi này, thỏ ăn cỏ." },
+      { question: "Điều gì xảy ra nếu một mắt xích trong chuỗi thức ăn bị mất?", options: ["Có thể ảnh hưởng đến cả hệ sinh thái", "Không có ảnh hưởng gì", "Chuỗi thức ăn tự động hoàn thiện", "Không liên quan đến hệ sinh thái"], correctIndex: 0, explanation: "Mất một mắt xích có thể ảnh hưởng đến cả hệ sinh thái." },
+      { question: "Sinh vật nào thường đứng đầu chuỗi thức ăn đơn giản?", options: ["Thực vật (như cỏ)", "Động vật ăn thịt", "Con người", "Không có sinh vật nào đứng đầu"], correctIndex: 0, explanation: "Thực vật thường đứng đầu chuỗi thức ăn vì tự tạo ra năng lượng." },
+    ],
+    funFact: "Trong tự nhiên, có những chuỗi thức ăn phức tạp với hàng chục loài liên kết với nhau, gọi là 'lưới thức ăn'!",
+  },
+  "kham-pha:3:nuoc-sach-va-ve-sinh-moi-truong": {
+    objectives: ["Tìm hiểu tầm quan trọng của nước sạch.", "Biết cách giữ vệ sinh môi trường sống."],
+    sections: [
+      { heading: "1. Vai trò của nước sạch", body: ["Nước sạch cần thiết cho ăn uống, sinh hoạt, tưới tiêu và sức khoẻ con người."] },
+      { heading: "2. Giữ vệ sinh môi trường", body: ["Không xả rác, nước thải bừa bãi ra sông hồ; trồng cây xanh để bảo vệ nguồn nước."] },
+    ],
+    quiz: [
+      { question: "Nước sạch cần thiết cho việc gì?", options: ["Ăn uống, sinh hoạt", "Không cần thiết", "Chỉ dùng để tưới cây", "Chỉ dùng trong công nghiệp"], correctIndex: 0, explanation: "Nước sạch cần thiết cho ăn uống và sinh hoạt hàng ngày." },
+      { question: "Hành động nào gây ô nhiễm nguồn nước?", options: ["Xả rác xuống sông", "Trồng cây xanh", "Sử dụng nước tiết kiệm", "Dọn dẹp bờ sông"], correctIndex: 0, explanation: "Xả rác xuống sông gây ô nhiễm nguồn nước." },
+      { question: "Vì sao cần bảo vệ nguồn nước sạch?", options: ["Nước sạch cần thiết cho sức khoẻ và sự sống", "Không cần bảo vệ", "Nguồn nước là vô hạn", "Không liên quan đến sức khoẻ"], correctIndex: 0, explanation: "Nước sạch cần thiết cho sức khoẻ và sự sống của con người." },
+      { question: "Hành động nào giúp giữ vệ sinh môi trường?", options: ["Không xả rác bừa bãi", "Xả nước thải ra sông", "Chặt phá cây xanh", "Đốt rác bừa bãi"], correctIndex: 0, explanation: "Không xả rác bừa bãi giúp giữ vệ sinh môi trường." },
+    ],
+    funFact: "Chỉ khoảng 3% lượng nước trên Trái Đất là nước ngọt, phần còn lại là nước mặn ở biển và đại dương!",
+  },
+  "kham-pha:3:rac-thai-va-cach-phan-loai": {
+    objectives: ["Tìm hiểu cách phân loại rác thải cơ bản.", "Biết ý nghĩa của việc phân loại rác."],
+    sections: [
+      { heading: "1. Các loại rác thải", body: ["Rác hữu cơ (thức ăn thừa, lá cây), rác tái chế (giấy, nhựa, kim loại), rác khác (rác thải nguy hại)."] },
+      { heading: "2. Ý nghĩa phân loại rác", body: ["Giúp tái chế hiệu quả, giảm ô nhiễm môi trường và tiết kiệm tài nguyên."] },
+    ],
+    quiz: [
+      { question: "Rác hữu cơ gồm những gì?", options: ["Thức ăn thừa, lá cây", "Chai nhựa, giấy báo", "Pin, hoá chất", "Kim loại"], correctIndex: 0, explanation: "Rác hữu cơ gồm thức ăn thừa, lá cây, dễ phân huỷ." },
+      { question: "Loại rác nào có thể tái chế?", options: ["Giấy, nhựa, kim loại", "Thức ăn thừa", "Rác nguy hại", "Không có loại nào tái chế được"], correctIndex: 0, explanation: "Giấy, nhựa, kim loại là những loại rác có thể tái chế." },
+      { question: "Vì sao cần phân loại rác thải?", options: ["Giúp tái chế hiệu quả, giảm ô nhiễm", "Không cần thiết", "Không có lợi ích gì", "Chỉ để tốn thời gian"], correctIndex: 0, explanation: "Phân loại rác giúp tái chế hiệu quả và giảm ô nhiễm." },
+      { question: "Rác nguy hại cần được xử lý như thế nào?", options: ["Xử lý riêng, cẩn thận", "Vứt chung với rác thường", "Không cần xử lý", "Đốt ngay tại nhà"], correctIndex: 0, explanation: "Rác nguy hại cần được xử lý riêng, cẩn thận để tránh gây hại." },
+    ],
+    funFact: "Một chai nhựa có thể mất tới 450 năm để phân huỷ hoàn toàn trong môi trường tự nhiên!",
+  },
+  "kham-pha:3:tai-che-do-dung-don-gian": {
+    objectives: ["Tìm hiểu cách tái chế một số đồ dùng đơn giản.", "Rèn ý thức bảo vệ môi trường qua tái chế."],
+    sections: [
+      { heading: "1. Tái chế là gì", body: ["Tái chế là biến đồ vật đã qua sử dụng thành sản phẩm mới có ích, thay vì vứt bỏ."] },
+      { heading: "2. Ví dụ tái chế đơn giản", body: ["Chai nhựa làm chậu cây, lon nước thành ống đựng bút, giấy báo cũ làm đồ thủ công."] },
+    ],
+    quiz: [
+      { question: "Tái chế là gì?", options: ["Biến đồ cũ thành sản phẩm mới có ích", "Vứt bỏ đồ cũ", "Đốt rác", "Không làm gì với đồ cũ"], correctIndex: 0, explanation: "Tái chế là biến đồ cũ thành sản phẩm mới có ích." },
+      { question: "Chai nhựa có thể tái chế thành gì?", options: ["Chậu trồng cây", "Không tái chế được", "Chỉ để vứt đi", "Thức ăn"], correctIndex: 0, explanation: "Chai nhựa có thể tái chế thành chậu trồng cây." },
+      { question: "Vì sao nên tái chế đồ dùng?", options: ["Giảm rác thải, bảo vệ môi trường", "Không có lợi ích gì", "Chỉ tốn thời gian", "Không liên quan đến môi trường"], correctIndex: 0, explanation: "Tái chế giúp giảm rác thải và bảo vệ môi trường." },
+      { question: "Giấy báo cũ có thể dùng để làm gì?", options: ["Đồ thủ công", "Không dùng được vào việc gì", "Chỉ để đốt", "Chỉ để vứt đi"], correctIndex: 0, explanation: "Giấy báo cũ có thể dùng để làm đồ thủ công sáng tạo." },
+    ],
+    funFact: "Tái chế một tấn giấy có thể tiết kiệm được khoảng 17 cây xanh trưởng thành!",
+  },
+  "kham-pha:3:an-toan-khi-su-dung-dien": {
+    objectives: ["Nhận biết nguy cơ và cách phòng tránh tai nạn điện.", "Biết các quy tắc an toàn khi dùng điện."],
+    sections: [
+      { heading: "1. Nguy cơ từ điện", body: ["Điện có thể gây giật, cháy nổ nếu sử dụng không đúng cách hoặc thiết bị bị hỏng."] },
+      { heading: "2. Quy tắc an toàn", body: ["Không chạm tay ướt vào ổ điện, không tự ý sửa chữa thiết bị điện, báo người lớn khi thấy dây điện hở."] },
+    ],
+    quiz: [
+      { question: "Điều gì có thể gây nguy hiểm khi dùng điện?", options: ["Chạm tay ướt vào ổ điện", "Tắt điện khi không dùng", "Báo người lớn khi có sự cố", "Dùng đúng cách"], correctIndex: 0, explanation: "Chạm tay ướt vào ổ điện rất nguy hiểm, dễ bị giật." },
+      { question: "Khi thấy dây điện hở, em nên làm gì?", options: ["Báo ngay cho người lớn", "Tự ý sửa chữa", "Chạm vào để kiểm tra", "Không làm gì cả"], correctIndex: 0, explanation: "Cần báo ngay cho người lớn khi thấy dây điện hở." },
+      { question: "Vì sao không nên tự ý sửa chữa thiết bị điện?", options: ["Có thể gây nguy hiểm nếu không có chuyên môn", "Không có nguy hiểm gì", "Rất dễ dàng và an toàn", "Không liên quan đến an toàn"], correctIndex: 0, explanation: "Sửa chữa điện cần chuyên môn, tự ý sửa rất nguy hiểm." },
+      { question: "Điện có thể gây ra hậu quả gì nếu dùng sai cách?", options: ["Giật điện, cháy nổ", "Không có hậu quả gì", "Chỉ làm tốn tiền điện", "Không nguy hiểm"], correctIndex: 0, explanation: "Dùng điện sai cách có thể gây giật điện, cháy nổ." },
+    ],
+    funFact: "Chỉ với dòng điện rất nhỏ khoảng 0,1 ampe cũng có thể gây nguy hiểm đến tính mạng con người!",
+  },
+  "kham-pha:3:an-toan-khi-su-dung-bep-gas": {
+    objectives: ["Nhận biết nguy cơ và cách phòng tránh khi dùng bếp gas.", "Biết cách xử lý khi có mùi gas."],
+    sections: [
+      { heading: "1. Nguy cơ từ bếp gas", body: ["Rò rỉ gas có thể gây cháy nổ nếu gặp lửa hoặc tia lửa điện."] },
+      { heading: "2. Quy tắc an toàn", body: ["Không tự ý bật bếp gas khi không có người lớn, khi ngửi thấy mùi gas cần mở cửa thoáng khí và báo người lớn ngay."] },
+    ],
+    quiz: [
+      { question: "Điều gì có thể xảy ra nếu gas bị rò rỉ gặp lửa?", options: ["Cháy nổ", "Không có gì xảy ra", "Gas tự tắt", "Không nguy hiểm"], correctIndex: 0, explanation: "Gas rò rỉ gặp lửa có thể gây cháy nổ nguy hiểm." },
+      { question: "Khi ngửi thấy mùi gas, em nên làm gì đầu tiên?", options: ["Mở cửa thoáng khí, báo người lớn", "Bật lửa để kiểm tra", "Không làm gì cả", "Đóng kín cửa"], correctIndex: 0, explanation: "Cần mở cửa thoáng khí và báo người lớn ngay khi ngửi thấy mùi gas." },
+      { question: "Trẻ em có nên tự ý sử dụng bếp gas không?", options: ["Không, cần có người lớn giám sát", "Có, tự do sử dụng", "Chỉ cần cẩn thận là được", "Không quan trọng"], correctIndex: 0, explanation: "Trẻ em không nên tự ý sử dụng bếp gas khi không có người lớn." },
+      { question: "Vì sao cần cẩn thận với bếp gas?", options: ["Có thể gây cháy nổ nguy hiểm", "Không nguy hiểm gì", "Chỉ tốn nhiên liệu", "Không liên quan đến an toàn"], correctIndex: 0, explanation: "Bếp gas có thể gây cháy nổ nếu sử dụng không đúng cách." },
+    ],
+    funFact: "Gas thường được thêm mùi đặc trưng (mùi trứng thối) để con người dễ dàng phát hiện khi bị rò rỉ!",
+  },
+  "kham-pha:3:phong-tranh-ngo-doc-thuc-pham": {
+    objectives: ["Nhận biết nguy cơ và cách phòng tránh ngộ độc thực phẩm.", "Biết cách chọn thực phẩm an toàn."],
+    sections: [
+      { heading: "1. Nguyên nhân ngộ độc", body: ["Ăn thực phẩm ôi thiu, không rõ nguồn gốc, chưa nấu chín kỹ có thể gây ngộ độc."] },
+      { heading: "2. Phòng tránh", body: ["Rửa tay trước khi ăn, ăn chín uống sôi, chọn thực phẩm tươi sạch, có nguồn gốc rõ ràng."] },
+    ],
+    quiz: [
+      { question: "Nguyên nhân nào có thể gây ngộ độc thực phẩm?", options: ["Ăn thực phẩm ôi thiu", "Rửa tay trước khi ăn", "Ăn chín uống sôi", "Chọn thực phẩm tươi sạch"], correctIndex: 0, explanation: "Ăn thực phẩm ôi thiu có thể gây ngộ độc." },
+      { question: "Cách nào giúp phòng tránh ngộ độc thực phẩm?", options: ["Ăn chín, uống sôi", "Ăn thực phẩm không rõ nguồn gốc", "Không rửa tay trước khi ăn", "Ăn đồ ôi thiu"], correctIndex: 0, explanation: "Ăn chín, uống sôi giúp phòng tránh ngộ độc thực phẩm." },
+      { question: "Vì sao cần rửa tay trước khi ăn?", options: ["Loại bỏ vi khuẩn có hại", "Không có tác dụng gì", "Chỉ để tay sạch đẹp", "Không liên quan đến sức khoẻ"], correctIndex: 0, explanation: "Rửa tay giúp loại bỏ vi khuẩn có hại trước khi ăn." },
+      { question: "Nên chọn thực phẩm như thế nào?", options: ["Tươi sạch, có nguồn gốc rõ ràng", "Bất kỳ loại nào rẻ nhất", "Không cần quan tâm nguồn gốc", "Chỉ cần nhìn đẹp mắt"], correctIndex: 0, explanation: "Nên chọn thực phẩm tươi sạch, có nguồn gốc rõ ràng." },
+    ],
+    funFact: "Vi khuẩn có thể sinh sôi rất nhanh trong thực phẩm để ở nhiệt độ phòng quá 2 giờ, vì vậy cần bảo quản lạnh đúng cách!",
+  },
+  "kham-pha:3:cham-soc-rang-mieng": {
+    objectives: ["Tìm hiểu cách chăm sóc răng miệng đúng cách.", "Hiểu tầm quan trọng của việc giữ vệ sinh răng miệng."],
+    sections: [
+      { heading: "1. Vì sao cần chăm sóc răng miệng", body: ["Răng miệng khoẻ mạnh giúp ăn uống tốt, nói chuyện rõ ràng và tự tin khi cười."] },
+      { heading: "2. Cách chăm sóc", body: ["Đánh răng ít nhất 2 lần mỗi ngày, hạn chế ăn đồ ngọt, khám răng định kỳ."] },
+    ],
+    quiz: [
+      { question: "Nên đánh răng bao nhiêu lần mỗi ngày?", options: ["Ít nhất 2 lần", "Không cần đánh răng", "Chỉ 1 lần mỗi tuần", "Chỉ khi răng đau"], correctIndex: 0, explanation: "Nên đánh răng ít nhất 2 lần mỗi ngày." },
+      { question: "Thực phẩm nào có thể gây hại cho răng nếu ăn nhiều?", options: ["Đồ ngọt, kẹo", "Rau xanh", "Trái cây", "Nước lọc"], correctIndex: 0, explanation: "Đồ ngọt, kẹo có thể gây sâu răng nếu ăn nhiều." },
+      { question: "Vì sao cần khám răng định kỳ?", options: ["Phát hiện sớm vấn đề răng miệng", "Không cần thiết", "Chỉ tốn tiền", "Không có lợi ích gì"], correctIndex: 0, explanation: "Khám răng định kỳ giúp phát hiện sớm vấn đề răng miệng." },
+      { question: "Răng miệng khoẻ mạnh mang lại lợi ích gì?", options: ["Ăn uống tốt, tự tin khi cười", "Không có lợi ích gì", "Chỉ để đẹp", "Không liên quan đến sức khoẻ"], correctIndex: 0, explanation: "Răng miệng khoẻ mạnh giúp ăn uống tốt và tự tin hơn." },
+    ],
+    funFact: "Răng sữa của trẻ em thường bắt đầu rụng để nhường chỗ cho răng vĩnh viễn từ khoảng 6 tuổi!",
+  },
+  "kham-pha:3:cham-soc-giac-ngu": {
+    objectives: ["Tìm hiểu tầm quan trọng của giấc ngủ đủ và đúng giờ.", "Biết cách xây dựng thói quen ngủ tốt."],
+    sections: [
+      { heading: "1. Vai trò của giấc ngủ", body: ["Giấc ngủ giúp cơ thể nghỉ ngơi, phục hồi năng lượng và phát triển trí não."] },
+      { heading: "2. Thói quen ngủ tốt", body: ["Ngủ đủ 9-10 tiếng mỗi đêm với trẻ em, đi ngủ đúng giờ, tránh dùng điện thoại trước khi ngủ."] },
+    ],
+    quiz: [
+      { question: "Giấc ngủ có vai trò gì?", options: ["Giúp cơ thể nghỉ ngơi, phục hồi năng lượng", "Không có vai trò gì", "Chỉ để trải qua thời gian", "Không liên quan đến sức khoẻ"], correctIndex: 0, explanation: "Giấc ngủ giúp cơ thể nghỉ ngơi và phục hồi năng lượng." },
+      { question: "Trẻ em nên ngủ khoảng bao nhiêu tiếng mỗi đêm?", options: ["9-10 tiếng", "3-4 tiếng", "1-2 tiếng", "Không cần ngủ"], correctIndex: 0, explanation: "Trẻ em nên ngủ khoảng 9-10 tiếng mỗi đêm." },
+      { question: "Thói quen nào KHÔNG tốt trước khi ngủ?", options: ["Dùng điện thoại", "Đọc sách nhẹ nhàng", "Đi ngủ đúng giờ", "Thư giãn"], correctIndex: 0, explanation: "Dùng điện thoại trước khi ngủ ảnh hưởng đến chất lượng giấc ngủ." },
+      { question: "Ngủ đủ giấc giúp ích gì cho việc học?", options: ["Giúp tập trung, ghi nhớ tốt hơn", "Không có ích gì", "Làm học kém đi", "Không liên quan đến học tập"], correctIndex: 0, explanation: "Ngủ đủ giấc giúp tập trung và ghi nhớ tốt hơn khi học." },
+    ],
+    funFact: "Trong khi ngủ, não bộ vẫn hoạt động để củng cố trí nhớ và xử lý thông tin đã học trong ngày!",
+  },
+  "kham-pha:3:van-dong-the-chat-moi-ngay": {
+    objectives: ["Tìm hiểu lợi ích của vận động thể chất hàng ngày.", "Xây dựng thói quen vận động lành mạnh."],
+    sections: [
+      { heading: "1. Lợi ích của vận động", body: ["Vận động giúp cơ thể khoẻ mạnh, xương chắc, tinh thần thoải mái."] },
+      { heading: "2. Hoạt động vận động", body: ["Chạy bộ, nhảy dây, đá bóng, bơi lội là những hoạt động vận động phù hợp với học sinh."] },
+    ],
+    quiz: [
+      { question: "Vận động thể chất mang lại lợi ích gì?", options: ["Cơ thể khoẻ mạnh, tinh thần thoải mái", "Không có lợi ích gì", "Chỉ làm mệt cơ thể", "Không liên quan đến sức khoẻ"], correctIndex: 0, explanation: "Vận động giúp cơ thể khoẻ mạnh và tinh thần thoải mái." },
+      { question: "Hoạt động nào là vận động thể chất phù hợp với học sinh?", options: ["Nhảy dây", "Xem tivi cả ngày", "Ngồi yên một chỗ", "Chơi điện thoại liên tục"], correctIndex: 0, explanation: "Nhảy dây là hoạt động vận động phù hợp với học sinh." },
+      { question: "Nên vận động thể chất với tần suất như thế nào?", options: ["Hàng ngày", "Không cần vận động", "Chỉ một lần mỗi năm", "Chỉ khi được yêu cầu"], correctIndex: 0, explanation: "Nên vận động thể chất hàng ngày để duy trì sức khoẻ." },
+      { question: "Vận động giúp xương như thế nào?", options: ["Xương chắc khoẻ hơn", "Không ảnh hưởng đến xương", "Làm xương yếu đi", "Không liên quan đến xương"], correctIndex: 0, explanation: "Vận động giúp xương chắc khoẻ hơn." },
+    ],
+    funFact: "Các chuyên gia khuyên trẻ em nên vận động thể chất ít nhất 60 phút mỗi ngày để phát triển khoẻ mạnh!",
+  },
+  "kham-pha:3:co-quan-tuan-hoan-buoc-dau": {
+    objectives: ["Làm quen vai trò của tim và mạch máu.", "Hiểu chức năng cơ bản của cơ quan tuần hoàn."],
+    sections: [
+      { heading: "1. Tim", body: ["Tim là cơ quan bơm máu đi khắp cơ thể, hoạt động liên tục suốt đời."] },
+      { heading: "2. Mạch máu", body: ["Mạch máu là những ống dẫn máu từ tim đến các bộ phận cơ thể và ngược lại."] },
+    ],
+    quiz: [
+      { question: "Tim có chức năng gì?", options: ["Bơm máu đi khắp cơ thể", "Tiêu hoá thức ăn", "Hít thở không khí", "Suy nghĩ"], correctIndex: 0, explanation: "Tim có chức năng bơm máu đi khắp cơ thể." },
+      { question: "Mạch máu có vai trò gì?", options: ["Dẫn máu đi khắp cơ thể", "Tiêu hoá thức ăn", "Nghe âm thanh", "Nhìn sự vật"], correctIndex: 0, explanation: "Mạch máu là ống dẫn máu đi khắp cơ thể." },
+      { question: "Tim hoạt động như thế nào?", options: ["Liên tục suốt đời", "Chỉ hoạt động ban ngày", "Chỉ hoạt động khi vận động", "Không hoạt động"], correctIndex: 0, explanation: "Tim hoạt động liên tục suốt đời, không ngừng nghỉ." },
+      { question: "Vận động thể chất có ảnh hưởng gì đến tim?", options: ["Giúp tim khoẻ mạnh hơn", "Không ảnh hưởng gì", "Làm tim yếu đi", "Không liên quan đến tim"], correctIndex: 0, explanation: "Vận động thể chất giúp tim khoẻ mạnh hơn." },
+    ],
+    funFact: "Trái tim con người đập khoảng 100.000 lần mỗi ngày, bơm khoảng 7.500 lít máu!",
+  },
+  "kham-pha:3:bo-xuong-va-cac-khop": {
+    objectives: ["Tìm hiểu vai trò của bộ xương và các khớp.", "Biết cách bảo vệ xương khớp."],
+    sections: [
+      { heading: "1. Bộ xương", body: ["Bộ xương giúp nâng đỡ cơ thể, bảo vệ các cơ quan bên trong và giúp cơ thể di chuyển."] },
+      { heading: "2. Các khớp", body: ["Khớp là nơi nối giữa hai xương, giúp cơ thể cử động linh hoạt như gập, xoay."] },
+    ],
+    quiz: [
+      { question: "Bộ xương có vai trò gì?", options: ["Nâng đỡ cơ thể, bảo vệ cơ quan bên trong", "Không có vai trò gì", "Chỉ để trang trí", "Không liên quan đến cơ thể"], correctIndex: 0, explanation: "Bộ xương nâng đỡ cơ thể và bảo vệ các cơ quan bên trong." },
+      { question: "Khớp có chức năng gì?", options: ["Giúp cơ thể cử động linh hoạt", "Không có chức năng gì", "Chỉ để trang trí", "Không liên quan đến vận động"], correctIndex: 0, explanation: "Khớp giúp cơ thể cử động linh hoạt như gập, xoay." },
+      { question: "Cách nào giúp bảo vệ xương khớp?", options: ["Vận động đều đặn, ăn đủ canxi", "Không vận động", "Ăn ít canxi", "Ngồi yên một chỗ cả ngày"], correctIndex: 0, explanation: "Vận động đều đặn và ăn đủ canxi giúp bảo vệ xương khớp." },
+      { question: "Bộ phận nào bảo vệ não bộ?", options: ["Hộp sọ", "Xương tay", "Xương chân", "Khớp gối"], correctIndex: 0, explanation: "Hộp sọ là phần xương bảo vệ não bộ." },
+    ],
+    funFact: "Cơ thể người trưởng thành có 206 chiếc xương, nhưng trẻ sơ sinh có tới khoảng 300 xương (một số sẽ hợp lại khi lớn lên)!",
+  },
+  "kham-pha:3:giac-quan-cua-con-nguoi": {
+    objectives: ["Tìm hiểu năm giác quan và vai trò của chúng.", "Biết cách bảo vệ các giác quan."],
+    sections: [
+      { heading: "1. Năm giác quan", body: ["Thị giác (mắt), thính giác (tai), khứu giác (mũi), vị giác (lưỡi), xúc giác (da)."] },
+      { heading: "2. Bảo vệ giác quan", body: ["Không nhìn trực tiếp vào ánh sáng mạnh, không nghe nhạc quá to, giữ vệ sinh tai mũi."] },
+    ],
+    quiz: [
+      { question: "Giác quan nào giúp con người nhìn thấy sự vật?", options: ["Thị giác", "Thính giác", "Khứu giác", "Vị giác"], correctIndex: 0, explanation: "Thị giác (mắt) giúp con người nhìn thấy sự vật." },
+      { question: "Giác quan nào giúp con người nghe âm thanh?", options: ["Thính giác", "Thị giác", "Vị giác", "Xúc giác"], correctIndex: 0, explanation: "Thính giác (tai) giúp con người nghe âm thanh." },
+      { question: "Giác quan nào giúp cảm nhận vị của thức ăn?", options: ["Vị giác", "Thị giác", "Thính giác", "Khứu giác"], correctIndex: 0, explanation: "Vị giác (lưỡi) giúp cảm nhận vị của thức ăn." },
+      { question: "Vì sao cần bảo vệ các giác quan?", options: ["Giúp giác quan hoạt động tốt lâu dài", "Không cần bảo vệ", "Không có lợi ích gì", "Chỉ cần bảo vệ mắt"], correctIndex: 0, explanation: "Bảo vệ giác quan giúp chúng hoạt động tốt lâu dài." },
+    ],
+    funFact: "Mũi con người có thể phân biệt được hàng nghìn mùi hương khác nhau!",
+  },
+  "kham-pha:3:gia-dinh-nhieu-the-he": {
+    objectives: ["Tìm hiểu về gia đình có nhiều thế hệ cùng sống.", "Trân trọng giá trị của gia đình nhiều thế hệ."],
+    sections: [
+      { heading: "1. Gia đình nhiều thế hệ", body: ["Gia đình nhiều thế hệ gồm ông bà, cha mẹ, con cháu cùng chung sống dưới một mái nhà."] },
+      { heading: "2. Giá trị gia đình nhiều thế hệ", body: ["Giúp con cháu học hỏi kinh nghiệm từ ông bà, gắn kết tình cảm giữa các thế hệ."] },
+    ],
+    quiz: [
+      { question: "Gia đình nhiều thế hệ gồm những ai?", options: ["Ông bà, cha mẹ, con cháu", "Chỉ có cha mẹ và con", "Chỉ có ông bà", "Chỉ có con cái"], correctIndex: 0, explanation: "Gia đình nhiều thế hệ gồm ông bà, cha mẹ và con cháu." },
+      { question: "Lợi ích của gia đình nhiều thế hệ là gì?", options: ["Con cháu học hỏi kinh nghiệm từ ông bà", "Không có lợi ích gì", "Chỉ gây bất tiện", "Không liên quan đến gắn kết"], correctIndex: 0, explanation: "Con cháu có thể học hỏi kinh nghiệm quý báu từ ông bà." },
+      { question: "Gia đình nhiều thế hệ còn được gọi là gì?", options: ["Gia đình tam đại/tứ đại đồng đường", "Gia đình hạt nhân", "Gia đình đơn thân", "Không có tên gọi khác"], correctIndex: 0, explanation: "Gia đình nhiều thế hệ còn gọi là 'tam đại/tứ đại đồng đường'." },
+      { question: "Em nên có thái độ gì với ông bà trong gia đình?", options: ["Kính trọng, yêu thương", "Thờ ơ", "Không quan tâm", "Xa lánh"], correctIndex: 0, explanation: "Cần kính trọng và yêu thương ông bà trong gia đình." },
+    ],
+    funFact: "Ở Việt Nam, mô hình gia đình nhiều thế hệ cùng chung sống là truyền thống lâu đời, thể hiện đạo lý 'kính trên nhường dưới'!",
+  },
+  "kham-pha:3:vai-tro-cua-phu-nu-trong-gia-dinh-xa-hoi": {
+    objectives: ["Tìm hiểu vai trò của phụ nữ trong đời sống.", "Trân trọng và tôn vinh phụ nữ."],
+    sections: [
+      { heading: "1. Vai trò trong gia đình", body: ["Phụ nữ đóng vai trò quan trọng trong việc chăm sóc gia đình, nuôi dạy con cái."] },
+      { heading: "2. Vai trò trong xã hội", body: ["Phụ nữ ngày nay tham gia nhiều lĩnh vực như giáo dục, y tế, khoa học, kinh doanh, chính trị."] },
+    ],
+    quiz: [
+      { question: "Phụ nữ có vai trò gì trong gia đình?", options: ["Chăm sóc gia đình, nuôi dạy con cái", "Không có vai trò gì", "Chỉ ở nhà không làm gì", "Không quan trọng"], correctIndex: 0, explanation: "Phụ nữ đóng vai trò quan trọng trong chăm sóc gia đình." },
+      { question: "Phụ nữ ngày nay tham gia vào lĩnh vực nào?", options: ["Nhiều lĩnh vực như giáo dục, y tế, kinh doanh", "Chỉ làm nội trợ", "Không tham gia lĩnh vực nào", "Chỉ làm nghề truyền thống"], correctIndex: 0, explanation: "Phụ nữ ngày nay tham gia nhiều lĩnh vực trong xã hội." },
+      { question: "Em nên có thái độ gì với vai trò của phụ nữ?", options: ["Tôn trọng, trân trọng", "Xem thường", "Không quan tâm", "Phân biệt đối xử"], correctIndex: 0, explanation: "Cần tôn trọng và trân trọng vai trò của phụ nữ." },
+      { question: "Ngày nào tôn vinh phụ nữ Việt Nam?", options: ["20/10", "1/6", "20/11", "2/9"], correctIndex: 0, explanation: "Ngày 20/10 là Ngày Phụ nữ Việt Nam." },
+    ],
+    funFact: "Hai Bà Trưng là những nữ anh hùng dân tộc đầu tiên trong lịch sử Việt Nam, lãnh đạo cuộc khởi nghĩa chống quân xâm lược!",
+  },
+  "kham-pha:3:ngay-quoc-te-phu-nu-8-3": {
+    objectives: ["Tìm hiểu ý nghĩa ngày Quốc tế Phụ nữ.", "Biết cách thể hiện sự tri ân với phụ nữ."],
+    sections: [
+      { heading: "1. Nguồn gốc ngày 8/3", body: ["Ngày 8/3 là Ngày Quốc tế Phụ nữ, tôn vinh những đóng góp của phụ nữ trên toàn thế giới."] },
+      { heading: "2. Hoạt động ngày 8/3", body: ["Tặng hoa, quà cho bà, mẹ, cô giáo; tổ chức các hoạt động tri ân phụ nữ."] },
+    ],
+    quiz: [
+      { question: "Ngày Quốc tế Phụ nữ là ngày nào?", options: ["8/3", "20/10", "1/6", "20/11"], correctIndex: 0, explanation: "Ngày Quốc tế Phụ nữ là ngày 8/3." },
+      { question: "Ngày 8/3 nhằm mục đích gì?", options: ["Tôn vinh đóng góp của phụ nữ", "Không có mục đích gì", "Chỉ là ngày nghỉ", "Không liên quan đến phụ nữ"], correctIndex: 0, explanation: "Ngày 8/3 tôn vinh những đóng góp của phụ nữ." },
+      { question: "Hoạt động nào thường diễn ra vào ngày 8/3?", options: ["Tặng hoa, quà cho phụ nữ", "Không có hoạt động gì", "Chỉ nghỉ học", "Không tổ chức gì"], correctIndex: 0, explanation: "Tặng hoa, quà cho phụ nữ là hoạt động phổ biến ngày 8/3." },
+      { question: "Em có thể làm gì để tri ân mẹ, cô giáo vào ngày 8/3?", options: ["Tặng hoa, nói lời cảm ơn", "Không làm gì cả", "Phớt lờ", "Không quan tâm"], correctIndex: 0, explanation: "Có thể tặng hoa hoặc nói lời cảm ơn để tri ân." },
+    ],
+    funFact: "Ngày Quốc tế Phụ nữ 8/3 được tổ chức lần đầu tiên vào năm 1911 tại một số nước châu Âu!",
+  },
+  "kham-pha:3:ngay-gia-dinh-viet-nam-28-6": {
+    objectives: ["Tìm hiểu ý nghĩa ngày Gia đình Việt Nam.", "Trân trọng giá trị của gia đình."],
+    sections: [
+      { heading: "1. Ý nghĩa ngày 28/6", body: ["Ngày Gia đình Việt Nam (28/6) nhằm tôn vinh giá trị gia đình, nhắc nhở mọi người quan tâm, yêu thương nhau."] },
+      { heading: "2. Hoạt động kỷ niệm", body: ["Các gia đình thường tổ chức bữa cơm sum họp, chia sẻ yêu thương trong ngày này."] },
+    ],
+    quiz: [
+      { question: "Ngày Gia đình Việt Nam là ngày nào?", options: ["28/6", "8/3", "20/11", "1/6"], correctIndex: 0, explanation: "Ngày Gia đình Việt Nam là ngày 28/6." },
+      { question: "Ngày Gia đình Việt Nam nhằm mục đích gì?", options: ["Tôn vinh giá trị gia đình", "Không có mục đích gì", "Chỉ là ngày nghỉ lễ", "Không liên quan đến gia đình"], correctIndex: 0, explanation: "Ngày này nhằm tôn vinh giá trị gia đình." },
+      { question: "Hoạt động nào thường diễn ra trong ngày này?", options: ["Bữa cơm sum họp gia đình", "Không có hoạt động gì", "Chỉ đi học bình thường", "Không tổ chức gì"], correctIndex: 0, explanation: "Bữa cơm sum họp gia đình là hoạt động phổ biến." },
+      { question: "Vì sao gia đình quan trọng với mỗi người?", options: ["Là nơi yêu thương, chở che", "Không quan trọng", "Không có ý nghĩa gì", "Chỉ là nơi ở"], correctIndex: 0, explanation: "Gia đình là nơi yêu thương, chở che mỗi người." },
+    ],
+    funFact: "Ngày Gia đình Việt Nam được Thủ tướng Chính phủ quyết định chọn ngày 28/6 hàng năm từ năm 2001!",
+  },
+  "kham-pha:3:danh-lam-thang-canh-que-huong": {
+    objectives: ["Tìm hiểu một danh lam thắng cảnh gần nơi em sống.", "Trân trọng vẻ đẹp quê hương."],
+    sections: [
+      { heading: "1. Danh lam thắng cảnh là gì", body: ["Là những địa điểm có cảnh quan thiên nhiên đẹp hoặc có giá trị lịch sử, văn hoá."] },
+      { heading: "2. Một số ví dụ", body: ["Vịnh Hạ Long, Hồ Gươm, Phong Nha - Kẻ Bàng là những danh lam thắng cảnh nổi tiếng của Việt Nam."] },
+    ],
+    quiz: [
+      { question: "Danh lam thắng cảnh là gì?", options: ["Địa điểm có cảnh quan đẹp, giá trị văn hoá", "Chỉ là nơi ở bình thường", "Không có ý nghĩa gì", "Chỉ là nhà máy"], correctIndex: 0, explanation: "Danh lam thắng cảnh là địa điểm có cảnh quan đẹp hoặc giá trị văn hoá." },
+      { question: "Vịnh Hạ Long nằm ở tỉnh nào?", options: ["Quảng Ninh", "Hà Nội", "Huế", "Đà Nẵng"], correctIndex: 0, explanation: "Vịnh Hạ Long nằm ở tỉnh Quảng Ninh." },
+      { question: "Vì sao cần bảo vệ danh lam thắng cảnh?", options: ["Giữ gìn vẻ đẹp và giá trị cho thế hệ sau", "Không cần bảo vệ", "Không có giá trị gì", "Chỉ để kinh doanh"], correctIndex: 0, explanation: "Cần bảo vệ để giữ gìn vẻ đẹp cho các thế hệ sau." },
+      { question: "Phong Nha - Kẻ Bàng nổi tiếng với điều gì?", options: ["Hệ thống hang động", "Bãi biển", "Núi cao", "Thác nước"], correctIndex: 0, explanation: "Phong Nha - Kẻ Bàng nổi tiếng với hệ thống hang động kỳ vĩ." },
+    ],
+    funFact: "Vịnh Hạ Long được UNESCO công nhận hai lần là Di sản Thiên nhiên Thế giới, vào năm 1994 và 2000!",
+  },
+  "kham-pha:3:anh-hung-nho-tuoi-trong-lich-su": {
+    objectives: ["Tìm hiểu về một tấm gương thiếu nhi anh hùng.", "Học tập tinh thần yêu nước từ các tấm gương."],
+    sections: [
+      { heading: "1. Tấm gương thiếu nhi anh hùng", body: ["Kim Đồng, Lê Văn Tám, Võ Thị Sáu là những thiếu nhi anh hùng nổi tiếng trong lịch sử Việt Nam."] },
+      { heading: "2. Tinh thần học tập", body: ["Các em nhỏ dũng cảm góp phần vào sự nghiệp bảo vệ đất nước dù còn nhỏ tuổi."] },
+    ],
+    quiz: [
+      { question: "Ai là người đội trưởng đội thiếu niên tiền phong đầu tiên?", options: ["Kim Đồng", "Lê Văn Tám", "Võ Thị Sáu", "Nguyễn Văn Trỗi"], correctIndex: 0, explanation: "Kim Đồng là đội trưởng đầu tiên của Đội Thiếu niên Tiền phong." },
+      { question: "Các thiếu nhi anh hùng thể hiện tinh thần gì?", options: ["Yêu nước, dũng cảm", "Sợ hãi, nhút nhát", "Không có tinh thần gì", "Chỉ ham chơi"], correctIndex: 0, explanation: "Các thiếu nhi anh hùng thể hiện tinh thần yêu nước, dũng cảm." },
+      { question: "Em học được điều gì từ các tấm gương thiếu nhi anh hùng?", options: ["Tinh thần yêu nước, dũng cảm", "Không học được gì", "Chỉ để biết tên", "Không có ý nghĩa gì"], correctIndex: 0, explanation: "Học được tinh thần yêu nước và dũng cảm từ các tấm gương." },
+      { question: "Võ Thị Sáu là ai?", options: ["Nữ anh hùng trẻ tuổi trong kháng chiến", "Một nhà khoa học", "Một ca sĩ nổi tiếng", "Một vận động viên"], correctIndex: 0, explanation: "Võ Thị Sáu là nữ anh hùng trẻ tuổi trong cuộc kháng chiến." },
+    ],
+    funFact: "Kim Đồng hy sinh khi mới 14 tuổi để bảo vệ cán bộ cách mạng, trở thành tấm gương sáng cho thiếu nhi Việt Nam!",
+  },
+  "kham-pha:3:truyen-thuyet-dan-gian-viet-nam": {
+    objectives: ["Tìm hiểu một truyền thuyết dân gian tiêu biểu.", "Hiểu ý nghĩa văn hoá của truyền thuyết."],
+    sections: [
+      { heading: "1. Truyền thuyết là gì", body: ["Truyền thuyết là câu chuyện dân gian gắn với những sự kiện, nhân vật lịch sử, thường mang yếu tố kỳ ảo."] },
+      { heading: "2. Ví dụ truyền thuyết", body: ["Con Rồng cháu Tiên, Thánh Gióng, Sơn Tinh Thuỷ Tinh là những truyền thuyết nổi tiếng."] },
+    ],
+    quiz: [
+      { question: "Truyền thuyết 'Con Rồng cháu Tiên' kể về điều gì?", options: ["Nguồn gốc dân tộc Việt Nam", "Cách trồng lúa", "Một trận bóng đá", "Một công thức nấu ăn"], correctIndex: 0, explanation: "'Con Rồng cháu Tiên' kể về nguồn gốc của dân tộc Việt Nam." },
+      { question: "Thánh Gióng đánh giặc gì trong truyền thuyết?", options: ["Giặc Ân", "Giặc Minh", "Giặc Thanh", "Giặc Nguyên"], correctIndex: 0, explanation: "Thánh Gióng đánh giặc Ân trong truyền thuyết." },
+      { question: "Truyền thuyết thường mang yếu tố gì?", options: ["Kỳ ảo", "Chỉ có số liệu khoa học", "Không có yếu tố đặc biệt", "Chỉ là tin tức thời sự"], correctIndex: 0, explanation: "Truyền thuyết thường mang yếu tố kỳ ảo, hoang đường." },
+      { question: "'Sơn Tinh Thuỷ Tinh' giải thích hiện tượng tự nhiên nào?", options: ["Lũ lụt hàng năm", "Động đất", "Sấm sét", "Nhật thực"], correctIndex: 0, explanation: "Truyền thuyết này giải thích hiện tượng lũ lụt hàng năm." },
+    ],
+    funFact: "Truyền thuyết 'Con Rồng cháu Tiên' là lý do người Việt Nam thường tự hào gọi nhau là 'đồng bào' (cùng một bọc trứng)!",
+  },
+  "kham-pha:3:dia-danh-noi-tieng-viet-nam": {
+    objectives: ["Tìm hiểu một số địa danh nổi tiếng của đất nước.", "Tự hào về vẻ đẹp và sự đa dạng của Việt Nam."],
+    sections: [
+      { heading: "1. Địa danh nổi tiếng", body: ["Hà Nội, Huế, Hội An, Sài Gòn (TP.HCM) là những địa danh nổi tiếng của Việt Nam."] },
+      { heading: "2. Đặc trưng mỗi địa danh", body: ["Hà Nội là thủ đô, Huế là cố đô, Hội An nổi tiếng phố cổ, TP.HCM là thành phố lớn nhất."] },
+    ],
+    quiz: [
+      { question: "Thủ đô của Việt Nam là thành phố nào?", options: ["Hà Nội", "Huế", "Đà Nẵng", "TP.HCM"], correctIndex: 0, explanation: "Hà Nội là thủ đô của Việt Nam." },
+      { question: "Huế từng là kinh đô của triều đại nào?", options: ["Nhà Nguyễn", "Nhà Lý", "Nhà Trần", "Nhà Lê"], correctIndex: 0, explanation: "Huế từng là kinh đô của triều Nguyễn." },
+      { question: "Hội An nổi tiếng với điều gì?", options: ["Phố cổ", "Núi cao", "Sa mạc", "Thác nước"], correctIndex: 0, explanation: "Hội An nổi tiếng với khu phố cổ được UNESCO công nhận." },
+      { question: "Thành phố nào là thành phố lớn nhất Việt Nam?", options: ["TP. Hồ Chí Minh", "Hà Nội", "Huế", "Cần Thơ"], correctIndex: 0, explanation: "TP. Hồ Chí Minh là thành phố lớn nhất Việt Nam." },
+    ],
+    funFact: "Phố cổ Hội An được UNESCO công nhận là Di sản Văn hoá Thế giới vào năm 1999!",
+  },
+  "kham-pha:3:bien-dao-que-huong-buoc-dau": {
+    objectives: ["Làm quen khái niệm về biển, đảo của Việt Nam.", "Nhận thức về chủ quyền biển đảo."],
+    sections: [
+      { heading: "1. Biển Việt Nam", body: ["Việt Nam có bờ biển dài, với nhiều đảo và quần đảo như Hoàng Sa, Trường Sa."] },
+      { heading: "2. Ý nghĩa biển đảo", body: ["Biển đảo là nguồn tài nguyên quý giá và là phần lãnh thổ thiêng liêng của Tổ quốc."] },
+    ],
+    quiz: [
+      { question: "Việt Nam có bờ biển dài khoảng bao nhiêu km?", options: ["Hơn 3.000 km", "Chỉ khoảng 100 km", "Khoảng 500 km", "Không có bờ biển"], correctIndex: 0, explanation: "Việt Nam có bờ biển dài hơn 3.000 km." },
+      { question: "Quần đảo nào thuộc chủ quyền Việt Nam?", options: ["Hoàng Sa, Trường Sa", "Không có quần đảo nào", "Chỉ có đảo Phú Quốc", "Chỉ có đảo Cát Bà"], correctIndex: 0, explanation: "Hoàng Sa và Trường Sa là quần đảo thuộc chủ quyền Việt Nam." },
+      { question: "Biển đảo có ý nghĩa gì với đất nước?", options: ["Nguồn tài nguyên, lãnh thổ thiêng liêng", "Không có ý nghĩa gì", "Chỉ để du lịch", "Không liên quan đến chủ quyền"], correctIndex: 0, explanation: "Biển đảo là nguồn tài nguyên quý giá và lãnh thổ thiêng liêng." },
+      { question: "Em cần có thái độ gì với biển đảo quê hương?", options: ["Yêu quý, có ý thức bảo vệ", "Thờ ơ", "Không quan tâm", "Xem thường"], correctIndex: 0, explanation: "Cần yêu quý và có ý thức bảo vệ biển đảo quê hương." },
+    ],
+    funFact: "Việt Nam có hơn 3.000 hòn đảo lớn nhỏ trải dài từ Bắc vào Nam!",
+  },
+  "kham-pha:3:cac-dan-toc-anh-em-o-viet-nam": {
+    objectives: ["Tìm hiểu về cộng đồng các dân tộc Việt Nam.", "Trân trọng sự đoàn kết giữa các dân tộc."],
+    sections: [
+      { heading: "1. Cộng đồng các dân tộc", body: ["Việt Nam có 54 dân tộc anh em cùng chung sống, trong đó dân tộc Kinh chiếm đa số."] },
+      { heading: "2. Sự đoàn kết", body: ["Các dân tộc luôn đoàn kết, hỗ trợ nhau trong lao động, sản xuất và bảo vệ Tổ quốc."] },
+    ],
+    quiz: [
+      { question: "Việt Nam có bao nhiêu dân tộc anh em?", options: ["54", "20", "30", "10"], correctIndex: 0, explanation: "Việt Nam có 54 dân tộc anh em." },
+      { question: "Dân tộc nào chiếm đa số ở Việt Nam?", options: ["Kinh", "H'Mông", "Thái", "Tày"], correctIndex: 0, explanation: "Dân tộc Kinh chiếm đa số dân số Việt Nam." },
+      { question: "Các dân tộc Việt Nam có mối quan hệ như thế nào?", options: ["Đoàn kết, hỗ trợ nhau", "Chia rẽ", "Không liên quan đến nhau", "Cạnh tranh gay gắt"], correctIndex: 0, explanation: "Các dân tộc Việt Nam luôn đoàn kết, hỗ trợ nhau." },
+      { question: "Em nên có thái độ gì với các dân tộc khác?", options: ["Tôn trọng, đoàn kết", "Phân biệt đối xử", "Xem thường", "Không quan tâm"], correctIndex: 0, explanation: "Cần tôn trọng và đoàn kết với các dân tộc khác." },
+    ],
+    funFact: "Mỗi dân tộc ở Việt Nam có ngôn ngữ, trang phục, lễ hội và phong tục riêng, tạo nên bức tranh văn hoá đa dạng!",
+  },
+  "kham-pha:3:ngay-giai-phong-mien-nam-30-4": {
+    objectives: ["Tìm hiểu ý nghĩa ngày Giải phóng miền Nam.", "Trân trọng nền hoà bình, độc lập của đất nước."],
+    sections: [
+      { heading: "1. Ý nghĩa ngày 30/4", body: ["Ngày 30/4/1975 đánh dấu ngày miền Nam hoàn toàn giải phóng, thống nhất đất nước."] },
+      { heading: "2. Ý nghĩa với dân tộc", body: ["Đây là mốc son lịch sử quan trọng, chấm dứt chiến tranh, mở ra thời kỳ hoà bình, xây dựng đất nước."] },
+    ],
+    quiz: [
+      { question: "Ngày 30/4 kỷ niệm sự kiện gì?", options: ["Giải phóng miền Nam, thống nhất đất nước", "Ngày Quốc khánh", "Ngày thành lập Đảng", "Ngày sinh Bác Hồ"], correctIndex: 0, explanation: "Ngày 30/4 kỷ niệm ngày Giải phóng miền Nam, thống nhất đất nước." },
+      { question: "Sự kiện 30/4/1975 diễn ra ở đâu?", options: ["Sài Gòn (nay là TP.HCM)", "Hà Nội", "Huế", "Đà Nẵng"], correctIndex: 0, explanation: "Sự kiện diễn ra tại Sài Gòn, nay là TP. Hồ Chí Minh." },
+      { question: "Ngày 30/4 có ý nghĩa gì với dân tộc?", options: ["Chấm dứt chiến tranh, thống nhất đất nước", "Không có ý nghĩa gì", "Chỉ là ngày nghỉ", "Không liên quan đến lịch sử"], correctIndex: 0, explanation: "Ngày này chấm dứt chiến tranh và thống nhất đất nước." },
+      { question: "Em cần có thái độ gì với nền hoà bình hiện tại?", options: ["Trân trọng, biết ơn", "Thờ ơ", "Không quan tâm", "Xem nhẹ"], correctIndex: 0, explanation: "Cần trân trọng và biết ơn nền hoà bình có được." },
+    ],
+    funFact: "Ngày 30/4 còn được gọi là 'Ngày Thống nhất đất nước', đánh dấu 30 năm chiến tranh kết thúc!",
+  },
+  "kham-pha:3:ngay-quoc-khanh-2-9": {
+    objectives: ["Tìm hiểu ý nghĩa ngày Quốc khánh nước ta.", "Tự hào về lịch sử dân tộc."],
+    sections: [
+      { heading: "1. Ý nghĩa ngày 2/9", body: ["Ngày 2/9/1945, Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập, khai sinh nước Việt Nam Dân chủ Cộng hoà."] },
+      { heading: "2. Hoạt động kỷ niệm", body: ["Treo cờ Tổ quốc, tổ chức các hoạt động chào mừng ngày Quốc khánh trên cả nước."] },
+    ],
+    quiz: [
+      { question: "Ngày Quốc khánh Việt Nam là ngày nào?", options: ["2/9", "30/4", "1/5", "19/8"], correctIndex: 0, explanation: "Ngày Quốc khánh Việt Nam là ngày 2/9." },
+      { question: "Ai đọc Tuyên ngôn Độc lập ngày 2/9/1945?", options: ["Chủ tịch Hồ Chí Minh", "Vua Bảo Đại", "Trần Hưng Đạo", "Lê Lợi"], correctIndex: 0, explanation: "Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập." },
+      { question: "Tuyên ngôn Độc lập được đọc tại đâu?", options: ["Quảng trường Ba Đình, Hà Nội", "Sài Gòn", "Huế", "Đà Nẵng"], correctIndex: 0, explanation: "Tuyên ngôn Độc lập được đọc tại Quảng trường Ba Đình, Hà Nội." },
+      { question: "Ngày 2/9 khai sinh ra nước nào?", options: ["Việt Nam Dân chủ Cộng hoà", "Không có ý nghĩa gì", "Một nước khác", "Không liên quan đến Việt Nam"], correctIndex: 0, explanation: "Ngày 2/9 khai sinh nước Việt Nam Dân chủ Cộng hoà." },
+    ],
+    funFact: "Bản Tuyên ngôn Độc lập năm 1945 mở đầu bằng câu trích dẫn nổi tiếng: 'Tất cả mọi người đều sinh ra có quyền bình đẳng...'!",
+  },
+  "kham-pha:3:on-tap-giua-hoc-ky-1": {
+    objectives: ["Hệ thống kiến thức đã học ở giữa học kỳ 1.", "Củng cố kiến thức về gia đình, trường học, thiên nhiên."],
+    sections: [
+      { heading: "1. Nội dung ôn tập", body: ["Ôn lại các chủ đề: họ hàng, phòng tránh hoả hoạn, hoạt động cộng đồng, truyền thống nhà trường."] },
+    ],
+    quiz: [
+      { question: "Họ hàng nội là những ai?", options: ["Bên gia đình bố", "Bên gia đình mẹ", "Bạn bè", "Hàng xóm"], correctIndex: 0, explanation: "Họ hàng nội là bên gia đình bố." },
+      { question: "Khi có hoả hoạn, em nên làm gì đầu tiên?", options: ["Báo người lớn, thoát hiểm an toàn", "Trốn trong phòng kín", "Không làm gì", "Tự dập lửa"], correctIndex: 0, explanation: "Cần báo người lớn và thoát hiểm an toàn khi có hoả hoạn." },
+      { question: "Hoạt động kết nối cộng đồng ở trường có ý nghĩa gì?", options: ["Gắn kết học sinh, rèn kỹ năng", "Không có ý nghĩa gì", "Chỉ để giải trí", "Không liên quan đến học tập"], correctIndex: 0, explanation: "Hoạt động này giúp gắn kết học sinh và rèn kỹ năng." },
+      { question: "Truyền thống nhà trường thể hiện điều gì?", options: ["Lịch sử và giá trị của trường", "Không có ý nghĩa gì", "Chỉ là quy định", "Không liên quan đến trường"], correctIndex: 0, explanation: "Truyền thống nhà trường thể hiện lịch sử và giá trị của trường." },
+    ],
+    funFact: "Ôn tập giữa kỳ giúp em củng cố lại kiến thức đã học và chuẩn bị tốt hơn cho phần còn lại của học kỳ!",
+  },
+  "kham-pha:3:on-tap-cuoi-hoc-ky-1": {
+    objectives: ["Hệ thống kiến thức đã học trong học kỳ 1.", "Tổng hợp toàn bộ chủ đề đã học."],
+    sections: [
+      { heading: "1. Nội dung ôn tập", body: ["Ôn lại toàn bộ các chủ đề học kỳ 1: gia đình, trường học, thực vật, môi trường sống, nghề nghiệp địa phương."] },
+    ],
+    quiz: [
+      { question: "Các bộ phận của thực vật gồm những gì?", options: ["Rễ, thân, lá, hoa, quả", "Chỉ có lá", "Chỉ có rễ", "Không có bộ phận nào"], correctIndex: 0, explanation: "Thực vật có các bộ phận: rễ, thân, lá, hoa, quả." },
+      { question: "Vì sao cần bảo vệ môi trường sống của sinh vật?", options: ["Giúp sinh vật tồn tại và phát triển", "Không cần thiết", "Không có lý do gì", "Chỉ để trang trí"], correctIndex: 0, explanation: "Bảo vệ môi trường giúp sinh vật tồn tại và phát triển." },
+      { question: "Ngày kỉ niệm gia đình có ý nghĩa gì?", options: ["Gắn kết tình cảm gia đình", "Không có ý nghĩa gì", "Chỉ là ngày nghỉ", "Không liên quan đến gia đình"], correctIndex: 0, explanation: "Ngày kỉ niệm giúp gắn kết tình cảm gia đình." },
+      { question: "Vệ sinh trường học có tác dụng gì?", options: ["Giữ môi trường học tập sạch đẹp", "Không có tác dụng gì", "Chỉ tốn thời gian", "Không liên quan đến sức khoẻ"], correctIndex: 0, explanation: "Vệ sinh trường học giúp giữ môi trường học tập sạch đẹp." },
+    ],
+    funFact: "Ôn tập cuối kỳ là cơ hội tốt để em nhìn lại toàn bộ hành trình học tập của mình trong học kỳ!",
+  },
+  "kham-pha:3:on-tap-giua-hoc-ky-2": {
+    objectives: ["Hệ thống kiến thức đã học ở giữa học kỳ 2.", "Củng cố kiến thức về cơ thể người và an toàn."],
+    sections: [
+      { heading: "1. Nội dung ôn tập", body: ["Ôn lại các chủ đề: cơ quan hô hấp, cơ quan bài tiết, phòng tránh đuối nước."] },
+    ],
+    quiz: [
+      { question: "Cơ quan hô hấp có chức năng gì?", options: ["Giúp con người thở", "Giúp tiêu hoá thức ăn", "Giúp nhìn", "Giúp nghe"], correctIndex: 0, explanation: "Cơ quan hô hấp giúp con người hít thở." },
+      { question: "Cơ quan bài tiết nước tiểu có chức năng gì?", options: ["Lọc và thải chất thải ra khỏi cơ thể", "Giúp tiêu hoá", "Giúp hô hấp", "Giúp tuần hoàn máu"], correctIndex: 0, explanation: "Cơ quan bài tiết giúp lọc và thải chất thải khỏi cơ thể." },
+      { question: "Cách nào giúp phòng tránh đuối nước?", options: ["Học bơi, có người lớn giám sát", "Bơi một mình ở nơi nguy hiểm", "Không cần đề phòng", "Không học bơi"], correctIndex: 0, explanation: "Học bơi và có người lớn giám sát giúp phòng tránh đuối nước." },
+      { question: "Vì sao cần bảo vệ cơ quan hô hấp?", options: ["Giúp cơ thể khoẻ mạnh, thở tốt", "Không cần bảo vệ", "Không có lý do gì", "Chỉ ảnh hưởng đến mũi"], correctIndex: 0, explanation: "Bảo vệ cơ quan hô hấp giúp cơ thể khoẻ mạnh." },
+    ],
+    funFact: "Con người hít thở khoảng 20.000 lần mỗi ngày mà không cần suy nghĩ về việc đó!",
+  },
+  "kham-pha:3:thuc-hanh-quan-sat-cay-trong-vuon-truong": {
+    objectives: ["Quan sát và ghi chép về một loài cây ở trường.", "Rèn kỹ năng quan sát khoa học."],
+    sections: [
+      { heading: "1. Cách quan sát cây", body: ["Quan sát hình dáng lá, thân, hoa (nếu có), ghi chép lại đặc điểm của cây."] },
+      { heading: "2. Ghi chép kết quả", body: ["Vẽ hoặc mô tả cây bằng lời, ghi lại ngày quan sát và những thay đổi theo thời gian."] },
+    ],
+    quiz: [
+      { question: "Khi quan sát cây, em cần chú ý điều gì?", options: ["Hình dáng lá, thân, hoa", "Không cần chú ý gì", "Chỉ cần nhìn qua", "Chỉ cần đếm số lượng cây"], correctIndex: 0, explanation: "Cần quan sát kỹ hình dáng lá, thân, hoa của cây." },
+      { question: "Vì sao cần ghi chép lại kết quả quan sát?", options: ["Theo dõi sự thay đổi theo thời gian", "Không cần thiết", "Không có lý do gì", "Chỉ để trang trí"], correctIndex: 0, explanation: "Ghi chép giúp theo dõi sự thay đổi của cây theo thời gian." },
+      { question: "Kỹ năng quan sát khoa học được rèn luyện qua hoạt động này là gì?", options: ["Quan sát tỉ mỉ, ghi chép chính xác", "Không rèn luyện kỹ năng gì", "Chỉ để giải trí", "Không liên quan đến khoa học"], correctIndex: 0, explanation: "Hoạt động này rèn kỹ năng quan sát tỉ mỉ và ghi chép chính xác." },
+      { question: "Em có thể ghi lại kết quả quan sát bằng cách nào?", options: ["Vẽ hoặc mô tả bằng lời", "Không cần ghi lại", "Chỉ cần nhớ trong đầu", "Không có cách nào"], correctIndex: 0, explanation: "Có thể ghi lại bằng cách vẽ hoặc mô tả bằng lời." },
+    ],
+    funFact: "Các nhà khoa học thực vật học thường dành nhiều năm chỉ để quan sát và ghi chép sự phát triển của một loài cây!",
+  },
+  "kham-pha:3:thuc-hanh-phan-loai-rac-tai-lop": {
+    objectives: ["Thực hành phân loại rác thải ngay tại lớp học.", "Rèn ý thức bảo vệ môi trường qua hành động thực tế."],
+    sections: [
+      { heading: "1. Cách phân loại", body: ["Chuẩn bị các thùng rác riêng: rác hữu cơ, rác tái chế, rác khác."] },
+      { heading: "2. Thực hành", body: ["Học sinh tự phân loại rác thải phát sinh trong lớp học vào đúng thùng quy định."] },
+    ],
+    quiz: [
+      { question: "Khi thực hành phân loại rác, em cần chuẩn bị gì?", options: ["Các thùng rác riêng biệt", "Không cần chuẩn bị gì", "Chỉ cần một thùng rác", "Không cần thùng rác"], correctIndex: 0, explanation: "Cần chuẩn bị các thùng rác riêng biệt để phân loại." },
+      { question: "Vỏ trái cây nên bỏ vào thùng rác nào?", options: ["Rác hữu cơ", "Rác tái chế", "Rác nguy hại", "Không cần phân loại"], correctIndex: 0, explanation: "Vỏ trái cây là rác hữu cơ, dễ phân huỷ." },
+      { question: "Giấy vụn nên bỏ vào thùng rác nào?", options: ["Rác tái chế", "Rác hữu cơ", "Rác nguy hại", "Không cần phân loại"], correctIndex: 0, explanation: "Giấy vụn là loại rác có thể tái chế." },
+      { question: "Thực hành phân loại rác giúp ích điều gì?", options: ["Rèn ý thức bảo vệ môi trường", "Không có ích gì", "Làm mất thời gian", "Không liên quan đến môi trường"], correctIndex: 0, explanation: "Thực hành này rèn ý thức bảo vệ môi trường qua hành động thực tế." },
+    ],
+    funFact: "Nhiều trường học trên thế giới đã áp dụng chương trình phân loại rác từ bậc tiểu học để hình thành thói quen tốt!",
+  },
+  "kham-pha:3:du-an-nho-trong-cay-xanh-o-nha": {
+    objectives: ["Thực hành trồng và chăm sóc một cây xanh nhỏ.", "Rèn ý thức bảo vệ môi trường và kiên trì."],
+    sections: [
+      { heading: "1. Chuẩn bị trồng cây", body: ["Chọn hạt giống hoặc cây con, chậu đất, nước tưới để bắt đầu trồng cây."] },
+      { heading: "2. Chăm sóc cây", body: ["Tưới nước đều đặn, đặt cây nơi có ánh sáng, quan sát sự phát triển của cây mỗi ngày."] },
+    ],
+    quiz: [
+      { question: "Để trồng cây, em cần chuẩn bị gì?", options: ["Hạt giống/cây con, chậu đất, nước", "Không cần chuẩn bị gì", "Chỉ cần nước", "Chỉ cần đất"], correctIndex: 0, explanation: "Cần chuẩn bị hạt giống, chậu đất và nước để trồng cây." },
+      { question: "Cây cần gì để phát triển tốt?", options: ["Nước, ánh sáng, đất", "Chỉ cần bóng tối", "Không cần gì cả", "Chỉ cần nước lạnh"], correctIndex: 0, explanation: "Cây cần nước, ánh sáng và đất để phát triển tốt." },
+      { question: "Vì sao cần chăm sóc cây đều đặn?", options: ["Giúp cây phát triển khoẻ mạnh", "Không cần chăm sóc", "Không có lý do gì", "Chỉ cần chăm sóc một lần"], correctIndex: 0, explanation: "Chăm sóc đều đặn giúp cây phát triển khoẻ mạnh." },
+      { question: "Trồng cây xanh mang lại lợi ích gì cho môi trường?", options: ["Cung cấp oxy, làm sạch không khí", "Không có lợi ích gì", "Chỉ để trang trí", "Không liên quan đến môi trường"], correctIndex: 0, explanation: "Cây xanh cung cấp oxy và làm sạch không khí." },
+    ],
+    funFact: "Một cây xanh trưởng thành có thể hấp thụ khoảng 22 kg khí CO2 mỗi năm!",
+  },
+  "kham-pha:3:tro-choi-do-vui-ve-tu-nhien": {
+    objectives: ["Ôn luyện kiến thức tự nhiên qua trò chơi đố vui.", "Tạo hứng thú học tập về thiên nhiên."],
+    sections: [
+      { heading: "1. Cách chơi", body: ["Trả lời các câu đố về động vật, thực vật, hiện tượng tự nhiên đã học."] },
+    ],
+    quiz: [
+      { question: "Con vật nào được mệnh danh là 'chúa tể rừng xanh'?", options: ["Sư tử", "Thỏ", "Gà", "Vịt"], correctIndex: 0, explanation: "Sư tử thường được gọi là 'chúa tể rừng xanh' (dù thực tế sống ở đồng cỏ)." },
+      { question: "Cây nào không cần ánh sáng vẫn sống được lâu dài?", options: ["Không có cây nào", "Tất cả các cây", "Chỉ cây trong nhà", "Chỉ cây dưới nước"], correctIndex: 0, explanation: "Hầu như không có loài cây xanh nào sống được lâu dài mà không cần ánh sáng để quang hợp." },
+      { question: "Trò chơi đố vui giúp ích điều gì cho việc học?", options: ["Ôn luyện kiến thức vui vẻ", "Không có ích gì", "Làm mất thời gian", "Không liên quan đến học tập"], correctIndex: 0, explanation: "Trò chơi đố vui giúp ôn luyện kiến thức một cách vui vẻ." },
+      { question: "Hiện tượng nào xảy ra khi trời có mưa và nắng cùng lúc?", options: ["Cầu vồng", "Sấm sét", "Bão", "Sương mù"], correctIndex: 0, explanation: "Cầu vồng thường xuất hiện khi trời vừa mưa vừa có nắng." },
+    ],
+    funFact: "Trò chơi đố vui là một trong những cách học tập hiệu quả giúp ghi nhớ kiến thức lâu hơn!",
+  },
+  "kham-pha:3:tro-choi-ai-doan-dung-con-vat": {
+    objectives: ["Ôn luyện kiến thức về con vật qua trò chơi đoán hình.", "Rèn khả năng quan sát và suy luận."],
+    sections: [
+      { heading: "1. Cách chơi", body: ["Dựa vào gợi ý về đặc điểm (hình dáng, môi trường sống, thức ăn) để đoán tên con vật."] },
+    ],
+    quiz: [
+      { question: "Con vật nào sống dưới nước và thở bằng mang?", options: ["Cá", "Chó", "Mèo", "Gà"], correctIndex: 0, explanation: "Cá sống dưới nước và thở bằng mang." },
+      { question: "Con vật nào có cổ rất dài?", options: ["Hươu cao cổ", "Voi", "Sư tử", "Khỉ"], correctIndex: 0, explanation: "Hươu cao cổ có chiếc cổ rất dài đặc trưng." },
+      { question: "Con vật nào biết bay và có lông vũ?", options: ["Chim", "Cá", "Rắn", "Ếch"], correctIndex: 0, explanation: "Chim có lông vũ và biết bay." },
+      { question: "Trò chơi đoán con vật giúp ích điều gì?", options: ["Rèn khả năng quan sát, suy luận", "Không có ích gì", "Làm mất thời gian", "Không liên quan đến học tập"], correctIndex: 0, explanation: "Trò chơi này giúp rèn khả năng quan sát và suy luận." },
+    ],
+    funFact: "Có hơn 8 triệu loài động vật được ước tính tồn tại trên Trái Đất, nhưng con người mới chỉ khám phá được một phần nhỏ!",
+  },
+  "kham-pha:3:tim-hieu-ve-bao-tang-dia-phuong": {
+    objectives: ["Tìm hiểu vai trò của bảo tàng trong việc lưu giữ lịch sử.", "Biết cách tham quan bảo tàng đúng cách."],
+    sections: [
+      { heading: "1. Bảo tàng là gì", body: ["Bảo tàng là nơi lưu giữ, trưng bày hiện vật có giá trị lịch sử, văn hoá, khoa học."] },
+      { heading: "2. Vai trò của bảo tàng", body: ["Giúp con người hiểu về quá khứ, học hỏi kiến thức và trân trọng di sản văn hoá."] },
+    ],
+    quiz: [
+      { question: "Bảo tàng là nơi làm gì?", options: ["Lưu giữ, trưng bày hiện vật có giá trị", "Chỉ để vui chơi", "Không có chức năng gì", "Chỉ bán hàng"], correctIndex: 0, explanation: "Bảo tàng lưu giữ và trưng bày các hiện vật có giá trị." },
+      { question: "Bảo tàng giúp ích điều gì cho con người?", options: ["Hiểu về quá khứ, học hỏi kiến thức", "Không có ích gì", "Chỉ để giải trí", "Không liên quan đến kiến thức"], correctIndex: 0, explanation: "Bảo tàng giúp con người hiểu về quá khứ và học hỏi kiến thức." },
+      { question: "Khi tham quan bảo tàng, em nên làm gì?", options: ["Giữ trật tự, không chạm vào hiện vật", "Chạy nhảy tự do", "Chạm vào mọi hiện vật", "Nói chuyện to"], correctIndex: 0, explanation: "Cần giữ trật tự và không chạm vào hiện vật khi tham quan." },
+      { question: "Bảo tàng Dân tộc học Việt Nam trưng bày về điều gì?", options: ["Văn hoá các dân tộc Việt Nam", "Chỉ về động vật", "Chỉ về thực vật", "Không trưng bày gì"], correctIndex: 0, explanation: "Bảo tàng Dân tộc học trưng bày về văn hoá các dân tộc Việt Nam." },
+    ],
+    funFact: "Bảo tàng Louvre ở Pháp là bảo tàng lớn nhất và được ghé thăm nhiều nhất trên thế giới!",
+  },
+  "kham-pha:3:ky-nang-thoat-hiem-khi-co-dong-dat-bao": {
+    objectives: ["Tìm hiểu cách ứng phó cơ bản khi có thiên tai.", "Biết các bước thoát hiểm an toàn."],
+    sections: [
+      { heading: "1. Khi có động đất", body: ["Chui xuống gầm bàn chắc chắn, tránh xa cửa kính, không dùng thang máy."] },
+      { heading: "2. Khi có bão", body: ["Ở trong nhà kiên cố, tránh xa cửa sổ, chuẩn bị đèn pin và thực phẩm dự trữ."] },
+    ],
+    quiz: [
+      { question: "Khi có động đất, em nên làm gì?", options: ["Chui xuống gầm bàn chắc chắn", "Đứng gần cửa kính", "Dùng thang máy", "Chạy ra ngoài ngay lập tức"], correctIndex: 0, explanation: "Nên chui xuống gầm bàn chắc chắn để bảo vệ đầu và cơ thể." },
+      { question: "Khi có bão, nên tránh gì?", options: ["Đứng gần cửa sổ", "Ở trong nhà kiên cố", "Chuẩn bị đèn pin", "Dự trữ thực phẩm"], correctIndex: 0, explanation: "Nên tránh đứng gần cửa sổ vì kính có thể vỡ khi có bão." },
+      { question: "Vì sao không nên dùng thang máy khi có động đất?", options: ["Có thể bị kẹt hoặc nguy hiểm", "Không có lý do gì", "Thang máy luôn an toàn", "Không liên quan đến động đất"], correctIndex: 0, explanation: "Thang máy có thể bị kẹt hoặc gặp sự cố khi có động đất." },
+      { question: "Chuẩn bị đồ dùng gì khi có bão?", options: ["Đèn pin, thực phẩm dự trữ", "Không cần chuẩn bị gì", "Chỉ cần quần áo đẹp", "Không có đồ dùng cần thiết"], correctIndex: 0, explanation: "Nên chuẩn bị đèn pin và thực phẩm dự trữ khi có bão." },
+    ],
+    funFact: "Việt Nam nằm trong khu vực thường xuyên chịu ảnh hưởng của bão nhiệt đới, đặc biệt là miền Trung!",
+  },
+  "kham-pha:3:ung-pho-khi-thoi-tiet-cuc-doan": {
+    objectives: ["Tìm hiểu cách bảo vệ bản thân khi thời tiết khắc nghiệt.", "Biết nhận diện dấu hiệu thời tiết nguy hiểm."],
+    sections: [
+      { heading: "1. Thời tiết cực đoan", body: ["Nắng nóng gay gắt, rét đậm, mưa lớn kéo dài là những hiện tượng thời tiết cực đoan."] },
+      { heading: "2. Cách ứng phó", body: ["Theo dõi dự báo thời tiết, mặc trang phục phù hợp, hạn chế ra ngoài khi thời tiết nguy hiểm."] },
+    ],
+    quiz: [
+      { question: "Thời tiết cực đoan gồm những hiện tượng nào?", options: ["Nắng nóng gay gắt, rét đậm", "Chỉ có nắng nhẹ", "Không có hiện tượng nào", "Chỉ có mưa nhỏ"], correctIndex: 0, explanation: "Thời tiết cực đoan gồm nắng nóng gay gắt, rét đậm, mưa lớn." },
+      { question: "Cách nào giúp ứng phó với thời tiết cực đoan?", options: ["Theo dõi dự báo thời tiết", "Không cần theo dõi gì", "Ra ngoài bất kể thời tiết", "Không cần chuẩn bị gì"], correctIndex: 0, explanation: "Theo dõi dự báo thời tiết giúp chuẩn bị ứng phó tốt hơn." },
+      { question: "Khi trời rét đậm, em nên làm gì?", options: ["Mặc ấm, giữ nhiệt cơ thể", "Mặc đồ mỏng", "Không cần giữ ấm", "Ra ngoài không mặc áo ấm"], correctIndex: 0, explanation: "Cần mặc ấm và giữ nhiệt cơ thể khi trời rét đậm." },
+      { question: "Vì sao cần hạn chế ra ngoài khi thời tiết nguy hiểm?", options: ["Đảm bảo an toàn cho bản thân", "Không có lý do gì", "Không liên quan đến an toàn", "Chỉ vì sở thích"], correctIndex: 0, explanation: "Hạn chế ra ngoài giúp đảm bảo an toàn khi thời tiết nguy hiểm." },
+    ],
+    funFact: "Biến đổi khí hậu đang khiến các hiện tượng thời tiết cực đoan xảy ra thường xuyên và khắc nghiệt hơn trên toàn thế giới!",
+  },
+  "kham-pha:3:bao-ve-nguon-nuoc-sach": {
+    objectives: ["Tìm hiểu cách bảo vệ nguồn nước sạch quanh em.", "Rèn ý thức tiết kiệm và bảo vệ nước."],
+    sections: [
+      { heading: "1. Nguy cơ ô nhiễm nguồn nước", body: ["Xả rác, nước thải chưa xử lý xuống sông hồ gây ô nhiễm nguồn nước."] },
+      { heading: "2. Cách bảo vệ", body: ["Không xả rác xuống nguồn nước, sử dụng nước tiết kiệm, tuyên truyền mọi người cùng bảo vệ."] },
+    ],
+    quiz: [
+      { question: "Hành động nào gây ô nhiễm nguồn nước?", options: ["Xả rác xuống sông hồ", "Sử dụng nước tiết kiệm", "Trồng cây ven sông", "Dọn dẹp bờ sông"], correctIndex: 0, explanation: "Xả rác xuống sông hồ gây ô nhiễm nguồn nước." },
+      { question: "Cách nào giúp bảo vệ nguồn nước sạch?", options: ["Không xả rác xuống nước, tiết kiệm nước", "Xả nước thải chưa xử lý", "Lãng phí nước", "Không quan tâm đến nguồn nước"], correctIndex: 0, explanation: "Không xả rác và tiết kiệm nước giúp bảo vệ nguồn nước sạch." },
+      { question: "Vì sao cần bảo vệ nguồn nước?", options: ["Nước sạch cần thiết cho sự sống", "Không cần bảo vệ", "Nguồn nước là vô hạn", "Không liên quan đến sự sống"], correctIndex: 0, explanation: "Nước sạch cần thiết cho sự sống của con người và sinh vật." },
+      { question: "Em có thể làm gì để góp phần bảo vệ nguồn nước?", options: ["Không xả rác, tiết kiệm nước", "Không làm gì cả", "Xả rác tuỳ ý", "Lãng phí nước"], correctIndex: 0, explanation: "Em có thể không xả rác và tiết kiệm nước để bảo vệ nguồn nước." },
+    ],
+    funFact: "Chỉ cần khoá vòi nước khi đánh răng, mỗi người có thể tiết kiệm hàng chục lít nước mỗi ngày!",
+  },
+  "kham-pha:3:tiet-kiem-dien-trong-gia-dinh": {
+    objectives: ["Tìm hiểu cách sử dụng điện tiết kiệm, hiệu quả.", "Rèn ý thức tiết kiệm năng lượng."],
+    sections: [
+      { heading: "1. Vì sao cần tiết kiệm điện", body: ["Tiết kiệm điện giúp giảm chi phí gia đình và bảo vệ nguồn tài nguyên năng lượng."] },
+      { heading: "2. Cách tiết kiệm điện", body: ["Tắt đèn, quạt khi ra khỏi phòng, sử dụng thiết bị điện tiết kiệm năng lượng."] },
+    ],
+    quiz: [
+      { question: "Vì sao cần tiết kiệm điện?", options: ["Giảm chi phí, bảo vệ tài nguyên", "Không cần tiết kiệm", "Không có lý do gì", "Điện là vô hạn"], correctIndex: 0, explanation: "Tiết kiệm điện giúp giảm chi phí và bảo vệ tài nguyên năng lượng." },
+      { question: "Hành động nào giúp tiết kiệm điện?", options: ["Tắt đèn khi ra khỏi phòng", "Để đèn sáng cả ngày", "Bật tất cả thiết bị điện cùng lúc", "Không quan tâm đến việc tiết kiệm"], correctIndex: 0, explanation: "Tắt đèn khi ra khỏi phòng giúp tiết kiệm điện." },
+      { question: "Thiết bị điện nào giúp tiết kiệm năng lượng?", options: ["Đèn LED", "Đèn sợi đốt cũ", "Không có thiết bị nào", "Thiết bị càng cũ càng tốt"], correctIndex: 0, explanation: "Đèn LED tiêu thụ ít điện năng hơn, giúp tiết kiệm năng lượng." },
+      { question: "Tiết kiệm điện có lợi ích gì cho môi trường?", options: ["Giảm phát thải khí nhà kính", "Không có lợi ích gì", "Không liên quan đến môi trường", "Chỉ có lợi cho gia đình"], correctIndex: 0, explanation: "Tiết kiệm điện giúp giảm phát thải khí nhà kính, bảo vệ môi trường." },
+    ],
+    funFact: "Phần lớn điện năng ở Việt Nam được sản xuất từ nhiệt điện than và thuỷ điện, vì vậy tiết kiệm điện cũng giúp bảo vệ môi trường!",
+  },
+  "kham-pha:3:on-tap-ve-gia-dinh-va-ho-hang": {
+    objectives: ["Hệ thống lại kiến thức về gia đình, họ hàng.", "Củng cố hiểu biết về mối quan hệ trong gia đình."],
+    sections: [
+      { heading: "1. Ôn tập", body: ["Ôn lại các khái niệm: họ hàng nội, ngoại, gia đình nhiều thế hệ, ngày kỉ niệm gia đình."] },
+    ],
+    quiz: [
+      { question: "Họ hàng ngoại là những ai?", options: ["Bên gia đình mẹ", "Bên gia đình bố", "Bạn bè", "Hàng xóm"], correctIndex: 0, explanation: "Họ hàng ngoại là bên gia đình mẹ." },
+      { question: "Gia đình nhiều thế hệ có đặc điểm gì?", options: ["Ông bà, cha mẹ, con cháu cùng sống", "Chỉ có cha mẹ và con", "Chỉ có một người", "Không có đặc điểm gì"], correctIndex: 0, explanation: "Gia đình nhiều thế hệ có ông bà, cha mẹ, con cháu cùng sống." },
+      { question: "Ngày Gia đình Việt Nam là ngày nào?", options: ["28/6", "8/3", "20/11", "1/6"], correctIndex: 0, explanation: "Ngày Gia đình Việt Nam là ngày 28/6." },
+      { question: "Vì sao cần trân trọng gia đình?", options: ["Gia đình là nơi yêu thương, chở che", "Không cần trân trọng", "Không có ý nghĩa gì", "Chỉ là nơi ở"], correctIndex: 0, explanation: "Gia đình là nơi yêu thương và chở che mỗi người." },
+    ],
+    funFact: "Ở Việt Nam, cách xưng hô với họ hàng rất phong phú, thể hiện sự tôn trọng thứ bậc trong gia đình!",
+  },
+  "kham-pha:3:on-tap-ve-co-the-nguoi": {
+    objectives: ["Hệ thống lại kiến thức về các cơ quan trong cơ thể.", "Củng cố hiểu biết về chức năng cơ thể."],
+    sections: [
+      { heading: "1. Ôn tập", body: ["Ôn lại các cơ quan: hô hấp, bài tiết, tuần hoàn, xương khớp, giác quan."] },
+    ],
+    quiz: [
+      { question: "Cơ quan hô hấp giúp con người làm gì?", options: ["Thở", "Tiêu hoá", "Nhìn", "Nghe"], correctIndex: 0, explanation: "Cơ quan hô hấp giúp con người thở." },
+      { question: "Tim thuộc cơ quan nào trong cơ thể?", options: ["Cơ quan tuần hoàn", "Cơ quan hô hấp", "Cơ quan bài tiết", "Cơ quan tiêu hoá"], correctIndex: 0, explanation: "Tim thuộc cơ quan tuần hoàn, bơm máu đi khắp cơ thể." },
+      { question: "Bộ xương có vai trò gì?", options: ["Nâng đỡ cơ thể", "Tiêu hoá thức ăn", "Nghe âm thanh", "Nhìn sự vật"], correctIndex: 0, explanation: "Bộ xương giúp nâng đỡ cơ thể." },
+      { question: "Con người có bao nhiêu giác quan chính?", options: ["5", "3", "7", "10"], correctIndex: 0, explanation: "Con người có 5 giác quan chính: thị giác, thính giác, khứu giác, vị giác, xúc giác." },
+    ],
+    funFact: "Cơ thể con người có khoảng 37 nghìn tỷ tế bào, mỗi loại tế bào đảm nhận một chức năng riêng!",
+  },
+  "kham-pha:3:on-tap-ve-thuc-vat-va-dong-vat": {
+    objectives: ["Hệ thống lại kiến thức về thực vật, động vật.", "Củng cố hiểu biết về tự nhiên."],
+    sections: [
+      { heading: "1. Ôn tập", body: ["Ôn lại các chủ đề: bộ phận của thực vật, vật nuôi, côn trùng có ích/có hại, chuỗi thức ăn."] },
+    ],
+    quiz: [
+      { question: "Thực vật có những bộ phận nào?", options: ["Rễ, thân, lá, hoa, quả", "Chỉ có lá", "Chỉ có hoa", "Không có bộ phận nào"], correctIndex: 0, explanation: "Thực vật có các bộ phận: rễ, thân, lá, hoa, quả." },
+      { question: "Vật nuôi nào giúp cày kéo trong nông nghiệp?", options: ["Trâu, bò", "Mèo", "Chó", "Gà"], correctIndex: 0, explanation: "Trâu, bò thường được dùng để cày kéo." },
+      { question: "Côn trùng nào có ích cho cây trồng?", options: ["Ong", "Muỗi", "Châu chấu (khi phá hoại)", "Ruồi"], correctIndex: 0, explanation: "Ong giúp thụ phấn cho cây trồng, rất có ích." },
+      { question: "Chuỗi thức ăn thể hiện điều gì?", options: ["Mối quan hệ ăn - bị ăn giữa sinh vật", "Không có ý nghĩa gì", "Chỉ là tên gọi", "Không liên quan đến sinh vật"], correctIndex: 0, explanation: "Chuỗi thức ăn thể hiện mối quan hệ ăn - bị ăn giữa các sinh vật." },
+    ],
+    funFact: "Có khoảng 400.000 loài thực vật có hoa đã được biết đến trên Trái Đất!",
+  },
+  "kham-pha:3:on-tap-ve-cong-dong-dia-phuong": {
+    objectives: ["Hệ thống lại kiến thức về cộng đồng nơi em sống.", "Củng cố hiểu biết về nghề nghiệp, văn hoá địa phương."],
+    sections: [
+      { heading: "1. Ôn tập", body: ["Ôn lại các chủ đề: nghề truyền thống, chợ quê, lễ hội, di tích lịch sử - văn hoá địa phương."] },
+    ],
+    quiz: [
+      { question: "Chợ quê là nơi để làm gì?", options: ["Mua bán, trao đổi hàng hoá", "Chỉ để vui chơi", "Không có chức năng gì", "Chỉ để học tập"], correctIndex: 0, explanation: "Chợ quê là nơi mua bán, trao đổi hàng hoá." },
+      { question: "Nghề truyền thống gắn liền với điều gì?", options: ["Văn hoá, lịch sử địa phương", "Không có ý nghĩa gì", "Chỉ là công việc bình thường", "Không liên quan đến văn hoá"], correctIndex: 0, explanation: "Nghề truyền thống gắn liền với văn hoá, lịch sử địa phương." },
+      { question: "Di tích lịch sử - văn hoá có ý nghĩa gì?", options: ["Lưu giữ giá trị lịch sử, văn hoá", "Không có ý nghĩa gì", "Chỉ để tham quan", "Không liên quan đến lịch sử"], correctIndex: 0, explanation: "Di tích lịch sử - văn hoá lưu giữ giá trị lịch sử của địa phương." },
+      { question: "Vì sao cần tìm hiểu về cộng đồng nơi mình sống?", options: ["Hiểu và trân trọng quê hương", "Không cần thiết", "Không có lý do gì", "Chỉ để biết thông tin"], correctIndex: 0, explanation: "Tìm hiểu giúp em hiểu và trân trọng quê hương của mình." },
+    ],
+    funFact: "Mỗi địa phương ở Việt Nam đều có những nét văn hoá, nghề truyền thống riêng biệt, tạo nên sự đa dạng văn hoá cả nước!",
+  },
+  "kham-pha:3:on-tap-tong-hop-chuan-bi-kiem-tra-cuoi-nam": {
+    objectives: ["Hệ thống lại toàn bộ kiến thức trọng tâm trong năm.", "Chuẩn bị tốt cho bài kiểm tra cuối năm."],
+    sections: [
+      { heading: "1. Tổng ôn tập", body: ["Ôn lại toàn bộ các chủ đề: gia đình, trường học, cơ thể người, thực vật, động vật, cộng đồng, an toàn, lễ hội, lịch sử."] },
+    ],
+    quiz: [
+      { question: "Cơ thể người có bao nhiêu giác quan chính?", options: ["5", "3", "7", "10"], correctIndex: 0, explanation: "Con người có 5 giác quan chính." },
+      { question: "Chuỗi thức ăn thể hiện mối quan hệ gì?", options: ["Ăn - bị ăn giữa sinh vật", "Không có ý nghĩa gì", "Chỉ là tên gọi", "Không liên quan đến sinh vật"], correctIndex: 0, explanation: "Chuỗi thức ăn thể hiện mối quan hệ ăn - bị ăn." },
+      { question: "Ngày Quốc khánh Việt Nam là ngày nào?", options: ["2/9", "30/4", "1/5", "19/8"], correctIndex: 0, explanation: "Ngày Quốc khánh Việt Nam là ngày 2/9." },
+      { question: "Vì sao cần ôn tập trước khi kiểm tra?", options: ["Củng cố kiến thức, tự tin hơn", "Không cần thiết", "Không có lợi ích gì", "Chỉ tốn thời gian"], correctIndex: 0, explanation: "Ôn tập giúp củng cố kiến thức và tự tin hơn khi kiểm tra." },
+    ],
+    funFact: "Việc ôn tập đều đặn và có hệ thống giúp kiến thức được lưu giữ trong trí nhớ dài hạn hiệu quả hơn!",
+  },
+
+  // ─────────────── KHÁM PHÁ — LỚP 3 — 60 bài thực hành mở rộng ───────────────
+  "kham-pha:3:thuc-hanh-tet-nguyen-dan-va-phong-tuc": practiceContent("Thực hành", "Tết Nguyên Đán và phong tục", "Hãy nhớ lại ý nghĩa và phong tục ngày Tết cổ truyền.", [
+    { question: "Tết Nguyên Đán là gì?", options: ["Tết dương lịch", "Tết cổ truyền theo âm lịch", "Ngày lễ tôn giáo", "Ngày nghỉ cuối tuần"], correctIndex: 1, explanation: "Tết Nguyên Đán là Tết cổ truyền theo âm lịch." },
+    { question: "Món bánh nào đặc trưng của Tết miền Bắc?", options: ["Bánh chưng", "Bánh mì", "Bánh xèo", "Bánh cuốn"], correctIndex: 0, explanation: "Bánh chưng là món ăn đặc trưng của Tết miền Bắc." },
+    { question: "Lì xì trong ngày Tết có ý nghĩa gì?", options: ["Chúc may mắn, sức khoẻ", "Không có ý nghĩa gì", "Chỉ là quà tặng thông thường", "Chỉ dành cho người lớn"], correctIndex: 0, explanation: "Lì xì mang ý nghĩa chúc may mắn, sức khoẻ đầu năm." },
+    { question: "Người Việt thường làm gì đầu năm mới?", options: ["Đi chùa cầu may", "Không làm gì đặc biệt", "Đi học bình thường", "Dọn nhà vào cuối năm"], correctIndex: 0, explanation: "Đi chùa cầu may là phong tục phổ biến đầu năm mới." },
+  ]),
+  "kham-pha:3:luyen-tap-trung-thu-va-y-nghia": practiceContent("Luyện tập", "Trung Thu và ý nghĩa", "Hãy nhớ lại nguồn gốc và ý nghĩa Tết Trung Thu.", [
+    { question: "Tết Trung Thu diễn ra vào ngày nào?", options: ["Rằm tháng Giêng", "Rằm tháng Tám", "Mùng 1 Tết", "Rằm tháng Bảy"], correctIndex: 1, explanation: "Tết Trung Thu diễn ra vào rằm tháng Tám âm lịch." },
+    { question: "Trung Thu còn được gọi là gì?", options: ["Tết Thiếu Nhi", "Tết Nguyên Đán", "Tết Đoan Ngọ", "Tết ông Công ông Táo"], correctIndex: 0, explanation: "Trung Thu còn được gọi là 'Tết Thiếu Nhi'." },
+    { question: "Hoạt động nào đặc trưng trong Trung Thu?", options: ["Rước đèn ông sao", "Gói bánh chưng", "Đi khai giảng", "Cúng ông Táo"], correctIndex: 0, explanation: "Rước đèn ông sao là hoạt động đặc trưng của Trung Thu." },
+    { question: "Món bánh nào đặc trưng của Trung Thu?", options: ["Bánh Trung Thu", "Bánh chưng", "Bánh tét", "Bánh giò"], correctIndex: 0, explanation: "Bánh Trung Thu là món ăn đặc trưng của dịp lễ này." },
+  ]),
+  "kham-pha:3:van-dung-le-hoi-mua-xuan-o-dia-phuong": practiceContent("Vận dụng", "Lễ hội mùa xuân ở địa phương", "Hãy nhớ lại ý nghĩa của lễ hội mùa xuân với cộng đồng.", [
+    { question: "Lễ hội thường diễn ra nhiều nhất vào mùa nào?", options: ["Mùa xuân", "Mùa hè", "Mùa thu", "Mùa đông"], correctIndex: 0, explanation: "Mùa xuân là thời điểm nhiều lễ hội truyền thống diễn ra." },
+    { question: "Lễ hội đền Hùng tưởng nhớ ai?", options: ["Các Vua Hùng", "Bác Hồ", "Hai Bà Trưng", "Trần Hưng Đạo"], correctIndex: 0, explanation: "Lễ hội đền Hùng tưởng nhớ công lao các Vua Hùng." },
+    { question: "Lễ hội có vai trò gì với cộng đồng?", options: ["Gắn kết cộng đồng, giữ gìn văn hoá", "Không có vai trò gì", "Chỉ để vui chơi", "Không liên quan đến văn hoá"], correctIndex: 0, explanation: "Lễ hội giúp gắn kết cộng đồng và giữ gìn văn hoá dân tộc." },
+    { question: "Hội Lim là lễ hội đặc trưng của tỉnh nào?", options: ["Bắc Ninh", "Hà Nội", "Huế", "Đà Nẵng"], correctIndex: 0, explanation: "Hội Lim là lễ hội quan họ đặc trưng của Bắc Ninh." },
+  ]),
+  "kham-pha:3:tro-choi-on-tap-cho-que-va-hoat-dong-mua-ban": practiceContent("Trò chơi ôn tập", "Chợ quê và hoạt động mua bán", "Hãy nhớ lại vai trò của chợ quê đối với đời sống.", [
+    { question: "Chợ quê là nơi để làm gì?", options: ["Mua bán, trao đổi hàng hoá", "Chỉ để vui chơi", "Chỉ để họp lớp", "Không có chức năng gì"], correctIndex: 0, explanation: "Chợ quê là nơi mua bán, trao đổi hàng hoá." },
+    { question: "Chợ quê thường họp theo gì?", options: ["Phiên cố định", "Không theo quy luật nào", "Chỉ họp một lần trong năm", "Chỉ họp vào buổi tối"], correctIndex: 0, explanation: "Chợ quê thường họp theo phiên cố định." },
+    { question: "Hàng hoá nào thường được bán ở chợ quê?", options: ["Rau củ, cá thịt", "Chỉ có đồ điện tử", "Chỉ có ô tô", "Không bán gì"], correctIndex: 0, explanation: "Chợ quê thường bán rau củ, cá thịt và nông sản." },
+    { question: "Vì sao chợ quê quan trọng với người dân?", options: ["Đáp ứng nhu cầu mua bán hàng ngày", "Không quan trọng", "Chỉ mang tính giải trí", "Không liên quan đến đời sống"], correctIndex: 0, explanation: "Chợ quê đáp ứng nhu cầu mua bán thiết yếu hàng ngày." },
+  ]),
+  "kham-pha:3:thu-thach-nho-nghe-nong-va-cong-cu-lao-dong": practiceContent("Thử thách nhỏ", "Nghề nông và công cụ lao động", "Hãy nhớ lại các công cụ và vai trò của nghề nông.", [
+    { question: "Nghề nông là nghề làm gì?", options: ["Trồng trọt, chăn nuôi", "Dạy học", "Chữa bệnh", "Xây dựng"], correctIndex: 0, explanation: "Nghề nông là nghề trồng trọt, chăn nuôi." },
+    { question: "Công cụ nào dùng để cắt lúa?", options: ["Liềm", "Cày", "Bút", "Búa"], correctIndex: 0, explanation: "Liềm là công cụ dùng để cắt lúa." },
+    { question: "Nghề nông có vai trò gì?", options: ["Sản xuất lương thực, thực phẩm", "Không có vai trò gì", "Chỉ mang tính giải trí", "Không liên quan đến đời sống"], correctIndex: 0, explanation: "Nghề nông sản xuất lương thực nuôi sống con người." },
+    { question: "Công cụ nào giúp cày đất trong nông nghiệp hiện đại?", options: ["Máy cày", "Bút chì", "Kéo", "Dao"], correctIndex: 0, explanation: "Máy cày là công cụ hiện đại giúp cày đất nhanh hơn." },
+  ]),
+  "kham-pha:3:thuc-hanh-nghe-danh-bat-thuy-san": practiceContent("Thực hành", "Nghề đánh bắt thuỷ sản", "Hãy nhớ lại công cụ và hoạt động của nghề đánh bắt thuỷ sản.", [
+    { question: "Nghề đánh bắt thuỷ sản khai thác từ đâu?", options: ["Sông, hồ, biển", "Trên núi", "Trong rừng", "Trên cánh đồng"], correctIndex: 0, explanation: "Nghề này khai thác thuỷ sản từ sông, hồ, biển." },
+    { question: "Công cụ nào dùng để đánh bắt cá?", options: ["Lưới", "Cày", "Cuốc", "Liềm"], correctIndex: 0, explanation: "Lưới là công cụ phổ biến để đánh bắt cá." },
+    { question: "Người làm nghề đánh bắt thuỷ sản được gọi là gì?", options: ["Ngư dân", "Nông dân", "Công nhân", "Thợ mỏ"], correctIndex: 0, explanation: "Người làm nghề đánh bắt thuỷ sản được gọi là ngư dân." },
+    { question: "Nghề đánh bắt thuỷ sản phổ biến ở vùng nào?", options: ["Ven biển, sông nước", "Vùng núi cao", "Sa mạc", "Thành phố lớn"], correctIndex: 0, explanation: "Nghề này phổ biến ở vùng ven biển, sông nước." },
+  ]),
+  "kham-pha:3:luyen-tap-nghe-thu-cong-truyen-thong-khac": practiceContent("Luyện tập", "Nghề thủ công truyền thống khác", "Hãy nhớ lại các nghề thủ công truyền thống và giá trị của chúng.", [
+    { question: "Nghề nào tạo ra sản phẩm từ đất sét nung?", options: ["Gốm sứ", "Dệt lụa", "Đan lát", "Rèn"], correctIndex: 0, explanation: "Nghề gốm sứ tạo ra sản phẩm từ đất sét nung." },
+    { question: "Làng gốm Bát Tràng nổi tiếng ở đâu?", options: ["Hà Nội", "Huế", "Đà Nẵng", "Cần Thơ"], correctIndex: 0, explanation: "Làng gốm Bát Tràng nổi tiếng ở Hà Nội." },
+    { question: "Nghề dệt lụa tạo ra sản phẩm gì?", options: ["Vải lụa", "Đồ gốm", "Đồ gỗ", "Giỏ tre"], correctIndex: 0, explanation: "Nghề dệt lụa tạo ra vải lụa mềm mại." },
+    { question: "Vì sao cần gìn giữ nghề thủ công truyền thống?", options: ["Đây là di sản văn hoá quý báu", "Không cần gìn giữ", "Không có giá trị gì", "Chỉ để bán cho khách du lịch"], correctIndex: 0, explanation: "Nghề thủ công truyền thống là di sản văn hoá quý báu." },
+  ]),
+  "kham-pha:3:van-dung-truong-hoc-ngay-xua-va-ngay-nay": practiceContent("Vận dụng", "Trường học ngày xưa và ngày nay", "Hãy nhớ lại sự khác biệt giữa trường học xưa và nay.", [
+    { question: "Trường học ngày xưa có đặc điểm gì?", options: ["Đơn sơ, ít trang thiết bị", "Hiện đại như ngày nay", "Không có học sinh", "Chỉ dạy trực tuyến"], correctIndex: 0, explanation: "Trường học ngày xưa thường đơn sơ, ít trang thiết bị." },
+    { question: "Trường học ngày nay có gì khác biệt?", options: ["Hiện đại, nhiều trang thiết bị", "Giống hệt ngày xưa", "Không có gì thay đổi", "Không có học sinh"], correctIndex: 0, explanation: "Trường học ngày nay hiện đại hơn với nhiều trang thiết bị." },
+    { question: "Công cụ nào phổ biến trong lớp học hiện đại?", options: ["Bảng thông minh", "Bút lông và giấy", "Không có công cụ nào", "Chỉ có bảng đen"], correctIndex: 0, explanation: "Bảng thông minh là công cụ phổ biến trong lớp học hiện đại." },
+    { question: "So sánh trường học xưa và nay giúp em hiểu điều gì?", options: ["Sự phát triển của giáo dục", "Không hiểu thêm điều gì", "Trường học không thay đổi", "Không liên quan đến giáo dục"], correctIndex: 0, explanation: "Giúp em hiểu về sự phát triển của giáo dục qua thời gian." },
+  ]),
+  "kham-pha:3:tro-choi-on-tap-trang-phuc-truyen-thong-cac-dan-toc": practiceContent("Trò chơi ôn tập", "Trang phục truyền thống các dân tộc", "Hãy nhớ lại trang phục truyền thống của các dân tộc Việt Nam.", [
+    { question: "Áo dài là trang phục truyền thống của dân tộc nào?", options: ["Kinh", "H'Mông", "Thái", "Tày"], correctIndex: 0, explanation: "Áo dài là trang phục truyền thống của dân tộc Kinh." },
+    { question: "Trang phục thổ cẩm đặc trưng cho dân tộc nào?", options: ["H'Mông, Thái", "Kinh", "Chăm", "Hoa"], correctIndex: 0, explanation: "Trang phục thổ cẩm đặc trưng cho dân tộc H'Mông, Thái." },
+    { question: "Trang phục truyền thống thể hiện điều gì?", options: ["Bản sắc văn hoá dân tộc", "Không có ý nghĩa gì", "Chỉ để mặc khi lạnh", "Không liên quan đến văn hoá"], correctIndex: 0, explanation: "Trang phục truyền thống thể hiện bản sắc văn hoá riêng." },
+    { question: "Việt Nam có bao nhiêu dân tộc anh em?", options: ["54", "20", "100", "10"], correctIndex: 0, explanation: "Việt Nam có 54 dân tộc anh em cùng sinh sống." },
+  ]),
+  "kham-pha:3:thu-thach-nho-am-thuc-vung-mien": practiceContent("Thử thách nhỏ", "Ẩm thực vùng miền", "Hãy nhớ lại các món ăn đặc trưng của ba miền.", [
+    { question: "Phở là món ăn đặc trưng của vùng miền nào?", options: ["Miền Bắc", "Miền Trung", "Miền Nam", "Không có vùng nào"], correctIndex: 0, explanation: "Phở là món ăn đặc trưng của miền Bắc." },
+    { question: "Bún bò Huế là món ăn đặc trưng của đâu?", options: ["Miền Trung (Huế)", "Miền Bắc", "Miền Nam", "Miền núi"], correctIndex: 0, explanation: "Bún bò Huế là món ăn đặc trưng của Huế." },
+    { question: "Hủ tiếu thường phổ biến ở đâu?", options: ["Miền Nam", "Miền Bắc", "Miền Trung", "Miền núi phía Bắc"], correctIndex: 0, explanation: "Hủ tiếu là món ăn phổ biến ở miền Nam." },
+    { question: "Vì sao ẩm thực Việt Nam đa dạng?", options: ["Mỗi vùng miền có khẩu vị, cách chế biến riêng", "Vì tất cả các vùng ăn giống nhau", "Không có lý do gì", "Chỉ có một loại món ăn"], correctIndex: 0, explanation: "Mỗi vùng miền có khẩu vị và cách chế biến riêng." },
+  ]),
+  "kham-pha:3:thuc-hanh-nui-doi-dong-bang-quanh-em": practiceContent("Thực hành", "Núi, đồi, đồng bằng quanh em", "Hãy nhớ lại đặc điểm của núi, đồi, đồng bằng.", [
+    { question: "Địa hình nào cao và dốc nhất?", options: ["Núi", "Đồi", "Đồng bằng", "Không có sự khác biệt"], correctIndex: 0, explanation: "Núi là địa hình cao và dốc nhất." },
+    { question: "Đồng bằng có đặc điểm gì?", options: ["Bằng phẳng, thấp", "Cao và dốc", "Nhiều đồi núi", "Không có đặc điểm gì"], correctIndex: 0, explanation: "Đồng bằng là vùng đất bằng phẳng, thấp." },
+    { question: "Địa hình nào thuận lợi cho trồng lúa?", options: ["Đồng bằng", "Núi cao", "Sa mạc", "Đồi dốc"], correctIndex: 0, explanation: "Đồng bằng thuận lợi cho trồng lúa nước." },
+    { question: "Đồi có độ cao như thế nào so với núi?", options: ["Thấp hơn núi", "Cao hơn núi", "Bằng núi", "Không so sánh được"], correctIndex: 0, explanation: "Đồi thấp hơn núi." },
+  ]),
+  "kham-pha:3:luyen-tap-song-ho-bien-quanh-em": practiceContent("Luyện tập", "Sông, hồ, biển quanh em", "Hãy nhớ lại đặc điểm và vai trò của sông, hồ, biển.", [
+    { question: "Sông có đặc điểm gì?", options: ["Dòng nước chảy dài", "Nước tĩnh, không chảy", "Nước mặn", "Không có nước"], correctIndex: 0, explanation: "Sông là dòng nước chảy dài." },
+    { question: "Biển có đặc điểm gì về vị nước?", options: ["Nước ngọt", "Nước mặn", "Không có nước", "Nước có ga"], correctIndex: 1, explanation: "Nước biển có vị mặn." },
+    { question: "Sông, hồ có vai trò gì?", options: ["Cung cấp nước sinh hoạt, tưới tiêu", "Không có vai trò gì", "Chỉ để ngắm cảnh", "Không liên quan đến đời sống"], correctIndex: 0, explanation: "Sông, hồ cung cấp nước sinh hoạt và tưới tiêu." },
+    { question: "Sông nào dài nhất Việt Nam?", options: ["Sông Mê Kông (đoạn qua Việt Nam)", "Sông Hồng", "Sông Đồng Nai", "Sông Hương"], correctIndex: 0, explanation: "Sông Mê Kông là một trong những con sông dài và quan trọng nhất." },
+  ]),
+  "kham-pha:3:van-dung-thoi-tiet-bon-mua-va-suc-khoe": practiceContent("Vận dụng", "Thời tiết bốn mùa và sức khoẻ", "Hãy nhớ lại cách giữ sức khoẻ theo từng mùa.", [
+    { question: "Mùa hè cần chú ý điều gì để giữ sức khoẻ?", options: ["Uống đủ nước, tránh nắng gắt", "Mặc thật nhiều áo ấm", "Không cần chú ý gì", "Hạn chế uống nước"], correctIndex: 0, explanation: "Mùa hè cần uống đủ nước và tránh nắng gắt." },
+    { question: "Mùa đông cần chú ý điều gì?", options: ["Giữ ấm cơ thể", "Mặc đồ mỏng", "Tắm nước lạnh", "Không cần giữ ấm"], correctIndex: 0, explanation: "Mùa đông cần giữ ấm cơ thể để tránh cảm lạnh." },
+    { question: "Thời tiết ẩm thường xuất hiện vào mùa nào?", options: ["Mùa xuân", "Mùa hè", "Mùa thu", "Mùa đông"], correctIndex: 0, explanation: "Mùa xuân ở miền Bắc thường có thời tiết ẩm." },
+    { question: "Vì sao cần chăm sóc sức khoẻ theo từng mùa?", options: ["Mỗi mùa có đặc điểm thời tiết khác nhau ảnh hưởng đến cơ thể", "Không cần thiết", "Thời tiết không ảnh hưởng đến sức khoẻ", "Chỉ cần chăm sóc vào mùa đông"], correctIndex: 0, explanation: "Mỗi mùa có đặc điểm riêng ảnh hưởng khác nhau đến sức khoẻ." },
+  ]),
+  "kham-pha:3:tro-choi-on-tap-cay-luong-thuc-quen-thuoc": practiceContent("Trò chơi ôn tập", "Cây lương thực quen thuộc", "Hãy nhớ lại vai trò của các cây lương thực quen thuộc.", [
+    { question: "Cây lương thực nào phổ biến nhất ở Việt Nam?", options: ["Lúa", "Cà phê", "Cao su", "Điều"], correctIndex: 0, explanation: "Lúa là cây lương thực phổ biến nhất ở Việt Nam." },
+    { question: "Cây lương thực cung cấp chất gì chủ yếu?", options: ["Tinh bột", "Vitamin C", "Chất béo", "Không có chất gì"], correctIndex: 0, explanation: "Cây lương thực cung cấp tinh bột chủ yếu." },
+    { question: "Loại cây nào KHÔNG phải là cây lương thực?", options: ["Hoa hồng", "Lúa", "Ngô", "Khoai"], correctIndex: 0, explanation: "Hoa hồng là hoa cảnh, không phải cây lương thực." },
+    { question: "Sắn được chế biến thành món ăn nào?", options: ["Bánh sắn, sắn luộc", "Chỉ để làm cảnh", "Không ăn được", "Chỉ dùng làm thuốc"], correctIndex: 0, explanation: "Sắn được chế biến thành bánh sắn, sắn luộc." },
+  ]),
+  "kham-pha:3:thu-thach-nho-cay-an-qua-quen-thuoc": practiceContent("Thử thách nhỏ", "Cây ăn quả quen thuộc", "Hãy nhớ lại các cây ăn quả và lợi ích của trái cây.", [
+    { question: "Loại quả nào phổ biến ở miền Nam Việt Nam?", options: ["Xoài", "Táo", "Nho", "Dâu tây"], correctIndex: 0, explanation: "Xoài là loại quả phổ biến ở miền Nam Việt Nam." },
+    { question: "Trái cây cung cấp chất gì tốt cho sức khoẻ?", options: ["Vitamin, chất xơ", "Chỉ có đường", "Không có chất gì", "Chỉ có nước"], correctIndex: 0, explanation: "Trái cây cung cấp vitamin và chất xơ tốt cho sức khoẻ." },
+    { question: "Vải, nhãn thường thu hoạch vào mùa nào?", options: ["Mùa hè", "Mùa đông", "Mùa xuân", "Mùa thu"], correctIndex: 0, explanation: "Vải, nhãn thường thu hoạch vào mùa hè." },
+    { question: "Vì sao nên ăn nhiều trái cây?", options: ["Tốt cho sức khoẻ và hệ tiêu hoá", "Không có lợi ích gì", "Chỉ để giải trí", "Không liên quan đến sức khoẻ"], correctIndex: 0, explanation: "Trái cây tốt cho sức khoẻ và hệ tiêu hoá." },
+  ]),
+  "kham-pha:3:thuc-hanh-vat-nuoi-trong-gia-dinh": practiceContent("Thực hành", "Vật nuôi trong gia đình", "Hãy nhớ lại lợi ích của các vật nuôi quen thuộc.", [
+    { question: "Vật nuôi nào thường được nuôi để giữ nhà?", options: ["Chó", "Cá", "Gà", "Vịt"], correctIndex: 0, explanation: "Chó thường được nuôi để giữ nhà." },
+    { question: "Vật nuôi nào giúp bắt chuột?", options: ["Mèo", "Chó", "Gà", "Lợn"], correctIndex: 0, explanation: "Mèo là vật nuôi giúp bắt chuột." },
+    { question: "Trâu, bò thường được dùng để làm gì trong nông nghiệp?", options: ["Cày kéo", "Bắt chuột", "Giữ nhà", "Canh gác"], correctIndex: 0, explanation: "Trâu, bò được dùng để cày kéo trong nông nghiệp." },
+    { question: "Vì sao cần chăm sóc vật nuôi đúng cách?", options: ["Để vật nuôi khoẻ mạnh, có ích", "Không cần chăm sóc", "Không có lý do gì", "Chỉ để trang trí"], correctIndex: 0, explanation: "Chăm sóc đúng cách giúp vật nuôi khoẻ mạnh và có ích." },
+  ]),
+  "kham-pha:3:luyen-tap-con-trung-co-ich-co-hai": practiceContent("Luyện tập", "Côn trùng có ích, có hại", "Hãy nhớ lại cách phân biệt côn trùng có ích và có hại.", [
+    { question: "Côn trùng nào giúp thụ phấn cho hoa?", options: ["Ong", "Muỗi", "Ruồi", "Gián"], correctIndex: 0, explanation: "Ong giúp thụ phấn cho hoa, có ích cho cây trồng." },
+    { question: "Côn trùng nào có thể truyền bệnh cho con người?", options: ["Muỗi", "Ong", "Bướm", "Giun đất"], correctIndex: 0, explanation: "Muỗi có thể truyền bệnh như sốt xuất huyết." },
+    { question: "Côn trùng nào phá hoại mùa màng?", options: ["Châu chấu", "Ong", "Bướm", "Giun đất"], correctIndex: 0, explanation: "Châu chấu có thể phá hoại mùa màng." },
+    { question: "Vì sao cần bảo vệ côn trùng có ích như ong, bướm?", options: ["Chúng giúp cây trồng sinh sản, phát triển", "Không cần bảo vệ", "Chúng không có ích gì", "Chỉ cần bảo vệ động vật lớn"], correctIndex: 0, explanation: "Ong, bướm giúp thụ phấn, hỗ trợ cây trồng." },
+  ]),
+  "kham-pha:3:van-dung-chuoi-thuc-an-don-gian-trong-tu-nhien": practiceContent("Vận dụng", "Chuỗi thức ăn đơn giản trong tự nhiên", "Hãy nhớ lại khái niệm chuỗi thức ăn và mối quan hệ giữa các sinh vật.", [
+    { question: "Chuỗi thức ăn thể hiện điều gì?", options: ["Mối quan hệ ăn - bị ăn giữa sinh vật", "Không có ý nghĩa gì", "Chỉ là tên gọi của thực vật", "Không liên quan đến sinh vật"], correctIndex: 0, explanation: "Chuỗi thức ăn thể hiện mối quan hệ ăn - bị ăn." },
+    { question: "Trong chuỗi 'cỏ → thỏ → cáo', thỏ ăn gì?", options: ["Cỏ", "Cáo", "Không ăn gì", "Ăn thịt"], correctIndex: 0, explanation: "Trong chuỗi này, thỏ ăn cỏ." },
+    { question: "Điều gì xảy ra nếu một mắt xích trong chuỗi thức ăn bị mất?", options: ["Có thể ảnh hưởng đến cả hệ sinh thái", "Không có ảnh hưởng gì", "Chuỗi thức ăn tự động hoàn thiện", "Không liên quan đến hệ sinh thái"], correctIndex: 0, explanation: "Mất một mắt xích có thể ảnh hưởng đến cả hệ sinh thái." },
+    { question: "Sinh vật nào thường đứng đầu chuỗi thức ăn đơn giản?", options: ["Thực vật (như cỏ)", "Động vật ăn thịt", "Con người", "Không có sinh vật nào đứng đầu"], correctIndex: 0, explanation: "Thực vật thường đứng đầu chuỗi thức ăn." },
+  ]),
+  "kham-pha:3:tro-choi-on-tap-nuoc-sach-va-ve-sinh-moi-truong": practiceContent("Trò chơi ôn tập", "Nước sạch và vệ sinh môi trường", "Hãy nhớ lại tầm quan trọng của nước sạch và cách giữ vệ sinh môi trường.", [
+    { question: "Nước sạch cần thiết cho việc gì?", options: ["Ăn uống, sinh hoạt", "Không cần thiết", "Chỉ dùng để tưới cây", "Chỉ dùng trong công nghiệp"], correctIndex: 0, explanation: "Nước sạch cần thiết cho ăn uống và sinh hoạt hàng ngày." },
+    { question: "Hành động nào gây ô nhiễm nguồn nước?", options: ["Xả rác xuống sông", "Trồng cây xanh", "Sử dụng nước tiết kiệm", "Dọn dẹp bờ sông"], correctIndex: 0, explanation: "Xả rác xuống sông gây ô nhiễm nguồn nước." },
+    { question: "Vì sao cần bảo vệ nguồn nước sạch?", options: ["Nước sạch cần thiết cho sức khoẻ và sự sống", "Không cần bảo vệ", "Nguồn nước là vô hạn", "Không liên quan đến sức khoẻ"], correctIndex: 0, explanation: "Nước sạch cần thiết cho sức khoẻ và sự sống." },
+    { question: "Hành động nào giúp giữ vệ sinh môi trường?", options: ["Không xả rác bừa bãi", "Xả nước thải ra sông", "Chặt phá cây xanh", "Đốt rác bừa bãi"], correctIndex: 0, explanation: "Không xả rác bừa bãi giúp giữ vệ sinh môi trường." },
+  ]),
+  "kham-pha:3:thu-thach-nho-rac-thai-va-cach-phan-loai": practiceContent("Thử thách nhỏ", "Rác thải và cách phân loại", "Hãy nhớ lại cách phân loại rác thải cơ bản.", [
+    { question: "Rác hữu cơ gồm những gì?", options: ["Thức ăn thừa, lá cây", "Chai nhựa, giấy báo", "Pin, hoá chất", "Kim loại"], correctIndex: 0, explanation: "Rác hữu cơ gồm thức ăn thừa, lá cây." },
+    { question: "Loại rác nào có thể tái chế?", options: ["Giấy, nhựa, kim loại", "Thức ăn thừa", "Rác nguy hại", "Không có loại nào tái chế được"], correctIndex: 0, explanation: "Giấy, nhựa, kim loại có thể tái chế." },
+    { question: "Vì sao cần phân loại rác thải?", options: ["Giúp tái chế hiệu quả, giảm ô nhiễm", "Không cần thiết", "Không có lợi ích gì", "Chỉ để tốn thời gian"], correctIndex: 0, explanation: "Phân loại rác giúp tái chế hiệu quả và giảm ô nhiễm." },
+    { question: "Rác nguy hại cần được xử lý như thế nào?", options: ["Xử lý riêng, cẩn thận", "Vứt chung với rác thường", "Không cần xử lý", "Đốt ngay tại nhà"], correctIndex: 0, explanation: "Rác nguy hại cần được xử lý riêng, cẩn thận." },
+  ]),
+  "kham-pha:3:thuc-hanh-tai-che-do-dung-don-gian": practiceContent("Thực hành", "Tái chế đồ dùng đơn giản", "Hãy nhớ lại cách tái chế một số đồ dùng đơn giản.", [
+    { question: "Tái chế là gì?", options: ["Biến đồ cũ thành sản phẩm mới có ích", "Vứt bỏ đồ cũ", "Đốt rác", "Không làm gì với đồ cũ"], correctIndex: 0, explanation: "Tái chế là biến đồ cũ thành sản phẩm mới có ích." },
+    { question: "Chai nhựa có thể tái chế thành gì?", options: ["Chậu trồng cây", "Không tái chế được", "Chỉ để vứt đi", "Thức ăn"], correctIndex: 0, explanation: "Chai nhựa có thể tái chế thành chậu trồng cây." },
+    { question: "Vì sao nên tái chế đồ dùng?", options: ["Giảm rác thải, bảo vệ môi trường", "Không có lợi ích gì", "Chỉ tốn thời gian", "Không liên quan đến môi trường"], correctIndex: 0, explanation: "Tái chế giúp giảm rác thải và bảo vệ môi trường." },
+    { question: "Giấy báo cũ có thể dùng để làm gì?", options: ["Đồ thủ công", "Không dùng được vào việc gì", "Chỉ để đốt", "Chỉ để vứt đi"], correctIndex: 0, explanation: "Giấy báo cũ có thể dùng để làm đồ thủ công." },
+  ]),
+  "kham-pha:3:luyen-tap-an-toan-khi-su-dung-dien": practiceContent("Luyện tập", "An toàn khi sử dụng điện", "Hãy nhớ lại các quy tắc an toàn khi dùng điện.", [
+    { question: "Điều gì có thể gây nguy hiểm khi dùng điện?", options: ["Chạm tay ướt vào ổ điện", "Tắt điện khi không dùng", "Báo người lớn khi có sự cố", "Dùng đúng cách"], correctIndex: 0, explanation: "Chạm tay ướt vào ổ điện rất nguy hiểm." },
+    { question: "Khi thấy dây điện hở, em nên làm gì?", options: ["Báo ngay cho người lớn", "Tự ý sửa chữa", "Chạm vào để kiểm tra", "Không làm gì cả"], correctIndex: 0, explanation: "Cần báo ngay cho người lớn khi thấy dây điện hở." },
+    { question: "Vì sao không nên tự ý sửa chữa thiết bị điện?", options: ["Có thể gây nguy hiểm nếu không có chuyên môn", "Không có nguy hiểm gì", "Rất dễ dàng và an toàn", "Không liên quan đến an toàn"], correctIndex: 0, explanation: "Sửa chữa điện cần chuyên môn, tự ý sửa rất nguy hiểm." },
+    { question: "Điện có thể gây ra hậu quả gì nếu dùng sai cách?", options: ["Giật điện, cháy nổ", "Không có hậu quả gì", "Chỉ làm tốn tiền điện", "Không nguy hiểm"], correctIndex: 0, explanation: "Dùng điện sai cách có thể gây giật điện, cháy nổ." },
+  ]),
+  "kham-pha:3:van-dung-an-toan-khi-su-dung-bep-gas": practiceContent("Vận dụng", "An toàn khi sử dụng bếp gas", "Hãy nhớ lại cách xử lý khi có mùi gas và quy tắc an toàn.", [
+    { question: "Điều gì có thể xảy ra nếu gas bị rò rỉ gặp lửa?", options: ["Cháy nổ", "Không có gì xảy ra", "Gas tự tắt", "Không nguy hiểm"], correctIndex: 0, explanation: "Gas rò rỉ gặp lửa có thể gây cháy nổ." },
+    { question: "Khi ngửi thấy mùi gas, em nên làm gì đầu tiên?", options: ["Mở cửa thoáng khí, báo người lớn", "Bật lửa để kiểm tra", "Không làm gì cả", "Đóng kín cửa"], correctIndex: 0, explanation: "Cần mở cửa thoáng khí và báo người lớn ngay." },
+    { question: "Trẻ em có nên tự ý sử dụng bếp gas không?", options: ["Không, cần có người lớn giám sát", "Có, tự do sử dụng", "Chỉ cần cẩn thận là được", "Không quan trọng"], correctIndex: 0, explanation: "Trẻ em không nên tự ý sử dụng bếp gas." },
+    { question: "Vì sao cần cẩn thận với bếp gas?", options: ["Có thể gây cháy nổ nguy hiểm", "Không nguy hiểm gì", "Chỉ tốn nhiên liệu", "Không liên quan đến an toàn"], correctIndex: 0, explanation: "Bếp gas có thể gây cháy nổ nếu sử dụng sai cách." },
+  ]),
+  "kham-pha:3:tro-choi-on-tap-phong-tranh-ngo-doc-thuc-pham": practiceContent("Trò chơi ôn tập", "Phòng tránh ngộ độc thực phẩm", "Hãy nhớ lại nguyên nhân và cách phòng tránh ngộ độc thực phẩm.", [
+    { question: "Nguyên nhân nào có thể gây ngộ độc thực phẩm?", options: ["Ăn thực phẩm ôi thiu", "Rửa tay trước khi ăn", "Ăn chín uống sôi", "Chọn thực phẩm tươi sạch"], correctIndex: 0, explanation: "Ăn thực phẩm ôi thiu có thể gây ngộ độc." },
+    { question: "Cách nào giúp phòng tránh ngộ độc thực phẩm?", options: ["Ăn chín, uống sôi", "Ăn thực phẩm không rõ nguồn gốc", "Không rửa tay trước khi ăn", "Ăn đồ ôi thiu"], correctIndex: 0, explanation: "Ăn chín, uống sôi giúp phòng tránh ngộ độc." },
+    { question: "Vì sao cần rửa tay trước khi ăn?", options: ["Loại bỏ vi khuẩn có hại", "Không có tác dụng gì", "Chỉ để tay sạch đẹp", "Không liên quan đến sức khoẻ"], correctIndex: 0, explanation: "Rửa tay giúp loại bỏ vi khuẩn có hại." },
+    { question: "Nên chọn thực phẩm như thế nào?", options: ["Tươi sạch, có nguồn gốc rõ ràng", "Bất kỳ loại nào rẻ nhất", "Không cần quan tâm nguồn gốc", "Chỉ cần nhìn đẹp mắt"], correctIndex: 0, explanation: "Nên chọn thực phẩm tươi sạch, có nguồn gốc rõ ràng." },
+  ]),
+  "kham-pha:3:thu-thach-nho-cham-soc-rang-mieng": practiceContent("Thử thách nhỏ", "Chăm sóc răng miệng", "Hãy nhớ lại cách chăm sóc răng miệng đúng cách.", [
+    { question: "Nên đánh răng bao nhiêu lần mỗi ngày?", options: ["Ít nhất 2 lần", "Không cần đánh răng", "Chỉ 1 lần mỗi tuần", "Chỉ khi răng đau"], correctIndex: 0, explanation: "Nên đánh răng ít nhất 2 lần mỗi ngày." },
+    { question: "Thực phẩm nào có thể gây hại cho răng nếu ăn nhiều?", options: ["Đồ ngọt, kẹo", "Rau xanh", "Trái cây", "Nước lọc"], correctIndex: 0, explanation: "Đồ ngọt, kẹo có thể gây sâu răng." },
+    { question: "Vì sao cần khám răng định kỳ?", options: ["Phát hiện sớm vấn đề răng miệng", "Không cần thiết", "Chỉ tốn tiền", "Không có lợi ích gì"], correctIndex: 0, explanation: "Khám răng định kỳ giúp phát hiện sớm vấn đề." },
+    { question: "Răng miệng khoẻ mạnh mang lại lợi ích gì?", options: ["Ăn uống tốt, tự tin khi cười", "Không có lợi ích gì", "Chỉ để đẹp", "Không liên quan đến sức khoẻ"], correctIndex: 0, explanation: "Răng miệng khoẻ mạnh giúp ăn uống tốt và tự tin." },
+  ]),
+  "kham-pha:3:thuc-hanh-cham-soc-giac-ngu": practiceContent("Thực hành", "Chăm sóc giấc ngủ", "Hãy nhớ lại tầm quan trọng của giấc ngủ đủ và đúng giờ.", [
+    { question: "Giấc ngủ có vai trò gì?", options: ["Giúp cơ thể nghỉ ngơi, phục hồi năng lượng", "Không có vai trò gì", "Chỉ để trải qua thời gian", "Không liên quan đến sức khoẻ"], correctIndex: 0, explanation: "Giấc ngủ giúp cơ thể nghỉ ngơi và phục hồi năng lượng." },
+    { question: "Trẻ em nên ngủ khoảng bao nhiêu tiếng mỗi đêm?", options: ["9-10 tiếng", "3-4 tiếng", "1-2 tiếng", "Không cần ngủ"], correctIndex: 0, explanation: "Trẻ em nên ngủ khoảng 9-10 tiếng mỗi đêm." },
+    { question: "Thói quen nào KHÔNG tốt trước khi ngủ?", options: ["Dùng điện thoại", "Đọc sách nhẹ nhàng", "Đi ngủ đúng giờ", "Thư giãn"], correctIndex: 0, explanation: "Dùng điện thoại trước khi ngủ ảnh hưởng đến giấc ngủ." },
+    { question: "Ngủ đủ giấc giúp ích gì cho việc học?", options: ["Giúp tập trung, ghi nhớ tốt hơn", "Không có ích gì", "Làm học kém đi", "Không liên quan đến học tập"], correctIndex: 0, explanation: "Ngủ đủ giấc giúp tập trung và ghi nhớ tốt hơn." },
+  ]),
+  "kham-pha:3:luyen-tap-van-dong-the-chat-moi-ngay": practiceContent("Luyện tập", "Vận động thể chất mỗi ngày", "Hãy nhớ lại lợi ích của vận động thể chất hàng ngày.", [
+    { question: "Vận động thể chất mang lại lợi ích gì?", options: ["Cơ thể khoẻ mạnh, tinh thần thoải mái", "Không có lợi ích gì", "Chỉ làm mệt cơ thể", "Không liên quan đến sức khoẻ"], correctIndex: 0, explanation: "Vận động giúp cơ thể khoẻ mạnh và tinh thần thoải mái." },
+    { question: "Hoạt động nào là vận động thể chất phù hợp với học sinh?", options: ["Nhảy dây", "Xem tivi cả ngày", "Ngồi yên một chỗ", "Chơi điện thoại liên tục"], correctIndex: 0, explanation: "Nhảy dây là hoạt động vận động phù hợp." },
+    { question: "Nên vận động thể chất với tần suất như thế nào?", options: ["Hàng ngày", "Không cần vận động", "Chỉ một lần mỗi năm", "Chỉ khi được yêu cầu"], correctIndex: 0, explanation: "Nên vận động thể chất hàng ngày." },
+    { question: "Vận động giúp xương như thế nào?", options: ["Xương chắc khoẻ hơn", "Không ảnh hưởng đến xương", "Làm xương yếu đi", "Không liên quan đến xương"], correctIndex: 0, explanation: "Vận động giúp xương chắc khoẻ hơn." },
+  ]),
+  "kham-pha:3:van-dung-co-quan-tuan-hoan-buoc-dau": practiceContent("Vận dụng", "Cơ quan tuần hoàn (bước đầu)", "Hãy nhớ lại vai trò của tim và mạch máu.", [
+    { question: "Tim có chức năng gì?", options: ["Bơm máu đi khắp cơ thể", "Tiêu hoá thức ăn", "Hít thở không khí", "Suy nghĩ"], correctIndex: 0, explanation: "Tim có chức năng bơm máu đi khắp cơ thể." },
+    { question: "Mạch máu có vai trò gì?", options: ["Dẫn máu đi khắp cơ thể", "Tiêu hoá thức ăn", "Nghe âm thanh", "Nhìn sự vật"], correctIndex: 0, explanation: "Mạch máu là ống dẫn máu đi khắp cơ thể." },
+    { question: "Tim hoạt động như thế nào?", options: ["Liên tục suốt đời", "Chỉ hoạt động ban ngày", "Chỉ hoạt động khi vận động", "Không hoạt động"], correctIndex: 0, explanation: "Tim hoạt động liên tục suốt đời." },
+    { question: "Vận động thể chất có ảnh hưởng gì đến tim?", options: ["Giúp tim khoẻ mạnh hơn", "Không ảnh hưởng gì", "Làm tim yếu đi", "Không liên quan đến tim"], correctIndex: 0, explanation: "Vận động thể chất giúp tim khoẻ mạnh hơn." },
+  ]),
+  "kham-pha:3:tro-choi-on-tap-bo-xuong-va-cac-khop": practiceContent("Trò chơi ôn tập", "Bộ xương và các khớp", "Hãy nhớ lại vai trò của bộ xương và các khớp.", [
+    { question: "Bộ xương có vai trò gì?", options: ["Nâng đỡ cơ thể, bảo vệ cơ quan bên trong", "Không có vai trò gì", "Chỉ để trang trí", "Không liên quan đến cơ thể"], correctIndex: 0, explanation: "Bộ xương nâng đỡ cơ thể và bảo vệ cơ quan bên trong." },
+    { question: "Khớp có chức năng gì?", options: ["Giúp cơ thể cử động linh hoạt", "Không có chức năng gì", "Chỉ để trang trí", "Không liên quan đến vận động"], correctIndex: 0, explanation: "Khớp giúp cơ thể cử động linh hoạt." },
+    { question: "Cách nào giúp bảo vệ xương khớp?", options: ["Vận động đều đặn, ăn đủ canxi", "Không vận động", "Ăn ít canxi", "Ngồi yên một chỗ cả ngày"], correctIndex: 0, explanation: "Vận động đều đặn và ăn đủ canxi giúp bảo vệ xương khớp." },
+    { question: "Bộ phận nào bảo vệ não bộ?", options: ["Hộp sọ", "Xương tay", "Xương chân", "Khớp gối"], correctIndex: 0, explanation: "Hộp sọ là phần xương bảo vệ não bộ." },
+  ]),
+  "kham-pha:3:thu-thach-nho-giac-quan-cua-con-nguoi": practiceContent("Thử thách nhỏ", "Giác quan của con người", "Hãy nhớ lại năm giác quan và vai trò của chúng.", [
+    { question: "Giác quan nào giúp con người nhìn thấy sự vật?", options: ["Thị giác", "Thính giác", "Khứu giác", "Vị giác"], correctIndex: 0, explanation: "Thị giác giúp con người nhìn thấy sự vật." },
+    { question: "Giác quan nào giúp con người nghe âm thanh?", options: ["Thính giác", "Thị giác", "Vị giác", "Xúc giác"], correctIndex: 0, explanation: "Thính giác giúp con người nghe âm thanh." },
+    { question: "Giác quan nào giúp cảm nhận vị của thức ăn?", options: ["Vị giác", "Thị giác", "Thính giác", "Khứu giác"], correctIndex: 0, explanation: "Vị giác giúp cảm nhận vị của thức ăn." },
+    { question: "Vì sao cần bảo vệ các giác quan?", options: ["Giúp giác quan hoạt động tốt lâu dài", "Không cần bảo vệ", "Không có lợi ích gì", "Chỉ cần bảo vệ mắt"], correctIndex: 0, explanation: "Bảo vệ giác quan giúp chúng hoạt động tốt lâu dài." },
+  ]),
+  "kham-pha:3:thuc-hanh-gia-dinh-nhieu-the-he": practiceContent("Thực hành", "Gia đình nhiều thế hệ", "Hãy nhớ lại giá trị của gia đình nhiều thế hệ cùng sống.", [
+    { question: "Gia đình nhiều thế hệ gồm những ai?", options: ["Ông bà, cha mẹ, con cháu", "Chỉ có cha mẹ và con", "Chỉ có ông bà", "Chỉ có con cái"], correctIndex: 0, explanation: "Gia đình nhiều thế hệ gồm ông bà, cha mẹ và con cháu." },
+    { question: "Lợi ích của gia đình nhiều thế hệ là gì?", options: ["Con cháu học hỏi kinh nghiệm từ ông bà", "Không có lợi ích gì", "Chỉ gây bất tiện", "Không liên quan đến gắn kết"], correctIndex: 0, explanation: "Con cháu có thể học hỏi kinh nghiệm quý báu từ ông bà." },
+    { question: "Gia đình nhiều thế hệ còn được gọi là gì?", options: ["Gia đình tam đại/tứ đại đồng đường", "Gia đình hạt nhân", "Gia đình đơn thân", "Không có tên gọi khác"], correctIndex: 0, explanation: "Gia đình nhiều thế hệ còn gọi là 'tam đại/tứ đại đồng đường'." },
+    { question: "Em nên có thái độ gì với ông bà trong gia đình?", options: ["Kính trọng, yêu thương", "Thờ ơ", "Không quan tâm", "Xa lánh"], correctIndex: 0, explanation: "Cần kính trọng và yêu thương ông bà." },
+  ]),
+  "kham-pha:3:luyen-tap-vai-tro-cua-phu-nu-trong-gia-dinh-xa-hoi": practiceContent("Luyện tập", "Vai trò của phụ nữ trong gia đình, xã hội", "Hãy nhớ lại vai trò quan trọng của phụ nữ.", [
+    { question: "Phụ nữ có vai trò gì trong gia đình?", options: ["Chăm sóc gia đình, nuôi dạy con cái", "Không có vai trò gì", "Chỉ ở nhà không làm gì", "Không quan trọng"], correctIndex: 0, explanation: "Phụ nữ đóng vai trò quan trọng trong chăm sóc gia đình." },
+    { question: "Phụ nữ ngày nay tham gia vào lĩnh vực nào?", options: ["Nhiều lĩnh vực như giáo dục, y tế, kinh doanh", "Chỉ làm nội trợ", "Không tham gia lĩnh vực nào", "Chỉ làm nghề truyền thống"], correctIndex: 0, explanation: "Phụ nữ ngày nay tham gia nhiều lĩnh vực trong xã hội." },
+    { question: "Em nên có thái độ gì với vai trò của phụ nữ?", options: ["Tôn trọng, trân trọng", "Xem thường", "Không quan tâm", "Phân biệt đối xử"], correctIndex: 0, explanation: "Cần tôn trọng và trân trọng vai trò của phụ nữ." },
+    { question: "Ngày nào tôn vinh phụ nữ Việt Nam?", options: ["20/10", "1/6", "20/11", "2/9"], correctIndex: 0, explanation: "Ngày 20/10 là Ngày Phụ nữ Việt Nam." },
+  ]),
+  "kham-pha:3:van-dung-ngay-quoc-te-phu-nu-8-3": practiceContent("Vận dụng", "Ngày Quốc tế Phụ nữ 8/3", "Hãy nhớ lại ý nghĩa và các hoạt động của ngày 8/3.", [
+    { question: "Ngày Quốc tế Phụ nữ là ngày nào?", options: ["8/3", "20/10", "1/6", "20/11"], correctIndex: 0, explanation: "Ngày Quốc tế Phụ nữ là ngày 8/3." },
+    { question: "Ngày 8/3 nhằm mục đích gì?", options: ["Tôn vinh đóng góp của phụ nữ", "Không có mục đích gì", "Chỉ là ngày nghỉ", "Không liên quan đến phụ nữ"], correctIndex: 0, explanation: "Ngày 8/3 tôn vinh những đóng góp của phụ nữ." },
+    { question: "Hoạt động nào thường diễn ra vào ngày 8/3?", options: ["Tặng hoa, quà cho phụ nữ", "Không có hoạt động gì", "Chỉ nghỉ học", "Không tổ chức gì"], correctIndex: 0, explanation: "Tặng hoa, quà cho phụ nữ là hoạt động phổ biến." },
+    { question: "Em có thể làm gì để tri ân mẹ, cô giáo vào ngày 8/3?", options: ["Tặng hoa, nói lời cảm ơn", "Không làm gì cả", "Phớt lờ", "Không quan tâm"], correctIndex: 0, explanation: "Có thể tặng hoa hoặc nói lời cảm ơn." },
+  ]),
+  "kham-pha:3:tro-choi-on-tap-ngay-gia-dinh-viet-nam-28-6": practiceContent("Trò chơi ôn tập", "Ngày Gia đình Việt Nam 28/6", "Hãy nhớ lại ý nghĩa ngày Gia đình Việt Nam.", [
+    { question: "Ngày Gia đình Việt Nam là ngày nào?", options: ["28/6", "8/3", "20/11", "1/6"], correctIndex: 0, explanation: "Ngày Gia đình Việt Nam là ngày 28/6." },
+    { question: "Ngày Gia đình Việt Nam nhằm mục đích gì?", options: ["Tôn vinh giá trị gia đình", "Không có mục đích gì", "Chỉ là ngày nghỉ lễ", "Không liên quan đến gia đình"], correctIndex: 0, explanation: "Ngày này nhằm tôn vinh giá trị gia đình." },
+    { question: "Hoạt động nào thường diễn ra trong ngày này?", options: ["Bữa cơm sum họp gia đình", "Không có hoạt động gì", "Chỉ đi học bình thường", "Không tổ chức gì"], correctIndex: 0, explanation: "Bữa cơm sum họp gia đình là hoạt động phổ biến." },
+    { question: "Vì sao gia đình quan trọng với mỗi người?", options: ["Là nơi yêu thương, chở che", "Không quan trọng", "Không có ý nghĩa gì", "Chỉ là nơi ở"], correctIndex: 0, explanation: "Gia đình là nơi yêu thương, chở che mỗi người." },
+  ]),
+  "kham-pha:3:thu-thach-nho-danh-lam-thang-canh-que-huong": practiceContent("Thử thách nhỏ", "Danh lam thắng cảnh quê hương", "Hãy nhớ lại các danh lam thắng cảnh nổi tiếng của Việt Nam.", [
+    { question: "Danh lam thắng cảnh là gì?", options: ["Địa điểm có cảnh quan đẹp, giá trị văn hoá", "Chỉ là nơi ở bình thường", "Không có ý nghĩa gì", "Chỉ là nhà máy"], correctIndex: 0, explanation: "Danh lam thắng cảnh là địa điểm có cảnh quan đẹp." },
+    { question: "Vịnh Hạ Long nằm ở tỉnh nào?", options: ["Quảng Ninh", "Hà Nội", "Huế", "Đà Nẵng"], correctIndex: 0, explanation: "Vịnh Hạ Long nằm ở tỉnh Quảng Ninh." },
+    { question: "Vì sao cần bảo vệ danh lam thắng cảnh?", options: ["Giữ gìn vẻ đẹp và giá trị cho thế hệ sau", "Không cần bảo vệ", "Không có giá trị gì", "Chỉ để kinh doanh"], correctIndex: 0, explanation: "Cần bảo vệ để giữ gìn vẻ đẹp cho thế hệ sau." },
+    { question: "Phong Nha - Kẻ Bàng nổi tiếng với điều gì?", options: ["Hệ thống hang động", "Bãi biển", "Núi cao", "Thác nước"], correctIndex: 0, explanation: "Phong Nha - Kẻ Bàng nổi tiếng với hệ thống hang động." },
+  ]),
+  "kham-pha:3:thuc-hanh-anh-hung-nho-tuoi-trong-lich-su": practiceContent("Thực hành", "Anh hùng nhỏ tuổi trong lịch sử", "Hãy nhớ lại các tấm gương thiếu nhi anh hùng.", [
+    { question: "Ai là người đội trưởng đội thiếu niên tiền phong đầu tiên?", options: ["Kim Đồng", "Lê Văn Tám", "Võ Thị Sáu", "Nguyễn Văn Trỗi"], correctIndex: 0, explanation: "Kim Đồng là đội trưởng đầu tiên của Đội Thiếu niên Tiền phong." },
+    { question: "Các thiếu nhi anh hùng thể hiện tinh thần gì?", options: ["Yêu nước, dũng cảm", "Sợ hãi, nhút nhát", "Không có tinh thần gì", "Chỉ ham chơi"], correctIndex: 0, explanation: "Các thiếu nhi anh hùng thể hiện tinh thần yêu nước, dũng cảm." },
+    { question: "Em học được điều gì từ các tấm gương thiếu nhi anh hùng?", options: ["Tinh thần yêu nước, dũng cảm", "Không học được gì", "Chỉ để biết tên", "Không có ý nghĩa gì"], correctIndex: 0, explanation: "Học được tinh thần yêu nước và dũng cảm." },
+    { question: "Võ Thị Sáu là ai?", options: ["Nữ anh hùng trẻ tuổi trong kháng chiến", "Một nhà khoa học", "Một ca sĩ nổi tiếng", "Một vận động viên"], correctIndex: 0, explanation: "Võ Thị Sáu là nữ anh hùng trẻ tuổi trong kháng chiến." },
+  ]),
+  "kham-pha:3:luyen-tap-truyen-thuyet-dan-gian-viet-nam": practiceContent("Luyện tập", "Truyền thuyết dân gian Việt Nam", "Hãy nhớ lại nội dung các truyền thuyết dân gian nổi tiếng.", [
+    { question: "Truyền thuyết 'Con Rồng cháu Tiên' kể về điều gì?", options: ["Nguồn gốc dân tộc Việt Nam", "Cách trồng lúa", "Một trận bóng đá", "Một công thức nấu ăn"], correctIndex: 0, explanation: "'Con Rồng cháu Tiên' kể về nguồn gốc dân tộc Việt Nam." },
+    { question: "Thánh Gióng đánh giặc gì trong truyền thuyết?", options: ["Giặc Ân", "Giặc Minh", "Giặc Thanh", "Giặc Nguyên"], correctIndex: 0, explanation: "Thánh Gióng đánh giặc Ân." },
+    { question: "Truyền thuyết thường mang yếu tố gì?", options: ["Kỳ ảo", "Chỉ có số liệu khoa học", "Không có yếu tố đặc biệt", "Chỉ là tin tức thời sự"], correctIndex: 0, explanation: "Truyền thuyết thường mang yếu tố kỳ ảo." },
+    { question: "'Sơn Tinh Thuỷ Tinh' giải thích hiện tượng tự nhiên nào?", options: ["Lũ lụt hàng năm", "Động đất", "Sấm sét", "Nhật thực"], correctIndex: 0, explanation: "Truyền thuyết này giải thích hiện tượng lũ lụt hàng năm." },
+  ]),
+  "kham-pha:3:van-dung-dia-danh-noi-tieng-viet-nam": practiceContent("Vận dụng", "Địa danh nổi tiếng Việt Nam", "Hãy nhớ lại các địa danh nổi tiếng của đất nước.", [
+    { question: "Thủ đô của Việt Nam là thành phố nào?", options: ["Hà Nội", "Huế", "Đà Nẵng", "TP.HCM"], correctIndex: 0, explanation: "Hà Nội là thủ đô của Việt Nam." },
+    { question: "Huế từng là kinh đô của triều đại nào?", options: ["Nhà Nguyễn", "Nhà Lý", "Nhà Trần", "Nhà Lê"], correctIndex: 0, explanation: "Huế từng là kinh đô của triều Nguyễn." },
+    { question: "Hội An nổi tiếng với điều gì?", options: ["Phố cổ", "Núi cao", "Sa mạc", "Thác nước"], correctIndex: 0, explanation: "Hội An nổi tiếng với khu phố cổ." },
+    { question: "Thành phố nào là thành phố lớn nhất Việt Nam?", options: ["TP. Hồ Chí Minh", "Hà Nội", "Huế", "Cần Thơ"], correctIndex: 0, explanation: "TP. Hồ Chí Minh là thành phố lớn nhất Việt Nam." },
+  ]),
+  "kham-pha:3:tro-choi-on-tap-bien-dao-que-huong-buoc-dau": practiceContent("Trò chơi ôn tập", "Biển đảo quê hương (bước đầu)", "Hãy nhớ lại kiến thức về biển, đảo của Việt Nam.", [
+    { question: "Việt Nam có bờ biển dài khoảng bao nhiêu km?", options: ["Hơn 3.000 km", "Chỉ khoảng 100 km", "Khoảng 500 km", "Không có bờ biển"], correctIndex: 0, explanation: "Việt Nam có bờ biển dài hơn 3.000 km." },
+    { question: "Quần đảo nào thuộc chủ quyền Việt Nam?", options: ["Hoàng Sa, Trường Sa", "Không có quần đảo nào", "Chỉ có đảo Phú Quốc", "Chỉ có đảo Cát Bà"], correctIndex: 0, explanation: "Hoàng Sa và Trường Sa thuộc chủ quyền Việt Nam." },
+    { question: "Biển đảo có ý nghĩa gì với đất nước?", options: ["Nguồn tài nguyên, lãnh thổ thiêng liêng", "Không có ý nghĩa gì", "Chỉ để du lịch", "Không liên quan đến chủ quyền"], correctIndex: 0, explanation: "Biển đảo là nguồn tài nguyên quý giá và lãnh thổ thiêng liêng." },
+    { question: "Em cần có thái độ gì với biển đảo quê hương?", options: ["Yêu quý, có ý thức bảo vệ", "Thờ ơ", "Không quan tâm", "Xem thường"], correctIndex: 0, explanation: "Cần yêu quý và có ý thức bảo vệ biển đảo." },
+  ]),
+  "kham-pha:3:thu-thach-nho-cac-dan-toc-anh-em-o-viet-nam": practiceContent("Thử thách nhỏ", "Các dân tộc anh em ở Việt Nam", "Hãy nhớ lại cộng đồng các dân tộc Việt Nam.", [
+    { question: "Việt Nam có bao nhiêu dân tộc anh em?", options: ["54", "20", "30", "10"], correctIndex: 0, explanation: "Việt Nam có 54 dân tộc anh em." },
+    { question: "Dân tộc nào chiếm đa số ở Việt Nam?", options: ["Kinh", "H'Mông", "Thái", "Tày"], correctIndex: 0, explanation: "Dân tộc Kinh chiếm đa số dân số Việt Nam." },
+    { question: "Các dân tộc Việt Nam có mối quan hệ như thế nào?", options: ["Đoàn kết, hỗ trợ nhau", "Chia rẽ", "Không liên quan đến nhau", "Cạnh tranh gay gắt"], correctIndex: 0, explanation: "Các dân tộc Việt Nam luôn đoàn kết, hỗ trợ nhau." },
+    { question: "Em nên có thái độ gì với các dân tộc khác?", options: ["Tôn trọng, đoàn kết", "Phân biệt đối xử", "Xem thường", "Không quan tâm"], correctIndex: 0, explanation: "Cần tôn trọng và đoàn kết với các dân tộc khác." },
+  ]),
+  "kham-pha:3:thuc-hanh-ngay-giai-phong-mien-nam-30-4": practiceContent("Thực hành", "Ngày Giải phóng miền Nam 30/4", "Hãy nhớ lại ý nghĩa lịch sử của ngày 30/4.", [
+    { question: "Ngày 30/4 kỷ niệm sự kiện gì?", options: ["Giải phóng miền Nam, thống nhất đất nước", "Ngày Quốc khánh", "Ngày thành lập Đảng", "Ngày sinh Bác Hồ"], correctIndex: 0, explanation: "Ngày 30/4 kỷ niệm ngày Giải phóng miền Nam." },
+    { question: "Sự kiện 30/4/1975 diễn ra ở đâu?", options: ["Sài Gòn (nay là TP.HCM)", "Hà Nội", "Huế", "Đà Nẵng"], correctIndex: 0, explanation: "Sự kiện diễn ra tại Sài Gòn, nay là TP. Hồ Chí Minh." },
+    { question: "Ngày 30/4 có ý nghĩa gì với dân tộc?", options: ["Chấm dứt chiến tranh, thống nhất đất nước", "Không có ý nghĩa gì", "Chỉ là ngày nghỉ", "Không liên quan đến lịch sử"], correctIndex: 0, explanation: "Ngày này chấm dứt chiến tranh và thống nhất đất nước." },
+    { question: "Em cần có thái độ gì với nền hoà bình hiện tại?", options: ["Trân trọng, biết ơn", "Thờ ơ", "Không quan tâm", "Xem nhẹ"], correctIndex: 0, explanation: "Cần trân trọng và biết ơn nền hoà bình có được." },
+  ]),
+  "kham-pha:3:luyen-tap-ngay-quoc-khanh-2-9": practiceContent("Luyện tập", "Ngày Quốc khánh 2/9", "Hãy nhớ lại ý nghĩa ngày Quốc khánh nước ta.", [
+    { question: "Ngày Quốc khánh Việt Nam là ngày nào?", options: ["2/9", "30/4", "1/5", "19/8"], correctIndex: 0, explanation: "Ngày Quốc khánh Việt Nam là ngày 2/9." },
+    { question: "Ai đọc Tuyên ngôn Độc lập ngày 2/9/1945?", options: ["Chủ tịch Hồ Chí Minh", "Vua Bảo Đại", "Trần Hưng Đạo", "Lê Lợi"], correctIndex: 0, explanation: "Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập." },
+    { question: "Tuyên ngôn Độc lập được đọc tại đâu?", options: ["Quảng trường Ba Đình, Hà Nội", "Sài Gòn", "Huế", "Đà Nẵng"], correctIndex: 0, explanation: "Tuyên ngôn Độc lập được đọc tại Quảng trường Ba Đình." },
+    { question: "Ngày 2/9 khai sinh ra nước nào?", options: ["Việt Nam Dân chủ Cộng hoà", "Không có ý nghĩa gì", "Một nước khác", "Không liên quan đến Việt Nam"], correctIndex: 0, explanation: "Ngày 2/9 khai sinh nước Việt Nam Dân chủ Cộng hoà." },
+  ]),
+  "kham-pha:3:van-dung-on-tap-giua-hoc-ky-1": practiceContent("Vận dụng", "Ôn tập giữa học kỳ 1", "Hãy ôn lại kiến thức về gia đình, trường học, thiên nhiên.", [
+    { question: "Họ hàng nội là những ai?", options: ["Bên gia đình bố", "Bên gia đình mẹ", "Bạn bè", "Hàng xóm"], correctIndex: 0, explanation: "Họ hàng nội là bên gia đình bố." },
+    { question: "Khi có hoả hoạn, em nên làm gì đầu tiên?", options: ["Báo người lớn, thoát hiểm an toàn", "Trốn trong phòng kín", "Không làm gì", "Tự dập lửa"], correctIndex: 0, explanation: "Cần báo người lớn và thoát hiểm an toàn." },
+    { question: "Hoạt động kết nối cộng đồng ở trường có ý nghĩa gì?", options: ["Gắn kết học sinh, rèn kỹ năng", "Không có ý nghĩa gì", "Chỉ để giải trí", "Không liên quan đến học tập"], correctIndex: 0, explanation: "Hoạt động này giúp gắn kết học sinh và rèn kỹ năng." },
+    { question: "Truyền thống nhà trường thể hiện điều gì?", options: ["Lịch sử và giá trị của trường", "Không có ý nghĩa gì", "Chỉ là quy định", "Không liên quan đến trường"], correctIndex: 0, explanation: "Truyền thống nhà trường thể hiện lịch sử và giá trị của trường." },
+  ]),
+  "kham-pha:3:tro-choi-on-tap-on-tap-cuoi-hoc-ky-1": practiceContent("Trò chơi ôn tập", "Ôn tập cuối học kỳ 1", "Hãy ôn lại toàn bộ chủ đề học kỳ 1.", [
+    { question: "Các bộ phận của thực vật gồm những gì?", options: ["Rễ, thân, lá, hoa, quả", "Chỉ có lá", "Chỉ có rễ", "Không có bộ phận nào"], correctIndex: 0, explanation: "Thực vật có các bộ phận: rễ, thân, lá, hoa, quả." },
+    { question: "Vì sao cần bảo vệ môi trường sống của sinh vật?", options: ["Giúp sinh vật tồn tại và phát triển", "Không cần thiết", "Không có lý do gì", "Chỉ để trang trí"], correctIndex: 0, explanation: "Bảo vệ môi trường giúp sinh vật tồn tại và phát triển." },
+    { question: "Ngày kỉ niệm gia đình có ý nghĩa gì?", options: ["Gắn kết tình cảm gia đình", "Không có ý nghĩa gì", "Chỉ là ngày nghỉ", "Không liên quan đến gia đình"], correctIndex: 0, explanation: "Ngày kỉ niệm giúp gắn kết tình cảm gia đình." },
+    { question: "Vệ sinh trường học có tác dụng gì?", options: ["Giữ môi trường học tập sạch đẹp", "Không có tác dụng gì", "Chỉ tốn thời gian", "Không liên quan đến sức khoẻ"], correctIndex: 0, explanation: "Vệ sinh trường học giúp giữ môi trường học tập sạch đẹp." },
+  ]),
+  "kham-pha:3:thu-thach-nho-on-tap-giua-hoc-ky-2": practiceContent("Thử thách nhỏ", "Ôn tập giữa học kỳ 2", "Hãy ôn lại kiến thức về cơ thể người và an toàn.", [
+    { question: "Cơ quan hô hấp có chức năng gì?", options: ["Giúp con người thở", "Giúp tiêu hoá thức ăn", "Giúp nhìn", "Giúp nghe"], correctIndex: 0, explanation: "Cơ quan hô hấp giúp con người hít thở." },
+    { question: "Cơ quan bài tiết nước tiểu có chức năng gì?", options: ["Lọc và thải chất thải ra khỏi cơ thể", "Giúp tiêu hoá", "Giúp hô hấp", "Giúp tuần hoàn máu"], correctIndex: 0, explanation: "Cơ quan bài tiết giúp lọc và thải chất thải." },
+    { question: "Cách nào giúp phòng tránh đuối nước?", options: ["Học bơi, có người lớn giám sát", "Bơi một mình ở nơi nguy hiểm", "Không cần đề phòng", "Không học bơi"], correctIndex: 0, explanation: "Học bơi và có người lớn giám sát giúp phòng tránh đuối nước." },
+    { question: "Vì sao cần bảo vệ cơ quan hô hấp?", options: ["Giúp cơ thể khoẻ mạnh, thở tốt", "Không cần bảo vệ", "Không có lý do gì", "Chỉ ảnh hưởng đến mũi"], correctIndex: 0, explanation: "Bảo vệ cơ quan hô hấp giúp cơ thể khoẻ mạnh." },
+  ]),
+  "kham-pha:3:thuc-hanh-thuc-hanh-quan-sat-cay-trong-vuon-truong": practiceContent("Thực hành", "Thực hành quan sát cây trong vườn trường", "Hãy nhớ lại cách quan sát và ghi chép về cây.", [
+    { question: "Khi quan sát cây, em cần chú ý điều gì?", options: ["Hình dáng lá, thân, hoa", "Không cần chú ý gì", "Chỉ cần nhìn qua", "Chỉ cần đếm số lượng cây"], correctIndex: 0, explanation: "Cần quan sát kỹ hình dáng lá, thân, hoa của cây." },
+    { question: "Vì sao cần ghi chép lại kết quả quan sát?", options: ["Theo dõi sự thay đổi theo thời gian", "Không cần thiết", "Không có lý do gì", "Chỉ để trang trí"], correctIndex: 0, explanation: "Ghi chép giúp theo dõi sự thay đổi của cây." },
+    { question: "Kỹ năng quan sát khoa học được rèn luyện qua hoạt động này là gì?", options: ["Quan sát tỉ mỉ, ghi chép chính xác", "Không rèn luyện kỹ năng gì", "Chỉ để giải trí", "Không liên quan đến khoa học"], correctIndex: 0, explanation: "Hoạt động này rèn kỹ năng quan sát tỉ mỉ." },
+    { question: "Em có thể ghi lại kết quả quan sát bằng cách nào?", options: ["Vẽ hoặc mô tả bằng lời", "Không cần ghi lại", "Chỉ cần nhớ trong đầu", "Không có cách nào"], correctIndex: 0, explanation: "Có thể ghi lại bằng cách vẽ hoặc mô tả bằng lời." },
+  ]),
+  "kham-pha:3:luyen-tap-thuc-hanh-phan-loai-rac-tai-lop": practiceContent("Luyện tập", "Thực hành phân loại rác tại lớp", "Hãy nhớ lại cách phân loại rác ngay tại lớp học.", [
+    { question: "Khi thực hành phân loại rác, em cần chuẩn bị gì?", options: ["Các thùng rác riêng biệt", "Không cần chuẩn bị gì", "Chỉ cần một thùng rác", "Không cần thùng rác"], correctIndex: 0, explanation: "Cần chuẩn bị các thùng rác riêng biệt." },
+    { question: "Vỏ trái cây nên bỏ vào thùng rác nào?", options: ["Rác hữu cơ", "Rác tái chế", "Rác nguy hại", "Không cần phân loại"], correctIndex: 0, explanation: "Vỏ trái cây là rác hữu cơ." },
+    { question: "Giấy vụn nên bỏ vào thùng rác nào?", options: ["Rác tái chế", "Rác hữu cơ", "Rác nguy hại", "Không cần phân loại"], correctIndex: 0, explanation: "Giấy vụn là loại rác có thể tái chế." },
+    { question: "Thực hành phân loại rác giúp ích điều gì?", options: ["Rèn ý thức bảo vệ môi trường", "Không có ích gì", "Làm mất thời gian", "Không liên quan đến môi trường"], correctIndex: 0, explanation: "Thực hành này rèn ý thức bảo vệ môi trường." },
+  ]),
+  "kham-pha:3:van-dung-du-an-nho-trong-cay-xanh-o-nha": practiceContent("Vận dụng", "Dự án nhỏ: Trồng cây xanh ở nhà", "Hãy nhớ lại cách trồng và chăm sóc một cây xanh nhỏ.", [
+    { question: "Để trồng cây, em cần chuẩn bị gì?", options: ["Hạt giống/cây con, chậu đất, nước", "Không cần chuẩn bị gì", "Chỉ cần nước", "Chỉ cần đất"], correctIndex: 0, explanation: "Cần chuẩn bị hạt giống, chậu đất và nước." },
+    { question: "Cây cần gì để phát triển tốt?", options: ["Nước, ánh sáng, đất", "Chỉ cần bóng tối", "Không cần gì cả", "Chỉ cần nước lạnh"], correctIndex: 0, explanation: "Cây cần nước, ánh sáng và đất." },
+    { question: "Vì sao cần chăm sóc cây đều đặn?", options: ["Giúp cây phát triển khoẻ mạnh", "Không cần chăm sóc", "Không có lý do gì", "Chỉ cần chăm sóc một lần"], correctIndex: 0, explanation: "Chăm sóc đều đặn giúp cây phát triển khoẻ mạnh." },
+    { question: "Trồng cây xanh mang lại lợi ích gì cho môi trường?", options: ["Cung cấp oxy, làm sạch không khí", "Không có lợi ích gì", "Chỉ để trang trí", "Không liên quan đến môi trường"], correctIndex: 0, explanation: "Cây xanh cung cấp oxy và làm sạch không khí." },
+  ]),
+  "kham-pha:3:tro-choi-on-tap-tro-choi-do-vui-ve-tu-nhien": practiceContent("Trò chơi ôn tập", "Trò chơi: Đố vui về tự nhiên", "Hãy ôn lại kiến thức về động vật, thực vật, hiện tượng tự nhiên.", [
+    { question: "Con vật nào được mệnh danh là 'chúa tể rừng xanh'?", options: ["Sư tử", "Thỏ", "Gà", "Vịt"], correctIndex: 0, explanation: "Sư tử thường được gọi là 'chúa tể rừng xanh'." },
+    { question: "Cây nào không cần ánh sáng vẫn sống được lâu dài?", options: ["Không có cây nào", "Tất cả các cây", "Chỉ cây trong nhà", "Chỉ cây dưới nước"], correctIndex: 0, explanation: "Hầu như không có loài cây xanh nào sống được lâu dài mà không cần ánh sáng." },
+    { question: "Trò chơi đố vui giúp ích điều gì cho việc học?", options: ["Ôn luyện kiến thức vui vẻ", "Không có ích gì", "Làm mất thời gian", "Không liên quan đến học tập"], correctIndex: 0, explanation: "Trò chơi đố vui giúp ôn luyện kiến thức vui vẻ." },
+    { question: "Hiện tượng nào xảy ra khi trời có mưa và nắng cùng lúc?", options: ["Cầu vồng", "Sấm sét", "Bão", "Sương mù"], correctIndex: 0, explanation: "Cầu vồng thường xuất hiện khi trời vừa mưa vừa nắng." },
+  ]),
+  "kham-pha:3:thu-thach-nho-tro-choi-ai-doan-dung-con-vat": practiceContent("Thử thách nhỏ", "Trò chơi: Ai đoán đúng con vật", "Hãy ôn lại đặc điểm của các con vật.", [
+    { question: "Con vật nào sống dưới nước và thở bằng mang?", options: ["Cá", "Chó", "Mèo", "Gà"], correctIndex: 0, explanation: "Cá sống dưới nước và thở bằng mang." },
+    { question: "Con vật nào có cổ rất dài?", options: ["Hươu cao cổ", "Voi", "Sư tử", "Khỉ"], correctIndex: 0, explanation: "Hươu cao cổ có chiếc cổ rất dài." },
+    { question: "Con vật nào biết bay và có lông vũ?", options: ["Chim", "Cá", "Rắn", "Ếch"], correctIndex: 0, explanation: "Chim có lông vũ và biết bay." },
+    { question: "Trò chơi đoán con vật giúp ích điều gì?", options: ["Rèn khả năng quan sát, suy luận", "Không có ích gì", "Làm mất thời gian", "Không liên quan đến học tập"], correctIndex: 0, explanation: "Trò chơi này giúp rèn khả năng quan sát và suy luận." },
+  ]),
+  "kham-pha:3:thuc-hanh-tim-hieu-ve-bao-tang-dia-phuong": practiceContent("Thực hành", "Tìm hiểu về bảo tàng địa phương", "Hãy nhớ lại vai trò của bảo tàng.", [
+    { question: "Bảo tàng là nơi làm gì?", options: ["Lưu giữ, trưng bày hiện vật có giá trị", "Chỉ để vui chơi", "Không có chức năng gì", "Chỉ bán hàng"], correctIndex: 0, explanation: "Bảo tàng lưu giữ và trưng bày hiện vật có giá trị." },
+    { question: "Bảo tàng giúp ích điều gì cho con người?", options: ["Hiểu về quá khứ, học hỏi kiến thức", "Không có ích gì", "Chỉ để giải trí", "Không liên quan đến kiến thức"], correctIndex: 0, explanation: "Bảo tàng giúp con người hiểu về quá khứ." },
+    { question: "Khi tham quan bảo tàng, em nên làm gì?", options: ["Giữ trật tự, không chạm vào hiện vật", "Chạy nhảy tự do", "Chạm vào mọi hiện vật", "Nói chuyện to"], correctIndex: 0, explanation: "Cần giữ trật tự và không chạm vào hiện vật." },
+    { question: "Bảo tàng Dân tộc học Việt Nam trưng bày về điều gì?", options: ["Văn hoá các dân tộc Việt Nam", "Chỉ về động vật", "Chỉ về thực vật", "Không trưng bày gì"], correctIndex: 0, explanation: "Bảo tàng Dân tộc học trưng bày về văn hoá các dân tộc." },
+  ]),
+  "kham-pha:3:luyen-tap-ky-nang-thoat-hiem-khi-co-dong-dat-bao": practiceContent("Luyện tập", "Kỹ năng thoát hiểm khi có động đất, bão", "Hãy nhớ lại cách ứng phó khi có động đất, bão.", [
+    { question: "Khi có động đất, em nên làm gì?", options: ["Chui xuống gầm bàn chắc chắn", "Đứng gần cửa kính", "Dùng thang máy", "Chạy ra ngoài ngay lập tức"], correctIndex: 0, explanation: "Nên chui xuống gầm bàn chắc chắn." },
+    { question: "Khi có bão, nên tránh gì?", options: ["Đứng gần cửa sổ", "Ở trong nhà kiên cố", "Chuẩn bị đèn pin", "Dự trữ thực phẩm"], correctIndex: 0, explanation: "Nên tránh đứng gần cửa sổ khi có bão." },
+    { question: "Vì sao không nên dùng thang máy khi có động đất?", options: ["Có thể bị kẹt hoặc nguy hiểm", "Không có lý do gì", "Thang máy luôn an toàn", "Không liên quan đến động đất"], correctIndex: 0, explanation: "Thang máy có thể bị kẹt khi có động đất." },
+    { question: "Chuẩn bị đồ dùng gì khi có bão?", options: ["Đèn pin, thực phẩm dự trữ", "Không cần chuẩn bị gì", "Chỉ cần quần áo đẹp", "Không có đồ dùng cần thiết"], correctIndex: 0, explanation: "Nên chuẩn bị đèn pin và thực phẩm dự trữ." },
+  ]),
+  "kham-pha:3:van-dung-ung-pho-khi-thoi-tiet-cuc-doan": practiceContent("Vận dụng", "Ứng phó khi thời tiết cực đoan", "Hãy nhớ lại cách bảo vệ bản thân khi thời tiết khắc nghiệt.", [
+    { question: "Thời tiết cực đoan gồm những hiện tượng nào?", options: ["Nắng nóng gay gắt, rét đậm", "Chỉ có nắng nhẹ", "Không có hiện tượng nào", "Chỉ có mưa nhỏ"], correctIndex: 0, explanation: "Thời tiết cực đoan gồm nắng nóng gay gắt, rét đậm." },
+    { question: "Cách nào giúp ứng phó với thời tiết cực đoan?", options: ["Theo dõi dự báo thời tiết", "Không cần theo dõi gì", "Ra ngoài bất kể thời tiết", "Không cần chuẩn bị gì"], correctIndex: 0, explanation: "Theo dõi dự báo thời tiết giúp ứng phó tốt hơn." },
+    { question: "Khi trời rét đậm, em nên làm gì?", options: ["Mặc ấm, giữ nhiệt cơ thể", "Mặc đồ mỏng", "Không cần giữ ấm", "Ra ngoài không mặc áo ấm"], correctIndex: 0, explanation: "Cần mặc ấm và giữ nhiệt cơ thể." },
+    { question: "Vì sao cần hạn chế ra ngoài khi thời tiết nguy hiểm?", options: ["Đảm bảo an toàn cho bản thân", "Không có lý do gì", "Không liên quan đến an toàn", "Chỉ vì sở thích"], correctIndex: 0, explanation: "Hạn chế ra ngoài giúp đảm bảo an toàn." },
+  ]),
+  "kham-pha:3:tro-choi-on-tap-bao-ve-nguon-nuoc-sach": practiceContent("Trò chơi ôn tập", "Bảo vệ nguồn nước sạch", "Hãy nhớ lại cách bảo vệ nguồn nước quanh em.", [
+    { question: "Hành động nào gây ô nhiễm nguồn nước?", options: ["Xả rác xuống sông hồ", "Sử dụng nước tiết kiệm", "Trồng cây ven sông", "Dọn dẹp bờ sông"], correctIndex: 0, explanation: "Xả rác xuống sông hồ gây ô nhiễm nguồn nước." },
+    { question: "Cách nào giúp bảo vệ nguồn nước sạch?", options: ["Không xả rác xuống nước, tiết kiệm nước", "Xả nước thải chưa xử lý", "Lãng phí nước", "Không quan tâm đến nguồn nước"], correctIndex: 0, explanation: "Không xả rác và tiết kiệm nước giúp bảo vệ nguồn nước." },
+    { question: "Vì sao cần bảo vệ nguồn nước?", options: ["Nước sạch cần thiết cho sự sống", "Không cần bảo vệ", "Nguồn nước là vô hạn", "Không liên quan đến sự sống"], correctIndex: 0, explanation: "Nước sạch cần thiết cho sự sống." },
+    { question: "Em có thể làm gì để góp phần bảo vệ nguồn nước?", options: ["Không xả rác, tiết kiệm nước", "Không làm gì cả", "Xả rác tuỳ ý", "Lãng phí nước"], correctIndex: 0, explanation: "Em có thể không xả rác và tiết kiệm nước." },
+  ]),
+  "kham-pha:3:thu-thach-nho-tiet-kiem-dien-trong-gia-dinh": practiceContent("Thử thách nhỏ", "Tiết kiệm điện trong gia đình", "Hãy nhớ lại cách sử dụng điện tiết kiệm, hiệu quả.", [
+    { question: "Vì sao cần tiết kiệm điện?", options: ["Giảm chi phí, bảo vệ tài nguyên", "Không cần tiết kiệm", "Không có lý do gì", "Điện là vô hạn"], correctIndex: 0, explanation: "Tiết kiệm điện giúp giảm chi phí và bảo vệ tài nguyên." },
+    { question: "Hành động nào giúp tiết kiệm điện?", options: ["Tắt đèn khi ra khỏi phòng", "Để đèn sáng cả ngày", "Bật tất cả thiết bị điện cùng lúc", "Không quan tâm đến việc tiết kiệm"], correctIndex: 0, explanation: "Tắt đèn khi ra khỏi phòng giúp tiết kiệm điện." },
+    { question: "Thiết bị điện nào giúp tiết kiệm năng lượng?", options: ["Đèn LED", "Đèn sợi đốt cũ", "Không có thiết bị nào", "Thiết bị càng cũ càng tốt"], correctIndex: 0, explanation: "Đèn LED tiêu thụ ít điện năng hơn." },
+    { question: "Tiết kiệm điện có lợi ích gì cho môi trường?", options: ["Giảm phát thải khí nhà kính", "Không có lợi ích gì", "Không liên quan đến môi trường", "Chỉ có lợi cho gia đình"], correctIndex: 0, explanation: "Tiết kiệm điện giúp giảm phát thải khí nhà kính." },
+  ]),
+  "kham-pha:3:thuc-hanh-on-tap-ve-gia-dinh-va-ho-hang": practiceContent("Thực hành", "Ôn tập về gia đình và họ hàng", "Hãy ôn lại kiến thức về gia đình, họ hàng.", [
+    { question: "Họ hàng ngoại là những ai?", options: ["Bên gia đình mẹ", "Bên gia đình bố", "Bạn bè", "Hàng xóm"], correctIndex: 0, explanation: "Họ hàng ngoại là bên gia đình mẹ." },
+    { question: "Gia đình nhiều thế hệ có đặc điểm gì?", options: ["Ông bà, cha mẹ, con cháu cùng sống", "Chỉ có cha mẹ và con", "Chỉ có một người", "Không có đặc điểm gì"], correctIndex: 0, explanation: "Gia đình nhiều thế hệ có ông bà, cha mẹ, con cháu cùng sống." },
+    { question: "Ngày Gia đình Việt Nam là ngày nào?", options: ["28/6", "8/3", "20/11", "1/6"], correctIndex: 0, explanation: "Ngày Gia đình Việt Nam là ngày 28/6." },
+    { question: "Vì sao cần trân trọng gia đình?", options: ["Gia đình là nơi yêu thương, chở che", "Không cần trân trọng", "Không có ý nghĩa gì", "Chỉ là nơi ở"], correctIndex: 0, explanation: "Gia đình là nơi yêu thương và chở che." },
+  ]),
+  "kham-pha:3:luyen-tap-on-tap-ve-co-the-nguoi": practiceContent("Luyện tập", "Ôn tập về cơ thể người", "Hãy ôn lại kiến thức về các cơ quan trong cơ thể.", [
+    { question: "Cơ quan hô hấp giúp con người làm gì?", options: ["Thở", "Tiêu hoá", "Nhìn", "Nghe"], correctIndex: 0, explanation: "Cơ quan hô hấp giúp con người thở." },
+    { question: "Tim thuộc cơ quan nào trong cơ thể?", options: ["Cơ quan tuần hoàn", "Cơ quan hô hấp", "Cơ quan bài tiết", "Cơ quan tiêu hoá"], correctIndex: 0, explanation: "Tim thuộc cơ quan tuần hoàn." },
+    { question: "Bộ xương có vai trò gì?", options: ["Nâng đỡ cơ thể", "Tiêu hoá thức ăn", "Nghe âm thanh", "Nhìn sự vật"], correctIndex: 0, explanation: "Bộ xương giúp nâng đỡ cơ thể." },
+    { question: "Con người có bao nhiêu giác quan chính?", options: ["5", "3", "7", "10"], correctIndex: 0, explanation: "Con người có 5 giác quan chính." },
+  ]),
+  "kham-pha:3:van-dung-on-tap-ve-thuc-vat-va-dong-vat": practiceContent("Vận dụng", "Ôn tập về thực vật và động vật", "Hãy ôn lại kiến thức về thực vật, động vật.", [
+    { question: "Thực vật có những bộ phận nào?", options: ["Rễ, thân, lá, hoa, quả", "Chỉ có lá", "Chỉ có hoa", "Không có bộ phận nào"], correctIndex: 0, explanation: "Thực vật có các bộ phận: rễ, thân, lá, hoa, quả." },
+    { question: "Vật nuôi nào giúp cày kéo trong nông nghiệp?", options: ["Trâu, bò", "Mèo", "Chó", "Gà"], correctIndex: 0, explanation: "Trâu, bò thường được dùng để cày kéo." },
+    { question: "Côn trùng nào có ích cho cây trồng?", options: ["Ong", "Muỗi", "Châu chấu (khi phá hoại)", "Ruồi"], correctIndex: 0, explanation: "Ong giúp thụ phấn cho cây trồng." },
+    { question: "Chuỗi thức ăn thể hiện điều gì?", options: ["Mối quan hệ ăn - bị ăn giữa sinh vật", "Không có ý nghĩa gì", "Chỉ là tên gọi", "Không liên quan đến sinh vật"], correctIndex: 0, explanation: "Chuỗi thức ăn thể hiện mối quan hệ ăn - bị ăn." },
+  ]),
+  "kham-pha:3:tro-choi-on-tap-on-tap-ve-cong-dong-dia-phuong": practiceContent("Trò chơi ôn tập", "Ôn tập về cộng đồng địa phương", "Hãy ôn lại kiến thức về cộng đồng nơi em sống.", [
+    { question: "Chợ quê là nơi để làm gì?", options: ["Mua bán, trao đổi hàng hoá", "Chỉ để vui chơi", "Không có chức năng gì", "Chỉ để học tập"], correctIndex: 0, explanation: "Chợ quê là nơi mua bán, trao đổi hàng hoá." },
+    { question: "Nghề truyền thống gắn liền với điều gì?", options: ["Văn hoá, lịch sử địa phương", "Không có ý nghĩa gì", "Chỉ là công việc bình thường", "Không liên quan đến văn hoá"], correctIndex: 0, explanation: "Nghề truyền thống gắn liền với văn hoá, lịch sử địa phương." },
+    { question: "Di tích lịch sử - văn hoá có ý nghĩa gì?", options: ["Lưu giữ giá trị lịch sử, văn hoá", "Không có ý nghĩa gì", "Chỉ để tham quan", "Không liên quan đến lịch sử"], correctIndex: 0, explanation: "Di tích lịch sử - văn hoá lưu giữ giá trị lịch sử." },
+    { question: "Vì sao cần tìm hiểu về cộng đồng nơi mình sống?", options: ["Hiểu và trân trọng quê hương", "Không cần thiết", "Không có lý do gì", "Chỉ để biết thông tin"], correctIndex: 0, explanation: "Tìm hiểu giúp em hiểu và trân trọng quê hương." },
+  ]),
+  "kham-pha:3:thu-thach-nho-on-tap-tong-hop-chuan-bi-kiem-tra-cuoi-nam": practiceContent("Thử thách nhỏ", "Ôn tập tổng hợp chuẩn bị kiểm tra cuối năm", "Hãy ôn lại toàn bộ kiến thức trọng tâm trong năm.", [
+    { question: "Cơ thể người có bao nhiêu giác quan chính?", options: ["5", "3", "7", "10"], correctIndex: 0, explanation: "Con người có 5 giác quan chính." },
+    { question: "Chuỗi thức ăn thể hiện mối quan hệ gì?", options: ["Ăn - bị ăn giữa sinh vật", "Không có ý nghĩa gì", "Chỉ là tên gọi", "Không liên quan đến sinh vật"], correctIndex: 0, explanation: "Chuỗi thức ăn thể hiện mối quan hệ ăn - bị ăn." },
+    { question: "Ngày Quốc khánh Việt Nam là ngày nào?", options: ["2/9", "30/4", "1/5", "19/8"], correctIndex: 0, explanation: "Ngày Quốc khánh Việt Nam là ngày 2/9." },
+    { question: "Vì sao cần ôn tập trước khi kiểm tra?", options: ["Củng cố kiến thức, tự tin hơn", "Không cần thiết", "Không có lợi ích gì", "Chỉ tốn thời gian"], correctIndex: 0, explanation: "Ôn tập giúp củng cố kiến thức và tự tin hơn." },
+  ]),
+
 };
 
 export function getLessonContent(subject: string, grade: number, lessonSlug: string) {

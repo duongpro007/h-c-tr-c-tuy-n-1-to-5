@@ -1045,7 +1045,7 @@ export const curriculum: SubjectCurriculum[] = [
 
   { subject: "kham-pha", grade: 1, intro: "Khám phá gia đình, trường học và thiên nhiên quanh em.", chapters: grade30(KP_CHAPTERS, kp1Topics) },
   { subject: "kham-pha", grade: 2, intro: "Tìm hiểu trường học, cộng đồng, cơ thể người và bầu trời.", chapters: grade30(KP_CHAPTERS, kp2Topics) },
-  { subject: "kham-pha", grade: 3, intro: "Mở rộng hiểu biết về gia đình, cộng đồng và thế giới tự nhiên.", chapters: grade30(KP_CHAPTERS, readyFirst(kp3Topics, 15)) },
+  { subject: "kham-pha", grade: 3, intro: "Mở rộng hiểu biết về gia đình, cộng đồng và thế giới tự nhiên.", chapters: grade30(KP_CHAPTERS, readyFirst(kp3Topics, 75)) },
   { subject: "kham-pha", grade: 4, intro: "Khoa học về chất, sức khoẻ; lịch sử dựng nước và địa lí Việt Nam.", chapters: grade30(KP_CHAPTERS, kp4Topics) },
   { subject: "kham-pha", grade: 5, intro: "Khoa học sự sống, năng lượng; lịch sử cận đại và địa lí thế giới.", chapters: grade30(KP_CHAPTERS, kp5Topics) },
 
