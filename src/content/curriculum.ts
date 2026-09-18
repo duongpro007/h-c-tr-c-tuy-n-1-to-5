@@ -1051,7 +1051,7 @@ export const curriculum: SubjectCurriculum[] = [
 
   { subject: "dao-duc", grade: 1, intro: "Tình cảm gia đình và những giá trị sống đầu tiên.", chapters: grade30(DD_CHAPTERS, dd1Topics) },
   { subject: "dao-duc", grade: 2, intro: "Ứng xử ở trường học và trong cộng đồng nhỏ.", chapters: grade30(DD_CHAPTERS, dd2Topics) },
-  { subject: "dao-duc", grade: 3, intro: "Tình yêu Tổ quốc, ứng xử với mọi người và tự bảo vệ bản thân.", chapters: grade30(DD_CHAPTERS, readyFirst(dd3Topics, 15)) },
+  { subject: "dao-duc", grade: 3, intro: "Tình yêu Tổ quốc, ứng xử với mọi người và tự bảo vệ bản thân.", chapters: grade30(DD_CHAPTERS, readyFirst(dd3Topics, 75)) },
   { subject: "dao-duc", grade: 4, intro: "Lòng biết ơn, tính trung thực, yêu lao động và hợp tác.", chapters: grade30(DD_CHAPTERS, dd4Topics) },
   { subject: "dao-duc", grade: 5, intro: "Tinh thần trách nhiệm, bảo vệ lẽ phải và định hướng tương lai.", chapters: grade30(DD_CHAPTERS, dd5Topics) },
 

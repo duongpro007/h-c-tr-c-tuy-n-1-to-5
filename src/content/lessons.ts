@@ -10728,6 +10728,1206 @@ export const lessonContent: Record<string, LessonContent> = {
     { question: "Vì sao cần ôn tập trước khi kiểm tra?", options: ["Củng cố kiến thức, tự tin hơn", "Không cần thiết", "Không có lợi ích gì", "Chỉ tốn thời gian"], correctIndex: 0, explanation: "Ôn tập giúp củng cố kiến thức và tự tin hơn." },
   ]),
 
+  // ─────────────── ĐẠO ĐỨC — LỚP 3 — 60 bài lõi mở rộng ───────────────
+  "dao-duc:3:yeu-quy-ban-than": {
+    objectives: ["Rèn thái độ trân trọng và yêu quý chính mình.", "Hiểu vì sao cần yêu quý bản thân."],
+    sections: [
+      { heading: "1. Yêu quý bản thân là gì", body: ["Là biết trân trọng cơ thể, cảm xúc và giá trị của chính mình."] },
+      { heading: "2. Cách thể hiện", body: ["Chăm sóc sức khoẻ, không tự ti, tự tin vào điểm mạnh của bản thân."] },
+    ],
+    quiz: [
+      { question: "Yêu quý bản thân là gì?", options: ["Trân trọng cơ thể và giá trị của mình", "Kiêu ngạo với người khác", "Không quan tâm đến ai", "Chỉ nghĩ về bản thân"], correctIndex: 0, explanation: "Yêu quý bản thân là biết trân trọng chính mình." },
+      { question: "Hành động nào thể hiện yêu quý bản thân?", options: ["Chăm sóc sức khoẻ", "Tự ti về bản thân", "So sánh mình với người khác", "Không quan tâm đến sức khoẻ"], correctIndex: 0, explanation: "Chăm sóc sức khoẻ là cách thể hiện yêu quý bản thân." },
+      { question: "Vì sao cần yêu quý bản thân?", options: ["Giúp em tự tin, sống tích cực", "Không cần thiết", "Không có lý do gì", "Chỉ để khoe khoang"], correctIndex: 0, explanation: "Yêu quý bản thân giúp em tự tin và sống tích cực hơn." },
+      { question: "Yêu quý bản thân có nghĩa là ích kỷ không?", options: ["Không, vẫn cần quan tâm người khác", "Có, chỉ nghĩ cho mình", "Không liên quan đến người khác", "Luôn ích kỷ"], correctIndex: 0, explanation: "Yêu quý bản thân không đồng nghĩa với ích kỷ, vẫn cần quan tâm người khác." },
+    ],
+    funFact: "Các chuyên gia tâm lý cho rằng yêu quý bản thân đúng cách là nền tảng để xây dựng lòng tự trọng và các mối quan hệ tốt đẹp!",
+  },
+  "dao-duc:3:tu-tin-truoc-dam-dong": {
+    objectives: ["Rèn sự tự tin khi trình bày, giao tiếp trước lớp.", "Biết cách vượt qua sự rụt rè."],
+    sections: [
+      { heading: "1. Tự tin là gì", body: ["Là dám thể hiện ý kiến, suy nghĩ của mình một cách thoải mái trước người khác."] },
+      { heading: "2. Cách rèn luyện tự tin", body: ["Chuẩn bị kỹ nội dung, luyện tập trước gương, hít thở sâu trước khi nói."] },
+    ],
+    quiz: [
+      { question: "Tự tin trước đám đông là gì?", options: ["Dám thể hiện ý kiến thoải mái", "Luôn im lặng", "Sợ hãi khi nói trước lớp", "Không dám thể hiện bản thân"], correctIndex: 0, explanation: "Tự tin là dám thể hiện ý kiến của mình thoải mái." },
+      { question: "Cách nào giúp em tự tin hơn khi nói trước lớp?", options: ["Chuẩn bị kỹ nội dung trước", "Không chuẩn bị gì", "Tránh nói trước lớp", "Chỉ nói khi bị ép buộc"], correctIndex: 0, explanation: "Chuẩn bị kỹ giúp em tự tin hơn khi trình bày." },
+      { question: "Vì sao cần rèn luyện sự tự tin?", options: ["Giúp giao tiếp, học tập tốt hơn", "Không cần thiết", "Không có lợi ích gì", "Chỉ để khoe khoang"], correctIndex: 0, explanation: "Tự tin giúp giao tiếp và học tập hiệu quả hơn." },
+      { question: "Khi run trước khi nói, em có thể làm gì?", options: ["Hít thở sâu để bình tĩnh", "Bỏ chạy", "Khóc lóc", "Không làm gì"], correctIndex: 0, explanation: "Hít thở sâu giúp bình tĩnh hơn trước khi nói." },
+    ],
+    funFact: "Nhiều diễn giả nổi tiếng từng rất nhút nhát khi còn nhỏ, nhưng đã rèn luyện để trở nên tự tin hơn!",
+  },
+  "dao-duc:3:biet-noi-loi-cam-on-xin-loi-dung-luc": {
+    objectives: ["Rèn thói quen nói lời cảm ơn, xin lỗi phù hợp.", "Hiểu ý nghĩa của lời cảm ơn, xin lỗi."],
+    sections: [
+      { heading: "1. Lời cảm ơn", body: ["Nói 'cảm ơn' khi được giúp đỡ thể hiện sự biết ơn và lịch sự."] },
+      { heading: "2. Lời xin lỗi", body: ["Nói 'xin lỗi' khi làm sai thể hiện sự trung thực và tôn trọng người khác."] },
+    ],
+    quiz: [
+      { question: "Khi được giúp đỡ, em nên nói gì?", options: ["Cảm ơn", "Không nói gì", "Phớt lờ", "Im lặng bỏ đi"], correctIndex: 0, explanation: "Nên nói 'cảm ơn' khi được giúp đỡ." },
+      { question: "Khi làm sai, em nên làm gì?", options: ["Xin lỗi", "Đổ lỗi cho người khác", "Im lặng bỏ qua", "Không quan tâm"], correctIndex: 0, explanation: "Nên xin lỗi khi mình làm sai." },
+      { question: "Vì sao cần nói lời cảm ơn, xin lỗi đúng lúc?", options: ["Thể hiện sự lịch sự, tôn trọng", "Không cần thiết", "Không có ý nghĩa gì", "Chỉ là hình thức"], correctIndex: 0, explanation: "Lời cảm ơn, xin lỗi thể hiện sự lịch sự và tôn trọng." },
+      { question: "Nói lời cảm ơn, xin lỗi mang lại lợi ích gì?", options: ["Giúp mối quan hệ tốt đẹp hơn", "Không có lợi ích gì", "Làm mất thời gian", "Không liên quan đến giao tiếp"], correctIndex: 0, explanation: "Điều này giúp các mối quan hệ trở nên tốt đẹp hơn." },
+    ],
+    funFact: "Ở nhiều nền văn hoá, cách nói lời cảm ơn, xin lỗi được coi là thước đo phép lịch sự cơ bản!",
+  },
+  "dao-duc:3:khong-noi-doi-gian-lan-trong-hoc-tap": {
+    objectives: ["Rèn tính trung thực trong học tập.", "Hiểu tác hại của việc nói dối, gian lận."],
+    sections: [
+      { heading: "1. Trung thực trong học tập", body: ["Là tự làm bài, không chép bài bạn, không gian lận khi thi."] },
+      { heading: "2. Tác hại của gian lận", body: ["Gian lận khiến em không thực sự học được kiến thức, mất lòng tin từ thầy cô, bạn bè."] },
+    ],
+    quiz: [
+      { question: "Trung thực trong học tập là gì?", options: ["Tự làm bài, không gian lận", "Chép bài bạn", "Quay cóp khi thi", "Nhờ người khác làm bài hộ"], correctIndex: 0, explanation: "Trung thực là tự làm bài, không gian lận." },
+      { question: "Gian lận trong học tập có tác hại gì?", options: ["Không học được kiến thức thực sự", "Không có tác hại gì", "Giúp học giỏi hơn", "Không liên quan đến học tập"], correctIndex: 0, explanation: "Gian lận khiến em không học được kiến thức thực sự." },
+      { question: "Khi không làm được bài, em nên làm gì?", options: ["Cố gắng suy nghĩ hoặc hỏi thầy cô", "Chép bài bạn", "Gian lận khi thi", "Bỏ cuộc"], correctIndex: 0, explanation: "Nên cố gắng suy nghĩ hoặc hỏi thầy cô khi gặp khó khăn." },
+      { question: "Vì sao cần trung thực trong học tập?", options: ["Giúp em học thực sự và được tin tưởng", "Không cần thiết", "Không có lợi ích gì", "Chỉ để làm hài lòng thầy cô"], correctIndex: 0, explanation: "Trung thực giúp em học thực sự và được mọi người tin tưởng." },
+    ],
+    funFact: "Nhiều trường học trên thế giới có 'quy tắc danh dự' yêu cầu học sinh cam kết không gian lận trong thi cử!",
+  },
+  "dao-duc:3:giu-gin-ve-sinh-ca-nhan": {
+    objectives: ["Rèn thói quen vệ sinh cá nhân hàng ngày.", "Hiểu tầm quan trọng của vệ sinh cá nhân."],
+    sections: [
+      { heading: "1. Vệ sinh cá nhân", body: ["Tắm rửa, đánh răng, rửa tay, cắt móng tay là những thói quen vệ sinh cần thiết."] },
+      { heading: "2. Lợi ích", body: ["Giúp cơ thể khoẻ mạnh, phòng tránh bệnh tật và tự tin hơn trong giao tiếp."] },
+    ],
+    quiz: [
+      { question: "Hành động nào thể hiện vệ sinh cá nhân tốt?", options: ["Rửa tay trước khi ăn", "Không tắm rửa", "Không đánh răng", "Không cắt móng tay"], correctIndex: 0, explanation: "Rửa tay trước khi ăn là thói quen vệ sinh tốt." },
+      { question: "Vì sao cần giữ gìn vệ sinh cá nhân?", options: ["Phòng tránh bệnh tật", "Không cần thiết", "Không có lợi ích gì", "Chỉ để đẹp"], correctIndex: 0, explanation: "Vệ sinh cá nhân giúp phòng tránh bệnh tật." },
+      { question: "Nên đánh răng bao nhiêu lần mỗi ngày?", options: ["Ít nhất 2 lần", "Không cần đánh răng", "1 lần mỗi tuần", "Chỉ khi răng đau"], correctIndex: 0, explanation: "Nên đánh răng ít nhất 2 lần mỗi ngày." },
+      { question: "Vệ sinh cá nhân tốt giúp ích gì cho giao tiếp?", options: ["Giúp tự tin hơn", "Không có ích gì", "Làm mất thời gian", "Không liên quan đến giao tiếp"], correctIndex: 0, explanation: "Vệ sinh cá nhân tốt giúp em tự tin hơn khi giao tiếp." },
+    ],
+    funFact: "Rửa tay đúng cách trong 20 giây có thể loại bỏ phần lớn vi khuẩn gây bệnh trên tay!",
+  },
+  "dao-duc:3:an-uong-dieu-do-khoa-hoc": {
+    objectives: ["Rèn thói quen ăn uống điều độ, có lợi cho sức khoẻ.", "Hiểu tầm quan trọng của ăn uống khoa học."],
+    sections: [
+      { heading: "1. Ăn uống điều độ", body: ["Ăn đúng giờ, đủ bữa, không bỏ bữa sáng, ăn đa dạng thực phẩm."] },
+      { heading: "2. Lợi ích", body: ["Giúp cơ thể phát triển khoẻ mạnh, có đủ năng lượng học tập và vui chơi."] },
+    ],
+    quiz: [
+      { question: "Ăn uống điều độ là gì?", options: ["Ăn đúng giờ, đủ bữa", "Ăn tuỳ ý không theo giờ giấc", "Bỏ bữa sáng", "Chỉ ăn một loại thức ăn"], correctIndex: 0, explanation: "Ăn uống điều độ là ăn đúng giờ, đủ bữa." },
+      { question: "Vì sao không nên bỏ bữa sáng?", options: ["Cần năng lượng cho buổi sáng học tập", "Không cần thiết", "Không có lý do gì", "Bữa sáng không quan trọng"], correctIndex: 0, explanation: "Bữa sáng cung cấp năng lượng cho buổi sáng học tập." },
+      { question: "Ăn uống khoa học mang lại lợi ích gì?", options: ["Cơ thể phát triển khoẻ mạnh", "Không có lợi ích gì", "Làm mất thời gian", "Không liên quan đến sức khoẻ"], correctIndex: 0, explanation: "Ăn uống khoa học giúp cơ thể phát triển khoẻ mạnh." },
+      { question: "Nên ăn như thế nào để có sức khoẻ tốt?", options: ["Ăn đa dạng thực phẩm", "Chỉ ăn một loại thức ăn", "Ăn quá nhiều đồ ngọt", "Bỏ bữa thường xuyên"], correctIndex: 0, explanation: "Nên ăn đa dạng thực phẩm để có đủ dưỡng chất." },
+    ],
+    funFact: "Bữa sáng được coi là bữa ăn quan trọng nhất trong ngày vì cung cấp năng lượng sau một đêm dài không ăn!",
+  },
+  "dao-duc:3:ton-trong-su-rieng-tu-cua-nguoi-khac": {
+    objectives: ["Rèn ý thức tôn trọng sự riêng tư của bạn bè, người thân.", "Hiểu ý nghĩa của việc tôn trọng riêng tư."],
+    sections: [
+      { heading: "1. Sự riêng tư là gì", body: ["Là những điều thuộc về cá nhân mỗi người như nhật ký, đồ dùng riêng, suy nghĩ riêng."] },
+      { heading: "2. Cách tôn trọng riêng tư", body: ["Không tự ý xem nhật ký, đồ dùng của người khác khi chưa được cho phép."] },
+    ],
+    quiz: [
+      { question: "Sự riêng tư là gì?", options: ["Những điều thuộc về cá nhân mỗi người", "Điều ai cũng biết", "Không có gì riêng tư", "Chỉ là đồ vật"], correctIndex: 0, explanation: "Sự riêng tư là những điều thuộc về cá nhân mỗi người." },
+      { question: "Hành động nào thể hiện tôn trọng riêng tư?", options: ["Không tự ý xem nhật ký của bạn", "Đọc trộm nhật ký của bạn", "Kể chuyện riêng tư của bạn cho người khác", "Xem tin nhắn của bạn khi chưa được phép"], correctIndex: 0, explanation: "Không tự ý xem nhật ký của bạn thể hiện sự tôn trọng." },
+      { question: "Vì sao cần tôn trọng sự riêng tư của người khác?", options: ["Thể hiện sự tôn trọng và xây dựng lòng tin", "Không cần thiết", "Không có lý do gì", "Chỉ là quy định"], correctIndex: 0, explanation: "Tôn trọng riêng tư giúp xây dựng lòng tin giữa mọi người." },
+      { question: "Khi muốn biết điều riêng tư của bạn, em nên làm gì?", options: ["Hỏi trực tiếp và tôn trọng câu trả lời", "Tự ý tìm hiểu", "Lén xem đồ của bạn", "Bắt bạn phải nói ra"], correctIndex: 0, explanation: "Nên hỏi trực tiếp và tôn trọng quyết định của bạn." },
+    ],
+    funFact: "Quyền riêng tư được coi là một trong những quyền cơ bản của con người, được pháp luật nhiều nước bảo vệ!",
+  },
+  "dao-duc:3:khong-treu-choc-bat-nat-ban-be": {
+    objectives: ["Rèn thái độ ứng xử đúng mực, không bắt nạt bạn.", "Hiểu tác hại của việc trêu chọc, bắt nạt."],
+    sections: [
+      { heading: "1. Tác hại của bắt nạt", body: ["Bắt nạt gây tổn thương tinh thần, khiến bạn bè sợ hãi, mất tự tin."] },
+      { heading: "2. Cách ứng xử đúng", body: ["Chơi hoà đồng, tôn trọng bạn bè, không chê bai ngoại hình hay điểm yếu của bạn."] },
+    ],
+    quiz: [
+      { question: "Bắt nạt bạn bè gây ra tác hại gì?", options: ["Tổn thương tinh thần cho bạn", "Không có tác hại gì", "Giúp bạn mạnh mẽ hơn", "Không liên quan đến cảm xúc"], correctIndex: 0, explanation: "Bắt nạt gây tổn thương tinh thần cho người bị bắt nạt." },
+      { question: "Hành động nào KHÔNG nên làm với bạn bè?", options: ["Trêu chọc, bắt nạt bạn", "Chơi hoà đồng", "Giúp đỡ bạn", "Tôn trọng bạn"], correctIndex: 0, explanation: "Không nên trêu chọc, bắt nạt bạn bè." },
+      { question: "Khi thấy bạn bị bắt nạt, em nên làm gì?", options: ["Báo thầy cô hoặc người lớn", "Đứng nhìn không làm gì", "Tham gia bắt nạt cùng", "Bỏ đi"], correctIndex: 0, explanation: "Nên báo thầy cô hoặc người lớn khi thấy bạn bị bắt nạt." },
+      { question: "Vì sao không nên trêu chọc ngoại hình của bạn?", options: ["Có thể làm bạn buồn, tổn thương", "Không có lý do gì", "Không ảnh hưởng đến ai", "Chỉ là đùa vui"], correctIndex: 0, explanation: "Trêu chọc ngoại hình có thể làm bạn buồn và tổn thương." },
+    ],
+    funFact: "Nhiều trường học trên thế giới có chương trình 'chống bắt nạt' (anti-bullying) để bảo vệ học sinh!",
+  },
+  "dao-duc:3:biet-lang-nghe-y-kien-nguoi-khac": {
+    objectives: ["Rèn kỹ năng lắng nghe khi làm việc, trò chuyện.", "Hiểu tầm quan trọng của việc lắng nghe."],
+    sections: [
+      { heading: "1. Lắng nghe là gì", body: ["Là chú ý, tập trung khi người khác nói, không ngắt lời."] },
+      { heading: "2. Lợi ích của lắng nghe", body: ["Giúp hiểu rõ ý kiến người khác, xây dựng mối quan hệ tốt đẹp."] },
+    ],
+    quiz: [
+      { question: "Lắng nghe là gì?", options: ["Chú ý, tập trung khi người khác nói", "Ngắt lời liên tục", "Không quan tâm người nói", "Làm việc riêng khi người khác nói"], correctIndex: 0, explanation: "Lắng nghe là chú ý, tập trung khi người khác nói." },
+      { question: "Hành động nào thể hiện việc lắng nghe tốt?", options: ["Không ngắt lời người nói", "Ngắt lời liên tục", "Làm việc riêng", "Nhìn đi chỗ khác"], correctIndex: 0, explanation: "Không ngắt lời thể hiện sự lắng nghe tốt." },
+      { question: "Vì sao cần biết lắng nghe ý kiến người khác?", options: ["Giúp hiểu rõ vấn đề, xây dựng mối quan hệ tốt", "Không cần thiết", "Không có lợi ích gì", "Chỉ tốn thời gian"], correctIndex: 0, explanation: "Lắng nghe giúp hiểu rõ vấn đề và xây dựng mối quan hệ." },
+      { question: "Khi làm việc nhóm, lắng nghe giúp ích gì?", options: ["Hiểu ý kiến của các thành viên", "Không có ích gì", "Làm mất thời gian", "Không liên quan đến nhóm"], correctIndex: 0, explanation: "Lắng nghe giúp hiểu ý kiến của các thành viên trong nhóm." },
+    ],
+    funFact: "Các chuyên gia giao tiếp cho rằng lắng nghe chủ động là kỹ năng quan trọng hơn cả kỹ năng nói!",
+  },
+  "dao-duc:3:hop-tac-trong-hoat-dong-nhom": {
+    objectives: ["Rèn kỹ năng hợp tác khi làm việc nhóm.", "Hiểu lợi ích của làm việc nhóm hiệu quả."],
+    sections: [
+      { heading: "1. Hợp tác là gì", body: ["Là cùng nhau làm việc, chia sẻ nhiệm vụ để đạt mục tiêu chung."] },
+      { heading: "2. Cách hợp tác hiệu quả", body: ["Lắng nghe ý kiến các bạn, chia sẻ công việc công bằng, tôn trọng lẫn nhau."] },
+    ],
+    quiz: [
+      { question: "Hợp tác trong hoạt động nhóm là gì?", options: ["Cùng nhau làm việc để đạt mục tiêu chung", "Chỉ làm việc một mình", "Không quan tâm đến nhóm", "Tranh giành công việc"], correctIndex: 0, explanation: "Hợp tác là cùng nhau làm việc để đạt mục tiêu chung." },
+      { question: "Cách nào giúp hợp tác nhóm hiệu quả?", options: ["Chia sẻ công việc công bằng", "Chỉ một người làm hết", "Không lắng nghe ý kiến ai", "Tranh cãi liên tục"], correctIndex: 0, explanation: "Chia sẻ công việc công bằng giúp hợp tác hiệu quả." },
+      { question: "Vì sao cần hợp tác trong nhóm?", options: ["Giúp hoàn thành công việc tốt hơn", "Không cần thiết", "Không có lợi ích gì", "Chỉ làm mất thời gian"], correctIndex: 0, explanation: "Hợp tác giúp hoàn thành công việc tốt hơn." },
+      { question: "Khi bất đồng ý kiến trong nhóm, em nên làm gì?", options: ["Thảo luận để tìm giải pháp chung", "Cãi nhau", "Bỏ nhóm", "Không quan tâm"], correctIndex: 0, explanation: "Nên thảo luận để tìm giải pháp chung khi bất đồng." },
+    ],
+    funFact: "Kỹ năng làm việc nhóm là một trong những kỹ năng được các nhà tuyển dụng đánh giá cao nhất!",
+  },
+  "dao-duc:3:biet-nhuong-nhin-em-nho": {
+    objectives: ["Rèn thái độ nhường nhịn, yêu thương em nhỏ.", "Hiểu ý nghĩa của việc nhường nhịn."],
+    sections: [
+      { heading: "1. Nhường nhịn em nhỏ", body: ["Là anh chị lớn biết nhường đồ chơi, thức ăn, chỗ ngồi cho em nhỏ."] },
+      { heading: "2. Ý nghĩa", body: ["Thể hiện tình yêu thương, giúp gia đình hoà thuận, gắn kết."] },
+    ],
+    quiz: [
+      { question: "Nhường nhịn em nhỏ là gì?", options: ["Nhường đồ chơi, thức ăn cho em", "Giành đồ chơi với em", "Không quan tâm đến em", "Bắt nạt em nhỏ"], correctIndex: 0, explanation: "Nhường nhịn là nhường đồ chơi, thức ăn cho em nhỏ." },
+      { question: "Vì sao cần nhường nhịn em nhỏ?", options: ["Thể hiện tình yêu thương, gia đình hoà thuận", "Không cần thiết", "Không có ý nghĩa gì", "Chỉ là quy định"], correctIndex: 0, explanation: "Nhường nhịn thể hiện tình yêu thương và giúp gia đình hoà thuận." },
+      { question: "Hành động nào thể hiện sự nhường nhịn?", options: ["Nhường chỗ ngồi cho em", "Giành chỗ ngồi với em", "Không chia sẻ đồ chơi", "Bắt nạt em"], correctIndex: 0, explanation: "Nhường chỗ ngồi cho em thể hiện sự nhường nhịn." },
+      { question: "Là anh chị lớn, em nên có thái độ gì với em nhỏ?", options: ["Yêu thương, nhường nhịn", "Ghen tị", "Bắt nạt", "Không quan tâm"], correctIndex: 0, explanation: "Nên yêu thương và nhường nhịn em nhỏ." },
+    ],
+    funFact: "Trong văn hoá Việt Nam, tinh thần 'nhường cơm sẻ áo' được coi là truyền thống tốt đẹp giữa anh chị em!",
+  },
+  "dao-duc:3:kinh-trong-nguoi-lao-dong-xung-quanh": {
+    objectives: ["Rèn thái độ kính trọng người lao động quanh em.", "Hiểu giá trị của mọi nghề nghiệp."],
+    sections: [
+      { heading: "1. Người lao động xung quanh", body: ["Bác lao công, chú bảo vệ, cô bán hàng đều là những người lao động đáng kính trọng."] },
+      { heading: "2. Cách thể hiện sự kính trọng", body: ["Chào hỏi lễ phép, không coi thường bất kỳ nghề nghiệp nào."] },
+    ],
+    quiz: [
+      { question: "Người lao động xung quanh em gồm những ai?", options: ["Bác lao công, chú bảo vệ", "Chỉ có giáo viên", "Chỉ có bác sĩ", "Không có ai cả"], correctIndex: 0, explanation: "Bác lao công, chú bảo vệ đều là người lao động xung quanh em." },
+      { question: "Hành động nào thể hiện sự kính trọng người lao động?", options: ["Chào hỏi lễ phép", "Coi thường họ", "Không quan tâm", "Xem thường công việc của họ"], correctIndex: 0, explanation: "Chào hỏi lễ phép thể hiện sự kính trọng." },
+      { question: "Vì sao cần kính trọng mọi người lao động?", options: ["Mọi nghề nghiệp đều có giá trị", "Chỉ một số nghề mới đáng kính trọng", "Không cần thiết", "Không có lý do gì"], correctIndex: 0, explanation: "Mọi nghề nghiệp đều có giá trị riêng, đáng được tôn trọng." },
+      { question: "Em nên có thái độ gì với người lao công ở trường?", options: ["Kính trọng, biết ơn", "Coi thường", "Không quan tâm", "Xem thường"], correctIndex: 0, explanation: "Nên kính trọng và biết ơn người lao công." },
+    ],
+    funFact: "Ở nhiều nước, người lao động dọn vệ sinh, bảo vệ được xã hội tôn vinh vì công việc thầm lặng nhưng quan trọng!",
+  },
+  "dao-duc:3:tran-trong-thanh-qua-lao-dong": {
+    objectives: ["Rèn ý thức trân trọng công sức lao động của người khác.", "Hiểu ý nghĩa của lao động."],
+    sections: [
+      { heading: "1. Thành quả lao động", body: ["Là những sản phẩm, kết quả có được nhờ công sức lao động của con người."] },
+      { heading: "2. Cách trân trọng", body: ["Không lãng phí, giữ gìn cẩn thận những gì người khác đã tạo ra."] },
+    ],
+    quiz: [
+      { question: "Thành quả lao động là gì?", options: ["Sản phẩm có được nhờ công sức lao động", "Chỉ là tiền bạc", "Không có ý nghĩa gì", "Chỉ là đồ vật"], correctIndex: 0, explanation: "Thành quả lao động là sản phẩm có được nhờ công sức lao động." },
+      { question: "Hành động nào thể hiện sự trân trọng thành quả lao động?", options: ["Không lãng phí thức ăn", "Lãng phí đồ dùng", "Phá hoại đồ vật", "Không quan tâm"], correctIndex: 0, explanation: "Không lãng phí thức ăn thể hiện sự trân trọng lao động." },
+      { question: "Vì sao cần trân trọng thành quả lao động?", options: ["Thể hiện sự biết ơn công sức người khác", "Không cần thiết", "Không có ý nghĩa gì", "Chỉ là quy định"], correctIndex: 0, explanation: "Trân trọng thành quả lao động thể hiện sự biết ơn." },
+      { question: "Bát cơm em ăn hàng ngày là thành quả lao động của ai?", options: ["Người nông dân", "Không ai cả", "Tự nhiên tạo ra", "Không có công sức nào"], correctIndex: 0, explanation: "Bát cơm là thành quả lao động vất vả của người nông dân." },
+    ],
+    funFact: "Câu ca dao 'Ai ơi bưng bát cơm đầy, dẻo thơm một hạt đắng cay muôn phần' nhắc nhở về công sức lao động!",
+  },
+  "dao-duc:3:tiet-kiem-dien-nuoc-trong-sinh-hoat": {
+    objectives: ["Rèn thói quen tiết kiệm điện, nước hàng ngày.", "Hiểu ý nghĩa của việc tiết kiệm tài nguyên."],
+    sections: [
+      { heading: "1. Vì sao cần tiết kiệm", body: ["Điện, nước là tài nguyên quý giá, cần sử dụng hợp lý, không lãng phí."] },
+      { heading: "2. Cách tiết kiệm", body: ["Tắt đèn khi ra khỏi phòng, khoá vòi nước khi không dùng."] },
+    ],
+    quiz: [
+      { question: "Vì sao cần tiết kiệm điện, nước?", options: ["Đây là tài nguyên quý giá", "Không cần thiết", "Không có lý do gì", "Điện, nước là vô hạn"], correctIndex: 0, explanation: "Điện, nước là tài nguyên quý giá cần sử dụng hợp lý." },
+      { question: "Hành động nào thể hiện tiết kiệm điện?", options: ["Tắt đèn khi ra khỏi phòng", "Để đèn sáng cả ngày", "Bật nhiều thiết bị không cần thiết", "Không quan tâm đến việc tiết kiệm"], correctIndex: 0, explanation: "Tắt đèn khi ra khỏi phòng giúp tiết kiệm điện." },
+      { question: "Hành động nào thể hiện tiết kiệm nước?", options: ["Khoá vòi nước khi không dùng", "Để nước chảy liên tục", "Lãng phí nước", "Không quan tâm"], correctIndex: 0, explanation: "Khoá vòi nước khi không dùng giúp tiết kiệm nước." },
+      { question: "Tiết kiệm điện, nước mang lại lợi ích gì?", options: ["Bảo vệ tài nguyên, giảm chi phí", "Không có lợi ích gì", "Làm mất thời gian", "Không liên quan đến gia đình"], correctIndex: 0, explanation: "Tiết kiệm giúp bảo vệ tài nguyên và giảm chi phí gia đình." },
+    ],
+    funFact: "Chỉ cần khoá vòi nước khi đánh răng, mỗi người có thể tiết kiệm hàng chục lít nước mỗi ngày!",
+  },
+  "dao-duc:3:khong-lang-phi-thuc-an": {
+    objectives: ["Rèn ý thức không lãng phí thức ăn.", "Hiểu giá trị của lương thực, thực phẩm."],
+    sections: [
+      { heading: "1. Lãng phí thức ăn", body: ["Là bỏ thừa, vứt bỏ thức ăn còn dùng được, gây lãng phí công sức lao động."] },
+      { heading: "2. Cách tránh lãng phí", body: ["Ăn hết phần ăn của mình, chỉ lấy vừa đủ thức ăn cần dùng."] },
+    ],
+    quiz: [
+      { question: "Lãng phí thức ăn là gì?", options: ["Bỏ thừa, vứt bỏ thức ăn còn dùng được", "Ăn hết phần ăn của mình", "Lấy vừa đủ thức ăn", "Chia sẻ thức ăn với bạn"], correctIndex: 0, explanation: "Lãng phí thức ăn là bỏ thừa, vứt bỏ thức ăn còn dùng được." },
+      { question: "Cách nào giúp tránh lãng phí thức ăn?", options: ["Chỉ lấy vừa đủ thức ăn cần dùng", "Lấy thật nhiều rồi bỏ thừa", "Không quan tâm đến lượng ăn", "Vứt bỏ thức ăn thừa"], correctIndex: 0, explanation: "Chỉ lấy vừa đủ giúp tránh lãng phí thức ăn." },
+      { question: "Vì sao không nên lãng phí thức ăn?", options: ["Tôn trọng công sức lao động làm ra thức ăn", "Không cần thiết", "Không có lý do gì", "Thức ăn là vô hạn"], correctIndex: 0, explanation: "Không lãng phí thể hiện sự tôn trọng công sức lao động." },
+      { question: "Khi ăn không hết, em nên làm gì?", options: ["Giữ lại để ăn sau nếu có thể", "Vứt bỏ ngay", "Không quan tâm", "Bỏ đi lãng phí"], correctIndex: 0, explanation: "Nên giữ lại để ăn sau nếu có thể, tránh lãng phí." },
+    ],
+    funFact: "Theo thống kê, mỗi năm thế giới lãng phí khoảng 1/3 lượng thực phẩm được sản xuất ra!",
+  },
+  "dao-duc:3:giu-gin-do-dung-hoc-tap": {
+    objectives: ["Rèn ý thức giữ gìn, bảo quản đồ dùng học tập.", "Hiểu lợi ích của việc giữ gìn đồ dùng."],
+    sections: [
+      { heading: "1. Giữ gìn đồ dùng học tập", body: ["Là bảo quản sách vở, bút thước cẩn thận, không làm rách, mất."] },
+      { heading: "2. Lợi ích", body: ["Tiết kiệm tiền bạc cho gia đình, rèn tính cẩn thận, ngăn nắp."] },
+    ],
+    quiz: [
+      { question: "Giữ gìn đồ dùng học tập là gì?", options: ["Bảo quản sách vở, bút thước cẩn thận", "Làm rách sách vở", "Vứt bừa bãi đồ dùng", "Không quan tâm đến đồ dùng"], correctIndex: 0, explanation: "Giữ gìn là bảo quản đồ dùng học tập cẩn thận." },
+      { question: "Vì sao cần giữ gìn đồ dùng học tập?", options: ["Tiết kiệm tiền bạc, rèn tính cẩn thận", "Không cần thiết", "Không có lợi ích gì", "Chỉ là hình thức"], correctIndex: 0, explanation: "Giữ gìn đồ dùng giúp tiết kiệm và rèn tính cẩn thận." },
+      { question: "Hành động nào thể hiện việc giữ gìn đồ dùng học tập?", options: ["Bọc sách vở cẩn thận", "Vứt sách bừa bãi", "Làm rách vở", "Làm mất bút thường xuyên"], correctIndex: 0, explanation: "Bọc sách vở cẩn thận thể hiện việc giữ gìn đồ dùng." },
+      { question: "Giữ gìn đồ dùng học tập giúp rèn luyện tính cách gì?", options: ["Cẩn thận, ngăn nắp", "Không rèn luyện gì", "Cẩu thả", "Không liên quan đến tính cách"], correctIndex: 0, explanation: "Việc này giúp rèn luyện tính cẩn thận, ngăn nắp." },
+    ],
+    funFact: "Nhiều học sinh giỏi thường có thói quen sắp xếp đồ dùng học tập gọn gàng, giúp học tập hiệu quả hơn!",
+  },
+  "dao-duc:3:di-hoc-dung-gio-khong-tron-hoc": {
+    objectives: ["Rèn tính kỷ luật, tự giác trong học tập.", "Hiểu tác hại của việc đi học muộn, trốn học."],
+    sections: [
+      { heading: "1. Đi học đúng giờ", body: ["Là đến trường trước giờ vào lớp, không để bị muộn."] },
+      { heading: "2. Tác hại của trốn học", body: ["Trốn học khiến em mất bài, ảnh hưởng đến kết quả học tập và uy tín."] },
+    ],
+    quiz: [
+      { question: "Đi học đúng giờ là gì?", options: ["Đến trường trước giờ vào lớp", "Đến trường muộn", "Không đi học", "Trốn học tuỳ ý"], correctIndex: 0, explanation: "Đi học đúng giờ là đến trường trước giờ vào lớp." },
+      { question: "Trốn học có tác hại gì?", options: ["Mất bài, ảnh hưởng kết quả học tập", "Không có tác hại gì", "Giúp học tốt hơn", "Không liên quan đến học tập"], correctIndex: 0, explanation: "Trốn học khiến mất bài và ảnh hưởng kết quả học tập." },
+      { question: "Vì sao cần đi học đúng giờ?", options: ["Thể hiện tính kỷ luật, không bỏ lỡ bài học", "Không cần thiết", "Không có lý do gì", "Chỉ là quy định"], correctIndex: 0, explanation: "Đi học đúng giờ thể hiện tính kỷ luật và giúp không bỏ lỡ bài." },
+      { question: "Khi có việc phải nghỉ học, em nên làm gì?", options: ["Xin phép thầy cô, cha mẹ", "Tự ý nghỉ không báo", "Trốn học", "Không cần xin phép"], correctIndex: 0, explanation: "Cần xin phép thầy cô, cha mẹ khi phải nghỉ học." },
+    ],
+    funFact: "Thói quen đi học đúng giờ từ nhỏ giúp hình thành tính kỷ luật và trách nhiệm khi trưởng thành!",
+  },
+  "dao-duc:3:trung-thuc-khi-mac-loi": {
+    objectives: ["Rèn tính trung thực khi bản thân mắc lỗi.", "Hiểu ý nghĩa của việc trung thực nhận lỗi."],
+    sections: [
+      { heading: "1. Trung thực khi mắc lỗi", body: ["Là dám thừa nhận lỗi lầm của mình, không đổ lỗi cho người khác."] },
+      { heading: "2. Ý nghĩa", body: ["Giúp em được tin tưởng, trưởng thành hơn và sửa chữa lỗi lầm."] },
+    ],
+    quiz: [
+      { question: "Trung thực khi mắc lỗi là gì?", options: ["Dám thừa nhận lỗi lầm của mình", "Đổ lỗi cho người khác", "Che giấu lỗi lầm", "Không nhận lỗi"], correctIndex: 0, explanation: "Trung thực là dám thừa nhận lỗi lầm của mình." },
+      { question: "Khi mắc lỗi, em nên làm gì?", options: ["Thừa nhận và sửa chữa lỗi", "Đổ lỗi cho bạn khác", "Che giấu lỗi lầm", "Không quan tâm"], correctIndex: 0, explanation: "Nên thừa nhận và sửa chữa lỗi khi mắc lỗi." },
+      { question: "Vì sao cần trung thực khi mắc lỗi?", options: ["Giúp em được tin tưởng, trưởng thành hơn", "Không cần thiết", "Không có lợi ích gì", "Chỉ là quy định"], correctIndex: 0, explanation: "Trung thực giúp em được tin tưởng và trưởng thành hơn." },
+      { question: "Đổ lỗi cho người khác khi mình sai có hậu quả gì?", options: ["Mất lòng tin từ mọi người", "Không có hậu quả gì", "Giúp em thoát tội", "Không ảnh hưởng đến ai"], correctIndex: 0, explanation: "Đổ lỗi cho người khác khiến em mất lòng tin từ mọi người." },
+    ],
+    funFact: "Câu chuyện 'George Washington và cây anh đào' là bài học nổi tiếng về sự trung thực khi mắc lỗi!",
+  },
+  "dao-duc:3:biet-xin-loi-khi-lam-sai": {
+    objectives: ["Rèn thói quen nhận lỗi và xin lỗi khi làm sai.", "Biết cách xin lỗi chân thành."],
+    sections: [
+      { heading: "1. Cách xin lỗi", body: ["Nói lời xin lỗi chân thành, giải thích ngắn gọn và hứa sửa chữa."] },
+      { heading: "2. Ý nghĩa của việc xin lỗi", body: ["Giúp hàn gắn mối quan hệ, thể hiện sự tôn trọng người khác."] },
+    ],
+    quiz: [
+      { question: "Khi làm sai, em nên làm gì?", options: ["Xin lỗi chân thành", "Im lặng bỏ qua", "Đổ lỗi cho người khác", "Không quan tâm"], correctIndex: 0, explanation: "Nên xin lỗi chân thành khi làm sai." },
+      { question: "Lời xin lỗi chân thành cần có điều gì?", options: ["Thừa nhận lỗi và hứa sửa chữa", "Chỉ nói 'xin lỗi' qua loa", "Không cần giải thích", "Đổ lỗi cho hoàn cảnh"], correctIndex: 0, explanation: "Lời xin lỗi chân thành cần thừa nhận lỗi và hứa sửa chữa." },
+      { question: "Vì sao cần biết xin lỗi khi làm sai?", options: ["Giúp hàn gắn mối quan hệ", "Không cần thiết", "Không có lợi ích gì", "Chỉ là hình thức"], correctIndex: 0, explanation: "Xin lỗi giúp hàn gắn mối quan hệ với người khác." },
+      { question: "Sau khi xin lỗi, em cần làm gì tiếp theo?", options: ["Sửa chữa lỗi lầm, không tái phạm", "Không cần làm gì thêm", "Tiếp tục mắc lỗi", "Quên ngay lời hứa"], correctIndex: 0, explanation: "Cần sửa chữa lỗi lầm và không tái phạm sau khi xin lỗi." },
+    ],
+    funFact: "Một lời xin lỗi chân thành có thể hàn gắn những mối quan hệ tưởng chừng đã rạn nứt!",
+  },
+  "dao-duc:3:yeu-thuong-loai-vat": {
+    objectives: ["Rèn tình yêu thương, đối xử tốt với loài vật.", "Hiểu vai trò của động vật trong cuộc sống."],
+    sections: [
+      { heading: "1. Yêu thương loài vật", body: ["Là chăm sóc, bảo vệ, không hành hạ động vật."] },
+      { heading: "2. Cách thể hiện", body: ["Cho vật nuôi ăn uống đầy đủ, không đánh đập, bảo vệ động vật hoang dã."] },
+    ],
+    quiz: [
+      { question: "Yêu thương loài vật là gì?", options: ["Chăm sóc, bảo vệ động vật", "Hành hạ động vật", "Không quan tâm đến động vật", "Bỏ đói vật nuôi"], correctIndex: 0, explanation: "Yêu thương loài vật là chăm sóc, bảo vệ động vật." },
+      { question: "Hành động nào thể hiện yêu thương loài vật?", options: ["Cho vật nuôi ăn uống đầy đủ", "Đánh đập vật nuôi", "Bỏ đói vật nuôi", "Hành hạ động vật"], correctIndex: 0, explanation: "Cho vật nuôi ăn uống đầy đủ thể hiện tình yêu thương." },
+      { question: "Vì sao cần yêu thương, bảo vệ loài vật?", options: ["Động vật cũng có cảm xúc, cần được đối xử tốt", "Không cần thiết", "Không có lý do gì", "Động vật không quan trọng"], correctIndex: 0, explanation: "Động vật cũng có cảm xúc và cần được đối xử tốt." },
+      { question: "Khi thấy người khác hành hạ động vật, em nên làm gì?", options: ["Báo người lớn hoặc ngăn cản", "Tham gia cùng", "Không quan tâm", "Cổ vũ"], correctIndex: 0, explanation: "Nên báo người lớn hoặc ngăn cản khi thấy hành vi hành hạ động vật." },
+    ],
+    funFact: "Nhiều quốc gia đã ban hành luật bảo vệ động vật để ngăn chặn hành vi ngược đãi, hành hạ chúng!",
+  },
+  "dao-duc:3:bao-ve-cay-xanh-noi-cong-cong": {
+    objectives: ["Rèn ý thức bảo vệ cây xanh nơi công cộng.", "Hiểu vai trò của cây xanh với môi trường."],
+    sections: [
+      { heading: "1. Vai trò của cây xanh", body: ["Cây xanh cung cấp oxy, làm mát không khí, tạo cảnh quan đẹp."] },
+      { heading: "2. Cách bảo vệ", body: ["Không bẻ cành, hái lá, viết vẽ lên cây; tưới nước, chăm sóc cây khi có thể."] },
+    ],
+    quiz: [
+      { question: "Cây xanh có vai trò gì?", options: ["Cung cấp oxy, làm mát không khí", "Không có vai trò gì", "Chỉ để trang trí", "Không liên quan đến môi trường"], correctIndex: 0, explanation: "Cây xanh cung cấp oxy và làm mát không khí." },
+      { question: "Hành động nào KHÔNG nên làm với cây xanh nơi công cộng?", options: ["Bẻ cành, hái lá", "Tưới nước cho cây", "Chăm sóc cây", "Bảo vệ cây"], correctIndex: 0, explanation: "Không nên bẻ cành, hái lá cây nơi công cộng." },
+      { question: "Vì sao cần bảo vệ cây xanh nơi công cộng?", options: ["Giữ gìn môi trường xanh sạch đẹp", "Không cần thiết", "Không có lý do gì", "Chỉ để trang trí"], correctIndex: 0, explanation: "Bảo vệ cây xanh giúp giữ gìn môi trường xanh sạch đẹp." },
+      { question: "Em có thể làm gì để bảo vệ cây xanh?", options: ["Không viết vẽ lên cây", "Bẻ cành cây", "Hái lá cây", "Phá hoại cây"], correctIndex: 0, explanation: "Không viết vẽ lên cây là cách bảo vệ cây xanh." },
+    ],
+    funFact: "Một cây xanh trưởng thành có thể cung cấp lượng oxy đủ cho khoảng 2 người thở trong một ngày!",
+  },
+  "dao-duc:3:ung-xu-dung-muc-tren-xe-buyt-tau-xe": {
+    objectives: ["Rèn thói quen ứng xử văn minh khi đi xe công cộng.", "Hiểu quy tắc ứng xử nơi công cộng."],
+    sections: [
+      { heading: "1. Ứng xử trên xe công cộng", body: ["Giữ trật tự, không nói to, không chen lấn khi lên xuống xe."] },
+      { heading: "2. Quy tắc chung", body: ["Xếp hàng, nhường chỗ cho người cần thiết, giữ vệ sinh chung."] },
+    ],
+    quiz: [
+      { question: "Khi đi xe buýt, em nên làm gì?", options: ["Giữ trật tự, không nói to", "Nói to gây ồn ào", "Chen lấn xô đẩy", "Không xếp hàng"], correctIndex: 0, explanation: "Nên giữ trật tự, không nói to khi đi xe buýt." },
+      { question: "Hành động nào thể hiện ứng xử văn minh trên xe công cộng?", options: ["Xếp hàng khi lên xe", "Chen lấn xô đẩy", "Nói chuyện to", "Xả rác trên xe"], correctIndex: 0, explanation: "Xếp hàng khi lên xe thể hiện ứng xử văn minh." },
+      { question: "Vì sao cần ứng xử đúng mực trên xe công cộng?", options: ["Thể hiện sự văn minh, tôn trọng người khác", "Không cần thiết", "Không có lý do gì", "Chỉ là quy định"], correctIndex: 0, explanation: "Ứng xử đúng mực thể hiện sự văn minh và tôn trọng." },
+      { question: "Khi lên xuống xe, em nên làm gì?", options: ["Không chen lấn, xếp hàng trật tự", "Chen lấn để lên trước", "Xô đẩy người khác", "Không quan tâm đến trật tự"], correctIndex: 0, explanation: "Nên xếp hàng trật tự, không chen lấn khi lên xuống xe." },
+    ],
+    funFact: "Ở nhiều nước phát triển, việc xếp hàng trật tự khi lên xe công cộng được coi là chuẩn mực văn hoá cơ bản!",
+  },
+  "dao-duc:3:nhuong-ghe-cho-nguoi-gia-tre-nho-phu-nu-mang-thai": {
+    objectives: ["Rèn thái độ quan tâm, nhường nhịn nơi công cộng.", "Hiểu ý nghĩa của việc nhường ghế."],
+    sections: [
+      { heading: "1. Nhường ghế", body: ["Là chủ động đứng dậy nhường chỗ ngồi cho người già, trẻ nhỏ, phụ nữ mang thai trên xe."] },
+      { heading: "2. Ý nghĩa", body: ["Thể hiện sự quan tâm, tôn trọng và văn minh trong ứng xử."] },
+    ],
+    quiz: [
+      { question: "Nhường ghế trên xe buýt là hành động dành cho ai?", options: ["Người già, trẻ nhỏ, phụ nữ mang thai", "Chỉ dành cho bạn bè", "Không cần nhường cho ai", "Chỉ dành cho người quen"], correctIndex: 0, explanation: "Nhường ghế dành cho người già, trẻ nhỏ, phụ nữ mang thai." },
+      { question: "Vì sao cần nhường ghế cho người già, trẻ nhỏ?", options: ["Thể hiện sự quan tâm, tôn trọng", "Không cần thiết", "Không có lý do gì", "Chỉ là quy định bắt buộc"], correctIndex: 0, explanation: "Nhường ghế thể hiện sự quan tâm và tôn trọng." },
+      { question: "Hành động nhường ghế thể hiện điều gì về con người?", options: ["Sự văn minh, lịch sự", "Sự ích kỷ", "Sự thờ ơ", "Không có ý nghĩa gì"], correctIndex: 0, explanation: "Nhường ghế thể hiện sự văn minh, lịch sự." },
+      { question: "Khi thấy người già lên xe không có chỗ ngồi, em nên làm gì?", options: ["Đứng dậy nhường ghế", "Giả vờ không thấy", "Tiếp tục ngồi", "Không quan tâm"], correctIndex: 0, explanation: "Nên đứng dậy nhường ghế cho người già." },
+    ],
+    funFact: "Nhiều xe buýt có ghế ưu tiên riêng dành cho người già, trẻ em, phụ nữ mang thai và người khuyết tật!",
+  },
+  "dao-duc:3:giup-do-nguoi-khuyet-tat-noi-cong-cong": {
+    objectives: ["Rèn thái độ sẵn sàng giúp đỡ người khuyết tật.", "Hiểu cách giúp đỡ phù hợp, tôn trọng."],
+    sections: [
+      { heading: "1. Giúp đỡ người khuyết tật", body: ["Là hỗ trợ khi họ cần, như dắt qua đường, mở cửa, nhường chỗ."] },
+      { heading: "2. Cách giúp đỡ đúng cách", body: ["Hỏi xem họ có cần giúp không trước khi hành động, tôn trọng sự tự lập của họ."] },
+    ],
+    quiz: [
+      { question: "Khi thấy người khuyết tật cần giúp đỡ, em nên làm gì?", options: ["Hỏi xem họ có cần giúp không", "Phớt lờ", "Tự ý giúp mà không hỏi", "Không quan tâm"], correctIndex: 0, explanation: "Nên hỏi xem họ có cần giúp đỡ không trước khi hành động." },
+      { question: "Vì sao cần tôn trọng khi giúp đỡ người khuyết tật?", options: ["Tôn trọng sự tự lập của họ", "Không cần thiết", "Không có lý do gì", "Chỉ cần giúp theo ý mình"], correctIndex: 0, explanation: "Cần tôn trọng sự tự lập của người khuyết tật khi giúp đỡ." },
+      { question: "Hành động nào thể hiện sự giúp đỡ đúng cách?", options: ["Dắt qua đường khi họ đồng ý", "Tự ý kéo đi mà không hỏi", "Phớt lờ khi họ cần giúp", "Cười chê họ"], correctIndex: 0, explanation: "Dắt qua đường khi họ đồng ý là cách giúp đỡ đúng." },
+      { question: "Em nên có thái độ gì với người khuyết tật?", options: ["Tôn trọng, cảm thông, sẵn sàng giúp đỡ", "Xem thường", "Trêu chọc", "Xa lánh"], correctIndex: 0, explanation: "Nên tôn trọng, cảm thông và sẵn sàng giúp đỡ người khuyết tật." },
+    ],
+    funFact: "Nhiều thành phố hiện đại đã thiết kế vỉa hè, lối đi riêng để hỗ trợ người khuyết tật di chuyển thuận tiện hơn!",
+  },
+  "dao-duc:3:ton-trong-luat-le-giao-thong-khi-di-bo": {
+    objectives: ["Rèn ý thức chấp hành luật giao thông khi đi bộ.", "Biết cách đi bộ an toàn."],
+    sections: [
+      { heading: "1. Quy tắc đi bộ an toàn", body: ["Đi trên vỉa hè, sang đường ở nơi có vạch kẻ, tuân thủ đèn tín hiệu."] },
+      { heading: "2. Vì sao cần tuân thủ", body: ["Giúp đảm bảo an toàn cho bản thân và người tham gia giao thông khác."] },
+    ],
+    quiz: [
+      { question: "Khi đi bộ, em nên đi ở đâu?", options: ["Trên vỉa hè", "Giữa lòng đường", "Bất kỳ đâu", "Không cần chú ý"], correctIndex: 0, explanation: "Khi đi bộ, nên đi trên vỉa hè." },
+      { question: "Khi sang đường, em nên làm gì?", options: ["Sang đường ở nơi có vạch kẻ", "Băng qua đường bất kỳ chỗ nào", "Chạy nhanh qua đường", "Không quan sát xe cộ"], correctIndex: 0, explanation: "Nên sang đường ở nơi có vạch kẻ đường dành cho người đi bộ." },
+      { question: "Vì sao cần tuân thủ luật giao thông khi đi bộ?", options: ["Đảm bảo an toàn cho bản thân", "Không cần thiết", "Không có lý do gì", "Chỉ là quy định"], correctIndex: 0, explanation: "Tuân thủ luật giao thông giúp đảm bảo an toàn." },
+      { question: "Đèn tín hiệu giao thông màu đỏ có ý nghĩa gì với người đi bộ?", options: ["Dừng lại, không băng qua đường", "Được đi ngay", "Không có ý nghĩa gì", "Chạy nhanh qua đường"], correctIndex: 0, explanation: "Đèn đỏ báo hiệu phải dừng lại, không băng qua đường." },
+    ],
+    funFact: "Vạch kẻ đường dành cho người đi bộ còn được gọi là 'vạch ngựa vằn' vì hình dáng giống những sọc trắng đen!",
+  },
+  "dao-duc:3:an-toan-khi-di-xe-dap": {
+    objectives: ["Rèn ý thức an toàn khi tham gia giao thông bằng xe đạp.", "Biết các quy tắc an toàn khi đi xe đạp."],
+    sections: [
+      { heading: "1. Quy tắc an toàn", body: ["Đội mũ bảo hiểm, đi đúng làn đường, không đi hàng ngang, không buông tay lái."] },
+      { heading: "2. Kiểm tra xe trước khi đi", body: ["Kiểm tra phanh, lốp xe trước khi đi để đảm bảo an toàn."] },
+    ],
+    quiz: [
+      { question: "Khi đi xe đạp, em nên làm gì để an toàn?", options: ["Đội mũ bảo hiểm", "Không đội mũ bảo hiểm", "Buông tay lái", "Đi hàng ngang với bạn"], correctIndex: 0, explanation: "Đội mũ bảo hiểm giúp bảo vệ an toàn khi đi xe đạp." },
+      { question: "Hành động nào KHÔNG an toàn khi đi xe đạp?", options: ["Buông tay lái", "Đội mũ bảo hiểm", "Đi đúng làn đường", "Kiểm tra phanh trước khi đi"], correctIndex: 0, explanation: "Buông tay lái là hành động không an toàn khi đi xe đạp." },
+      { question: "Trước khi đi xe đạp, em nên kiểm tra gì?", options: ["Phanh, lốp xe", "Không cần kiểm tra gì", "Chỉ cần kiểm tra màu sắc xe", "Không quan trọng"], correctIndex: 0, explanation: "Nên kiểm tra phanh, lốp xe trước khi đi." },
+      { question: "Vì sao không nên đi xe đạp hàng ngang?", options: ["Gây nguy hiểm, cản trở giao thông", "Không có lý do gì", "Rất an toàn", "Không ảnh hưởng đến ai"], correctIndex: 0, explanation: "Đi hàng ngang gây nguy hiểm và cản trở giao thông." },
+    ],
+    funFact: "Đội mũ bảo hiểm đúng cách có thể giảm nguy cơ chấn thương đầu nghiêm trọng tới hơn 70% khi xảy ra tai nạn!",
+  },
+  "dao-duc:3:canh-giac-voi-nguoi-la": {
+    objectives: ["Rèn kỹ năng cảnh giác, tự bảo vệ trước người lạ.", "Biết cách ứng xử an toàn với người lạ."],
+    sections: [
+      { heading: "1. Cảnh giác với người lạ", body: ["Không đi theo, không nói chuyện quá nhiều với người lạ khi không có người thân bên cạnh."] },
+      { heading: "2. Cách ứng xử an toàn", body: ["Giữ khoảng cách, tìm người lớn đáng tin cậy khi gặp tình huống bất an."] },
+    ],
+    quiz: [
+      { question: "Khi gặp người lạ, em nên có thái độ gì?", options: ["Cảnh giác, giữ khoảng cách", "Đi theo ngay", "Tin tưởng hoàn toàn", "Không cần cảnh giác"], correctIndex: 0, explanation: "Nên cảnh giác và giữ khoảng cách với người lạ." },
+      { question: "Nếu người lạ rủ đi theo, em nên làm gì?", options: ["Từ chối và báo người lớn", "Đi theo ngay", "Không nói với ai", "Tin tưởng ngay lập tức"], correctIndex: 0, explanation: "Nên từ chối và báo người lớn khi người lạ rủ đi theo." },
+      { question: "Vì sao cần cảnh giác với người lạ?", options: ["Bảo vệ an toàn cho bản thân", "Không cần thiết", "Không có lý do gì", "Người lạ luôn tốt bụng"], correctIndex: 0, explanation: "Cảnh giác giúp bảo vệ an toàn cho bản thân." },
+      { question: "Khi gặp tình huống bất an với người lạ, em nên tìm ai?", options: ["Người lớn đáng tin cậy", "Không tìm ai cả", "Chỉ tự mình giải quyết", "Người lạ khác"], correctIndex: 0, explanation: "Nên tìm người lớn đáng tin cậy khi gặp tình huống bất an." },
+    ],
+    funFact: "Nhiều trường học tổ chức các buổi học kỹ năng 'nói không với người lạ' để giúp trẻ em tự bảo vệ mình!",
+  },
+  "dao-duc:3:khong-tu-y-nhan-qua-tu-nguoi-la": {
+    objectives: ["Rèn kỹ năng từ chối quà từ người lạ để tự bảo vệ.", "Biết cách xử lý khi bị dụ dỗ bằng quà."],
+    sections: [
+      { heading: "1. Vì sao không nên nhận quà từ người lạ", body: ["Người lạ có thể lợi dụng quà để dụ dỗ, gây nguy hiểm cho trẻ em."] },
+      { heading: "2. Cách xử lý", body: ["Từ chối lịch sự, tránh xa và báo ngay cho người lớn biết."] },
+    ],
+    quiz: [
+      { question: "Khi người lạ cho quà, em nên làm gì?", options: ["Từ chối và báo người lớn", "Nhận ngay", "Đi theo người đó", "Không nói với ai"], correctIndex: 0, explanation: "Nên từ chối và báo người lớn khi người lạ cho quà." },
+      { question: "Vì sao không nên nhận quà từ người lạ?", options: ["Có thể bị lợi dụng, gây nguy hiểm", "Không có lý do gì", "Quà luôn an toàn", "Người lạ luôn tốt bụng"], correctIndex: 0, explanation: "Người lạ có thể lợi dụng quà để gây nguy hiểm cho trẻ em." },
+      { question: "Sau khi từ chối quà từ người lạ, em nên làm gì?", options: ["Báo ngay cho người lớn", "Không nói với ai", "Đi theo người đó để hỏi thêm", "Nhận quà sau"], correctIndex: 0, explanation: "Nên báo ngay cho người lớn sau khi từ chối." },
+      { question: "Kỹ năng từ chối quà từ người lạ giúp ích gì?", options: ["Bảo vệ an toàn cho bản thân", "Không có ích gì", "Làm mất lòng người khác", "Không liên quan đến an toàn"], correctIndex: 0, explanation: "Kỹ năng này giúp bảo vệ an toàn cho bản thân." },
+    ],
+    funFact: "Nhiều chương trình giáo dục an toàn trẻ em dạy quy tắc 'không nhận, không đi, không nói với người lạ'!",
+  },
+  "dao-duc:3:giu-bi-mat-thong-tin-ca-nhan": {
+    objectives: ["Rèn ý thức bảo vệ thông tin cá nhân của bản thân.", "Biết những thông tin nào cần giữ bí mật."],
+    sections: [
+      { heading: "1. Thông tin cá nhân cần bảo vệ", body: ["Tên đầy đủ, địa chỉ nhà, số điện thoại, mật khẩu là những thông tin cần giữ bí mật với người lạ."] },
+      { heading: "2. Cách bảo vệ", body: ["Không chia sẻ thông tin cá nhân với người lạ, kể cả trên mạng internet."] },
+    ],
+    quiz: [
+      { question: "Thông tin nào cần giữ bí mật với người lạ?", options: ["Địa chỉ nhà, số điện thoại", "Tên môn học yêu thích", "Màu sắc yêu thích", "Sở thích ăn uống"], correctIndex: 0, explanation: "Địa chỉ nhà, số điện thoại là thông tin cần giữ bí mật." },
+      { question: "Khi người lạ hỏi địa chỉ nhà, em nên làm gì?", options: ["Không cung cấp thông tin", "Nói ngay địa chỉ", "Chỉ đường đến nhà", "Cung cấp đầy đủ thông tin"], correctIndex: 0, explanation: "Không nên cung cấp thông tin cá nhân cho người lạ." },
+      { question: "Vì sao cần giữ bí mật thông tin cá nhân?", options: ["Bảo vệ an toàn cho bản thân", "Không cần thiết", "Không có lý do gì", "Thông tin cá nhân không quan trọng"], correctIndex: 0, explanation: "Giữ bí mật thông tin giúp bảo vệ an toàn cho bản thân." },
+      { question: "Trên mạng internet, em có nên chia sẻ thông tin cá nhân không?", options: ["Không, cần cẩn thận", "Có, chia sẻ tự do", "Không quan trọng", "Luôn luôn chia sẻ"], correctIndex: 0, explanation: "Không nên chia sẻ thông tin cá nhân tự do trên mạng." },
+    ],
+    funFact: "Nhiều vụ lừa đảo trên mạng bắt đầu từ việc kẻ xấu thu thập thông tin cá nhân của nạn nhân!",
+  },
+  "dao-duc:3:ung-xu-khi-bi-bat-nat": {
+    objectives: ["Rèn kỹ năng ứng xử phù hợp khi bị bắt nạt.", "Biết cách tìm sự giúp đỡ khi cần."],
+    sections: [
+      { heading: "1. Khi bị bắt nạt", body: ["Cần bình tĩnh, không đánh trả bằng bạo lực, tìm cách rời khỏi tình huống."] },
+      { heading: "2. Tìm sự giúp đỡ", body: ["Báo ngay cho thầy cô, cha mẹ hoặc người lớn đáng tin cậy."] },
+    ],
+    quiz: [
+      { question: "Khi bị bắt nạt, em nên làm gì?", options: ["Bình tĩnh và báo người lớn", "Đánh trả bằng bạo lực", "Im lặng chịu đựng mãi", "Tự giải quyết một mình"], correctIndex: 0, explanation: "Nên bình tĩnh và báo người lớn khi bị bắt nạt." },
+      { question: "Vì sao không nên đánh trả bằng bạo lực?", options: ["Có thể khiến tình huống tệ hơn", "Không có lý do gì", "Bạo lực luôn giải quyết được vấn đề", "Không ảnh hưởng gì"], correctIndex: 0, explanation: "Đánh trả bằng bạo lực có thể khiến tình huống tệ hơn." },
+      { question: "Ai có thể giúp đỡ khi em bị bắt nạt?", options: ["Thầy cô, cha mẹ", "Không ai cả", "Chỉ có thể tự giải quyết", "Không cần ai giúp"], correctIndex: 0, explanation: "Thầy cô, cha mẹ có thể giúp đỡ khi em bị bắt nạt." },
+      { question: "Vì sao cần báo cho người lớn khi bị bắt nạt?", options: ["Được hỗ trợ và bảo vệ kịp thời", "Không cần thiết", "Không có lợi ích gì", "Chỉ làm mọi việc tệ hơn"], correctIndex: 0, explanation: "Báo người lớn giúp em được hỗ trợ và bảo vệ kịp thời." },
+    ],
+    funFact: "Nhiều trường học có đường dây nóng hoặc hộp thư riêng để học sinh báo cáo tình trạng bắt nạt một cách an toàn!",
+  },
+  "dao-duc:3:doan-ket-giup-do-ban-hoc-yeu": {
+    objectives: ["Rèn tinh thần đoàn kết, giúp đỡ bạn học yếu hơn.", "Hiểu ý nghĩa của tinh thần tương trợ."],
+    sections: [
+      { heading: "1. Giúp đỡ bạn học yếu", body: ["Là kiên nhẫn giảng lại bài, chia sẻ cách học hiệu quả với bạn."] },
+      { heading: "2. Ý nghĩa", body: ["Giúp bạn tiến bộ hơn, xây dựng tình bạn đẹp, lớp học đoàn kết."] },
+    ],
+    quiz: [
+      { question: "Giúp đỡ bạn học yếu là gì?", options: ["Kiên nhẫn giảng lại bài cho bạn", "Chê bai bạn học kém", "Không quan tâm đến bạn", "Xa lánh bạn học yếu"], correctIndex: 0, explanation: "Giúp đỡ là kiên nhẫn giảng lại bài cho bạn." },
+      { question: "Vì sao cần đoàn kết, giúp đỡ bạn học yếu?", options: ["Giúp bạn tiến bộ, xây dựng tình bạn đẹp", "Không cần thiết", "Không có lợi ích gì", "Chỉ làm mất thời gian"], correctIndex: 0, explanation: "Giúp đỡ bạn giúp bạn tiến bộ và xây dựng tình bạn đẹp." },
+      { question: "Hành động nào thể hiện tinh thần đoàn kết trong lớp?", options: ["Giúp bạn ôn bài trước kiểm tra", "Chê bai bạn học kém", "Không chia sẻ bài học", "Xa lánh bạn yếu"], correctIndex: 0, explanation: "Giúp bạn ôn bài thể hiện tinh thần đoàn kết." },
+      { question: "Khi thấy bạn học yếu, em nên có thái độ gì?", options: ["Kiên nhẫn, sẵn sàng giúp đỡ", "Chê bai", "Xa lánh", "Không quan tâm"], correctIndex: 0, explanation: "Nên kiên nhẫn và sẵn sàng giúp đỡ bạn." },
+    ],
+    funFact: "Học nhóm và giúp đỡ nhau học tập là phương pháp học tập hiệu quả được nhiều trường học khuyến khích!",
+  },
+  "dao-duc:3:khong-phan-biet-doi-xu-ban-be": {
+    objectives: ["Rèn thái độ đối xử công bằng với mọi bạn bè.", "Hiểu tác hại của sự phân biệt đối xử."],
+    sections: [
+      { heading: "1. Phân biệt đối xử là gì", body: ["Là đối xử không công bằng dựa trên ngoại hình, hoàn cảnh gia đình, vùng miền."] },
+      { heading: "2. Cách đối xử công bằng", body: ["Chơi với tất cả các bạn, không chê bai, xa lánh ai vì sự khác biệt."] },
+    ],
+    quiz: [
+      { question: "Phân biệt đối xử là gì?", options: ["Đối xử không công bằng dựa trên khác biệt", "Đối xử công bằng với mọi người", "Chơi với tất cả các bạn", "Tôn trọng mọi người"], correctIndex: 0, explanation: "Phân biệt đối xử là đối xử không công bằng dựa trên khác biệt." },
+      { question: "Hành động nào KHÔNG nên làm với bạn có hoàn cảnh khó khăn?", options: ["Xa lánh, chê bai", "Giúp đỡ", "Chơi cùng", "Tôn trọng"], correctIndex: 0, explanation: "Không nên xa lánh, chê bai bạn có hoàn cảnh khó khăn." },
+      { question: "Vì sao không nên phân biệt đối xử bạn bè?", options: ["Mọi người đều đáng được tôn trọng", "Không cần thiết", "Không có lý do gì", "Chỉ cần chơi với bạn giống mình"], correctIndex: 0, explanation: "Mọi người đều đáng được tôn trọng như nhau." },
+      { question: "Em nên có thái độ gì với các bạn khác nhau?", options: ["Đối xử công bằng, tôn trọng", "Phân biệt", "Xa lánh", "Chê bai"], correctIndex: 0, explanation: "Nên đối xử công bằng và tôn trọng với mọi bạn bè." },
+    ],
+    funFact: "Nhiều tổ chức quốc tế đã xây dựng chương trình giáo dục về bình đẳng và chống phân biệt đối xử từ bậc tiểu học!",
+  },
+  "dao-duc:3:ton-trong-su-khac-biet-vung-mien": {
+    objectives: ["Rèn thái độ tôn trọng sự khác biệt văn hoá vùng miền.", "Hiểu sự đa dạng văn hoá Việt Nam."],
+    sections: [
+      { heading: "1. Sự khác biệt vùng miền", body: ["Mỗi vùng miền có giọng nói, phong tục, món ăn riêng, tạo nên sự đa dạng văn hoá."] },
+      { heading: "2. Cách tôn trọng", body: ["Không chê bai giọng nói, phong tục của bạn đến từ vùng miền khác."] },
+    ],
+    quiz: [
+      { question: "Sự khác biệt vùng miền thể hiện qua điều gì?", options: ["Giọng nói, phong tục, món ăn", "Không có sự khác biệt nào", "Chỉ khác nhau về tên gọi", "Không liên quan đến văn hoá"], correctIndex: 0, explanation: "Sự khác biệt vùng miền thể hiện qua giọng nói, phong tục, món ăn." },
+      { question: "Hành động nào KHÔNG nên làm với bạn có giọng nói vùng miền khác?", options: ["Chê bai giọng nói của bạn", "Tôn trọng", "Lắng nghe", "Học hỏi văn hoá"], correctIndex: 0, explanation: "Không nên chê bai giọng nói của bạn." },
+      { question: "Vì sao cần tôn trọng sự khác biệt vùng miền?", options: ["Đây là nét đẹp đa dạng văn hoá", "Không cần thiết", "Không có lý do gì", "Chỉ có một vùng miền là đúng"], correctIndex: 0, explanation: "Sự khác biệt vùng miền là nét đẹp đa dạng văn hoá." },
+      { question: "Em nên có thái độ gì với bạn đến từ vùng miền khác?", options: ["Tôn trọng, thân thiện", "Xa lánh", "Chê bai", "Kỳ thị"], correctIndex: 0, explanation: "Nên tôn trọng và thân thiện với bạn đến từ vùng miền khác." },
+    ],
+    funFact: "Việt Nam có ba miền Bắc, Trung, Nam với những nét văn hoá, ẩm thực và giọng nói đặc trưng riêng biệt!",
+  },
+  "dao-duc:3:biet-on-thay-co-giao-cu": {
+    objectives: ["Rèn tình cảm biết ơn với thầy cô đã từng dạy dỗ.", "Biết cách thể hiện lòng biết ơn."],
+    sections: [
+      { heading: "1. Biết ơn thầy cô cũ", body: ["Là nhớ và trân trọng công lao dạy dỗ của các thầy cô đã từng dạy mình."] },
+      { heading: "2. Cách thể hiện", body: ["Thăm hỏi, gửi lời chúc vào dịp lễ, chăm chỉ học tập để không phụ lòng thầy cô."] },
+    ],
+    quiz: [
+      { question: "Biết ơn thầy cô giáo cũ là gì?", options: ["Nhớ và trân trọng công lao dạy dỗ", "Quên đi thầy cô cũ", "Không quan tâm", "Không cần nhớ đến"], correctIndex: 0, explanation: "Biết ơn là nhớ và trân trọng công lao dạy dỗ của thầy cô." },
+      { question: "Cách nào thể hiện lòng biết ơn với thầy cô cũ?", options: ["Gửi lời chúc vào dịp lễ", "Quên đi thầy cô", "Không quan tâm", "Không nhớ đến thầy cô"], correctIndex: 0, explanation: "Gửi lời chúc vào dịp lễ thể hiện lòng biết ơn." },
+      { question: "Vì sao cần biết ơn thầy cô giáo?", options: ["Thầy cô đã dạy dỗ, giúp em trưởng thành", "Không cần thiết", "Không có lý do gì", "Chỉ là hình thức"], correctIndex: 0, explanation: "Thầy cô đã dạy dỗ và giúp em trưởng thành." },
+      { question: "Ngày nào là dịp để tri ân thầy cô giáo?", options: ["20/11", "8/3", "1/6", "2/9"], correctIndex: 0, explanation: "Ngày 20/11 là Ngày Nhà giáo Việt Nam, dịp tri ân thầy cô." },
+    ],
+    funFact: "Câu tục ngữ 'Nhất tự vi sư, bán tự vi sư' nhắc nhở về lòng biết ơn với người dạy dỗ mình dù chỉ một chữ!",
+  },
+  "dao-duc:3:giu-chu-tin-voi-ban-be": {
+    objectives: ["Rèn ý thức giữ chữ tín trong các mối quan hệ bạn bè.", "Hiểu ý nghĩa của chữ tín."],
+    sections: [
+      { heading: "1. Chữ tín là gì", body: ["Là giữ đúng lời đã hứa, đúng hẹn với bạn bè."] },
+      { heading: "2. Ý nghĩa của chữ tín", body: ["Giúp xây dựng lòng tin, tình bạn bền vững."] },
+    ],
+    quiz: [
+      { question: "Chữ tín là gì?", options: ["Giữ đúng lời đã hứa", "Thất hứa thường xuyên", "Không giữ lời hứa", "Nói một đằng làm một nẻo"], correctIndex: 0, explanation: "Chữ tín là giữ đúng lời đã hứa." },
+      { question: "Hành động nào thể hiện giữ chữ tín?", options: ["Đến đúng hẹn với bạn", "Thất hứa thường xuyên", "Không giữ lời hứa", "Nói dối bạn bè"], correctIndex: 0, explanation: "Đến đúng hẹn với bạn thể hiện giữ chữ tín." },
+      { question: "Vì sao cần giữ chữ tín với bạn bè?", options: ["Xây dựng lòng tin, tình bạn bền vững", "Không cần thiết", "Không có lợi ích gì", "Chỉ là hình thức"], correctIndex: 0, explanation: "Giữ chữ tín giúp xây dựng lòng tin và tình bạn bền vững." },
+      { question: "Nếu không thể giữ lời hứa, em nên làm gì?", options: ["Báo trước và giải thích lý do", "Im lặng không nói gì", "Trốn tránh bạn", "Không quan tâm"], correctIndex: 0, explanation: "Nên báo trước và giải thích lý do nếu không thể giữ lời hứa." },
+    ],
+    funFact: "Trong kinh doanh và cuộc sống, chữ tín được coi là tài sản vô giá, 'mất tiền có thể tìm lại, mất tín thì khó lấy lại'!",
+  },
+  "dao-duc:3:khong-tham-lam-khong-lay-do-khong-phai-cua-minh": {
+    objectives: ["Rèn tính trung thực, không tham lam.", "Biết cách ứng xử khi thấy đồ vật không phải của mình."],
+    sections: [
+      { heading: "1. Không tham lam", body: ["Là không lấy đồ vật, tiền bạc không thuộc về mình dù không ai biết."] },
+      { heading: "2. Cách ứng xử đúng", body: ["Trả lại đồ vật cho chủ nhân hoặc báo cho người lớn khi nhặt được."] },
+    ],
+    quiz: [
+      { question: "Không tham lam là gì?", options: ["Không lấy đồ vật không thuộc về mình", "Lấy đồ vật của người khác", "Giấu đồ nhặt được", "Không trả lại đồ nhặt được"], correctIndex: 0, explanation: "Không tham lam là không lấy đồ vật không thuộc về mình." },
+      { question: "Khi nhặt được đồ vật của người khác, em nên làm gì?", options: ["Trả lại hoặc báo người lớn", "Giữ lại cho mình", "Giấu đi", "Không quan tâm"], correctIndex: 0, explanation: "Nên trả lại hoặc báo người lớn khi nhặt được đồ vật." },
+      { question: "Vì sao không nên tham lam?", options: ["Thể hiện tính trung thực, được tin tưởng", "Không cần thiết", "Không có lý do gì", "Tham lam là bình thường"], correctIndex: 0, explanation: "Không tham lam thể hiện tính trung thực và được tin tưởng." },
+      { question: "Lấy đồ của người khác mà không xin phép được gọi là gì?", options: ["Hành vi không trung thực", "Hành vi tốt", "Không có vấn đề gì", "Hành vi bình thường"], correctIndex: 0, explanation: "Lấy đồ người khác mà không xin phép là hành vi không trung thực." },
+    ],
+    funFact: "Nhiều câu chuyện cổ tích Việt Nam như 'Cây khế' dạy bài học về lòng tham và hậu quả của nó!",
+  },
+  "dao-duc:3:biet-chia-se-do-choi-do-dung": {
+    objectives: ["Rèn thói quen chia sẻ đồ chơi, đồ dùng với bạn.", "Hiểu ý nghĩa của việc chia sẻ."],
+    sections: [
+      { heading: "1. Chia sẻ là gì", body: ["Là cùng bạn bè sử dụng đồ chơi, đồ dùng thay vì giữ riêng cho mình."] },
+      { heading: "2. Ý nghĩa của chia sẻ", body: ["Giúp xây dựng tình bạn, học cách quan tâm đến người khác."] },
+    ],
+    quiz: [
+      { question: "Chia sẻ đồ chơi, đồ dùng là gì?", options: ["Cùng bạn bè sử dụng đồ chơi", "Giữ riêng cho mình", "Không cho ai mượn", "Giấu đồ chơi đi"], correctIndex: 0, explanation: "Chia sẻ là cùng bạn bè sử dụng đồ chơi, đồ dùng." },
+      { question: "Vì sao cần biết chia sẻ với bạn bè?", options: ["Xây dựng tình bạn, học cách quan tâm", "Không cần thiết", "Không có lợi ích gì", "Chỉ làm mất đồ của mình"], correctIndex: 0, explanation: "Chia sẻ giúp xây dựng tình bạn và học cách quan tâm." },
+      { question: "Hành động nào thể hiện sự chia sẻ?", options: ["Cho bạn mượn đồ chơi", "Giữ đồ chơi cho riêng mình", "Không cho ai mượn", "Giấu đồ đi khi bạn hỏi mượn"], correctIndex: 0, explanation: "Cho bạn mượn đồ chơi thể hiện sự chia sẻ." },
+      { question: "Khi chia sẻ đồ chơi, em cảm thấy như thế nào?", options: ["Vui vẻ, có thêm bạn bè", "Buồn bã", "Tức giận", "Không cảm thấy gì"], correctIndex: 0, explanation: "Chia sẻ mang lại niềm vui và giúp có thêm bạn bè." },
+    ],
+    funFact: "Nghiên cứu tâm lý cho thấy trẻ em học cách chia sẻ từ nhỏ thường có kỹ năng xã hội tốt hơn khi lớn lên!",
+  },
+  "dao-duc:3:ung-xu-le-phep-khi-co-khach-den-nha": {
+    objectives: ["Rèn thái độ lễ phép khi tiếp khách cùng gia đình.", "Biết cách chào hỏi, ứng xử với khách."],
+    sections: [
+      { heading: "1. Ứng xử khi có khách", body: ["Chào hỏi lễ phép, mời khách ngồi, không nói leo khi người lớn nói chuyện."] },
+      { heading: "2. Ý nghĩa", body: ["Thể hiện sự lễ phép, mang lại ấn tượng tốt cho gia đình."] },
+    ],
+    quiz: [
+      { question: "Khi có khách đến nhà, em nên làm gì?", options: ["Chào hỏi lễ phép", "Trốn vào phòng", "Không quan tâm", "Nói leo khi người lớn nói chuyện"], correctIndex: 0, explanation: "Nên chào hỏi lễ phép khi có khách đến nhà." },
+      { question: "Hành động nào KHÔNG nên làm khi có khách?", options: ["Nói leo khi người lớn nói chuyện", "Chào hỏi lễ phép", "Mời khách ngồi", "Lắng nghe người lớn"], correctIndex: 0, explanation: "Không nên nói leo khi người lớn đang nói chuyện." },
+      { question: "Vì sao cần ứng xử lễ phép khi có khách?", options: ["Thể hiện sự lễ phép, ấn tượng tốt", "Không cần thiết", "Không có lý do gì", "Chỉ là hình thức"], correctIndex: 0, explanation: "Ứng xử lễ phép thể hiện sự lễ phép và tạo ấn tượng tốt." },
+      { question: "Khi khách đến nhà, em có thể làm gì để thể hiện sự hiếu khách?", options: ["Mời khách ngồi, rót nước mời khách", "Không quan tâm", "Trốn đi chỗ khác", "Không chào hỏi"], correctIndex: 0, explanation: "Mời khách ngồi, rót nước mời khách thể hiện sự hiếu khách." },
+    ],
+    funFact: "Người Việt Nam có truyền thống 'khách đến nhà không trà thì bánh', thể hiện sự hiếu khách nồng hậu!",
+  },
+  "dao-duc:3:cu-xu-dung-muc-trong-bua-an-gia-dinh": {
+    objectives: ["Rèn thói quen cư xử lịch sự trong bữa ăn.", "Biết các quy tắc ứng xử khi ăn cùng gia đình."],
+    sections: [
+      { heading: "1. Quy tắc trong bữa ăn", body: ["Mời người lớn trước khi ăn, không nói chuyện khi đang nhai, không gắp thức ăn lung tung."] },
+      { heading: "2. Ý nghĩa", body: ["Thể hiện sự lễ phép, giúp bữa ăn gia đình thêm ấm cúng."] },
+    ],
+    quiz: [
+      { question: "Trước khi ăn, em nên làm gì?", options: ["Mời người lớn ăn cơm", "Ăn ngay không mời ai", "Không quan tâm đến ai", "Giành ăn trước"], correctIndex: 0, explanation: "Nên mời người lớn ăn cơm trước khi bắt đầu ăn." },
+      { question: "Hành động nào KHÔNG nên làm trong bữa ăn?", options: ["Nói chuyện khi đang nhai", "Mời người lớn ăn cơm", "Ăn từ tốn", "Cảm ơn sau bữa ăn"], correctIndex: 0, explanation: "Không nên nói chuyện khi đang nhai thức ăn." },
+      { question: "Vì sao cần cư xử đúng mực trong bữa ăn?", options: ["Thể hiện sự lễ phép, bữa ăn ấm cúng", "Không cần thiết", "Không có lý do gì", "Chỉ là quy định"], correctIndex: 0, explanation: "Cư xử đúng mực giúp bữa ăn gia đình ấm cúng hơn." },
+      { question: "Sau khi ăn xong, em nên làm gì?", options: ["Cảm ơn và xin phép rời bàn", "Bỏ đi ngay không nói gì", "Không dọn dẹp", "Không quan tâm"], correctIndex: 0, explanation: "Nên cảm ơn và xin phép rời bàn sau khi ăn xong." },
+    ],
+    funFact: "Bữa cơm gia đình được coi là thời gian quý giá để các thành viên gắn kết, chia sẻ chuyện trong ngày!",
+  },
+  "dao-duc:3:giup-do-cha-me-viec-nha-phu-hop-lua-tuoi": {
+    objectives: ["Rèn ý thức tự giác giúp đỡ việc nhà.", "Biết những việc nhà phù hợp với lứa tuổi."],
+    sections: [
+      { heading: "1. Việc nhà phù hợp lứa tuổi", body: ["Quét nhà, gấp quần áo, dọn dẹp bàn học là những việc nhà phù hợp với học sinh tiểu học."] },
+      { heading: "2. Ý nghĩa", body: ["Giúp gia đình nhẹ nhàng hơn, rèn tính tự lập cho bản thân."] },
+    ],
+    quiz: [
+      { question: "Việc nhà nào phù hợp với học sinh tiểu học?", options: ["Quét nhà, gấp quần áo", "Nấu ăn phức tạp", "Sửa chữa điện", "Lái xe"], correctIndex: 0, explanation: "Quét nhà, gấp quần áo là việc nhà phù hợp với học sinh tiểu học." },
+      { question: "Vì sao cần giúp đỡ cha mẹ việc nhà?", options: ["Giúp gia đình nhẹ nhàng hơn, rèn tính tự lập", "Không cần thiết", "Không có lợi ích gì", "Chỉ là việc của người lớn"], correctIndex: 0, explanation: "Giúp đỡ việc nhà giúp gia đình nhẹ nhàng hơn và rèn tính tự lập." },
+      { question: "Hành động nào thể hiện sự tự giác giúp đỡ việc nhà?", options: ["Chủ động dọn dẹp bàn học", "Chờ cha mẹ nhắc nhở", "Không làm gì cả", "Từ chối giúp đỡ"], correctIndex: 0, explanation: "Chủ động dọn dẹp bàn học thể hiện sự tự giác." },
+      { question: "Giúp đỡ việc nhà mang lại lợi ích gì cho bản thân?", options: ["Rèn tính tự lập, trách nhiệm", "Không có lợi ích gì", "Làm mất thời gian học", "Không liên quan đến bản thân"], correctIndex: 0, explanation: "Việc này giúp rèn tính tự lập và trách nhiệm." },
+    ],
+    funFact: "Nhiều nghiên cứu cho thấy trẻ em thường xuyên làm việc nhà từ nhỏ có xu hướng thành công hơn khi trưởng thành!",
+  },
+  "dao-duc:3:ton-trong-quyet-dinh-cua-cha-me": {
+    objectives: ["Rèn thái độ tôn trọng, lắng nghe ý kiến cha mẹ.", "Biết cách bày tỏ ý kiến một cách lễ phép."],
+    sections: [
+      { heading: "1. Tôn trọng quyết định của cha mẹ", body: ["Là lắng nghe, không cãi lại vô lễ khi cha mẹ đưa ra quyết định."] },
+      { heading: "2. Cách bày tỏ ý kiến", body: ["Nếu không đồng ý, có thể nhẹ nhàng trình bày lý do và lắng nghe giải thích của cha mẹ."] },
+    ],
+    quiz: [
+      { question: "Tôn trọng quyết định của cha mẹ là gì?", options: ["Lắng nghe, không cãi lại vô lễ", "Cãi lại gay gắt", "Không quan tâm đến ý kiến cha mẹ", "Làm ngược lại hoàn toàn"], correctIndex: 0, explanation: "Tôn trọng là lắng nghe, không cãi lại vô lễ." },
+      { question: "Khi không đồng ý với cha mẹ, em nên làm gì?", options: ["Nhẹ nhàng trình bày lý do", "Cãi lại gay gắt", "Bỏ đi không nói gì", "Làm trái ý cha mẹ"], correctIndex: 0, explanation: "Nên nhẹ nhàng trình bày lý do khi không đồng ý." },
+      { question: "Vì sao cần tôn trọng quyết định của cha mẹ?", options: ["Cha mẹ có kinh nghiệm và yêu thương con", "Không cần thiết", "Không có lý do gì", "Cha mẹ luôn sai"], correctIndex: 0, explanation: "Cha mẹ có kinh nghiệm và luôn yêu thương, mong điều tốt cho con." },
+      { question: "Cách bày tỏ ý kiến với cha mẹ nên như thế nào?", options: ["Lễ phép, nhẹ nhàng", "Cãi lại gay gắt", "Im lặng không nói gì", "La hét"], correctIndex: 0, explanation: "Nên bày tỏ ý kiến một cách lễ phép, nhẹ nhàng." },
+    ],
+    funFact: "Giao tiếp cởi mở, tôn trọng giữa cha mẹ và con cái giúp xây dựng mối quan hệ gia đình bền chặt hơn!",
+  },
+  "dao-duc:3:biet-lap-muc-tieu-hoc-tap-nho": {
+    objectives: ["Rèn kỹ năng đặt mục tiêu học tập phù hợp.", "Biết cách lập kế hoạch để đạt mục tiêu."],
+    sections: [
+      { heading: "1. Mục tiêu học tập là gì", body: ["Là điều em muốn đạt được trong học tập, ví dụ như đạt điểm cao môn Toán."] },
+      { heading: "2. Cách lập mục tiêu", body: ["Đặt mục tiêu cụ thể, vừa sức, lập kế hoạch từng bước để đạt được."] },
+    ],
+    quiz: [
+      { question: "Mục tiêu học tập là gì?", options: ["Điều em muốn đạt được trong học tập", "Không có ý nghĩa gì", "Chỉ là ước mơ xa vời", "Không liên quan đến học tập"], correctIndex: 0, explanation: "Mục tiêu học tập là điều em muốn đạt được trong học tập." },
+      { question: "Mục tiêu học tập nên như thế nào?", options: ["Cụ thể, vừa sức", "Mơ hồ, không rõ ràng", "Quá xa vời", "Không cần đặt ra"], correctIndex: 0, explanation: "Mục tiêu nên cụ thể và vừa sức để dễ thực hiện." },
+      { question: "Vì sao cần lập mục tiêu học tập?", options: ["Giúp định hướng và cố gắng học tập", "Không cần thiết", "Không có lợi ích gì", "Chỉ làm mất thời gian"], correctIndex: 0, explanation: "Lập mục tiêu giúp định hướng và cố gắng trong học tập." },
+      { question: "Sau khi đặt mục tiêu, em cần làm gì tiếp theo?", options: ["Lập kế hoạch từng bước thực hiện", "Không cần làm gì thêm", "Quên ngay mục tiêu", "Không cần cố gắng"], correctIndex: 0, explanation: "Cần lập kế hoạch từng bước để đạt được mục tiêu." },
+    ],
+    funFact: "Các chuyên gia giáo dục khuyên nên đặt mục tiêu theo nguyên tắc SMART: cụ thể, đo lường được, khả thi, thực tế và có thời hạn!",
+  },
+  "dao-duc:3:on-tap-giua-hoc-ky-1": {
+    objectives: ["Hệ thống kiến thức đã học ở giữa học kỳ 1.", "Củng cố các giá trị đạo đức cơ bản."],
+    sections: [
+      { heading: "1. Nội dung ôn tập", body: ["Ôn lại các chủ đề: tự hào truyền thống quê hương, ham học hỏi, quan tâm hàng xóm, giữ lời hứa."] },
+    ],
+    quiz: [
+      { question: "Giữ lời hứa có ý nghĩa gì?", options: ["Xây dựng lòng tin với mọi người", "Không có ý nghĩa gì", "Chỉ là hình thức", "Không cần thiết"], correctIndex: 0, explanation: "Giữ lời hứa giúp xây dựng lòng tin với mọi người." },
+      { question: "Ham học hỏi thể hiện điều gì?", options: ["Tinh thần khám phá, cầu tiến", "Không có ý nghĩa gì", "Sự lười biếng", "Không liên quan đến học tập"], correctIndex: 0, explanation: "Ham học hỏi thể hiện tinh thần khám phá, cầu tiến." },
+      { question: "Quan tâm hàng xóm láng giềng có ý nghĩa gì?", options: ["Xây dựng cộng đồng gắn kết", "Không cần thiết", "Không có lợi ích gì", "Chỉ là hình thức"], correctIndex: 0, explanation: "Quan tâm hàng xóm giúp xây dựng cộng đồng gắn kết." },
+      { question: "Tự hào truyền thống quê hương thể hiện điều gì?", options: ["Tình yêu và trân trọng quê hương", "Không có ý nghĩa gì", "Sự thờ ơ", "Không liên quan đến quê hương"], correctIndex: 0, explanation: "Điều này thể hiện tình yêu và trân trọng quê hương." },
+    ],
+    funFact: "Ôn tập giữa kỳ giúp em củng cố lại các giá trị đạo đức đã học và áp dụng vào cuộc sống hàng ngày!",
+  },
+  "dao-duc:3:on-tap-cuoi-hoc-ky-1": {
+    objectives: ["Hệ thống kiến thức đã học trong học kỳ 1.", "Tổng hợp các bài học đạo đức quan trọng."],
+    sections: [
+      { heading: "1. Nội dung ôn tập", body: ["Ôn lại: phòng tránh tai nạn, ứng phó tình huống bất an, bảo vệ môi trường, trách nhiệm với nhiệm vụ."] },
+    ],
+    quiz: [
+      { question: "Tích cực hoàn thành nhiệm vụ thể hiện điều gì?", options: ["Tinh thần trách nhiệm", "Sự lười biếng", "Không có ý nghĩa gì", "Không liên quan đến trách nhiệm"], correctIndex: 0, explanation: "Điều này thể hiện tinh thần trách nhiệm." },
+      { question: "Tôn trọng người khuyết tật thể hiện điều gì?", options: ["Sự cảm thông, tôn trọng", "Sự kỳ thị", "Không có ý nghĩa gì", "Không liên quan đến đạo đức"], correctIndex: 0, explanation: "Điều này thể hiện sự cảm thông và tôn trọng." },
+      { question: "Chia sẻ với bạn có hoàn cảnh khó khăn có ý nghĩa gì?", options: ["Thể hiện tình yêu thương, sẻ chia", "Không cần thiết", "Không có ý nghĩa gì", "Chỉ là hình thức"], correctIndex: 0, explanation: "Điều này thể hiện tình yêu thương và sự sẻ chia." },
+      { question: "Vì sao cần bảo vệ của công?", options: ["Đây là tài sản chung cần giữ gìn", "Không cần thiết", "Không có lý do gì", "Chỉ là quy định"], correctIndex: 0, explanation: "Của công là tài sản chung cần được giữ gìn." },
+    ],
+    funFact: "Ôn tập cuối kỳ giúp em nhìn lại và áp dụng những bài học đạo đức vào cuộc sống thực tế!",
+  },
+  "dao-duc:3:on-tap-giua-hoc-ky-2": {
+    objectives: ["Hệ thống kiến thức đã học ở giữa học kỳ 2.", "Củng cố kỹ năng ứng xử an toàn."],
+    sections: [
+      { heading: "1. Nội dung ôn tập", body: ["Ôn lại: an toàn giao thông, cảnh giác người lạ, bảo vệ thông tin cá nhân, ứng xử khi bị bắt nạt."] },
+    ],
+    quiz: [
+      { question: "Vì sao cần cảnh giác với người lạ?", options: ["Bảo vệ an toàn cho bản thân", "Không cần thiết", "Không có lý do gì", "Người lạ luôn tốt bụng"], correctIndex: 0, explanation: "Cảnh giác giúp bảo vệ an toàn cho bản thân." },
+      { question: "Khi bị bắt nạt, em nên làm gì?", options: ["Báo người lớn", "Im lặng chịu đựng", "Đánh trả bằng bạo lực", "Không làm gì"], correctIndex: 0, explanation: "Nên báo người lớn khi bị bắt nạt." },
+      { question: "Thông tin nào cần giữ bí mật với người lạ?", options: ["Địa chỉ nhà, số điện thoại", "Môn học yêu thích", "Màu sắc yêu thích", "Sở thích ăn uống"], correctIndex: 0, explanation: "Địa chỉ nhà, số điện thoại cần được giữ bí mật." },
+      { question: "Khi đi bộ, em nên đi ở đâu để an toàn?", options: ["Trên vỉa hè", "Giữa lòng đường", "Bất kỳ đâu", "Không cần chú ý"], correctIndex: 0, explanation: "Nên đi trên vỉa hè để đảm bảo an toàn." },
+    ],
+    funFact: "Kỹ năng tự bảo vệ bản thân là hành trang quan trọng giúp trẻ em an toàn trong cuộc sống hàng ngày!",
+  },
+  "dao-duc:3:tinh-huong-nhat-duoc-cua-roi": {
+    objectives: ["Rèn kỹ năng ứng xử khi nhặt được của rơi.", "Hiểu tầm quan trọng của tính trung thực."],
+    sections: [
+      { heading: "1. Tình huống nhặt được của rơi", body: ["Khi nhặt được tiền, đồ vật của người khác, cần tìm cách trả lại."] },
+      { heading: "2. Cách xử lý đúng", body: ["Báo cho thầy cô, công an hoặc thông báo công khai để tìm người bị mất."] },
+    ],
+    quiz: [
+      { question: "Khi nhặt được của rơi, em nên làm gì?", options: ["Tìm cách trả lại cho người mất", "Giữ lại cho mình", "Giấu đi", "Không quan tâm"], correctIndex: 0, explanation: "Nên tìm cách trả lại của rơi cho người mất." },
+      { question: "Nhặt được tiền ở trường, em nên báo cho ai?", options: ["Thầy cô giáo", "Không báo cho ai", "Giữ bí mật", "Bạn bè thân thiết"], correctIndex: 0, explanation: "Nên báo cho thầy cô giáo khi nhặt được tiền ở trường." },
+      { question: "Vì sao không nên giữ của nhặt được cho riêng mình?", options: ["Đó là hành vi không trung thực", "Không có lý do gì", "Của rơi thuộc về người nhặt", "Không ảnh hưởng đến ai"], correctIndex: 0, explanation: "Giữ của nhặt được là hành vi không trung thực." },
+      { question: "Trả lại của rơi cho người mất thể hiện đức tính gì?", options: ["Trung thực, thật thà", "Tham lam", "Không có đức tính gì", "Ích kỷ"], correctIndex: 0, explanation: "Hành động này thể hiện đức tính trung thực, thật thà." },
+    ],
+    funFact: "Câu chuyện về những tấm gương trả lại của rơi luôn được xã hội trân trọng và tuyên dương!",
+  },
+  "dao-duc:3:tinh-huong-ban-ru-lam-viec-xau": {
+    objectives: ["Rèn kỹ năng từ chối khi bị rủ làm việc xấu.", "Biết cách xử lý tình huống bị rủ rê."],
+    sections: [
+      { heading: "1. Khi bị bạn rủ làm việc xấu", body: ["Cần dứt khoát từ chối, giải thích lý do và không tham gia."] },
+      { heading: "2. Cách ứng xử", body: ["Khuyên bạn không nên làm việc xấu, báo người lớn nếu cần thiết."] },
+    ],
+    quiz: [
+      { question: "Khi bạn rủ làm việc xấu, em nên làm gì?", options: ["Từ chối dứt khoát", "Đồng ý làm theo", "Im lặng không nói gì", "Tham gia cho vui"], correctIndex: 0, explanation: "Nên từ chối dứt khoát khi bị rủ làm việc xấu." },
+      { question: "Vì sao cần từ chối khi bị rủ làm việc xấu?", options: ["Bảo vệ bản thân và tránh hậu quả xấu", "Không cần thiết", "Không có lý do gì", "Làm theo bạn bè là đúng"], correctIndex: 0, explanation: "Từ chối giúp bảo vệ bản thân và tránh hậu quả xấu." },
+      { question: "Sau khi từ chối, em có thể làm gì?", options: ["Khuyên bạn không nên làm việc xấu", "Không quan tâm đến bạn nữa", "Tham gia cùng bạn", "Không nói gì thêm"], correctIndex: 0, explanation: "Có thể khuyên bạn không nên làm việc xấu." },
+      { question: "Nếu bạn tiếp tục rủ rê, em nên làm gì?", options: ["Báo cho người lớn nếu cần thiết", "Tiếp tục im lặng", "Đồng ý làm theo", "Không làm gì"], correctIndex: 0, explanation: "Nên báo cho người lớn nếu bạn tiếp tục rủ rê." },
+    ],
+    funFact: "Kỹ năng từ chối khéo léo (assertiveness) là kỹ năng quan trọng giúp trẻ em tránh xa những ảnh hưởng xấu!",
+  },
+  "dao-duc:3:tinh-huong-chung-kien-ban-bi-bat-nat": {
+    objectives: ["Rèn kỹ năng ứng xử khi chứng kiến bạn bị bắt nạt.", "Hiểu trách nhiệm của người chứng kiến."],
+    sections: [
+      { heading: "1. Khi chứng kiến bạn bị bắt nạt", body: ["Không nên đứng nhìn thờ ơ hay tham gia bắt nạt cùng."] },
+      { heading: "2. Cách ứng xử đúng", body: ["Báo ngay cho thầy cô, người lớn hoặc giúp bạn nếu có thể một cách an toàn."] },
+    ],
+    quiz: [
+      { question: "Khi chứng kiến bạn bị bắt nạt, em nên làm gì?", options: ["Báo ngay cho thầy cô", "Đứng nhìn thờ ơ", "Tham gia bắt nạt cùng", "Không quan tâm"], correctIndex: 0, explanation: "Nên báo ngay cho thầy cô khi chứng kiến bạn bị bắt nạt." },
+      { question: "Vì sao không nên thờ ơ khi thấy bạn bị bắt nạt?", options: ["Có thể khiến bạn bị tổn thương thêm", "Không có lý do gì", "Không liên quan đến mình", "Bắt nạt là bình thường"], correctIndex: 0, explanation: "Thờ ơ có thể khiến bạn bị tổn thương thêm." },
+      { question: "Hành động nào KHÔNG nên làm khi thấy bạn bị bắt nạt?", options: ["Tham gia bắt nạt cùng", "Báo người lớn", "Giúp đỡ bạn an toàn", "Ngăn cản hành vi xấu"], correctIndex: 0, explanation: "Không nên tham gia bắt nạt cùng." },
+      { question: "Người chứng kiến bắt nạt có trách nhiệm gì?", options: ["Giúp đỡ, báo cáo tình huống", "Không có trách nhiệm gì", "Chỉ đứng nhìn", "Tham gia cùng"], correctIndex: 0, explanation: "Người chứng kiến có trách nhiệm giúp đỡ và báo cáo tình huống." },
+    ],
+    funFact: "Nhiều nghiên cứu cho thấy khi người chứng kiến lên tiếng, tình trạng bắt nạt sẽ giảm đáng kể!",
+  },
+  "dao-duc:3:tinh-huong-duoc-giao-nhiem-vu-kho": {
+    objectives: ["Rèn tinh thần trách nhiệm khi gặp nhiệm vụ khó.", "Biết cách vượt qua khó khăn trong công việc."],
+    sections: [
+      { heading: "1. Khi gặp nhiệm vụ khó", body: ["Không nên bỏ cuộc, cần cố gắng tìm cách giải quyết hoặc xin giúp đỡ."] },
+      { heading: "2. Cách vượt qua khó khăn", body: ["Chia nhỏ nhiệm vụ, hỏi ý kiến thầy cô, bạn bè khi cần thiết."] },
+    ],
+    quiz: [
+      { question: "Khi được giao nhiệm vụ khó, em nên làm gì?", options: ["Cố gắng tìm cách giải quyết", "Bỏ cuộc ngay", "Từ chối nhiệm vụ", "Không làm gì cả"], correctIndex: 0, explanation: "Nên cố gắng tìm cách giải quyết nhiệm vụ khó." },
+      { question: "Cách nào giúp giải quyết nhiệm vụ khó?", options: ["Chia nhỏ nhiệm vụ thành các bước", "Bỏ cuộc ngay lập tức", "Không làm gì cả", "Đợi người khác làm hộ"], correctIndex: 0, explanation: "Chia nhỏ nhiệm vụ giúp dễ giải quyết hơn." },
+      { question: "Khi gặp khó khăn, em có thể làm gì?", options: ["Hỏi ý kiến thầy cô, bạn bè", "Không hỏi ai", "Bỏ cuộc", "Tự ti về bản thân"], correctIndex: 0, explanation: "Có thể hỏi ý kiến thầy cô, bạn bè khi gặp khó khăn." },
+      { question: "Vì sao cần có tinh thần trách nhiệm với nhiệm vụ được giao?", options: ["Giúp em trưởng thành, đáng tin cậy", "Không cần thiết", "Không có lợi ích gì", "Chỉ là hình thức"], correctIndex: 0, explanation: "Tinh thần trách nhiệm giúp em trưởng thành và đáng tin cậy hơn." },
+    ],
+    funFact: "Nhiều người thành công chia sẻ rằng chính những nhiệm vụ khó khăn đã giúp họ trưởng thành và học hỏi nhiều nhất!",
+  },
+  "dao-duc:3:tro-choi-sam-vai-ung-xu-tinh-huong": {
+    objectives: ["Luyện ứng xử tình huống qua trò chơi sắm vai.", "Rèn kỹ năng xử lý tình huống thực tế."],
+    sections: [
+      { heading: "1. Cách chơi", body: ["Đóng vai các nhân vật trong tình huống giả định để luyện cách ứng xử phù hợp."] },
+      { heading: "2. Lợi ích", body: ["Giúp em tự tin hơn khi gặp tình huống tương tự trong cuộc sống thực."] },
+    ],
+    quiz: [
+      { question: "Trò chơi sắm vai giúp ích điều gì?", options: ["Luyện cách ứng xử tình huống thực tế", "Không có ích gì", "Làm mất thời gian", "Không liên quan đến kỹ năng sống"], correctIndex: 0, explanation: "Trò chơi này giúp luyện cách ứng xử tình huống thực tế." },
+      { question: "Khi sắm vai, em cần làm gì?", options: ["Nhập vai và xử lý tình huống hợp lý", "Không cần nhập vai", "Chỉ cần đọc lời thoại", "Không cần suy nghĩ"], correctIndex: 0, explanation: "Cần nhập vai và xử lý tình huống một cách hợp lý." },
+      { question: "Trò chơi sắm vai giúp rèn luyện điều gì?", options: ["Kỹ năng xử lý tình huống", "Không rèn luyện gì", "Chỉ để giải trí", "Không liên quan đến cuộc sống"], correctIndex: 0, explanation: "Trò chơi này giúp rèn luyện kỹ năng xử lý tình huống." },
+      { question: "Vì sao trò chơi sắm vai hữu ích cho việc học đạo đức?", options: ["Giúp áp dụng kiến thức vào tình huống cụ thể", "Không hữu ích", "Chỉ để vui chơi", "Không liên quan đến đạo đức"], correctIndex: 0, explanation: "Trò chơi giúp áp dụng kiến thức đạo đức vào tình huống cụ thể." },
+    ],
+    funFact: "Phương pháp học qua đóng vai (role-play) được nhiều nhà giáo dục áp dụng để dạy kỹ năng sống hiệu quả!",
+  },
+  "dao-duc:3:thuc-hanh-lap-ke-hoach-mot-ngay-tot-dep": {
+    objectives: ["Thực hành lập kế hoạch cho một ngày ý nghĩa.", "Rèn kỹ năng quản lý thời gian."],
+    sections: [
+      { heading: "1. Lập kế hoạch một ngày", body: ["Liệt kê các việc cần làm trong ngày: học tập, giúp đỡ gia đình, vui chơi, nghỉ ngơi."] },
+      { heading: "2. Thực hiện kế hoạch", body: ["Cố gắng thực hiện đúng kế hoạch đã đề ra để có một ngày ý nghĩa."] },
+    ],
+    quiz: [
+      { question: "Lập kế hoạch một ngày giúp ích điều gì?", options: ["Quản lý thời gian hiệu quả", "Không có ích gì", "Làm mất thời gian", "Không liên quan đến cuộc sống"], correctIndex: 0, explanation: "Lập kế hoạch giúp quản lý thời gian hiệu quả." },
+      { question: "Kế hoạch một ngày nên bao gồm những gì?", options: ["Học tập, giúp gia đình, vui chơi, nghỉ ngơi", "Chỉ có học tập", "Chỉ có vui chơi", "Không cần bao gồm gì"], correctIndex: 0, explanation: "Kế hoạch nên bao gồm đầy đủ các hoạt động cân bằng." },
+      { question: "Vì sao cần thực hiện đúng kế hoạch đã đề ra?", options: ["Giúp đạt được mục tiêu đề ra", "Không cần thiết", "Không có lợi ích gì", "Chỉ là hình thức"], correctIndex: 0, explanation: "Thực hiện đúng kế hoạch giúp đạt được mục tiêu." },
+      { question: "Một ngày ý nghĩa cần có yếu tố gì?", options: ["Cân bằng giữa học tập và nghỉ ngơi", "Chỉ có học tập", "Chỉ có chơi", "Không cần cân bằng"], correctIndex: 0, explanation: "Một ngày ý nghĩa cần cân bằng giữa học tập và nghỉ ngơi." },
+    ],
+    funFact: "Nhiều người thành công có thói quen lập kế hoạch cho ngày mới vào mỗi buổi tối hôm trước!",
+  },
+  "dao-duc:3:thuc-hanh-viet-loi-cam-on-thay-co": {
+    objectives: ["Thực hành viết lời cảm ơn dành cho thầy cô.", "Rèn tình cảm biết ơn với thầy cô giáo."],
+    sections: [
+      { heading: "1. Nội dung lời cảm ơn", body: ["Nêu rõ lý do cảm ơn, kỷ niệm đáng nhớ với thầy cô, lời chúc tốt đẹp."] },
+      { heading: "2. Cách viết", body: ["Viết chân thành, ngắn gọn, thể hiện đúng tình cảm của mình."] },
+    ],
+    quiz: [
+      { question: "Lời cảm ơn thầy cô nên có nội dung gì?", options: ["Lý do cảm ơn, lời chúc tốt đẹp", "Không cần nội dung gì", "Chỉ cần một từ 'cảm ơn'", "Không cần chân thành"], correctIndex: 0, explanation: "Lời cảm ơn nên có lý do cảm ơn và lời chúc tốt đẹp." },
+      { question: "Khi viết lời cảm ơn, em nên viết như thế nào?", options: ["Chân thành, ngắn gọn", "Dài dòng, sáo rỗng", "Qua loa", "Không cần chân thành"], correctIndex: 0, explanation: "Nên viết chân thành và ngắn gọn." },
+      { question: "Vì sao nên viết lời cảm ơn thầy cô?", options: ["Thể hiện lòng biết ơn với công lao dạy dỗ", "Không cần thiết", "Chỉ là hình thức", "Không có ý nghĩa gì"], correctIndex: 0, explanation: "Việc này thể hiện lòng biết ơn với công lao dạy dỗ của thầy cô." },
+      { question: "Dịp nào phù hợp để viết lời cảm ơn thầy cô?", options: ["Ngày Nhà giáo Việt Nam 20/11", "Ngày Quốc khánh", "Ngày Tết Trung Thu", "Không có dịp nào phù hợp"], correctIndex: 0, explanation: "Ngày 20/11 là dịp phù hợp để viết lời cảm ơn thầy cô." },
+    ],
+    funFact: "Nhiều học sinh vẫn giữ liên lạc và viết thư cảm ơn thầy cô cũ nhiều năm sau khi ra trường!",
+  },
+  "dao-duc:3:luyen-tap-thuc-hanh-viet-loi-cam-on-thay-co": practiceContent("Luyện tập", "Thực hành: Viết lời cảm ơn thầy cô", "Hãy nhớ lại cách viết lời cảm ơn chân thành dành cho thầy cô.", [
+    { question: "Lời cảm ơn thầy cô nên có nội dung gì?", options: ["Lý do cảm ơn, lời chúc tốt đẹp", "Không cần nội dung gì", "Chỉ cần một từ 'cảm ơn'", "Không cần chân thành"], correctIndex: 0, explanation: "Lời cảm ơn nên có lý do cảm ơn và lời chúc tốt đẹp." },
+    { question: "Khi viết lời cảm ơn, em nên viết như thế nào?", options: ["Chân thành, ngắn gọn", "Dài dòng, sáo rỗng", "Qua loa", "Không cần chân thành"], correctIndex: 0, explanation: "Nên viết chân thành và ngắn gọn." },
+    { question: "Vì sao nên viết lời cảm ơn thầy cô?", options: ["Thể hiện lòng biết ơn với công lao dạy dỗ", "Không cần thiết", "Chỉ là hình thức", "Không có ý nghĩa gì"], correctIndex: 0, explanation: "Việc này thể hiện lòng biết ơn với công lao dạy dỗ." },
+    { question: "Dịp nào phù hợp để viết lời cảm ơn thầy cô?", options: ["Ngày Nhà giáo Việt Nam 20/11", "Ngày Quốc khánh", "Ngày Tết Trung Thu", "Không có dịp nào phù hợp"], correctIndex: 0, explanation: "Ngày 20/11 là dịp phù hợp để viết lời cảm ơn thầy cô." },
+  ]),
+  "dao-duc:3:ky-nang-tu-choi-loi-ru-re-xau": {
+    objectives: ["Rèn kỹ năng từ chối khéo léo trước lời rủ rê xấu.", "Biết cách bảo vệ bản thân trước cám dỗ."],
+    sections: [
+      { heading: "1. Kỹ năng từ chối", body: ["Nói 'không' một cách rõ ràng, dứt khoát nhưng vẫn lịch sự."] },
+      { heading: "2. Cách xử lý", body: ["Đưa ra lý do hợp lý, rời khỏi tình huống nếu cần thiết."] },
+    ],
+    quiz: [
+      { question: "Khi bị rủ rê làm việc xấu, em nên nói gì?", options: ["Nói 'không' rõ ràng, dứt khoát", "Đồng ý ngay", "Im lặng không nói gì", "Do dự không quyết định"], correctIndex: 0, explanation: "Nên nói 'không' rõ ràng, dứt khoát khi bị rủ rê." },
+      { question: "Kỹ năng từ chối giúp ích điều gì?", options: ["Bảo vệ bản thân trước cám dỗ xấu", "Không có ích gì", "Làm mất bạn bè", "Không liên quan đến an toàn"], correctIndex: 0, explanation: "Kỹ năng này giúp bảo vệ bản thân trước cám dỗ xấu." },
+      { question: "Khi từ chối, em nên có thái độ như thế nào?", options: ["Lịch sự nhưng dứt khoát", "Thô lỗ", "Sợ hãi", "Không rõ ràng"], correctIndex: 0, explanation: "Nên từ chối một cách lịch sự nhưng dứt khoát." },
+      { question: "Nếu người rủ rê tiếp tục ép buộc, em nên làm gì?", options: ["Rời khỏi tình huống, báo người lớn", "Tiếp tục ở lại", "Đồng ý cho xong chuyện", "Không làm gì"], correctIndex: 0, explanation: "Nên rời khỏi tình huống và báo người lớn nếu cần." },
+    ],
+    funFact: "Kỹ năng từ chối là một trong những kỹ năng sống quan trọng được dạy trong chương trình giáo dục kỹ năng mềm!",
+  },
+  "dao-duc:3:giu-gin-truyen-thong-hieu-hoc-gia-dinh": {
+    objectives: ["Rèn ý thức giữ gìn truyền thống hiếu học.", "Hiểu ý nghĩa của tinh thần hiếu học."],
+    sections: [
+      { heading: "1. Truyền thống hiếu học", body: ["Là tinh thần coi trọng việc học tập, phấn đấu vươn lên trong học tập."] },
+      { heading: "2. Cách giữ gìn", body: ["Chăm chỉ học tập, noi gương những người đi trước trong gia đình."] },
+    ],
+    quiz: [
+      { question: "Truyền thống hiếu học là gì?", options: ["Tinh thần coi trọng việc học tập", "Không coi trọng học tập", "Chỉ chơi không học", "Không liên quan đến học tập"], correctIndex: 0, explanation: "Truyền thống hiếu học là tinh thần coi trọng việc học." },
+      { question: "Cách nào giúp giữ gìn truyền thống hiếu học?", options: ["Chăm chỉ học tập", "Lười biếng", "Bỏ học", "Không quan tâm đến học tập"], correctIndex: 0, explanation: "Chăm chỉ học tập giúp giữ gìn truyền thống hiếu học." },
+      { question: "Vì sao cần giữ gìn truyền thống hiếu học?", options: ["Đây là giá trị tốt đẹp của gia đình, dân tộc", "Không cần thiết", "Không có ý nghĩa gì", "Chỉ là hình thức"], correctIndex: 0, explanation: "Đây là giá trị tốt đẹp cần được giữ gìn và phát huy." },
+      { question: "Việt Nam có truyền thống hiếu học được thể hiện qua điều gì?", options: ["Coi trọng giáo dục, tôn sư trọng đạo", "Không coi trọng giáo dục", "Chỉ coi trọng tiền bạc", "Không có truyền thống gì"], correctIndex: 0, explanation: "Việt Nam có truyền thống coi trọng giáo dục, tôn sư trọng đạo." },
+    ],
+    funFact: "Văn Miếu - Quốc Tử Giám ở Hà Nội là biểu tượng của truyền thống hiếu học lâu đời của dân tộc Việt Nam!",
+  },
+  "dao-duc:3:biet-on-cac-anh-hung-dan-toc": {
+    objectives: ["Rèn tình cảm biết ơn với các anh hùng dân tộc.", "Hiểu công lao của các anh hùng trong lịch sử."],
+    sections: [
+      { heading: "1. Các anh hùng dân tộc", body: ["Trần Hưng Đạo, Lê Lợi, Quang Trung là những anh hùng dân tộc có công lớn bảo vệ đất nước."] },
+      { heading: "2. Cách thể hiện lòng biết ơn", body: ["Tìm hiểu lịch sử, tham gia các hoạt động tưởng niệm, học tập chăm chỉ."] },
+    ],
+    quiz: [
+      { question: "Ai là anh hùng dân tộc đánh thắng quân Mông - Nguyên?", options: ["Trần Hưng Đạo", "Lê Lợi", "Quang Trung", "Hai Bà Trưng"], correctIndex: 0, explanation: "Trần Hưng Đạo là anh hùng dân tộc đánh thắng quân Mông - Nguyên." },
+      { question: "Vì sao cần biết ơn các anh hùng dân tộc?", options: ["Họ có công lớn bảo vệ đất nước", "Không cần thiết", "Không có lý do gì", "Không liên quan đến em"], correctIndex: 0, explanation: "Các anh hùng dân tộc có công lớn bảo vệ đất nước." },
+      { question: "Cách nào thể hiện lòng biết ơn với anh hùng dân tộc?", options: ["Tìm hiểu lịch sử, học tập chăm chỉ", "Không quan tâm đến lịch sử", "Quên đi công lao của họ", "Không làm gì cả"], correctIndex: 0, explanation: "Tìm hiểu lịch sử và học tập chăm chỉ thể hiện lòng biết ơn." },
+      { question: "Quang Trung nổi tiếng với chiến thắng nào?", options: ["Đại phá quân Thanh", "Đánh quân Mông - Nguyên", "Đánh quân Minh", "Đánh quân Pháp"], correctIndex: 0, explanation: "Quang Trung nổi tiếng với chiến thắng đại phá quân Thanh." },
+    ],
+    funFact: "Nhiều con đường, trường học ở Việt Nam được đặt tên theo các anh hùng dân tộc để tưởng nhớ công lao của họ!",
+  },
+  "dao-duc:3:yeu-lao-dong-chan-tay": {
+    objectives: ["Rèn thái độ trân trọng lao động chân tay.", "Hiểu giá trị của lao động chân tay."],
+    sections: [
+      { heading: "1. Lao động chân tay", body: ["Là những công việc sử dụng sức lực như làm nông, xây dựng, dọn dẹp."] },
+      { heading: "2. Giá trị của lao động chân tay", body: ["Đóng góp quan trọng cho xã hội, không nên coi thường bất kỳ hình thức lao động nào."] },
+    ],
+    quiz: [
+      { question: "Lao động chân tay là gì?", options: ["Công việc sử dụng sức lực", "Chỉ công việc trí óc", "Không có giá trị gì", "Công việc không cần thiết"], correctIndex: 0, explanation: "Lao động chân tay là công việc sử dụng sức lực." },
+      { question: "Ví dụ nào là lao động chân tay?", options: ["Làm nông, xây dựng", "Viết văn", "Nghiên cứu khoa học", "Lập trình máy tính"], correctIndex: 0, explanation: "Làm nông, xây dựng là ví dụ về lao động chân tay." },
+      { question: "Vì sao cần trân trọng lao động chân tay?", options: ["Đóng góp quan trọng cho xã hội", "Không cần thiết", "Không có giá trị gì", "Chỉ lao động trí óc mới quan trọng"], correctIndex: 0, explanation: "Lao động chân tay đóng góp quan trọng cho xã hội." },
+      { question: "Em nên có thái độ gì với người làm lao động chân tay?", options: ["Tôn trọng, không coi thường", "Coi thường", "Xem nhẹ", "Không quan tâm"], correctIndex: 0, explanation: "Nên tôn trọng và không coi thường người lao động chân tay." },
+    ],
+    funFact: "Nhiều công trình vĩ đại như Vạn Lý Trường Thành đều được xây dựng nhờ công sức lao động chân tay của hàng triệu người!",
+  },
+  "dao-duc:3:ton-trong-noi-quy-noi-cong-cong": {
+    objectives: ["Rèn ý thức chấp hành nội quy nơi công cộng.", "Hiểu ý nghĩa của việc tuân thủ quy định chung."],
+    sections: [
+      { heading: "1. Nội quy nơi công cộng", body: ["Là các quy định chung như không xả rác, không gây ồn ào, giữ trật tự."] },
+      { heading: "2. Vì sao cần tuân thủ", body: ["Giúp duy trì trật tự, an toàn và văn minh cho cộng đồng."] },
+    ],
+    quiz: [
+      { question: "Nội quy nơi công cộng là gì?", options: ["Các quy định chung cần tuân thủ", "Không có quy định nào", "Chỉ áp dụng cho người lớn", "Không quan trọng"], correctIndex: 0, explanation: "Nội quy nơi công cộng là các quy định chung cần tuân thủ." },
+      { question: "Hành động nào vi phạm nội quy nơi công cộng?", options: ["Xả rác bừa bãi", "Giữ trật tự", "Xếp hàng", "Tuân thủ quy định"], correctIndex: 0, explanation: "Xả rác bừa bãi là hành động vi phạm nội quy." },
+      { question: "Vì sao cần tuân thủ nội quy nơi công cộng?", options: ["Duy trì trật tự, văn minh cho cộng đồng", "Không cần thiết", "Không có lý do gì", "Chỉ là hình thức"], correctIndex: 0, explanation: "Tuân thủ nội quy giúp duy trì trật tự, văn minh." },
+      { question: "Em nên làm gì khi ở nơi công cộng?", options: ["Tuân thủ nội quy, giữ trật tự", "Làm theo ý mình", "Không quan tâm đến quy định", "Gây ồn ào"], correctIndex: 0, explanation: "Nên tuân thủ nội quy và giữ trật tự nơi công cộng." },
+    ],
+    funFact: "Nhiều địa điểm công cộng như thư viện, bảo tàng có nội quy riêng để bảo vệ không gian chung và hiện vật!",
+  },
+  "dao-duc:3:ung-xu-van-minh-khi-xep-hang": {
+    objectives: ["Rèn thói quen xếp hàng trật tự, văn minh.", "Hiểu ý nghĩa của việc xếp hàng."],
+    sections: [
+      { heading: "1. Xếp hàng văn minh", body: ["Là đứng đúng thứ tự, không chen lấn, kiên nhẫn chờ đến lượt."] },
+      { heading: "2. Ý nghĩa", body: ["Thể hiện sự tôn trọng người khác, giúp mọi việc diễn ra trật tự, công bằng."] },
+    ],
+    quiz: [
+      { question: "Xếp hàng văn minh là gì?", options: ["Đứng đúng thứ tự, không chen lấn", "Chen lấn để lên trước", "Không xếp hàng", "Giành chỗ của người khác"], correctIndex: 0, explanation: "Xếp hàng văn minh là đứng đúng thứ tự, không chen lấn." },
+      { question: "Vì sao cần xếp hàng khi ở nơi công cộng?", options: ["Thể hiện sự tôn trọng, công bằng", "Không cần thiết", "Không có lý do gì", "Chỉ là hình thức"], correctIndex: 0, explanation: "Xếp hàng thể hiện sự tôn trọng và công bằng cho mọi người." },
+      { question: "Hành động nào KHÔNG văn minh khi xếp hàng?", options: ["Chen lấn để lên trước", "Kiên nhẫn chờ đến lượt", "Đứng đúng thứ tự", "Nhường người cần thiết"], correctIndex: 0, explanation: "Chen lấn để lên trước là hành động không văn minh." },
+      { question: "Xếp hàng trật tự mang lại lợi ích gì?", options: ["Mọi việc diễn ra công bằng, trật tự", "Không có lợi ích gì", "Làm mất thời gian", "Không liên quan đến ai"], correctIndex: 0, explanation: "Xếp hàng trật tự giúp mọi việc diễn ra công bằng." },
+    ],
+    funFact: "Ở nhiều nước, việc xếp hàng trật tự được coi là biểu hiện rõ ràng nhất của văn hoá ứng xử công cộng!",
+  },
+  "dao-duc:3:giu-loi-hua-voi-ban-than": {
+    objectives: ["Rèn ý thức giữ lời hứa với chính mình.", "Hiểu ý nghĩa của việc tự cam kết với bản thân."],
+    sections: [
+      { heading: "1. Giữ lời hứa với bản thân", body: ["Là thực hiện những điều mình đã tự hứa, như kế hoạch học tập, thói quen tốt."] },
+      { heading: "2. Ý nghĩa", body: ["Giúp rèn luyện ý chí, sự kiên trì và lòng tự trọng."] },
+    ],
+    quiz: [
+      { question: "Giữ lời hứa với bản thân là gì?", options: ["Thực hiện những điều mình đã tự hứa", "Không cần thực hiện", "Chỉ hứa suông", "Bỏ qua các cam kết"], correctIndex: 0, explanation: "Là thực hiện những điều mình đã tự hứa với chính mình." },
+      { question: "Vì sao cần giữ lời hứa với bản thân?", options: ["Rèn ý chí, sự kiên trì", "Không cần thiết", "Không có lợi ích gì", "Chỉ là hình thức"], correctIndex: 0, explanation: "Giữ lời hứa với bản thân giúp rèn ý chí và sự kiên trì." },
+      { question: "Ví dụ nào là giữ lời hứa với bản thân?", options: ["Thực hiện kế hoạch học tập đã đặt ra", "Bỏ dở kế hoạch", "Không đặt mục tiêu gì", "Chỉ hứa mà không làm"], correctIndex: 0, explanation: "Thực hiện kế hoạch học tập đã đặt ra là giữ lời hứa với bản thân." },
+      { question: "Giữ lời hứa với bản thân giúp rèn luyện điều gì?", options: ["Lòng tự trọng, ý chí", "Không rèn luyện gì", "Sự lười biếng", "Không liên quan đến tính cách"], correctIndex: 0, explanation: "Điều này giúp rèn luyện lòng tự trọng và ý chí." },
+    ],
+    funFact: "Nhiều người thành công cho rằng khả năng giữ lời hứa với chính mình là chìa khoá quan trọng để đạt được mục tiêu!",
+  },
+  "dao-duc:3:on-tap-tong-hop-chuan-bi-kiem-tra-cuoi-nam": {
+    objectives: ["Hệ thống lại toàn bộ kiến thức trọng tâm trong năm.", "Chuẩn bị tốt cho bài kiểm tra cuối năm."],
+    sections: [
+      { heading: "1. Tổng ôn tập", body: ["Ôn lại toàn bộ các chủ đề: trung thực, tôn trọng, chia sẻ, an toàn, trách nhiệm, biết ơn."] },
+    ],
+    quiz: [
+      { question: "Trung thực trong học tập là gì?", options: ["Tự làm bài, không gian lận", "Chép bài bạn", "Quay cóp khi thi", "Nhờ người khác làm bài"], correctIndex: 0, explanation: "Trung thực là tự làm bài, không gian lận." },
+      { question: "Vì sao cần tôn trọng người khác?", options: ["Xây dựng mối quan hệ tốt đẹp", "Không cần thiết", "Không có lý do gì", "Chỉ là hình thức"], correctIndex: 0, explanation: "Tôn trọng người khác giúp xây dựng mối quan hệ tốt đẹp." },
+      { question: "Khi gặp người lạ, em nên có thái độ gì?", options: ["Cảnh giác, giữ khoảng cách", "Tin tưởng ngay", "Đi theo", "Không cần cảnh giác"], correctIndex: 0, explanation: "Nên cảnh giác và giữ khoảng cách với người lạ." },
+      { question: "Vì sao cần ôn tập trước khi kiểm tra?", options: ["Củng cố kiến thức, tự tin hơn", "Không cần thiết", "Không có lợi ích gì", "Chỉ tốn thời gian"], correctIndex: 0, explanation: "Ôn tập giúp củng cố kiến thức và tự tin hơn." },
+    ],
+    funFact: "Các giá trị đạo đức được học từ nhỏ sẽ trở thành nền tảng tính cách theo em suốt cuộc đời!",
+  },
+
+  // ─────────────── ĐẠO ĐỨC — LỚP 3 — 59 bài thực hành mở rộng còn lại ───────────────
+  "dao-duc:3:thuc-hanh-yeu-quy-ban-than": practiceContent("Thực hành", "Yêu quý bản thân", "Hãy nhớ lại cách trân trọng và yêu quý chính mình.", [
+    { question: "Yêu quý bản thân là gì?", options: ["Trân trọng cơ thể và giá trị của mình", "Kiêu ngạo với người khác", "Không quan tâm đến ai", "Chỉ nghĩ về bản thân"], correctIndex: 0, explanation: "Yêu quý bản thân là biết trân trọng chính mình." },
+    { question: "Hành động nào thể hiện yêu quý bản thân?", options: ["Chăm sóc sức khoẻ", "Tự ti về bản thân", "So sánh mình với người khác", "Không quan tâm đến sức khoẻ"], correctIndex: 0, explanation: "Chăm sóc sức khoẻ là cách thể hiện yêu quý bản thân." },
+    { question: "Vì sao cần yêu quý bản thân?", options: ["Giúp em tự tin, sống tích cực", "Không cần thiết", "Không có lý do gì", "Chỉ để khoe khoang"], correctIndex: 0, explanation: "Yêu quý bản thân giúp em tự tin và sống tích cực hơn." },
+    { question: "Yêu quý bản thân có nghĩa là ích kỷ không?", options: ["Không, vẫn cần quan tâm người khác", "Có, chỉ nghĩ cho mình", "Không liên quan đến người khác", "Luôn ích kỷ"], correctIndex: 0, explanation: "Yêu quý bản thân không đồng nghĩa với ích kỷ." },
+  ]),
+  "dao-duc:3:luyen-tap-tu-tin-truoc-dam-dong": practiceContent("Luyện tập", "Tự tin trước đám đông", "Hãy nhớ lại cách rèn luyện sự tự tin khi nói trước lớp.", [
+    { question: "Tự tin trước đám đông là gì?", options: ["Dám thể hiện ý kiến thoải mái", "Luôn im lặng", "Sợ hãi khi nói trước lớp", "Không dám thể hiện bản thân"], correctIndex: 0, explanation: "Tự tin là dám thể hiện ý kiến của mình thoải mái." },
+    { question: "Cách nào giúp em tự tin hơn khi nói trước lớp?", options: ["Chuẩn bị kỹ nội dung trước", "Không chuẩn bị gì", "Tránh nói trước lớp", "Chỉ nói khi bị ép buộc"], correctIndex: 0, explanation: "Chuẩn bị kỹ giúp em tự tin hơn khi trình bày." },
+    { question: "Vì sao cần rèn luyện sự tự tin?", options: ["Giúp giao tiếp, học tập tốt hơn", "Không cần thiết", "Không có lợi ích gì", "Chỉ để khoe khoang"], correctIndex: 0, explanation: "Tự tin giúp giao tiếp và học tập hiệu quả hơn." },
+    { question: "Khi run trước khi nói, em có thể làm gì?", options: ["Hít thở sâu để bình tĩnh", "Bỏ chạy", "Khóc lóc", "Không làm gì"], correctIndex: 0, explanation: "Hít thở sâu giúp bình tĩnh hơn." },
+  ]),
+  "dao-duc:3:van-dung-biet-noi-loi-cam-on-xin-loi-dung-luc": practiceContent("Vận dụng", "Biết nói lời cảm ơn, xin lỗi đúng lúc", "Hãy nhớ lại ý nghĩa của lời cảm ơn, xin lỗi.", [
+    { question: "Khi được giúp đỡ, em nên nói gì?", options: ["Cảm ơn", "Không nói gì", "Phớt lờ", "Im lặng bỏ đi"], correctIndex: 0, explanation: "Nên nói 'cảm ơn' khi được giúp đỡ." },
+    { question: "Khi làm sai, em nên làm gì?", options: ["Xin lỗi", "Đổ lỗi cho người khác", "Im lặng bỏ qua", "Không quan tâm"], correctIndex: 0, explanation: "Nên xin lỗi khi mình làm sai." },
+    { question: "Vì sao cần nói lời cảm ơn, xin lỗi đúng lúc?", options: ["Thể hiện sự lịch sự, tôn trọng", "Không cần thiết", "Không có ý nghĩa gì", "Chỉ là hình thức"], correctIndex: 0, explanation: "Lời cảm ơn, xin lỗi thể hiện sự lịch sự và tôn trọng." },
+    { question: "Nói lời cảm ơn, xin lỗi mang lại lợi ích gì?", options: ["Giúp mối quan hệ tốt đẹp hơn", "Không có lợi ích gì", "Làm mất thời gian", "Không liên quan đến giao tiếp"], correctIndex: 0, explanation: "Điều này giúp các mối quan hệ trở nên tốt đẹp hơn." },
+  ]),
+  "dao-duc:3:tro-choi-on-tap-khong-noi-doi-gian-lan-trong-hoc-tap": practiceContent("Trò chơi ôn tập", "Không nói dối, gian lận trong học tập", "Hãy nhớ lại tác hại của gian lận và cách trung thực trong học tập.", [
+    { question: "Trung thực trong học tập là gì?", options: ["Tự làm bài, không gian lận", "Chép bài bạn", "Quay cóp khi thi", "Nhờ người khác làm bài hộ"], correctIndex: 0, explanation: "Trung thực là tự làm bài, không gian lận." },
+    { question: "Gian lận trong học tập có tác hại gì?", options: ["Không học được kiến thức thực sự", "Không có tác hại gì", "Giúp học giỏi hơn", "Không liên quan đến học tập"], correctIndex: 0, explanation: "Gian lận khiến em không học được kiến thức thực sự." },
+    { question: "Khi không làm được bài, em nên làm gì?", options: ["Cố gắng suy nghĩ hoặc hỏi thầy cô", "Chép bài bạn", "Gian lận khi thi", "Bỏ cuộc"], correctIndex: 0, explanation: "Nên cố gắng suy nghĩ hoặc hỏi thầy cô." },
+    { question: "Vì sao cần trung thực trong học tập?", options: ["Giúp em học thực sự và được tin tưởng", "Không cần thiết", "Không có lợi ích gì", "Chỉ để làm hài lòng thầy cô"], correctIndex: 0, explanation: "Trung thực giúp em học thực sự và được tin tưởng." },
+  ]),
+  "dao-duc:3:thu-thach-nho-giu-gin-ve-sinh-ca-nhan": practiceContent("Thử thách nhỏ", "Giữ gìn vệ sinh cá nhân", "Hãy nhớ lại các thói quen vệ sinh cá nhân cần thiết.", [
+    { question: "Hành động nào thể hiện vệ sinh cá nhân tốt?", options: ["Rửa tay trước khi ăn", "Không tắm rửa", "Không đánh răng", "Không cắt móng tay"], correctIndex: 0, explanation: "Rửa tay trước khi ăn là thói quen vệ sinh tốt." },
+    { question: "Vì sao cần giữ gìn vệ sinh cá nhân?", options: ["Phòng tránh bệnh tật", "Không cần thiết", "Không có lợi ích gì", "Chỉ để đẹp"], correctIndex: 0, explanation: "Vệ sinh cá nhân giúp phòng tránh bệnh tật." },
+    { question: "Nên đánh răng bao nhiêu lần mỗi ngày?", options: ["Ít nhất 2 lần", "Không cần đánh răng", "1 lần mỗi tuần", "Chỉ khi răng đau"], correctIndex: 0, explanation: "Nên đánh răng ít nhất 2 lần mỗi ngày." },
+    { question: "Vệ sinh cá nhân tốt giúp ích gì cho giao tiếp?", options: ["Giúp tự tin hơn", "Không có ích gì", "Làm mất thời gian", "Không liên quan đến giao tiếp"], correctIndex: 0, explanation: "Vệ sinh cá nhân tốt giúp em tự tin hơn." },
+  ]),
+  "dao-duc:3:thuc-hanh-an-uong-dieu-do-khoa-hoc": practiceContent("Thực hành", "Ăn uống điều độ, khoa học", "Hãy nhớ lại cách ăn uống điều độ, có lợi cho sức khoẻ.", [
+    { question: "Ăn uống điều độ là gì?", options: ["Ăn đúng giờ, đủ bữa", "Ăn tuỳ ý không theo giờ giấc", "Bỏ bữa sáng", "Chỉ ăn một loại thức ăn"], correctIndex: 0, explanation: "Ăn uống điều độ là ăn đúng giờ, đủ bữa." },
+    { question: "Vì sao không nên bỏ bữa sáng?", options: ["Cần năng lượng cho buổi sáng học tập", "Không cần thiết", "Không có lý do gì", "Bữa sáng không quan trọng"], correctIndex: 0, explanation: "Bữa sáng cung cấp năng lượng cho buổi sáng học tập." },
+    { question: "Ăn uống khoa học mang lại lợi ích gì?", options: ["Cơ thể phát triển khoẻ mạnh", "Không có lợi ích gì", "Làm mất thời gian", "Không liên quan đến sức khoẻ"], correctIndex: 0, explanation: "Ăn uống khoa học giúp cơ thể phát triển khoẻ mạnh." },
+    { question: "Nên ăn như thế nào để có sức khoẻ tốt?", options: ["Ăn đa dạng thực phẩm", "Chỉ ăn một loại thức ăn", "Ăn quá nhiều đồ ngọt", "Bỏ bữa thường xuyên"], correctIndex: 0, explanation: "Nên ăn đa dạng thực phẩm để có đủ dưỡng chất." },
+  ]),
+  "dao-duc:3:luyen-tap-ton-trong-su-rieng-tu-cua-nguoi-khac": practiceContent("Luyện tập", "Tôn trọng sự riêng tư của người khác", "Hãy nhớ lại cách tôn trọng sự riêng tư của bạn bè, người thân.", [
+    { question: "Sự riêng tư là gì?", options: ["Những điều thuộc về cá nhân mỗi người", "Điều ai cũng biết", "Không có gì riêng tư", "Chỉ là đồ vật"], correctIndex: 0, explanation: "Sự riêng tư là những điều thuộc về cá nhân mỗi người." },
+    { question: "Hành động nào thể hiện tôn trọng riêng tư?", options: ["Không tự ý xem nhật ký của bạn", "Đọc trộm nhật ký của bạn", "Kể chuyện riêng tư của bạn cho người khác", "Xem tin nhắn của bạn khi chưa được phép"], correctIndex: 0, explanation: "Không tự ý xem nhật ký của bạn thể hiện sự tôn trọng." },
+    { question: "Vì sao cần tôn trọng sự riêng tư của người khác?", options: ["Thể hiện sự tôn trọng và xây dựng lòng tin", "Không cần thiết", "Không có lý do gì", "Chỉ là quy định"], correctIndex: 0, explanation: "Tôn trọng riêng tư giúp xây dựng lòng tin." },
+    { question: "Khi muốn biết điều riêng tư của bạn, em nên làm gì?", options: ["Hỏi trực tiếp và tôn trọng câu trả lời", "Tự ý tìm hiểu", "Lén xem đồ của bạn", "Bắt bạn phải nói ra"], correctIndex: 0, explanation: "Nên hỏi trực tiếp và tôn trọng quyết định của bạn." },
+  ]),
+  "dao-duc:3:van-dung-khong-treu-choc-bat-nat-ban-be": practiceContent("Vận dụng", "Không trêu chọc, bắt nạt bạn bè", "Hãy nhớ lại tác hại của việc trêu chọc, bắt nạt bạn bè.", [
+    { question: "Bắt nạt bạn bè gây ra tác hại gì?", options: ["Tổn thương tinh thần cho bạn", "Không có tác hại gì", "Giúp bạn mạnh mẽ hơn", "Không liên quan đến cảm xúc"], correctIndex: 0, explanation: "Bắt nạt gây tổn thương tinh thần cho người bị bắt nạt." },
+    { question: "Hành động nào KHÔNG nên làm với bạn bè?", options: ["Trêu chọc, bắt nạt bạn", "Chơi hoà đồng", "Giúp đỡ bạn", "Tôn trọng bạn"], correctIndex: 0, explanation: "Không nên trêu chọc, bắt nạt bạn bè." },
+    { question: "Khi thấy bạn bị bắt nạt, em nên làm gì?", options: ["Báo thầy cô hoặc người lớn", "Đứng nhìn không làm gì", "Tham gia bắt nạt cùng", "Bỏ đi"], correctIndex: 0, explanation: "Nên báo thầy cô hoặc người lớn." },
+    { question: "Vì sao không nên trêu chọc ngoại hình của bạn?", options: ["Có thể làm bạn buồn, tổn thương", "Không có lý do gì", "Không ảnh hưởng đến ai", "Chỉ là đùa vui"], correctIndex: 0, explanation: "Trêu chọc ngoại hình có thể làm bạn buồn và tổn thương." },
+  ]),
+  "dao-duc:3:tro-choi-on-tap-biet-lang-nghe-y-kien-nguoi-khac": practiceContent("Trò chơi ôn tập", "Biết lắng nghe ý kiến người khác", "Hãy nhớ lại kỹ năng lắng nghe khi làm việc, trò chuyện.", [
+    { question: "Lắng nghe là gì?", options: ["Chú ý, tập trung khi người khác nói", "Ngắt lời liên tục", "Không quan tâm người nói", "Làm việc riêng khi người khác nói"], correctIndex: 0, explanation: "Lắng nghe là chú ý, tập trung khi người khác nói." },
+    { question: "Hành động nào thể hiện việc lắng nghe tốt?", options: ["Không ngắt lời người nói", "Ngắt lời liên tục", "Làm việc riêng", "Nhìn đi chỗ khác"], correctIndex: 0, explanation: "Không ngắt lời thể hiện sự lắng nghe tốt." },
+    { question: "Vì sao cần biết lắng nghe ý kiến người khác?", options: ["Giúp hiểu rõ vấn đề, xây dựng mối quan hệ tốt", "Không cần thiết", "Không có lợi ích gì", "Chỉ tốn thời gian"], correctIndex: 0, explanation: "Lắng nghe giúp hiểu rõ vấn đề và xây dựng mối quan hệ." },
+    { question: "Khi làm việc nhóm, lắng nghe giúp ích gì?", options: ["Hiểu ý kiến của các thành viên", "Không có ích gì", "Làm mất thời gian", "Không liên quan đến nhóm"], correctIndex: 0, explanation: "Lắng nghe giúp hiểu ý kiến của các thành viên." },
+  ]),
+  "dao-duc:3:thu-thach-nho-hop-tac-trong-hoat-dong-nhom": practiceContent("Thử thách nhỏ", "Hợp tác trong hoạt động nhóm", "Hãy nhớ lại lợi ích của làm việc nhóm hiệu quả.", [
+    { question: "Hợp tác trong hoạt động nhóm là gì?", options: ["Cùng nhau làm việc để đạt mục tiêu chung", "Chỉ làm việc một mình", "Không quan tâm đến nhóm", "Tranh giành công việc"], correctIndex: 0, explanation: "Hợp tác là cùng nhau làm việc để đạt mục tiêu chung." },
+    { question: "Cách nào giúp hợp tác nhóm hiệu quả?", options: ["Chia sẻ công việc công bằng", "Chỉ một người làm hết", "Không lắng nghe ý kiến ai", "Tranh cãi liên tục"], correctIndex: 0, explanation: "Chia sẻ công việc công bằng giúp hợp tác hiệu quả." },
+    { question: "Vì sao cần hợp tác trong nhóm?", options: ["Giúp hoàn thành công việc tốt hơn", "Không cần thiết", "Không có lợi ích gì", "Chỉ làm mất thời gian"], correctIndex: 0, explanation: "Hợp tác giúp hoàn thành công việc tốt hơn." },
+    { question: "Khi bất đồng ý kiến trong nhóm, em nên làm gì?", options: ["Thảo luận để tìm giải pháp chung", "Cãi nhau", "Bỏ nhóm", "Không quan tâm"], correctIndex: 0, explanation: "Nên thảo luận để tìm giải pháp chung." },
+  ]),
+  "dao-duc:3:thuc-hanh-biet-nhuong-nhin-em-nho": practiceContent("Thực hành", "Biết nhường nhịn em nhỏ", "Hãy nhớ lại ý nghĩa của việc nhường nhịn em nhỏ.", [
+    { question: "Nhường nhịn em nhỏ là gì?", options: ["Nhường đồ chơi, thức ăn cho em", "Giành đồ chơi với em", "Không quan tâm đến em", "Bắt nạt em nhỏ"], correctIndex: 0, explanation: "Nhường nhịn là nhường đồ chơi, thức ăn cho em nhỏ." },
+    { question: "Vì sao cần nhường nhịn em nhỏ?", options: ["Thể hiện tình yêu thương, gia đình hoà thuận", "Không cần thiết", "Không có ý nghĩa gì", "Chỉ là quy định"], correctIndex: 0, explanation: "Nhường nhịn thể hiện tình yêu thương và giúp gia đình hoà thuận." },
+    { question: "Hành động nào thể hiện sự nhường nhịn?", options: ["Nhường chỗ ngồi cho em", "Giành chỗ ngồi với em", "Không chia sẻ đồ chơi", "Bắt nạt em"], correctIndex: 0, explanation: "Nhường chỗ ngồi cho em thể hiện sự nhường nhịn." },
+    { question: "Là anh chị lớn, em nên có thái độ gì với em nhỏ?", options: ["Yêu thương, nhường nhịn", "Ghen tị", "Bắt nạt", "Không quan tâm"], correctIndex: 0, explanation: "Nên yêu thương và nhường nhịn em nhỏ." },
+  ]),
+  "dao-duc:3:luyen-tap-kinh-trong-nguoi-lao-dong-xung-quanh": practiceContent("Luyện tập", "Kính trọng người lao động xung quanh", "Hãy nhớ lại thái độ kính trọng với người lao động quanh em.", [
+    { question: "Người lao động xung quanh em gồm những ai?", options: ["Bác lao công, chú bảo vệ", "Chỉ có giáo viên", "Chỉ có bác sĩ", "Không có ai cả"], correctIndex: 0, explanation: "Bác lao công, chú bảo vệ đều là người lao động xung quanh em." },
+    { question: "Hành động nào thể hiện sự kính trọng người lao động?", options: ["Chào hỏi lễ phép", "Coi thường họ", "Không quan tâm", "Xem thường công việc của họ"], correctIndex: 0, explanation: "Chào hỏi lễ phép thể hiện sự kính trọng." },
+    { question: "Vì sao cần kính trọng mọi người lao động?", options: ["Mọi nghề nghiệp đều có giá trị", "Chỉ một số nghề mới đáng kính trọng", "Không cần thiết", "Không có lý do gì"], correctIndex: 0, explanation: "Mọi nghề nghiệp đều có giá trị riêng." },
+    { question: "Em nên có thái độ gì với người lao công ở trường?", options: ["Kính trọng, biết ơn", "Coi thường", "Không quan tâm", "Xem thường"], correctIndex: 0, explanation: "Nên kính trọng và biết ơn người lao công." },
+  ]),
+  "dao-duc:3:van-dung-tran-trong-thanh-qua-lao-dong": practiceContent("Vận dụng", "Trân trọng thành quả lao động", "Hãy nhớ lại cách trân trọng công sức lao động của người khác.", [
+    { question: "Thành quả lao động là gì?", options: ["Sản phẩm có được nhờ công sức lao động", "Chỉ là tiền bạc", "Không có ý nghĩa gì", "Chỉ là đồ vật"], correctIndex: 0, explanation: "Thành quả lao động là sản phẩm có được nhờ công sức lao động." },
+    { question: "Hành động nào thể hiện sự trân trọng thành quả lao động?", options: ["Không lãng phí thức ăn", "Lãng phí đồ dùng", "Phá hoại đồ vật", "Không quan tâm"], correctIndex: 0, explanation: "Không lãng phí thức ăn thể hiện sự trân trọng lao động." },
+    { question: "Vì sao cần trân trọng thành quả lao động?", options: ["Thể hiện sự biết ơn công sức người khác", "Không cần thiết", "Không có ý nghĩa gì", "Chỉ là quy định"], correctIndex: 0, explanation: "Trân trọng thành quả lao động thể hiện sự biết ơn." },
+    { question: "Bát cơm em ăn hàng ngày là thành quả lao động của ai?", options: ["Người nông dân", "Không ai cả", "Tự nhiên tạo ra", "Không có công sức nào"], correctIndex: 0, explanation: "Bát cơm là thành quả lao động vất vả của người nông dân." },
+  ]),
+  "dao-duc:3:tro-choi-on-tap-tiet-kiem-dien-nuoc-trong-sinh-hoat": practiceContent("Trò chơi ôn tập", "Tiết kiệm điện, nước trong sinh hoạt", "Hãy nhớ lại cách tiết kiệm điện, nước hàng ngày.", [
+    { question: "Vì sao cần tiết kiệm điện, nước?", options: ["Đây là tài nguyên quý giá", "Không cần thiết", "Không có lý do gì", "Điện, nước là vô hạn"], correctIndex: 0, explanation: "Điện, nước là tài nguyên quý giá cần sử dụng hợp lý." },
+    { question: "Hành động nào thể hiện tiết kiệm điện?", options: ["Tắt đèn khi ra khỏi phòng", "Để đèn sáng cả ngày", "Bật nhiều thiết bị không cần thiết", "Không quan tâm đến việc tiết kiệm"], correctIndex: 0, explanation: "Tắt đèn khi ra khỏi phòng giúp tiết kiệm điện." },
+    { question: "Hành động nào thể hiện tiết kiệm nước?", options: ["Khoá vòi nước khi không dùng", "Để nước chảy liên tục", "Lãng phí nước", "Không quan tâm"], correctIndex: 0, explanation: "Khoá vòi nước khi không dùng giúp tiết kiệm nước." },
+    { question: "Tiết kiệm điện, nước mang lại lợi ích gì?", options: ["Bảo vệ tài nguyên, giảm chi phí", "Không có lợi ích gì", "Làm mất thời gian", "Không liên quan đến gia đình"], correctIndex: 0, explanation: "Tiết kiệm giúp bảo vệ tài nguyên và giảm chi phí." },
+  ]),
+  "dao-duc:3:thu-thach-nho-khong-lang-phi-thuc-an": practiceContent("Thử thách nhỏ", "Không lãng phí thức ăn", "Hãy nhớ lại cách tránh lãng phí thức ăn.", [
+    { question: "Lãng phí thức ăn là gì?", options: ["Bỏ thừa, vứt bỏ thức ăn còn dùng được", "Ăn hết phần ăn của mình", "Lấy vừa đủ thức ăn", "Chia sẻ thức ăn với bạn"], correctIndex: 0, explanation: "Lãng phí thức ăn là bỏ thừa, vứt bỏ thức ăn còn dùng được." },
+    { question: "Cách nào giúp tránh lãng phí thức ăn?", options: ["Chỉ lấy vừa đủ thức ăn cần dùng", "Lấy thật nhiều rồi bỏ thừa", "Không quan tâm đến lượng ăn", "Vứt bỏ thức ăn thừa"], correctIndex: 0, explanation: "Chỉ lấy vừa đủ giúp tránh lãng phí thức ăn." },
+    { question: "Vì sao không nên lãng phí thức ăn?", options: ["Tôn trọng công sức lao động làm ra thức ăn", "Không cần thiết", "Không có lý do gì", "Thức ăn là vô hạn"], correctIndex: 0, explanation: "Không lãng phí thể hiện sự tôn trọng công sức lao động." },
+    { question: "Khi ăn không hết, em nên làm gì?", options: ["Giữ lại để ăn sau nếu có thể", "Vứt bỏ ngay", "Không quan tâm", "Bỏ đi lãng phí"], correctIndex: 0, explanation: "Nên giữ lại để ăn sau nếu có thể." },
+  ]),
+  "dao-duc:3:thuc-hanh-giu-gin-do-dung-hoc-tap": practiceContent("Thực hành", "Giữ gìn đồ dùng học tập", "Hãy nhớ lại lợi ích của việc giữ gìn đồ dùng học tập.", [
+    { question: "Giữ gìn đồ dùng học tập là gì?", options: ["Bảo quản sách vở, bút thước cẩn thận", "Làm rách sách vở", "Vứt bừa bãi đồ dùng", "Không quan tâm đến đồ dùng"], correctIndex: 0, explanation: "Giữ gìn là bảo quản đồ dùng học tập cẩn thận." },
+    { question: "Vì sao cần giữ gìn đồ dùng học tập?", options: ["Tiết kiệm tiền bạc, rèn tính cẩn thận", "Không cần thiết", "Không có lợi ích gì", "Chỉ là hình thức"], correctIndex: 0, explanation: "Giữ gìn đồ dùng giúp tiết kiệm và rèn tính cẩn thận." },
+    { question: "Hành động nào thể hiện việc giữ gìn đồ dùng học tập?", options: ["Bọc sách vở cẩn thận", "Vứt sách bừa bãi", "Làm rách vở", "Làm mất bút thường xuyên"], correctIndex: 0, explanation: "Bọc sách vở cẩn thận thể hiện việc giữ gìn." },
+    { question: "Giữ gìn đồ dùng học tập giúp rèn luyện tính cách gì?", options: ["Cẩn thận, ngăn nắp", "Không rèn luyện gì", "Cẩu thả", "Không liên quan đến tính cách"], correctIndex: 0, explanation: "Việc này giúp rèn luyện tính cẩn thận, ngăn nắp." },
+  ]),
+  "dao-duc:3:luyen-tap-di-hoc-dung-gio-khong-tron-hoc": practiceContent("Luyện tập", "Đi học đúng giờ, không trốn học", "Hãy nhớ lại tác hại của việc trốn học và lợi ích đi học đúng giờ.", [
+    { question: "Đi học đúng giờ là gì?", options: ["Đến trường trước giờ vào lớp", "Đến trường muộn", "Không đi học", "Trốn học tuỳ ý"], correctIndex: 0, explanation: "Đi học đúng giờ là đến trường trước giờ vào lớp." },
+    { question: "Trốn học có tác hại gì?", options: ["Mất bài, ảnh hưởng kết quả học tập", "Không có tác hại gì", "Giúp học tốt hơn", "Không liên quan đến học tập"], correctIndex: 0, explanation: "Trốn học khiến mất bài và ảnh hưởng kết quả học tập." },
+    { question: "Vì sao cần đi học đúng giờ?", options: ["Thể hiện tính kỷ luật, không bỏ lỡ bài học", "Không cần thiết", "Không có lý do gì", "Chỉ là quy định"], correctIndex: 0, explanation: "Đi học đúng giờ thể hiện tính kỷ luật." },
+    { question: "Khi có việc phải nghỉ học, em nên làm gì?", options: ["Xin phép thầy cô, cha mẹ", "Tự ý nghỉ không báo", "Trốn học", "Không cần xin phép"], correctIndex: 0, explanation: "Cần xin phép thầy cô, cha mẹ khi phải nghỉ học." },
+  ]),
+  "dao-duc:3:van-dung-trung-thuc-khi-mac-loi": practiceContent("Vận dụng", "Trung thực khi mắc lỗi", "Hãy nhớ lại ý nghĩa của việc trung thực nhận lỗi.", [
+    { question: "Trung thực khi mắc lỗi là gì?", options: ["Dám thừa nhận lỗi lầm của mình", "Đổ lỗi cho người khác", "Che giấu lỗi lầm", "Không nhận lỗi"], correctIndex: 0, explanation: "Trung thực là dám thừa nhận lỗi lầm của mình." },
+    { question: "Khi mắc lỗi, em nên làm gì?", options: ["Thừa nhận và sửa chữa lỗi", "Đổ lỗi cho bạn khác", "Che giấu lỗi lầm", "Không quan tâm"], correctIndex: 0, explanation: "Nên thừa nhận và sửa chữa lỗi." },
+    { question: "Vì sao cần trung thực khi mắc lỗi?", options: ["Giúp em được tin tưởng, trưởng thành hơn", "Không cần thiết", "Không có lợi ích gì", "Chỉ là quy định"], correctIndex: 0, explanation: "Trung thực giúp em được tin tưởng và trưởng thành hơn." },
+    { question: "Đổ lỗi cho người khác khi mình sai có hậu quả gì?", options: ["Mất lòng tin từ mọi người", "Không có hậu quả gì", "Giúp em thoát tội", "Không ảnh hưởng đến ai"], correctIndex: 0, explanation: "Đổ lỗi cho người khác khiến em mất lòng tin." },
+  ]),
+  "dao-duc:3:tro-choi-on-tap-biet-xin-loi-khi-lam-sai": practiceContent("Trò chơi ôn tập", "Biết xin lỗi khi làm sai", "Hãy nhớ lại cách xin lỗi chân thành khi làm sai.", [
+    { question: "Khi làm sai, em nên làm gì?", options: ["Xin lỗi chân thành", "Im lặng bỏ qua", "Đổ lỗi cho người khác", "Không quan tâm"], correctIndex: 0, explanation: "Nên xin lỗi chân thành khi làm sai." },
+    { question: "Lời xin lỗi chân thành cần có điều gì?", options: ["Thừa nhận lỗi và hứa sửa chữa", "Chỉ nói 'xin lỗi' qua loa", "Không cần giải thích", "Đổ lỗi cho hoàn cảnh"], correctIndex: 0, explanation: "Lời xin lỗi chân thành cần thừa nhận lỗi và hứa sửa chữa." },
+    { question: "Vì sao cần biết xin lỗi khi làm sai?", options: ["Giúp hàn gắn mối quan hệ", "Không cần thiết", "Không có lợi ích gì", "Chỉ là hình thức"], correctIndex: 0, explanation: "Xin lỗi giúp hàn gắn mối quan hệ." },
+    { question: "Sau khi xin lỗi, em cần làm gì tiếp theo?", options: ["Sửa chữa lỗi lầm, không tái phạm", "Không cần làm gì thêm", "Tiếp tục mắc lỗi", "Quên ngay lời hứa"], correctIndex: 0, explanation: "Cần sửa chữa lỗi lầm và không tái phạm." },
+  ]),
+  "dao-duc:3:thu-thach-nho-yeu-thuong-loai-vat": practiceContent("Thử thách nhỏ", "Yêu thương loài vật", "Hãy nhớ lại cách đối xử tốt với loài vật.", [
+    { question: "Yêu thương loài vật là gì?", options: ["Chăm sóc, bảo vệ động vật", "Hành hạ động vật", "Không quan tâm đến động vật", "Bỏ đói vật nuôi"], correctIndex: 0, explanation: "Yêu thương loài vật là chăm sóc, bảo vệ động vật." },
+    { question: "Hành động nào thể hiện yêu thương loài vật?", options: ["Cho vật nuôi ăn uống đầy đủ", "Đánh đập vật nuôi", "Bỏ đói vật nuôi", "Hành hạ động vật"], correctIndex: 0, explanation: "Cho vật nuôi ăn uống đầy đủ thể hiện tình yêu thương." },
+    { question: "Vì sao cần yêu thương, bảo vệ loài vật?", options: ["Động vật cũng có cảm xúc, cần được đối xử tốt", "Không cần thiết", "Không có lý do gì", "Động vật không quan trọng"], correctIndex: 0, explanation: "Động vật cũng có cảm xúc và cần được đối xử tốt." },
+    { question: "Khi thấy người khác hành hạ động vật, em nên làm gì?", options: ["Báo người lớn hoặc ngăn cản", "Tham gia cùng", "Không quan tâm", "Cổ vũ"], correctIndex: 0, explanation: "Nên báo người lớn hoặc ngăn cản." },
+  ]),
+  "dao-duc:3:thuc-hanh-bao-ve-cay-xanh-noi-cong-cong": practiceContent("Thực hành", "Bảo vệ cây xanh nơi công cộng", "Hãy nhớ lại vai trò của cây xanh và cách bảo vệ.", [
+    { question: "Cây xanh có vai trò gì?", options: ["Cung cấp oxy, làm mát không khí", "Không có vai trò gì", "Chỉ để trang trí", "Không liên quan đến môi trường"], correctIndex: 0, explanation: "Cây xanh cung cấp oxy và làm mát không khí." },
+    { question: "Hành động nào KHÔNG nên làm với cây xanh nơi công cộng?", options: ["Bẻ cành, hái lá", "Tưới nước cho cây", "Chăm sóc cây", "Bảo vệ cây"], correctIndex: 0, explanation: "Không nên bẻ cành, hái lá cây nơi công cộng." },
+    { question: "Vì sao cần bảo vệ cây xanh nơi công cộng?", options: ["Giữ gìn môi trường xanh sạch đẹp", "Không cần thiết", "Không có lý do gì", "Chỉ để trang trí"], correctIndex: 0, explanation: "Bảo vệ cây xanh giúp giữ gìn môi trường." },
+    { question: "Em có thể làm gì để bảo vệ cây xanh?", options: ["Không viết vẽ lên cây", "Bẻ cành cây", "Hái lá cây", "Phá hoại cây"], correctIndex: 0, explanation: "Không viết vẽ lên cây là cách bảo vệ cây xanh." },
+  ]),
+  "dao-duc:3:luyen-tap-ung-xu-dung-muc-tren-xe-buyt-tau-xe": practiceContent("Luyện tập", "Ứng xử đúng mực trên xe buýt, tàu xe", "Hãy nhớ lại quy tắc ứng xử văn minh khi đi xe công cộng.", [
+    { question: "Khi đi xe buýt, em nên làm gì?", options: ["Giữ trật tự, không nói to", "Nói to gây ồn ào", "Chen lấn xô đẩy", "Không xếp hàng"], correctIndex: 0, explanation: "Nên giữ trật tự, không nói to." },
+    { question: "Hành động nào thể hiện ứng xử văn minh trên xe công cộng?", options: ["Xếp hàng khi lên xe", "Chen lấn xô đẩy", "Nói chuyện to", "Xả rác trên xe"], correctIndex: 0, explanation: "Xếp hàng khi lên xe thể hiện ứng xử văn minh." },
+    { question: "Vì sao cần ứng xử đúng mực trên xe công cộng?", options: ["Thể hiện sự văn minh, tôn trọng người khác", "Không cần thiết", "Không có lý do gì", "Chỉ là quy định"], correctIndex: 0, explanation: "Ứng xử đúng mực thể hiện sự văn minh." },
+    { question: "Khi lên xuống xe, em nên làm gì?", options: ["Không chen lấn, xếp hàng trật tự", "Chen lấn để lên trước", "Xô đẩy người khác", "Không quan tâm đến trật tự"], correctIndex: 0, explanation: "Nên xếp hàng trật tự, không chen lấn." },
+  ]),
+  "dao-duc:3:van-dung-nhuong-ghe-cho-nguoi-gia-tre-nho-phu-nu-mang-thai": practiceContent("Vận dụng", "Nhường ghế cho người già, trẻ nhỏ, phụ nữ mang thai", "Hãy nhớ lại ý nghĩa của việc nhường ghế trên xe.", [
+    { question: "Nhường ghế trên xe buýt là hành động dành cho ai?", options: ["Người già, trẻ nhỏ, phụ nữ mang thai", "Chỉ dành cho bạn bè", "Không cần nhường cho ai", "Chỉ dành cho người quen"], correctIndex: 0, explanation: "Nhường ghế dành cho người già, trẻ nhỏ, phụ nữ mang thai." },
+    { question: "Vì sao cần nhường ghế cho người già, trẻ nhỏ?", options: ["Thể hiện sự quan tâm, tôn trọng", "Không cần thiết", "Không có lý do gì", "Chỉ là quy định bắt buộc"], correctIndex: 0, explanation: "Nhường ghế thể hiện sự quan tâm và tôn trọng." },
+    { question: "Hành động nhường ghế thể hiện điều gì về con người?", options: ["Sự văn minh, lịch sự", "Sự ích kỷ", "Sự thờ ơ", "Không có ý nghĩa gì"], correctIndex: 0, explanation: "Nhường ghế thể hiện sự văn minh, lịch sự." },
+    { question: "Khi thấy người già lên xe không có chỗ ngồi, em nên làm gì?", options: ["Đứng dậy nhường ghế", "Giả vờ không thấy", "Tiếp tục ngồi", "Không quan tâm"], correctIndex: 0, explanation: "Nên đứng dậy nhường ghế cho người già." },
+  ]),
+  "dao-duc:3:tro-choi-on-tap-giup-do-nguoi-khuyet-tat-noi-cong-cong": practiceContent("Trò chơi ôn tập", "Giúp đỡ người khuyết tật nơi công cộng", "Hãy nhớ lại cách giúp đỡ người khuyết tật phù hợp, tôn trọng.", [
+    { question: "Khi thấy người khuyết tật cần giúp đỡ, em nên làm gì?", options: ["Hỏi xem họ có cần giúp không", "Phớt lờ", "Tự ý giúp mà không hỏi", "Không quan tâm"], correctIndex: 0, explanation: "Nên hỏi xem họ có cần giúp đỡ không." },
+    { question: "Vì sao cần tôn trọng khi giúp đỡ người khuyết tật?", options: ["Tôn trọng sự tự lập của họ", "Không cần thiết", "Không có lý do gì", "Chỉ cần giúp theo ý mình"], correctIndex: 0, explanation: "Cần tôn trọng sự tự lập của người khuyết tật." },
+    { question: "Hành động nào thể hiện sự giúp đỡ đúng cách?", options: ["Dắt qua đường khi họ đồng ý", "Tự ý kéo đi mà không hỏi", "Phớt lờ khi họ cần giúp", "Cười chê họ"], correctIndex: 0, explanation: "Dắt qua đường khi họ đồng ý là cách giúp đỡ đúng." },
+    { question: "Em nên có thái độ gì với người khuyết tật?", options: ["Tôn trọng, cảm thông, sẵn sàng giúp đỡ", "Xem thường", "Trêu chọc", "Xa lánh"], correctIndex: 0, explanation: "Nên tôn trọng, cảm thông và sẵn sàng giúp đỡ." },
+  ]),
+  "dao-duc:3:thu-thach-nho-ton-trong-luat-le-giao-thong-khi-di-bo": practiceContent("Thử thách nhỏ", "Tôn trọng luật lệ giao thông khi đi bộ", "Hãy nhớ lại quy tắc đi bộ an toàn.", [
+    { question: "Khi đi bộ, em nên đi ở đâu?", options: ["Trên vỉa hè", "Giữa lòng đường", "Bất kỳ đâu", "Không cần chú ý"], correctIndex: 0, explanation: "Khi đi bộ, nên đi trên vỉa hè." },
+    { question: "Khi sang đường, em nên làm gì?", options: ["Sang đường ở nơi có vạch kẻ", "Băng qua đường bất kỳ chỗ nào", "Chạy nhanh qua đường", "Không quan sát xe cộ"], correctIndex: 0, explanation: "Nên sang đường ở nơi có vạch kẻ." },
+    { question: "Vì sao cần tuân thủ luật giao thông khi đi bộ?", options: ["Đảm bảo an toàn cho bản thân", "Không cần thiết", "Không có lý do gì", "Chỉ là quy định"], correctIndex: 0, explanation: "Tuân thủ luật giao thông giúp đảm bảo an toàn." },
+    { question: "Đèn tín hiệu giao thông màu đỏ có ý nghĩa gì với người đi bộ?", options: ["Dừng lại, không băng qua đường", "Được đi ngay", "Không có ý nghĩa gì", "Chạy nhanh qua đường"], correctIndex: 0, explanation: "Đèn đỏ báo hiệu phải dừng lại." },
+  ]),
+  "dao-duc:3:thuc-hanh-an-toan-khi-di-xe-dap": practiceContent("Thực hành", "An toàn khi đi xe đạp", "Hãy nhớ lại các quy tắc an toàn khi đi xe đạp.", [
+    { question: "Khi đi xe đạp, em nên làm gì để an toàn?", options: ["Đội mũ bảo hiểm", "Không đội mũ bảo hiểm", "Buông tay lái", "Đi hàng ngang với bạn"], correctIndex: 0, explanation: "Đội mũ bảo hiểm giúp bảo vệ an toàn." },
+    { question: "Hành động nào KHÔNG an toàn khi đi xe đạp?", options: ["Buông tay lái", "Đội mũ bảo hiểm", "Đi đúng làn đường", "Kiểm tra phanh trước khi đi"], correctIndex: 0, explanation: "Buông tay lái là hành động không an toàn." },
+    { question: "Trước khi đi xe đạp, em nên kiểm tra gì?", options: ["Phanh, lốp xe", "Không cần kiểm tra gì", "Chỉ cần kiểm tra màu sắc xe", "Không quan trọng"], correctIndex: 0, explanation: "Nên kiểm tra phanh, lốp xe trước khi đi." },
+    { question: "Vì sao không nên đi xe đạp hàng ngang?", options: ["Gây nguy hiểm, cản trở giao thông", "Không có lý do gì", "Rất an toàn", "Không ảnh hưởng đến ai"], correctIndex: 0, explanation: "Đi hàng ngang gây nguy hiểm và cản trở giao thông." },
+  ]),
+  "dao-duc:3:luyen-tap-canh-giac-voi-nguoi-la": practiceContent("Luyện tập", "Cảnh giác với người lạ", "Hãy nhớ lại cách ứng xử an toàn với người lạ.", [
+    { question: "Khi gặp người lạ, em nên có thái độ gì?", options: ["Cảnh giác, giữ khoảng cách", "Đi theo ngay", "Tin tưởng hoàn toàn", "Không cần cảnh giác"], correctIndex: 0, explanation: "Nên cảnh giác và giữ khoảng cách với người lạ." },
+    { question: "Nếu người lạ rủ đi theo, em nên làm gì?", options: ["Từ chối và báo người lớn", "Đi theo ngay", "Không nói với ai", "Tin tưởng ngay lập tức"], correctIndex: 0, explanation: "Nên từ chối và báo người lớn." },
+    { question: "Vì sao cần cảnh giác với người lạ?", options: ["Bảo vệ an toàn cho bản thân", "Không cần thiết", "Không có lý do gì", "Người lạ luôn tốt bụng"], correctIndex: 0, explanation: "Cảnh giác giúp bảo vệ an toàn cho bản thân." },
+    { question: "Khi gặp tình huống bất an với người lạ, em nên tìm ai?", options: ["Người lớn đáng tin cậy", "Không tìm ai cả", "Chỉ tự mình giải quyết", "Người lạ khác"], correctIndex: 0, explanation: "Nên tìm người lớn đáng tin cậy." },
+  ]),
+  "dao-duc:3:van-dung-khong-tu-y-nhan-qua-tu-nguoi-la": practiceContent("Vận dụng", "Không tự ý nhận quà từ người lạ", "Hãy nhớ lại cách từ chối quà từ người lạ để tự bảo vệ.", [
+    { question: "Khi người lạ cho quà, em nên làm gì?", options: ["Từ chối và báo người lớn", "Nhận ngay", "Đi theo người đó", "Không nói với ai"], correctIndex: 0, explanation: "Nên từ chối và báo người lớn." },
+    { question: "Vì sao không nên nhận quà từ người lạ?", options: ["Có thể bị lợi dụng, gây nguy hiểm", "Không có lý do gì", "Quà luôn an toàn", "Người lạ luôn tốt bụng"], correctIndex: 0, explanation: "Người lạ có thể lợi dụng quà để gây nguy hiểm." },
+    { question: "Sau khi từ chối quà từ người lạ, em nên làm gì?", options: ["Báo ngay cho người lớn", "Không nói với ai", "Đi theo người đó để hỏi thêm", "Nhận quà sau"], correctIndex: 0, explanation: "Nên báo ngay cho người lớn." },
+    { question: "Kỹ năng từ chối quà từ người lạ giúp ích gì?", options: ["Bảo vệ an toàn cho bản thân", "Không có ích gì", "Làm mất lòng người khác", "Không liên quan đến an toàn"], correctIndex: 0, explanation: "Kỹ năng này giúp bảo vệ an toàn." },
+  ]),
+  "dao-duc:3:tro-choi-on-tap-giu-bi-mat-thong-tin-ca-nhan": practiceContent("Trò chơi ôn tập", "Giữ bí mật thông tin cá nhân", "Hãy nhớ lại những thông tin cần giữ bí mật với người lạ.", [
+    { question: "Thông tin nào cần giữ bí mật với người lạ?", options: ["Địa chỉ nhà, số điện thoại", "Tên môn học yêu thích", "Màu sắc yêu thích", "Sở thích ăn uống"], correctIndex: 0, explanation: "Địa chỉ nhà, số điện thoại là thông tin cần giữ bí mật." },
+    { question: "Khi người lạ hỏi địa chỉ nhà, em nên làm gì?", options: ["Không cung cấp thông tin", "Nói ngay địa chỉ", "Chỉ đường đến nhà", "Cung cấp đầy đủ thông tin"], correctIndex: 0, explanation: "Không nên cung cấp thông tin cá nhân cho người lạ." },
+    { question: "Vì sao cần giữ bí mật thông tin cá nhân?", options: ["Bảo vệ an toàn cho bản thân", "Không cần thiết", "Không có lý do gì", "Thông tin cá nhân không quan trọng"], correctIndex: 0, explanation: "Giữ bí mật thông tin giúp bảo vệ an toàn." },
+    { question: "Trên mạng internet, em có nên chia sẻ thông tin cá nhân không?", options: ["Không, cần cẩn thận", "Có, chia sẻ tự do", "Không quan trọng", "Luôn luôn chia sẻ"], correctIndex: 0, explanation: "Không nên chia sẻ thông tin cá nhân tự do trên mạng." },
+  ]),
+  "dao-duc:3:thu-thach-nho-ung-xu-khi-bi-bat-nat": practiceContent("Thử thách nhỏ", "Ứng xử khi bị bắt nạt", "Hãy nhớ lại cách ứng xử phù hợp khi bị bắt nạt.", [
+    { question: "Khi bị bắt nạt, em nên làm gì?", options: ["Bình tĩnh và báo người lớn", "Đánh trả bằng bạo lực", "Im lặng chịu đựng mãi", "Tự giải quyết một mình"], correctIndex: 0, explanation: "Nên bình tĩnh và báo người lớn." },
+    { question: "Vì sao không nên đánh trả bằng bạo lực?", options: ["Có thể khiến tình huống tệ hơn", "Không có lý do gì", "Bạo lực luôn giải quyết được vấn đề", "Không ảnh hưởng gì"], correctIndex: 0, explanation: "Đánh trả bằng bạo lực có thể khiến tình huống tệ hơn." },
+    { question: "Ai có thể giúp đỡ khi em bị bắt nạt?", options: ["Thầy cô, cha mẹ", "Không ai cả", "Chỉ có thể tự giải quyết", "Không cần ai giúp"], correctIndex: 0, explanation: "Thầy cô, cha mẹ có thể giúp đỡ." },
+    { question: "Vì sao cần báo cho người lớn khi bị bắt nạt?", options: ["Được hỗ trợ và bảo vệ kịp thời", "Không cần thiết", "Không có lợi ích gì", "Chỉ làm mọi việc tệ hơn"], correctIndex: 0, explanation: "Báo người lớn giúp em được hỗ trợ kịp thời." },
+  ]),
+  "dao-duc:3:thuc-hanh-doan-ket-giup-do-ban-hoc-yeu": practiceContent("Thực hành", "Đoàn kết giúp đỡ bạn học yếu", "Hãy nhớ lại ý nghĩa của tinh thần tương trợ trong học tập.", [
+    { question: "Giúp đỡ bạn học yếu là gì?", options: ["Kiên nhẫn giảng lại bài cho bạn", "Chê bai bạn học kém", "Không quan tâm đến bạn", "Xa lánh bạn học yếu"], correctIndex: 0, explanation: "Giúp đỡ là kiên nhẫn giảng lại bài cho bạn." },
+    { question: "Vì sao cần đoàn kết, giúp đỡ bạn học yếu?", options: ["Giúp bạn tiến bộ, xây dựng tình bạn đẹp", "Không cần thiết", "Không có lợi ích gì", "Chỉ làm mất thời gian"], correctIndex: 0, explanation: "Giúp đỡ bạn giúp bạn tiến bộ hơn." },
+    { question: "Hành động nào thể hiện tinh thần đoàn kết trong lớp?", options: ["Giúp bạn ôn bài trước kiểm tra", "Chê bai bạn học kém", "Không chia sẻ bài học", "Xa lánh bạn yếu"], correctIndex: 0, explanation: "Giúp bạn ôn bài thể hiện tinh thần đoàn kết." },
+    { question: "Khi thấy bạn học yếu, em nên có thái độ gì?", options: ["Kiên nhẫn, sẵn sàng giúp đỡ", "Chê bai", "Xa lánh", "Không quan tâm"], correctIndex: 0, explanation: "Nên kiên nhẫn và sẵn sàng giúp đỡ bạn." },
+  ]),
+  "dao-duc:3:luyen-tap-khong-phan-biet-doi-xu-ban-be": practiceContent("Luyện tập", "Không phân biệt đối xử bạn bè", "Hãy nhớ lại thái độ đối xử công bằng với mọi bạn bè.", [
+    { question: "Phân biệt đối xử là gì?", options: ["Đối xử không công bằng dựa trên khác biệt", "Đối xử công bằng với mọi người", "Chơi với tất cả các bạn", "Tôn trọng mọi người"], correctIndex: 0, explanation: "Phân biệt đối xử là đối xử không công bằng." },
+    { question: "Hành động nào KHÔNG nên làm với bạn có hoàn cảnh khó khăn?", options: ["Xa lánh, chê bai", "Giúp đỡ", "Chơi cùng", "Tôn trọng"], correctIndex: 0, explanation: "Không nên xa lánh, chê bai bạn có hoàn cảnh khó khăn." },
+    { question: "Vì sao không nên phân biệt đối xử bạn bè?", options: ["Mọi người đều đáng được tôn trọng", "Không cần thiết", "Không có lý do gì", "Chỉ cần chơi với bạn giống mình"], correctIndex: 0, explanation: "Mọi người đều đáng được tôn trọng như nhau." },
+    { question: "Em nên có thái độ gì với các bạn khác nhau?", options: ["Đối xử công bằng, tôn trọng", "Phân biệt", "Xa lánh", "Chê bai"], correctIndex: 0, explanation: "Nên đối xử công bằng và tôn trọng." },
+  ]),
+  "dao-duc:3:van-dung-ton-trong-su-khac-biet-vung-mien": practiceContent("Vận dụng", "Tôn trọng sự khác biệt vùng miền", "Hãy nhớ lại thái độ tôn trọng văn hoá vùng miền khác nhau.", [
+    { question: "Sự khác biệt vùng miền thể hiện qua điều gì?", options: ["Giọng nói, phong tục, món ăn", "Không có sự khác biệt nào", "Chỉ khác nhau về tên gọi", "Không liên quan đến văn hoá"], correctIndex: 0, explanation: "Sự khác biệt vùng miền thể hiện qua giọng nói, phong tục." },
+    { question: "Hành động nào KHÔNG nên làm với bạn có giọng nói vùng miền khác?", options: ["Chê bai giọng nói của bạn", "Tôn trọng", "Lắng nghe", "Học hỏi văn hoá"], correctIndex: 0, explanation: "Không nên chê bai giọng nói của bạn." },
+    { question: "Vì sao cần tôn trọng sự khác biệt vùng miền?", options: ["Đây là nét đẹp đa dạng văn hoá", "Không cần thiết", "Không có lý do gì", "Chỉ có một vùng miền là đúng"], correctIndex: 0, explanation: "Sự khác biệt vùng miền là nét đẹp đa dạng văn hoá." },
+    { question: "Em nên có thái độ gì với bạn đến từ vùng miền khác?", options: ["Tôn trọng, thân thiện", "Xa lánh", "Chê bai", "Kỳ thị"], correctIndex: 0, explanation: "Nên tôn trọng và thân thiện." },
+  ]),
+  "dao-duc:3:tro-choi-on-tap-biet-on-thay-co-giao-cu": practiceContent("Trò chơi ôn tập", "Biết ơn thầy cô giáo cũ", "Hãy nhớ lại cách thể hiện lòng biết ơn với thầy cô cũ.", [
+    { question: "Biết ơn thầy cô giáo cũ là gì?", options: ["Nhớ và trân trọng công lao dạy dỗ", "Quên đi thầy cô cũ", "Không quan tâm", "Không cần nhớ đến"], correctIndex: 0, explanation: "Biết ơn là nhớ và trân trọng công lao dạy dỗ." },
+    { question: "Cách nào thể hiện lòng biết ơn với thầy cô cũ?", options: ["Gửi lời chúc vào dịp lễ", "Quên đi thầy cô", "Không quan tâm", "Không nhớ đến thầy cô"], correctIndex: 0, explanation: "Gửi lời chúc vào dịp lễ thể hiện lòng biết ơn." },
+    { question: "Vì sao cần biết ơn thầy cô giáo?", options: ["Thầy cô đã dạy dỗ, giúp em trưởng thành", "Không cần thiết", "Không có lý do gì", "Chỉ là hình thức"], correctIndex: 0, explanation: "Thầy cô đã dạy dỗ và giúp em trưởng thành." },
+    { question: "Ngày nào là dịp để tri ân thầy cô giáo?", options: ["20/11", "8/3", "1/6", "2/9"], correctIndex: 0, explanation: "Ngày 20/11 là Ngày Nhà giáo Việt Nam." },
+  ]),
+  "dao-duc:3:thu-thach-nho-giu-chu-tin-voi-ban-be": practiceContent("Thử thách nhỏ", "Giữ chữ tín với bạn bè", "Hãy nhớ lại ý nghĩa của việc giữ chữ tín.", [
+    { question: "Chữ tín là gì?", options: ["Giữ đúng lời đã hứa", "Thất hứa thường xuyên", "Không giữ lời hứa", "Nói một đằng làm một nẻo"], correctIndex: 0, explanation: "Chữ tín là giữ đúng lời đã hứa." },
+    { question: "Hành động nào thể hiện giữ chữ tín?", options: ["Đến đúng hẹn với bạn", "Thất hứa thường xuyên", "Không giữ lời hứa", "Nói dối bạn bè"], correctIndex: 0, explanation: "Đến đúng hẹn với bạn thể hiện giữ chữ tín." },
+    { question: "Vì sao cần giữ chữ tín với bạn bè?", options: ["Xây dựng lòng tin, tình bạn bền vững", "Không cần thiết", "Không có lợi ích gì", "Chỉ là hình thức"], correctIndex: 0, explanation: "Giữ chữ tín giúp xây dựng lòng tin." },
+    { question: "Nếu không thể giữ lời hứa, em nên làm gì?", options: ["Báo trước và giải thích lý do", "Im lặng không nói gì", "Trốn tránh bạn", "Không quan tâm"], correctIndex: 0, explanation: "Nên báo trước và giải thích lý do." },
+  ]),
+  "dao-duc:3:thuc-hanh-khong-tham-lam-khong-lay-do-khong-phai-cua-minh": practiceContent("Thực hành", "Không tham lam, không lấy đồ không phải của mình", "Hãy nhớ lại cách ứng xử khi thấy đồ vật không phải của mình.", [
+    { question: "Không tham lam là gì?", options: ["Không lấy đồ vật không thuộc về mình", "Lấy đồ vật của người khác", "Giấu đồ nhặt được", "Không trả lại đồ nhặt được"], correctIndex: 0, explanation: "Không tham lam là không lấy đồ không thuộc về mình." },
+    { question: "Khi nhặt được đồ vật của người khác, em nên làm gì?", options: ["Trả lại hoặc báo người lớn", "Giữ lại cho mình", "Giấu đi", "Không quan tâm"], correctIndex: 0, explanation: "Nên trả lại hoặc báo người lớn." },
+    { question: "Vì sao không nên tham lam?", options: ["Thể hiện tính trung thực, được tin tưởng", "Không cần thiết", "Không có lý do gì", "Tham lam là bình thường"], correctIndex: 0, explanation: "Không tham lam thể hiện tính trung thực." },
+    { question: "Lấy đồ của người khác mà không xin phép được gọi là gì?", options: ["Hành vi không trung thực", "Hành vi tốt", "Không có vấn đề gì", "Hành vi bình thường"], correctIndex: 0, explanation: "Lấy đồ người khác mà không xin phép là hành vi không trung thực." },
+  ]),
+  "dao-duc:3:luyen-tap-biet-chia-se-do-choi-do-dung": practiceContent("Luyện tập", "Biết chia sẻ đồ chơi, đồ dùng", "Hãy nhớ lại ý nghĩa của việc chia sẻ với bạn bè.", [
+    { question: "Chia sẻ đồ chơi, đồ dùng là gì?", options: ["Cùng bạn bè sử dụng đồ chơi", "Giữ riêng cho mình", "Không cho ai mượn", "Giấu đồ chơi đi"], correctIndex: 0, explanation: "Chia sẻ là cùng bạn bè sử dụng đồ chơi." },
+    { question: "Vì sao cần biết chia sẻ với bạn bè?", options: ["Xây dựng tình bạn, học cách quan tâm", "Không cần thiết", "Không có lợi ích gì", "Chỉ làm mất đồ của mình"], correctIndex: 0, explanation: "Chia sẻ giúp xây dựng tình bạn." },
+    { question: "Hành động nào thể hiện sự chia sẻ?", options: ["Cho bạn mượn đồ chơi", "Giữ đồ chơi cho riêng mình", "Không cho ai mượn", "Giấu đồ đi khi bạn hỏi mượn"], correctIndex: 0, explanation: "Cho bạn mượn đồ chơi thể hiện sự chia sẻ." },
+    { question: "Khi chia sẻ đồ chơi, em cảm thấy như thế nào?", options: ["Vui vẻ, có thêm bạn bè", "Buồn bã", "Tức giận", "Không cảm thấy gì"], correctIndex: 0, explanation: "Chia sẻ mang lại niềm vui và bạn bè." },
+  ]),
+  "dao-duc:3:van-dung-ung-xu-le-phep-khi-co-khach-den-nha": practiceContent("Vận dụng", "Ứng xử lễ phép khi có khách đến nhà", "Hãy nhớ lại cách chào hỏi, ứng xử với khách.", [
+    { question: "Khi có khách đến nhà, em nên làm gì?", options: ["Chào hỏi lễ phép", "Trốn vào phòng", "Không quan tâm", "Nói leo khi người lớn nói chuyện"], correctIndex: 0, explanation: "Nên chào hỏi lễ phép khi có khách." },
+    { question: "Hành động nào KHÔNG nên làm khi có khách?", options: ["Nói leo khi người lớn nói chuyện", "Chào hỏi lễ phép", "Mời khách ngồi", "Lắng nghe người lớn"], correctIndex: 0, explanation: "Không nên nói leo khi người lớn nói chuyện." },
+    { question: "Vì sao cần ứng xử lễ phép khi có khách?", options: ["Thể hiện sự lễ phép, ấn tượng tốt", "Không cần thiết", "Không có lý do gì", "Chỉ là hình thức"], correctIndex: 0, explanation: "Ứng xử lễ phép thể hiện sự lễ phép." },
+    { question: "Khi khách đến nhà, em có thể làm gì để thể hiện sự hiếu khách?", options: ["Mời khách ngồi, rót nước mời khách", "Không quan tâm", "Trốn đi chỗ khác", "Không chào hỏi"], correctIndex: 0, explanation: "Mời khách ngồi, rót nước thể hiện sự hiếu khách." },
+  ]),
+  "dao-duc:3:tro-choi-on-tap-cu-xu-dung-muc-trong-bua-an-gia-dinh": practiceContent("Trò chơi ôn tập", "Cư xử đúng mực trong bữa ăn gia đình", "Hãy nhớ lại các quy tắc ứng xử khi ăn cùng gia đình.", [
+    { question: "Trước khi ăn, em nên làm gì?", options: ["Mời người lớn ăn cơm", "Ăn ngay không mời ai", "Không quan tâm đến ai", "Giành ăn trước"], correctIndex: 0, explanation: "Nên mời người lớn ăn cơm trước." },
+    { question: "Hành động nào KHÔNG nên làm trong bữa ăn?", options: ["Nói chuyện khi đang nhai", "Mời người lớn ăn cơm", "Ăn từ tốn", "Cảm ơn sau bữa ăn"], correctIndex: 0, explanation: "Không nên nói chuyện khi đang nhai." },
+    { question: "Vì sao cần cư xử đúng mực trong bữa ăn?", options: ["Thể hiện sự lễ phép, bữa ăn ấm cúng", "Không cần thiết", "Không có lý do gì", "Chỉ là quy định"], correctIndex: 0, explanation: "Cư xử đúng mực giúp bữa ăn ấm cúng hơn." },
+    { question: "Sau khi ăn xong, em nên làm gì?", options: ["Cảm ơn và xin phép rời bàn", "Bỏ đi ngay không nói gì", "Không dọn dẹp", "Không quan tâm"], correctIndex: 0, explanation: "Nên cảm ơn và xin phép rời bàn." },
+  ]),
+  "dao-duc:3:thu-thach-nho-giup-do-cha-me-viec-nha-phu-hop-lua-tuoi": practiceContent("Thử thách nhỏ", "Giúp đỡ cha mẹ việc nhà phù hợp lứa tuổi", "Hãy nhớ lại những việc nhà phù hợp với lứa tuổi.", [
+    { question: "Việc nhà nào phù hợp với học sinh tiểu học?", options: ["Quét nhà, gấp quần áo", "Nấu ăn phức tạp", "Sửa chữa điện", "Lái xe"], correctIndex: 0, explanation: "Quét nhà, gấp quần áo là việc nhà phù hợp." },
+    { question: "Vì sao cần giúp đỡ cha mẹ việc nhà?", options: ["Giúp gia đình nhẹ nhàng hơn, rèn tính tự lập", "Không cần thiết", "Không có lợi ích gì", "Chỉ là việc của người lớn"], correctIndex: 0, explanation: "Giúp đỡ việc nhà giúp gia đình nhẹ nhàng hơn." },
+    { question: "Hành động nào thể hiện sự tự giác giúp đỡ việc nhà?", options: ["Chủ động dọn dẹp bàn học", "Chờ cha mẹ nhắc nhở", "Không làm gì cả", "Từ chối giúp đỡ"], correctIndex: 0, explanation: "Chủ động dọn dẹp bàn học thể hiện sự tự giác." },
+    { question: "Giúp đỡ việc nhà mang lại lợi ích gì cho bản thân?", options: ["Rèn tính tự lập, trách nhiệm", "Không có lợi ích gì", "Làm mất thời gian học", "Không liên quan đến bản thân"], correctIndex: 0, explanation: "Việc này giúp rèn tính tự lập, trách nhiệm." },
+  ]),
+  "dao-duc:3:thuc-hanh-ton-trong-quyet-dinh-cua-cha-me": practiceContent("Thực hành", "Tôn trọng quyết định của cha mẹ", "Hãy nhớ lại cách bày tỏ ý kiến một cách lễ phép với cha mẹ.", [
+    { question: "Tôn trọng quyết định của cha mẹ là gì?", options: ["Lắng nghe, không cãi lại vô lễ", "Cãi lại gay gắt", "Không quan tâm đến ý kiến cha mẹ", "Làm ngược lại hoàn toàn"], correctIndex: 0, explanation: "Tôn trọng là lắng nghe, không cãi lại vô lễ." },
+    { question: "Khi không đồng ý với cha mẹ, em nên làm gì?", options: ["Nhẹ nhàng trình bày lý do", "Cãi lại gay gắt", "Bỏ đi không nói gì", "Làm trái ý cha mẹ"], correctIndex: 0, explanation: "Nên nhẹ nhàng trình bày lý do." },
+    { question: "Vì sao cần tôn trọng quyết định của cha mẹ?", options: ["Cha mẹ có kinh nghiệm và yêu thương con", "Không cần thiết", "Không có lý do gì", "Cha mẹ luôn sai"], correctIndex: 0, explanation: "Cha mẹ có kinh nghiệm và yêu thương con." },
+    { question: "Cách bày tỏ ý kiến với cha mẹ nên như thế nào?", options: ["Lễ phép, nhẹ nhàng", "Cãi lại gay gắt", "Im lặng không nói gì", "La hét"], correctIndex: 0, explanation: "Nên bày tỏ ý kiến một cách lễ phép." },
+  ]),
+  "dao-duc:3:luyen-tap-biet-lap-muc-tieu-hoc-tap-nho": practiceContent("Luyện tập", "Biết lập mục tiêu học tập nhỏ", "Hãy nhớ lại cách đặt mục tiêu học tập phù hợp.", [
+    { question: "Mục tiêu học tập là gì?", options: ["Điều em muốn đạt được trong học tập", "Không có ý nghĩa gì", "Chỉ là ước mơ xa vời", "Không liên quan đến học tập"], correctIndex: 0, explanation: "Mục tiêu học tập là điều em muốn đạt được." },
+    { question: "Mục tiêu học tập nên như thế nào?", options: ["Cụ thể, vừa sức", "Mơ hồ, không rõ ràng", "Quá xa vời", "Không cần đặt ra"], correctIndex: 0, explanation: "Mục tiêu nên cụ thể và vừa sức." },
+    { question: "Vì sao cần lập mục tiêu học tập?", options: ["Giúp định hướng và cố gắng học tập", "Không cần thiết", "Không có lợi ích gì", "Chỉ làm mất thời gian"], correctIndex: 0, explanation: "Lập mục tiêu giúp định hướng học tập." },
+    { question: "Sau khi đặt mục tiêu, em cần làm gì tiếp theo?", options: ["Lập kế hoạch từng bước thực hiện", "Không cần làm gì thêm", "Quên ngay mục tiêu", "Không cần cố gắng"], correctIndex: 0, explanation: "Cần lập kế hoạch từng bước để đạt mục tiêu." },
+  ]),
+  "dao-duc:3:van-dung-on-tap-giua-hoc-ky-1": practiceContent("Vận dụng", "Ôn tập giữa học kỳ 1", "Hãy ôn lại các giá trị đạo đức cơ bản đã học.", [
+    { question: "Giữ lời hứa có ý nghĩa gì?", options: ["Xây dựng lòng tin với mọi người", "Không có ý nghĩa gì", "Chỉ là hình thức", "Không cần thiết"], correctIndex: 0, explanation: "Giữ lời hứa giúp xây dựng lòng tin." },
+    { question: "Ham học hỏi thể hiện điều gì?", options: ["Tinh thần khám phá, cầu tiến", "Không có ý nghĩa gì", "Sự lười biếng", "Không liên quan đến học tập"], correctIndex: 0, explanation: "Ham học hỏi thể hiện tinh thần khám phá, cầu tiến." },
+    { question: "Quan tâm hàng xóm láng giềng có ý nghĩa gì?", options: ["Xây dựng cộng đồng gắn kết", "Không cần thiết", "Không có lợi ích gì", "Chỉ là hình thức"], correctIndex: 0, explanation: "Quan tâm hàng xóm giúp xây dựng cộng đồng gắn kết." },
+    { question: "Tự hào truyền thống quê hương thể hiện điều gì?", options: ["Tình yêu và trân trọng quê hương", "Không có ý nghĩa gì", "Sự thờ ơ", "Không liên quan đến quê hương"], correctIndex: 0, explanation: "Điều này thể hiện tình yêu quê hương." },
+  ]),
+  "dao-duc:3:tro-choi-on-tap-on-tap-cuoi-hoc-ky-1": practiceContent("Trò chơi ôn tập", "Ôn tập cuối học kỳ 1", "Hãy ôn lại các bài học đạo đức quan trọng học kỳ 1.", [
+    { question: "Tích cực hoàn thành nhiệm vụ thể hiện điều gì?", options: ["Tinh thần trách nhiệm", "Sự lười biếng", "Không có ý nghĩa gì", "Không liên quan đến trách nhiệm"], correctIndex: 0, explanation: "Điều này thể hiện tinh thần trách nhiệm." },
+    { question: "Tôn trọng người khuyết tật thể hiện điều gì?", options: ["Sự cảm thông, tôn trọng", "Sự kỳ thị", "Không có ý nghĩa gì", "Không liên quan đến đạo đức"], correctIndex: 0, explanation: "Điều này thể hiện sự cảm thông, tôn trọng." },
+    { question: "Chia sẻ với bạn có hoàn cảnh khó khăn có ý nghĩa gì?", options: ["Thể hiện tình yêu thương, sẻ chia", "Không cần thiết", "Không có ý nghĩa gì", "Chỉ là hình thức"], correctIndex: 0, explanation: "Điều này thể hiện tình yêu thương, sẻ chia." },
+    { question: "Vì sao cần bảo vệ của công?", options: ["Đây là tài sản chung cần giữ gìn", "Không cần thiết", "Không có lý do gì", "Chỉ là quy định"], correctIndex: 0, explanation: "Của công là tài sản chung cần được giữ gìn." },
+  ]),
+  "dao-duc:3:thu-thach-nho-on-tap-giua-hoc-ky-2": practiceContent("Thử thách nhỏ", "Ôn tập giữa học kỳ 2", "Hãy ôn lại kỹ năng ứng xử an toàn đã học.", [
+    { question: "Vì sao cần cảnh giác với người lạ?", options: ["Bảo vệ an toàn cho bản thân", "Không cần thiết", "Không có lý do gì", "Người lạ luôn tốt bụng"], correctIndex: 0, explanation: "Cảnh giác giúp bảo vệ an toàn." },
+    { question: "Khi bị bắt nạt, em nên làm gì?", options: ["Báo người lớn", "Im lặng chịu đựng", "Đánh trả bằng bạo lực", "Không làm gì"], correctIndex: 0, explanation: "Nên báo người lớn khi bị bắt nạt." },
+    { question: "Thông tin nào cần giữ bí mật với người lạ?", options: ["Địa chỉ nhà, số điện thoại", "Môn học yêu thích", "Màu sắc yêu thích", "Sở thích ăn uống"], correctIndex: 0, explanation: "Địa chỉ nhà, số điện thoại cần được giữ bí mật." },
+    { question: "Khi đi bộ, em nên đi ở đâu để an toàn?", options: ["Trên vỉa hè", "Giữa lòng đường", "Bất kỳ đâu", "Không cần chú ý"], correctIndex: 0, explanation: "Nên đi trên vỉa hè để đảm bảo an toàn." },
+  ]),
+  "dao-duc:3:thuc-hanh-tinh-huong-nhat-duoc-cua-roi": practiceContent("Thực hành", "Tình huống: Nhặt được của rơi", "Hãy nhớ lại cách ứng xử khi nhặt được của rơi.", [
+    { question: "Khi nhặt được của rơi, em nên làm gì?", options: ["Tìm cách trả lại cho người mất", "Giữ lại cho mình", "Giấu đi", "Không quan tâm"], correctIndex: 0, explanation: "Nên tìm cách trả lại của rơi." },
+    { question: "Nhặt được tiền ở trường, em nên báo cho ai?", options: ["Thầy cô giáo", "Không báo cho ai", "Giữ bí mật", "Bạn bè thân thiết"], correctIndex: 0, explanation: "Nên báo cho thầy cô giáo." },
+    { question: "Vì sao không nên giữ của nhặt được cho riêng mình?", options: ["Đó là hành vi không trung thực", "Không có lý do gì", "Của rơi thuộc về người nhặt", "Không ảnh hưởng đến ai"], correctIndex: 0, explanation: "Giữ của nhặt được là hành vi không trung thực." },
+    { question: "Trả lại của rơi cho người mất thể hiện đức tính gì?", options: ["Trung thực, thật thà", "Tham lam", "Không có đức tính gì", "Ích kỷ"], correctIndex: 0, explanation: "Hành động này thể hiện đức tính trung thực." },
+  ]),
+  "dao-duc:3:luyen-tap-tinh-huong-ban-ru-lam-viec-xau": practiceContent("Luyện tập", "Tình huống: Bạn rủ làm việc xấu", "Hãy nhớ lại cách từ chối khi bị rủ làm việc xấu.", [
+    { question: "Khi bạn rủ làm việc xấu, em nên làm gì?", options: ["Từ chối dứt khoát", "Đồng ý làm theo", "Im lặng không nói gì", "Tham gia cho vui"], correctIndex: 0, explanation: "Nên từ chối dứt khoát." },
+    { question: "Vì sao cần từ chối khi bị rủ làm việc xấu?", options: ["Bảo vệ bản thân và tránh hậu quả xấu", "Không cần thiết", "Không có lý do gì", "Làm theo bạn bè là đúng"], correctIndex: 0, explanation: "Từ chối giúp bảo vệ bản thân." },
+    { question: "Sau khi từ chối, em có thể làm gì?", options: ["Khuyên bạn không nên làm việc xấu", "Không quan tâm đến bạn nữa", "Tham gia cùng bạn", "Không nói gì thêm"], correctIndex: 0, explanation: "Có thể khuyên bạn không nên làm việc xấu." },
+    { question: "Nếu bạn tiếp tục rủ rê, em nên làm gì?", options: ["Báo cho người lớn nếu cần thiết", "Tiếp tục im lặng", "Đồng ý làm theo", "Không làm gì"], correctIndex: 0, explanation: "Nên báo cho người lớn nếu cần." },
+  ]),
+  "dao-duc:3:van-dung-tinh-huong-chung-kien-ban-bi-bat-nat": practiceContent("Vận dụng", "Tình huống: Chứng kiến bạn bị bắt nạt", "Hãy nhớ lại trách nhiệm của người chứng kiến bắt nạt.", [
+    { question: "Khi chứng kiến bạn bị bắt nạt, em nên làm gì?", options: ["Báo ngay cho thầy cô", "Đứng nhìn thờ ơ", "Tham gia bắt nạt cùng", "Không quan tâm"], correctIndex: 0, explanation: "Nên báo ngay cho thầy cô." },
+    { question: "Vì sao không nên thờ ơ khi thấy bạn bị bắt nạt?", options: ["Có thể khiến bạn bị tổn thương thêm", "Không có lý do gì", "Không liên quan đến mình", "Bắt nạt là bình thường"], correctIndex: 0, explanation: "Thờ ơ có thể khiến bạn bị tổn thương thêm." },
+    { question: "Hành động nào KHÔNG nên làm khi thấy bạn bị bắt nạt?", options: ["Tham gia bắt nạt cùng", "Báo người lớn", "Giúp đỡ bạn an toàn", "Ngăn cản hành vi xấu"], correctIndex: 0, explanation: "Không nên tham gia bắt nạt cùng." },
+    { question: "Người chứng kiến bắt nạt có trách nhiệm gì?", options: ["Giúp đỡ, báo cáo tình huống", "Không có trách nhiệm gì", "Chỉ đứng nhìn", "Tham gia cùng"], correctIndex: 0, explanation: "Người chứng kiến có trách nhiệm giúp đỡ, báo cáo." },
+  ]),
+  "dao-duc:3:tro-choi-on-tap-tinh-huong-duoc-giao-nhiem-vu-kho": practiceContent("Trò chơi ôn tập", "Tình huống: Được giao nhiệm vụ khó", "Hãy nhớ lại cách vượt qua khó khăn trong công việc.", [
+    { question: "Khi được giao nhiệm vụ khó, em nên làm gì?", options: ["Cố gắng tìm cách giải quyết", "Bỏ cuộc ngay", "Từ chối nhiệm vụ", "Không làm gì cả"], correctIndex: 0, explanation: "Nên cố gắng tìm cách giải quyết." },
+    { question: "Cách nào giúp giải quyết nhiệm vụ khó?", options: ["Chia nhỏ nhiệm vụ thành các bước", "Bỏ cuộc ngay lập tức", "Không làm gì cả", "Đợi người khác làm hộ"], correctIndex: 0, explanation: "Chia nhỏ nhiệm vụ giúp dễ giải quyết hơn." },
+    { question: "Khi gặp khó khăn, em có thể làm gì?", options: ["Hỏi ý kiến thầy cô, bạn bè", "Không hỏi ai", "Bỏ cuộc", "Tự ti về bản thân"], correctIndex: 0, explanation: "Có thể hỏi ý kiến thầy cô, bạn bè." },
+    { question: "Vì sao cần có tinh thần trách nhiệm với nhiệm vụ được giao?", options: ["Giúp em trưởng thành, đáng tin cậy", "Không cần thiết", "Không có lợi ích gì", "Chỉ là hình thức"], correctIndex: 0, explanation: "Tinh thần trách nhiệm giúp em trưởng thành." },
+  ]),
+  "dao-duc:3:thu-thach-nho-tro-choi-sam-vai-ung-xu-tinh-huong": practiceContent("Thử thách nhỏ", "Trò chơi sắm vai: Ứng xử tình huống", "Hãy nhớ lại lợi ích của trò chơi sắm vai để luyện ứng xử.", [
+    { question: "Trò chơi sắm vai giúp ích điều gì?", options: ["Luyện cách ứng xử tình huống thực tế", "Không có ích gì", "Làm mất thời gian", "Không liên quan đến kỹ năng sống"], correctIndex: 0, explanation: "Trò chơi này giúp luyện cách ứng xử thực tế." },
+    { question: "Khi sắm vai, em cần làm gì?", options: ["Nhập vai và xử lý tình huống hợp lý", "Không cần nhập vai", "Chỉ cần đọc lời thoại", "Không cần suy nghĩ"], correctIndex: 0, explanation: "Cần nhập vai và xử lý tình huống hợp lý." },
+    { question: "Trò chơi sắm vai giúp rèn luyện điều gì?", options: ["Kỹ năng xử lý tình huống", "Không rèn luyện gì", "Chỉ để giải trí", "Không liên quan đến cuộc sống"], correctIndex: 0, explanation: "Trò chơi giúp rèn luyện kỹ năng xử lý tình huống." },
+    { question: "Vì sao trò chơi sắm vai hữu ích cho việc học đạo đức?", options: ["Giúp áp dụng kiến thức vào tình huống cụ thể", "Không hữu ích", "Chỉ để vui chơi", "Không liên quan đến đạo đức"], correctIndex: 0, explanation: "Trò chơi giúp áp dụng kiến thức vào tình huống cụ thể." },
+  ]),
+  "dao-duc:3:thuc-hanh-thuc-hanh-lap-ke-hoach-mot-ngay-tot-dep": practiceContent("Thực hành", "Thực hành: Lập kế hoạch một ngày tốt đẹp", "Hãy nhớ lại cách lập kế hoạch cho một ngày ý nghĩa.", [
+    { question: "Lập kế hoạch một ngày giúp ích điều gì?", options: ["Quản lý thời gian hiệu quả", "Không có ích gì", "Làm mất thời gian", "Không liên quan đến cuộc sống"], correctIndex: 0, explanation: "Lập kế hoạch giúp quản lý thời gian hiệu quả." },
+    { question: "Kế hoạch một ngày nên bao gồm những gì?", options: ["Học tập, giúp gia đình, vui chơi, nghỉ ngơi", "Chỉ có học tập", "Chỉ có vui chơi", "Không cần bao gồm gì"], correctIndex: 0, explanation: "Kế hoạch nên bao gồm đầy đủ các hoạt động cân bằng." },
+    { question: "Vì sao cần thực hiện đúng kế hoạch đã đề ra?", options: ["Giúp đạt được mục tiêu đề ra", "Không cần thiết", "Không có lợi ích gì", "Chỉ là hình thức"], correctIndex: 0, explanation: "Thực hiện đúng kế hoạch giúp đạt được mục tiêu." },
+    { question: "Một ngày ý nghĩa cần có yếu tố gì?", options: ["Cân bằng giữa học tập và nghỉ ngơi", "Chỉ có học tập", "Chỉ có chơi", "Không cần cân bằng"], correctIndex: 0, explanation: "Một ngày ý nghĩa cần cân bằng giữa học tập và nghỉ ngơi." },
+  ]),
+  "dao-duc:3:van-dung-ky-nang-tu-choi-loi-ru-re-xau": practiceContent("Vận dụng", "Kỹ năng từ chối lời rủ rê xấu", "Hãy nhớ lại cách từ chối khéo léo trước cám dỗ xấu.", [
+    { question: "Khi bị rủ rê làm việc xấu, em nên nói gì?", options: ["Nói 'không' rõ ràng, dứt khoát", "Đồng ý ngay", "Im lặng không nói gì", "Do dự không quyết định"], correctIndex: 0, explanation: "Nên nói 'không' rõ ràng, dứt khoát." },
+    { question: "Kỹ năng từ chối giúp ích điều gì?", options: ["Bảo vệ bản thân trước cám dỗ xấu", "Không có ích gì", "Làm mất bạn bè", "Không liên quan đến an toàn"], correctIndex: 0, explanation: "Kỹ năng này giúp bảo vệ bản thân." },
+    { question: "Khi từ chối, em nên có thái độ như thế nào?", options: ["Lịch sự nhưng dứt khoát", "Thô lỗ", "Sợ hãi", "Không rõ ràng"], correctIndex: 0, explanation: "Nên từ chối lịch sự nhưng dứt khoát." },
+    { question: "Nếu người rủ rê tiếp tục ép buộc, em nên làm gì?", options: ["Rời khỏi tình huống, báo người lớn", "Tiếp tục ở lại", "Đồng ý cho xong chuyện", "Không làm gì"], correctIndex: 0, explanation: "Nên rời khỏi tình huống và báo người lớn." },
+  ]),
+  "dao-duc:3:tro-choi-on-tap-giu-gin-truyen-thong-hieu-hoc-gia-dinh": practiceContent("Trò chơi ôn tập", "Giữ gìn truyền thống hiếu học gia đình", "Hãy nhớ lại ý nghĩa của tinh thần hiếu học.", [
+    { question: "Truyền thống hiếu học là gì?", options: ["Tinh thần coi trọng việc học tập", "Không coi trọng học tập", "Chỉ chơi không học", "Không liên quan đến học tập"], correctIndex: 0, explanation: "Truyền thống hiếu học là tinh thần coi trọng việc học." },
+    { question: "Cách nào giúp giữ gìn truyền thống hiếu học?", options: ["Chăm chỉ học tập", "Lười biếng", "Bỏ học", "Không quan tâm đến học tập"], correctIndex: 0, explanation: "Chăm chỉ học tập giúp giữ gìn truyền thống." },
+    { question: "Vì sao cần giữ gìn truyền thống hiếu học?", options: ["Đây là giá trị tốt đẹp của gia đình, dân tộc", "Không cần thiết", "Không có ý nghĩa gì", "Chỉ là hình thức"], correctIndex: 0, explanation: "Đây là giá trị tốt đẹp cần được giữ gìn." },
+    { question: "Việt Nam có truyền thống hiếu học được thể hiện qua điều gì?", options: ["Coi trọng giáo dục, tôn sư trọng đạo", "Không coi trọng giáo dục", "Chỉ coi trọng tiền bạc", "Không có truyền thống gì"], correctIndex: 0, explanation: "Việt Nam có truyền thống coi trọng giáo dục." },
+  ]),
+  "dao-duc:3:thu-thach-nho-biet-on-cac-anh-hung-dan-toc": practiceContent("Thử thách nhỏ", "Biết ơn các anh hùng dân tộc", "Hãy nhớ lại công lao của các anh hùng dân tộc.", [
+    { question: "Ai là anh hùng dân tộc đánh thắng quân Mông - Nguyên?", options: ["Trần Hưng Đạo", "Lê Lợi", "Quang Trung", "Hai Bà Trưng"], correctIndex: 0, explanation: "Trần Hưng Đạo đánh thắng quân Mông - Nguyên." },
+    { question: "Vì sao cần biết ơn các anh hùng dân tộc?", options: ["Họ có công lớn bảo vệ đất nước", "Không cần thiết", "Không có lý do gì", "Không liên quan đến em"], correctIndex: 0, explanation: "Các anh hùng có công lớn bảo vệ đất nước." },
+    { question: "Cách nào thể hiện lòng biết ơn với anh hùng dân tộc?", options: ["Tìm hiểu lịch sử, học tập chăm chỉ", "Không quan tâm đến lịch sử", "Quên đi công lao của họ", "Không làm gì cả"], correctIndex: 0, explanation: "Tìm hiểu lịch sử và học tập chăm chỉ thể hiện lòng biết ơn." },
+    { question: "Quang Trung nổi tiếng với chiến thắng nào?", options: ["Đại phá quân Thanh", "Đánh quân Mông - Nguyên", "Đánh quân Minh", "Đánh quân Pháp"], correctIndex: 0, explanation: "Quang Trung nổi tiếng với chiến thắng đại phá quân Thanh." },
+  ]),
+  "dao-duc:3:thuc-hanh-yeu-lao-dong-chan-tay": practiceContent("Thực hành", "Yêu lao động chân tay", "Hãy nhớ lại giá trị của lao động chân tay.", [
+    { question: "Lao động chân tay là gì?", options: ["Công việc sử dụng sức lực", "Chỉ công việc trí óc", "Không có giá trị gì", "Công việc không cần thiết"], correctIndex: 0, explanation: "Lao động chân tay là công việc sử dụng sức lực." },
+    { question: "Ví dụ nào là lao động chân tay?", options: ["Làm nông, xây dựng", "Viết văn", "Nghiên cứu khoa học", "Lập trình máy tính"], correctIndex: 0, explanation: "Làm nông, xây dựng là ví dụ về lao động chân tay." },
+    { question: "Vì sao cần trân trọng lao động chân tay?", options: ["Đóng góp quan trọng cho xã hội", "Không cần thiết", "Không có giá trị gì", "Chỉ lao động trí óc mới quan trọng"], correctIndex: 0, explanation: "Lao động chân tay đóng góp quan trọng cho xã hội." },
+    { question: "Em nên có thái độ gì với người làm lao động chân tay?", options: ["Tôn trọng, không coi thường", "Coi thường", "Xem nhẹ", "Không quan tâm"], correctIndex: 0, explanation: "Nên tôn trọng và không coi thường." },
+  ]),
+  "dao-duc:3:luyen-tap-ton-trong-noi-quy-noi-cong-cong": practiceContent("Luyện tập", "Tôn trọng nội quy nơi công cộng", "Hãy nhớ lại ý nghĩa của việc tuân thủ quy định chung.", [
+    { question: "Nội quy nơi công cộng là gì?", options: ["Các quy định chung cần tuân thủ", "Không có quy định nào", "Chỉ áp dụng cho người lớn", "Không quan trọng"], correctIndex: 0, explanation: "Nội quy nơi công cộng là các quy định chung." },
+    { question: "Hành động nào vi phạm nội quy nơi công cộng?", options: ["Xả rác bừa bãi", "Giữ trật tự", "Xếp hàng", "Tuân thủ quy định"], correctIndex: 0, explanation: "Xả rác bừa bãi là hành động vi phạm." },
+    { question: "Vì sao cần tuân thủ nội quy nơi công cộng?", options: ["Duy trì trật tự, văn minh cho cộng đồng", "Không cần thiết", "Không có lý do gì", "Chỉ là hình thức"], correctIndex: 0, explanation: "Tuân thủ nội quy giúp duy trì trật tự." },
+    { question: "Em nên làm gì khi ở nơi công cộng?", options: ["Tuân thủ nội quy, giữ trật tự", "Làm theo ý mình", "Không quan tâm đến quy định", "Gây ồn ào"], correctIndex: 0, explanation: "Nên tuân thủ nội quy và giữ trật tự." },
+  ]),
+  "dao-duc:3:van-dung-ung-xu-van-minh-khi-xep-hang": practiceContent("Vận dụng", "Ứng xử văn minh khi xếp hàng", "Hãy nhớ lại ý nghĩa của việc xếp hàng trật tự.", [
+    { question: "Xếp hàng văn minh là gì?", options: ["Đứng đúng thứ tự, không chen lấn", "Chen lấn để lên trước", "Không xếp hàng", "Giành chỗ của người khác"], correctIndex: 0, explanation: "Xếp hàng văn minh là đứng đúng thứ tự." },
+    { question: "Vì sao cần xếp hàng khi ở nơi công cộng?", options: ["Thể hiện sự tôn trọng, công bằng", "Không cần thiết", "Không có lý do gì", "Chỉ là hình thức"], correctIndex: 0, explanation: "Xếp hàng thể hiện sự tôn trọng và công bằng." },
+    { question: "Hành động nào KHÔNG văn minh khi xếp hàng?", options: ["Chen lấn để lên trước", "Kiên nhẫn chờ đến lượt", "Đứng đúng thứ tự", "Nhường người cần thiết"], correctIndex: 0, explanation: "Chen lấn để lên trước là hành động không văn minh." },
+    { question: "Xếp hàng trật tự mang lại lợi ích gì?", options: ["Mọi việc diễn ra công bằng, trật tự", "Không có lợi ích gì", "Làm mất thời gian", "Không liên quan đến ai"], correctIndex: 0, explanation: "Xếp hàng trật tự giúp mọi việc diễn ra công bằng." },
+  ]),
+  "dao-duc:3:tro-choi-on-tap-giu-loi-hua-voi-ban-than": practiceContent("Trò chơi ôn tập", "Giữ lời hứa với bản thân", "Hãy nhớ lại ý nghĩa của việc tự cam kết với bản thân.", [
+    { question: "Giữ lời hứa với bản thân là gì?", options: ["Thực hiện những điều mình đã tự hứa", "Không cần thực hiện", "Chỉ hứa suông", "Bỏ qua các cam kết"], correctIndex: 0, explanation: "Là thực hiện những điều mình đã tự hứa." },
+    { question: "Vì sao cần giữ lời hứa với bản thân?", options: ["Rèn ý chí, sự kiên trì", "Không cần thiết", "Không có lợi ích gì", "Chỉ là hình thức"], correctIndex: 0, explanation: "Giữ lời hứa với bản thân giúp rèn ý chí." },
+    { question: "Ví dụ nào là giữ lời hứa với bản thân?", options: ["Thực hiện kế hoạch học tập đã đặt ra", "Bỏ dở kế hoạch", "Không đặt mục tiêu gì", "Chỉ hứa mà không làm"], correctIndex: 0, explanation: "Thực hiện kế hoạch học tập đã đặt ra là giữ lời hứa." },
+    { question: "Giữ lời hứa với bản thân giúp rèn luyện điều gì?", options: ["Lòng tự trọng, ý chí", "Không rèn luyện gì", "Sự lười biếng", "Không liên quan đến tính cách"], correctIndex: 0, explanation: "Điều này giúp rèn luyện lòng tự trọng và ý chí." },
+  ]),
+  "dao-duc:3:thu-thach-nho-on-tap-tong-hop-chuan-bi-kiem-tra-cuoi-nam": practiceContent("Thử thách nhỏ", "Ôn tập tổng hợp chuẩn bị kiểm tra cuối năm", "Hãy ôn lại toàn bộ kiến thức đạo đức trọng tâm trong năm.", [
+    { question: "Trung thực trong học tập là gì?", options: ["Tự làm bài, không gian lận", "Chép bài bạn", "Quay cóp khi thi", "Nhờ người khác làm bài"], correctIndex: 0, explanation: "Trung thực là tự làm bài, không gian lận." },
+    { question: "Vì sao cần tôn trọng người khác?", options: ["Xây dựng mối quan hệ tốt đẹp", "Không cần thiết", "Không có lý do gì", "Chỉ là hình thức"], correctIndex: 0, explanation: "Tôn trọng người khác giúp xây dựng mối quan hệ tốt đẹp." },
+    { question: "Khi gặp người lạ, em nên có thái độ gì?", options: ["Cảnh giác, giữ khoảng cách", "Tin tưởng ngay", "Đi theo", "Không cần cảnh giác"], correctIndex: 0, explanation: "Nên cảnh giác và giữ khoảng cách với người lạ." },
+    { question: "Vì sao cần ôn tập trước khi kiểm tra?", options: ["Củng cố kiến thức, tự tin hơn", "Không cần thiết", "Không có lợi ích gì", "Chỉ tốn thời gian"], correctIndex: 0, explanation: "Ôn tập giúp củng cố kiến thức và tự tin hơn." },
+  ]),
+
 };
 
 export function getLessonContent(subject: string, grade: number, lessonSlug: string) {
