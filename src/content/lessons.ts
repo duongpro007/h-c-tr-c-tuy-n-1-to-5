@@ -11928,6 +11928,1206 @@ export const lessonContent: Record<string, LessonContent> = {
     { question: "Vì sao cần ôn tập trước khi kiểm tra?", options: ["Củng cố kiến thức, tự tin hơn", "Không cần thiết", "Không có lợi ích gì", "Chỉ tốn thời gian"], correctIndex: 0, explanation: "Ôn tập giúp củng cố kiến thức và tự tin hơn." },
   ]),
 
+  // ─────────────── TIN HỌC — LỚP 3 — 60 bài lõi mở rộng ───────────────
+  "tin-hoc:3:lam-quen-chuot-khong-day-va-chuot-co-day": {
+    objectives: ["Phân biệt các loại chuột máy tính thường gặp.", "Biết cách sử dụng chuột cơ bản."],
+    sections: [
+      { heading: "1. Chuột có dây và không dây", body: ["Chuột có dây kết nối trực tiếp với máy tính, chuột không dây kết nối qua sóng Bluetooth hoặc USB thu tín hiệu."] },
+      { heading: "2. Cách sử dụng chuột", body: ["Click chuột trái để chọn, click chuột phải để mở menu, cuộn chuột để cuộn trang."] },
+    ],
+    quiz: [
+      { question: "Chuột không dây kết nối với máy tính bằng cách nào?", options: ["Qua Bluetooth hoặc USB thu tín hiệu", "Bằng dây cắm trực tiếp", "Không thể kết nối", "Chỉ qua màn hình"], correctIndex: 0, explanation: "Chuột không dây kết nối qua Bluetooth hoặc USB thu tín hiệu." },
+      { question: "Click chuột trái dùng để làm gì?", options: ["Chọn đối tượng", "Mở menu chuột phải", "Tắt máy tính", "Không có tác dụng gì"], correctIndex: 0, explanation: "Click chuột trái dùng để chọn đối tượng." },
+      { question: "Click chuột phải dùng để làm gì?", options: ["Mở menu tuỳ chọn", "Chọn đối tượng", "Cuộn trang", "Không có tác dụng gì"], correctIndex: 0, explanation: "Click chuột phải dùng để mở menu tuỳ chọn." },
+      { question: "Ưu điểm của chuột không dây là gì?", options: ["Gọn gàng, không vướng dây", "Không cần pin", "Không cần kết nối", "Không có ưu điểm gì"], correctIndex: 0, explanation: "Chuột không dây gọn gàng, không vướng dây khi sử dụng." },
+    ],
+    funFact: "Chuột máy tính được phát minh vào năm 1964 bởi Douglas Engelbart, ban đầu được làm bằng gỗ!",
+  },
+  "tin-hoc:3:su-dung-ban-phim-so": {
+    objectives: ["Làm quen khu vực bàn phím số trên bàn phím.", "Biết cách nhập số bằng bàn phím số."],
+    sections: [
+      { heading: "1. Bàn phím số", body: ["Là khu vực các phím số nằm bên phải bàn phím, giúp nhập số nhanh hơn."] },
+      { heading: "2. Cách sử dụng", body: ["Cần bật phím Num Lock để sử dụng bàn phím số nhập số."] },
+    ],
+    quiz: [
+      { question: "Bàn phím số nằm ở đâu trên bàn phím?", options: ["Bên phải bàn phím", "Bên trái bàn phím", "Ở giữa bàn phím", "Không có vị trí cố định"], correctIndex: 0, explanation: "Bàn phím số nằm ở bên phải bàn phím." },
+      { question: "Phím nào cần bật để sử dụng bàn phím số?", options: ["Num Lock", "Caps Lock", "Shift", "Enter"], correctIndex: 0, explanation: "Cần bật phím Num Lock để dùng bàn phím số." },
+      { question: "Bàn phím số giúp ích điều gì?", options: ["Nhập số nhanh hơn", "Không có ích gì", "Chỉ để trang trí", "Không liên quan đến nhập liệu"], correctIndex: 0, explanation: "Bàn phím số giúp nhập số nhanh hơn." },
+      { question: "Bàn phím số thường được dùng nhiều trong công việc nào?", options: ["Tính toán, nhập liệu số", "Vẽ tranh", "Nghe nhạc", "Xem phim"], correctIndex: 0, explanation: "Bàn phím số hữu ích cho công việc tính toán, nhập liệu số." },
+    ],
+    funFact: "Bàn phím số còn được gọi là 'numpad', rất hữu ích cho công việc kế toán, nhập liệu số lượng lớn!",
+  },
+  "tin-hoc:3:go-10-ngon-co-ban": {
+    objectives: ["Làm quen kỹ thuật gõ bàn phím bằng 10 ngón tay.", "Rèn thói quen gõ phím đúng cách."],
+    sections: [
+      { heading: "1. Kỹ thuật gõ 10 ngón", body: ["Mỗi ngón tay phụ trách một khu vực phím cố định trên bàn phím."] },
+      { heading: "2. Vị trí đặt tay", body: ["Hai ngón trỏ đặt ở phím F và J (có gờ nhỏ để nhận biết) làm điểm xuất phát."] },
+    ],
+    quiz: [
+      { question: "Gõ 10 ngón là gì?", options: ["Kỹ thuật gõ phím dùng cả 10 ngón tay", "Chỉ dùng 2 ngón để gõ", "Không cần dùng ngón tay", "Chỉ dùng 1 ngón để gõ"], correctIndex: 0, explanation: "Gõ 10 ngón là kỹ thuật dùng cả 10 ngón tay để gõ phím." },
+      { question: "Hai ngón trỏ nên đặt ở phím nào để làm điểm xuất phát?", options: ["Phím F và J", "Phím A và L", "Phím Q và P", "Phím Z và M"], correctIndex: 0, explanation: "Hai ngón trỏ đặt ở phím F và J có gờ nhỏ để nhận biết." },
+      { question: "Vì sao nên học gõ 10 ngón?", options: ["Gõ nhanh và chính xác hơn", "Không cần thiết", "Không có lợi ích gì", "Chỉ làm chậm hơn"], correctIndex: 0, explanation: "Gõ 10 ngón giúp gõ nhanh và chính xác hơn." },
+      { question: "Khi gõ 10 ngón, em có nên nhìn xuống bàn phím không?", options: ["Không, nên nhìn màn hình", "Luôn nhìn xuống bàn phím", "Không quan trọng", "Chỉ nhìn khi mới học"], correctIndex: 0, explanation: "Nên tập nhìn màn hình thay vì nhìn xuống bàn phím khi gõ." },
+    ],
+    funFact: "Người gõ phím nhanh nhất thế giới có thể gõ hơn 200 từ mỗi phút bằng kỹ thuật gõ 10 ngón!",
+  },
+  "tin-hoc:3:tim-va-thay-the-chu-trong-van-ban": {
+    objectives: ["Thực hành chức năng tìm và thay thế chữ.", "Biết cách sử dụng công cụ Find & Replace."],
+    sections: [
+      { heading: "1. Chức năng tìm kiếm", body: ["Giúp tìm nhanh một từ, cụm từ trong văn bản dài."] },
+      { heading: "2. Chức năng thay thế", body: ["Giúp thay thế từ/cụm từ tìm được bằng từ khác một cách nhanh chóng."] },
+    ],
+    quiz: [
+      { question: "Chức năng tìm kiếm trong văn bản dùng để làm gì?", options: ["Tìm nhanh một từ trong văn bản dài", "Xoá văn bản", "In văn bản", "Lưu văn bản"], correctIndex: 0, explanation: "Chức năng này giúp tìm nhanh một từ trong văn bản dài." },
+      { question: "Chức năng thay thế (Replace) dùng để làm gì?", options: ["Thay thế từ tìm được bằng từ khác", "Chỉ để tìm từ", "Xoá toàn bộ văn bản", "In văn bản"], correctIndex: 0, explanation: "Chức năng thay thế giúp đổi từ tìm được bằng từ khác." },
+      { question: "Vì sao nên dùng chức năng tìm và thay thế?", options: ["Tiết kiệm thời gian sửa văn bản dài", "Không có lợi ích gì", "Làm mất thời gian hơn", "Không liên quan đến soạn thảo"], correctIndex: 0, explanation: "Chức năng này tiết kiệm thời gian sửa văn bản dài." },
+      { question: "Phím tắt thường dùng để mở chức năng tìm kiếm là gì?", options: ["Ctrl + F", "Ctrl + C", "Ctrl + V", "Ctrl + S"], correctIndex: 0, explanation: "Ctrl + F thường dùng để mở chức năng tìm kiếm." },
+    ],
+    funFact: "Chức năng Find & Replace có mặt trong hầu hết các phần mềm soạn thảo văn bản, giúp tiết kiệm rất nhiều thời gian!",
+  },
+  "tin-hoc:3:sao-chep-cat-dan-van-ban": {
+    objectives: ["Thực hành các thao tác sao chép, cắt, dán.", "Biết các phím tắt cơ bản."],
+    sections: [
+      { heading: "1. Sao chép (Copy)", body: ["Giữ nguyên văn bản gốc, tạo bản sao ở nơi khác. Phím tắt: Ctrl + C."] },
+      { heading: "2. Cắt (Cut) và Dán (Paste)", body: ["Cắt (Ctrl + X) xoá văn bản gốc và chuyển đi nơi khác. Dán (Ctrl + V) đặt văn bản đã sao chép/cắt vào vị trí mới."] },
+    ],
+    quiz: [
+      { question: "Phím tắt để sao chép (Copy) là gì?", options: ["Ctrl + C", "Ctrl + X", "Ctrl + V", "Ctrl + Z"], correctIndex: 0, explanation: "Ctrl + C là phím tắt để sao chép." },
+      { question: "Phím tắt để dán (Paste) là gì?", options: ["Ctrl + V", "Ctrl + C", "Ctrl + X", "Ctrl + Z"], correctIndex: 0, explanation: "Ctrl + V là phím tắt để dán." },
+      { question: "Cắt (Cut) khác gì so với sao chép (Copy)?", options: ["Cắt xoá văn bản gốc, sao chép giữ nguyên", "Không có sự khác biệt", "Cắt giữ nguyên, sao chép xoá gốc", "Cả hai đều xoá văn bản gốc"], correctIndex: 0, explanation: "Cắt xoá văn bản gốc, còn sao chép giữ nguyên bản gốc." },
+      { question: "Phím tắt để cắt (Cut) là gì?", options: ["Ctrl + X", "Ctrl + C", "Ctrl + V", "Ctrl + S"], correctIndex: 0, explanation: "Ctrl + X là phím tắt để cắt." },
+    ],
+    funFact: "Các phím tắt Ctrl+C, Ctrl+V được sử dụng thống nhất trên hầu hết các phần mềm máy tính trên toàn thế giới!",
+  },
+  "tin-hoc:3:can-giua-can-trai-can-phai-van-ban": {
+    objectives: ["Thực hành căn chỉnh vị trí văn bản.", "Biết các kiểu căn lề cơ bản."],
+    sections: [
+      { heading: "1. Các kiểu căn lề", body: ["Căn trái (mặc định), căn giữa, căn phải, căn đều hai bên."] },
+      { heading: "2. Khi nào dùng căn giữa", body: ["Thường dùng để căn giữa tiêu đề, tên bài viết cho đẹp mắt."] },
+    ],
+    quiz: [
+      { question: "Căn giữa văn bản thường dùng cho phần nào?", options: ["Tiêu đề bài viết", "Toàn bộ đoạn văn dài", "Không dùng cho phần nào", "Chỉ dùng cho số liệu"], correctIndex: 0, explanation: "Căn giữa thường dùng cho tiêu đề bài viết." },
+      { question: "Kiểu căn lề mặc định thường là gì?", options: ["Căn trái", "Căn giữa", "Căn phải", "Căn đều hai bên"], correctIndex: 0, explanation: "Căn trái thường là kiểu căn lề mặc định." },
+      { question: "Có bao nhiêu kiểu căn lề cơ bản?", options: ["4", "2", "6", "1"], correctIndex: 0, explanation: "Có 4 kiểu căn lề cơ bản: trái, giữa, phải, đều hai bên." },
+      { question: "Vì sao cần biết cách căn chỉnh văn bản?", options: ["Giúp văn bản trình bày đẹp, dễ đọc", "Không cần thiết", "Không có lợi ích gì", "Chỉ làm mất thời gian"], correctIndex: 0, explanation: "Căn chỉnh giúp văn bản trình bày đẹp và dễ đọc hơn." },
+    ],
+    funFact: "Căn đều hai bên (Justify) thường được dùng trong sách, báo để văn bản có hai lề thẳng đều!",
+  },
+  "tin-hoc:3:chen-so-trang-vao-van-ban": {
+    objectives: ["Thực hành chèn số trang cho tài liệu.", "Biết ý nghĩa của việc đánh số trang."],
+    sections: [
+      { heading: "1. Chèn số trang", body: ["Giúp đánh số thứ tự các trang trong tài liệu dài."] },
+      { heading: "2. Lợi ích", body: ["Giúp người đọc dễ dàng theo dõi, tìm trang cần thiết trong tài liệu."] },
+    ],
+    quiz: [
+      { question: "Chèn số trang dùng để làm gì?", options: ["Đánh số thứ tự các trang tài liệu", "Xoá trang", "Thay đổi màu chữ", "In tài liệu"], correctIndex: 0, explanation: "Chèn số trang giúp đánh số thứ tự các trang." },
+      { question: "Vì sao tài liệu dài cần đánh số trang?", options: ["Giúp dễ theo dõi, tìm trang", "Không cần thiết", "Không có lợi ích gì", "Chỉ để trang trí"], correctIndex: 0, explanation: "Đánh số trang giúp dễ theo dõi và tìm trang cần thiết." },
+      { question: "Số trang thường được đặt ở vị trí nào?", options: ["Đầu hoặc cuối trang", "Giữa trang", "Không có vị trí cố định", "Chỉ ở bìa sách"], correctIndex: 0, explanation: "Số trang thường đặt ở đầu hoặc cuối trang." },
+      { question: "Tài liệu nào thường cần đánh số trang?", options: ["Sách, báo cáo dài", "Tin nhắn ngắn", "Danh thiếp", "Nhãn dán"], correctIndex: 0, explanation: "Sách, báo cáo dài thường cần đánh số trang." },
+    ],
+    funFact: "Trước khi có máy tính, người ta phải đánh số trang thủ công bằng tay khi in sách!",
+  },
+  "tin-hoc:3:tao-danh-sach-gach-dau-dong": {
+    objectives: ["Thực hành tạo danh sách có dấu gạch đầu dòng.", "Biết khi nào nên dùng danh sách gạch đầu dòng."],
+    sections: [
+      { heading: "1. Danh sách gạch đầu dòng", body: ["Là danh sách các mục liệt kê, mỗi mục có dấu chấm hoặc gạch đầu dòng, không theo thứ tự."] },
+      { heading: "2. Khi nào sử dụng", body: ["Dùng khi liệt kê các ý không cần theo thứ tự cụ thể."] },
+    ],
+    quiz: [
+      { question: "Danh sách gạch đầu dòng dùng khi nào?", options: ["Khi liệt kê ý không cần thứ tự", "Chỉ khi cần đếm số lượng", "Không bao giờ dùng", "Chỉ dùng cho tiêu đề"], correctIndex: 0, explanation: "Dùng khi liệt kê các ý không cần theo thứ tự cụ thể." },
+      { question: "Danh sách gạch đầu dòng giúp ích điều gì?", options: ["Trình bày nội dung rõ ràng, dễ đọc", "Không có ích gì", "Làm văn bản khó đọc hơn", "Không liên quan đến trình bày"], correctIndex: 0, explanation: "Giúp trình bày nội dung rõ ràng, dễ đọc hơn." },
+      { question: "Ký hiệu nào thường dùng cho danh sách gạch đầu dòng?", options: ["Dấu chấm tròn hoặc gạch ngang", "Số thứ tự 1, 2, 3", "Chữ cái a, b, c", "Không có ký hiệu"], correctIndex: 0, explanation: "Dấu chấm tròn hoặc gạch ngang thường dùng cho danh sách này." },
+      { question: "Danh sách gạch đầu dòng khác danh sách đánh số ở điểm nào?", options: ["Không thể hiện thứ tự", "Luôn thể hiện thứ tự", "Không có sự khác biệt", "Chỉ dùng cho số liệu"], correctIndex: 0, explanation: "Danh sách gạch đầu dòng không thể hiện thứ tự cụ thể." },
+    ],
+    funFact: "Danh sách gạch đầu dòng (bullet points) giúp bài trình bày trở nên rõ ràng và chuyên nghiệp hơn!",
+  },
+  "tin-hoc:3:tao-danh-sach-danh-so-thu-tu": {
+    objectives: ["Thực hành tạo danh sách đánh số thứ tự.", "Biết khi nào nên dùng danh sách đánh số."],
+    sections: [
+      { heading: "1. Danh sách đánh số", body: ["Là danh sách các mục theo thứ tự 1, 2, 3... thể hiện trình tự cụ thể."] },
+      { heading: "2. Khi nào sử dụng", body: ["Dùng khi các bước hoặc ý cần theo đúng thứ tự, ví dụ như hướng dẫn từng bước."] },
+    ],
+    quiz: [
+      { question: "Danh sách đánh số dùng khi nào?", options: ["Khi các bước cần theo đúng thứ tự", "Khi không cần thứ tự", "Không bao giờ dùng", "Chỉ dùng cho tiêu đề"], correctIndex: 0, explanation: "Dùng khi các bước hoặc ý cần theo đúng thứ tự." },
+      { question: "Danh sách đánh số thường dùng cho loại văn bản nào?", options: ["Hướng dẫn từng bước", "Danh sách mua sắm không thứ tự", "Tiêu đề bài viết", "Chú thích hình ảnh"], correctIndex: 0, explanation: "Danh sách đánh số thường dùng cho hướng dẫn từng bước." },
+      { question: "Danh sách đánh số bắt đầu bằng gì?", options: ["Số 1, 2, 3...", "Dấu chấm tròn", "Chữ cái ngẫu nhiên", "Không có ký hiệu nào"], correctIndex: 0, explanation: "Danh sách đánh số bắt đầu bằng số 1, 2, 3..." },
+      { question: "Vì sao danh sách đánh số quan trọng khi viết hướng dẫn?", options: ["Giúp người đọc theo đúng trình tự", "Không quan trọng", "Không có lợi ích gì", "Chỉ để trang trí"], correctIndex: 0, explanation: "Giúp người đọc thực hiện đúng theo trình tự các bước." },
+    ],
+    funFact: "Danh sách đánh số thường được dùng trong công thức nấu ăn để người đọc làm đúng theo từng bước!",
+  },
+  "tin-hoc:3:in-van-ban-lam-quen-khai-niem": {
+    objectives: ["Làm quen khái niệm in tài liệu ra giấy.", "Biết các bước cơ bản để in văn bản."],
+    sections: [
+      { heading: "1. In văn bản là gì", body: ["Là quá trình chuyển tài liệu từ máy tính ra giấy thông qua máy in."] },
+      { heading: "2. Các bước in cơ bản", body: ["Kết nối máy in, chọn lệnh in (Ctrl + P), kiểm tra và xác nhận in."] },
+    ],
+    quiz: [
+      { question: "In văn bản là gì?", options: ["Chuyển tài liệu từ máy tính ra giấy", "Xoá tài liệu", "Lưu tài liệu vào máy tính", "Gửi tài liệu qua email"], correctIndex: 0, explanation: "In văn bản là chuyển tài liệu từ máy tính ra giấy." },
+      { question: "Phím tắt thường dùng để in tài liệu là gì?", options: ["Ctrl + P", "Ctrl + C", "Ctrl + V", "Ctrl + S"], correctIndex: 0, explanation: "Ctrl + P là phím tắt thường dùng để in tài liệu." },
+      { question: "Trước khi in, cần làm gì?", options: ["Kết nối máy in với máy tính", "Không cần chuẩn bị gì", "Xoá tài liệu", "Tắt máy tính"], correctIndex: 0, explanation: "Cần kết nối máy in với máy tính trước khi in." },
+      { question: "Thiết bị nào dùng để in tài liệu?", options: ["Máy in", "Máy quét", "Loa", "Bàn phím"], correctIndex: 0, explanation: "Máy in là thiết bị dùng để in tài liệu ra giấy." },
+    ],
+    funFact: "Máy in laser đầu tiên được phát triển bởi Xerox vào năm 1971, mở ra kỷ nguyên in ấn hiện đại!",
+  },
+  "tin-hoc:3:lam-quen-phan-mem-trinh-chieu-co-ban": {
+    objectives: ["Làm quen giao diện phần mềm trình chiếu.", "Biết các thành phần cơ bản của bài trình chiếu."],
+    sections: [
+      { heading: "1. Phần mềm trình chiếu", body: ["Dùng để tạo các bài thuyết trình gồm nhiều trang (slide) với chữ, hình ảnh."] },
+      { heading: "2. Thành phần cơ bản", body: ["Slide, tiêu đề, nội dung, hình ảnh minh hoạ là các thành phần cơ bản."] },
+    ],
+    quiz: [
+      { question: "Phần mềm trình chiếu dùng để làm gì?", options: ["Tạo bài thuyết trình", "Soạn thảo văn bản dài", "Tính toán số liệu", "Nghe nhạc"], correctIndex: 0, explanation: "Phần mềm trình chiếu dùng để tạo bài thuyết trình." },
+      { question: "Mỗi trang trong bài trình chiếu gọi là gì?", options: ["Slide", "Trang giấy", "Cột", "Hàng"], correctIndex: 0, explanation: "Mỗi trang trong bài trình chiếu gọi là 'slide'." },
+      { question: "Bài trình chiếu thường dùng để làm gì?", options: ["Thuyết trình trước lớp, hội nghị", "Chỉ để lưu trữ", "Không có mục đích gì", "Chỉ để in ấn"], correctIndex: 0, explanation: "Bài trình chiếu dùng để thuyết trình trước lớp, hội nghị." },
+      { question: "Thành phần nào KHÔNG thường có trong bài trình chiếu?", options: ["Công thức hoá học phức tạp", "Tiêu đề", "Hình ảnh minh hoạ", "Nội dung tóm tắt"], correctIndex: 0, explanation: "Bài trình chiếu thường ngắn gọn, không nên có nội dung quá phức tạp." },
+    ],
+    funFact: "PowerPoint là một trong những phần mềm trình chiếu phổ biến nhất thế giới, ra mắt lần đầu năm 1987!",
+  },
+  "tin-hoc:3:tao-mot-trang-trinh-chieu-don-gian": {
+    objectives: ["Thực hành tạo một trang trình chiếu cơ bản.", "Biết cách thêm tiêu đề và nội dung."],
+    sections: [
+      { heading: "1. Các bước tạo slide", body: ["Chọn bố cục slide, nhập tiêu đề, thêm nội dung ngắn gọn."] },
+      { heading: "2. Lưu ý khi tạo slide", body: ["Không nên viết quá nhiều chữ, nên dùng hình ảnh minh hoạ."] },
+    ],
+    quiz: [
+      { question: "Bước đầu tiên khi tạo một slide là gì?", options: ["Chọn bố cục slide", "In slide ra giấy", "Xoá slide", "Tắt phần mềm"], correctIndex: 0, explanation: "Bước đầu tiên là chọn bố cục slide phù hợp." },
+      { question: "Slide nên có nội dung như thế nào?", options: ["Ngắn gọn, súc tích", "Rất nhiều chữ", "Không có nội dung gì", "Chỉ có màu sắc"], correctIndex: 0, explanation: "Slide nên có nội dung ngắn gọn, súc tích." },
+      { question: "Vì sao nên dùng hình ảnh minh hoạ trong slide?", options: ["Giúp bài trình bày sinh động, dễ hiểu", "Không cần thiết", "Làm slide rối mắt", "Không có lợi ích gì"], correctIndex: 0, explanation: "Hình ảnh minh hoạ giúp bài trình bày sinh động, dễ hiểu hơn." },
+      { question: "Thành phần nào cần có ở đầu mỗi slide?", options: ["Tiêu đề", "Chỉ có màu nền", "Không cần thành phần nào", "Chỉ có số trang"], correctIndex: 0, explanation: "Tiêu đề cần có ở đầu mỗi slide để người xem dễ theo dõi." },
+    ],
+    funFact: "Nhiều chuyên gia khuyên nên áp dụng quy tắc '6x6': không quá 6 dòng, mỗi dòng không quá 6 từ trên một slide!",
+  },
+  "tin-hoc:3:them-hinh-anh-vao-trang-trinh-chieu": {
+    objectives: ["Thực hành chèn hình ảnh vào bài trình chiếu.", "Biết cách điều chỉnh kích thước hình ảnh."],
+    sections: [
+      { heading: "1. Chèn hình ảnh", body: ["Chọn lệnh 'Insert' hoặc 'Chèn' rồi chọn hình ảnh từ máy tính."] },
+      { heading: "2. Điều chỉnh hình ảnh", body: ["Kéo góc hình ảnh để thay đổi kích thước cho phù hợp với slide."] },
+    ],
+    quiz: [
+      { question: "Để chèn hình ảnh vào slide, em cần làm gì?", options: ["Chọn lệnh Insert/Chèn rồi chọn hình ảnh", "Xoá slide", "In slide", "Không cần làm gì"], correctIndex: 0, explanation: "Cần chọn lệnh Insert/Chèn rồi chọn hình ảnh." },
+      { question: "Để thay đổi kích thước hình ảnh, em làm gì?", options: ["Kéo góc hình ảnh", "Xoá hình ảnh", "Không thể thay đổi", "In hình ảnh"], correctIndex: 0, explanation: "Kéo góc hình ảnh để thay đổi kích thước." },
+      { question: "Vì sao nên thêm hình ảnh vào slide?", options: ["Giúp minh hoạ nội dung sinh động hơn", "Không cần thiết", "Làm slide chậm hơn", "Không có lợi ích gì"], correctIndex: 0, explanation: "Hình ảnh giúp minh hoạ nội dung sinh động hơn." },
+      { question: "Hình ảnh chèn vào slide nên có đặc điểm gì?", options: ["Rõ nét, liên quan đến nội dung", "Mờ, không rõ ràng", "Không liên quan đến nội dung", "Kích thước quá lớn so với slide"], correctIndex: 0, explanation: "Hình ảnh nên rõ nét và liên quan đến nội dung trình bày." },
+    ],
+    funFact: "Não bộ con người xử lý hình ảnh nhanh hơn chữ viết tới 60.000 lần, vì vậy hình ảnh rất hiệu quả trong thuyết trình!",
+  },
+  "tin-hoc:3:trinh-bay-san-pham-truoc-lop": {
+    objectives: ["Rèn kỹ năng trình bày một sản phẩm số trước lớp.", "Biết cách thuyết trình tự tin."],
+    sections: [
+      { heading: "1. Chuẩn bị trình bày", body: ["Luyện tập trước, chuẩn bị nội dung rõ ràng, kiểm tra thiết bị trình chiếu."] },
+      { heading: "2. Kỹ năng thuyết trình", body: ["Nói rõ ràng, nhìn vào người nghe, tự tin trình bày sản phẩm của mình."] },
+    ],
+    quiz: [
+      { question: "Trước khi trình bày trước lớp, em nên làm gì?", options: ["Luyện tập trước", "Không cần chuẩn bị gì", "Chỉ đọc lại nội dung một lần", "Không cần kiểm tra thiết bị"], correctIndex: 0, explanation: "Nên luyện tập trước khi trình bày." },
+      { question: "Khi thuyết trình, em nên có thái độ gì?", options: ["Tự tin, nói rõ ràng", "Rụt rè, nói nhỏ", "Không nhìn ai", "Nói thật nhanh"], correctIndex: 0, explanation: "Nên tự tin và nói rõ ràng khi thuyết trình." },
+      { question: "Vì sao cần kiểm tra thiết bị trước khi trình bày?", options: ["Đảm bảo trình chiếu diễn ra suôn sẻ", "Không cần thiết", "Không có lý do gì", "Chỉ là hình thức"], correctIndex: 0, explanation: "Kiểm tra thiết bị giúp trình chiếu diễn ra suôn sẻ." },
+      { question: "Kỹ năng trình bày sản phẩm số giúp ích gì cho tương lai?", options: ["Rèn kỹ năng thuyết trình quan trọng", "Không có ích gì", "Chỉ dùng khi còn nhỏ", "Không liên quan đến tương lai"], correctIndex: 0, explanation: "Kỹ năng này rèn luyện khả năng thuyết trình quan trọng cho tương lai." },
+    ],
+    funFact: "Nhiều công ty công nghệ lớn như Apple nổi tiếng với các buổi thuyết trình sản phẩm ấn tượng, thu hút hàng triệu người xem!",
+  },
+  "tin-hoc:3:lam-quen-bang-tinh-hang-va-cot": {
+    objectives: ["Làm quen khái niệm hàng, cột trong bảng tính.", "Biết cách xác định ô trong bảng tính."],
+    sections: [
+      { heading: "1. Hàng và cột", body: ["Hàng chạy ngang (đánh số 1, 2, 3...), cột chạy dọc (đánh chữ A, B, C...)."] },
+      { heading: "2. Ô trong bảng tính", body: ["Là giao điểm giữa một hàng và một cột, ví dụ ô A1 là giao của cột A và hàng 1."] },
+    ],
+    quiz: [
+      { question: "Hàng trong bảng tính chạy theo hướng nào?", options: ["Ngang", "Dọc", "Chéo", "Không có hướng cố định"], correctIndex: 0, explanation: "Hàng trong bảng tính chạy theo chiều ngang." },
+      { question: "Cột trong bảng tính chạy theo hướng nào?", options: ["Dọc", "Ngang", "Chéo", "Không có hướng cố định"], correctIndex: 0, explanation: "Cột trong bảng tính chạy theo chiều dọc." },
+      { question: "Ô trong bảng tính là gì?", options: ["Giao điểm giữa hàng và cột", "Chỉ là hàng", "Chỉ là cột", "Không có ý nghĩa gì"], correctIndex: 0, explanation: "Ô là giao điểm giữa một hàng và một cột." },
+      { question: "Cột trong bảng tính thường được đánh bằng gì?", options: ["Chữ cái A, B, C...", "Số 1, 2, 3...", "Ký hiệu đặc biệt", "Không đánh ký hiệu gì"], correctIndex: 0, explanation: "Cột thường được đánh bằng chữ cái A, B, C..." },
+    ],
+    funFact: "Bảng tính điện tử đầu tiên (VisiCalc) ra đời năm 1979, cách mạng hoá cách con người tính toán trên máy tính!",
+  },
+  "tin-hoc:3:nhap-so-lieu-don-gian-vao-bang-tinh": {
+    objectives: ["Thực hành nhập số liệu cơ bản vào bảng tính.", "Biết cách di chuyển giữa các ô."],
+    sections: [
+      { heading: "1. Nhập số liệu", body: ["Click vào ô cần nhập, gõ số liệu rồi nhấn Enter để chuyển xuống ô tiếp theo."] },
+      { heading: "2. Di chuyển giữa các ô", body: ["Dùng phím mũi tên hoặc chuột để di chuyển giữa các ô trong bảng tính."] },
+    ],
+    quiz: [
+      { question: "Để nhập số liệu vào một ô, em cần làm gì?", options: ["Click vào ô rồi gõ số liệu", "Chỉ cần gõ mà không cần click", "Không thể nhập số liệu", "Phải xoá bảng tính trước"], correctIndex: 0, explanation: "Cần click vào ô rồi gõ số liệu vào đó." },
+      { question: "Sau khi nhập xong, nhấn phím nào để chuyển xuống ô tiếp theo?", options: ["Enter", "Backspace", "Shift", "Ctrl"], correctIndex: 0, explanation: "Nhấn Enter để chuyển xuống ô tiếp theo." },
+      { question: "Cách nào giúp di chuyển giữa các ô trong bảng tính?", options: ["Dùng phím mũi tên hoặc chuột", "Không thể di chuyển", "Chỉ dùng bàn phím số", "Phải tắt phần mềm"], correctIndex: 0, explanation: "Có thể dùng phím mũi tên hoặc chuột để di chuyển." },
+      { question: "Bảng tính thường dùng để làm gì?", options: ["Tính toán, quản lý số liệu", "Chỉ để vẽ hình", "Chỉ để nghe nhạc", "Không có mục đích gì"], correctIndex: 0, explanation: "Bảng tính thường dùng để tính toán và quản lý số liệu." },
+    ],
+    funFact: "Microsoft Excel là một trong những phần mềm bảng tính phổ biến nhất, được hàng triệu người sử dụng mỗi ngày!",
+  },
+  "tin-hoc:3:ve-hinh-bang-cong-cu-hinh-khoi-co-san": {
+    objectives: ["Thực hành vẽ hình bằng công cụ có sẵn.", "Biết cách chọn và sử dụng công cụ vẽ hình."],
+    sections: [
+      { heading: "1. Công cụ hình khối", body: ["Các phần mềm vẽ thường có sẵn công cụ hình vuông, hình tròn, hình tam giác."] },
+      { heading: "2. Cách sử dụng", body: ["Chọn công cụ hình khối, kéo chuột trên màn hình để vẽ hình theo kích thước mong muốn."] },
+    ],
+    quiz: [
+      { question: "Công cụ hình khối có sẵn giúp ích điều gì?", options: ["Vẽ hình nhanh chóng, chính xác", "Không có ích gì", "Làm chậm quá trình vẽ", "Không liên quan đến vẽ hình"], correctIndex: 0, explanation: "Công cụ này giúp vẽ hình nhanh chóng, chính xác." },
+      { question: "Để vẽ một hình vuông, em cần làm gì?", options: ["Chọn công cụ hình vuông rồi kéo chuột", "Chỉ cần click một lần", "Không cần chọn công cụ gì", "Gõ chữ 'vuông'"], correctIndex: 0, explanation: "Cần chọn công cụ hình vuông rồi kéo chuột để vẽ." },
+      { question: "Hình khối nào thường có sẵn trong phần mềm vẽ?", options: ["Hình vuông, hình tròn, hình tam giác", "Chỉ có hình vuông", "Không có hình nào", "Chỉ có đường thẳng"], correctIndex: 0, explanation: "Hình vuông, hình tròn, hình tam giác thường có sẵn." },
+      { question: "Vì sao nên dùng công cụ hình khối có sẵn?", options: ["Vẽ chính xác hơn vẽ tay tự do", "Không có lợi ích gì", "Làm hình vẽ xấu hơn", "Không liên quan đến độ chính xác"], correctIndex: 0, explanation: "Công cụ này giúp vẽ hình chính xác hơn so với vẽ tay tự do." },
+    ],
+    funFact: "Phần mềm Paint có sẵn trên Windows từ năm 1985, là một trong những phần mềm vẽ đơn giản đầu tiên phổ biến!",
+  },
+  "tin-hoc:3:to-mau-va-do-mau-nen": {
+    objectives: ["Thực hành tô màu và đổ màu nền cho hình vẽ.", "Biết cách chọn màu sắc phù hợp."],
+    sections: [
+      { heading: "1. Công cụ tô màu", body: ["Chọn công cụ tô màu (bucket fill), chọn màu, click vào vùng cần tô."] },
+      { heading: "2. Đổ màu nền", body: ["Có thể đổ màu cho toàn bộ nền của bức tranh hoặc slide."] },
+    ],
+    quiz: [
+      { question: "Công cụ tô màu thường có hình gì?", options: ["Hình xô nước (bucket fill)", "Hình bút chì", "Hình kéo", "Hình con trỏ chuột"], correctIndex: 0, explanation: "Công cụ tô màu thường có biểu tượng hình xô nước." },
+      { question: "Để tô màu một vùng, em cần làm gì?", options: ["Chọn màu rồi click vào vùng cần tô", "Chỉ cần click chuột phải", "Không cần chọn màu", "Gõ tên màu"], correctIndex: 0, explanation: "Cần chọn màu rồi click vào vùng cần tô." },
+      { question: "Đổ màu nền dùng để làm gì?", options: ["Tô màu cho toàn bộ nền bức tranh/slide", "Chỉ để xoá hình", "Không có tác dụng gì", "Chỉ để in ấn"], correctIndex: 0, explanation: "Đổ màu nền dùng để tô màu cho toàn bộ nền." },
+      { question: "Vì sao nên chọn màu sắc phù hợp khi tô màu?", options: ["Giúp hình vẽ đẹp, hài hoà", "Không quan trọng", "Không có lý do gì", "Chỉ cần tô ngẫu nhiên"], correctIndex: 0, explanation: "Chọn màu phù hợp giúp hình vẽ đẹp và hài hoà hơn." },
+    ],
+    funFact: "Máy tính có thể tạo ra hàng triệu màu sắc khác nhau bằng cách kết hợp ba màu cơ bản: đỏ, xanh lá, xanh dương (RGB)!",
+  },
+  "tin-hoc:3:sao-luu-bai-lam-vao-usb-khai-niem": {
+    objectives: ["Làm quen khái niệm sao lưu dữ liệu.", "Hiểu tầm quan trọng của việc sao lưu."],
+    sections: [
+      { heading: "1. Sao lưu là gì", body: ["Là tạo bản sao dữ liệu để lưu trữ ở nơi khác, phòng khi mất dữ liệu gốc."] },
+      { heading: "2. USB (ổ đĩa di động)", body: ["Là thiết bị lưu trữ nhỏ gọn, có thể mang theo để sao lưu và di chuyển dữ liệu."] },
+    ],
+    quiz: [
+      { question: "Sao lưu dữ liệu là gì?", options: ["Tạo bản sao dữ liệu để lưu trữ", "Xoá dữ liệu", "In dữ liệu ra giấy", "Không có ý nghĩa gì"], correctIndex: 0, explanation: "Sao lưu là tạo bản sao dữ liệu để lưu trữ." },
+      { question: "USB dùng để làm gì?", options: ["Lưu trữ và di chuyển dữ liệu", "Chỉ để nghe nhạc", "Chỉ để sạc pin", "Không có tác dụng gì"], correctIndex: 0, explanation: "USB dùng để lưu trữ và di chuyển dữ liệu." },
+      { question: "Vì sao cần sao lưu dữ liệu quan trọng?", options: ["Phòng khi mất dữ liệu gốc", "Không cần thiết", "Không có lý do gì", "Chỉ làm tốn dung lượng"], correctIndex: 0, explanation: "Sao lưu giúp phòng tránh mất dữ liệu quan trọng." },
+      { question: "Thiết bị nào là ví dụ về ổ đĩa di động?", options: ["USB", "Bàn phím", "Chuột", "Màn hình"], correctIndex: 0, explanation: "USB là ví dụ về ổ đĩa lưu trữ di động." },
+    ],
+    funFact: "Chiếc USB đầu tiên ra đời năm 2000 chỉ có dung lượng 8MB, trong khi USB ngày nay có thể lưu tới hàng trăm GB!",
+  },
+  "tin-hoc:3:nhan-biet-vi-rut-may-tinh-la-gi": {
+    objectives: ["Làm quen khái niệm vi-rút máy tính cơ bản.", "Biết cách phòng tránh vi-rút máy tính."],
+    sections: [
+      { heading: "1. Vi-rút máy tính là gì", body: ["Là chương trình độc hại có thể gây hỏng dữ liệu hoặc làm máy tính hoạt động sai."] },
+      { heading: "2. Cách phòng tránh", body: ["Không mở file lạ, không truy cập trang web không rõ nguồn gốc, cài phần mềm diệt vi-rút."] },
+    ],
+    quiz: [
+      { question: "Vi-rút máy tính là gì?", options: ["Chương trình độc hại gây hỏng dữ liệu", "Một loại phần mềm hữu ích", "Thiết bị phần cứng", "Không có tác hại gì"], correctIndex: 0, explanation: "Vi-rút máy tính là chương trình độc hại gây hỏng dữ liệu." },
+      { question: "Cách nào giúp phòng tránh vi-rút máy tính?", options: ["Không mở file lạ, không rõ nguồn gốc", "Mở tất cả file nhận được", "Không cần phòng tránh", "Tắt phần mềm diệt vi-rút"], correctIndex: 0, explanation: "Không mở file lạ giúp phòng tránh vi-rút." },
+      { question: "Phần mềm nào giúp bảo vệ máy tính khỏi vi-rút?", options: ["Phần mềm diệt vi-rút", "Phần mềm soạn thảo văn bản", "Phần mềm nghe nhạc", "Phần mềm vẽ tranh"], correctIndex: 0, explanation: "Phần mềm diệt vi-rút giúp bảo vệ máy tính." },
+      { question: "Vi-rút máy tính có thể lây lan qua đâu?", options: ["File lạ, USB không an toàn", "Không thể lây lan", "Chỉ qua bàn phím", "Chỉ qua màn hình"], correctIndex: 0, explanation: "Vi-rút có thể lây lan qua file lạ, USB không an toàn." },
+    ],
+    funFact: "Vi-rút máy tính đầu tiên có tên 'Creeper' xuất hiện vào năm 1971, chỉ hiển thị dòng chữ 'I'm the creeper, catch me if you can!'!",
+  },
+  "tin-hoc:3:cai-dat-phan-mem-co-su-huong-dan": {
+    objectives: ["Làm quen thao tác cài đặt phần mềm có hỗ trợ.", "Biết các bước cơ bản khi cài đặt."],
+    sections: [
+      { heading: "1. Cài đặt phần mềm", body: ["Là quá trình đưa một phần mềm mới vào sử dụng trên máy tính."] },
+      { heading: "2. Các bước cơ bản", body: ["Chạy file cài đặt, làm theo hướng dẫn trên màn hình, chờ hoàn tất."] },
+    ],
+    quiz: [
+      { question: "Cài đặt phần mềm là gì?", options: ["Đưa phần mềm mới vào sử dụng trên máy tính", "Xoá phần mềm", "In tài liệu", "Nghe nhạc"], correctIndex: 0, explanation: "Cài đặt là đưa phần mềm mới vào sử dụng." },
+      { question: "Khi cài đặt phần mềm, em nên làm gì?", options: ["Làm theo hướng dẫn trên màn hình có sự giám sát của người lớn", "Tự ý cài mà không hỏi ai", "Không cần làm theo hướng dẫn", "Tắt máy tính giữa chừng"], correctIndex: 0, explanation: "Nên làm theo hướng dẫn và có sự giám sát của người lớn." },
+      { question: "Vì sao trẻ em nên cài đặt phần mềm có sự hướng dẫn?", options: ["Đảm bảo an toàn, tránh cài nhầm phần mềm độc hại", "Không cần thiết", "Không có lý do gì", "Chỉ là quy định"], correctIndex: 0, explanation: "Có hướng dẫn giúp đảm bảo an toàn, tránh phần mềm độc hại." },
+      { question: "Sau khi cài đặt xong, em thường cần làm gì?", options: ["Chờ hoàn tất và có thể khởi động lại máy", "Không cần làm gì", "Xoá ngay phần mềm", "Tắt máy tính vĩnh viễn"], correctIndex: 0, explanation: "Cần chờ hoàn tất và đôi khi cần khởi động lại máy." },
+    ],
+    funFact: "Một số phần mềm cần khởi động lại máy tính sau khi cài đặt để các thay đổi có hiệu lực hoàn toàn!",
+  },
+  "tin-hoc:3:go-bo-phan-mem-co-su-huong-dan": {
+    objectives: ["Làm quen thao tác gỡ phần mềm có hỗ trợ.", "Biết vì sao cần gỡ bỏ phần mềm không dùng."],
+    sections: [
+      { heading: "1. Gỡ bỏ phần mềm", body: ["Là xoá một phần mềm không còn cần thiết khỏi máy tính."] },
+      { heading: "2. Vì sao cần gỡ bỏ", body: ["Giải phóng bộ nhớ, giúp máy tính chạy nhanh hơn."] },
+    ],
+    quiz: [
+      { question: "Gỡ bỏ phần mềm là gì?", options: ["Xoá phần mềm không cần thiết khỏi máy tính", "Cài thêm phần mềm mới", "In tài liệu", "Nghe nhạc"], correctIndex: 0, explanation: "Gỡ bỏ là xoá phần mềm không cần thiết." },
+      { question: "Vì sao nên gỡ bỏ phần mềm không dùng?", options: ["Giải phóng bộ nhớ, máy chạy nhanh hơn", "Không cần thiết", "Không có lợi ích gì", "Làm máy chậm hơn"], correctIndex: 0, explanation: "Gỡ bỏ giúp giải phóng bộ nhớ và máy chạy nhanh hơn." },
+      { question: "Khi gỡ bỏ phần mềm, em nên làm gì?", options: ["Có sự hướng dẫn của người lớn", "Tự ý gỡ mà không hỏi ai", "Không cần cẩn thận", "Gỡ tất cả phần mềm trên máy"], correctIndex: 0, explanation: "Nên có sự hướng dẫn của người lớn khi gỡ phần mềm." },
+      { question: "Trước khi gỡ bỏ phần mềm quan trọng, em nên làm gì?", options: ["Hỏi ý kiến người lớn trước", "Gỡ ngay không cần hỏi", "Không cần suy nghĩ", "Xoá luôn không cần kiểm tra"], correctIndex: 0, explanation: "Nên hỏi ý kiến người lớn trước khi gỡ phần mềm quan trọng." },
+    ],
+    funFact: "Gỡ bỏ phần mềm đúng cách qua Control Panel/Settings giúp máy tính không bị lỗi hay để lại file rác!",
+  },
+  "tin-hoc:3:am-luong-va-cach-dieu-chinh": {
+    objectives: ["Thực hành điều chỉnh âm lượng trên máy tính.", "Biết vị trí các nút điều chỉnh âm lượng."],
+    sections: [
+      { heading: "1. Điều chỉnh âm lượng", body: ["Có thể điều chỉnh bằng phím tắt trên bàn phím hoặc biểu tượng loa trên màn hình."] },
+      { heading: "2. Lưu ý khi nghe", body: ["Không nên để âm lượng quá to để bảo vệ tai."] },
+    ],
+    quiz: [
+      { question: "Có thể điều chỉnh âm lượng bằng cách nào?", options: ["Dùng phím tắt hoặc biểu tượng loa", "Không thể điều chỉnh", "Chỉ dùng chuột", "Chỉ dùng bàn phím số"], correctIndex: 0, explanation: "Có thể điều chỉnh bằng phím tắt hoặc biểu tượng loa." },
+      { question: "Biểu tượng loa trên màn hình dùng để làm gì?", options: ["Điều chỉnh âm lượng", "Điều chỉnh độ sáng", "Tắt máy tính", "Mở file"], correctIndex: 0, explanation: "Biểu tượng loa dùng để điều chỉnh âm lượng." },
+      { question: "Vì sao không nên để âm lượng quá to?", options: ["Bảo vệ tai, tránh ảnh hưởng thính giác", "Không có lý do gì", "Âm lượng to luôn tốt", "Không liên quan đến sức khoẻ"], correctIndex: 0, explanation: "Âm lượng quá to có thể ảnh hưởng đến thính giác." },
+      { question: "Khi dùng tai nghe, em nên chú ý điều gì về âm lượng?", options: ["Điều chỉnh vừa phải, không quá to", "Luôn để âm lượng tối đa", "Không cần chú ý gì", "Tắt hoàn toàn âm lượng"], correctIndex: 0, explanation: "Nên điều chỉnh âm lượng vừa phải khi dùng tai nghe." },
+    ],
+    funFact: "Nghe âm thanh quá to trong thời gian dài có thể gây tổn thương thính giác vĩnh viễn, theo khuyến cáo của các chuyên gia y tế!",
+  },
+  "tin-hoc:3:ket-noi-tai-nghe-voi-may-tinh": {
+    objectives: ["Thực hành kết nối tai nghe với máy tính.", "Biết các cách kết nối tai nghe."],
+    sections: [
+      { heading: "1. Kết nối có dây", body: ["Cắm jack tai nghe vào cổng âm thanh trên máy tính."] },
+      { heading: "2. Kết nối không dây", body: ["Bật Bluetooth trên máy tính và tai nghe để kết nối không dây."] },
+    ],
+    quiz: [
+      { question: "Tai nghe có dây kết nối với máy tính bằng cách nào?", options: ["Cắm jack vào cổng âm thanh", "Qua Bluetooth", "Qua WiFi", "Không thể kết nối"], correctIndex: 0, explanation: "Tai nghe có dây kết nối bằng cách cắm jack vào cổng âm thanh." },
+      { question: "Tai nghe không dây kết nối qua đâu?", options: ["Bluetooth", "Cổng USB có dây", "Cổng âm thanh có dây", "Không thể kết nối"], correctIndex: 0, explanation: "Tai nghe không dây thường kết nối qua Bluetooth." },
+      { question: "Vì sao nên dùng tai nghe khi nghe nhạc ở nơi công cộng?", options: ["Không làm phiền người khác", "Không có lý do gì", "Âm thanh sẽ to hơn", "Không liên quan đến người khác"], correctIndex: 0, explanation: "Dùng tai nghe giúp không làm phiền người xung quanh." },
+      { question: "Trước khi dùng tai nghe không dây, em cần làm gì?", options: ["Bật Bluetooth và kết nối", "Không cần làm gì", "Cắm dây vào máy tính", "Tắt máy tính"], correctIndex: 0, explanation: "Cần bật Bluetooth và kết nối trước khi dùng." },
+    ],
+    funFact: "Công nghệ Bluetooth được đặt theo tên vua Harald Bluetooth của Đan Mạch, người đã thống nhất các bộ tộc Viking!",
+  },
+  "tin-hoc:3:chup-anh-man-hinh-co-ban": {
+    objectives: ["Thực hành thao tác chụp ảnh màn hình.", "Biết phím tắt chụp màn hình cơ bản."],
+    sections: [
+      { heading: "1. Chụp ảnh màn hình là gì", body: ["Là lưu lại hình ảnh của những gì đang hiển thị trên màn hình máy tính."] },
+      { heading: "2. Cách chụp", body: ["Dùng phím Print Screen hoặc tổ hợp phím tắt tuỳ theo hệ điều hành."] },
+    ],
+    quiz: [
+      { question: "Chụp ảnh màn hình là gì?", options: ["Lưu lại hình ảnh đang hiển thị trên màn hình", "Xoá màn hình", "In tài liệu", "Nghe nhạc"], correctIndex: 0, explanation: "Chụp ảnh màn hình là lưu lại hình ảnh đang hiển thị." },
+      { question: "Phím nào thường dùng để chụp ảnh màn hình trên Windows?", options: ["Print Screen", "Enter", "Backspace", "Tab"], correctIndex: 0, explanation: "Print Screen thường dùng để chụp ảnh màn hình." },
+      { question: "Vì sao cần chụp ảnh màn hình?", options: ["Lưu lại thông tin cần thiết", "Không có lý do gì", "Chỉ để giải trí", "Không liên quan đến công việc"], correctIndex: 0, explanation: "Chụp ảnh màn hình giúp lưu lại thông tin cần thiết." },
+      { question: "Sau khi chụp ảnh màn hình, ảnh thường được lưu ở đâu?", options: ["Thư mục ảnh hoặc bảng tạm (clipboard)", "Tự động bị xoá", "Không được lưu ở đâu", "Chỉ hiển thị một lần"], correctIndex: 0, explanation: "Ảnh chụp màn hình thường lưu ở thư mục ảnh hoặc bảng tạm." },
+    ],
+    funFact: "Chụp ảnh màn hình là công cụ hữu ích để lưu lại thông tin, chia sẻ hướng dẫn hoặc báo cáo lỗi!",
+  },
+  "tin-hoc:3:quay-video-ngan-co-su-huong-dan": {
+    objectives: ["Làm quen thao tác quay video ngắn có hỗ trợ.", "Biết những lưu ý khi quay video."],
+    sections: [
+      { heading: "1. Quay video màn hình", body: ["Là ghi lại các hoạt động đang diễn ra trên màn hình máy tính thành video."] },
+      { heading: "2. Lưu ý khi quay", body: ["Cần có sự hướng dẫn của người lớn, chỉ quay nội dung phù hợp, an toàn."] },
+    ],
+    quiz: [
+      { question: "Quay video màn hình là gì?", options: ["Ghi lại hoạt động trên màn hình thành video", "Chụp một bức ảnh", "In tài liệu", "Nghe nhạc"], correctIndex: 0, explanation: "Quay video màn hình là ghi lại hoạt động thành video." },
+      { question: "Khi quay video, em nên làm gì?", options: ["Có sự hướng dẫn của người lớn", "Tự ý quay mà không hỏi ai", "Không cần chú ý gì", "Quay bất kỳ nội dung nào"], correctIndex: 0, explanation: "Nên có sự hướng dẫn của người lớn khi quay video." },
+      { question: "Vì sao cần chọn nội dung phù hợp khi quay video?", options: ["Đảm bảo an toàn và phù hợp lứa tuổi", "Không cần thiết", "Không có lý do gì", "Chỉ là quy định"], correctIndex: 0, explanation: "Cần đảm bảo nội dung an toàn, phù hợp lứa tuổi." },
+      { question: "Video màn hình thường dùng để làm gì?", options: ["Hướng dẫn các bước sử dụng phần mềm", "Không có mục đích gì", "Chỉ để giải trí", "Không liên quan đến học tập"], correctIndex: 0, explanation: "Video màn hình thường dùng để hướng dẫn sử dụng phần mềm." },
+    ],
+    funFact: "Nhiều video hướng dẫn (tutorial) nổi tiếng trên mạng được tạo ra từ việc quay lại màn hình máy tính!",
+  },
+  "tin-hoc:3:chinh-sua-anh-don-gian": {
+    objectives: ["Thực hành các thao tác chỉnh sửa ảnh cơ bản.", "Biết các công cụ chỉnh sửa ảnh đơn giản."],
+    sections: [
+      { heading: "1. Các thao tác cơ bản", body: ["Cắt ảnh (crop), xoay ảnh, điều chỉnh độ sáng là các thao tác chỉnh sửa cơ bản."] },
+      { heading: "2. Công cụ chỉnh sửa", body: ["Nhiều phần mềm đơn giản như Paint, Photos có sẵn công cụ chỉnh sửa ảnh cơ bản."] },
+    ],
+    quiz: [
+      { question: "Cắt ảnh (crop) dùng để làm gì?", options: ["Loại bỏ phần không cần thiết của ảnh", "Xoá toàn bộ ảnh", "Tăng độ sáng", "In ảnh"], correctIndex: 0, explanation: "Cắt ảnh giúp loại bỏ phần không cần thiết." },
+      { question: "Xoay ảnh dùng để làm gì?", options: ["Thay đổi hướng của ảnh", "Xoá ảnh", "Tăng kích thước ảnh", "In ảnh"], correctIndex: 0, explanation: "Xoay ảnh giúp thay đổi hướng hiển thị của ảnh." },
+      { question: "Phần mềm nào có thể dùng để chỉnh sửa ảnh cơ bản?", options: ["Paint, Photos", "Chỉ có phần mềm chuyên nghiệp", "Không có phần mềm nào", "Chỉ dùng được trên điện thoại"], correctIndex: 0, explanation: "Paint, Photos là các phần mềm có thể chỉnh sửa ảnh cơ bản." },
+      { question: "Vì sao nên biết cách chỉnh sửa ảnh cơ bản?", options: ["Giúp ảnh đẹp hơn, phù hợp mục đích sử dụng", "Không cần thiết", "Không có lợi ích gì", "Chỉ làm mất thời gian"], correctIndex: 0, explanation: "Chỉnh sửa giúp ảnh đẹp hơn và phù hợp mục đích sử dụng." },
+    ],
+    funFact: "Phần mềm chỉnh sửa ảnh chuyên nghiệp như Photoshop có thể chỉnh sửa hàng nghìn chi tiết nhỏ trong một bức ảnh!",
+  },
+  "tin-hoc:3:gui-va-nhan-thu-dien-tu-co-ho-tro": {
+    objectives: ["Làm quen thao tác gửi, nhận email có hỗ trợ.", "Biết cấu trúc cơ bản của một email."],
+    sections: [
+      { heading: "1. Thư điện tử (email)", body: ["Là hình thức gửi thư qua Internet, có thể gửi nhanh chóng tới bất kỳ đâu."] },
+      { heading: "2. Cấu trúc email", body: ["Gồm người nhận, tiêu đề, nội dung thư và có thể đính kèm file."] },
+    ],
+    quiz: [
+      { question: "Email là gì?", options: ["Hình thức gửi thư qua Internet", "Một loại trò chơi", "Một loại phần mềm vẽ", "Không có ý nghĩa gì"], correctIndex: 0, explanation: "Email là hình thức gửi thư qua Internet." },
+      { question: "Một email cơ bản gồm những phần nào?", options: ["Người nhận, tiêu đề, nội dung", "Chỉ có nội dung", "Chỉ có tiêu đề", "Không có phần nào cố định"], correctIndex: 0, explanation: "Email gồm người nhận, tiêu đề và nội dung." },
+      { question: "Khi gửi email, em cần sự hỗ trợ của ai?", options: ["Người lớn đáng tin cậy", "Không cần ai giúp", "Bạn bè cùng lứa tuổi", "Người lạ trên mạng"], correctIndex: 0, explanation: "Trẻ em nên có sự hỗ trợ của người lớn khi gửi email." },
+      { question: "Email có thể đính kèm thêm gì?", options: ["File tài liệu, hình ảnh", "Không thể đính kèm gì", "Chỉ có chữ viết", "Chỉ có video"], correctIndex: 0, explanation: "Email có thể đính kèm file tài liệu, hình ảnh." },
+    ],
+    funFact: "Email đầu tiên trên thế giới được gửi vào năm 1971 bởi kỹ sư Ray Tomlinson!",
+  },
+  "tin-hoc:3:tro-chuyen-truc-tuyen-an-toan": {
+    objectives: ["Tìm hiểu cách trò chuyện trực tuyến an toàn.", "Biết các quy tắc an toàn khi chat online."],
+    sections: [
+      { heading: "1. Trò chuyện trực tuyến", body: ["Là hình thức giao tiếp qua tin nhắn, cuộc gọi video trên Internet."] },
+      { heading: "2. Quy tắc an toàn", body: ["Chỉ trò chuyện với người quen biết, không chia sẻ thông tin cá nhân, báo người lớn nếu có tin nhắn lạ."] },
+    ],
+    quiz: [
+      { question: "Khi trò chuyện trực tuyến, em nên nói chuyện với ai?", options: ["Người quen biết", "Bất kỳ ai", "Chỉ người lạ", "Không cần quan tâm là ai"], correctIndex: 0, explanation: "Nên chỉ trò chuyện với người quen biết." },
+      { question: "Khi trò chuyện online, em có nên chia sẻ thông tin cá nhân không?", options: ["Không nên chia sẻ", "Có, chia sẻ tự do", "Không quan trọng", "Luôn luôn chia sẻ"], correctIndex: 0, explanation: "Không nên chia sẻ thông tin cá nhân khi trò chuyện online." },
+      { question: "Khi nhận tin nhắn lạ, đáng ngờ, em nên làm gì?", options: ["Báo người lớn", "Trả lời ngay", "Kết bạn với người đó", "Không nói với ai"], correctIndex: 0, explanation: "Nên báo cho người lớn khi nhận tin nhắn lạ." },
+      { question: "Vì sao cần trò chuyện trực tuyến an toàn?", options: ["Bảo vệ bản thân khỏi nguy hiểm trên mạng", "Không cần thiết", "Không có lý do gì", "Chỉ là quy định"], correctIndex: 0, explanation: "Giúp bảo vệ bản thân khỏi nguy hiểm trên mạng." },
+    ],
+    funFact: "Nhiều nền tảng trò chuyện trực tuyến có tính năng báo cáo (report) để người dùng phản ánh tin nhắn không phù hợp!",
+  },
+  "tin-hoc:3:nhan-biet-quang-cao-tren-mang": {
+    objectives: ["Nhận biết quảng cáo khi duyệt web, xem video.", "Biết cách xử lý khi gặp quảng cáo."],
+    sections: [
+      { heading: "1. Quảng cáo trên mạng", body: ["Là nội dung được các công ty trả tiền để giới thiệu sản phẩm, dịch vụ tới người dùng."] },
+      { heading: "2. Cách nhận biết", body: ["Quảng cáo thường có chữ 'Ad' hoặc 'Quảng cáo', xuất hiện chen giữa nội dung."] },
+    ],
+    quiz: [
+      { question: "Quảng cáo trên mạng là gì?", options: ["Nội dung giới thiệu sản phẩm, dịch vụ", "Nội dung học tập", "Trò chơi miễn phí", "Không có mục đích gì"], correctIndex: 0, explanation: "Quảng cáo là nội dung giới thiệu sản phẩm, dịch vụ." },
+      { question: "Làm sao để nhận biết một nội dung là quảng cáo?", options: ["Thường có chữ 'Ad' hoặc 'Quảng cáo'", "Không có cách nào nhận biết", "Luôn có màu đỏ", "Luôn xuất hiện ở đầu trang"], correctIndex: 0, explanation: "Quảng cáo thường có chữ 'Ad' hoặc 'Quảng cáo' đánh dấu." },
+      { question: "Khi gặp quảng cáo hấp dẫn, em nên làm gì?", options: ["Cẩn thận, hỏi người lớn trước khi click", "Click ngay lập tức", "Tin tưởng hoàn toàn", "Chia sẻ cho bạn bè ngay"], correctIndex: 0, explanation: "Nên cẩn thận và hỏi người lớn trước khi click vào quảng cáo." },
+      { question: "Vì sao cần cẩn thận với quảng cáo trên mạng?", options: ["Một số quảng cáo có thể chứa nội dung không an toàn", "Không cần cẩn thận", "Quảng cáo luôn an toàn", "Không có lý do gì"], correctIndex: 0, explanation: "Một số quảng cáo có thể chứa nội dung không an toàn hoặc lừa đảo." },
+    ],
+    funFact: "Quảng cáo trực tuyến là nguồn thu nhập chính của nhiều trang web và ứng dụng miễn phí!",
+  },
+  "tin-hoc:3:phan-biet-tin-that-tin-gia-co-ban": {
+    objectives: ["Làm quen cách nhận biết tin thật, tin giả.", "Biết cách kiểm chứng thông tin cơ bản."],
+    sections: [
+      { heading: "1. Tin thật và tin giả", body: ["Tin thật có nguồn gốc rõ ràng, đáng tin cậy; tin giả thường không có nguồn hoặc nguồn không rõ ràng."] },
+      { heading: "2. Cách kiểm chứng", body: ["Kiểm tra nguồn tin, so sánh với các trang tin uy tín khác, hỏi người lớn khi nghi ngờ."] },
+    ],
+    quiz: [
+      { question: "Tin thật có đặc điểm gì?", options: ["Có nguồn gốc rõ ràng, đáng tin cậy", "Không có nguồn gốc", "Luôn gây sốc", "Không cần kiểm chứng"], correctIndex: 0, explanation: "Tin thật có nguồn gốc rõ ràng, đáng tin cậy." },
+      { question: "Khi gặp thông tin đáng ngờ, em nên làm gì?", options: ["Kiểm chứng trước khi tin", "Tin ngay lập tức", "Chia sẻ ngay cho mọi người", "Không cần kiểm chứng"], correctIndex: 0, explanation: "Nên kiểm chứng thông tin trước khi tin." },
+      { question: "Cách nào giúp kiểm chứng thông tin?", options: ["So sánh với các nguồn tin uy tín khác", "Không cần so sánh gì", "Chỉ tin một nguồn duy nhất", "Không thể kiểm chứng"], correctIndex: 0, explanation: "So sánh với các nguồn uy tín khác giúp kiểm chứng thông tin." },
+      { question: "Vì sao cần phân biệt tin thật, tin giả?", options: ["Tránh bị lừa dối, hiểu đúng sự việc", "Không cần thiết", "Không có lý do gì", "Chỉ là hình thức"], correctIndex: 0, explanation: "Giúp tránh bị lừa dối và hiểu đúng sự việc." },
+    ],
+    funFact: "Tin giả (fake news) lan truyền trên mạng xã hội có thể nhanh gấp 6 lần so với tin thật, theo một nghiên cứu của MIT!",
+  },
+  "tin-hoc:3:ban-quyen-va-ton-trong-san-pham-so": {
+    objectives: ["Làm quen khái niệm bản quyền sản phẩm số.", "Hiểu vì sao cần tôn trọng bản quyền."],
+    sections: [
+      { heading: "1. Bản quyền là gì", body: ["Là quyền sở hữu của người tạo ra sản phẩm như bài hát, hình ảnh, phần mềm."] },
+      { heading: "2. Tôn trọng bản quyền", body: ["Không sao chép, sử dụng sản phẩm của người khác khi chưa được phép."] },
+    ],
+    quiz: [
+      { question: "Bản quyền là gì?", options: ["Quyền sở hữu sản phẩm của người tạo ra", "Không có ý nghĩa gì", "Chỉ áp dụng cho sách", "Chỉ áp dụng cho nhạc"], correctIndex: 0, explanation: "Bản quyền là quyền sở hữu của người tạo ra sản phẩm." },
+      { question: "Hành động nào vi phạm bản quyền?", options: ["Sao chép sản phẩm mà không xin phép", "Mua sản phẩm chính hãng", "Xin phép trước khi sử dụng", "Trả tiền bản quyền"], correctIndex: 0, explanation: "Sao chép mà không xin phép là vi phạm bản quyền." },
+      { question: "Vì sao cần tôn trọng bản quyền sản phẩm số?", options: ["Tôn trọng công sức sáng tạo của người khác", "Không cần thiết", "Không có lý do gì", "Chỉ là quy định"], correctIndex: 0, explanation: "Tôn trọng bản quyền thể hiện sự tôn trọng công sức sáng tạo." },
+      { question: "Sản phẩm nào có thể có bản quyền?", options: ["Bài hát, hình ảnh, phần mềm", "Không có sản phẩm nào", "Chỉ có sách giấy", "Chỉ có đồ vật"], correctIndex: 0, explanation: "Bài hát, hình ảnh, phần mềm đều có thể có bản quyền." },
+    ],
+    funFact: "Nhiều quốc gia có luật bảo vệ bản quyền để khuyến khích người sáng tạo tiếp tục tạo ra sản phẩm mới!",
+  },
+  "tin-hoc:3:lam-quen-ma-qr": {
+    objectives: ["Tìm hiểu mã QR và cách sử dụng cơ bản.", "Biết ứng dụng của mã QR trong đời sống."],
+    sections: [
+      { heading: "1. Mã QR là gì", body: ["Là mã vạch hai chiều chứa thông tin, có thể quét bằng điện thoại để xem nội dung."] },
+      { heading: "2. Ứng dụng của mã QR", body: ["Thanh toán, xem menu nhà hàng, truy cập trang web nhanh chóng."] },
+    ],
+    quiz: [
+      { question: "Mã QR là gì?", options: ["Mã vạch hai chiều chứa thông tin", "Một loại virus máy tính", "Một loại trò chơi", "Không có ý nghĩa gì"], correctIndex: 0, explanation: "Mã QR là mã vạch hai chiều chứa thông tin." },
+      { question: "Làm thế nào để đọc mã QR?", options: ["Dùng camera điện thoại quét mã", "Không thể đọc được", "Chỉ đọc bằng mắt thường", "Cần máy tính lớn"], correctIndex: 0, explanation: "Dùng camera điện thoại quét mã để đọc." },
+      { question: "Mã QR thường được dùng để làm gì?", options: ["Thanh toán, xem menu, truy cập web", "Chỉ để trang trí", "Không có ứng dụng gì", "Chỉ dùng trong trò chơi"], correctIndex: 0, explanation: "Mã QR dùng để thanh toán, xem menu, truy cập web nhanh." },
+      { question: "'QR' là viết tắt của cụm từ gì?", options: ["Quick Response (phản hồi nhanh)", "Question Result", "Quality Rate", "Không có ý nghĩa gì"], correctIndex: 0, explanation: "'QR' là viết tắt của 'Quick Response' nghĩa là phản hồi nhanh." },
+    ],
+    funFact: "Mã QR được phát minh tại Nhật Bản vào năm 1994 để theo dõi các bộ phận ô tô trong nhà máy!",
+  },
+  "tin-hoc:3:lam-quen-thanh-toan-khong-tien-mat": {
+    objectives: ["Làm quen khái niệm thanh toán không tiền mặt.", "Biết các hình thức thanh toán không tiền mặt phổ biến."],
+    sections: [
+      { heading: "1. Thanh toán không tiền mặt", body: ["Là hình thức trả tiền không dùng tiền giấy, tiền xu mà qua thẻ, ứng dụng điện thoại."] },
+      { heading: "2. Các hình thức phổ biến", body: ["Thẻ ngân hàng, ví điện tử, quét mã QR để thanh toán."] },
+    ],
+    quiz: [
+      { question: "Thanh toán không tiền mặt là gì?", options: ["Trả tiền không dùng tiền giấy, tiền xu", "Chỉ dùng tiền mặt", "Không thể thanh toán", "Chỉ dùng trong cửa hàng lớn"], correctIndex: 0, explanation: "Thanh toán không tiền mặt là trả tiền không dùng tiền giấy, xu." },
+      { question: "Hình thức nào là thanh toán không tiền mặt?", options: ["Thẻ ngân hàng, ví điện tử", "Chỉ có tiền giấy", "Chỉ có tiền xu", "Không có hình thức nào"], correctIndex: 0, explanation: "Thẻ ngân hàng, ví điện tử là các hình thức thanh toán không tiền mặt." },
+      { question: "Ưu điểm của thanh toán không tiền mặt là gì?", options: ["Nhanh chóng, tiện lợi", "Không có ưu điểm gì", "Chậm hơn tiền mặt", "Không an toàn"], correctIndex: 0, explanation: "Thanh toán không tiền mặt nhanh chóng và tiện lợi." },
+      { question: "Trẻ em có nên tự ý thanh toán online không?", options: ["Không, cần có sự giám sát của người lớn", "Có, tự do thanh toán", "Không quan trọng", "Luôn được phép"], correctIndex: 0, explanation: "Trẻ em cần có sự giám sát của người lớn khi thanh toán online." },
+    ],
+    funFact: "Ở nhiều thành phố lớn trên thế giới, thanh toán không tiền mặt đang dần trở thành hình thức thanh toán phổ biến nhất!",
+  },
+  "tin-hoc:3:robot-va-tu-dong-hoa-trong-doi-song": {
+    objectives: ["Tìm hiểu vai trò của robot trong đời sống.", "Biết một số ứng dụng robot quen thuộc."],
+    sections: [
+      { heading: "1. Robot là gì", body: ["Là máy móc được lập trình để tự động thực hiện các công việc thay con người."] },
+      { heading: "2. Ứng dụng robot", body: ["Robot hút bụi, robot trong nhà máy sản xuất, robot hỗ trợ y tế."] },
+    ],
+    quiz: [
+      { question: "Robot là gì?", options: ["Máy móc được lập trình để tự động làm việc", "Một loại phần mềm", "Một loại trò chơi", "Không có ý nghĩa gì"], correctIndex: 0, explanation: "Robot là máy móc được lập trình để tự động làm việc." },
+      { question: "Ví dụ nào là ứng dụng robot trong đời sống?", options: ["Robot hút bụi", "Bút chì", "Quyển sách", "Cái bàn"], correctIndex: 0, explanation: "Robot hút bụi là ứng dụng robot phổ biến trong gia đình." },
+      { question: "Tự động hoá giúp ích điều gì?", options: ["Tiết kiệm thời gian, công sức con người", "Không có ích gì", "Làm chậm công việc", "Không liên quan đến công việc"], correctIndex: 0, explanation: "Tự động hoá giúp tiết kiệm thời gian và công sức." },
+      { question: "Robot được sử dụng trong lĩnh vực nào?", options: ["Sản xuất, y tế, gia đình", "Chỉ trong phim ảnh", "Không có lĩnh vực nào", "Chỉ trong trò chơi"], correctIndex: 0, explanation: "Robot được sử dụng trong sản xuất, y tế, gia đình và nhiều lĩnh vực khác." },
+    ],
+    funFact: "Robot phẫu thuật hiện đại có thể giúp bác sĩ thực hiện các ca mổ với độ chính xác cao hơn bàn tay con người!",
+  },
+  "tin-hoc:3:lap-trinh-scratch-ve-hinh-don-gian": {
+    objectives: ["Thực hành vẽ hình bằng khối lệnh Scratch.", "Làm quen với khối lệnh bút vẽ (Pen)."],
+    sections: [
+      { heading: "1. Khối lệnh bút vẽ", body: ["Scratch có nhóm khối lệnh Pen giúp nhân vật vẽ hình khi di chuyển."] },
+      { heading: "2. Cách tạo hình vẽ", body: ["Kết hợp khối lệnh di chuyển và khối lệnh bút vẽ để tạo hình vuông, tam giác đơn giản."] },
+    ],
+    quiz: [
+      { question: "Nhóm khối lệnh nào giúp vẽ hình trong Scratch?", options: ["Pen (bút vẽ)", "Sound (âm thanh)", "Sensing (cảm biến)", "Variables (biến)"], correctIndex: 0, explanation: "Nhóm khối lệnh Pen giúp vẽ hình trong Scratch." },
+      { question: "Để vẽ hình, cần kết hợp khối lệnh nào với Pen?", options: ["Khối lệnh di chuyển", "Khối lệnh âm thanh", "Khối lệnh trang phục", "Không cần kết hợp gì"], correctIndex: 0, explanation: "Cần kết hợp khối lệnh di chuyển với Pen để vẽ hình." },
+      { question: "Scratch là gì?", options: ["Phần mềm lập trình trực quan bằng khối lệnh", "Một phần mềm vẽ tranh thông thường", "Một trò chơi điện tử", "Không có ý nghĩa gì"], correctIndex: 0, explanation: "Scratch là phần mềm lập trình trực quan bằng khối lệnh." },
+      { question: "Vì sao Scratch phù hợp với học sinh tiểu học?", options: ["Dùng khối lệnh kéo thả, dễ học", "Cần viết mã phức tạp", "Chỉ dành cho lập trình viên chuyên nghiệp", "Không phù hợp với trẻ em"], correctIndex: 0, explanation: "Scratch dùng khối lệnh kéo thả trực quan, dễ học cho trẻ em." },
+    ],
+    funFact: "Scratch được phát triển bởi MIT Media Lab, giúp hàng triệu trẻ em trên thế giới học lập trình một cách vui vẻ!",
+  },
+  "tin-hoc:3:lap-trinh-scratch-doi-thoai-nhan-vat": {
+    objectives: ["Thực hành tạo đối thoại cho nhân vật Scratch.", "Làm quen khối lệnh 'Say' và 'Think'."],
+    sections: [
+      { heading: "1. Khối lệnh Say (Nói)", body: ["Giúp nhân vật hiển thị lời thoại trong bong bóng chat."] },
+      { heading: "2. Khối lệnh Think (Nghĩ)", body: ["Giúp nhân vật hiển thị suy nghĩ trong bong bóng hình đám mây."] },
+    ],
+    quiz: [
+      { question: "Khối lệnh 'Say' trong Scratch dùng để làm gì?", options: ["Hiển thị lời thoại của nhân vật", "Di chuyển nhân vật", "Thay đổi màu sắc", "Phát âm thanh"], correctIndex: 0, explanation: "Khối lệnh 'Say' dùng để hiển thị lời thoại của nhân vật." },
+      { question: "Khối lệnh 'Think' khác gì so với 'Say'?", options: ["Hiển thị suy nghĩ thay vì lời nói", "Không có sự khác biệt", "Chỉ dùng để di chuyển", "Chỉ dùng để đổi màu"], correctIndex: 0, explanation: "'Think' hiển thị suy nghĩ, khác với 'Say' hiển thị lời nói." },
+      { question: "Đối thoại nhân vật trong Scratch giúp ích điều gì?", options: ["Kể chuyện, tạo tình huống thú vị", "Không có ích gì", "Làm chương trình chạy chậm hơn", "Không liên quan đến lập trình"], correctIndex: 0, explanation: "Đối thoại giúp kể chuyện và tạo tình huống thú vị." },
+      { question: "Bong bóng lời thoại thường có hình dạng gì?", options: ["Hình bầu dục với đuôi nhọn", "Hình vuông", "Hình tam giác", "Không có hình dạng cố định"], correctIndex: 0, explanation: "Bong bóng lời thoại (Say) thường có hình bầu dục với đuôi nhọn." },
+    ],
+    funFact: "Tạo đối thoại nhân vật trong Scratch là bước đầu để học sinh làm quen với việc kể chuyện qua lập trình!",
+  },
+  "tin-hoc:3:lap-trinh-scratch-thay-doi-trang-phuc-nhan-vat": {
+    objectives: ["Thực hành đổi trang phục nhân vật trong Scratch.", "Làm quen khối lệnh 'Next Costume'."],
+    sections: [
+      { heading: "1. Trang phục nhân vật (Costume)", body: ["Mỗi nhân vật trong Scratch có thể có nhiều trang phục (hình ảnh) khác nhau."] },
+      { heading: "2. Khối lệnh đổi trang phục", body: ["Khối lệnh 'Next Costume' giúp chuyển sang trang phục tiếp theo, tạo hiệu ứng hoạt hình."] },
+    ],
+    quiz: [
+      { question: "Trang phục (Costume) trong Scratch là gì?", options: ["Các hình ảnh khác nhau của một nhân vật", "Âm thanh của nhân vật", "Vị trí của nhân vật", "Tốc độ di chuyển"], correctIndex: 0, explanation: "Costume là các hình ảnh khác nhau của một nhân vật." },
+      { question: "Khối lệnh 'Next Costume' dùng để làm gì?", options: ["Chuyển sang trang phục tiếp theo", "Xoá nhân vật", "Phát âm thanh", "Di chuyển nhân vật"], correctIndex: 0, explanation: "'Next Costume' giúp chuyển sang trang phục tiếp theo." },
+      { question: "Đổi trang phục liên tục tạo ra hiệu ứng gì?", options: ["Hiệu ứng hoạt hình (animation)", "Không có hiệu ứng gì", "Chỉ đổi màu sắc", "Chỉ đổi âm thanh"], correctIndex: 0, explanation: "Đổi trang phục liên tục tạo hiệu ứng hoạt hình." },
+      { question: "Vì sao cần nhiều trang phục cho một nhân vật?", options: ["Để tạo chuyển động sinh động hơn", "Không cần thiết", "Không có lý do gì", "Chỉ để trang trí"], correctIndex: 0, explanation: "Nhiều trang phục giúp tạo chuyển động sinh động hơn." },
+    ],
+    funFact: "Nguyên lý đổi trang phục liên tục trong Scratch cũng chính là nguyên lý tạo ra phim hoạt hình truyền thống!",
+  },
+  "tin-hoc:3:lap-trinh-scratch-su-kien-khi-nhan-phim": {
+    objectives: ["Thực hành tạo sự kiện khi nhấn phím trong Scratch.", "Làm quen khối lệnh 'When key pressed'."],
+    sections: [
+      { heading: "1. Khối lệnh sự kiện", body: ["Khối lệnh 'When [phím] key pressed' giúp chương trình phản ứng khi người dùng nhấn phím."] },
+      { heading: "2. Ứng dụng", body: ["Thường dùng để điều khiển nhân vật di chuyển bằng phím mũi tên."] },
+    ],
+    quiz: [
+      { question: "Khối lệnh 'When key pressed' dùng để làm gì?", options: ["Kích hoạt hành động khi nhấn một phím", "Phát âm thanh liên tục", "Xoá nhân vật", "Đổi màu nền"], correctIndex: 0, explanation: "Khối lệnh này kích hoạt hành động khi nhấn phím." },
+      { question: "Khối lệnh này thường dùng để làm gì trong trò chơi?", options: ["Điều khiển nhân vật di chuyển", "Chỉ để phát nhạc", "Chỉ để đổi màu", "Không có ứng dụng gì"], correctIndex: 0, explanation: "Thường dùng để điều khiển nhân vật di chuyển bằng phím." },
+      { question: "Phím nào thường dùng để điều khiển di chuyển?", options: ["Phím mũi tên", "Phím số", "Phím chữ cái ngẫu nhiên", "Phím Enter"], correctIndex: 0, explanation: "Phím mũi tên thường dùng để điều khiển di chuyển." },
+      { question: "Sự kiện trong lập trình là gì?", options: ["Hành động kích hoạt khi có điều kiện xảy ra", "Không có ý nghĩa gì", "Chỉ là hình ảnh", "Chỉ là âm thanh"], correctIndex: 0, explanation: "Sự kiện là hành động kích hoạt khi có điều kiện xảy ra." },
+    ],
+    funFact: "Hầu hết các trò chơi điện tử đều sử dụng khối lệnh sự kiện tương tự để nhận biết khi người chơi nhấn phím!",
+  },
+  "tin-hoc:3:chia-se-du-an-scratch-voi-ban-be": {
+    objectives: ["Thực hành chia sẻ sản phẩm Scratch đã tạo.", "Biết cách lưu và xuất dự án Scratch."],
+    sections: [
+      { heading: "1. Lưu dự án", body: ["Lưu dự án Scratch để có thể mở lại và chỉnh sửa sau này."] },
+      { heading: "2. Chia sẻ dự án", body: ["Có thể chia sẻ dự án với bạn bè để cùng xem, học hỏi lẫn nhau."] },
+    ],
+    quiz: [
+      { question: "Vì sao cần lưu dự án Scratch?", options: ["Để mở lại và chỉnh sửa sau này", "Không cần thiết", "Không có lý do gì", "Chỉ để xoá đi"], correctIndex: 0, explanation: "Lưu dự án giúp mở lại và chỉnh sửa sau này." },
+      { question: "Chia sẻ dự án Scratch giúp ích điều gì?", options: ["Học hỏi lẫn nhau, nhận góp ý", "Không có ích gì", "Làm mất dữ liệu", "Không liên quan đến học tập"], correctIndex: 0, explanation: "Chia sẻ giúp học hỏi lẫn nhau và nhận góp ý." },
+      { question: "Khi chia sẻ dự án, em nên chú ý điều gì?", options: ["Nội dung phù hợp, an toàn", "Không cần chú ý gì", "Chia sẻ bất kỳ nội dung nào", "Không cần kiểm tra trước"], correctIndex: 0, explanation: "Cần đảm bảo nội dung phù hợp và an toàn khi chia sẻ." },
+      { question: "Xem dự án của bạn bè giúp ích điều gì?", options: ["Học hỏi ý tưởng và kỹ thuật mới", "Không có ích gì", "Làm mất thời gian", "Không liên quan đến lập trình"], correctIndex: 0, explanation: "Xem dự án bạn bè giúp học hỏi ý tưởng và kỹ thuật mới." },
+    ],
+    funFact: "Cộng đồng Scratch trực tuyến có hàng triệu dự án được chia sẻ bởi trẻ em trên khắp thế giới!",
+  },
+  "tin-hoc:3:lam-viec-nhom-tren-may-tinh": {
+    objectives: ["Rèn kỹ năng phối hợp làm việc nhóm trên máy tính.", "Biết cách chia sẻ công việc khi làm nhóm."],
+    sections: [
+      { heading: "1. Làm việc nhóm trên máy tính", body: ["Là cùng nhau thực hiện một dự án số như bài trình chiếu, video, chương trình Scratch."] },
+      { heading: "2. Cách phối hợp hiệu quả", body: ["Phân chia công việc rõ ràng, trao đổi ý kiến, ghép nối sản phẩm cuối cùng."] },
+    ],
+    quiz: [
+      { question: "Làm việc nhóm trên máy tính là gì?", options: ["Cùng nhau thực hiện một dự án số", "Chỉ làm việc một mình", "Không liên quan đến máy tính", "Không cần phối hợp"], correctIndex: 0, explanation: "Là cùng nhau thực hiện một dự án số." },
+      { question: "Cách nào giúp làm việc nhóm hiệu quả?", options: ["Phân chia công việc rõ ràng", "Không phân chia công việc", "Chỉ một người làm hết", "Không trao đổi ý kiến"], correctIndex: 0, explanation: "Phân chia công việc rõ ràng giúp làm việc nhóm hiệu quả." },
+      { question: "Vì sao cần trao đổi ý kiến khi làm việc nhóm?", options: ["Giúp thống nhất và hoàn thiện sản phẩm", "Không cần thiết", "Không có lợi ích gì", "Chỉ làm mất thời gian"], correctIndex: 0, explanation: "Trao đổi ý kiến giúp thống nhất và hoàn thiện sản phẩm." },
+      { question: "Dự án nào có thể thực hiện theo nhóm trên máy tính?", options: ["Bài trình chiếu, video", "Chỉ có thể làm một mình", "Không có dự án nào", "Chỉ làm trên giấy"], correctIndex: 0, explanation: "Bài trình chiếu, video là các dự án có thể làm nhóm." },
+    ],
+    funFact: "Nhiều công cụ hiện đại như Google Slides cho phép nhiều người cùng chỉnh sửa một tài liệu trong thời gian thực!",
+  },
+  "tin-hoc:3:on-tap-giua-hoc-ky-1": {
+    objectives: ["Hệ thống kiến thức đã học ở giữa học kỳ 1.", "Củng cố kỹ năng sử dụng máy tính cơ bản."],
+    sections: [
+      { heading: "1. Nội dung ôn tập", body: ["Ôn lại: thông tin và xử lí thông tin, gõ văn bản, tư thế ngồi đúng, các dạng thông tin."] },
+    ],
+    quiz: [
+      { question: "Máy tính giúp xử lí thông tin qua các bước nào?", options: ["Nhập, xử lí, xuất", "Chỉ có một bước", "Không có bước nào", "Chỉ xử lí mà không xuất"], correctIndex: 0, explanation: "Máy tính xử lí thông tin qua ba bước: nhập, xử lí, xuất." },
+      { question: "Tư thế ngồi đúng khi dùng máy tính là gì?", options: ["Lưng thẳng, mắt cách màn hình vừa phải", "Ngồi cong lưng", "Mắt sát màn hình", "Không quan trọng"], correctIndex: 0, explanation: "Tư thế đúng là lưng thẳng, mắt cách màn hình vừa phải." },
+      { question: "Thông tin có thể tồn tại dưới dạng nào?", options: ["Chữ, âm thanh, hình ảnh", "Chỉ có chữ", "Chỉ có âm thanh", "Không có dạng nào"], correctIndex: 0, explanation: "Thông tin có thể là chữ, âm thanh, hình ảnh." },
+      { question: "Phần mềm soạn thảo văn bản dùng để làm gì?", options: ["Soạn thảo, chỉnh sửa văn bản", "Chỉ để nghe nhạc", "Chỉ để xem phim", "Không có tác dụng gì"], correctIndex: 0, explanation: "Phần mềm soạn thảo dùng để soạn thảo, chỉnh sửa văn bản." },
+    ],
+    funFact: "Ôn tập giữa kỳ giúp em củng cố kỹ năng sử dụng máy tính cơ bản trước khi học các nội dung nâng cao hơn!",
+  },
+  "tin-hoc:3:on-tap-cuoi-hoc-ky-1": {
+    objectives: ["Hệ thống kiến thức đã học trong học kỳ 1.", "Tổng hợp kỹ năng soạn thảo văn bản."],
+    sections: [
+      { heading: "1. Nội dung ôn tập", body: ["Ôn lại: gõ chữ có dấu, định dạng chữ, chèn hình ảnh, lưu và mở tệp, AI cơ bản."] },
+    ],
+    quiz: [
+      { question: "Định dạng chữ đậm giúp ích điều gì?", options: ["Làm nổi bật nội dung quan trọng", "Không có tác dụng gì", "Làm chữ nhỏ hơn", "Xoá chữ"], correctIndex: 0, explanation: "Định dạng chữ đậm giúp làm nổi bật nội dung quan trọng." },
+      { question: "Vì sao cần lưu tệp văn bản thường xuyên?", options: ["Tránh mất dữ liệu khi có sự cố", "Không cần thiết", "Không có lý do gì", "Chỉ làm tốn dung lượng"], correctIndex: 0, explanation: "Lưu tệp thường xuyên giúp tránh mất dữ liệu." },
+      { question: "Trí tuệ nhân tạo (AI) là gì?", options: ["Công nghệ giúp máy tính 'thông minh' như con người", "Một loại virus", "Một loại trò chơi", "Không có ý nghĩa gì"], correctIndex: 0, explanation: "AI là công nghệ giúp máy tính có khả năng 'thông minh'." },
+      { question: "Chèn hình ảnh vào văn bản giúp ích điều gì?", options: ["Minh hoạ nội dung sinh động hơn", "Không có ích gì", "Làm văn bản khó đọc hơn", "Không liên quan đến nội dung"], correctIndex: 0, explanation: "Chèn hình ảnh giúp minh hoạ nội dung sinh động hơn." },
+    ],
+    funFact: "Trợ lý ảo như Siri, Google Assistant là những ví dụ gần gũi về ứng dụng AI trong đời sống hàng ngày!",
+  },
+  "tin-hoc:3:on-tap-giua-hoc-ky-2": {
+    objectives: ["Hệ thống kiến thức đã học ở giữa học kỳ 2.", "Củng cố kỹ năng sử dụng phần mềm trình chiếu, bảng tính."],
+    sections: [
+      { heading: "1. Nội dung ôn tập", body: ["Ôn lại: phần mềm trình chiếu, bảng tính hàng cột, vẽ hình bằng công cụ có sẵn."] },
+    ],
+    quiz: [
+      { question: "Slide trong bài trình chiếu là gì?", options: ["Một trang trong bài thuyết trình", "Một loại virus", "Một phần mềm vẽ", "Không có ý nghĩa gì"], correctIndex: 0, explanation: "Slide là một trang trong bài thuyết trình." },
+      { question: "Ô trong bảng tính là gì?", options: ["Giao điểm giữa hàng và cột", "Chỉ là hàng", "Chỉ là cột", "Không có ý nghĩa gì"], correctIndex: 0, explanation: "Ô là giao điểm giữa một hàng và một cột." },
+      { question: "Công cụ hình khối có sẵn giúp ích điều gì?", options: ["Vẽ hình nhanh chóng, chính xác", "Không có ích gì", "Làm chậm quá trình vẽ", "Không liên quan đến vẽ hình"], correctIndex: 0, explanation: "Công cụ này giúp vẽ hình nhanh chóng, chính xác." },
+      { question: "Vì sao nên luyện tập trước khi thuyết trình?", options: ["Giúp tự tin, trình bày trôi chảy hơn", "Không cần thiết", "Không có lợi ích gì", "Chỉ làm mất thời gian"], correctIndex: 0, explanation: "Luyện tập giúp tự tin và trình bày trôi chảy hơn." },
+    ],
+    funFact: "Kỹ năng sử dụng phần mềm văn phòng cơ bản (soạn thảo, trình chiếu, bảng tính) rất hữu ích trong học tập và công việc sau này!",
+  },
+  "tin-hoc:3:tro-choi-go-phim-nhanh": {
+    objectives: ["Ôn luyện kỹ năng gõ phím qua trò chơi.", "Rèn tốc độ và độ chính xác khi gõ phím."],
+    sections: [
+      { heading: "1. Cách chơi", body: ["Gõ đúng các từ hoặc câu xuất hiện trên màn hình trong thời gian giới hạn."] },
+      { heading: "2. Lợi ích", body: ["Giúp cải thiện tốc độ gõ phím và độ chính xác."] },
+    ],
+    quiz: [
+      { question: "Trò chơi gõ phím nhanh giúp ích điều gì?", options: ["Cải thiện tốc độ và độ chính xác gõ phím", "Không có ích gì", "Làm chậm kỹ năng gõ phím", "Không liên quan đến bàn phím"], correctIndex: 0, explanation: "Trò chơi giúp cải thiện tốc độ và độ chính xác gõ phím." },
+      { question: "Khi chơi trò chơi gõ phím, em cần chú ý điều gì?", options: ["Gõ đúng và nhanh", "Chỉ cần gõ nhanh mà không cần đúng", "Không cần chú ý gì", "Chỉ cần gõ đúng mà không cần nhanh"], correctIndex: 0, explanation: "Cần chú ý gõ cả đúng và nhanh." },
+      { question: "Luyện gõ phím thường xuyên mang lại lợi ích gì?", options: ["Gõ văn bản nhanh hơn trong tương lai", "Không có lợi ích gì", "Làm chậm công việc", "Không liên quan đến công việc"], correctIndex: 0, explanation: "Luyện tập giúp gõ văn bản nhanh hơn trong tương lai." },
+      { question: "Kỹ thuật gõ 10 ngón có liên quan gì đến trò chơi gõ phím nhanh?", options: ["Giúp gõ nhanh và chính xác hơn khi chơi", "Không liên quan gì", "Làm chậm quá trình chơi", "Không cần thiết"], correctIndex: 0, explanation: "Kỹ thuật gõ 10 ngón giúp chơi trò chơi gõ phím hiệu quả hơn." },
+    ],
+    funFact: "Nhiều trang web luyện gõ phím trực tuyến miễn phí giúp trẻ em cải thiện kỹ năng gõ phím một cách thú vị!",
+  },
+  "tin-hoc:3:tro-choi-ghep-hinh-tren-may-tinh": {
+    objectives: ["Ôn luyện tư duy qua trò chơi ghép hình.", "Rèn khả năng quan sát và logic."],
+    sections: [
+      { heading: "1. Cách chơi", body: ["Kéo thả các mảnh ghép vào đúng vị trí để hoàn thành bức tranh."] },
+      { heading: "2. Lợi ích", body: ["Giúp rèn tư duy logic, khả năng quan sát và sự kiên nhẫn."] },
+    ],
+    quiz: [
+      { question: "Trò chơi ghép hình trên máy tính giúp ích điều gì?", options: ["Rèn tư duy logic, khả năng quan sát", "Không có ích gì", "Làm mất thời gian", "Không liên quan đến tư duy"], correctIndex: 0, explanation: "Trò chơi giúp rèn tư duy logic và khả năng quan sát." },
+      { question: "Khi chơi ghép hình, em cần làm gì?", options: ["Kéo thả mảnh ghép vào đúng vị trí", "Không cần làm gì", "Chỉ cần nhìn qua", "Đoán ngẫu nhiên"], correctIndex: 0, explanation: "Cần kéo thả mảnh ghép vào đúng vị trí." },
+      { question: "Trò chơi ghép hình rèn luyện đức tính gì?", options: ["Sự kiên nhẫn", "Sự nóng vội", "Không rèn luyện gì", "Sự lười biếng"], correctIndex: 0, explanation: "Trò chơi rèn luyện sự kiên nhẫn khi hoàn thành bức tranh." },
+      { question: "Trên máy tính, thao tác nào thường dùng để chơi ghép hình?", options: ["Kéo thả bằng chuột", "Chỉ dùng bàn phím", "Không cần thao tác gì", "Chỉ dùng giọng nói"], correctIndex: 0, explanation: "Thao tác kéo thả bằng chuột thường dùng để chơi ghép hình." },
+    ],
+    funFact: "Trò chơi ghép hình (jigsaw puzzle) được phát minh từ thế kỷ 18 và ngày nay đã có phiên bản điện tử phổ biến!",
+  },
+  "tin-hoc:3:thuc-hanh-soan-thoi-khoa-bieu-bang-bang": {
+    objectives: ["Thực hành tạo thời khoá biểu bằng bảng tính.", "Biết cách trình bày thông tin theo hàng, cột."],
+    sections: [
+      { heading: "1. Tạo bảng thời khoá biểu", body: ["Dùng hàng để ghi các tiết học, cột để ghi các ngày trong tuần."] },
+      { heading: "2. Nhập nội dung", body: ["Nhập tên môn học vào từng ô tương ứng với tiết học và ngày."] },
+    ],
+    quiz: [
+      { question: "Khi tạo thời khoá biểu bằng bảng, hàng thường dùng để ghi gì?", options: ["Các tiết học", "Ngày trong tuần", "Không ghi gì", "Tên học sinh"], correctIndex: 0, explanation: "Hàng thường dùng để ghi các tiết học." },
+      { question: "Cột trong bảng thời khoá biểu thường ghi gì?", options: ["Các ngày trong tuần", "Các tiết học", "Không ghi gì", "Tên giáo viên"], correctIndex: 0, explanation: "Cột thường dùng để ghi các ngày trong tuần." },
+      { question: "Vì sao nên dùng bảng tính để tạo thời khoá biểu?", options: ["Dễ trình bày, dễ chỉnh sửa", "Không có lợi ích gì", "Khó trình bày hơn viết tay", "Không liên quan đến bảng tính"], correctIndex: 0, explanation: "Bảng tính giúp trình bày và chỉnh sửa dễ dàng hơn." },
+      { question: "Thời khoá biểu giúp ích điều gì cho học sinh?", options: ["Biết lịch học các môn trong tuần", "Không có ích gì", "Làm mất thời gian", "Không liên quan đến học tập"], correctIndex: 0, explanation: "Thời khoá biểu giúp học sinh biết lịch học các môn trong tuần." },
+    ],
+    funFact: "Bảng tính không chỉ dùng để tính toán mà còn rất hữu ích để tổ chức thông tin như thời khoá biểu, danh sách!",
+  },
+  "tin-hoc:3:thuc-hanh-ve-tranh-chu-de-gia-dinh": {
+    objectives: ["Thực hành vẽ một bức tranh về chủ đề gia đình.", "Vận dụng các công cụ vẽ đã học."],
+    sections: [
+      { heading: "1. Lên ý tưởng", body: ["Nghĩ về hình ảnh muốn vẽ: ngôi nhà, các thành viên gia đình, hoạt động chung."] },
+      { heading: "2. Thực hành vẽ", body: ["Dùng công cụ hình khối, bút vẽ, tô màu để hoàn thành bức tranh."] },
+    ],
+    quiz: [
+      { question: "Trước khi vẽ tranh, em nên làm gì?", options: ["Lên ý tưởng về nội dung muốn vẽ", "Vẽ ngay không cần suy nghĩ", "Không cần chuẩn bị gì", "Chỉ cần chọn màu"], correctIndex: 0, explanation: "Nên lên ý tưởng trước khi bắt đầu vẽ." },
+      { question: "Tranh chủ đề gia đình có thể vẽ những gì?", options: ["Ngôi nhà, các thành viên gia đình", "Chỉ vẽ con vật", "Chỉ vẽ số liệu", "Không vẽ gì cả"], correctIndex: 0, explanation: "Có thể vẽ ngôi nhà, các thành viên gia đình, hoạt động chung." },
+      { question: "Công cụ nào giúp tô màu cho bức tranh?", options: ["Công cụ đổ màu (bucket fill)", "Công cụ gõ chữ", "Công cụ tìm kiếm", "Công cụ lưu file"], correctIndex: 0, explanation: "Công cụ đổ màu giúp tô màu cho bức tranh." },
+      { question: "Vẽ tranh trên máy tính giúp rèn luyện điều gì?", options: ["Sự sáng tạo và kỹ năng sử dụng công cụ vẽ", "Không rèn luyện gì", "Chỉ làm mất thời gian", "Không liên quan đến sáng tạo"], correctIndex: 0, explanation: "Vẽ tranh giúp rèn luyện sự sáng tạo và kỹ năng sử dụng công cụ." },
+    ],
+    funFact: "Vẽ tranh trên máy tính cho phép dễ dàng sửa lỗi, thử nghiệm màu sắc mà không lo tốn giấy, mực như vẽ tay!",
+  },
+  "tin-hoc:3:thuc-hanh-viet-doan-van-ngan-tren-may-tinh": {
+    objectives: ["Thực hành soạn thảo một đoạn văn ngắn.", "Vận dụng kỹ năng gõ chữ có dấu."],
+    sections: [
+      { heading: "1. Soạn thảo đoạn văn", body: ["Mở phần mềm soạn thảo văn bản, gõ đoạn văn ngắn theo chủ đề cho trước."] },
+      { heading: "2. Kiểm tra và chỉnh sửa", body: ["Đọc lại đoạn văn, sửa lỗi chính tả, định dạng chữ nếu cần."] },
+    ],
+    quiz: [
+      { question: "Trước khi soạn thảo đoạn văn, em cần mở gì?", options: ["Phần mềm soạn thảo văn bản", "Phần mềm nghe nhạc", "Phần mềm vẽ tranh", "Không cần mở phần mềm nào"], correctIndex: 0, explanation: "Cần mở phần mềm soạn thảo văn bản trước khi viết." },
+      { question: "Sau khi viết xong đoạn văn, em nên làm gì?", options: ["Đọc lại và sửa lỗi chính tả", "Không cần kiểm tra lại", "Xoá ngay đoạn văn", "Không cần làm gì thêm"], correctIndex: 0, explanation: "Nên đọc lại và sửa lỗi chính tả sau khi viết." },
+      { question: "Kỹ năng gõ chữ có dấu tiếng Việt giúp ích điều gì?", options: ["Viết đoạn văn tiếng Việt chính xác", "Không có ích gì", "Chỉ dùng cho tiếng Anh", "Không liên quan đến soạn thảo"], correctIndex: 0, explanation: "Kỹ năng này giúp viết đoạn văn tiếng Việt chính xác." },
+      { question: "Vì sao nên thực hành viết đoạn văn trên máy tính?", options: ["Rèn kỹ năng soạn thảo và gõ chữ", "Không có lợi ích gì", "Làm mất thời gian", "Không liên quan đến học tập"], correctIndex: 0, explanation: "Thực hành giúp rèn kỹ năng soạn thảo và gõ chữ." },
+    ],
+    funFact: "Kỹ năng gõ văn bản trên máy tính ngày càng quan trọng khi nhiều công việc, bài tập được thực hiện trên máy tính!",
+  },
+  "tin-hoc:3:thuc-hanh-tao-thiep-chuc-mung-dien-tu": {
+    objectives: ["Thực hành tạo một tấm thiệp chúc mừng đơn giản.", "Vận dụng kỹ năng soạn thảo và chèn hình ảnh."],
+    sections: [
+      { heading: "1. Thiết kế thiệp", body: ["Chọn lời chúc, thêm hình ảnh minh hoạ, trang trí bằng màu sắc."] },
+      { heading: "2. Hoàn thiện thiệp", body: ["Kiểm tra lại nội dung, lưu file thiệp đã hoàn thành."] },
+    ],
+    quiz: [
+      { question: "Thiệp chúc mừng điện tử cần có nội dung gì?", options: ["Lời chúc, hình ảnh minh hoạ", "Chỉ cần chữ", "Chỉ cần hình ảnh", "Không cần nội dung gì"], correctIndex: 0, explanation: "Thiệp cần có lời chúc và hình ảnh minh hoạ." },
+      { question: "Sau khi tạo xong thiệp, em nên làm gì?", options: ["Kiểm tra lại nội dung và lưu file", "Xoá ngay thiệp", "Không cần lưu lại", "Không cần kiểm tra"], correctIndex: 0, explanation: "Nên kiểm tra lại nội dung và lưu file sau khi hoàn thành." },
+      { question: "Thiệp chúc mừng điện tử có ưu điểm gì so với thiệp giấy?", options: ["Gửi nhanh chóng qua mạng", "Không có ưu điểm gì", "Chậm hơn thiệp giấy", "Không thể gửi được"], correctIndex: 0, explanation: "Thiệp điện tử có thể gửi nhanh chóng qua mạng." },
+      { question: "Vì sao nên trang trí thiệp bằng màu sắc phù hợp?", options: ["Làm thiệp đẹp và ấn tượng hơn", "Không cần thiết", "Không có lợi ích gì", "Chỉ làm rối mắt"], correctIndex: 0, explanation: "Trang trí màu sắc phù hợp giúp thiệp đẹp và ấn tượng hơn." },
+    ],
+    funFact: "Thiệp điện tử ngày càng phổ biến vì tiện lợi, tiết kiệm và thân thiện với môi trường hơn thiệp giấy truyền thống!",
+  },
+  "tin-hoc:3:ky-nang-go-tieng-viet-nang-cao": {
+    objectives: ["Luyện tập gõ tiếng Việt có dấu nhanh và chính xác hơn.", "Biết các kiểu gõ tiếng Việt phổ biến."],
+    sections: [
+      { heading: "1. Các kiểu gõ tiếng Việt", body: ["Telex và VNI là hai kiểu gõ tiếng Việt phổ biến nhất."] },
+      { heading: "2. Luyện tập nâng cao", body: ["Luyện gõ các đoạn văn dài hơn, chú ý dấu câu và dấu thanh chính xác."] },
+    ],
+    quiz: [
+      { question: "Hai kiểu gõ tiếng Việt phổ biến là gì?", options: ["Telex và VNI", "QWERTY và AZERTY", "ABC và XYZ", "Không có kiểu gõ nào"], correctIndex: 0, explanation: "Telex và VNI là hai kiểu gõ tiếng Việt phổ biến." },
+      { question: "Trong kiểu gõ Telex, để gõ dấu sắc em thường gõ chữ gì?", options: ["S", "F", "J", "R"], correctIndex: 0, explanation: "Trong Telex, gõ chữ 'S' để tạo dấu sắc." },
+      { question: "Vì sao cần luyện gõ tiếng Việt nâng cao?", options: ["Gõ nhanh và chính xác hơn", "Không cần thiết", "Không có lợi ích gì", "Chỉ làm mất thời gian"], correctIndex: 0, explanation: "Luyện tập giúp gõ tiếng Việt nhanh và chính xác hơn." },
+      { question: "Khi gõ tiếng Việt, em cần chú ý điều gì?", options: ["Dấu câu và dấu thanh chính xác", "Không cần chú ý gì", "Chỉ cần gõ nhanh", "Không cần dấu thanh"], correctIndex: 0, explanation: "Cần chú ý dấu câu và dấu thanh để gõ chính xác." },
+    ],
+    funFact: "Kiểu gõ Telex được phát triển để gõ tiếng Việt trên bàn phím tiêu chuẩn không có phím dấu riêng!",
+  },
+  "tin-hoc:3:su-dung-may-tinh-ho-tro-hoc-toan": {
+    objectives: ["Tìm hiểu cách máy tính hỗ trợ việc học Toán.", "Biết một số phần mềm, ứng dụng học Toán."],
+    sections: [
+      { heading: "1. Ứng dụng học Toán", body: ["Có nhiều phần mềm, trang web giúp luyện tập phép tính, hình học một cách sinh động."] },
+      { heading: "2. Lợi ích", body: ["Giúp học Toán trực quan, thú vị hơn qua hình ảnh, trò chơi tương tác."] },
+    ],
+    quiz: [
+      { question: "Máy tính có thể hỗ trợ học Toán như thế nào?", options: ["Qua phần mềm, trang web luyện tập", "Không thể hỗ trợ gì", "Chỉ dùng để chơi game", "Không liên quan đến Toán"], correctIndex: 0, explanation: "Máy tính hỗ trợ học Toán qua phần mềm, trang web luyện tập." },
+      { question: "Ứng dụng học Toán trên máy tính có ưu điểm gì?", options: ["Trực quan, thú vị qua hình ảnh, trò chơi", "Không có ưu điểm gì", "Khó hiểu hơn sách giáo khoa", "Không liên quan đến học tập"], correctIndex: 0, explanation: "Ứng dụng giúp học Toán trực quan và thú vị hơn." },
+      { question: "Vì sao nên kết hợp máy tính khi học Toán?", options: ["Giúp việc học sinh động, hiệu quả hơn", "Không cần thiết", "Không có lợi ích gì", "Chỉ làm mất thời gian"], correctIndex: 0, explanation: "Kết hợp máy tính giúp việc học sinh động, hiệu quả hơn." },
+      { question: "Hình thức nào giúp học Toán qua máy tính thú vị hơn?", options: ["Trò chơi tương tác", "Chỉ đọc lý thuyết", "Không có hình thức nào", "Chỉ làm bài tập giấy"], correctIndex: 0, explanation: "Trò chơi tương tác giúp học Toán thú vị hơn." },
+    ],
+    funFact: "Nhiều ứng dụng học Toán hiện đại sử dụng trò chơi và phần thưởng để khuyến khích học sinh luyện tập mỗi ngày!",
+  },
+  "tin-hoc:3:su-dung-may-tinh-ho-tro-hoc-tieng-anh": {
+    objectives: ["Tìm hiểu cách máy tính hỗ trợ việc học Tiếng Anh.", "Biết một số ứng dụng học Tiếng Anh."],
+    sections: [
+      { heading: "1. Ứng dụng học Tiếng Anh", body: ["Có nhiều phần mềm, trang web giúp luyện nghe, nói, đọc, viết tiếng Anh."] },
+      { heading: "2. Lợi ích", body: ["Giúp luyện phát âm chuẩn, mở rộng vốn từ qua hình ảnh và âm thanh sinh động."] },
+    ],
+    quiz: [
+      { question: "Máy tính có thể hỗ trợ học Tiếng Anh như thế nào?", options: ["Qua phần mềm luyện nghe, nói, đọc, viết", "Không thể hỗ trợ gì", "Chỉ dùng để chơi game", "Không liên quan đến Tiếng Anh"], correctIndex: 0, explanation: "Máy tính hỗ trợ học Tiếng Anh qua các phần mềm luyện tập." },
+      { question: "Ứng dụng học Tiếng Anh giúp ích điều gì về phát âm?", options: ["Luyện phát âm chuẩn qua âm thanh mẫu", "Không giúp ích gì", "Làm phát âm sai hơn", "Không liên quan đến phát âm"], correctIndex: 0, explanation: "Ứng dụng giúp luyện phát âm chuẩn qua âm thanh mẫu." },
+      { question: "Vì sao nên dùng máy tính hỗ trợ học Tiếng Anh?", options: ["Học sinh động, hiệu quả hơn qua hình ảnh âm thanh", "Không cần thiết", "Không có lợi ích gì", "Chỉ làm mất thời gian"], correctIndex: 0, explanation: "Máy tính giúp học sinh động, hiệu quả hơn." },
+      { question: "Kỹ năng nào có thể luyện tập qua ứng dụng máy tính?", options: ["Nghe, nói, đọc, viết", "Chỉ có viết", "Chỉ có nghe", "Không luyện được kỹ năng nào"], correctIndex: 0, explanation: "Có thể luyện tập cả 4 kỹ năng: nghe, nói, đọc, viết." },
+    ],
+    funFact: "Nhiều ứng dụng học ngoại ngữ nổi tiếng như Duolingo sử dụng trò chơi để giúp việc học trở nên thú vị hơn!",
+  },
+  "tin-hoc:3:tim-hieu-ve-may-in": {
+    objectives: ["Tìm hiểu chức năng và cách sử dụng máy in.", "Biết các loại máy in phổ biến."],
+    sections: [
+      { heading: "1. Chức năng máy in", body: ["Máy in chuyển tài liệu từ máy tính thành bản in trên giấy."] },
+      { heading: "2. Các loại máy in", body: ["Máy in laser, máy in phun là hai loại máy in phổ biến."] },
+    ],
+    quiz: [
+      { question: "Máy in dùng để làm gì?", options: ["Chuyển tài liệu từ máy tính ra giấy", "Chụp ảnh màn hình", "Nghe nhạc", "Quét tài liệu"], correctIndex: 0, explanation: "Máy in dùng để chuyển tài liệu từ máy tính ra giấy." },
+      { question: "Loại máy in nào phổ biến?", options: ["Máy in laser, máy in phun", "Chỉ có một loại máy in", "Không có loại máy in nào", "Chỉ có máy in màu"], correctIndex: 0, explanation: "Máy in laser và máy in phun là hai loại phổ biến." },
+      { question: "Máy in cần kết nối với gì để hoạt động?", options: ["Máy tính", "Chỉ cần điện", "Không cần kết nối gì", "Chỉ cần giấy"], correctIndex: 0, explanation: "Máy in cần kết nối với máy tính để nhận lệnh in." },
+      { question: "Vì sao cần có giấy khi in tài liệu?", options: ["Bản in được thể hiện trên giấy", "Không cần giấy", "Giấy không liên quan đến in", "Chỉ cần mực in"], correctIndex: 0, explanation: "Bản in cần giấy để thể hiện nội dung." },
+    ],
+    funFact: "Máy in 3D hiện đại có thể 'in' ra các vật thể ba chiều như đồ chơi, mô hình thay vì chỉ in trên giấy phẳng!",
+  },
+  "tin-hoc:3:tim-hieu-ve-may-quet-scanner": {
+    objectives: ["Tìm hiểu chức năng của máy quét tài liệu.", "Biết sự khác biệt giữa máy quét và máy in."],
+    sections: [
+      { heading: "1. Chức năng máy quét", body: ["Máy quét (scanner) chuyển tài liệu giấy thành file ảnh số trên máy tính."] },
+      { heading: "2. So sánh với máy in", body: ["Máy quét làm ngược với máy in: từ giấy thành file số, còn máy in từ file số thành giấy."] },
+    ],
+    quiz: [
+      { question: "Máy quét (scanner) dùng để làm gì?", options: ["Chuyển tài liệu giấy thành file số", "Chuyển file số thành giấy", "Nghe nhạc", "Chụp ảnh màn hình"], correctIndex: 0, explanation: "Máy quét chuyển tài liệu giấy thành file số." },
+      { question: "Máy quét khác gì với máy in?", options: ["Làm ngược lại chức năng của máy in", "Giống hệt máy in", "Không có sự khác biệt", "Chỉ dùng để nghe nhạc"], correctIndex: 0, explanation: "Máy quét làm ngược lại chức năng của máy in." },
+      { question: "Sau khi quét tài liệu, tài liệu được lưu dưới dạng gì?", options: ["File ảnh số", "Tài liệu giấy", "Âm thanh", "Video"], correctIndex: 0, explanation: "Tài liệu quét được lưu dưới dạng file ảnh số." },
+      { question: "Máy quét thường được dùng để làm gì?", options: ["Số hoá tài liệu giấy cũ", "Chỉ để giải trí", "Không có ứng dụng gì", "Chỉ để in ấn"], correctIndex: 0, explanation: "Máy quét thường dùng để số hoá tài liệu giấy cũ." },
+    ],
+    funFact: "Nhiều máy in hiện đại tích hợp cả chức năng quét, photocopy trong một thiết bị đa năng!",
+  },
+  "tin-hoc:3:bao-tri-may-tinh-don-gian": {
+    objectives: ["Tìm hiểu cách giữ gìn, bảo quản máy tính.", "Biết các thói quen bảo trì máy tính cơ bản."],
+    sections: [
+      { heading: "1. Vì sao cần bảo trì", body: ["Giúp máy tính hoạt động ổn định, bền lâu hơn."] },
+      { heading: "2. Cách bảo trì đơn giản", body: ["Lau chùi bụi bẩn, không để nước gần máy tính, tắt máy đúng cách."] },
+    ],
+    quiz: [
+      { question: "Vì sao cần bảo trì máy tính?", options: ["Giúp máy hoạt động ổn định, bền lâu", "Không cần thiết", "Không có lợi ích gì", "Chỉ tốn thời gian"], correctIndex: 0, explanation: "Bảo trì giúp máy tính hoạt động ổn định và bền lâu hơn." },
+      { question: "Hành động nào giúp bảo trì máy tính?", options: ["Lau chùi bụi bẩn thường xuyên", "Để nước gần máy tính", "Không bao giờ vệ sinh", "Tắt máy đột ngột"], correctIndex: 0, explanation: "Lau chùi bụi bẩn thường xuyên giúp bảo trì máy tính." },
+      { question: "Vì sao không nên để nước gần máy tính?", options: ["Có thể gây hỏng hóc, chập điện", "Không có lý do gì", "Nước không ảnh hưởng gì", "Giúp máy tính mát hơn"], correctIndex: 0, explanation: "Nước có thể gây hỏng hóc, chập điện cho máy tính." },
+      { question: "Cách tắt máy tính đúng cách là gì?", options: ["Dùng lệnh Shut down", "Rút điện đột ngột", "Không cần tắt máy", "Đóng màn hình là được"], correctIndex: 0, explanation: "Nên dùng lệnh Shut down để tắt máy tính đúng cách." },
+    ],
+    funFact: "Bụi bẩn tích tụ lâu ngày trong máy tính có thể làm máy nóng lên và hoạt động chậm hơn!",
+  },
+  "tin-hoc:3:xu-ly-su-co-may-tinh-co-ban": {
+    objectives: ["Làm quen cách xử lý khi máy tính bị treo.", "Biết khi nào cần nhờ người lớn giúp đỡ."],
+    sections: [
+      { heading: "1. Máy tính bị treo", body: ["Là tình trạng máy tính không phản hồi khi thao tác."] },
+      { heading: "2. Cách xử lý cơ bản", body: ["Chờ một chút, thử nhấn tổ hợp phím, nếu không được thì báo người lớn giúp đỡ."] },
+    ],
+    quiz: [
+      { question: "Máy tính bị treo là gì?", options: ["Máy không phản hồi khi thao tác", "Máy chạy nhanh hơn bình thường", "Không có vấn đề gì", "Máy tự tắt"], correctIndex: 0, explanation: "Máy tính bị treo là khi máy không phản hồi khi thao tác." },
+      { question: "Khi máy tính bị treo, em nên làm gì đầu tiên?", options: ["Chờ một chút xem máy có phản hồi lại không", "Đập máy tính", "Rút điện ngay lập tức", "Không làm gì cả, bỏ đi luôn"], correctIndex: 0, explanation: "Nên chờ một chút xem máy có phản hồi lại không." },
+      { question: "Nếu không tự xử lý được sự cố, em nên làm gì?", options: ["Báo người lớn giúp đỡ", "Tự ý tháo máy tính", "Không nói với ai", "Đập mạnh vào máy"], correctIndex: 0, explanation: "Nên báo người lớn giúp đỡ khi không tự xử lý được." },
+      { question: "Vì sao không nên tự ý tháo máy tính khi có sự cố?", options: ["Có thể gây hỏng hóc nặng hơn", "Không có lý do gì", "Rất dễ dàng và an toàn", "Không ảnh hưởng gì"], correctIndex: 0, explanation: "Tự ý tháo máy có thể gây hỏng hóc nặng hơn." },
+    ],
+    funFact: "Nhiều sự cố máy tính đơn giản có thể được khắc phục chỉ bằng cách khởi động lại máy!",
+  },
+  "tin-hoc:3:thu-vien-so-va-sach-dien-tu": {
+    objectives: ["Tìm hiểu về thư viện số và sách điện tử.", "Biết lợi ích của việc đọc sách điện tử."],
+    sections: [
+      { heading: "1. Thư viện số", body: ["Là nơi lưu trữ tài liệu, sách dưới dạng số hoá, có thể truy cập qua Internet."] },
+      { heading: "2. Sách điện tử (e-book)", body: ["Là sách được lưu dưới dạng file số, đọc được trên máy tính, máy tính bảng, điện thoại."] },
+    ],
+    quiz: [
+      { question: "Thư viện số là gì?", options: ["Nơi lưu trữ tài liệu dưới dạng số hoá", "Chỉ là thư viện sách giấy", "Không có ý nghĩa gì", "Chỉ dùng để nghe nhạc"], correctIndex: 0, explanation: "Thư viện số lưu trữ tài liệu dưới dạng số hoá." },
+      { question: "Sách điện tử (e-book) là gì?", options: ["Sách được lưu dưới dạng file số", "Chỉ có sách giấy", "Không có ý nghĩa gì", "Chỉ là hình ảnh"], correctIndex: 0, explanation: "Sách điện tử là sách lưu dưới dạng file số." },
+      { question: "Ưu điểm của sách điện tử là gì?", options: ["Gọn nhẹ, dễ mang theo nhiều sách", "Không có ưu điểm gì", "Nặng hơn sách giấy", "Không thể đọc được"], correctIndex: 0, explanation: "Sách điện tử gọn nhẹ, dễ mang theo nhiều sách cùng lúc." },
+      { question: "Có thể đọc sách điện tử trên thiết bị nào?", options: ["Máy tính, máy tính bảng, điện thoại", "Chỉ trên giấy", "Không thể đọc trên thiết bị nào", "Chỉ trên tivi"], correctIndex: 0, explanation: "Sách điện tử có thể đọc trên máy tính, máy tính bảng, điện thoại." },
+    ],
+    funFact: "Thư viện số lớn nhất thế giới, Google Books, có hàng triệu đầu sách được số hoá để mọi người có thể tra cứu!",
+  },
+  "tin-hoc:3:hoc-truc-tuyen-an-toan-hieu-qua": {
+    objectives: ["Tìm hiểu cách học trực tuyến an toàn, hiệu quả.", "Biết các quy tắc khi học online."],
+    sections: [
+      { heading: "1. Học trực tuyến", body: ["Là hình thức học qua Internet, có thể học từ xa với giáo viên và bạn học."] },
+      { heading: "2. Học hiệu quả, an toàn", body: ["Chuẩn bị không gian yên tĩnh, tập trung, không truy cập trang web không liên quan trong giờ học."] },
+    ],
+    quiz: [
+      { question: "Học trực tuyến là gì?", options: ["Hình thức học qua Internet", "Chỉ học tại lớp học", "Không có hình thức học nào", "Chỉ đọc sách giấy"], correctIndex: 0, explanation: "Học trực tuyến là hình thức học qua Internet." },
+      { question: "Để học trực tuyến hiệu quả, em nên làm gì?", options: ["Chuẩn bị không gian yên tĩnh, tập trung", "Vừa học vừa chơi game", "Không cần chuẩn bị gì", "Học ở nơi ồn ào"], correctIndex: 0, explanation: "Nên chuẩn bị không gian yên tĩnh và tập trung khi học." },
+      { question: "Trong giờ học trực tuyến, em không nên làm gì?", options: ["Truy cập trang web không liên quan", "Lắng nghe giáo viên", "Ghi chép bài", "Đặt câu hỏi khi cần"], correctIndex: 0, explanation: "Không nên truy cập trang web không liên quan trong giờ học." },
+      { question: "Vì sao cần học trực tuyến an toàn?", options: ["Bảo vệ bản thân khỏi rủi ro trên mạng", "Không cần thiết", "Không có lý do gì", "Chỉ là quy định"], correctIndex: 0, explanation: "Học an toàn giúp bảo vệ bản thân khỏi rủi ro trên mạng." },
+    ],
+    funFact: "Học trực tuyến đã trở nên phổ biến hơn bao giờ hết, giúp hàng triệu học sinh trên thế giới tiếp tục học tập từ xa!",
+  },
+  "tin-hoc:3:on-tap-tong-hop-chuan-bi-kiem-tra-cuoi-nam": {
+    objectives: ["Hệ thống lại toàn bộ kiến thức trọng tâm trong năm.", "Chuẩn bị tốt cho bài kiểm tra cuối năm."],
+    sections: [
+      { heading: "1. Tổng ôn tập", body: ["Ôn lại toàn bộ các chủ đề: thông tin, soạn thảo văn bản, trình chiếu, bảng tính, an toàn mạng, lập trình Scratch."] },
+    ],
+    quiz: [
+      { question: "Phần mềm soạn thảo văn bản dùng để làm gì?", options: ["Soạn thảo, chỉnh sửa văn bản", "Chỉ để nghe nhạc", "Chỉ để xem phim", "Không có tác dụng gì"], correctIndex: 0, explanation: "Phần mềm soạn thảo dùng để soạn thảo, chỉnh sửa văn bản." },
+      { question: "Scratch là gì?", options: ["Phần mềm lập trình trực quan bằng khối lệnh", "Một phần mềm vẽ tranh thông thường", "Một trò chơi điện tử", "Không có ý nghĩa gì"], correctIndex: 0, explanation: "Scratch là phần mềm lập trình trực quan bằng khối lệnh." },
+      { question: "Vì sao cần cảnh giác với thông tin trên mạng?", options: ["Có tin giả, không đáng tin cậy", "Mọi thông tin đều đúng", "Không cần cảnh giác", "Không có lý do gì"], correctIndex: 0, explanation: "Cần cảnh giác vì có tin giả, không đáng tin cậy trên mạng." },
+      { question: "Vì sao cần ôn tập trước khi kiểm tra?", options: ["Củng cố kiến thức, tự tin hơn", "Không cần thiết", "Không có lợi ích gì", "Chỉ tốn thời gian"], correctIndex: 0, explanation: "Ôn tập giúp củng cố kiến thức và tự tin hơn." },
+    ],
+    funFact: "Kiến thức Tin học cơ bản như soạn thảo văn bản, an toàn mạng sẽ luôn hữu ích cho em trong suốt quá trình học tập và làm việc sau này!",
+  },
+
+  // ─────────────── TIN HỌC — LỚP 3 — 60 bài thực hành mở rộng ───────────────
+  "tin-hoc:3:thuc-hanh-lam-quen-chuot-khong-day-va-chuot-co-day": practiceContent("Thực hành", "Làm quen chuột không dây và chuột có dây", "Hãy nhớ lại cách phân biệt và sử dụng chuột máy tính.", [
+    { question: "Chuột không dây kết nối với máy tính bằng cách nào?", options: ["Qua Bluetooth hoặc USB thu tín hiệu", "Bằng dây cắm trực tiếp", "Không thể kết nối", "Chỉ qua màn hình"], correctIndex: 0, explanation: "Chuột không dây kết nối qua Bluetooth hoặc USB thu tín hiệu." },
+    { question: "Click chuột trái dùng để làm gì?", options: ["Chọn đối tượng", "Mở menu chuột phải", "Tắt máy tính", "Không có tác dụng gì"], correctIndex: 0, explanation: "Click chuột trái dùng để chọn đối tượng." },
+    { question: "Click chuột phải dùng để làm gì?", options: ["Mở menu tuỳ chọn", "Chọn đối tượng", "Cuộn trang", "Không có tác dụng gì"], correctIndex: 0, explanation: "Click chuột phải dùng để mở menu tuỳ chọn." },
+    { question: "Ưu điểm của chuột không dây là gì?", options: ["Gọn gàng, không vướng dây", "Không cần pin", "Không cần kết nối", "Không có ưu điểm gì"], correctIndex: 0, explanation: "Chuột không dây gọn gàng, không vướng dây." },
+  ]),
+  "tin-hoc:3:luyen-tap-su-dung-ban-phim-so": practiceContent("Luyện tập", "Sử dụng bàn phím số", "Hãy nhớ lại vị trí và cách sử dụng bàn phím số.", [
+    { question: "Bàn phím số nằm ở đâu trên bàn phím?", options: ["Bên phải bàn phím", "Bên trái bàn phím", "Ở giữa bàn phím", "Không có vị trí cố định"], correctIndex: 0, explanation: "Bàn phím số nằm ở bên phải bàn phím." },
+    { question: "Phím nào cần bật để sử dụng bàn phím số?", options: ["Num Lock", "Caps Lock", "Shift", "Enter"], correctIndex: 0, explanation: "Cần bật phím Num Lock để dùng bàn phím số." },
+    { question: "Bàn phím số giúp ích điều gì?", options: ["Nhập số nhanh hơn", "Không có ích gì", "Chỉ để trang trí", "Không liên quan đến nhập liệu"], correctIndex: 0, explanation: "Bàn phím số giúp nhập số nhanh hơn." },
+    { question: "Bàn phím số thường được dùng nhiều trong công việc nào?", options: ["Tính toán, nhập liệu số", "Vẽ tranh", "Nghe nhạc", "Xem phim"], correctIndex: 0, explanation: "Bàn phím số hữu ích cho công việc tính toán, nhập liệu số." },
+  ]),
+  "tin-hoc:3:van-dung-go-10-ngon-co-ban": practiceContent("Vận dụng", "Gõ 10 ngón cơ bản", "Hãy nhớ lại kỹ thuật gõ bàn phím bằng 10 ngón tay.", [
+    { question: "Gõ 10 ngón là gì?", options: ["Kỹ thuật gõ phím dùng cả 10 ngón tay", "Chỉ dùng 2 ngón để gõ", "Không cần dùng ngón tay", "Chỉ dùng 1 ngón để gõ"], correctIndex: 0, explanation: "Gõ 10 ngón là kỹ thuật dùng cả 10 ngón tay." },
+    { question: "Hai ngón trỏ nên đặt ở phím nào để làm điểm xuất phát?", options: ["Phím F và J", "Phím A và L", "Phím Q và P", "Phím Z và M"], correctIndex: 0, explanation: "Hai ngón trỏ đặt ở phím F và J." },
+    { question: "Vì sao nên học gõ 10 ngón?", options: ["Gõ nhanh và chính xác hơn", "Không cần thiết", "Không có lợi ích gì", "Chỉ làm chậm hơn"], correctIndex: 0, explanation: "Gõ 10 ngón giúp gõ nhanh và chính xác hơn." },
+    { question: "Khi gõ 10 ngón, em có nên nhìn xuống bàn phím không?", options: ["Không, nên nhìn màn hình", "Luôn nhìn xuống bàn phím", "Không quan trọng", "Chỉ nhìn khi mới học"], correctIndex: 0, explanation: "Nên tập nhìn màn hình thay vì nhìn xuống bàn phím." },
+  ]),
+  "tin-hoc:3:tro-choi-on-tap-tim-va-thay-the-chu-trong-van-ban": practiceContent("Trò chơi ôn tập", "Tìm và thay thế chữ trong văn bản", "Hãy nhớ lại chức năng tìm và thay thế trong soạn thảo.", [
+    { question: "Chức năng tìm kiếm trong văn bản dùng để làm gì?", options: ["Tìm nhanh một từ trong văn bản dài", "Xoá văn bản", "In văn bản", "Lưu văn bản"], correctIndex: 0, explanation: "Chức năng này giúp tìm nhanh một từ trong văn bản dài." },
+    { question: "Chức năng thay thế (Replace) dùng để làm gì?", options: ["Thay thế từ tìm được bằng từ khác", "Chỉ để tìm từ", "Xoá toàn bộ văn bản", "In văn bản"], correctIndex: 0, explanation: "Chức năng thay thế giúp đổi từ tìm được bằng từ khác." },
+    { question: "Vì sao nên dùng chức năng tìm và thay thế?", options: ["Tiết kiệm thời gian sửa văn bản dài", "Không có lợi ích gì", "Làm mất thời gian hơn", "Không liên quan đến soạn thảo"], correctIndex: 0, explanation: "Chức năng này tiết kiệm thời gian sửa văn bản dài." },
+    { question: "Phím tắt thường dùng để mở chức năng tìm kiếm là gì?", options: ["Ctrl + F", "Ctrl + C", "Ctrl + V", "Ctrl + S"], correctIndex: 0, explanation: "Ctrl + F thường dùng để mở chức năng tìm kiếm." },
+  ]),
+  "tin-hoc:3:thu-thach-nho-sao-chep-cat-dan-van-ban": practiceContent("Thử thách nhỏ", "Sao chép, cắt, dán văn bản", "Hãy nhớ lại các phím tắt sao chép, cắt, dán.", [
+    { question: "Phím tắt để sao chép (Copy) là gì?", options: ["Ctrl + C", "Ctrl + X", "Ctrl + V", "Ctrl + Z"], correctIndex: 0, explanation: "Ctrl + C là phím tắt để sao chép." },
+    { question: "Phím tắt để dán (Paste) là gì?", options: ["Ctrl + V", "Ctrl + C", "Ctrl + X", "Ctrl + Z"], correctIndex: 0, explanation: "Ctrl + V là phím tắt để dán." },
+    { question: "Cắt (Cut) khác gì so với sao chép (Copy)?", options: ["Cắt xoá văn bản gốc, sao chép giữ nguyên", "Không có sự khác biệt", "Cắt giữ nguyên, sao chép xoá gốc", "Cả hai đều xoá văn bản gốc"], correctIndex: 0, explanation: "Cắt xoá văn bản gốc, sao chép giữ nguyên." },
+    { question: "Phím tắt để cắt (Cut) là gì?", options: ["Ctrl + X", "Ctrl + C", "Ctrl + V", "Ctrl + S"], correctIndex: 0, explanation: "Ctrl + X là phím tắt để cắt." },
+  ]),
+  "tin-hoc:3:thuc-hanh-can-giua-can-trai-can-phai-van-ban": practiceContent("Thực hành", "Căn giữa, căn trái, căn phải văn bản", "Hãy nhớ lại các kiểu căn lề văn bản cơ bản.", [
+    { question: "Căn giữa văn bản thường dùng cho phần nào?", options: ["Tiêu đề bài viết", "Toàn bộ đoạn văn dài", "Không dùng cho phần nào", "Chỉ dùng cho số liệu"], correctIndex: 0, explanation: "Căn giữa thường dùng cho tiêu đề bài viết." },
+    { question: "Kiểu căn lề mặc định thường là gì?", options: ["Căn trái", "Căn giữa", "Căn phải", "Căn đều hai bên"], correctIndex: 0, explanation: "Căn trái thường là kiểu căn lề mặc định." },
+    { question: "Có bao nhiêu kiểu căn lề cơ bản?", options: ["4", "2", "6", "1"], correctIndex: 0, explanation: "Có 4 kiểu căn lề cơ bản: trái, giữa, phải, đều hai bên." },
+    { question: "Vì sao cần biết cách căn chỉnh văn bản?", options: ["Giúp văn bản trình bày đẹp, dễ đọc", "Không cần thiết", "Không có lợi ích gì", "Chỉ làm mất thời gian"], correctIndex: 0, explanation: "Căn chỉnh giúp văn bản trình bày đẹp, dễ đọc." },
+  ]),
+  "tin-hoc:3:luyen-tap-chen-so-trang-vao-van-ban": practiceContent("Luyện tập", "Chèn số trang vào văn bản", "Hãy nhớ lại lợi ích của việc đánh số trang.", [
+    { question: "Chèn số trang dùng để làm gì?", options: ["Đánh số thứ tự các trang tài liệu", "Xoá trang", "Thay đổi màu chữ", "In tài liệu"], correctIndex: 0, explanation: "Chèn số trang giúp đánh số thứ tự các trang." },
+    { question: "Vì sao tài liệu dài cần đánh số trang?", options: ["Giúp dễ theo dõi, tìm trang", "Không cần thiết", "Không có lợi ích gì", "Chỉ để trang trí"], correctIndex: 0, explanation: "Đánh số trang giúp dễ theo dõi và tìm trang cần thiết." },
+    { question: "Số trang thường được đặt ở vị trí nào?", options: ["Đầu hoặc cuối trang", "Giữa trang", "Không có vị trí cố định", "Chỉ ở bìa sách"], correctIndex: 0, explanation: "Số trang thường đặt ở đầu hoặc cuối trang." },
+    { question: "Tài liệu nào thường cần đánh số trang?", options: ["Sách, báo cáo dài", "Tin nhắn ngắn", "Danh thiếp", "Nhãn dán"], correctIndex: 0, explanation: "Sách, báo cáo dài thường cần đánh số trang." },
+  ]),
+  "tin-hoc:3:van-dung-tao-danh-sach-gach-dau-dong": practiceContent("Vận dụng", "Tạo danh sách gạch đầu dòng", "Hãy nhớ lại khi nào nên dùng danh sách gạch đầu dòng.", [
+    { question: "Danh sách gạch đầu dòng dùng khi nào?", options: ["Khi liệt kê ý không cần thứ tự", "Chỉ khi cần đếm số lượng", "Không bao giờ dùng", "Chỉ dùng cho tiêu đề"], correctIndex: 0, explanation: "Dùng khi liệt kê các ý không cần theo thứ tự." },
+    { question: "Danh sách gạch đầu dòng giúp ích điều gì?", options: ["Trình bày nội dung rõ ràng, dễ đọc", "Không có ích gì", "Làm văn bản khó đọc hơn", "Không liên quan đến trình bày"], correctIndex: 0, explanation: "Giúp trình bày nội dung rõ ràng, dễ đọc hơn." },
+    { question: "Ký hiệu nào thường dùng cho danh sách gạch đầu dòng?", options: ["Dấu chấm tròn hoặc gạch ngang", "Số thứ tự 1, 2, 3", "Chữ cái a, b, c", "Không có ký hiệu"], correctIndex: 0, explanation: "Dấu chấm tròn hoặc gạch ngang thường dùng." },
+    { question: "Danh sách gạch đầu dòng khác danh sách đánh số ở điểm nào?", options: ["Không thể hiện thứ tự", "Luôn thể hiện thứ tự", "Không có sự khác biệt", "Chỉ dùng cho số liệu"], correctIndex: 0, explanation: "Danh sách gạch đầu dòng không thể hiện thứ tự." },
+  ]),
+  "tin-hoc:3:tro-choi-on-tap-tao-danh-sach-danh-so-thu-tu": practiceContent("Trò chơi ôn tập", "Tạo danh sách đánh số thứ tự", "Hãy nhớ lại khi nào nên dùng danh sách đánh số.", [
+    { question: "Danh sách đánh số dùng khi nào?", options: ["Khi các bước cần theo đúng thứ tự", "Khi không cần thứ tự", "Không bao giờ dùng", "Chỉ dùng cho tiêu đề"], correctIndex: 0, explanation: "Dùng khi các bước cần theo đúng thứ tự." },
+    { question: "Danh sách đánh số thường dùng cho loại văn bản nào?", options: ["Hướng dẫn từng bước", "Danh sách mua sắm không thứ tự", "Tiêu đề bài viết", "Chú thích hình ảnh"], correctIndex: 0, explanation: "Danh sách đánh số thường dùng cho hướng dẫn từng bước." },
+    { question: "Danh sách đánh số bắt đầu bằng gì?", options: ["Số 1, 2, 3...", "Dấu chấm tròn", "Chữ cái ngẫu nhiên", "Không có ký hiệu nào"], correctIndex: 0, explanation: "Danh sách đánh số bắt đầu bằng số 1, 2, 3..." },
+    { question: "Vì sao danh sách đánh số quan trọng khi viết hướng dẫn?", options: ["Giúp người đọc theo đúng trình tự", "Không quan trọng", "Không có lợi ích gì", "Chỉ để trang trí"], correctIndex: 0, explanation: "Giúp người đọc thực hiện đúng theo trình tự." },
+  ]),
+  "tin-hoc:3:thu-thach-nho-in-van-ban-lam-quen-khai-niem": practiceContent("Thử thách nhỏ", "In văn bản (làm quen khái niệm)", "Hãy nhớ lại các bước cơ bản để in văn bản.", [
+    { question: "In văn bản là gì?", options: ["Chuyển tài liệu từ máy tính ra giấy", "Xoá tài liệu", "Lưu tài liệu vào máy tính", "Gửi tài liệu qua email"], correctIndex: 0, explanation: "In văn bản là chuyển tài liệu từ máy tính ra giấy." },
+    { question: "Phím tắt thường dùng để in tài liệu là gì?", options: ["Ctrl + P", "Ctrl + C", "Ctrl + V", "Ctrl + S"], correctIndex: 0, explanation: "Ctrl + P là phím tắt thường dùng để in." },
+    { question: "Trước khi in, cần làm gì?", options: ["Kết nối máy in với máy tính", "Không cần chuẩn bị gì", "Xoá tài liệu", "Tắt máy tính"], correctIndex: 0, explanation: "Cần kết nối máy in với máy tính trước khi in." },
+    { question: "Thiết bị nào dùng để in tài liệu?", options: ["Máy in", "Máy quét", "Loa", "Bàn phím"], correctIndex: 0, explanation: "Máy in là thiết bị dùng để in tài liệu." },
+  ]),
+  "tin-hoc:3:thuc-hanh-lam-quen-phan-mem-trinh-chieu-co-ban": practiceContent("Thực hành", "Làm quen phần mềm trình chiếu cơ bản", "Hãy nhớ lại các thành phần cơ bản của bài trình chiếu.", [
+    { question: "Phần mềm trình chiếu dùng để làm gì?", options: ["Tạo bài thuyết trình", "Soạn thảo văn bản dài", "Tính toán số liệu", "Nghe nhạc"], correctIndex: 0, explanation: "Phần mềm trình chiếu dùng để tạo bài thuyết trình." },
+    { question: "Mỗi trang trong bài trình chiếu gọi là gì?", options: ["Slide", "Trang giấy", "Cột", "Hàng"], correctIndex: 0, explanation: "Mỗi trang trong bài trình chiếu gọi là 'slide'." },
+    { question: "Bài trình chiếu thường dùng để làm gì?", options: ["Thuyết trình trước lớp, hội nghị", "Chỉ để lưu trữ", "Không có mục đích gì", "Chỉ để in ấn"], correctIndex: 0, explanation: "Bài trình chiếu dùng để thuyết trình trước lớp, hội nghị." },
+    { question: "Thành phần nào KHÔNG thường có trong bài trình chiếu?", options: ["Công thức hoá học phức tạp", "Tiêu đề", "Hình ảnh minh hoạ", "Nội dung tóm tắt"], correctIndex: 0, explanation: "Bài trình chiếu thường ngắn gọn, không quá phức tạp." },
+  ]),
+  "tin-hoc:3:luyen-tap-tao-mot-trang-trinh-chieu-don-gian": practiceContent("Luyện tập", "Tạo một trang trình chiếu đơn giản", "Hãy nhớ lại cách tạo một trang trình chiếu cơ bản.", [
+    { question: "Bước đầu tiên khi tạo một slide là gì?", options: ["Chọn bố cục slide", "In slide ra giấy", "Xoá slide", "Tắt phần mềm"], correctIndex: 0, explanation: "Bước đầu tiên là chọn bố cục slide phù hợp." },
+    { question: "Slide nên có nội dung như thế nào?", options: ["Ngắn gọn, súc tích", "Rất nhiều chữ", "Không có nội dung gì", "Chỉ có màu sắc"], correctIndex: 0, explanation: "Slide nên có nội dung ngắn gọn, súc tích." },
+    { question: "Vì sao nên dùng hình ảnh minh hoạ trong slide?", options: ["Giúp bài trình bày sinh động, dễ hiểu", "Không cần thiết", "Làm slide rối mắt", "Không có lợi ích gì"], correctIndex: 0, explanation: "Hình ảnh giúp bài trình bày sinh động, dễ hiểu hơn." },
+    { question: "Thành phần nào cần có ở đầu mỗi slide?", options: ["Tiêu đề", "Chỉ có màu nền", "Không cần thành phần nào", "Chỉ có số trang"], correctIndex: 0, explanation: "Tiêu đề cần có ở đầu mỗi slide." },
+  ]),
+  "tin-hoc:3:van-dung-them-hinh-anh-vao-trang-trinh-chieu": practiceContent("Vận dụng", "Thêm hình ảnh vào trang trình chiếu", "Hãy nhớ lại cách chèn và điều chỉnh hình ảnh trong slide.", [
+    { question: "Để chèn hình ảnh vào slide, em cần làm gì?", options: ["Chọn lệnh Insert/Chèn rồi chọn hình ảnh", "Xoá slide", "In slide", "Không cần làm gì"], correctIndex: 0, explanation: "Cần chọn lệnh Insert/Chèn rồi chọn hình ảnh." },
+    { question: "Để thay đổi kích thước hình ảnh, em làm gì?", options: ["Kéo góc hình ảnh", "Xoá hình ảnh", "Không thể thay đổi", "In hình ảnh"], correctIndex: 0, explanation: "Kéo góc hình ảnh để thay đổi kích thước." },
+    { question: "Vì sao nên thêm hình ảnh vào slide?", options: ["Giúp minh hoạ nội dung sinh động hơn", "Không cần thiết", "Làm slide chậm hơn", "Không có lợi ích gì"], correctIndex: 0, explanation: "Hình ảnh giúp minh hoạ nội dung sinh động hơn." },
+    { question: "Hình ảnh chèn vào slide nên có đặc điểm gì?", options: ["Rõ nét, liên quan đến nội dung", "Mờ, không rõ ràng", "Không liên quan đến nội dung", "Kích thước quá lớn so với slide"], correctIndex: 0, explanation: "Hình ảnh nên rõ nét và liên quan đến nội dung." },
+  ]),
+  "tin-hoc:3:tro-choi-on-tap-trinh-bay-san-pham-truoc-lop": practiceContent("Trò chơi ôn tập", "Trình bày sản phẩm trước lớp", "Hãy nhớ lại kỹ năng thuyết trình tự tin trước lớp.", [
+    { question: "Trước khi trình bày trước lớp, em nên làm gì?", options: ["Luyện tập trước", "Không cần chuẩn bị gì", "Chỉ đọc lại nội dung một lần", "Không cần kiểm tra thiết bị"], correctIndex: 0, explanation: "Nên luyện tập trước khi trình bày." },
+    { question: "Khi thuyết trình, em nên có thái độ gì?", options: ["Tự tin, nói rõ ràng", "Rụt rè, nói nhỏ", "Không nhìn ai", "Nói thật nhanh"], correctIndex: 0, explanation: "Nên tự tin và nói rõ ràng." },
+    { question: "Vì sao cần kiểm tra thiết bị trước khi trình bày?", options: ["Đảm bảo trình chiếu diễn ra suôn sẻ", "Không cần thiết", "Không có lý do gì", "Chỉ là hình thức"], correctIndex: 0, explanation: "Kiểm tra thiết bị giúp trình chiếu diễn ra suôn sẻ." },
+    { question: "Kỹ năng trình bày sản phẩm số giúp ích gì cho tương lai?", options: ["Rèn kỹ năng thuyết trình quan trọng", "Không có ích gì", "Chỉ dùng khi còn nhỏ", "Không liên quan đến tương lai"], correctIndex: 0, explanation: "Kỹ năng này rèn luyện khả năng thuyết trình." },
+  ]),
+  "tin-hoc:3:thu-thach-nho-lam-quen-bang-tinh-hang-va-cot": practiceContent("Thử thách nhỏ", "Làm quen bảng tính: hàng và cột", "Hãy nhớ lại khái niệm hàng, cột, ô trong bảng tính.", [
+    { question: "Hàng trong bảng tính chạy theo hướng nào?", options: ["Ngang", "Dọc", "Chéo", "Không có hướng cố định"], correctIndex: 0, explanation: "Hàng trong bảng tính chạy theo chiều ngang." },
+    { question: "Cột trong bảng tính chạy theo hướng nào?", options: ["Dọc", "Ngang", "Chéo", "Không có hướng cố định"], correctIndex: 0, explanation: "Cột trong bảng tính chạy theo chiều dọc." },
+    { question: "Ô trong bảng tính là gì?", options: ["Giao điểm giữa hàng và cột", "Chỉ là hàng", "Chỉ là cột", "Không có ý nghĩa gì"], correctIndex: 0, explanation: "Ô là giao điểm giữa một hàng và một cột." },
+    { question: "Cột trong bảng tính thường được đánh bằng gì?", options: ["Chữ cái A, B, C...", "Số 1, 2, 3...", "Ký hiệu đặc biệt", "Không đánh ký hiệu gì"], correctIndex: 0, explanation: "Cột thường được đánh bằng chữ cái A, B, C..." },
+  ]),
+  "tin-hoc:3:thuc-hanh-nhap-so-lieu-don-gian-vao-bang-tinh": practiceContent("Thực hành", "Nhập số liệu đơn giản vào bảng tính", "Hãy nhớ lại cách nhập số liệu và di chuyển giữa các ô.", [
+    { question: "Để nhập số liệu vào một ô, em cần làm gì?", options: ["Click vào ô rồi gõ số liệu", "Chỉ cần gõ mà không cần click", "Không thể nhập số liệu", "Phải xoá bảng tính trước"], correctIndex: 0, explanation: "Cần click vào ô rồi gõ số liệu." },
+    { question: "Sau khi nhập xong, nhấn phím nào để chuyển xuống ô tiếp theo?", options: ["Enter", "Backspace", "Shift", "Ctrl"], correctIndex: 0, explanation: "Nhấn Enter để chuyển xuống ô tiếp theo." },
+    { question: "Cách nào giúp di chuyển giữa các ô trong bảng tính?", options: ["Dùng phím mũi tên hoặc chuột", "Không thể di chuyển", "Chỉ dùng bàn phím số", "Phải tắt phần mềm"], correctIndex: 0, explanation: "Có thể dùng phím mũi tên hoặc chuột." },
+    { question: "Bảng tính thường dùng để làm gì?", options: ["Tính toán, quản lý số liệu", "Chỉ để vẽ hình", "Chỉ để nghe nhạc", "Không có mục đích gì"], correctIndex: 0, explanation: "Bảng tính thường dùng để tính toán và quản lý số liệu." },
+  ]),
+  "tin-hoc:3:luyen-tap-ve-hinh-bang-cong-cu-hinh-khoi-co-san": practiceContent("Luyện tập", "Vẽ hình bằng công cụ hình khối có sẵn", "Hãy nhớ lại cách chọn và sử dụng công cụ vẽ hình.", [
+    { question: "Công cụ hình khối có sẵn giúp ích điều gì?", options: ["Vẽ hình nhanh chóng, chính xác", "Không có ích gì", "Làm chậm quá trình vẽ", "Không liên quan đến vẽ hình"], correctIndex: 0, explanation: "Công cụ này giúp vẽ hình nhanh chóng, chính xác." },
+    { question: "Để vẽ một hình vuông, em cần làm gì?", options: ["Chọn công cụ hình vuông rồi kéo chuột", "Chỉ cần click một lần", "Không cần chọn công cụ gì", "Gõ chữ 'vuông'"], correctIndex: 0, explanation: "Cần chọn công cụ hình vuông rồi kéo chuột." },
+    { question: "Hình khối nào thường có sẵn trong phần mềm vẽ?", options: ["Hình vuông, hình tròn, hình tam giác", "Chỉ có hình vuông", "Không có hình nào", "Chỉ có đường thẳng"], correctIndex: 0, explanation: "Hình vuông, hình tròn, hình tam giác thường có sẵn." },
+    { question: "Vì sao nên dùng công cụ hình khối có sẵn?", options: ["Vẽ chính xác hơn vẽ tay tự do", "Không có lợi ích gì", "Làm hình vẽ xấu hơn", "Không liên quan đến độ chính xác"], correctIndex: 0, explanation: "Công cụ này giúp vẽ chính xác hơn vẽ tay tự do." },
+  ]),
+  "tin-hoc:3:van-dung-to-mau-va-do-mau-nen": practiceContent("Vận dụng", "Tô màu và đổ màu nền", "Hãy nhớ lại cách sử dụng công cụ tô màu.", [
+    { question: "Công cụ tô màu thường có hình gì?", options: ["Hình xô nước (bucket fill)", "Hình bút chì", "Hình kéo", "Hình con trỏ chuột"], correctIndex: 0, explanation: "Công cụ tô màu thường có biểu tượng hình xô nước." },
+    { question: "Để tô màu một vùng, em cần làm gì?", options: ["Chọn màu rồi click vào vùng cần tô", "Chỉ cần click chuột phải", "Không cần chọn màu", "Gõ tên màu"], correctIndex: 0, explanation: "Cần chọn màu rồi click vào vùng cần tô." },
+    { question: "Đổ màu nền dùng để làm gì?", options: ["Tô màu cho toàn bộ nền bức tranh/slide", "Chỉ để xoá hình", "Không có tác dụng gì", "Chỉ để in ấn"], correctIndex: 0, explanation: "Đổ màu nền dùng để tô màu cho toàn bộ nền." },
+    { question: "Vì sao nên chọn màu sắc phù hợp khi tô màu?", options: ["Giúp hình vẽ đẹp, hài hoà", "Không quan trọng", "Không có lý do gì", "Chỉ cần tô ngẫu nhiên"], correctIndex: 0, explanation: "Chọn màu phù hợp giúp hình vẽ đẹp và hài hoà." },
+  ]),
+  "tin-hoc:3:tro-choi-on-tap-sao-luu-bai-lam-vao-usb-khai-niem": practiceContent("Trò chơi ôn tập", "Sao lưu bài làm vào USB (khái niệm)", "Hãy nhớ lại khái niệm sao lưu dữ liệu và USB.", [
+    { question: "Sao lưu dữ liệu là gì?", options: ["Tạo bản sao dữ liệu để lưu trữ", "Xoá dữ liệu", "In dữ liệu ra giấy", "Không có ý nghĩa gì"], correctIndex: 0, explanation: "Sao lưu là tạo bản sao dữ liệu để lưu trữ." },
+    { question: "USB dùng để làm gì?", options: ["Lưu trữ và di chuyển dữ liệu", "Chỉ để nghe nhạc", "Chỉ để sạc pin", "Không có tác dụng gì"], correctIndex: 0, explanation: "USB dùng để lưu trữ và di chuyển dữ liệu." },
+    { question: "Vì sao cần sao lưu dữ liệu quan trọng?", options: ["Phòng khi mất dữ liệu gốc", "Không cần thiết", "Không có lý do gì", "Chỉ làm tốn dung lượng"], correctIndex: 0, explanation: "Sao lưu giúp phòng tránh mất dữ liệu quan trọng." },
+    { question: "Thiết bị nào là ví dụ về ổ đĩa di động?", options: ["USB", "Bàn phím", "Chuột", "Màn hình"], correctIndex: 0, explanation: "USB là ví dụ về ổ đĩa lưu trữ di động." },
+  ]),
+  "tin-hoc:3:thu-thach-nho-nhan-biet-vi-rut-may-tinh-la-gi": practiceContent("Thử thách nhỏ", "Nhận biết vi-rút máy tính là gì", "Hãy nhớ lại cách phòng tránh vi-rút máy tính.", [
+    { question: "Vi-rút máy tính là gì?", options: ["Chương trình độc hại gây hỏng dữ liệu", "Một loại phần mềm hữu ích", "Thiết bị phần cứng", "Không có tác hại gì"], correctIndex: 0, explanation: "Vi-rút máy tính là chương trình độc hại gây hỏng dữ liệu." },
+    { question: "Cách nào giúp phòng tránh vi-rút máy tính?", options: ["Không mở file lạ, không rõ nguồn gốc", "Mở tất cả file nhận được", "Không cần phòng tránh", "Tắt phần mềm diệt vi-rút"], correctIndex: 0, explanation: "Không mở file lạ giúp phòng tránh vi-rút." },
+    { question: "Phần mềm nào giúp bảo vệ máy tính khỏi vi-rút?", options: ["Phần mềm diệt vi-rút", "Phần mềm soạn thảo văn bản", "Phần mềm nghe nhạc", "Phần mềm vẽ tranh"], correctIndex: 0, explanation: "Phần mềm diệt vi-rút giúp bảo vệ máy tính." },
+    { question: "Vi-rút máy tính có thể lây lan qua đâu?", options: ["File lạ, USB không an toàn", "Không thể lây lan", "Chỉ qua bàn phím", "Chỉ qua màn hình"], correctIndex: 0, explanation: "Vi-rút có thể lây lan qua file lạ, USB không an toàn." },
+  ]),
+  "tin-hoc:3:thuc-hanh-cai-dat-phan-mem-co-su-huong-dan": practiceContent("Thực hành", "Cài đặt phần mềm có sự hướng dẫn", "Hãy nhớ lại các bước cơ bản khi cài đặt phần mềm.", [
+    { question: "Cài đặt phần mềm là gì?", options: ["Đưa phần mềm mới vào sử dụng trên máy tính", "Xoá phần mềm", "In tài liệu", "Nghe nhạc"], correctIndex: 0, explanation: "Cài đặt là đưa phần mềm mới vào sử dụng." },
+    { question: "Khi cài đặt phần mềm, em nên làm gì?", options: ["Làm theo hướng dẫn trên màn hình có sự giám sát của người lớn", "Tự ý cài mà không hỏi ai", "Không cần làm theo hướng dẫn", "Tắt máy tính giữa chừng"], correctIndex: 0, explanation: "Nên làm theo hướng dẫn và có sự giám sát của người lớn." },
+    { question: "Vì sao trẻ em nên cài đặt phần mềm có sự hướng dẫn?", options: ["Đảm bảo an toàn, tránh cài nhầm phần mềm độc hại", "Không cần thiết", "Không có lý do gì", "Chỉ là quy định"], correctIndex: 0, explanation: "Có hướng dẫn giúp đảm bảo an toàn." },
+    { question: "Sau khi cài đặt xong, em thường cần làm gì?", options: ["Chờ hoàn tất và có thể khởi động lại máy", "Không cần làm gì", "Xoá ngay phần mềm", "Tắt máy tính vĩnh viễn"], correctIndex: 0, explanation: "Cần chờ hoàn tất và đôi khi cần khởi động lại máy." },
+  ]),
+  "tin-hoc:3:luyen-tap-go-bo-phan-mem-co-su-huong-dan": practiceContent("Luyện tập", "Gỡ bỏ phần mềm có sự hướng dẫn", "Hãy nhớ lại vì sao cần gỡ bỏ phần mềm không dùng.", [
+    { question: "Gỡ bỏ phần mềm là gì?", options: ["Xoá phần mềm không cần thiết khỏi máy tính", "Cài thêm phần mềm mới", "In tài liệu", "Nghe nhạc"], correctIndex: 0, explanation: "Gỡ bỏ là xoá phần mềm không cần thiết." },
+    { question: "Vì sao nên gỡ bỏ phần mềm không dùng?", options: ["Giải phóng bộ nhớ, máy chạy nhanh hơn", "Không cần thiết", "Không có lợi ích gì", "Làm máy chậm hơn"], correctIndex: 0, explanation: "Gỡ bỏ giúp giải phóng bộ nhớ." },
+    { question: "Khi gỡ bỏ phần mềm, em nên làm gì?", options: ["Có sự hướng dẫn của người lớn", "Tự ý gỡ mà không hỏi ai", "Không cần cẩn thận", "Gỡ tất cả phần mềm trên máy"], correctIndex: 0, explanation: "Nên có sự hướng dẫn của người lớn." },
+    { question: "Trước khi gỡ bỏ phần mềm quan trọng, em nên làm gì?", options: ["Hỏi ý kiến người lớn trước", "Gỡ ngay không cần hỏi", "Không cần suy nghĩ", "Xoá luôn không cần kiểm tra"], correctIndex: 0, explanation: "Nên hỏi ý kiến người lớn trước." },
+  ]),
+  "tin-hoc:3:van-dung-am-luong-va-cach-dieu-chinh": practiceContent("Vận dụng", "Âm lượng và cách điều chỉnh", "Hãy nhớ lại cách điều chỉnh âm lượng và bảo vệ tai.", [
+    { question: "Có thể điều chỉnh âm lượng bằng cách nào?", options: ["Dùng phím tắt hoặc biểu tượng loa", "Không thể điều chỉnh", "Chỉ dùng chuột", "Chỉ dùng bàn phím số"], correctIndex: 0, explanation: "Có thể điều chỉnh bằng phím tắt hoặc biểu tượng loa." },
+    { question: "Biểu tượng loa trên màn hình dùng để làm gì?", options: ["Điều chỉnh âm lượng", "Điều chỉnh độ sáng", "Tắt máy tính", "Mở file"], correctIndex: 0, explanation: "Biểu tượng loa dùng để điều chỉnh âm lượng." },
+    { question: "Vì sao không nên để âm lượng quá to?", options: ["Bảo vệ tai, tránh ảnh hưởng thính giác", "Không có lý do gì", "Âm lượng to luôn tốt", "Không liên quan đến sức khoẻ"], correctIndex: 0, explanation: "Âm lượng quá to có thể ảnh hưởng thính giác." },
+    { question: "Khi dùng tai nghe, em nên chú ý điều gì về âm lượng?", options: ["Điều chỉnh vừa phải, không quá to", "Luôn để âm lượng tối đa", "Không cần chú ý gì", "Tắt hoàn toàn âm lượng"], correctIndex: 0, explanation: "Nên điều chỉnh âm lượng vừa phải." },
+  ]),
+  "tin-hoc:3:tro-choi-on-tap-ket-noi-tai-nghe-voi-may-tinh": practiceContent("Trò chơi ôn tập", "Kết nối tai nghe với máy tính", "Hãy nhớ lại các cách kết nối tai nghe với máy tính.", [
+    { question: "Tai nghe có dây kết nối với máy tính bằng cách nào?", options: ["Cắm jack vào cổng âm thanh", "Qua Bluetooth", "Qua WiFi", "Không thể kết nối"], correctIndex: 0, explanation: "Tai nghe có dây kết nối bằng cách cắm jack." },
+    { question: "Tai nghe không dây kết nối qua đâu?", options: ["Bluetooth", "Cổng USB có dây", "Cổng âm thanh có dây", "Không thể kết nối"], correctIndex: 0, explanation: "Tai nghe không dây thường kết nối qua Bluetooth." },
+    { question: "Vì sao nên dùng tai nghe khi nghe nhạc ở nơi công cộng?", options: ["Không làm phiền người khác", "Không có lý do gì", "Âm thanh sẽ to hơn", "Không liên quan đến người khác"], correctIndex: 0, explanation: "Dùng tai nghe giúp không làm phiền người khác." },
+    { question: "Trước khi dùng tai nghe không dây, em cần làm gì?", options: ["Bật Bluetooth và kết nối", "Không cần làm gì", "Cắm dây vào máy tính", "Tắt máy tính"], correctIndex: 0, explanation: "Cần bật Bluetooth và kết nối trước." },
+  ]),
+  "tin-hoc:3:thu-thach-nho-chup-anh-man-hinh-co-ban": practiceContent("Thử thách nhỏ", "Chụp ảnh màn hình cơ bản", "Hãy nhớ lại cách chụp ảnh màn hình.", [
+    { question: "Chụp ảnh màn hình là gì?", options: ["Lưu lại hình ảnh đang hiển thị trên màn hình", "Xoá màn hình", "In tài liệu", "Nghe nhạc"], correctIndex: 0, explanation: "Chụp ảnh màn hình là lưu lại hình ảnh đang hiển thị." },
+    { question: "Phím nào thường dùng để chụp ảnh màn hình trên Windows?", options: ["Print Screen", "Enter", "Backspace", "Tab"], correctIndex: 0, explanation: "Print Screen thường dùng để chụp ảnh màn hình." },
+    { question: "Vì sao cần chụp ảnh màn hình?", options: ["Lưu lại thông tin cần thiết", "Không có lý do gì", "Chỉ để giải trí", "Không liên quan đến công việc"], correctIndex: 0, explanation: "Chụp ảnh màn hình giúp lưu lại thông tin cần thiết." },
+    { question: "Sau khi chụp ảnh màn hình, ảnh thường được lưu ở đâu?", options: ["Thư mục ảnh hoặc bảng tạm (clipboard)", "Tự động bị xoá", "Không được lưu ở đâu", "Chỉ hiển thị một lần"], correctIndex: 0, explanation: "Ảnh chụp màn hình thường lưu ở thư mục ảnh hoặc clipboard." },
+  ]),
+  "tin-hoc:3:thuc-hanh-quay-video-ngan-co-su-huong-dan": practiceContent("Thực hành", "Quay video ngắn có sự hướng dẫn", "Hãy nhớ lại những lưu ý khi quay video màn hình.", [
+    { question: "Quay video màn hình là gì?", options: ["Ghi lại hoạt động trên màn hình thành video", "Chụp một bức ảnh", "In tài liệu", "Nghe nhạc"], correctIndex: 0, explanation: "Quay video màn hình là ghi lại hoạt động thành video." },
+    { question: "Khi quay video, em nên làm gì?", options: ["Có sự hướng dẫn của người lớn", "Tự ý quay mà không hỏi ai", "Không cần chú ý gì", "Quay bất kỳ nội dung nào"], correctIndex: 0, explanation: "Nên có sự hướng dẫn của người lớn." },
+    { question: "Vì sao cần chọn nội dung phù hợp khi quay video?", options: ["Đảm bảo an toàn và phù hợp lứa tuổi", "Không cần thiết", "Không có lý do gì", "Chỉ là quy định"], correctIndex: 0, explanation: "Cần đảm bảo nội dung an toàn, phù hợp lứa tuổi." },
+    { question: "Video màn hình thường dùng để làm gì?", options: ["Hướng dẫn các bước sử dụng phần mềm", "Không có mục đích gì", "Chỉ để giải trí", "Không liên quan đến học tập"], correctIndex: 0, explanation: "Video màn hình thường dùng để hướng dẫn sử dụng phần mềm." },
+  ]),
+  "tin-hoc:3:luyen-tap-chinh-sua-anh-don-gian": practiceContent("Luyện tập", "Chỉnh sửa ảnh đơn giản", "Hãy nhớ lại các thao tác chỉnh sửa ảnh cơ bản.", [
+    { question: "Cắt ảnh (crop) dùng để làm gì?", options: ["Loại bỏ phần không cần thiết của ảnh", "Xoá toàn bộ ảnh", "Tăng độ sáng", "In ảnh"], correctIndex: 0, explanation: "Cắt ảnh giúp loại bỏ phần không cần thiết." },
+    { question: "Xoay ảnh dùng để làm gì?", options: ["Thay đổi hướng của ảnh", "Xoá ảnh", "Tăng kích thước ảnh", "In ảnh"], correctIndex: 0, explanation: "Xoay ảnh giúp thay đổi hướng hiển thị." },
+    { question: "Phần mềm nào có thể dùng để chỉnh sửa ảnh cơ bản?", options: ["Paint, Photos", "Chỉ có phần mềm chuyên nghiệp", "Không có phần mềm nào", "Chỉ dùng được trên điện thoại"], correctIndex: 0, explanation: "Paint, Photos là các phần mềm có thể chỉnh sửa ảnh cơ bản." },
+    { question: "Vì sao nên biết cách chỉnh sửa ảnh cơ bản?", options: ["Giúp ảnh đẹp hơn, phù hợp mục đích sử dụng", "Không cần thiết", "Không có lợi ích gì", "Chỉ làm mất thời gian"], correctIndex: 0, explanation: "Chỉnh sửa giúp ảnh đẹp hơn và phù hợp mục đích sử dụng." },
+  ]),
+  "tin-hoc:3:van-dung-gui-va-nhan-thu-dien-tu-co-ho-tro": practiceContent("Vận dụng", "Gửi và nhận thư điện tử có hỗ trợ", "Hãy nhớ lại cấu trúc cơ bản của một email.", [
+    { question: "Email là gì?", options: ["Hình thức gửi thư qua Internet", "Một loại trò chơi", "Một loại phần mềm vẽ", "Không có ý nghĩa gì"], correctIndex: 0, explanation: "Email là hình thức gửi thư qua Internet." },
+    { question: "Một email cơ bản gồm những phần nào?", options: ["Người nhận, tiêu đề, nội dung", "Chỉ có nội dung", "Chỉ có tiêu đề", "Không có phần nào cố định"], correctIndex: 0, explanation: "Email gồm người nhận, tiêu đề và nội dung." },
+    { question: "Khi gửi email, em cần sự hỗ trợ của ai?", options: ["Người lớn đáng tin cậy", "Không cần ai giúp", "Bạn bè cùng lứa tuổi", "Người lạ trên mạng"], correctIndex: 0, explanation: "Trẻ em nên có sự hỗ trợ của người lớn." },
+    { question: "Email có thể đính kèm thêm gì?", options: ["File tài liệu, hình ảnh", "Không thể đính kèm gì", "Chỉ có chữ viết", "Chỉ có video"], correctIndex: 0, explanation: "Email có thể đính kèm file tài liệu, hình ảnh." },
+  ]),
+  "tin-hoc:3:tro-choi-on-tap-tro-chuyen-truc-tuyen-an-toan": practiceContent("Trò chơi ôn tập", "Trò chuyện trực tuyến an toàn", "Hãy nhớ lại các quy tắc an toàn khi chat online.", [
+    { question: "Khi trò chuyện trực tuyến, em nên nói chuyện với ai?", options: ["Người quen biết", "Bất kỳ ai", "Chỉ người lạ", "Không cần quan tâm là ai"], correctIndex: 0, explanation: "Nên chỉ trò chuyện với người quen biết." },
+    { question: "Khi trò chuyện online, em có nên chia sẻ thông tin cá nhân không?", options: ["Không nên chia sẻ", "Có, chia sẻ tự do", "Không quan trọng", "Luôn luôn chia sẻ"], correctIndex: 0, explanation: "Không nên chia sẻ thông tin cá nhân." },
+    { question: "Khi nhận tin nhắn lạ, đáng ngờ, em nên làm gì?", options: ["Báo người lớn", "Trả lời ngay", "Kết bạn với người đó", "Không nói với ai"], correctIndex: 0, explanation: "Nên báo cho người lớn khi nhận tin nhắn lạ." },
+    { question: "Vì sao cần trò chuyện trực tuyến an toàn?", options: ["Bảo vệ bản thân khỏi nguy hiểm trên mạng", "Không cần thiết", "Không có lý do gì", "Chỉ là quy định"], correctIndex: 0, explanation: "Giúp bảo vệ bản thân khỏi nguy hiểm trên mạng." },
+  ]),
+  "tin-hoc:3:thu-thach-nho-nhan-biet-quang-cao-tren-mang": practiceContent("Thử thách nhỏ", "Nhận biết quảng cáo trên mạng", "Hãy nhớ lại cách nhận biết và xử lý quảng cáo trên mạng.", [
+    { question: "Quảng cáo trên mạng là gì?", options: ["Nội dung giới thiệu sản phẩm, dịch vụ", "Nội dung học tập", "Trò chơi miễn phí", "Không có mục đích gì"], correctIndex: 0, explanation: "Quảng cáo là nội dung giới thiệu sản phẩm, dịch vụ." },
+    { question: "Làm sao để nhận biết một nội dung là quảng cáo?", options: ["Thường có chữ 'Ad' hoặc 'Quảng cáo'", "Không có cách nào nhận biết", "Luôn có màu đỏ", "Luôn xuất hiện ở đầu trang"], correctIndex: 0, explanation: "Quảng cáo thường có chữ 'Ad' hoặc 'Quảng cáo'." },
+    { question: "Khi gặp quảng cáo hấp dẫn, em nên làm gì?", options: ["Cẩn thận, hỏi người lớn trước khi click", "Click ngay lập tức", "Tin tưởng hoàn toàn", "Chia sẻ cho bạn bè ngay"], correctIndex: 0, explanation: "Nên cẩn thận và hỏi người lớn trước khi click." },
+    { question: "Vì sao cần cẩn thận với quảng cáo trên mạng?", options: ["Một số quảng cáo có thể chứa nội dung không an toàn", "Không cần cẩn thận", "Quảng cáo luôn an toàn", "Không có lý do gì"], correctIndex: 0, explanation: "Một số quảng cáo có thể chứa nội dung không an toàn." },
+  ]),
+  "tin-hoc:3:thuc-hanh-phan-biet-tin-that-tin-gia-co-ban": practiceContent("Thực hành", "Phân biệt tin thật, tin giả cơ bản", "Hãy nhớ lại cách kiểm chứng thông tin cơ bản.", [
+    { question: "Tin thật có đặc điểm gì?", options: ["Có nguồn gốc rõ ràng, đáng tin cậy", "Không có nguồn gốc", "Luôn gây sốc", "Không cần kiểm chứng"], correctIndex: 0, explanation: "Tin thật có nguồn gốc rõ ràng, đáng tin cậy." },
+    { question: "Khi gặp thông tin đáng ngờ, em nên làm gì?", options: ["Kiểm chứng trước khi tin", "Tin ngay lập tức", "Chia sẻ ngay cho mọi người", "Không cần kiểm chứng"], correctIndex: 0, explanation: "Nên kiểm chứng thông tin trước khi tin." },
+    { question: "Cách nào giúp kiểm chứng thông tin?", options: ["So sánh với các nguồn tin uy tín khác", "Không cần so sánh gì", "Chỉ tin một nguồn duy nhất", "Không thể kiểm chứng"], correctIndex: 0, explanation: "So sánh với các nguồn uy tín khác giúp kiểm chứng." },
+    { question: "Vì sao cần phân biệt tin thật, tin giả?", options: ["Tránh bị lừa dối, hiểu đúng sự việc", "Không cần thiết", "Không có lý do gì", "Chỉ là hình thức"], correctIndex: 0, explanation: "Giúp tránh bị lừa dối và hiểu đúng sự việc." },
+  ]),
+  "tin-hoc:3:luyen-tap-ban-quyen-va-ton-trong-san-pham-so": practiceContent("Luyện tập", "Bản quyền và tôn trọng sản phẩm số", "Hãy nhớ lại ý nghĩa của bản quyền sản phẩm số.", [
+    { question: "Bản quyền là gì?", options: ["Quyền sở hữu sản phẩm của người tạo ra", "Không có ý nghĩa gì", "Chỉ áp dụng cho sách", "Chỉ áp dụng cho nhạc"], correctIndex: 0, explanation: "Bản quyền là quyền sở hữu của người tạo ra sản phẩm." },
+    { question: "Hành động nào vi phạm bản quyền?", options: ["Sao chép sản phẩm mà không xin phép", "Mua sản phẩm chính hãng", "Xin phép trước khi sử dụng", "Trả tiền bản quyền"], correctIndex: 0, explanation: "Sao chép mà không xin phép là vi phạm bản quyền." },
+    { question: "Vì sao cần tôn trọng bản quyền sản phẩm số?", options: ["Tôn trọng công sức sáng tạo của người khác", "Không cần thiết", "Không có lý do gì", "Chỉ là quy định"], correctIndex: 0, explanation: "Tôn trọng bản quyền thể hiện sự tôn trọng công sức sáng tạo." },
+    { question: "Sản phẩm nào có thể có bản quyền?", options: ["Bài hát, hình ảnh, phần mềm", "Không có sản phẩm nào", "Chỉ có sách giấy", "Chỉ có đồ vật"], correctIndex: 0, explanation: "Bài hát, hình ảnh, phần mềm đều có thể có bản quyền." },
+  ]),
+  "tin-hoc:3:van-dung-lam-quen-ma-qr": practiceContent("Vận dụng", "Làm quen mã QR", "Hãy nhớ lại khái niệm và ứng dụng của mã QR.", [
+    { question: "Mã QR là gì?", options: ["Mã vạch hai chiều chứa thông tin", "Một loại virus máy tính", "Một loại trò chơi", "Không có ý nghĩa gì"], correctIndex: 0, explanation: "Mã QR là mã vạch hai chiều chứa thông tin." },
+    { question: "Làm thế nào để đọc mã QR?", options: ["Dùng camera điện thoại quét mã", "Không thể đọc được", "Chỉ đọc bằng mắt thường", "Cần máy tính lớn"], correctIndex: 0, explanation: "Dùng camera điện thoại quét mã để đọc." },
+    { question: "Mã QR thường được dùng để làm gì?", options: ["Thanh toán, xem menu, truy cập web", "Chỉ để trang trí", "Không có ứng dụng gì", "Chỉ dùng trong trò chơi"], correctIndex: 0, explanation: "Mã QR dùng để thanh toán, xem menu, truy cập web." },
+    { question: "'QR' là viết tắt của cụm từ gì?", options: ["Quick Response (phản hồi nhanh)", "Question Result", "Quality Rate", "Không có ý nghĩa gì"], correctIndex: 0, explanation: "'QR' là viết tắt của 'Quick Response'." },
+  ]),
+  "tin-hoc:3:tro-choi-on-tap-lam-quen-thanh-toan-khong-tien-mat": practiceContent("Trò chơi ôn tập", "Làm quen thanh toán không tiền mặt", "Hãy nhớ lại các hình thức thanh toán không tiền mặt.", [
+    { question: "Thanh toán không tiền mặt là gì?", options: ["Trả tiền không dùng tiền giấy, tiền xu", "Chỉ dùng tiền mặt", "Không thể thanh toán", "Chỉ dùng trong cửa hàng lớn"], correctIndex: 0, explanation: "Thanh toán không tiền mặt là trả tiền không dùng tiền giấy." },
+    { question: "Hình thức nào là thanh toán không tiền mặt?", options: ["Thẻ ngân hàng, ví điện tử", "Chỉ có tiền giấy", "Chỉ có tiền xu", "Không có hình thức nào"], correctIndex: 0, explanation: "Thẻ ngân hàng, ví điện tử là thanh toán không tiền mặt." },
+    { question: "Ưu điểm của thanh toán không tiền mặt là gì?", options: ["Nhanh chóng, tiện lợi", "Không có ưu điểm gì", "Chậm hơn tiền mặt", "Không an toàn"], correctIndex: 0, explanation: "Thanh toán không tiền mặt nhanh chóng và tiện lợi." },
+    { question: "Trẻ em có nên tự ý thanh toán online không?", options: ["Không, cần có sự giám sát của người lớn", "Có, tự do thanh toán", "Không quan trọng", "Luôn được phép"], correctIndex: 0, explanation: "Trẻ em cần có sự giám sát của người lớn." },
+  ]),
+  "tin-hoc:3:thu-thach-nho-robot-va-tu-dong-hoa-trong-doi-song": practiceContent("Thử thách nhỏ", "Robot và tự động hoá trong đời sống", "Hãy nhớ lại vai trò của robot trong đời sống.", [
+    { question: "Robot là gì?", options: ["Máy móc được lập trình để tự động làm việc", "Một loại phần mềm", "Một loại trò chơi", "Không có ý nghĩa gì"], correctIndex: 0, explanation: "Robot là máy móc được lập trình để tự động làm việc." },
+    { question: "Ví dụ nào là ứng dụng robot trong đời sống?", options: ["Robot hút bụi", "Bút chì", "Quyển sách", "Cái bàn"], correctIndex: 0, explanation: "Robot hút bụi là ứng dụng robot phổ biến." },
+    { question: "Tự động hoá giúp ích điều gì?", options: ["Tiết kiệm thời gian, công sức con người", "Không có ích gì", "Làm chậm công việc", "Không liên quan đến công việc"], correctIndex: 0, explanation: "Tự động hoá giúp tiết kiệm thời gian, công sức." },
+    { question: "Robot được sử dụng trong lĩnh vực nào?", options: ["Sản xuất, y tế, gia đình", "Chỉ trong phim ảnh", "Không có lĩnh vực nào", "Chỉ trong trò chơi"], correctIndex: 0, explanation: "Robot được sử dụng trong nhiều lĩnh vực khác nhau." },
+  ]),
+  "tin-hoc:3:thuc-hanh-lap-trinh-scratch-ve-hinh-don-gian": practiceContent("Thực hành", "Lập trình Scratch: vẽ hình đơn giản", "Hãy nhớ lại cách dùng khối lệnh Pen để vẽ hình.", [
+    { question: "Nhóm khối lệnh nào giúp vẽ hình trong Scratch?", options: ["Pen (bút vẽ)", "Sound (âm thanh)", "Sensing (cảm biến)", "Variables (biến)"], correctIndex: 0, explanation: "Nhóm khối lệnh Pen giúp vẽ hình trong Scratch." },
+    { question: "Để vẽ hình, cần kết hợp khối lệnh nào với Pen?", options: ["Khối lệnh di chuyển", "Khối lệnh âm thanh", "Khối lệnh trang phục", "Không cần kết hợp gì"], correctIndex: 0, explanation: "Cần kết hợp khối lệnh di chuyển với Pen." },
+    { question: "Scratch là gì?", options: ["Phần mềm lập trình trực quan bằng khối lệnh", "Một phần mềm vẽ tranh thông thường", "Một trò chơi điện tử", "Không có ý nghĩa gì"], correctIndex: 0, explanation: "Scratch là phần mềm lập trình trực quan bằng khối lệnh." },
+    { question: "Vì sao Scratch phù hợp với học sinh tiểu học?", options: ["Dùng khối lệnh kéo thả, dễ học", "Cần viết mã phức tạp", "Chỉ dành cho lập trình viên chuyên nghiệp", "Không phù hợp với trẻ em"], correctIndex: 0, explanation: "Scratch dùng khối lệnh kéo thả trực quan, dễ học." },
+  ]),
+  "tin-hoc:3:luyen-tap-lap-trinh-scratch-doi-thoai-nhan-vat": practiceContent("Luyện tập", "Lập trình Scratch: đối thoại nhân vật", "Hãy nhớ lại khối lệnh Say và Think trong Scratch.", [
+    { question: "Khối lệnh 'Say' trong Scratch dùng để làm gì?", options: ["Hiển thị lời thoại của nhân vật", "Di chuyển nhân vật", "Thay đổi màu sắc", "Phát âm thanh"], correctIndex: 0, explanation: "Khối lệnh 'Say' dùng để hiển thị lời thoại." },
+    { question: "Khối lệnh 'Think' khác gì so với 'Say'?", options: ["Hiển thị suy nghĩ thay vì lời nói", "Không có sự khác biệt", "Chỉ dùng để di chuyển", "Chỉ dùng để đổi màu"], correctIndex: 0, explanation: "'Think' hiển thị suy nghĩ, khác với 'Say'." },
+    { question: "Đối thoại nhân vật trong Scratch giúp ích điều gì?", options: ["Kể chuyện, tạo tình huống thú vị", "Không có ích gì", "Làm chương trình chạy chậm hơn", "Không liên quan đến lập trình"], correctIndex: 0, explanation: "Đối thoại giúp kể chuyện và tạo tình huống thú vị." },
+    { question: "Bong bóng lời thoại thường có hình dạng gì?", options: ["Hình bầu dục với đuôi nhọn", "Hình vuông", "Hình tam giác", "Không có hình dạng cố định"], correctIndex: 0, explanation: "Bong bóng lời thoại thường có hình bầu dục với đuôi nhọn." },
+  ]),
+  "tin-hoc:3:van-dung-lap-trinh-scratch-thay-doi-trang-phuc-nhan-vat": practiceContent("Vận dụng", "Lập trình Scratch: thay đổi trang phục nhân vật", "Hãy nhớ lại cách dùng khối lệnh đổi trang phục.", [
+    { question: "Trang phục (Costume) trong Scratch là gì?", options: ["Các hình ảnh khác nhau của một nhân vật", "Âm thanh của nhân vật", "Vị trí của nhân vật", "Tốc độ di chuyển"], correctIndex: 0, explanation: "Costume là các hình ảnh khác nhau của một nhân vật." },
+    { question: "Khối lệnh 'Next Costume' dùng để làm gì?", options: ["Chuyển sang trang phục tiếp theo", "Xoá nhân vật", "Phát âm thanh", "Di chuyển nhân vật"], correctIndex: 0, explanation: "'Next Costume' giúp chuyển sang trang phục tiếp theo." },
+    { question: "Đổi trang phục liên tục tạo ra hiệu ứng gì?", options: ["Hiệu ứng hoạt hình (animation)", "Không có hiệu ứng gì", "Chỉ đổi màu sắc", "Chỉ đổi âm thanh"], correctIndex: 0, explanation: "Đổi trang phục liên tục tạo hiệu ứng hoạt hình." },
+    { question: "Vì sao cần nhiều trang phục cho một nhân vật?", options: ["Để tạo chuyển động sinh động hơn", "Không cần thiết", "Không có lý do gì", "Chỉ để trang trí"], correctIndex: 0, explanation: "Nhiều trang phục giúp tạo chuyển động sinh động hơn." },
+  ]),
+  "tin-hoc:3:tro-choi-on-tap-lap-trinh-scratch-su-kien-khi-nhan-phim": practiceContent("Trò chơi ôn tập", "Lập trình Scratch: sự kiện khi nhấn phím", "Hãy nhớ lại khối lệnh 'When key pressed'.", [
+    { question: "Khối lệnh 'When key pressed' dùng để làm gì?", options: ["Kích hoạt hành động khi nhấn một phím", "Phát âm thanh liên tục", "Xoá nhân vật", "Đổi màu nền"], correctIndex: 0, explanation: "Khối lệnh này kích hoạt hành động khi nhấn phím." },
+    { question: "Khối lệnh này thường dùng để làm gì trong trò chơi?", options: ["Điều khiển nhân vật di chuyển", "Chỉ để phát nhạc", "Chỉ để đổi màu", "Không có ứng dụng gì"], correctIndex: 0, explanation: "Thường dùng để điều khiển nhân vật di chuyển." },
+    { question: "Phím nào thường dùng để điều khiển di chuyển?", options: ["Phím mũi tên", "Phím số", "Phím chữ cái ngẫu nhiên", "Phím Enter"], correctIndex: 0, explanation: "Phím mũi tên thường dùng để điều khiển di chuyển." },
+    { question: "Sự kiện trong lập trình là gì?", options: ["Hành động kích hoạt khi có điều kiện xảy ra", "Không có ý nghĩa gì", "Chỉ là hình ảnh", "Chỉ là âm thanh"], correctIndex: 0, explanation: "Sự kiện là hành động kích hoạt khi có điều kiện xảy ra." },
+  ]),
+  "tin-hoc:3:thu-thach-nho-chia-se-du-an-scratch-voi-ban-be": practiceContent("Thử thách nhỏ", "Chia sẻ dự án Scratch với bạn bè", "Hãy nhớ lại cách lưu và chia sẻ dự án Scratch.", [
+    { question: "Vì sao cần lưu dự án Scratch?", options: ["Để mở lại và chỉnh sửa sau này", "Không cần thiết", "Không có lý do gì", "Chỉ để xoá đi"], correctIndex: 0, explanation: "Lưu dự án giúp mở lại và chỉnh sửa sau này." },
+    { question: "Chia sẻ dự án Scratch giúp ích điều gì?", options: ["Học hỏi lẫn nhau, nhận góp ý", "Không có ích gì", "Làm mất dữ liệu", "Không liên quan đến học tập"], correctIndex: 0, explanation: "Chia sẻ giúp học hỏi lẫn nhau." },
+    { question: "Khi chia sẻ dự án, em nên chú ý điều gì?", options: ["Nội dung phù hợp, an toàn", "Không cần chú ý gì", "Chia sẻ bất kỳ nội dung nào", "Không cần kiểm tra trước"], correctIndex: 0, explanation: "Cần đảm bảo nội dung phù hợp và an toàn." },
+    { question: "Xem dự án của bạn bè giúp ích điều gì?", options: ["Học hỏi ý tưởng và kỹ thuật mới", "Không có ích gì", "Làm mất thời gian", "Không liên quan đến lập trình"], correctIndex: 0, explanation: "Xem dự án bạn bè giúp học hỏi ý tưởng mới." },
+  ]),
+  "tin-hoc:3:thuc-hanh-lam-viec-nhom-tren-may-tinh": practiceContent("Thực hành", "Làm việc nhóm trên máy tính", "Hãy nhớ lại cách phối hợp làm việc nhóm hiệu quả.", [
+    { question: "Làm việc nhóm trên máy tính là gì?", options: ["Cùng nhau thực hiện một dự án số", "Chỉ làm việc một mình", "Không liên quan đến máy tính", "Không cần phối hợp"], correctIndex: 0, explanation: "Là cùng nhau thực hiện một dự án số." },
+    { question: "Cách nào giúp làm việc nhóm hiệu quả?", options: ["Phân chia công việc rõ ràng", "Không phân chia công việc", "Chỉ một người làm hết", "Không trao đổi ý kiến"], correctIndex: 0, explanation: "Phân chia công việc rõ ràng giúp làm việc nhóm hiệu quả." },
+    { question: "Vì sao cần trao đổi ý kiến khi làm việc nhóm?", options: ["Giúp thống nhất và hoàn thiện sản phẩm", "Không cần thiết", "Không có lợi ích gì", "Chỉ làm mất thời gian"], correctIndex: 0, explanation: "Trao đổi ý kiến giúp thống nhất và hoàn thiện sản phẩm." },
+    { question: "Dự án nào có thể thực hiện theo nhóm trên máy tính?", options: ["Bài trình chiếu, video", "Chỉ có thể làm một mình", "Không có dự án nào", "Chỉ làm trên giấy"], correctIndex: 0, explanation: "Bài trình chiếu, video là các dự án có thể làm nhóm." },
+  ]),
+  "tin-hoc:3:luyen-tap-on-tap-giua-hoc-ky-1": practiceContent("Luyện tập", "Ôn tập giữa học kỳ 1", "Hãy ôn lại kiến thức về thông tin và sử dụng máy tính cơ bản.", [
+    { question: "Máy tính giúp xử lí thông tin qua các bước nào?", options: ["Nhập, xử lí, xuất", "Chỉ có một bước", "Không có bước nào", "Chỉ xử lí mà không xuất"], correctIndex: 0, explanation: "Máy tính xử lí thông tin qua ba bước: nhập, xử lí, xuất." },
+    { question: "Tư thế ngồi đúng khi dùng máy tính là gì?", options: ["Lưng thẳng, mắt cách màn hình vừa phải", "Ngồi cong lưng", "Mắt sát màn hình", "Không quan trọng"], correctIndex: 0, explanation: "Tư thế đúng là lưng thẳng, mắt cách màn hình vừa phải." },
+    { question: "Thông tin có thể tồn tại dưới dạng nào?", options: ["Chữ, âm thanh, hình ảnh", "Chỉ có chữ", "Chỉ có âm thanh", "Không có dạng nào"], correctIndex: 0, explanation: "Thông tin có thể là chữ, âm thanh, hình ảnh." },
+    { question: "Phần mềm soạn thảo văn bản dùng để làm gì?", options: ["Soạn thảo, chỉnh sửa văn bản", "Chỉ để nghe nhạc", "Chỉ để xem phim", "Không có tác dụng gì"], correctIndex: 0, explanation: "Phần mềm soạn thảo dùng để soạn thảo, chỉnh sửa văn bản." },
+  ]),
+  "tin-hoc:3:van-dung-on-tap-cuoi-hoc-ky-1": practiceContent("Vận dụng", "Ôn tập cuối học kỳ 1", "Hãy ôn lại kỹ năng soạn thảo văn bản đã học.", [
+    { question: "Định dạng chữ đậm giúp ích điều gì?", options: ["Làm nổi bật nội dung quan trọng", "Không có tác dụng gì", "Làm chữ nhỏ hơn", "Xoá chữ"], correctIndex: 0, explanation: "Định dạng chữ đậm giúp làm nổi bật nội dung." },
+    { question: "Vì sao cần lưu tệp văn bản thường xuyên?", options: ["Tránh mất dữ liệu khi có sự cố", "Không cần thiết", "Không có lý do gì", "Chỉ làm tốn dung lượng"], correctIndex: 0, explanation: "Lưu tệp thường xuyên giúp tránh mất dữ liệu." },
+    { question: "Trí tuệ nhân tạo (AI) là gì?", options: ["Công nghệ giúp máy tính 'thông minh' như con người", "Một loại virus", "Một loại trò chơi", "Không có ý nghĩa gì"], correctIndex: 0, explanation: "AI là công nghệ giúp máy tính có khả năng 'thông minh'." },
+    { question: "Chèn hình ảnh vào văn bản giúp ích điều gì?", options: ["Minh hoạ nội dung sinh động hơn", "Không có ích gì", "Làm văn bản khó đọc hơn", "Không liên quan đến nội dung"], correctIndex: 0, explanation: "Chèn hình ảnh giúp minh hoạ nội dung sinh động hơn." },
+  ]),
+  "tin-hoc:3:tro-choi-on-tap-on-tap-giua-hoc-ky-2": practiceContent("Trò chơi ôn tập", "Ôn tập giữa học kỳ 2", "Hãy ôn lại kiến thức trình chiếu, bảng tính.", [
+    { question: "Slide trong bài trình chiếu là gì?", options: ["Một trang trong bài thuyết trình", "Một loại virus", "Một phần mềm vẽ", "Không có ý nghĩa gì"], correctIndex: 0, explanation: "Slide là một trang trong bài thuyết trình." },
+    { question: "Ô trong bảng tính là gì?", options: ["Giao điểm giữa hàng và cột", "Chỉ là hàng", "Chỉ là cột", "Không có ý nghĩa gì"], correctIndex: 0, explanation: "Ô là giao điểm giữa một hàng và một cột." },
+    { question: "Công cụ hình khối có sẵn giúp ích điều gì?", options: ["Vẽ hình nhanh chóng, chính xác", "Không có ích gì", "Làm chậm quá trình vẽ", "Không liên quan đến vẽ hình"], correctIndex: 0, explanation: "Công cụ này giúp vẽ hình nhanh chóng, chính xác." },
+    { question: "Vì sao nên luyện tập trước khi thuyết trình?", options: ["Giúp tự tin, trình bày trôi chảy hơn", "Không cần thiết", "Không có lợi ích gì", "Chỉ làm mất thời gian"], correctIndex: 0, explanation: "Luyện tập giúp tự tin và trình bày trôi chảy hơn." },
+  ]),
+  "tin-hoc:3:thu-thach-nho-tro-choi-go-phim-nhanh": practiceContent("Thử thách nhỏ", "Trò chơi: Gõ phím nhanh", "Hãy nhớ lại lợi ích của trò chơi gõ phím nhanh.", [
+    { question: "Trò chơi gõ phím nhanh giúp ích điều gì?", options: ["Cải thiện tốc độ và độ chính xác gõ phím", "Không có ích gì", "Làm chậm kỹ năng gõ phím", "Không liên quan đến bàn phím"], correctIndex: 0, explanation: "Trò chơi giúp cải thiện tốc độ và độ chính xác." },
+    { question: "Khi chơi trò chơi gõ phím, em cần chú ý điều gì?", options: ["Gõ đúng và nhanh", "Chỉ cần gõ nhanh mà không cần đúng", "Không cần chú ý gì", "Chỉ cần gõ đúng mà không cần nhanh"], correctIndex: 0, explanation: "Cần chú ý gõ cả đúng và nhanh." },
+    { question: "Luyện gõ phím thường xuyên mang lại lợi ích gì?", options: ["Gõ văn bản nhanh hơn trong tương lai", "Không có lợi ích gì", "Làm chậm công việc", "Không liên quan đến công việc"], correctIndex: 0, explanation: "Luyện tập giúp gõ văn bản nhanh hơn." },
+    { question: "Kỹ thuật gõ 10 ngón có liên quan gì đến trò chơi gõ phím nhanh?", options: ["Giúp gõ nhanh và chính xác hơn khi chơi", "Không liên quan gì", "Làm chậm quá trình chơi", "Không cần thiết"], correctIndex: 0, explanation: "Kỹ thuật gõ 10 ngón giúp chơi hiệu quả hơn." },
+  ]),
+  "tin-hoc:3:thuc-hanh-tro-choi-ghep-hinh-tren-may-tinh": practiceContent("Thực hành", "Trò chơi: Ghép hình trên máy tính", "Hãy nhớ lại lợi ích của trò chơi ghép hình.", [
+    { question: "Trò chơi ghép hình trên máy tính giúp ích điều gì?", options: ["Rèn tư duy logic, khả năng quan sát", "Không có ích gì", "Làm mất thời gian", "Không liên quan đến tư duy"], correctIndex: 0, explanation: "Trò chơi giúp rèn tư duy logic và khả năng quan sát." },
+    { question: "Khi chơi ghép hình, em cần làm gì?", options: ["Kéo thả mảnh ghép vào đúng vị trí", "Không cần làm gì", "Chỉ cần nhìn qua", "Đoán ngẫu nhiên"], correctIndex: 0, explanation: "Cần kéo thả mảnh ghép vào đúng vị trí." },
+    { question: "Trò chơi ghép hình rèn luyện đức tính gì?", options: ["Sự kiên nhẫn", "Sự nóng vội", "Không rèn luyện gì", "Sự lười biếng"], correctIndex: 0, explanation: "Trò chơi rèn luyện sự kiên nhẫn." },
+    { question: "Trên máy tính, thao tác nào thường dùng để chơi ghép hình?", options: ["Kéo thả bằng chuột", "Chỉ dùng bàn phím", "Không cần thao tác gì", "Chỉ dùng giọng nói"], correctIndex: 0, explanation: "Thao tác kéo thả bằng chuột thường dùng." },
+  ]),
+  "tin-hoc:3:luyen-tap-thuc-hanh-soan-thoi-khoa-bieu-bang-bang": practiceContent("Luyện tập", "Thực hành: Soạn thời khoá biểu bằng bảng", "Hãy nhớ lại cách tạo bảng thời khoá biểu bằng bảng tính.", [
+    { question: "Khi tạo thời khoá biểu bằng bảng, hàng thường dùng để ghi gì?", options: ["Các tiết học", "Ngày trong tuần", "Không ghi gì", "Tên học sinh"], correctIndex: 0, explanation: "Hàng thường dùng để ghi các tiết học." },
+    { question: "Cột trong bảng thời khoá biểu thường ghi gì?", options: ["Các ngày trong tuần", "Các tiết học", "Không ghi gì", "Tên giáo viên"], correctIndex: 0, explanation: "Cột thường dùng để ghi các ngày trong tuần." },
+    { question: "Vì sao nên dùng bảng tính để tạo thời khoá biểu?", options: ["Dễ trình bày, dễ chỉnh sửa", "Không có lợi ích gì", "Khó trình bày hơn viết tay", "Không liên quan đến bảng tính"], correctIndex: 0, explanation: "Bảng tính giúp trình bày và chỉnh sửa dễ dàng hơn." },
+    { question: "Thời khoá biểu giúp ích điều gì cho học sinh?", options: ["Biết lịch học các môn trong tuần", "Không có ích gì", "Làm mất thời gian", "Không liên quan đến học tập"], correctIndex: 0, explanation: "Thời khoá biểu giúp học sinh biết lịch học." },
+  ]),
+  "tin-hoc:3:van-dung-thuc-hanh-ve-tranh-chu-de-gia-dinh": practiceContent("Vận dụng", "Thực hành: Vẽ tranh chủ đề gia đình", "Hãy nhớ lại cách lên ý tưởng và vẽ tranh trên máy tính.", [
+    { question: "Trước khi vẽ tranh, em nên làm gì?", options: ["Lên ý tưởng về nội dung muốn vẽ", "Vẽ ngay không cần suy nghĩ", "Không cần chuẩn bị gì", "Chỉ cần chọn màu"], correctIndex: 0, explanation: "Nên lên ý tưởng trước khi bắt đầu vẽ." },
+    { question: "Tranh chủ đề gia đình có thể vẽ những gì?", options: ["Ngôi nhà, các thành viên gia đình", "Chỉ vẽ con vật", "Chỉ vẽ số liệu", "Không vẽ gì cả"], correctIndex: 0, explanation: "Có thể vẽ ngôi nhà, các thành viên gia đình." },
+    { question: "Công cụ nào giúp tô màu cho bức tranh?", options: ["Công cụ đổ màu (bucket fill)", "Công cụ gõ chữ", "Công cụ tìm kiếm", "Công cụ lưu file"], correctIndex: 0, explanation: "Công cụ đổ màu giúp tô màu cho bức tranh." },
+    { question: "Vẽ tranh trên máy tính giúp rèn luyện điều gì?", options: ["Sự sáng tạo và kỹ năng sử dụng công cụ vẽ", "Không rèn luyện gì", "Chỉ làm mất thời gian", "Không liên quan đến sáng tạo"], correctIndex: 0, explanation: "Vẽ tranh giúp rèn luyện sự sáng tạo." },
+  ]),
+  "tin-hoc:3:tro-choi-on-tap-thuc-hanh-viet-doan-van-ngan-tren-may-tinh": practiceContent("Trò chơi ôn tập", "Thực hành: Viết đoạn văn ngắn trên máy tính", "Hãy nhớ lại cách soạn thảo đoạn văn ngắn.", [
+    { question: "Trước khi soạn thảo đoạn văn, em cần mở gì?", options: ["Phần mềm soạn thảo văn bản", "Phần mềm nghe nhạc", "Phần mềm vẽ tranh", "Không cần mở phần mềm nào"], correctIndex: 0, explanation: "Cần mở phần mềm soạn thảo văn bản." },
+    { question: "Sau khi viết xong đoạn văn, em nên làm gì?", options: ["Đọc lại và sửa lỗi chính tả", "Không cần kiểm tra lại", "Xoá ngay đoạn văn", "Không cần làm gì thêm"], correctIndex: 0, explanation: "Nên đọc lại và sửa lỗi chính tả." },
+    { question: "Kỹ năng gõ chữ có dấu tiếng Việt giúp ích điều gì?", options: ["Viết đoạn văn tiếng Việt chính xác", "Không có ích gì", "Chỉ dùng cho tiếng Anh", "Không liên quan đến soạn thảo"], correctIndex: 0, explanation: "Kỹ năng này giúp viết đoạn văn tiếng Việt chính xác." },
+    { question: "Vì sao nên thực hành viết đoạn văn trên máy tính?", options: ["Rèn kỹ năng soạn thảo và gõ chữ", "Không có lợi ích gì", "Làm mất thời gian", "Không liên quan đến học tập"], correctIndex: 0, explanation: "Thực hành giúp rèn kỹ năng soạn thảo." },
+  ]),
+  "tin-hoc:3:thu-thach-nho-thuc-hanh-tao-thiep-chuc-mung-dien-tu": practiceContent("Thử thách nhỏ", "Thực hành: Tạo thiệp chúc mừng điện tử", "Hãy nhớ lại cách thiết kế một tấm thiệp chúc mừng.", [
+    { question: "Thiệp chúc mừng điện tử cần có nội dung gì?", options: ["Lời chúc, hình ảnh minh hoạ", "Chỉ cần chữ", "Chỉ cần hình ảnh", "Không cần nội dung gì"], correctIndex: 0, explanation: "Thiệp cần có lời chúc và hình ảnh minh hoạ." },
+    { question: "Sau khi tạo xong thiệp, em nên làm gì?", options: ["Kiểm tra lại nội dung và lưu file", "Xoá ngay thiệp", "Không cần lưu lại", "Không cần kiểm tra"], correctIndex: 0, explanation: "Nên kiểm tra lại nội dung và lưu file." },
+    { question: "Thiệp chúc mừng điện tử có ưu điểm gì so với thiệp giấy?", options: ["Gửi nhanh chóng qua mạng", "Không có ưu điểm gì", "Chậm hơn thiệp giấy", "Không thể gửi được"], correctIndex: 0, explanation: "Thiệp điện tử có thể gửi nhanh chóng qua mạng." },
+    { question: "Vì sao nên trang trí thiệp bằng màu sắc phù hợp?", options: ["Làm thiệp đẹp và ấn tượng hơn", "Không cần thiết", "Không có lợi ích gì", "Chỉ làm rối mắt"], correctIndex: 0, explanation: "Trang trí giúp thiệp đẹp và ấn tượng hơn." },
+  ]),
+  "tin-hoc:3:thuc-hanh-ky-nang-go-tieng-viet-nang-cao": practiceContent("Thực hành", "Kỹ năng gõ tiếng Việt nâng cao", "Hãy nhớ lại các kiểu gõ tiếng Việt phổ biến.", [
+    { question: "Hai kiểu gõ tiếng Việt phổ biến là gì?", options: ["Telex và VNI", "QWERTY và AZERTY", "ABC và XYZ", "Không có kiểu gõ nào"], correctIndex: 0, explanation: "Telex và VNI là hai kiểu gõ tiếng Việt phổ biến." },
+    { question: "Trong kiểu gõ Telex, để gõ dấu sắc em thường gõ chữ gì?", options: ["S", "F", "J", "R"], correctIndex: 0, explanation: "Trong Telex, gõ chữ 'S' để tạo dấu sắc." },
+    { question: "Vì sao cần luyện gõ tiếng Việt nâng cao?", options: ["Gõ nhanh và chính xác hơn", "Không cần thiết", "Không có lợi ích gì", "Chỉ làm mất thời gian"], correctIndex: 0, explanation: "Luyện tập giúp gõ tiếng Việt nhanh và chính xác hơn." },
+    { question: "Khi gõ tiếng Việt, em cần chú ý điều gì?", options: ["Dấu câu và dấu thanh chính xác", "Không cần chú ý gì", "Chỉ cần gõ nhanh", "Không cần dấu thanh"], correctIndex: 0, explanation: "Cần chú ý dấu câu và dấu thanh chính xác." },
+  ]),
+  "tin-hoc:3:luyen-tap-su-dung-may-tinh-ho-tro-hoc-toan": practiceContent("Luyện tập", "Sử dụng máy tính hỗ trợ học Toán", "Hãy nhớ lại cách máy tính hỗ trợ việc học Toán.", [
+    { question: "Máy tính có thể hỗ trợ học Toán như thế nào?", options: ["Qua phần mềm, trang web luyện tập", "Không thể hỗ trợ gì", "Chỉ dùng để chơi game", "Không liên quan đến Toán"], correctIndex: 0, explanation: "Máy tính hỗ trợ học Toán qua phần mềm luyện tập." },
+    { question: "Ứng dụng học Toán trên máy tính có ưu điểm gì?", options: ["Trực quan, thú vị qua hình ảnh, trò chơi", "Không có ưu điểm gì", "Khó hiểu hơn sách giáo khoa", "Không liên quan đến học tập"], correctIndex: 0, explanation: "Ứng dụng giúp học Toán trực quan và thú vị hơn." },
+    { question: "Vì sao nên kết hợp máy tính khi học Toán?", options: ["Giúp việc học sinh động, hiệu quả hơn", "Không cần thiết", "Không có lợi ích gì", "Chỉ làm mất thời gian"], correctIndex: 0, explanation: "Kết hợp máy tính giúp việc học sinh động hơn." },
+    { question: "Hình thức nào giúp học Toán qua máy tính thú vị hơn?", options: ["Trò chơi tương tác", "Chỉ đọc lý thuyết", "Không có hình thức nào", "Chỉ làm bài tập giấy"], correctIndex: 0, explanation: "Trò chơi tương tác giúp học Toán thú vị hơn." },
+  ]),
+  "tin-hoc:3:van-dung-su-dung-may-tinh-ho-tro-hoc-tieng-anh": practiceContent("Vận dụng", "Sử dụng máy tính hỗ trợ học Tiếng Anh", "Hãy nhớ lại cách máy tính hỗ trợ việc học Tiếng Anh.", [
+    { question: "Máy tính có thể hỗ trợ học Tiếng Anh như thế nào?", options: ["Qua phần mềm luyện nghe, nói, đọc, viết", "Không thể hỗ trợ gì", "Chỉ dùng để chơi game", "Không liên quan đến Tiếng Anh"], correctIndex: 0, explanation: "Máy tính hỗ trợ học Tiếng Anh qua các phần mềm luyện tập." },
+    { question: "Ứng dụng học Tiếng Anh giúp ích điều gì về phát âm?", options: ["Luyện phát âm chuẩn qua âm thanh mẫu", "Không giúp ích gì", "Làm phát âm sai hơn", "Không liên quan đến phát âm"], correctIndex: 0, explanation: "Ứng dụng giúp luyện phát âm chuẩn." },
+    { question: "Vì sao nên dùng máy tính hỗ trợ học Tiếng Anh?", options: ["Học sinh động, hiệu quả hơn qua hình ảnh âm thanh", "Không cần thiết", "Không có lợi ích gì", "Chỉ làm mất thời gian"], correctIndex: 0, explanation: "Máy tính giúp học sinh động, hiệu quả hơn." },
+    { question: "Kỹ năng nào có thể luyện tập qua ứng dụng máy tính?", options: ["Nghe, nói, đọc, viết", "Chỉ có viết", "Chỉ có nghe", "Không luyện được kỹ năng nào"], correctIndex: 0, explanation: "Có thể luyện tập cả 4 kỹ năng." },
+  ]),
+  "tin-hoc:3:tro-choi-on-tap-tim-hieu-ve-may-in": practiceContent("Trò chơi ôn tập", "Tìm hiểu về máy in", "Hãy nhớ lại chức năng và các loại máy in phổ biến.", [
+    { question: "Máy in dùng để làm gì?", options: ["Chuyển tài liệu từ máy tính ra giấy", "Chụp ảnh màn hình", "Nghe nhạc", "Quét tài liệu"], correctIndex: 0, explanation: "Máy in dùng để chuyển tài liệu ra giấy." },
+    { question: "Loại máy in nào phổ biến?", options: ["Máy in laser, máy in phun", "Chỉ có một loại máy in", "Không có loại máy in nào", "Chỉ có máy in màu"], correctIndex: 0, explanation: "Máy in laser và máy in phun là hai loại phổ biến." },
+    { question: "Máy in cần kết nối với gì để hoạt động?", options: ["Máy tính", "Chỉ cần điện", "Không cần kết nối gì", "Chỉ cần giấy"], correctIndex: 0, explanation: "Máy in cần kết nối với máy tính." },
+    { question: "Vì sao cần có giấy khi in tài liệu?", options: ["Bản in được thể hiện trên giấy", "Không cần giấy", "Giấy không liên quan đến in", "Chỉ cần mực in"], correctIndex: 0, explanation: "Bản in cần giấy để thể hiện nội dung." },
+  ]),
+  "tin-hoc:3:thu-thach-nho-tim-hieu-ve-may-quet-scanner": practiceContent("Thử thách nhỏ", "Tìm hiểu về máy quét (scanner)", "Hãy nhớ lại chức năng của máy quét tài liệu.", [
+    { question: "Máy quét (scanner) dùng để làm gì?", options: ["Chuyển tài liệu giấy thành file số", "Chuyển file số thành giấy", "Nghe nhạc", "Chụp ảnh màn hình"], correctIndex: 0, explanation: "Máy quét chuyển tài liệu giấy thành file số." },
+    { question: "Máy quét khác gì với máy in?", options: ["Làm ngược lại chức năng của máy in", "Giống hệt máy in", "Không có sự khác biệt", "Chỉ dùng để nghe nhạc"], correctIndex: 0, explanation: "Máy quét làm ngược lại chức năng của máy in." },
+    { question: "Sau khi quét tài liệu, tài liệu được lưu dưới dạng gì?", options: ["File ảnh số", "Tài liệu giấy", "Âm thanh", "Video"], correctIndex: 0, explanation: "Tài liệu quét được lưu dưới dạng file ảnh số." },
+    { question: "Máy quét thường được dùng để làm gì?", options: ["Số hoá tài liệu giấy cũ", "Chỉ để giải trí", "Không có ứng dụng gì", "Chỉ để in ấn"], correctIndex: 0, explanation: "Máy quét thường dùng để số hoá tài liệu cũ." },
+  ]),
+  "tin-hoc:3:thuc-hanh-bao-tri-may-tinh-don-gian": practiceContent("Thực hành", "Bảo trì máy tính đơn giản", "Hãy nhớ lại các thói quen bảo trì máy tính cơ bản.", [
+    { question: "Vì sao cần bảo trì máy tính?", options: ["Giúp máy hoạt động ổn định, bền lâu", "Không cần thiết", "Không có lợi ích gì", "Chỉ tốn thời gian"], correctIndex: 0, explanation: "Bảo trì giúp máy tính hoạt động ổn định." },
+    { question: "Hành động nào giúp bảo trì máy tính?", options: ["Lau chùi bụi bẩn thường xuyên", "Để nước gần máy tính", "Không bao giờ vệ sinh", "Tắt máy đột ngột"], correctIndex: 0, explanation: "Lau chùi bụi bẩn thường xuyên giúp bảo trì máy tính." },
+    { question: "Vì sao không nên để nước gần máy tính?", options: ["Có thể gây hỏng hóc, chập điện", "Không có lý do gì", "Nước không ảnh hưởng gì", "Giúp máy tính mát hơn"], correctIndex: 0, explanation: "Nước có thể gây hỏng hóc, chập điện." },
+    { question: "Cách tắt máy tính đúng cách là gì?", options: ["Dùng lệnh Shut down", "Rút điện đột ngột", "Không cần tắt máy", "Đóng màn hình là được"], correctIndex: 0, explanation: "Nên dùng lệnh Shut down để tắt máy đúng cách." },
+  ]),
+  "tin-hoc:3:luyen-tap-xu-ly-su-co-may-tinh-co-ban": practiceContent("Luyện tập", "Xử lý sự cố máy tính cơ bản", "Hãy nhớ lại cách xử lý khi máy tính bị treo.", [
+    { question: "Máy tính bị treo là gì?", options: ["Máy không phản hồi khi thao tác", "Máy chạy nhanh hơn bình thường", "Không có vấn đề gì", "Máy tự tắt"], correctIndex: 0, explanation: "Máy tính bị treo là khi máy không phản hồi." },
+    { question: "Khi máy tính bị treo, em nên làm gì đầu tiên?", options: ["Chờ một chút xem máy có phản hồi lại không", "Đập máy tính", "Rút điện ngay lập tức", "Không làm gì cả, bỏ đi luôn"], correctIndex: 0, explanation: "Nên chờ một chút xem máy có phản hồi lại không." },
+    { question: "Nếu không tự xử lý được sự cố, em nên làm gì?", options: ["Báo người lớn giúp đỡ", "Tự ý tháo máy tính", "Không nói với ai", "Đập mạnh vào máy"], correctIndex: 0, explanation: "Nên báo người lớn giúp đỡ." },
+    { question: "Vì sao không nên tự ý tháo máy tính khi có sự cố?", options: ["Có thể gây hỏng hóc nặng hơn", "Không có lý do gì", "Rất dễ dàng và an toàn", "Không ảnh hưởng gì"], correctIndex: 0, explanation: "Tự ý tháo máy có thể gây hỏng hóc nặng hơn." },
+  ]),
+  "tin-hoc:3:van-dung-thu-vien-so-va-sach-dien-tu": practiceContent("Vận dụng", "Thư viện số và sách điện tử", "Hãy nhớ lại lợi ích của thư viện số và sách điện tử.", [
+    { question: "Thư viện số là gì?", options: ["Nơi lưu trữ tài liệu dưới dạng số hoá", "Chỉ là thư viện sách giấy", "Không có ý nghĩa gì", "Chỉ dùng để nghe nhạc"], correctIndex: 0, explanation: "Thư viện số lưu trữ tài liệu dưới dạng số hoá." },
+    { question: "Sách điện tử (e-book) là gì?", options: ["Sách được lưu dưới dạng file số", "Chỉ có sách giấy", "Không có ý nghĩa gì", "Chỉ là hình ảnh"], correctIndex: 0, explanation: "Sách điện tử là sách lưu dưới dạng file số." },
+    { question: "Ưu điểm của sách điện tử là gì?", options: ["Gọn nhẹ, dễ mang theo nhiều sách", "Không có ưu điểm gì", "Nặng hơn sách giấy", "Không thể đọc được"], correctIndex: 0, explanation: "Sách điện tử gọn nhẹ, dễ mang theo." },
+    { question: "Có thể đọc sách điện tử trên thiết bị nào?", options: ["Máy tính, máy tính bảng, điện thoại", "Chỉ trên giấy", "Không thể đọc trên thiết bị nào", "Chỉ trên tivi"], correctIndex: 0, explanation: "Sách điện tử có thể đọc trên nhiều thiết bị." },
+  ]),
+  "tin-hoc:3:tro-choi-on-tap-hoc-truc-tuyen-an-toan-hieu-qua": practiceContent("Trò chơi ôn tập", "Học trực tuyến an toàn, hiệu quả", "Hãy nhớ lại các quy tắc khi học trực tuyến.", [
+    { question: "Học trực tuyến là gì?", options: ["Hình thức học qua Internet", "Chỉ học tại lớp học", "Không có hình thức học nào", "Chỉ đọc sách giấy"], correctIndex: 0, explanation: "Học trực tuyến là hình thức học qua Internet." },
+    { question: "Để học trực tuyến hiệu quả, em nên làm gì?", options: ["Chuẩn bị không gian yên tĩnh, tập trung", "Vừa học vừa chơi game", "Không cần chuẩn bị gì", "Học ở nơi ồn ào"], correctIndex: 0, explanation: "Nên chuẩn bị không gian yên tĩnh và tập trung." },
+    { question: "Trong giờ học trực tuyến, em không nên làm gì?", options: ["Truy cập trang web không liên quan", "Lắng nghe giáo viên", "Ghi chép bài", "Đặt câu hỏi khi cần"], correctIndex: 0, explanation: "Không nên truy cập trang web không liên quan." },
+    { question: "Vì sao cần học trực tuyến an toàn?", options: ["Bảo vệ bản thân khỏi rủi ro trên mạng", "Không cần thiết", "Không có lý do gì", "Chỉ là quy định"], correctIndex: 0, explanation: "Học an toàn giúp bảo vệ bản thân." },
+  ]),
+  "tin-hoc:3:thu-thach-nho-on-tap-tong-hop-chuan-bi-kiem-tra-cuoi-nam": practiceContent("Thử thách nhỏ", "Ôn tập tổng hợp chuẩn bị kiểm tra cuối năm", "Hãy ôn lại toàn bộ kiến thức Tin Học trọng tâm trong năm.", [
+    { question: "Phần mềm soạn thảo văn bản dùng để làm gì?", options: ["Soạn thảo, chỉnh sửa văn bản", "Chỉ để nghe nhạc", "Chỉ để xem phim", "Không có tác dụng gì"], correctIndex: 0, explanation: "Phần mềm soạn thảo dùng để soạn thảo, chỉnh sửa văn bản." },
+    { question: "Scratch là gì?", options: ["Phần mềm lập trình trực quan bằng khối lệnh", "Một phần mềm vẽ tranh thông thường", "Một trò chơi điện tử", "Không có ý nghĩa gì"], correctIndex: 0, explanation: "Scratch là phần mềm lập trình trực quan bằng khối lệnh." },
+    { question: "Vì sao cần cảnh giác với thông tin trên mạng?", options: ["Có tin giả, không đáng tin cậy", "Mọi thông tin đều đúng", "Không cần cảnh giác", "Không có lý do gì"], correctIndex: 0, explanation: "Cần cảnh giác vì có tin giả trên mạng." },
+    { question: "Vì sao cần ôn tập trước khi kiểm tra?", options: ["Củng cố kiến thức, tự tin hơn", "Không cần thiết", "Không có lợi ích gì", "Chỉ tốn thời gian"], correctIndex: 0, explanation: "Ôn tập giúp củng cố kiến thức và tự tin hơn." },
+  ]),
+
 };
 
 export function getLessonContent(subject: string, grade: number, lessonSlug: string) {

@@ -1057,7 +1057,7 @@ export const curriculum: SubjectCurriculum[] = [
 
   { subject: "tin-hoc", grade: 1, intro: "Làm quen máy tính và phần mềm vẽ đơn giản.", chapters: grade30(TH_CHAPTERS, th1Topics) },
   { subject: "tin-hoc", grade: 2, intro: "Sử dụng chuột, bàn phím và quản lý tệp tin cơ bản.", chapters: grade30(TH_CHAPTERS, th2Topics) },
-  { subject: "tin-hoc", grade: 3, intro: "Thông tin, soạn thảo văn bản và an toàn khi dùng máy tính.", chapters: grade30(TH_CHAPTERS, readyFirst(th3Topics, 15)) },
+  { subject: "tin-hoc", grade: 3, intro: "Thông tin, soạn thảo văn bản và an toàn khi dùng máy tính.", chapters: grade30(TH_CHAPTERS, readyFirst(th3Topics, 75)) },
   { subject: "tin-hoc", grade: 4, intro: "Internet, soạn thảo nâng cao và lập trình kéo-thả Scratch.", chapters: grade30(TH_CHAPTERS, th4Topics) },
   { subject: "tin-hoc", grade: 5, intro: "Kỹ năng tìm kiếm thông tin, lập trình Scratch nâng cao và văn hoá số.", chapters: grade30(TH_CHAPTERS, th5Topics) },
 ];
