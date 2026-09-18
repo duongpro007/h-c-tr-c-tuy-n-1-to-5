@@ -1033,13 +1033,13 @@ export const curriculum: SubjectCurriculum[] = [
 
   { subject: "tieng-viet", grade: 1, intro: "Học vần, tập đọc, tập viết những nét chữ đầu tiên.", chapters: grade30(TV_CHAPTERS, tv1Topics) },
   { subject: "tieng-viet", grade: 2, intro: "Mở rộng vốn từ, luyện chính tả và viết đoạn văn ngắn.", chapters: grade30(TV_CHAPTERS, tv2Topics) },
-  { subject: "tieng-viet", grade: 3, intro: "Từ loại, đọc hiểu văn bản và tập làm văn cơ bản.", chapters: grade30(TV_CHAPTERS, readyFirst(tv3Topics, 15)) },
+  { subject: "tieng-viet", grade: 3, intro: "Từ loại, đọc hiểu văn bản và tập làm văn cơ bản.", chapters: grade30(TV_CHAPTERS, readyFirst(tv3Topics, 75)) },
   { subject: "tieng-viet", grade: 4, intro: "Luyện từ câu nâng cao, cảm thụ văn học và văn miêu tả.", chapters: grade30(TV_CHAPTERS, tv4Topics) },
   { subject: "tieng-viet", grade: 5, intro: "Câu ghép nâng cao, đọc hiểu văn bản và văn tả người.", chapters: grade30(TV_CHAPTERS, tv5Topics) },
 
   { subject: "tieng-anh", grade: 1, intro: "Làm quen tiếng Anh qua chào hỏi, bảng chữ cái, màu sắc.", chapters: grade30(TA_CHAPTERS, ta1Topics) },
   { subject: "tieng-anh", grade: 2, intro: "Giới thiệu bản thân, gia đình, số đếm và đồ chơi.", chapters: grade30(TA_CHAPTERS, ta2Topics) },
-  { subject: "tieng-anh", grade: 3, intro: "Giao tiếp cơ bản về trường học, ngôi nhà và sở thích.", chapters: grade30(TA_CHAPTERS, readyFirst(ta3Topics, 15)) },
+  { subject: "tieng-anh", grade: 3, intro: "Giao tiếp cơ bản về trường học, ngôi nhà và sở thích.", chapters: grade30(TA_CHAPTERS, readyFirst(ta3Topics, 75)) },
   { subject: "tieng-anh", grade: 4, intro: "Mô tả người thân, hoạt động hàng ngày, món ăn và nghề nghiệp.", chapters: grade30(TA_CHAPTERS, ta4Topics) },
   { subject: "tieng-anh", grade: 5, intro: "Cộng đồng, sức khoẻ, môi trường và chuẩn bị lên lớp 6.", chapters: grade30(TA_CHAPTERS, ta5Topics) },
 

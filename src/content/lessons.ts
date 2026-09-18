@@ -7137,6 +7137,2403 @@ export const lessonContent: Record<string, LessonContent> = {
     { question: "Chu vi hình vuông cạnh 11cm là bao nhiêu?", options: ["22cm", "33cm", "44cm", "121cm"], correctIndex: 2, explanation: "11×4=44cm." },
   ]),
 
+  // ─────────────── TIẾNG VIỆT — LỚP 3 — 60 bài lõi mở rộng (16-75) ───────────────
+  "tieng-viet:3:tu-dong-nghia": {
+    objectives: ["Nhận biết từ đồng nghĩa trong câu văn.", "Hiểu ý nghĩa gần giống nhau của các từ đồng nghĩa.", "Vận dụng từ đồng nghĩa khi viết câu, đoạn văn."],
+    sections: [
+      { heading: "1. Từ đồng nghĩa là gì?", body: ["Từ đồng nghĩa là những từ có nghĩa giống nhau hoặc gần giống nhau. Ví dụ: 'mẹ' và 'má', 'chăm chỉ' và 'siêng năng'."] },
+      { heading: "2. Một số ví dụ", body: ["'Đẹp' và 'xinh', 'to' và 'lớn', 'nhanh' và 'mau' đều là các cặp từ đồng nghĩa thường gặp."] },
+      { heading: "3. Vận dụng", body: ["Sử dụng từ đồng nghĩa giúp bài văn của em phong phú hơn, tránh lặp lại một từ quá nhiều lần."] },
+    ],
+    quiz: [
+      { question: "Từ nào đồng nghĩa với từ 'đẹp'?", options: ["Xấu", "Xinh", "To", "Nhỏ"], correctIndex: 1, explanation: "'Xinh' có nghĩa gần giống với 'đẹp'." },
+      { question: "Từ nào đồng nghĩa với từ 'chăm chỉ'?", options: ["Lười biếng", "Siêng năng", "Nghịch ngợm", "Vui vẻ"], correctIndex: 1, explanation: "'Siêng năng' có nghĩa gần giống với 'chăm chỉ'." },
+      { question: "Cặp từ nào sau đây là từ đồng nghĩa?", options: ["To - nhỏ", "Nhanh - chậm", "To - lớn", "Vui - buồn"], correctIndex: 2, explanation: "'To' và 'lớn' có nghĩa giống nhau." },
+    ],
+    funFact: "Bạn có biết? Tiếng Việt có rất nhiều từ đồng nghĩa nhờ sự kết hợp giữa từ thuần Việt và từ Hán Việt!",
+  },
+  "tieng-viet:3:tu-trai-nghia": {
+    objectives: ["Nhận biết từ trái nghĩa trong câu văn.", "Hiểu ý nghĩa đối lập của các từ trái nghĩa.", "Vận dụng từ trái nghĩa khi đặt câu."],
+    sections: [
+      { heading: "1. Từ trái nghĩa là gì?", body: ["Từ trái nghĩa là những từ có nghĩa trái ngược nhau. Ví dụ: 'cao' và 'thấp', 'to' và 'nhỏ'."] },
+      { heading: "2. Một số ví dụ", body: ["'Nóng' - 'lạnh', 'nhanh' - 'chậm', 'vui' - 'buồn' đều là các cặp từ trái nghĩa quen thuộc."] },
+      { heading: "3. Vận dụng", body: ["Dùng từ trái nghĩa giúp câu văn thể hiện rõ sự so sánh, đối lập, làm nổi bật ý muốn diễn đạt."] },
+    ],
+    quiz: [
+      { question: "Từ nào trái nghĩa với từ 'cao'?", options: ["To", "Thấp", "Xinh", "Nhanh"], correctIndex: 1, explanation: "'Thấp' trái nghĩa với 'cao'." },
+      { question: "Từ nào trái nghĩa với từ 'vui'?", options: ["Buồn", "Đẹp", "Nhanh", "To"], correctIndex: 0, explanation: "'Buồn' trái nghĩa với 'vui'." },
+      { question: "Cặp từ nào sau đây là từ trái nghĩa?", options: ["To - lớn", "Nhanh - mau", "Nóng - lạnh", "Đẹp - xinh"], correctIndex: 2, explanation: "'Nóng' và 'lạnh' có nghĩa trái ngược nhau." },
+    ],
+    funFact: "Bạn có biết? Dùng từ trái nghĩa là một cách hay để làm câu văn, câu thơ thêm sinh động và ấn tượng!",
+  },
+  "tieng-viet:3:tu-nhieu-nghia-buoc-dau-lam-quen": {
+    objectives: ["Làm quen khái niệm một từ có thể mang nhiều nghĩa.", "Nhận biết nghĩa của từ nhiều nghĩa trong từng ngữ cảnh.", "Vận dụng vào việc đọc hiểu câu văn."],
+    sections: [
+      { heading: "1. Từ nhiều nghĩa là gì?", body: ["Từ nhiều nghĩa là từ có thể mang nhiều nghĩa khác nhau tuỳ theo ngữ cảnh sử dụng."] },
+      { heading: "2. Ví dụ minh hoạ", body: ["Từ 'chân' có thể chỉ 'chân người' hoặc 'chân bàn', 'chân núi' — cùng một từ nhưng nghĩa khác nhau tuỳ ngữ cảnh."] },
+      { heading: "3. Cách xác định nghĩa", body: ["Để hiểu đúng nghĩa của từ nhiều nghĩa, em cần đọc kỹ câu văn xung quanh để xác định ngữ cảnh."] },
+    ],
+    quiz: [
+      { question: "Từ 'chân' trong câu 'chân bàn' mang nghĩa gì?", options: ["Bộ phận cơ thể người", "Bộ phận đỡ của đồ vật", "Một loại thực phẩm", "Không có nghĩa"], correctIndex: 1, explanation: "Trong câu này, 'chân' chỉ bộ phận đỡ phía dưới của bàn." },
+      { question: "Từ nào sau đây có thể là từ nhiều nghĩa?", options: ["Mắt (mắt người, mắt bão)", "Học sinh", "Con mèo", "Cái bàn"], correctIndex: 0, explanation: "'Mắt' có thể chỉ mắt người hoặc mắt bão, mắt lưới — là từ nhiều nghĩa." },
+      { question: "Để hiểu đúng nghĩa của từ nhiều nghĩa, em cần làm gì?", options: ["Đọc kỹ ngữ cảnh câu văn", "Bỏ qua không cần hiểu", "Chỉ nhìn từ đó một mình", "Không cần làm gì"], correctIndex: 0, explanation: "Cần đọc ngữ cảnh để xác định đúng nghĩa của từ." },
+    ],
+    funFact: "Bạn có biết? Từ 'đầu' trong tiếng Việt có thể mang tới hàng chục nghĩa khác nhau tuỳ theo ngữ cảnh sử dụng!",
+  },
+  "tieng-viet:3:mo-rong-von-tu-ve-nha-truong": {
+    objectives: ["Mở rộng vốn từ theo chủ điểm nhà trường.", "Hiểu nghĩa và biết cách sử dụng từ ngữ mới.", "Vận dụng vào việc đặt câu."],
+    sections: [
+      { heading: "1. Từ ngữ về nhà trường", body: ["Một số từ ngữ: lớp học, sân trường, thư viện, phòng thí nghiệm, giáo viên, học sinh, bạn học."] },
+      { heading: "2. Từ ngữ về hoạt động học tập", body: ["Học bài, làm bài tập, kiểm tra, thi đua, phát biểu, thảo luận nhóm."] },
+      { heading: "3. Vận dụng vào câu văn", body: ["Em hãy thử đặt câu với từ 'thư viện': 'Em thường đến thư viện đọc sách vào giờ ra chơi.'"] },
+    ],
+    quiz: [
+      { question: "Từ nào thuộc chủ điểm nhà trường?", options: ["Thư viện", "Con mèo", "Cánh đồng", "Ô tô"], correctIndex: 0, explanation: "'Thư viện' là nơi quen thuộc trong trường học." },
+      { question: "Từ nào chỉ hoạt động học tập?", options: ["Ngủ trưa", "Thảo luận nhóm", "Ăn cơm", "Chơi đùa ngoài trời"], correctIndex: 1, explanation: "'Thảo luận nhóm' là một hoạt động học tập." },
+      { question: "Câu nào sử dụng đúng từ ngữ về nhà trường?", options: ["Em đến thư viện đọc sách.", "Em đến chợ mua rau.", "Em ra biển tắm.", "Em vào rừng hái nấm."], correctIndex: 0, explanation: "Câu này sử dụng đúng từ ngữ liên quan đến nhà trường." },
+    ],
+    funFact: "Bạn có biết? Từ 'trường học' trong tiếng Việt có nguồn gốc từ chữ Hán, ghép bởi 'trường' (nơi rộng lớn) và 'học' (việc học tập)!",
+  },
+  "tieng-viet:3:mo-rong-von-tu-ve-thien-nhien": {
+    objectives: ["Mở rộng vốn từ theo chủ điểm thiên nhiên.", "Hiểu nghĩa và biết cách sử dụng từ ngữ mới.", "Vận dụng vào việc đặt câu, viết đoạn văn."],
+    sections: [
+      { heading: "1. Từ ngữ về cảnh vật thiên nhiên", body: ["Núi non, sông suối, biển cả, rừng cây, bầu trời, ánh nắng, cơn mưa."] },
+      { heading: "2. Từ ngữ về thời tiết, khí hậu", body: ["Nắng, mưa, gió, sương, mây, bão, rét, nóng."] },
+      { heading: "3. Vận dụng vào câu văn", body: ["Em hãy thử đặt câu: 'Bầu trời hôm nay trong xanh, có vài đám mây trắng bồng bềnh trôi.'"] },
+    ],
+    quiz: [
+      { question: "Từ nào thuộc chủ điểm thiên nhiên?", options: ["Sông suối", "Bàn ghế", "Sách vở", "Ô tô"], correctIndex: 0, explanation: "'Sông suối' là hình ảnh thiên nhiên quen thuộc." },
+      { question: "Từ nào chỉ hiện tượng thời tiết?", options: ["Cơn mưa", "Cái bàn", "Quyển sách", "Chiếc xe"], correctIndex: 0, explanation: "'Cơn mưa' là một hiện tượng thời tiết." },
+      { question: "Câu nào miêu tả cảnh thiên nhiên?", options: ["Bầu trời trong xanh có mây trắng.", "Em đi học lúc 7 giờ.", "Quyển sách có 100 trang.", "Em rất thích học Toán."], correctIndex: 0, explanation: "Câu này miêu tả cảnh vật thiên nhiên." },
+    ],
+    funFact: "Bạn có biết? Việt Nam có rất nhiều cảnh đẹp thiên nhiên như Vịnh Hạ Long, đã được UNESCO công nhận là Di sản Thiên nhiên Thế giới!",
+  },
+  "tieng-viet:3:mo-rong-von-tu-ve-le-hoi": {
+    objectives: ["Mở rộng vốn từ theo chủ điểm lễ hội truyền thống.", "Hiểu nghĩa và biết cách sử dụng từ ngữ mới.", "Vận dụng vào việc đặt câu."],
+    sections: [
+      { heading: "1. Từ ngữ về lễ hội", body: ["Lễ hội, đình làng, rước kiệu, múa lân, hội chợ, pháo hoa, trò chơi dân gian."] },
+      { heading: "2. Một số lễ hội tiêu biểu", body: ["Tết Nguyên Đán, Tết Trung Thu, lễ hội chùa Hương, lễ hội đền Hùng."] },
+      { heading: "3. Vận dụng vào câu văn", body: ["Em hãy thử đặt câu: 'Vào dịp Tết Trung Thu, các bạn nhỏ thường được rước đèn và múa lân.'"] },
+    ],
+    quiz: [
+      { question: "Từ nào thuộc chủ điểm lễ hội?", options: ["Múa lân", "Bàn học", "Quyển vở", "Cây bút"], correctIndex: 0, explanation: "'Múa lân' là hoạt động thường thấy trong lễ hội." },
+      { question: "Lễ hội nào diễn ra vào dịp Tết Nguyên Đán?", options: ["Rước kiệu", "Trung Thu", "Lễ hội chùa Hương", "Cả ba đáp án trên"], correctIndex: 2, explanation: "Lễ hội chùa Hương thường diễn ra vào đầu năm, gần dịp Tết." },
+      { question: "Từ nào chỉ hoạt động vui chơi trong lễ hội?", options: ["Trò chơi dân gian", "Làm bài kiểm tra", "Đi ngủ", "Học bài"], correctIndex: 0, explanation: "'Trò chơi dân gian' thường xuất hiện trong các lễ hội." },
+    ],
+    funFact: "Bạn có biết? Lễ hội đền Hùng được tổ chức vào ngày 10/3 âm lịch hàng năm để tưởng nhớ các Vua Hùng đã có công dựng nước!",
+  },
+  "tieng-viet:3:mo-rong-von-tu-ve-nghe-nghiep": {
+    objectives: ["Mở rộng vốn từ theo chủ điểm nghề nghiệp.", "Hiểu nghĩa và biết cách sử dụng từ ngữ mới.", "Vận dụng vào việc đặt câu."],
+    sections: [
+      { heading: "1. Từ ngữ về nghề nghiệp", body: ["Bác sĩ, giáo viên, công an, bộ đội, nông dân, công nhân, kỹ sư, ca sĩ."] },
+      { heading: "2. Công việc của mỗi nghề", body: ["Bác sĩ khám chữa bệnh, giáo viên dạy học, nông dân trồng trọt, công an giữ gìn trật tự."] },
+      { heading: "3. Vận dụng vào câu văn", body: ["Em hãy thử đặt câu: 'Bác sĩ là người khám và chữa bệnh cho mọi người.'"] },
+    ],
+    quiz: [
+      { question: "Nghề nào có nhiệm vụ khám chữa bệnh?", options: ["Giáo viên", "Bác sĩ", "Nông dân", "Ca sĩ"], correctIndex: 1, explanation: "Bác sĩ là người khám chữa bệnh." },
+      { question: "Nghề nào có nhiệm vụ dạy học?", options: ["Bác sĩ", "Công an", "Giáo viên", "Nông dân"], correctIndex: 2, explanation: "Giáo viên là người dạy học." },
+      { question: "Từ nào chỉ nghề nghiệp?", options: ["Kỹ sư", "Quyển sách", "Cái bàn", "Con mèo"], correctIndex: 0, explanation: "'Kỹ sư' là một nghề nghiệp." },
+    ],
+    funFact: "Bạn có biết? Có hàng nghìn nghề nghiệp khác nhau trong xã hội, mỗi nghề đều đóng góp quan trọng cho cuộc sống!",
+  },
+  "tieng-viet:3:mo-rong-von-tu-ve-the-thao": {
+    objectives: ["Mở rộng vốn từ theo chủ điểm thể thao.", "Hiểu nghĩa và biết cách sử dụng từ ngữ mới.", "Vận dụng vào việc đặt câu."],
+    sections: [
+      { heading: "1. Từ ngữ về môn thể thao", body: ["Bóng đá, bóng rổ, bơi lội, cầu lông, bóng bàn, điền kinh, võ thuật."] },
+      { heading: "2. Từ ngữ liên quan đến thi đấu", body: ["Vận động viên, huấn luyện viên, sân vận động, huy chương, chiến thắng."] },
+      { heading: "3. Vận dụng vào câu văn", body: ["Em hãy thử đặt câu: 'Đội tuyển bóng đá đã giành chiến thắng trong trận đấu hôm qua.'"] },
+    ],
+    quiz: [
+      { question: "Từ nào thuộc chủ điểm thể thao?", options: ["Bóng đá", "Quyển sách", "Cái bàn", "Con mèo"], correctIndex: 0, explanation: "'Bóng đá' là một môn thể thao." },
+      { question: "Người huấn luyện các vận động viên được gọi là gì?", options: ["Bác sĩ", "Huấn luyện viên", "Giáo viên", "Ca sĩ"], correctIndex: 1, explanation: "Huấn luyện viên là người huấn luyện vận động viên." },
+      { question: "Phần thưởng dành cho vận động viên chiến thắng thường gọi là gì?", options: ["Huy chương", "Quyển vở", "Cây bút", "Hộp bút"], correctIndex: 0, explanation: "Huy chương là phần thưởng cho vận động viên chiến thắng." },
+    ],
+    funFact: "Bạn có biết? Thể thao không chỉ giúp cơ thể khoẻ mạnh mà còn rèn luyện tinh thần đồng đội, ý chí kiên trì!",
+  },
+  "tieng-viet:3:cau-co-trang-ngu-chi-thoi-gian": {
+    objectives: ["Nhận biết trạng ngữ chỉ thời gian trong câu.", "Hiểu tác dụng của trạng ngữ chỉ thời gian.", "Đặt được câu có trạng ngữ chỉ thời gian."],
+    sections: [
+      { heading: "1. Trạng ngữ chỉ thời gian là gì?", body: ["Trạng ngữ chỉ thời gian là thành phần trong câu cho biết thời điểm sự việc diễn ra, thường đứng đầu câu."] },
+      { heading: "2. Ví dụ minh hoạ", body: ["'Sáng nay, em đi học sớm.' — 'Sáng nay' là trạng ngữ chỉ thời gian."] },
+      { heading: "3. Cách đặt câu có trạng ngữ", body: ["Em có thể bắt đầu câu bằng các từ chỉ thời gian như 'hôm qua', 'sáng nay', 'mùa hè năm ngoái' rồi mới đến phần chính của câu."] },
+    ],
+    quiz: [
+      { question: "Trong câu 'Hôm qua, em đi thăm ông bà.', bộ phận nào là trạng ngữ chỉ thời gian?", options: ["Em", "Hôm qua", "đi thăm", "ông bà"], correctIndex: 1, explanation: "'Hôm qua' cho biết thời điểm sự việc diễn ra." },
+      { question: "Từ nào thường dùng làm trạng ngữ chỉ thời gian?", options: ["Sáng nay", "Con mèo", "Quyển sách", "Cái bàn"], correctIndex: 0, explanation: "'Sáng nay' chỉ thời gian, có thể làm trạng ngữ." },
+      { question: "Trạng ngữ chỉ thời gian thường trả lời cho câu hỏi nào?", options: ["Ở đâu?", "Khi nào?", "Như thế nào?", "Tại sao?"], correctIndex: 1, explanation: "Trạng ngữ chỉ thời gian trả lời cho câu hỏi 'Khi nào?'." },
+    ],
+    funFact: "Bạn có biết? Trạng ngữ giúp câu văn cung cấp thêm thông tin chi tiết, làm cho câu văn rõ ràng và sinh động hơn!",
+  },
+  "tieng-viet:3:cau-co-trang-ngu-chi-noi-chon": {
+    objectives: ["Nhận biết trạng ngữ chỉ nơi chốn trong câu.", "Hiểu tác dụng của trạng ngữ chỉ nơi chốn.", "Đặt được câu có trạng ngữ chỉ nơi chốn."],
+    sections: [
+      { heading: "1. Trạng ngữ chỉ nơi chốn là gì?", body: ["Trạng ngữ chỉ nơi chốn cho biết địa điểm sự việc diễn ra, thường đứng đầu câu."] },
+      { heading: "2. Ví dụ minh hoạ", body: ["'Ở sân trường, các bạn đang chơi nhảy dây.' — 'Ở sân trường' là trạng ngữ chỉ nơi chốn."] },
+      { heading: "3. Cách đặt câu có trạng ngữ", body: ["Em có thể bắt đầu câu bằng các cụm từ chỉ nơi chốn như 'trong lớp học', 'trên cánh đồng', 'ở nhà' rồi mới đến phần chính của câu."] },
+    ],
+    quiz: [
+      { question: "Trong câu 'Trong vườn, hoa đang nở rộ.', bộ phận nào là trạng ngữ chỉ nơi chốn?", options: ["Hoa", "Trong vườn", "đang nở", "rộ"], correctIndex: 1, explanation: "'Trong vườn' cho biết địa điểm sự việc diễn ra." },
+      { question: "Trạng ngữ chỉ nơi chốn thường trả lời cho câu hỏi nào?", options: ["Khi nào?", "Ở đâu?", "Như thế nào?", "Vì sao?"], correctIndex: 1, explanation: "Trạng ngữ chỉ nơi chốn trả lời cho câu hỏi 'Ở đâu?'." },
+      { question: "Cụm từ nào có thể làm trạng ngữ chỉ nơi chốn?", options: ["Hôm qua", "Trên cánh đồng", "Rất nhanh", "Vì trời mưa"], correctIndex: 1, explanation: "'Trên cánh đồng' chỉ địa điểm, có thể làm trạng ngữ nơi chốn." },
+    ],
+    funFact: "Bạn có biết? Trạng ngữ có thể đứng ở đầu câu, giữa câu hoặc cuối câu tuỳ theo cách diễn đạt của người viết!",
+  },
+  "tieng-viet:3:dau-hai-cham-va-cach-dung": {
+    objectives: ["Nhận biết dấu hai chấm trong câu văn.", "Hiểu các trường hợp sử dụng dấu hai chấm.", "Vận dụng đúng dấu hai chấm khi viết câu."],
+    sections: [
+      { heading: "1. Dấu hai chấm dùng khi nào?", body: ["Dấu hai chấm thường dùng để báo hiệu lời giải thích, liệt kê, hoặc lời nói trực tiếp phía sau."] },
+      { heading: "2. Ví dụ minh hoạ", body: ["'Lớp em có nhiều bạn giỏi: Lan, Hùng, Mai.' (liệt kê) hoặc 'Mẹ nói: \"Con nhớ học bài nhé.\"' (lời nói trực tiếp)."] },
+      { heading: "3. Lưu ý khi dùng", body: ["Sau dấu hai chấm thường là phần giải thích, bổ sung ý nghĩa cho phần trước đó."] },
+    ],
+    quiz: [
+      { question: "Dấu hai chấm thường dùng để làm gì?", options: ["Kết thúc câu", "Báo hiệu lời giải thích, liệt kê", "Ngắt câu tuỳ ý", "Không có tác dụng gì"], correctIndex: 1, explanation: "Dấu hai chấm báo hiệu phần giải thích hoặc liệt kê phía sau." },
+      { question: "Câu nào sử dụng đúng dấu hai chấm?", options: ["Lớp em có: Lan Hùng Mai.", "Lớp em có nhiều bạn: Lan, Hùng, Mai.", "Lớp em: có nhiều bạn giỏi", "Lớp em có nhiều: bạn giỏi"], correctIndex: 1, explanation: "Dấu hai chấm đặt trước phần liệt kê tên các bạn." },
+      { question: "Dấu hai chấm có thể xuất hiện trước loại câu nào?", options: ["Lời nói trực tiếp", "Không xuất hiện trước câu nào", "Chỉ trước số", "Chỉ trước tên riêng"], correctIndex: 0, explanation: "Dấu hai chấm thường xuất hiện trước lời nói trực tiếp." },
+    ],
+    funFact: "Bạn có biết? Dấu hai chấm còn được dùng trong toán học để biểu diễn phép chia, ví dụ 10:2=5!",
+  },
+  "tieng-viet:3:dau-ngoac-kep-va-cach-dung": {
+    objectives: ["Nhận biết dấu ngoặc kép trong câu văn.", "Hiểu các trường hợp sử dụng dấu ngoặc kép.", "Vận dụng đúng dấu ngoặc kép khi viết câu."],
+    sections: [
+      { heading: "1. Dấu ngoặc kép dùng khi nào?", body: ["Dấu ngoặc kép dùng để đánh dấu lời nói trực tiếp của nhân vật, hoặc trích dẫn nguyên văn một câu nói."] },
+      { heading: "2. Ví dụ minh hoạ", body: ["Bạn Lan nói: \"Hôm nay trời đẹp quá!\" — Lời nói của Lan được đặt trong dấu ngoặc kép."] },
+      { heading: "3. Lưu ý khi dùng", body: ["Dấu ngoặc kép luôn đi thành cặp, mở đầu và kết thúc phần lời nói hoặc trích dẫn."] },
+    ],
+    quiz: [
+      { question: "Dấu ngoặc kép thường dùng để làm gì?", options: ["Kết thúc câu", "Đánh dấu lời nói trực tiếp", "Ngắt câu tuỳ ý", "Không có tác dụng gì"], correctIndex: 1, explanation: "Dấu ngoặc kép đánh dấu lời nói trực tiếp của nhân vật." },
+      { question: "Câu nào sử dụng đúng dấu ngoặc kép?", options: ["Bạn nói tôi rất vui.", "Bạn nói: \"Tôi rất vui.\"", "Bạn nói \"tôi rất vui", "Bạn nói tôi \"rất vui\""], correctIndex: 1, explanation: "Lời nói trực tiếp được đặt trong dấu ngoặc kép." },
+      { question: "Dấu ngoặc kép thường đi theo cặp như thế nào?", options: ["Chỉ có một dấu", "Có dấu mở đầu và dấu kết thúc", "Không cần theo cặp", "Chỉ dùng ở cuối câu"], correctIndex: 1, explanation: "Dấu ngoặc kép luôn có một dấu mở đầu và một dấu kết thúc." },
+    ],
+    funFact: "Bạn có biết? Dấu ngoặc kép còn được dùng để nhấn mạnh một từ ngữ đặc biệt hoặc mang nghĩa mỉa mai trong văn viết!",
+  },
+  "tieng-viet:3:dau-gach-ngang-trong-loi-thoai": {
+    objectives: ["Nhận biết dấu gạch ngang trong lời thoại.", "Hiểu cách sử dụng dấu gạch ngang khi viết hội thoại.", "Vận dụng đúng khi viết đoạn văn có lời thoại."],
+    sections: [
+      { heading: "1. Dấu gạch ngang dùng khi nào?", body: ["Dấu gạch ngang thường đặt ở đầu dòng để đánh dấu lời nói của từng nhân vật trong đoạn hội thoại."] },
+      { heading: "2. Ví dụ minh hoạ", body: ["- Bạn có khoẻ không? / - Mình khoẻ, cảm ơn bạn! — Mỗi lời thoại của từng nhân vật bắt đầu bằng dấu gạch ngang."] },
+      { heading: "3. Lưu ý khi dùng", body: ["Mỗi lượt lời của một nhân vật trong hội thoại nên được viết trên một dòng riêng, bắt đầu bằng dấu gạch ngang."] },
+    ],
+    quiz: [
+      { question: "Dấu gạch ngang trong lời thoại thường đặt ở đâu?", options: ["Cuối dòng", "Đầu dòng, trước lời nói", "Giữa câu", "Không có vị trí cố định"], correctIndex: 1, explanation: "Dấu gạch ngang thường đặt ở đầu dòng trước lời thoại." },
+      { question: "Dấu gạch ngang trong hội thoại có tác dụng gì?", options: ["Kết thúc câu", "Đánh dấu lời nói của từng nhân vật", "Không có tác dụng", "Chỉ để trang trí"], correctIndex: 1, explanation: "Dấu gạch ngang giúp phân biệt lời nói của từng nhân vật." },
+      { question: "Khi viết đoạn hội thoại có nhiều nhân vật, mỗi lời thoại nên viết như thế nào?", options: ["Viết chung một dòng", "Viết trên dòng riêng với dấu gạch ngang", "Không cần phân biệt", "Viết không cần dấu gì"], correctIndex: 1, explanation: "Mỗi lời thoại nên viết trên dòng riêng, có dấu gạch ngang." },
+    ],
+    funFact: "Bạn có biết? Dấu gạch ngang còn được dùng để nối các từ trong một số từ ghép như 'đông-tây', 'Việt-Nga'!",
+  },
+  "tieng-viet:3:chinh-ta-phan-biet-l-n": {
+    objectives: ["Phân biệt cách viết các tiếng có âm l, n.", "Viết đúng chính tả những từ dễ nhầm lẫn.", "Vận dụng vào bài chính tả, tập làm văn."],
+    sections: [
+      { heading: "1. Cách phân biệt l và n", body: ["Âm 'l' và 'n' dễ bị nhầm lẫn, đặc biệt ở một số vùng miền. Em cần chú ý nghe và phát âm chuẩn để viết đúng."] },
+      { heading: "2. Một số từ dễ nhầm", body: ["'Nóng' - không phải 'lóng', 'lo lắng' - không phải 'no lắng', 'nước' - không phải 'lước'."] },
+      { heading: "3. Mẹo ghi nhớ", body: ["Em có thể ghi nhớ qua các câu, cụm từ quen thuộc như 'nồi nào úp vung nấy' để phân biệt âm n."] },
+    ],
+    quiz: [
+      { question: "Từ nào viết đúng chính tả?", options: ["Lước mắt", "Nước mắt", "Cả hai đều đúng", "Cả hai đều sai"], correctIndex: 1, explanation: "'Nước mắt' viết đúng chính tả với âm 'n'." },
+      { question: "Từ nào viết đúng chính tả?", options: ["Lo lắng", "No lắng", "Cả hai đều đúng", "Cả hai đều sai"], correctIndex: 0, explanation: "'Lo lắng' viết đúng chính tả với âm 'l'." },
+      { question: "Từ nào viết đúng chính tả?", options: ["Nóng nực", "Lóng lực", "Cả hai đều đúng", "Cả hai đều sai"], correctIndex: 0, explanation: "'Nóng nực' viết đúng chính tả với âm 'n'." },
+    ],
+    funFact: "Bạn có biết? Việc phân biệt l/n là một trong những khó khăn phổ biến của người học tiếng Việt ở một số vùng miền Bắc Bộ!",
+  },
+  "tieng-viet:3:chinh-ta-phan-biet-s-x": {
+    objectives: ["Phân biệt cách viết các tiếng có âm s, x.", "Viết đúng chính tả những từ dễ nhầm lẫn.", "Vận dụng vào bài chính tả, tập làm văn."],
+    sections: [
+      { heading: "1. Cách phân biệt s và x", body: ["Âm 's' và 'x' cũng thường bị nhầm lẫn khi viết. Em cần chú ý nghĩa của từ để viết đúng."] },
+      { heading: "2. Một số từ dễ nhầm", body: ["'Sạch sẽ' - không phải 'xạch xẽ', 'xinh xắn' - không phải 'sinh sắn', 'sách vở' - không phải 'xách vở'."] },
+      { heading: "3. Mẹo ghi nhớ", body: ["Em có thể tra từ điển hoặc hỏi thầy cô khi không chắc chắn cách viết đúng của một từ."] },
+    ],
+    quiz: [
+      { question: "Từ nào viết đúng chính tả?", options: ["Xạch sẽ", "Sạch sẽ", "Cả hai đều đúng", "Cả hai đều sai"], correctIndex: 1, explanation: "'Sạch sẽ' viết đúng với âm 's'." },
+      { question: "Từ nào viết đúng chính tả?", options: ["Xinh xắn", "Sinh sắn", "Cả hai đều đúng", "Cả hai đều sai"], correctIndex: 0, explanation: "'Xinh xắn' viết đúng với âm 'x'." },
+      { question: "Từ nào viết đúng chính tả?", options: ["Sách vở", "Xách vở", "Cả hai đều đúng", "Cả hai đều sai"], correctIndex: 0, explanation: "'Sách vở' viết đúng với âm 's'." },
+    ],
+    funFact: "Bạn có biết? Đọc sách thường xuyên là cách hiệu quả nhất giúp em ghi nhớ cách viết đúng chính tả của nhiều từ!",
+  },
+  "tieng-viet:3:chinh-ta-phan-biet-ch-tr": {
+    objectives: ["Phân biệt cách viết các tiếng có âm ch, tr.", "Viết đúng chính tả những từ dễ nhầm lẫn.", "Vận dụng vào bài chính tả, tập làm văn."],
+    sections: [
+      { heading: "1. Cách phân biệt ch và tr", body: ["Âm 'ch' và 'tr' cũng dễ gây nhầm lẫn. Em cần luyện tập thường xuyên để viết đúng."] },
+      { heading: "2. Một số từ dễ nhầm", body: ["'Cây tre' - không phải 'cây che', 'chăm chỉ' - không phải 'trăm trỉ', 'trường học' - không phải 'chường học'."] },
+      { heading: "3. Mẹo ghi nhớ", body: ["Em nên đọc nhiều và chú ý khi gặp các từ có âm ch, tr để ghi nhớ cách viết đúng."] },
+    ],
+    quiz: [
+      { question: "Từ nào viết đúng chính tả?", options: ["Cây che", "Cây tre", "Cả hai đều đúng", "Cả hai đều sai"], correctIndex: 1, explanation: "'Cây tre' viết đúng với âm 'tr'." },
+      { question: "Từ nào viết đúng chính tả?", options: ["Chăm chỉ", "Trăm trỉ", "Cả hai đều đúng", "Cả hai đều sai"], correctIndex: 0, explanation: "'Chăm chỉ' viết đúng với âm 'ch'." },
+      { question: "Từ nào viết đúng chính tả?", options: ["Chường học", "Trường học", "Cả hai đều đúng", "Cả hai đều sai"], correctIndex: 1, explanation: "'Trường học' viết đúng với âm 'tr'." },
+    ],
+    funFact: "Bạn có biết? Tre là loài cây gắn liền với hình ảnh làng quê Việt Nam, xuất hiện trong rất nhiều câu chuyện, bài thơ!",
+  },
+  "tieng-viet:3:chinh-ta-phan-biet-dau-hoi-dau-nga": {
+    objectives: ["Phân biệt cách viết các tiếng có dấu hỏi, dấu ngã.", "Viết đúng chính tả những từ dễ nhầm lẫn.", "Vận dụng vào bài chính tả, tập làm văn."],
+    sections: [
+      { heading: "1. Cách phân biệt dấu hỏi và dấu ngã", body: ["Dấu hỏi (ả, ể...) và dấu ngã (ã, ễ...) thường gây nhầm lẫn khi viết, đặc biệt với người ở miền Nam, miền Trung."] },
+      { heading: "2. Một số từ dễ nhầm", body: ["'Sữa' (uống sữa) khác với 'sửa' (sửa chữa), 'ngã' (ngã xuống) khác với 'ngả' (nghiêng)."] },
+      { heading: "3. Mẹo ghi nhớ", body: ["Em nên tra từ điển hoặc ghi chú lại các từ hay nhầm lẫn để luyện viết đúng dần."] },
+    ],
+    quiz: [
+      { question: "Từ nào có nghĩa là 'đồ uống từ sữa bò'?", options: ["Sữa", "Sửa", "Cả hai đều đúng", "Cả hai đều sai"], correctIndex: 0, explanation: "'Sữa' (dấu ngã) là đồ uống, còn 'sửa' (dấu hỏi) nghĩa là chữa lại." },
+      { question: "Từ nào có nghĩa là 'chữa lại đồ vật hỏng'?", options: ["Sữa", "Sửa", "Cả hai đều đúng", "Cả hai đều sai"], correctIndex: 1, explanation: "'Sửa' (dấu hỏi) nghĩa là chữa lại đồ vật hỏng." },
+      { question: "Từ nào viết đúng khi nói về việc 'bị té xuống đất'?", options: ["Ngã", "Ngả", "Cả hai đều đúng", "Cả hai đều sai"], correctIndex: 0, explanation: "'Ngã' (dấu ngã) nghĩa là bị té xuống." },
+    ],
+    funFact: "Bạn có biết? Tiếng Việt có 6 thanh điệu (không dấu, sắc, huyền, hỏi, ngã, nặng) — nhiều hơn hầu hết các ngôn ngữ trên thế giới!",
+  },
+  "tieng-viet:3:doc-hieu-bai-bao-thieu-nhi": {
+    objectives: ["Đọc hiểu một bài báo dành cho thiếu nhi.", "Tìm được thông tin chính trong bài báo.", "Trả lời câu hỏi liên quan đến nội dung bài báo."],
+    sections: [
+      { heading: "1. Bài báo thiếu nhi là gì?", body: ["Bài báo thiếu nhi là bài viết cung cấp thông tin, kiến thức phù hợp với lứa tuổi học sinh, thường đăng trên báo Nhi đồng, báo Thiếu niên."] },
+      { heading: "2. Cách đọc hiểu bài báo", body: ["Em cần đọc tiêu đề để biết chủ đề chính, sau đó đọc kỹ nội dung để nắm thông tin quan trọng."] },
+      { heading: "3. Trả lời câu hỏi", body: ["Sau khi đọc, em nên trả lời được: bài báo nói về điều gì, thông tin chính là gì, bài học rút ra (nếu có)."] },
+    ],
+    quiz: [
+      { question: "Bài báo thiếu nhi thường có nội dung như thế nào?", options: ["Phù hợp với lứa tuổi học sinh", "Quá khó hiểu với trẻ em", "Không có nội dung cụ thể", "Chỉ có hình ảnh, không có chữ"], correctIndex: 0, explanation: "Bài báo thiếu nhi được viết phù hợp với lứa tuổi học sinh." },
+      { question: "Để nắm được chủ đề chính của bài báo, em nên đọc gì trước?", options: ["Chỉ đọc câu cuối", "Đọc tiêu đề bài báo", "Bỏ qua tiêu đề", "Không cần đọc gì"], correctIndex: 1, explanation: "Tiêu đề giúp em biết chủ đề chính của bài báo." },
+      { question: "Sau khi đọc bài báo, em nên làm gì?", options: ["Quên ngay nội dung", "Trả lời được thông tin chính của bài", "Không cần suy nghĩ gì", "Chỉ nhớ tên bài báo"], correctIndex: 1, explanation: "Cần nắm được thông tin chính sau khi đọc bài báo." },
+    ],
+    funFact: "Bạn có biết? Báo Nhi Đồng là một trong những tờ báo dành cho thiếu nhi lâu đời nhất ở Việt Nam!",
+  },
+  "tieng-viet:3:doc-hieu-truyen-ngu-ngon": {
+    objectives: ["Đọc hiểu một truyện ngụ ngôn ngắn.", "Rút ra được bài học từ truyện ngụ ngôn.", "Trả lời câu hỏi liên quan đến nội dung truyện."],
+    sections: [
+      { heading: "1. Truyện ngụ ngôn là gì?", body: ["Truyện ngụ ngôn là truyện ngắn thường mượn hình ảnh loài vật, đồ vật để gửi gắm một bài học về cách sống, cách ứng xử."] },
+      { heading: "2. Một số truyện ngụ ngôn quen thuộc", body: ["'Rùa và Thỏ', 'Ếch ngồi đáy giếng', 'Con cáo và chùm nho' là những truyện ngụ ngôn nổi tiếng."] },
+      { heading: "3. Rút ra bài học", body: ["Sau khi đọc, em cần suy nghĩ xem truyện muốn nhắn nhủ bài học gì, ví dụ truyện 'Rùa và Thỏ' dạy về sự kiên trì."] },
+    ],
+    quiz: [
+      { question: "Truyện ngụ ngôn thường mượn hình ảnh gì để kể chuyện?", options: ["Con người thật", "Loài vật, đồ vật", "Chỉ có số liệu", "Không có hình ảnh nào"], correctIndex: 1, explanation: "Truyện ngụ ngôn thường mượn hình ảnh loài vật, đồ vật." },
+      { question: "Truyện 'Rùa và Thỏ' dạy bài học gì?", options: ["Sự kiêu ngạo sẽ thất bại, kiên trì sẽ chiến thắng", "Không có bài học gì", "Chỉ để giải trí", "Dạy về nấu ăn"], correctIndex: 0, explanation: "Truyện dạy bài học về sự kiên trì và không nên kiêu ngạo." },
+      { question: "Đặc điểm nổi bật của truyện ngụ ngôn là gì?", options: ["Luôn có bài học ý nghĩa", "Không có ý nghĩa gì", "Chỉ kể về con người", "Không có nhân vật"], correctIndex: 0, explanation: "Truyện ngụ ngôn luôn mang một bài học, ý nghĩa nhất định." },
+    ],
+    funFact: "Bạn có biết? Truyện ngụ ngôn nổi tiếng của Aesop (Hy Lạp cổ đại) đã được dịch ra hàng trăm ngôn ngữ trên thế giới!",
+  },
+  "tieng-viet:3:doc-hieu-truyen-co-tich-viet-nam": {
+    objectives: ["Đọc hiểu một truyện cổ tích Việt Nam.", "Cảm nhận được nội dung, ý nghĩa của truyện.", "Trả lời câu hỏi liên quan đến nội dung truyện."],
+    sections: [
+      { heading: "1. Truyện cổ tích Việt Nam", body: ["Truyện cổ tích Việt Nam thường kể về những nhân vật hiền lành, chăm chỉ vượt qua khó khăn để có cuộc sống tốt đẹp."] },
+      { heading: "2. Một số truyện cổ tích quen thuộc", body: ["'Tấm Cám', 'Sọ Dừa', 'Thạch Sanh', 'Cây tre trăm đốt' là những truyện cổ tích nổi tiếng của Việt Nam."] },
+      { heading: "3. Ý nghĩa của truyện cổ tích", body: ["Truyện cổ tích thường thể hiện ước mơ về công bằng: người tốt được đền đáp, kẻ xấu bị trừng phạt."] },
+    ],
+    quiz: [
+      { question: "Truyện cổ tích nào có nhân vật chính là cô Tấm?", options: ["Sọ Dừa", "Tấm Cám", "Thạch Sanh", "Cây tre trăm đốt"], correctIndex: 1, explanation: "'Tấm Cám' là truyện cổ tích có nhân vật chính là cô Tấm." },
+      { question: "Truyện cổ tích Việt Nam thường thể hiện ước mơ gì?", options: ["Sự bất công", "Công bằng: người tốt được đền đáp", "Không có ước mơ nào", "Chỉ để giải trí"], correctIndex: 1, explanation: "Truyện cổ tích thường thể hiện ước mơ về công bằng." },
+      { question: "Nhân vật trong truyện cổ tích Việt Nam thường có đặc điểm gì?", options: ["Hiền lành, chăm chỉ", "Luôn xấu xa", "Không có tính cách", "Chỉ là đồ vật"], correctIndex: 0, explanation: "Nhân vật chính trong truyện cổ tích thường hiền lành, chăm chỉ." },
+    ],
+    funFact: "Bạn có biết? Truyện cổ tích Việt Nam đã được truyền miệng qua nhiều thế hệ trước khi được ghi chép thành sách!",
+  },
+  "tieng-viet:3:ke-chuyen-theo-tranh-minh-hoa": {
+    objectives: ["Quan sát tranh minh hoạ để hiểu nội dung câu chuyện.", "Kể lại câu chuyện dựa vào các bức tranh.", "Rèn kỹ năng diễn đạt mạch lạc."],
+    sections: [
+      { heading: "1. Cách quan sát tranh", body: ["Em cần quan sát kỹ từng bức tranh: có những nhân vật nào, đang làm gì, ở đâu."] },
+      { heading: "2. Sắp xếp nội dung theo tranh", body: ["Các bức tranh thường được sắp xếp theo trình tự câu chuyện, em kể lần lượt theo đúng thứ tự tranh."] },
+      { heading: "3. Kể chuyện mạch lạc", body: ["Khi kể, em nên nối các ý giữa các tranh bằng những từ ngữ chuyển tiếp như 'sau đó', 'tiếp theo', 'cuối cùng'."] },
+    ],
+    quiz: [
+      { question: "Khi kể chuyện theo tranh, em cần làm gì đầu tiên?", options: ["Kể ngay không cần xem tranh", "Quan sát kỹ từng bức tranh", "Bỏ qua tranh", "Chỉ đọc tên truyện"], correctIndex: 1, explanation: "Cần quan sát kỹ tranh để hiểu nội dung trước khi kể." },
+      { question: "Các bức tranh trong câu chuyện thường được sắp xếp theo gì?", options: ["Ngẫu nhiên", "Trình tự câu chuyện", "Không theo trình tự nào", "Theo màu sắc"], correctIndex: 1, explanation: "Tranh minh hoạ thường sắp xếp theo trình tự câu chuyện." },
+      { question: "Từ ngữ nào giúp kể chuyện mạch lạc hơn?", options: ["Sau đó, tiếp theo, cuối cùng", "Không cần từ ngữ nối", "Chỉ dùng một từ duy nhất", "Không có từ nào phù hợp"], correctIndex: 0, explanation: "Các từ ngữ chuyển tiếp giúp câu chuyện mạch lạc hơn." },
+    ],
+    funFact: "Bạn có biết? Kể chuyện theo tranh là một trong những cách học ngôn ngữ hiệu quả nhất dành cho trẻ nhỏ trên toàn thế giới!",
+  },
+  "tieng-viet:3:ke-lai-mot-buoi-tham-quan": {
+    objectives: ["Nhớ lại và kể lại một buổi tham quan đáng nhớ.", "Sắp xếp nội dung kể theo trình tự hợp lý.", "Thể hiện cảm xúc khi kể chuyện."],
+    sections: [
+      { heading: "1. Chuẩn bị nội dung kể", body: ["Em cần nhớ lại: buổi tham quan diễn ra ở đâu, khi nào, có những hoạt động gì đáng nhớ."] },
+      { heading: "2. Trình tự kể chuyện", body: ["Kể theo trình tự: chuẩn bị trước khi đi, các hoạt động trong buổi tham quan, cảm xúc sau khi kết thúc."] },
+      { heading: "3. Thể hiện cảm xúc", body: ["Em nên chia sẻ cảm xúc của mình (vui, thích thú, ngạc nhiên...) để câu chuyện thêm sinh động."] },
+    ],
+    quiz: [
+      { question: "Khi kể về một buổi tham quan, em nên nhớ lại điều gì trước?", options: ["Địa điểm, thời gian, hoạt động đáng nhớ", "Không cần nhớ gì", "Chỉ cần nhớ tên địa điểm", "Chỉ cần nhớ ngày tháng"], correctIndex: 0, explanation: "Cần nhớ đầy đủ địa điểm, thời gian và hoạt động đáng nhớ." },
+      { question: "Kể chuyện về buổi tham quan nên theo trình tự nào?", options: ["Chuẩn bị, hoạt động, cảm xúc sau khi kết thúc", "Kể lộn xộn không cần trình tự", "Chỉ kể phần kết thúc", "Không cần trình tự nào"], correctIndex: 0, explanation: "Kể theo trình tự giúp câu chuyện rõ ràng, dễ hiểu." },
+      { question: "Vì sao nên thể hiện cảm xúc khi kể chuyện?", options: ["Không cần thiết", "Giúp câu chuyện sinh động hơn", "Làm câu chuyện khó hiểu", "Không có tác dụng gì"], correctIndex: 1, explanation: "Thể hiện cảm xúc giúp câu chuyện sinh động, chân thực hơn." },
+    ],
+    funFact: "Bạn có biết? Ghi nhật ký sau mỗi chuyến tham quan là một cách hay để lưu giữ kỷ niệm và luyện kỹ năng viết!",
+  },
+  "tieng-viet:3:ke-ve-mot-ngay-cua-em": {
+    objectives: ["Nhớ lại các hoạt động trong một ngày của bản thân.", "Kể lại theo trình tự thời gian hợp lý.", "Rèn kỹ năng diễn đạt tự nhiên."],
+    sections: [
+      { heading: "1. Nhớ lại hoạt động trong ngày", body: ["Em hãy nhớ lại các hoạt động từ sáng đến tối: thức dậy, đi học, học bài, vui chơi, đi ngủ."] },
+      { heading: "2. Kể theo trình tự thời gian", body: ["Kể lần lượt các hoạt động theo đúng thứ tự thời gian trong ngày, từ sáng đến tối."] },
+      { heading: "3. Kể tự nhiên, chân thực", body: ["Em nên kể bằng những từ ngữ, câu chuyện của chính mình, không cần quá cầu kỳ, hoa mỹ."] },
+    ],
+    quiz: [
+      { question: "Khi kể về một ngày của mình, em nên kể theo trình tự nào?", options: ["Lộn xộn không cần trình tự", "Theo trình tự thời gian từ sáng đến tối", "Chỉ kể một hoạt động", "Không cần trình tự"], correctIndex: 1, explanation: "Kể theo trình tự thời gian giúp câu chuyện rõ ràng." },
+      { question: "Hoạt động nào thường diễn ra đầu tiên trong ngày?", options: ["Đi ngủ", "Thức dậy", "Ăn tối", "Học bài buổi tối"], correctIndex: 1, explanation: "'Thức dậy' thường là hoạt động đầu tiên trong ngày." },
+      { question: "Khi kể về một ngày của mình, em nên kể như thế nào?", options: ["Chép văn mẫu", "Tự nhiên, chân thực theo trải nghiệm của mình", "Không cần kể thật", "Kể thật ngắn gọn, không có chi tiết"], correctIndex: 1, explanation: "Kể tự nhiên, chân thực giúp bài văn gần gũi hơn." },
+    ],
+    funFact: "Bạn có biết? Viết về một ngày của mình là bài tập phổ biến giúp trẻ em rèn luyện khả năng quan sát và diễn đạt!",
+  },
+  "tieng-viet:3:ta-buoi-sang-o-que-em": {
+    objectives: ["Quan sát và miêu tả khung cảnh buổi sáng ở quê.", "Sử dụng từ ngữ gợi tả sinh động.", "Viết được đoạn văn ngắn tả buổi sáng."],
+    sections: [
+      { heading: "1. Quan sát buổi sáng ở quê", body: ["Em có thể miêu tả: ánh nắng, tiếng gà gáy, sương sớm, cánh đồng, con đường làng."] },
+      { heading: "2. Sử dụng từ ngữ gợi tả", body: ["Các từ như 'mờ ảo', 'trong lành', 'rộn ràng' giúp bài văn miêu tả sinh động hơn."] },
+      { heading: "3. Cấu trúc đoạn văn", body: ["Đoạn văn có thể mở đầu bằng khung cảnh chung, sau đó tả chi tiết một vài hình ảnh nổi bật."] },
+    ],
+    quiz: [
+      { question: "Hình ảnh nào thường xuất hiện trong buổi sáng ở quê?", options: ["Tiếng gà gáy", "Đèn giao thông", "Xe buýt", "Toà nhà cao tầng"], correctIndex: 0, explanation: "Tiếng gà gáy là âm thanh quen thuộc buổi sáng ở quê." },
+      { question: "Từ nào phù hợp để tả sương sớm?", options: ["Ồn ào", "Mờ ảo", "Nóng bức", "Chật chội"], correctIndex: 1, explanation: "'Mờ ảo' phù hợp để miêu tả sương sớm." },
+      { question: "Đoạn văn tả buổi sáng nên bắt đầu bằng gì?", options: ["Một câu hỏi bất kỳ", "Khung cảnh chung", "Một phép tính", "Không cần mở đầu"], correctIndex: 1, explanation: "Nên bắt đầu bằng khung cảnh chung rồi tả chi tiết." },
+    ],
+    funFact: "Bạn có biết? Nhiều nhà văn, nhà thơ Việt Nam đã lấy cảm hứng sáng tác từ vẻ đẹp bình dị của làng quê buổi sáng sớm!",
+  },
+  "tieng-viet:3:ta-canh-san-truong-gio-ra-choi": {
+    objectives: ["Quan sát và miêu tả không khí sân trường giờ ra chơi.", "Sử dụng từ ngữ gợi tả sinh động.", "Viết được đoạn văn ngắn tả cảnh sân trường."],
+    sections: [
+      { heading: "1. Quan sát giờ ra chơi", body: ["Em có thể miêu tả: tiếng trống báo hiệu, các bạn ùa ra sân, trò chơi nhảy dây, đá cầu, tiếng cười nói."] },
+      { heading: "2. Sử dụng từ ngữ gợi tả", body: ["Các từ như 'nhộn nhịp', 'rộn rã', 'náo nhiệt' giúp tả không khí vui tươi của giờ ra chơi."] },
+      { heading: "3. Cấu trúc đoạn văn", body: ["Đoạn văn có thể tả từ lúc trống báo hiệu đến khi các bạn chơi các trò chơi khác nhau trên sân."] },
+    ],
+    quiz: [
+      { question: "Âm thanh nào báo hiệu giờ ra chơi bắt đầu?", options: ["Tiếng chuông điện thoại", "Tiếng trống trường", "Tiếng còi xe", "Tiếng nhạc"], correctIndex: 1, explanation: "Tiếng trống trường thường báo hiệu giờ ra chơi." },
+      { question: "Từ nào phù hợp để tả không khí sân trường giờ ra chơi?", options: ["Yên tĩnh", "Nhộn nhịp", "Buồn bã", "Vắng vẻ"], correctIndex: 1, explanation: "'Nhộn nhịp' phù hợp để tả không khí vui tươi, sôi động." },
+      { question: "Hoạt động nào thường thấy trong giờ ra chơi?", options: ["Làm bài kiểm tra", "Nhảy dây, đá cầu", "Ngủ trưa", "Học bài mới"], correctIndex: 1, explanation: "Nhảy dây, đá cầu là các trò chơi phổ biến trong giờ ra chơi." },
+    ],
+    funFact: "Bạn có biết? Giờ ra chơi không chỉ giúp thư giãn mà còn giúp học sinh vận động, tăng cường sức khoẻ sau giờ học căng thẳng!",
+  },
+  "tieng-viet:3:ta-con-mua": {
+    objectives: ["Quan sát và miêu tả một cơn mưa.", "Sử dụng từ ngữ gợi tả âm thanh, hình ảnh của mưa.", "Viết được đoạn văn ngắn tả cơn mưa."],
+    sections: [
+      { heading: "1. Quan sát cơn mưa", body: ["Em có thể miêu tả: bầu trời trước khi mưa, tiếng mưa rơi, hạt mưa, cảnh vật sau cơn mưa."] },
+      { heading: "2. Sử dụng từ ngữ gợi tả", body: ["Các từ như 'lộp độp', 'tí tách', 'ào ào' giúp miêu tả âm thanh của mưa sinh động hơn."] },
+      { heading: "3. Cấu trúc đoạn văn", body: ["Đoạn văn có thể tả theo trình tự: trước khi mưa, trong khi mưa, và sau khi mưa tạnh."] },
+    ],
+    quiz: [
+      { question: "Từ nào miêu tả âm thanh của mưa rơi trên mái nhà?", options: ["Lộp độp", "Ồn ào", "Yên tĩnh", "Chậm rãi"], correctIndex: 0, explanation: "'Lộp độp' là từ tượng thanh miêu tả tiếng mưa rơi." },
+      { question: "Bầu trời trước khi mưa thường có đặc điểm gì?", options: ["Trong xanh", "Xuất hiện mây đen", "Nắng chói chang", "Không có gì đặc biệt"], correctIndex: 1, explanation: "Trước khi mưa, bầu trời thường xuất hiện mây đen." },
+      { question: "Sau cơn mưa, cảnh vật thường như thế nào?", options: ["Trở nên khô cằn", "Tươi mát, trong lành hơn", "Không thay đổi gì", "Nóng bức hơn"], correctIndex: 1, explanation: "Sau mưa, cảnh vật thường trở nên tươi mát, trong lành hơn." },
+    ],
+    funFact: "Bạn có biết? Mưa rào là hiện tượng tự nhiên giúp cây cối tươi tốt và làm sạch không khí sau những ngày nắng nóng!",
+  },
+  "tieng-viet:3:viet-doan-van-gioi-thieu-ban-than": {
+    objectives: ["Nêu được thông tin cơ bản về bản thân.", "Sắp xếp thông tin theo trình tự hợp lý.", "Viết được đoạn văn ngắn giới thiệu bản thân."],
+    sections: [
+      { heading: "1. Thông tin cần giới thiệu", body: ["Tên, tuổi, lớp học, trường học, sở thích, ước mơ của bản thân là những thông tin cơ bản cần có."] },
+      { heading: "2. Cách sắp xếp thông tin", body: ["Em nên giới thiệu tên trước, sau đó đến các thông tin khác như tuổi, lớp học, sở thích."] },
+      { heading: "3. Ví dụ minh hoạ", body: ["'Em tên là Lan, năm nay 9 tuổi, học lớp 3A trường Tiểu học Kim Đồng. Em thích đọc sách và vẽ tranh.'"] },
+    ],
+    quiz: [
+      { question: "Thông tin nào nên có trong đoạn văn giới thiệu bản thân?", options: ["Tên, tuổi, sở thích", "Chỉ có màu sắc yêu thích", "Không cần thông tin gì", "Chỉ có tên trường"], correctIndex: 0, explanation: "Tên, tuổi, sở thích là những thông tin cơ bản cần giới thiệu." },
+      { question: "Đoạn văn giới thiệu bản thân nên bắt đầu bằng gì?", options: ["Sở thích", "Tên của mình", "Một câu hỏi", "Ước mơ tương lai"], correctIndex: 1, explanation: "Nên bắt đầu bằng việc giới thiệu tên của mình." },
+      { question: "Vì sao cần giới thiệu về sở thích trong đoạn văn?", options: ["Không cần thiết", "Giúp người đọc hiểu thêm về mình", "Làm đoạn văn dài hơn", "Không có lý do gì"], correctIndex: 1, explanation: "Giới thiệu sở thích giúp người đọc hiểu thêm về bản thân em." },
+    ],
+    funFact: "Bạn có biết? Kỹ năng giới thiệu bản thân là kỹ năng quan trọng em sẽ dùng suốt đời, từ khi còn nhỏ đến khi trưởng thành!",
+  },
+  "tieng-viet:3:viet-doan-van-ke-ve-uoc-mo": {
+    objectives: ["Xác định được ước mơ của bản thân.", "Nêu được lý do vì sao có ước mơ đó.", "Viết được đoạn văn ngắn kể về ước mơ."],
+    sections: [
+      { heading: "1. Xác định ước mơ", body: ["Em hãy suy nghĩ về ước mơ của mình, có thể là một nghề nghiệp, một điều em muốn làm trong tương lai."] },
+      { heading: "2. Nêu lý do", body: ["Em nên giải thích vì sao mình có ước mơ đó, ví dụ muốn giúp đỡ mọi người, muốn khám phá điều mới."] },
+      { heading: "3. Cấu trúc đoạn văn", body: ["Đoạn văn nên có: nêu ước mơ, lý do có ước mơ, và những việc em sẽ làm để thực hiện ước mơ đó."] },
+    ],
+    quiz: [
+      { question: "Đoạn văn kể về ước mơ nên có nội dung gì?", options: ["Chỉ nêu tên ước mơ", "Nêu ước mơ và lý do có ước mơ đó", "Không cần lý do", "Chỉ kể chuyện khác"], correctIndex: 1, explanation: "Cần nêu rõ ước mơ và lý do vì sao có ước mơ đó." },
+      { question: "Ước mơ có thể là gì?", options: ["Một nghề nghiệp trong tương lai", "Không thể là gì cả", "Chỉ là đồ chơi", "Chỉ là món ăn"], correctIndex: 0, explanation: "Ước mơ thường liên quan đến nghề nghiệp hoặc điều em muốn đạt được." },
+      { question: "Vì sao nên nêu lý do cho ước mơ của mình?", options: ["Không cần thiết", "Giúp đoạn văn thuyết phục, ý nghĩa hơn", "Làm đoạn văn dài dòng", "Không có tác dụng gì"], correctIndex: 1, explanation: "Nêu lý do giúp đoạn văn có chiều sâu và ý nghĩa hơn." },
+    ],
+    funFact: "Bạn có biết? Nhiều người thành công trên thế giới đã bắt đầu từ những ước mơ nhỏ bé khi còn là học sinh tiểu học!",
+  },
+  "tieng-viet:3:viet-loi-cam-on-loi-xin-loi": {
+    objectives: ["Viết được lời cảm ơn phù hợp với tình huống.", "Viết được lời xin lỗi phù hợp với tình huống.", "Sử dụng ngôn từ lịch sự, chân thành."],
+    sections: [
+      { heading: "1. Cách viết lời cảm ơn", body: ["Lời cảm ơn cần nêu rõ lý do cảm ơn và thể hiện sự chân thành. Ví dụ: 'Em cảm ơn cô đã giúp em hiểu bài hôm nay.'"] },
+      { heading: "2. Cách viết lời xin lỗi", body: ["Lời xin lỗi cần nêu rõ lỗi mình đã mắc phải và mong muốn được tha thứ. Ví dụ: 'Em xin lỗi vì đã đến muộn.'"] },
+      { heading: "3. Lưu ý khi viết", body: ["Em nên dùng từ ngữ lịch sự, chân thành, tránh viết qua loa, thiếu tôn trọng."] },
+    ],
+    quiz: [
+      { question: "Lời cảm ơn cần có nội dung gì?", options: ["Chỉ cần nói 'cảm ơn'", "Nêu rõ lý do cảm ơn", "Không cần lý do", "Chỉ cần viết dài"], correctIndex: 1, explanation: "Lời cảm ơn nên nêu rõ lý do để thể hiện sự chân thành." },
+      { question: "Lời xin lỗi cần có nội dung gì?", options: ["Nêu rõ lỗi đã mắc phải", "Không cần nêu lỗi gì", "Chỉ cần nói 'xin lỗi'", "Đổ lỗi cho người khác"], correctIndex: 0, explanation: "Lời xin lỗi cần nêu rõ lỗi đã mắc để thể hiện sự chân thành." },
+      { question: "Khi viết lời cảm ơn, xin lỗi, em nên dùng ngôn từ như thế nào?", options: ["Thô lỗ", "Lịch sự, chân thành", "Qua loa", "Không cần chú ý"], correctIndex: 1, explanation: "Cần dùng ngôn từ lịch sự, chân thành khi viết lời cảm ơn, xin lỗi." },
+    ],
+    funFact: "Bạn có biết? Biết nói lời cảm ơn, xin lỗi đúng lúc là một trong những kỹ năng giao tiếp quan trọng nhất trong cuộc sống!",
+  },
+  "tieng-viet:3:viet-tin-nhan-loi-nhan-ngan": {
+    objectives: ["Viết được tin nhắn ngắn gọn, rõ ràng.", "Viết được lời nhắn phù hợp với tình huống.", "Đảm bảo đầy đủ thông tin cần thiết."],
+    sections: [
+      { heading: "1. Tin nhắn, lời nhắn là gì?", body: ["Tin nhắn, lời nhắn là những thông báo ngắn gọn gửi đến người khác khi không thể gặp trực tiếp."] },
+      { heading: "2. Nội dung cần có", body: ["Một tin nhắn tốt cần có: người gửi, người nhận, nội dung cần nhắn, thời gian (nếu cần)."] },
+      { heading: "3. Ví dụ minh hoạ", body: ["'Mẹ ơi, con sang nhà bạn Lan chơi, 5 giờ con về. Con - Nam.'"] },
+    ],
+    quiz: [
+      { question: "Tin nhắn, lời nhắn cần có đặc điểm gì?", options: ["Dài dòng, chi tiết", "Ngắn gọn, rõ ràng", "Không cần rõ ràng", "Viết tuỳ ý"], correctIndex: 1, explanation: "Tin nhắn cần ngắn gọn nhưng đầy đủ thông tin cần thiết." },
+      { question: "Nội dung nào nên có trong một lời nhắn?", options: ["Người gửi, người nhận, nội dung nhắn", "Chỉ cần một từ", "Không cần thông tin gì", "Chỉ cần ký tên"], correctIndex: 0, explanation: "Cần đầy đủ người gửi, người nhận và nội dung cần nhắn." },
+      { question: "Khi nào em cần viết lời nhắn?", options: ["Khi gặp trực tiếp", "Khi không thể gặp trực tiếp người cần nhắn", "Không bao giờ cần viết", "Chỉ khi đi học"], correctIndex: 1, explanation: "Lời nhắn dùng khi không thể gặp trực tiếp người cần thông báo." },
+    ],
+    funFact: "Bạn có biết? Ngày nay, tin nhắn điện thoại đã thay thế phần lớn lời nhắn viết tay, nhưng kỹ năng viết ngắn gọn, rõ ràng vẫn rất quan trọng!",
+  },
+  "tieng-viet:3:dien-tu-con-thieu-vao-cho-trong": {
+    objectives: ["Điền đúng từ phù hợp vào chỗ trống trong câu.", "Hiểu nghĩa của câu để chọn từ chính xác.", "Rèn kỹ năng đọc hiểu và vận dụng từ vựng."],
+    sections: [
+      { heading: "1. Cách làm bài điền từ", body: ["Em cần đọc kỹ cả câu để hiểu ý nghĩa, sau đó chọn từ phù hợp nhất về cả nghĩa và ngữ pháp."] },
+      { heading: "2. Ví dụ minh hoạ", body: ["'Mùa xuân, hoa đào nở ___ trên khắp các nẻo đường.' — Từ điền vào có thể là 'rực rỡ'."] },
+      { heading: "3. Lưu ý khi làm bài", body: ["Sau khi điền từ, em nên đọc lại cả câu để kiểm tra xem có hợp lý về nghĩa không."] },
+    ],
+    quiz: [
+      { question: "Khi làm bài điền từ, em cần làm gì đầu tiên?", options: ["Điền ngay không cần đọc câu", "Đọc kỹ cả câu để hiểu nghĩa", "Chọn từ bất kỳ", "Bỏ qua không làm"], correctIndex: 1, explanation: "Cần đọc kỹ câu để hiểu nghĩa trước khi điền từ." },
+      { question: "'Bầu trời hôm nay rất ___.' Từ nào phù hợp để điền vào chỗ trống?", options: ["Trong xanh", "Học sinh", "Con mèo", "Quyển sách"], correctIndex: 0, explanation: "'Trong xanh' phù hợp để miêu tả bầu trời." },
+      { question: "Sau khi điền từ vào chỗ trống, em nên làm gì?", options: ["Không cần kiểm tra lại", "Đọc lại cả câu để kiểm tra tính hợp lý", "Xoá đi ngay", "Không cần làm gì thêm"], correctIndex: 1, explanation: "Nên đọc lại để kiểm tra câu có hợp lý về nghĩa không." },
+    ],
+    funFact: "Bạn có biết? Bài tập điền từ giúp em mở rộng vốn từ và hiểu sâu hơn về ngữ pháp tiếng Việt!",
+  },
+  "tieng-viet:3:sap-xep-cau-thanh-doan-van-hop-ly": {
+    objectives: ["Sắp xếp các câu rời rạc thành đoạn văn mạch lạc.", "Nhận biết trình tự hợp lý của các câu.", "Rèn kỹ năng tư duy logic khi viết văn."],
+    sections: [
+      { heading: "1. Cách sắp xếp câu", body: ["Em cần đọc tất cả các câu, xác định câu nào là câu mở đầu, câu nào là câu kết, các câu còn lại sắp xếp theo trình tự hợp lý."] },
+      { heading: "2. Dấu hiệu nhận biết trình tự", body: ["Chú ý các từ ngữ chỉ thời gian, thứ tự như 'đầu tiên', 'sau đó', 'cuối cùng' để sắp xếp đúng."] },
+      { heading: "3. Kiểm tra lại đoạn văn", body: ["Sau khi sắp xếp, em nên đọc lại toàn bộ đoạn văn để chắc chắn các câu liên kết mạch lạc với nhau."] },
+    ],
+    quiz: [
+      { question: "Khi sắp xếp câu thành đoạn văn, em cần chú ý điều gì?", options: ["Sắp xếp ngẫu nhiên", "Trình tự hợp lý giữa các câu", "Không cần chú ý gì", "Chỉ cần đủ số câu"], correctIndex: 1, explanation: "Cần sắp xếp các câu theo trình tự hợp lý để đoạn văn mạch lạc." },
+      { question: "Từ ngữ nào giúp nhận biết trình tự các câu?", options: ["Đầu tiên, sau đó, cuối cùng", "Không có từ ngữ nào giúp ích", "Chỉ cần đếm số câu", "Chỉ cần nhìn độ dài câu"], correctIndex: 0, explanation: "Các từ chỉ thời gian, thứ tự giúp nhận biết trình tự câu." },
+      { question: "Sau khi sắp xếp xong, em nên làm gì?", options: ["Không cần kiểm tra lại", "Đọc lại để kiểm tra tính mạch lạc", "Xoá bỏ đoạn văn", "Không cần làm gì thêm"], correctIndex: 1, explanation: "Đọc lại giúp kiểm tra đoạn văn đã mạch lạc, hợp lý chưa." },
+    ],
+    funFact: "Bạn có biết? Kỹ năng sắp xếp ý tưởng theo trình tự logic rất quan trọng, không chỉ trong viết văn mà cả trong thuyết trình, giải quyết vấn đề!",
+  },
+  "tieng-viet:3:dat-cau-theo-mau-ai-lam-gi": {
+    objectives: ["Nhận biết cấu trúc câu theo mẫu Ai làm gì?", "Đặt được câu đúng theo mẫu.", "Vận dụng vào viết đoạn văn."],
+    sections: [
+      { heading: "1. Cấu trúc câu Ai làm gì?", body: ["Câu theo mẫu 'Ai làm gì?' gồm hai phần: phần 'Ai' chỉ người/vật thực hiện hành động, phần 'làm gì' chỉ hành động được thực hiện."] },
+      { heading: "2. Ví dụ minh hoạ", body: ["'Em học bài.' — 'Em' là phần Ai, 'học bài' là phần làm gì."] },
+      { heading: "3. Cách đặt câu", body: ["Em có thể chọn một chủ thể (người, con vật) rồi thêm hành động phù hợp để tạo thành câu hoàn chỉnh."] },
+    ],
+    quiz: [
+      { question: "Câu 'Chú mèo bắt chuột.' thuộc mẫu câu nào?", options: ["Ai làm gì?", "Ai thế nào?", "Ai là gì?", "Không thuộc mẫu nào"], correctIndex: 0, explanation: "Câu này có 'chú mèo' (Ai) và 'bắt chuột' (làm gì)." },
+      { question: "Trong câu 'Em học bài.', phần nào là phần 'làm gì'?", options: ["Em", "Học bài", "Cả câu", "Không có phần nào"], correctIndex: 1, explanation: "'Học bài' là hành động, thuộc phần 'làm gì'." },
+      { question: "Câu nào đúng theo mẫu Ai làm gì?", options: ["Bạn Lan rất xinh.", "Bạn Lan là học sinh giỏi.", "Bạn Lan đang đọc sách.", "Bạn Lan rất vui."], correctIndex: 2, explanation: "'Bạn Lan đang đọc sách' có Ai (Bạn Lan) và làm gì (đang đọc sách)." },
+    ],
+    funFact: "Bạn có biết? Mẫu câu Ai làm gì là một trong ba mẫu câu cơ bản mà học sinh tiểu học học đầu tiên trong tiếng Việt!",
+  },
+  "tieng-viet:3:dat-cau-theo-mau-ai-the-nao": {
+    objectives: ["Nhận biết cấu trúc câu theo mẫu Ai thế nào?", "Đặt được câu đúng theo mẫu.", "Vận dụng vào viết đoạn văn."],
+    sections: [
+      { heading: "1. Cấu trúc câu Ai thế nào?", body: ["Câu theo mẫu 'Ai thế nào?' gồm phần 'Ai' chỉ người/vật, phần 'thế nào' chỉ đặc điểm, tính chất."] },
+      { heading: "2. Ví dụ minh hoạ", body: ["'Bông hoa rất đẹp.' — 'Bông hoa' là phần Ai, 'rất đẹp' là phần thế nào."] },
+      { heading: "3. Cách đặt câu", body: ["Em có thể chọn một sự vật rồi thêm tính từ miêu tả đặc điểm để tạo thành câu hoàn chỉnh."] },
+    ],
+    quiz: [
+      { question: "Câu 'Bầu trời trong xanh.' thuộc mẫu câu nào?", options: ["Ai làm gì?", "Ai thế nào?", "Ai là gì?", "Không thuộc mẫu nào"], correctIndex: 1, explanation: "Câu này có 'bầu trời' (Ai) và 'trong xanh' (thế nào)." },
+      { question: "Trong câu 'Em rất chăm chỉ.', phần nào là phần 'thế nào'?", options: ["Em", "Rất chăm chỉ", "Cả câu", "Không có phần nào"], correctIndex: 1, explanation: "'Rất chăm chỉ' miêu tả đặc điểm, thuộc phần 'thế nào'." },
+      { question: "Câu nào đúng theo mẫu Ai thế nào?", options: ["Bạn Nam đang chạy.", "Bạn Nam là học sinh.", "Bạn Nam rất cao.", "Bạn Nam đá bóng."], correctIndex: 2, explanation: "'Bạn Nam rất cao' có Ai (Bạn Nam) và thế nào (rất cao)." },
+    ],
+    funFact: "Bạn có biết? Câu Ai thế nào thường dùng tính từ để miêu tả, giúp câu văn trở nên sinh động, giàu hình ảnh hơn!",
+  },
+  "tieng-viet:3:dat-cau-theo-mau-ai-la-gi": {
+    objectives: ["Nhận biết cấu trúc câu theo mẫu Ai là gì?", "Đặt được câu đúng theo mẫu.", "Vận dụng vào viết đoạn văn."],
+    sections: [
+      { heading: "1. Cấu trúc câu Ai là gì?", body: ["Câu theo mẫu 'Ai là gì?' gồm phần 'Ai' chỉ người/vật, phần 'là gì' giới thiệu, nhận định về đối tượng đó."] },
+      { heading: "2. Ví dụ minh hoạ", body: ["'Em là học sinh lớp 3.' — 'Em' là phần Ai, 'là học sinh lớp 3' là phần là gì."] },
+      { heading: "3. Cách đặt câu", body: ["Em có thể chọn một chủ thể rồi thêm 'là' cùng thông tin giới thiệu để tạo thành câu hoàn chỉnh."] },
+    ],
+    quiz: [
+      { question: "Câu 'Bố em là bác sĩ.' thuộc mẫu câu nào?", options: ["Ai làm gì?", "Ai thế nào?", "Ai là gì?", "Không thuộc mẫu nào"], correctIndex: 2, explanation: "Câu này có 'bố em' (Ai) và 'là bác sĩ' (là gì)." },
+      { question: "Trong câu 'Hà Nội là thủ đô của Việt Nam.', phần nào là phần 'là gì'?", options: ["Hà Nội", "Là thủ đô của Việt Nam", "Cả câu", "Không có phần nào"], correctIndex: 1, explanation: "'Là thủ đô của Việt Nam' giới thiệu về Hà Nội." },
+      { question: "Câu nào đúng theo mẫu Ai là gì?", options: ["Con mèo đang ngủ.", "Con mèo là vật nuôi trong nhà.", "Con mèo rất đáng yêu.", "Con mèo bắt chuột."], correctIndex: 1, explanation: "'Con mèo là vật nuôi trong nhà' có Ai (con mèo) và là gì (là vật nuôi)." },
+    ],
+    funFact: "Bạn có biết? Ba mẫu câu Ai làm gì, Ai thế nào, Ai là gì là nền tảng ngữ pháp cơ bản của tiếng Việt em học ở bậc tiểu học!",
+  },
+  "tieng-viet:3:luyen-doc-dien-cam-doan-van": {
+    objectives: ["Rèn kỹ năng đọc diễn cảm một đoạn văn.", "Thể hiện đúng ngữ điệu, cảm xúc khi đọc.", "Ngắt nghỉ đúng chỗ theo dấu câu."],
+    sections: [
+      { heading: "1. Đọc diễn cảm là gì?", body: ["Đọc diễn cảm là đọc thể hiện đúng ngữ điệu, cảm xúc phù hợp với nội dung đoạn văn."] },
+      { heading: "2. Cách ngắt nghỉ đúng", body: ["Em cần ngắt hơi ở dấu phẩy, nghỉ hơi ở dấu chấm, lên giọng ở câu hỏi, nhấn giọng ở từ quan trọng."] },
+      { heading: "3. Luyện tập thường xuyên", body: ["Em nên đọc to, luyện tập nhiều lần và có thể thu âm lại để tự nghe và điều chỉnh."] },
+    ],
+    quiz: [
+      { question: "Đọc diễn cảm là gì?", options: ["Đọc thật nhanh", "Đọc thể hiện đúng ngữ điệu, cảm xúc", "Đọc thật to", "Đọc không cần chú ý gì"], correctIndex: 1, explanation: "Đọc diễn cảm cần thể hiện đúng ngữ điệu, cảm xúc phù hợp." },
+      { question: "Khi gặp dấu phẩy, em nên làm gì?", options: ["Ngắt hơi ngắn", "Nghỉ hơi dài", "Không ngắt nghỉ gì", "Đọc thật nhanh qua"], correctIndex: 0, explanation: "Dấu phẩy thường yêu cầu ngắt hơi ngắn." },
+      { question: "Khi đọc câu hỏi, giọng đọc nên như thế nào?", options: ["Giữ nguyên giọng", "Lên giọng ở cuối câu", "Hạ giọng thấp", "Đọc thật nhỏ"], correctIndex: 1, explanation: "Câu hỏi thường cần lên giọng ở cuối câu." },
+    ],
+    funFact: "Bạn có biết? Đọc diễn cảm không chỉ giúp hiểu bài tốt hơn mà còn là kỹ năng quan trọng khi thuyết trình sau này!",
+  },
+  "tieng-viet:3:luyen-doc-dien-cam-bai-tho": {
+    objectives: ["Rèn kỹ năng đọc diễn cảm một bài thơ.", "Thể hiện đúng nhịp điệu, cảm xúc của bài thơ.", "Ngắt nhịp đúng theo cấu trúc câu thơ."],
+    sections: [
+      { heading: "1. Đặc điểm khi đọc thơ", body: ["Thơ có vần, nhịp điệu riêng, khi đọc cần chú ý ngắt nhịp đúng để tạo âm hưởng hay."] },
+      { heading: "2. Cách ngắt nhịp", body: ["Với thơ lục bát, thường ngắt nhịp 2/2/2 hoặc 2/4; với thơ 4 chữ, 5 chữ có nhịp riêng phù hợp."] },
+      { heading: "3. Thể hiện cảm xúc bài thơ", body: ["Em cần hiểu nội dung, cảm xúc bài thơ muốn truyền tải để đọc với giọng điệu phù hợp (vui tươi, nhẹ nhàng, tha thiết)."] },
+    ],
+    quiz: [
+      { question: "Khi đọc thơ, em cần chú ý điều gì đặc biệt?", options: ["Không cần chú ý gì", "Ngắt nhịp đúng theo cấu trúc câu thơ", "Đọc thật nhanh", "Bỏ qua vần điệu"], correctIndex: 1, explanation: "Ngắt nhịp đúng giúp bài thơ được đọc hay và đúng âm hưởng." },
+      { question: "Thơ lục bát thường có nhịp ngắt phổ biến nào?", options: ["1/1/1", "2/2/2 hoặc 2/4", "5/5", "Không có nhịp cố định"], correctIndex: 1, explanation: "Thơ lục bát thường ngắt nhịp 2/2/2 hoặc 2/4." },
+      { question: "Để đọc diễn cảm bài thơ hay, em cần hiểu điều gì trước?", options: ["Không cần hiểu gì", "Nội dung và cảm xúc bài thơ", "Chỉ cần đọc nhanh", "Chỉ cần đọc to"], correctIndex: 1, explanation: "Hiểu nội dung, cảm xúc giúp đọc diễn cảm đúng và hay hơn." },
+    ],
+    funFact: "Bạn có biết? Nhiều bài thơ thiếu nhi Việt Nam được phổ nhạc thành bài hát, giúp các em dễ nhớ và yêu thích hơn!",
+  },
+  "tieng-viet:3:tom-tat-noi-dung-mot-doan-van": {
+    objectives: ["Xác định ý chính của đoạn văn.", "Tóm tắt ngắn gọn nội dung đoạn văn.", "Rèn kỹ năng đọc hiểu, chọn lọc thông tin."],
+    sections: [
+      { heading: "1. Tóm tắt là gì?", body: ["Tóm tắt là trình bày lại nội dung chính của đoạn văn một cách ngắn gọn, không bỏ sót ý quan trọng."] },
+      { heading: "2. Cách tóm tắt hiệu quả", body: ["Em đọc kỹ đoạn văn, xác định câu chủ đề hoặc ý chính, sau đó diễn đạt lại bằng lời của mình một cách ngắn gọn."] },
+      { heading: "3. Lưu ý khi tóm tắt", body: ["Tóm tắt cần giữ đúng ý chính của đoạn văn gốc, không thêm ý kiến cá nhân hay thông tin không có trong bài."] },
+    ],
+    quiz: [
+      { question: "Tóm tắt đoạn văn là gì?", options: ["Chép lại nguyên văn", "Trình bày ngắn gọn ý chính", "Bỏ qua không đọc", "Viết dài hơn bản gốc"], correctIndex: 1, explanation: "Tóm tắt là trình bày ngắn gọn nội dung chính của đoạn văn." },
+      { question: "Khi tóm tắt, em cần chú ý điều gì?", options: ["Giữ đúng ý chính", "Thêm ý kiến cá nhân", "Bỏ hết nội dung", "Không cần đọc kỹ"], correctIndex: 0, explanation: "Cần giữ đúng ý chính của đoạn văn gốc khi tóm tắt." },
+      { question: "Để tóm tắt tốt, bước đầu tiên em cần làm gì?", options: ["Viết ngay không cần đọc", "Đọc kỹ và xác định ý chính", "Chỉ đọc câu đầu tiên", "Không cần đọc gì"], correctIndex: 1, explanation: "Cần đọc kỹ đoạn văn để xác định đúng ý chính trước khi tóm tắt." },
+    ],
+    funFact: "Bạn có biết? Kỹ năng tóm tắt rất quan trọng, được sử dụng nhiều khi em học các môn học khác và cả khi trưởng thành đi làm!",
+  },
+  "tieng-viet:3:nhan-biet-doan-van-va-cau-chu-de": {
+    objectives: ["Nhận biết cấu trúc của một đoạn văn.", "Xác định được câu chủ đề trong đoạn văn.", "Hiểu vai trò của câu chủ đề."],
+    sections: [
+      { heading: "1. Đoạn văn là gì?", body: ["Đoạn văn là một phần văn bản gồm nhiều câu liên kết với nhau, thể hiện một ý chính thống nhất."] },
+      { heading: "2. Câu chủ đề là gì?", body: ["Câu chủ đề là câu nêu ý chính của cả đoạn văn, thường đứng ở đầu hoặc cuối đoạn."] },
+      { heading: "3. Cách tìm câu chủ đề", body: ["Em đọc toàn bộ đoạn văn rồi tìm câu nào khái quát được nội dung chính của cả đoạn."] },
+    ],
+    quiz: [
+      { question: "Câu chủ đề trong đoạn văn có vai trò gì?", options: ["Không có vai trò gì", "Nêu ý chính của cả đoạn văn", "Chỉ để trang trí", "Luôn là câu cuối cùng"], correctIndex: 1, explanation: "Câu chủ đề nêu ý chính, khái quát nội dung của đoạn văn." },
+      { question: "Câu chủ đề thường xuất hiện ở vị trí nào trong đoạn văn?", options: ["Chỉ ở giữa đoạn", "Đầu hoặc cuối đoạn", "Không có vị trí cố định nào", "Luôn ở dòng thứ hai"], correctIndex: 1, explanation: "Câu chủ đề thường đứng ở đầu hoặc cuối đoạn văn." },
+      { question: "Đoạn văn là gì?", options: ["Một từ đơn lẻ", "Nhiều câu liên kết thể hiện một ý chính", "Một chữ cái", "Không có định nghĩa cụ thể"], correctIndex: 1, explanation: "Đoạn văn gồm nhiều câu liên kết với nhau, thể hiện một ý chính." },
+    ],
+    funFact: "Bạn có biết? Nhận biết câu chủ đề giúp em đọc hiểu nhanh hơn, chỉ cần đọc câu đó cũng nắm được ý chính của cả đoạn!",
+  },
+  "tieng-viet:3:viet-doan-van-ta-buoi-le-o-truong": {
+    objectives: ["Quan sát và ghi nhớ các hoạt động trong một buổi lễ ở trường.", "Miêu tả theo trình tự hợp lý.", "Viết được đoạn văn ngắn tả buổi lễ."],
+    sections: [
+      { heading: "1. Các buổi lễ thường gặp ở trường", body: ["Lễ khai giảng, lễ tổng kết năm học, lễ kỷ niệm ngày Nhà giáo Việt Nam 20/11 là những buổi lễ quen thuộc."] },
+      { heading: "2. Nội dung cần miêu tả", body: ["Em có thể tả: không khí trước buổi lễ, các hoạt động chính (chào cờ, phát biểu, văn nghệ), cảm xúc của em."] },
+      { heading: "3. Cấu trúc đoạn văn", body: ["Đoạn văn nên tả theo trình tự thời gian: trước lễ, trong lễ, và cảm xúc sau khi kết thúc buổi lễ."] },
+    ],
+    quiz: [
+      { question: "Buổi lễ nào thường diễn ra vào đầu năm học?", options: ["Lễ khai giảng", "Lễ tổng kết", "Lễ 20/11", "Lễ Giáng sinh"], correctIndex: 0, explanation: "Lễ khai giảng thường diễn ra vào đầu năm học." },
+      { question: "Khi tả buổi lễ ở trường, em nên miêu tả những gì?", options: ["Không khí, hoạt động chính, cảm xúc", "Chỉ cần tên buổi lễ", "Không cần miêu tả chi tiết", "Chỉ cần liệt kê tên người tham gia"], correctIndex: 0, explanation: "Cần miêu tả không khí, hoạt động chính và cảm xúc của em." },
+      { question: "Ngày 20/11 là ngày lễ gì?", options: ["Ngày Nhà giáo Việt Nam", "Ngày Quốc khánh", "Ngày Phụ nữ Việt Nam", "Ngày Thiếu nhi"], correctIndex: 0, explanation: "Ngày 20/11 là Ngày Nhà giáo Việt Nam." },
+    ],
+    funFact: "Bạn có biết? Lễ khai giảng ở Việt Nam thường có nghi thức đánh trống khai trường, một truyền thống lâu đời trong giáo dục!",
+  },
+  "tieng-viet:3:tu-ngu-chi-dac-diem-ngoai-hinh": {
+    objectives: ["Mở rộng vốn từ miêu tả ngoại hình con người.", "Sử dụng đúng từ ngữ khi miêu tả.", "Vận dụng vào bài văn tả người."],
+    sections: [
+      { heading: "1. Từ ngữ tả khuôn mặt, dáng người", body: ["Tròn trịa, thon gọn, cao ráo, thấp bé, gầy gò, đầy đặn là các từ miêu tả ngoại hình thường gặp."] },
+      { heading: "2. Từ ngữ tả mái tóc, làn da", body: ["Đen nhánh, óng ả, trắng hồng, rám nắng là các từ miêu tả mái tóc, làn da."] },
+      { heading: "3. Vận dụng vào câu văn", body: ["Em hãy thử đặt câu: 'Bà em có mái tóc bạc trắng và khuôn mặt hiền từ.'"] },
+    ],
+    quiz: [
+      { question: "Từ nào miêu tả dáng người cao?", options: ["Thấp bé", "Cao ráo", "Gầy gò", "Tròn trịa"], correctIndex: 1, explanation: "'Cao ráo' miêu tả dáng người cao." },
+      { question: "Từ nào miêu tả mái tóc?", options: ["Đen nhánh", "Chăm chỉ", "Nhanh nhẹn", "Hiền lành"], correctIndex: 0, explanation: "'Đen nhánh' miêu tả màu sắc mái tóc." },
+      { question: "Câu nào miêu tả đúng đặc điểm ngoại hình?", options: ["Bạn ấy rất chăm học.", "Bạn ấy có đôi mắt to tròn.", "Bạn ấy rất tốt bụng.", "Bạn ấy học giỏi Toán."], correctIndex: 1, explanation: "Câu này miêu tả đặc điểm ngoại hình (đôi mắt)." },
+    ],
+    funFact: "Bạn có biết? Miêu tả ngoại hình sinh động giúp người đọc hình dung rõ nét về nhân vật trong bài văn!",
+  },
+  "tieng-viet:3:tu-ngu-chi-tinh-cach-con-nguoi": {
+    objectives: ["Mở rộng vốn từ miêu tả tính cách con người.", "Sử dụng đúng từ ngữ khi miêu tả.", "Vận dụng vào bài văn tả người."],
+    sections: [
+      { heading: "1. Từ ngữ chỉ tính cách tốt", body: ["Hiền lành, chăm chỉ, thật thà, vui vẻ, hoà đồng, tốt bụng là các từ miêu tả tính cách tích cực."] },
+      { heading: "2. Từ ngữ chỉ tính cách cần khắc phục", body: ["Nhút nhát, nóng nảy, lười biếng là các từ miêu tả tính cách cần được rèn luyện thêm."] },
+      { heading: "3. Vận dụng vào câu văn", body: ["Em hãy thử đặt câu: 'Bạn Lan rất hiền lành và luôn giúp đỡ các bạn trong lớp.'"] },
+    ],
+    quiz: [
+      { question: "Từ nào miêu tả tính cách tốt?", options: ["Nóng nảy", "Hiền lành", "Lười biếng", "Nhút nhát"], correctIndex: 1, explanation: "'Hiền lành' là từ miêu tả tính cách tốt." },
+      { question: "Từ nào miêu tả tính cách cần rèn luyện thêm?", options: ["Chăm chỉ", "Thật thà", "Lười biếng", "Tốt bụng"], correctIndex: 2, explanation: "'Lười biếng' là tính cách cần được rèn luyện, khắc phục." },
+      { question: "Câu nào miêu tả đúng về tính cách?", options: ["Bạn ấy cao 1m30.", "Bạn ấy rất tốt bụng, hay giúp đỡ bạn bè.", "Bạn ấy có mái tóc dài.", "Bạn ấy mặc áo màu xanh."], correctIndex: 1, explanation: "Câu này miêu tả tính cách (tốt bụng, hay giúp đỡ)." },
+    ],
+    funFact: "Bạn có biết? Miêu tả tính cách nhân vật qua hành động cụ thể sẽ thuyết phục hơn là chỉ dùng tính từ đơn thuần!",
+  },
+  "tieng-viet:3:on-tap-giua-hoc-ky-1": {
+    objectives: ["Hệ thống lại kiến thức Tiếng Việt đã học ở giữa học kỳ 1.", "Ôn luyện các dạng bài tập trọng tâm.", "Tự tin chuẩn bị cho bài kiểm tra."],
+    sections: [
+      { heading: "1. Nội dung trọng tâm", body: ["Giữa học kỳ 1, em đã học về từ loại (danh từ, động từ, tính từ), các kiểu câu, và cách tả đồ vật, con vật."] },
+      { heading: "2. Cách ôn tập hiệu quả", body: ["Em nên xem lại các bài tập đã làm, chú ý các lỗi sai thường gặp để khắc phục."] },
+      { heading: "3. Chuẩn bị tâm lý", body: ["Ôn tập đều đặn, nghỉ ngơi hợp lý sẽ giúp em tự tin hơn khi làm bài kiểm tra."] },
+    ],
+    quiz: [
+      { question: "Từ nào là danh từ?", options: ["Chạy", "Học sinh", "Đẹp", "Nhanh"], correctIndex: 1, explanation: "'Học sinh' chỉ người, là danh từ." },
+      { question: "Câu nào là câu hỏi?", options: ["Em đi học.", "Bạn tên là gì?", "Ôi, đẹp quá!", "Em hãy ngồi xuống."], correctIndex: 1, explanation: "Câu hỏi kết thúc bằng dấu chấm hỏi." },
+      { question: "Khi tả đồ vật, em cần miêu tả những gì?", options: ["Chỉ tên đồ vật", "Hình dáng, màu sắc, công dụng", "Không cần miêu tả gì", "Chỉ giá tiền"], correctIndex: 1, explanation: "Cần miêu tả đầy đủ hình dáng, màu sắc, công dụng của đồ vật." },
+    ],
+    funFact: "Bạn có biết? Việc ôn tập giữa kỳ giúp em củng cố kiến thức trước khi tiếp tục học các nội dung khó hơn ở nửa sau học kỳ!",
+  },
+  "tieng-viet:3:on-tap-cuoi-hoc-ky-1": {
+    objectives: ["Hệ thống lại toàn bộ kiến thức Tiếng Việt học kỳ 1.", "Ôn luyện tổng hợp các dạng bài đã học.", "Tự tin chuẩn bị cho bài kiểm tra cuối kỳ."],
+    sections: [
+      { heading: "1. Nội dung trọng tâm học kỳ 1", body: ["Học kỳ 1 gồm: từ loại, các kiểu câu, biện pháp so sánh - nhân hoá, và các dạng tập làm văn tả đồ vật, con vật, viết thư."] },
+      { heading: "2. Ôn luyện tổng hợp", body: ["Em nên luyện các đề tổng hợp có đủ phần đọc hiểu, luyện từ và câu, tập làm văn."] },
+      { heading: "3. Quản lý thời gian làm bài", body: ["Khi làm bài kiểm tra, em nên phân bổ thời gian hợp lý cho từng phần, không nên dành quá nhiều thời gian cho một câu."] },
+    ],
+    quiz: [
+      { question: "Biện pháp nào gán đặc điểm của người cho sự vật?", options: ["So sánh", "Nhân hoá", "Không có biện pháp nào", "Điệp từ"], correctIndex: 1, explanation: "Nhân hoá là gán đặc điểm, hành động của người cho sự vật." },
+      { question: "Một bức thư thường có mấy phần chính?", options: ["1", "2", "3", "4"], correctIndex: 2, explanation: "Thư thường có 3 phần: đầu thư, nội dung, cuối thư." },
+      { question: "Từ nào là tính từ?", options: ["Chạy", "Xinh đẹp", "Học sinh", "Trường học"], correctIndex: 1, explanation: "'Xinh đẹp' chỉ đặc điểm, là tính từ." },
+    ],
+    funFact: "Bạn có biết? Ôn tập tổng hợp cuối kỳ giúp não bộ kết nối các kiến thức đã học thành một hệ thống chặt chẽ hơn!",
+  },
+  "tieng-viet:3:on-tap-giua-hoc-ky-2": {
+    objectives: ["Hệ thống lại kiến thức Tiếng Việt đã học ở giữa học kỳ 2.", "Ôn luyện các dạng bài tập trọng tâm.", "Tự tin chuẩn bị cho bài kiểm tra."],
+    sections: [
+      { heading: "1. Nội dung trọng tâm", body: ["Giữa học kỳ 2, em đã học thêm về câu khiến, đọc hiểu văn bản thông tin, và cách tả cây cối, con vật chi tiết hơn."] },
+      { heading: "2. Cách ôn tập hiệu quả", body: ["Em nên đọc lại các bài văn mẫu, chú ý cách dùng từ ngữ hay để học hỏi cho bài viết của mình."] },
+      { heading: "3. Luyện đề tổng hợp", body: ["Làm thử một vài đề ôn tập tổng hợp sẽ giúp em quen với cấu trúc đề kiểm tra."] },
+    ],
+    quiz: [
+      { question: "Câu nào là câu khiến?", options: ["Em đi học.", "Em hãy giữ trật tự.", "Em đi học chưa?", "Ôi, đẹp quá!"], correctIndex: 1, explanation: "Câu khiến nêu yêu cầu, có từ 'hãy'." },
+      { question: "Văn bản thông tin khác truyện kể ở điểm nào?", options: ["Cung cấp kiến thức thực tế", "Luôn có nhân vật tưởng tượng", "Không có tiêu đề", "Không có sự khác biệt"], correctIndex: 0, explanation: "Văn bản thông tin cung cấp kiến thức, sự việc thực tế." },
+      { question: "Khi tả cây cối, em nên tả theo trình tự nào?", options: ["Ngẫu nhiên", "Từ gốc đến ngọn hoặc theo mùa", "Không cần trình tự", "Chỉ tả một chi tiết"], correctIndex: 1, explanation: "Tả theo trình tự giúp bài văn mạch lạc, dễ hiểu." },
+    ],
+    funFact: "Bạn có biết? Đọc nhiều bài văn mẫu hay là cách hiệu quả giúp em học được cách dùng từ ngữ phong phú, sinh động!",
+  },
+  "tieng-viet:3:thi-ke-chuyen-chuan-bi-va-trinh-bay": {
+    objectives: ["Chuẩn bị nội dung để kể chuyện trước lớp.", "Luyện tập trình bày tự tin, rõ ràng.", "Rèn kỹ năng giao tiếp trước đám đông."],
+    sections: [
+      { heading: "1. Chuẩn bị nội dung", body: ["Em cần chọn một câu chuyện yêu thích, nắm chắc nội dung, nhân vật, diễn biến trước khi kể."] },
+      { heading: "2. Luyện tập trình bày", body: ["Em nên tập kể nhiều lần, có thể tập trước gương hoặc kể cho người thân nghe để quen dần."] },
+      { heading: "3. Tự tin khi trình bày", body: ["Khi kể trước lớp, em nên nói to, rõ ràng, nhìn về phía các bạn và giữ bình tĩnh."] },
+    ],
+    quiz: [
+      { question: "Trước khi thi kể chuyện, em cần chuẩn bị gì?", options: ["Không cần chuẩn bị gì", "Nắm chắc nội dung câu chuyện", "Chỉ cần nhớ tên truyện", "Không cần luyện tập"], correctIndex: 1, explanation: "Cần nắm chắc nội dung để kể chuyện tự tin, mạch lạc." },
+      { question: "Để luyện tập trước khi kể chuyện, em có thể làm gì?", options: ["Không cần luyện tập", "Tập kể trước gương hoặc cho người thân nghe", "Chỉ đọc một lần", "Không cần tập nói to"], correctIndex: 1, explanation: "Luyện tập trước giúp em tự tin hơn khi kể chuyện thật." },
+      { question: "Khi kể chuyện trước lớp, em nên có thái độ như thế nào?", options: ["Rụt rè, nói nhỏ", "Tự tin, nói rõ ràng", "Không cần nhìn ai", "Nói thật nhanh"], correctIndex: 1, explanation: "Tự tin và nói rõ ràng giúp bài kể chuyện thuyết phục hơn." },
+    ],
+    funFact: "Bạn có biết? Kỹ năng kể chuyện trước đám đông là nền tảng quan trọng cho kỹ năng thuyết trình sau này!",
+  },
+  "tieng-viet:3:viet-doan-van-ta-mot-buoi-hoat-dong-ngoai-khoa": {
+    objectives: ["Quan sát và ghi nhớ hoạt động ngoại khoá đáng nhớ.", "Miêu tả theo trình tự hợp lý.", "Viết được đoạn văn ngắn tả buổi hoạt động."],
+    sections: [
+      { heading: "1. Các hoạt động ngoại khoá phổ biến", body: ["Cắm trại, dã ngoại, thi văn nghệ, hoạt động thiện nguyện là những hoạt động ngoại khoá thường gặp."] },
+      { heading: "2. Nội dung cần miêu tả", body: ["Em có thể tả: thời gian, địa điểm, các hoạt động diễn ra, cảm xúc của em và các bạn."] },
+      { heading: "3. Cấu trúc đoạn văn", body: ["Đoạn văn nên có mở đầu giới thiệu hoạt động, phần tả chi tiết, và cảm nghĩ của em."] },
+    ],
+    quiz: [
+      { question: "Hoạt động nào là hoạt động ngoại khoá?", options: ["Làm bài kiểm tra", "Cắm trại, dã ngoại", "Ngủ trưa", "Chép bài"], correctIndex: 1, explanation: "Cắm trại, dã ngoại là các hoạt động ngoại khoá phổ biến." },
+      { question: "Khi tả buổi hoạt động ngoại khoá, em nên miêu tả gì?", options: ["Không cần miêu tả gì", "Thời gian, hoạt động, cảm xúc", "Chỉ cần tên hoạt động", "Chỉ cần liệt kê người tham gia"], correctIndex: 1, explanation: "Cần miêu tả đầy đủ thời gian, hoạt động và cảm xúc." },
+      { question: "Đoạn văn tả hoạt động ngoại khoá nên kết thúc bằng gì?", options: ["Một phép tính", "Cảm nghĩ của em", "Không cần kết thúc", "Chỉ cần liệt kê"], correctIndex: 1, explanation: "Nên kết thúc bằng cảm nghĩ để đoạn văn trọn vẹn." },
+    ],
+    funFact: "Bạn có biết? Hoạt động ngoại khoá giúp học sinh phát triển toàn diện, không chỉ về kiến thức mà cả kỹ năng sống!",
+  },
+  "tieng-viet:3:phan-biet-cau-don-va-cau-ghep-buoc-dau": {
+    objectives: ["Làm quen phân biệt câu đơn và câu ghép.", "Nhận biết đặc điểm cơ bản của mỗi loại câu.", "Vận dụng vào việc đọc hiểu, đặt câu."],
+    sections: [
+      { heading: "1. Câu đơn là gì?", body: ["Câu đơn là câu chỉ có một cụm chủ - vị (một ý chính). Ví dụ: 'Em đi học.'"] },
+      { heading: "2. Câu ghép là gì?", body: ["Câu ghép là câu có từ hai cụm chủ - vị trở lên, thường nối với nhau bằng từ nối. Ví dụ: 'Trời mưa nên em ở nhà.'"] },
+      { heading: "3. Cách phân biệt bước đầu", body: ["Em có thể đếm xem câu có mấy 'ý' hoàn chỉnh — nếu chỉ có một ý là câu đơn, có từ hai ý trở lên nối với nhau là câu ghép."] },
+    ],
+    quiz: [
+      { question: "Câu nào là câu đơn?", options: ["Em đi học.", "Trời mưa nên em ở nhà.", "Em học bài và anh xem tivi.", "Vì trời lạnh nên em mặc áo ấm."], correctIndex: 0, explanation: "'Em đi học' chỉ có một ý chính, là câu đơn." },
+      { question: "Câu nào là câu ghép?", options: ["Em đi học.", "Bông hoa đẹp.", "Trời mưa nên em ở nhà.", "Em rất vui."], correctIndex: 2, explanation: "'Trời mưa nên em ở nhà' có hai ý nối với nhau, là câu ghép." },
+      { question: "Câu ghép thường có đặc điểm gì?", options: ["Chỉ có một ý", "Có từ hai ý trở lên nối với nhau", "Không có động từ", "Luôn là câu hỏi"], correctIndex: 1, explanation: "Câu ghép có từ hai cụm chủ - vị (ý) trở lên." },
+    ],
+    funFact: "Bạn có biết? Câu ghép giúp diễn đạt được nhiều ý phức tạp hơn trong một câu, thường dùng nhiều hơn khi em lên các lớp trên!",
+  },
+  "tieng-viet:3:tu-ngu-ve-bao-ve-moi-truong": {
+    objectives: ["Mở rộng vốn từ theo chủ điểm bảo vệ môi trường.", "Hiểu nghĩa và biết cách sử dụng từ ngữ mới.", "Vận dụng vào việc đặt câu."],
+    sections: [
+      { heading: "1. Từ ngữ về môi trường", body: ["Môi trường, ô nhiễm, rác thải, tái chế, cây xanh, không khí trong lành."] },
+      { heading: "2. Từ ngữ về hành động bảo vệ", body: ["Trồng cây, dọn rác, tiết kiệm nước, tiết kiệm điện, tái sử dụng."] },
+      { heading: "3. Vận dụng vào câu văn", body: ["Em hãy thử đặt câu: 'Chúng em cùng nhau trồng cây xanh để bảo vệ môi trường.'"] },
+    ],
+    quiz: [
+      { question: "Từ nào thuộc chủ điểm bảo vệ môi trường?", options: ["Tái chế", "Con mèo", "Quyển sách", "Cái bàn"], correctIndex: 0, explanation: "'Tái chế' là từ liên quan đến bảo vệ môi trường." },
+      { question: "Hành động nào giúp bảo vệ môi trường?", options: ["Xả rác bừa bãi", "Trồng cây xanh", "Lãng phí nước", "Chặt phá rừng"], correctIndex: 1, explanation: "Trồng cây xanh là hành động bảo vệ môi trường." },
+      { question: "Từ 'ô nhiễm' có nghĩa là gì?", options: ["Sạch sẽ, trong lành", "Bị bẩn, có hại cho môi trường", "Tươi mát", "Không có nghĩa gì"], correctIndex: 1, explanation: "'Ô nhiễm' nghĩa là bị bẩn, có hại cho môi trường." },
+    ],
+    funFact: "Bạn có biết? Ngày Môi trường Thế giới được tổ chức vào ngày 5/6 hàng năm để nâng cao ý thức bảo vệ môi trường!",
+  },
+  "tieng-viet:3:tu-ngu-ve-an-toan-giao-thong": {
+    objectives: ["Mở rộng vốn từ theo chủ điểm an toàn giao thông.", "Hiểu nghĩa và biết cách sử dụng từ ngữ mới.", "Vận dụng vào việc đặt câu."],
+    sections: [
+      { heading: "1. Từ ngữ về phương tiện giao thông", body: ["Xe đạp, xe máy, ô tô, xe buýt, tàu hoả, máy bay."] },
+      { heading: "2. Từ ngữ về an toàn giao thông", body: ["Mũ bảo hiểm, đèn tín hiệu, vạch kẻ đường, biển báo giao thông, đi đúng làn đường."] },
+      { heading: "3. Vận dụng vào câu văn", body: ["Em hãy thử đặt câu: 'Khi đi xe máy, mọi người cần đội mũ bảo hiểm để đảm bảo an toàn.'"] },
+    ],
+    quiz: [
+      { question: "Từ nào thuộc chủ điểm an toàn giao thông?", options: ["Mũ bảo hiểm", "Quyển sách", "Con mèo", "Cái bàn"], correctIndex: 0, explanation: "'Mũ bảo hiểm' liên quan đến an toàn giao thông." },
+      { question: "Hành động nào thể hiện an toàn giao thông?", options: ["Vượt đèn đỏ", "Đội mũ bảo hiểm khi đi xe máy", "Đi sai làn đường", "Chạy qua đường bất cẩn"], correctIndex: 1, explanation: "Đội mũ bảo hiểm là hành động thể hiện an toàn giao thông." },
+      { question: "Đèn tín hiệu giao thông màu đỏ có ý nghĩa gì?", options: ["Được đi", "Dừng lại", "Đi chậm", "Không có ý nghĩa gì"], correctIndex: 1, explanation: "Đèn đỏ báo hiệu phải dừng lại." },
+    ],
+    funFact: "Bạn có biết? Đội mũ bảo hiểm đúng cách có thể giảm nguy cơ chấn thương đầu nghiêm trọng tới hơn 70%!",
+  },
+  "tieng-viet:3:doc-hieu-van-ban-huong-dan": {
+    objectives: ["Đọc hiểu một văn bản hướng dẫn đơn giản.", "Tìm được các bước thực hiện trong văn bản.", "Vận dụng thông tin đọc được vào thực tế."],
+    sections: [
+      { heading: "1. Văn bản hướng dẫn là gì?", body: ["Văn bản hướng dẫn cung cấp các bước thực hiện một việc gì đó, ví dụ hướng dẫn cách chơi trò chơi, cách làm đồ thủ công."] },
+      { heading: "2. Cách đọc hiểu văn bản hướng dẫn", body: ["Em cần đọc kỹ từng bước theo đúng thứ tự, chú ý các từ chỉ thứ tự như 'bước 1', 'bước 2', 'sau đó'."] },
+      { heading: "3. Vận dụng thực tế", body: ["Sau khi đọc, em có thể làm theo đúng các bước hướng dẫn để thực hiện công việc đó."] },
+    ],
+    quiz: [
+      { question: "Văn bản hướng dẫn thường có đặc điểm gì?", options: ["Không có thứ tự", "Trình bày các bước theo thứ tự", "Chỉ có một câu", "Không có nội dung cụ thể"], correctIndex: 1, explanation: "Văn bản hướng dẫn trình bày các bước theo thứ tự rõ ràng." },
+      { question: "Khi đọc văn bản hướng dẫn, em cần chú ý điều gì?", options: ["Không cần chú ý gì", "Thứ tự các bước thực hiện", "Chỉ đọc bước cuối", "Bỏ qua các từ chỉ thứ tự"], correctIndex: 1, explanation: "Cần chú ý thứ tự các bước để thực hiện đúng." },
+      { question: "Ví dụ nào là một văn bản hướng dẫn?", options: ["Truyện cổ tích", "Hướng dẫn cách gấp giấy origami", "Bài thơ về mẹ", "Câu chuyện tưởng tượng"], correctIndex: 1, explanation: "Hướng dẫn gấp giấy trình bày các bước thực hiện cụ thể." },
+    ],
+    funFact: "Bạn có biết? Kỹ năng đọc hiểu văn bản hướng dẫn rất hữu ích, em sẽ dùng khi đọc hướng dẫn sử dụng đồ chơi, thiết bị điện tử!",
+  },
+  "tieng-viet:3:viet-doan-van-ta-do-choi-yeu-thich": {
+    objectives: ["Quan sát và miêu tả một món đồ chơi yêu thích.", "Sử dụng từ ngữ gợi tả sinh động.", "Viết được đoạn văn ngắn tả đồ chơi."],
+    sections: [
+      { heading: "1. Quan sát đồ chơi", body: ["Em cần quan sát: hình dáng, màu sắc, chất liệu, cách chơi của món đồ chơi yêu thích."] },
+      { heading: "2. Sử dụng từ ngữ gợi tả", body: ["Các từ như 'mềm mại', 'sặc sỡ', 'chắc chắn' giúp miêu tả đồ chơi sinh động hơn."] },
+      { heading: "3. Thể hiện tình cảm", body: ["Em nên chia sẻ vì sao mình yêu thích món đồ chơi đó, có kỷ niệm gì đặc biệt không."] },
+    ],
+    quiz: [
+      { question: "Khi tả đồ chơi, em cần quan sát những gì?", options: ["Chỉ tên đồ chơi", "Hình dáng, màu sắc, cách chơi", "Không cần quan sát", "Chỉ giá tiền"], correctIndex: 1, explanation: "Cần quan sát đầy đủ hình dáng, màu sắc và cách chơi." },
+      { question: "Từ nào phù hợp để tả một con gấu bông?", options: ["Sắc nhọn", "Mềm mại", "Cứng ngắc", "Nóng bỏng"], correctIndex: 1, explanation: "'Mềm mại' phù hợp để tả gấu bông." },
+      { question: "Đoạn văn tả đồ chơi nên có thêm nội dung gì?", options: ["Công thức toán học", "Tình cảm của em với đồ chơi", "Không cần thêm gì", "Chỉ cần liệt kê tên"], correctIndex: 1, explanation: "Nên thể hiện tình cảm để đoạn văn thêm sinh động." },
+    ],
+    funFact: "Bạn có biết? Đồ chơi gỗ truyền thống của Việt Nam như tò he, đèn ông sao đã có từ hàng trăm năm trước!",
+  },
+  "tieng-viet:3:viet-doan-van-ke-ve-ngay-tet": {
+    objectives: ["Nhớ lại những hoạt động, kỷ niệm trong ngày Tết.", "Kể lại theo trình tự hợp lý.", "Viết được đoạn văn ngắn kể về ngày Tết."],
+    sections: [
+      { heading: "1. Các hoạt động trong ngày Tết", body: ["Dọn dẹp nhà cửa, gói bánh chưng, đi chúc Tết, nhận lì xì, đi thăm ông bà, họ hàng."] },
+      { heading: "2. Không khí ngày Tết", body: ["Không khí Tết thường rộn ràng, vui tươi với hoa đào, hoa mai, câu đối đỏ."] },
+      { heading: "3. Cấu trúc đoạn văn", body: ["Đoạn văn nên kể theo trình tự: chuẩn bị Tết, các hoạt động trong ngày Tết, và cảm xúc của em."] },
+    ],
+    quiz: [
+      { question: "Hoạt động nào thường diễn ra trong ngày Tết?", options: ["Đi chúc Tết, nhận lì xì", "Đi học bình thường", "Không có hoạt động gì đặc biệt", "Làm bài kiểm tra"], correctIndex: 0, explanation: "Đi chúc Tết, nhận lì xì là hoạt động quen thuộc trong ngày Tết." },
+      { question: "Loài hoa nào thường xuất hiện ở miền Bắc vào dịp Tết?", options: ["Hoa mai", "Hoa đào", "Hoa hồng", "Hoa sen"], correctIndex: 1, explanation: "Hoa đào thường xuất hiện ở miền Bắc vào dịp Tết." },
+      { question: "Món ăn nào đặc trưng của ngày Tết miền Bắc?", options: ["Bánh chưng", "Bánh mì", "Phở", "Bún chả"], correctIndex: 0, explanation: "Bánh chưng là món ăn đặc trưng ngày Tết ở miền Bắc." },
+    ],
+    funFact: "Bạn có biết? Tết Nguyên Đán là dịp lễ quan trọng nhất trong năm của người Việt Nam, đánh dấu sự khởi đầu của một năm mới!",
+  },
+  "tieng-viet:3:viet-doan-van-ke-ve-mua-he": {
+    objectives: ["Nhớ lại những hoạt động, kỷ niệm trong mùa hè.", "Kể lại theo trình tự hợp lý.", "Viết được đoạn văn ngắn kể về mùa hè."],
+    sections: [
+      { heading: "1. Các hoạt động mùa hè", body: ["Đi biển, về quê thăm ông bà, tham gia trại hè, đọc sách, học bơi là những hoạt động mùa hè phổ biến."] },
+      { heading: "2. Đặc điểm thời tiết mùa hè", body: ["Mùa hè thường nắng nóng, có nhiều hoa phượng nở đỏ rực, tiếng ve kêu râm ran."] },
+      { heading: "3. Cấu trúc đoạn văn", body: ["Đoạn văn nên kể về một hoạt động đáng nhớ trong mùa hè và cảm xúc của em khi trải qua."] },
+    ],
+    quiz: [
+      { question: "Loài hoa nào thường nở rộ vào mùa hè, gắn với tuổi học trò?", options: ["Hoa đào", "Hoa phượng", "Hoa mai", "Hoa cúc"], correctIndex: 1, explanation: "Hoa phượng thường nở đỏ rực vào mùa hè." },
+      { question: "Âm thanh nào đặc trưng của mùa hè?", options: ["Tiếng ve kêu", "Tiếng gió lạnh", "Tiếng lá rụng", "Tiếng mưa phùn"], correctIndex: 0, explanation: "Tiếng ve kêu là âm thanh đặc trưng của mùa hè." },
+      { question: "Hoạt động nào thường diễn ra vào mùa hè?", options: ["Đi biển, học bơi", "Mặc áo ấm", "Đón Tết", "Khai giảng năm học"], correctIndex: 0, explanation: "Đi biển, học bơi là hoạt động phổ biến vào mùa hè." },
+    ],
+    funFact: "Bạn có biết? Mùa hè ở Việt Nam thường kéo dài từ tháng 5 đến tháng 8, cũng là thời gian học sinh được nghỉ hè!",
+  },
+  "tieng-viet:3:tro-choi-o-chu-tu-vung-tieng-viet": {
+    objectives: ["Ôn luyện từ vựng đã học qua trò chơi ô chữ.", "Rèn khả năng liên tưởng, suy luận từ ngữ.", "Tạo hứng thú học Tiếng Việt."],
+    sections: [
+      { heading: "1. Ô chữ từ vựng là gì?", body: ["Ô chữ từ vựng là trò chơi điền các từ vào ô trống dựa vào gợi ý cho trước, các từ giao nhau tại một số chữ cái."] },
+      { heading: "2. Cách chơi", body: ["Em đọc gợi ý, suy nghĩ từ phù hợp rồi điền vào ô chữ theo đúng số lượng chữ cái quy định."] },
+      { heading: "3. Lợi ích", body: ["Trò chơi giúp em ôn luyện từ vựng, rèn khả năng suy luận và ghi nhớ từ ngữ một cách thú vị."] },
+    ],
+    quiz: [
+      { question: "Ô chữ từ vựng giúp ích điều gì cho việc học?", options: ["Không có ích gì", "Ôn luyện từ vựng một cách thú vị", "Làm bài khó hơn", "Không liên quan đến Tiếng Việt"], correctIndex: 1, explanation: "Ô chữ giúp ôn luyện từ vựng một cách vui nhộn, thú vị." },
+      { question: "Khi chơi ô chữ, em cần dựa vào đâu để điền từ?", options: ["Đoán ngẫu nhiên", "Gợi ý cho trước", "Không cần gợi ý", "Chỉ đếm số ô trống"], correctIndex: 1, explanation: "Cần dựa vào gợi ý để tìm từ phù hợp điền vào ô chữ." },
+      { question: "Từ điền vào ô chữ cần đảm bảo điều gì?", options: ["Đúng số lượng chữ cái quy định", "Không cần đúng số lượng", "Chỉ cần đúng nghĩa", "Không cần liên quan đến gợi ý"], correctIndex: 0, explanation: "Từ điền cần đúng số lượng chữ cái theo ô chữ đã cho." },
+    ],
+    funFact: "Bạn có biết? Trò chơi ô chữ (crossword) được phát minh từ đầu thế kỷ 20 và đến nay vẫn rất được yêu thích trên toàn thế giới!",
+  },
+  "tieng-viet:3:tro-choi-noi-cau-dung-nghia": {
+    objectives: ["Ôn luyện kỹ năng đặt câu qua trò chơi nối câu.", "Nhận biết câu có nghĩa đúng, hợp lý.", "Tạo hứng thú học Tiếng Việt."],
+    sections: [
+      { heading: "1. Trò chơi nối câu là gì?", body: ["Trò chơi yêu cầu người chơi nối các vế câu hoặc các từ với nhau sao cho tạo thành câu có nghĩa, hợp lý."] },
+      { heading: "2. Cách chơi", body: ["Em đọc các vế câu hoặc từ được cho sẵn, suy nghĩ và nối chúng lại với nhau sao cho câu có nghĩa đúng."] },
+      { heading: "3. Lợi ích", body: ["Trò chơi giúp em rèn kỹ năng đặt câu, hiểu cấu trúc ngữ pháp một cách nhẹ nhàng, thú vị."] },
+    ],
+    quiz: [
+      { question: "Trò chơi nối câu giúp rèn luyện kỹ năng gì?", options: ["Kỹ năng vẽ tranh", "Kỹ năng đặt câu có nghĩa", "Kỹ năng tính toán", "Kỹ năng hát"], correctIndex: 1, explanation: "Trò chơi giúp rèn kỹ năng đặt câu có nghĩa, hợp lý." },
+      { question: "Khi nối câu, em cần đảm bảo điều gì?", options: ["Câu có nghĩa hợp lý", "Không cần có nghĩa", "Câu càng dài càng tốt", "Không cần đúng ngữ pháp"], correctIndex: 0, explanation: "Câu nối cần có nghĩa hợp lý và đúng ngữ pháp." },
+      { question: "Câu nào có nghĩa hợp lý?", options: ["Em đi học vì trời đẹp.", "Em ăn cơm vì đói bụng.", "Em ngủ vì học giỏi.", "Em vui vì trời mưa to."], correctIndex: 1, explanation: "'Em ăn cơm vì đói bụng' là câu có nghĩa hợp lý, logic." },
+    ],
+    funFact: "Bạn có biết? Chơi các trò chơi ngôn ngữ thường xuyên giúp trẻ em phát triển tư duy ngôn ngữ nhanh hơn!",
+  },
+  "tieng-viet:3:luyen-viet-chu-dep-dung-chinh-ta": {
+    objectives: ["Rèn luyện viết chữ đẹp, đúng mẫu.", "Viết đúng chính tả các từ đã học.", "Hình thành thói quen viết cẩn thận."],
+    sections: [
+      { heading: "1. Cách viết chữ đẹp", body: ["Em cần ngồi đúng tư thế, cầm bút đúng cách, viết đúng độ cao, độ rộng của từng con chữ."] },
+      { heading: "2. Luyện viết đúng chính tả", body: ["Em nên đọc kỹ và ghi nhớ cách viết đúng của các từ hay nhầm lẫn, luyện viết thường xuyên."] },
+      { heading: "3. Rèn thói quen viết cẩn thận", body: ["Viết chậm rãi, cẩn thận và kiểm tra lại bài viết sẽ giúp em có chữ viết đẹp và ít mắc lỗi chính tả."] },
+    ],
+    quiz: [
+      { question: "Để viết chữ đẹp, em cần chú ý điều gì?", options: ["Ngồi đúng tư thế, cầm bút đúng cách", "Viết thật nhanh", "Không cần chú ý gì", "Viết tuỳ ý"], correctIndex: 0, explanation: "Tư thế ngồi và cách cầm bút đúng giúp viết chữ đẹp hơn." },
+      { question: "Để viết đúng chính tả, em nên làm gì?", options: ["Không cần luyện tập", "Ghi nhớ cách viết đúng và luyện tập thường xuyên", "Viết theo cảm tính", "Không cần đọc sách"], correctIndex: 1, explanation: "Ghi nhớ và luyện tập thường xuyên giúp viết đúng chính tả." },
+      { question: "Viết chậm rãi, cẩn thận mang lại lợi ích gì?", options: ["Không có lợi ích gì", "Chữ đẹp hơn, ít lỗi chính tả hơn", "Làm bài chậm hơn", "Không có tác dụng"], correctIndex: 1, explanation: "Viết cẩn thận giúp chữ đẹp hơn và giảm lỗi chính tả." },
+    ],
+    funFact: "Bạn có biết? Ở nhiều trường học Việt Nam, viết chữ đẹp từng được coi là một cuộc thi quan trọng gọi là 'thi vở sạch chữ đẹp'!",
+  },
+  "tieng-viet:3:phan-biet-cac-dau-cau-da-hoc": {
+    objectives: ["Ôn tập phân biệt các dấu câu đã học.", "Hiểu công dụng của từng loại dấu câu.", "Vận dụng đúng dấu câu khi viết."],
+    sections: [
+      { heading: "1. Ôn tập các dấu câu", body: ["Em đã học: dấu chấm, dấu chấm hỏi, dấu chấm than, dấu phẩy, dấu hai chấm, dấu ngoặc kép, dấu gạch ngang."] },
+      { heading: "2. Công dụng của từng dấu", body: ["Mỗi dấu câu có công dụng riêng: dấu chấm kết thúc câu kể, dấu chấm hỏi kết thúc câu hỏi, dấu phẩy ngăn cách các thành phần trong câu."] },
+      { heading: "3. Vận dụng khi viết", body: ["Sử dụng đúng dấu câu giúp bài viết của em rõ ràng, mạch lạc và dễ hiểu hơn."] },
+    ],
+    quiz: [
+      { question: "Dấu nào dùng để kết thúc câu kể?", options: ["Dấu chấm hỏi", "Dấu chấm", "Dấu chấm than", "Dấu phẩy"], correctIndex: 1, explanation: "Dấu chấm dùng để kết thúc câu kể." },
+      { question: "Dấu nào dùng để ngăn cách các thành phần trong câu?", options: ["Dấu chấm", "Dấu phẩy", "Dấu chấm than", "Dấu hai chấm"], correctIndex: 1, explanation: "Dấu phẩy dùng để ngăn cách các thành phần trong câu." },
+      { question: "Dấu nào dùng để kết thúc câu bộc lộ cảm xúc?", options: ["Dấu chấm", "Dấu phẩy", "Dấu chấm than", "Dấu hai chấm"], correctIndex: 2, explanation: "Dấu chấm than dùng để kết thúc câu cảm, bộc lộ cảm xúc." },
+    ],
+    funFact: "Bạn có biết? Nếu viết văn không có dấu câu, người đọc sẽ rất khó hiểu và dễ hiểu sai ý nghĩa của câu!",
+  },
+  "tieng-viet:3:viet-doan-van-ta-nguoi-ban-than": {
+    objectives: ["Quan sát và miêu tả đặc điểm người bạn thân.", "Sử dụng từ ngữ miêu tả ngoại hình, tính cách phù hợp.", "Viết được đoạn văn ngắn tả bạn thân."],
+    sections: [
+      { heading: "1. Quan sát bạn thân", body: ["Em cần quan sát: ngoại hình (dáng người, khuôn mặt), tính cách, sở thích của người bạn thân."] },
+      { heading: "2. Sử dụng từ ngữ miêu tả", body: ["Kết hợp từ ngữ tả ngoại hình và tính cách để bài văn đầy đủ, sinh động hơn."] },
+      { heading: "3. Thể hiện tình cảm", body: ["Em nên kể thêm một kỷ niệm đáng nhớ với bạn để thể hiện tình cảm gắn bó."] },
+    ],
+    quiz: [
+      { question: "Khi tả người bạn thân, em cần miêu tả những gì?", options: ["Chỉ tên bạn", "Ngoại hình và tính cách", "Không cần miêu tả gì", "Chỉ địa chỉ nhà bạn"], correctIndex: 1, explanation: "Cần miêu tả cả ngoại hình và tính cách để bài văn đầy đủ." },
+      { question: "Vì sao nên kể một kỷ niệm khi tả bạn thân?", options: ["Không cần thiết", "Thể hiện tình cảm gắn bó chân thực hơn", "Làm bài dài hơn", "Không có lý do gì"], correctIndex: 1, explanation: "Kỷ niệm giúp thể hiện tình cảm chân thực, sinh động hơn." },
+      { question: "Câu nào miêu tả tính cách của bạn thân?", options: ["Bạn ấy cao 1m35.", "Bạn ấy rất vui vẻ, hay giúp đỡ mọi người.", "Bạn ấy mặc áo xanh.", "Bạn ấy học lớp 3A."], correctIndex: 1, explanation: "Câu này miêu tả tính cách (vui vẻ, hay giúp đỡ)." },
+    ],
+    funFact: "Bạn có biết? Tình bạn thời thơ ấu thường để lại những kỷ niệm đẹp và sâu sắc nhất trong cuộc đời mỗi người!",
+  },
+  "tieng-viet:3:on-tap-tong-hop-chuan-bi-kiem-tra-cuoi-nam": {
+    objectives: ["Hệ thống lại toàn bộ kiến thức Tiếng Việt trọng tâm trong năm.", "Ôn luyện tổng hợp các dạng bài đã học.", "Tự tin bước vào bài kiểm tra cuối năm."],
+    sections: [
+      { heading: "1. Tổng ôn kiến thức cả năm", body: ["Em đã học rất nhiều kiến thức: từ loại, các kiểu câu, biện pháp tu từ, đọc hiểu và nhiều dạng tập làm văn."] },
+      { heading: "2. Lập kế hoạch ôn tập", body: ["Em nên chia nhỏ nội dung ôn tập theo từng ngày, ôn từ dễ đến khó, từ cũ đến mới."] },
+      { heading: "3. Tự tin bước vào kỳ thi", body: ["Ôn tập kỹ càng kết hợp nghỉ ngơi hợp lý sẽ giúp em tự tin và đạt kết quả tốt trong bài kiểm tra cuối năm."] },
+    ],
+    quiz: [
+      { question: "Từ loại nào chỉ đặc điểm, tính chất của sự vật?", options: ["Danh từ", "Động từ", "Tính từ", "Số từ"], correctIndex: 2, explanation: "Tính từ chỉ đặc điểm, tính chất của sự vật." },
+      { question: "Biện pháp nào so sánh hai sự vật có điểm giống nhau?", options: ["Nhân hoá", "So sánh", "Điệp từ", "Không có biện pháp nào"], correctIndex: 1, explanation: "So sánh là đối chiếu hai sự vật có điểm giống nhau." },
+      { question: "Dạng bài tập làm văn nào em đã học trong năm lớp 3?", options: ["Tả đồ vật, con vật, cây cối, người", "Viết luận văn khoa học", "Viết báo cáo nghiên cứu", "Không học tập làm văn"], correctIndex: 0, explanation: "Em đã học các dạng tả đồ vật, con vật, cây cối, người trong năm." },
+    ],
+    funFact: "Bạn có biết? Những kiến thức Tiếng Việt em học hôm nay sẽ là nền tảng quan trọng cho việc học Ngữ văn ở các cấp học cao hơn!",
+  },
+
+  // ─────────────── TIẾNG VIỆT — LỚP 3 — 60 bài thực hành mở rộng ───────────────
+  "tieng-viet:3:thuc-hanh-tu-dong-nghia": practiceContent("Thực hành", "Từ đồng nghĩa", "Hãy nhớ lại: từ đồng nghĩa có nghĩa giống hoặc gần giống nhau.", [
+    { question: "Từ nào đồng nghĩa với 'nhanh'?", options: ["Chậm", "Mau", "To", "Nhỏ"], correctIndex: 1, explanation: "'Mau' có nghĩa gần giống với 'nhanh'." },
+    { question: "Từ nào đồng nghĩa với 'to'?", options: ["Nhỏ", "Bé", "Lớn", "Thấp"], correctIndex: 2, explanation: "'Lớn' có nghĩa gần giống với 'to'." },
+    { question: "Từ nào đồng nghĩa với 'buồn'?", options: ["Vui", "Rầu rĩ", "To", "Nhanh"], correctIndex: 1, explanation: "'Rầu rĩ' có nghĩa gần giống với 'buồn'." },
+    { question: "Cặp từ nào là từ đồng nghĩa?", options: ["Đẹp - xấu", "Nhanh - chậm", "Xinh - đẹp", "To - nhỏ"], correctIndex: 2, explanation: "'Xinh' và 'đẹp' có nghĩa giống nhau." },
+  ]),
+  "tieng-viet:3:luyen-tap-tu-trai-nghia": practiceContent("Luyện tập", "Từ trái nghĩa", "Hãy nhớ lại: từ trái nghĩa có nghĩa đối lập nhau.", [
+    { question: "Từ nào trái nghĩa với 'to'?", options: ["Lớn", "Nhỏ", "Đẹp", "Nhanh"], correctIndex: 1, explanation: "'Nhỏ' trái nghĩa với 'to'." },
+    { question: "Từ nào trái nghĩa với 'nhanh'?", options: ["Mau", "Chậm", "To", "Xinh"], correctIndex: 1, explanation: "'Chậm' trái nghĩa với 'nhanh'." },
+    { question: "Từ nào trái nghĩa với 'sáng'?", options: ["Tối", "Đẹp", "To", "Vui"], correctIndex: 0, explanation: "'Tối' trái nghĩa với 'sáng'." },
+    { question: "Cặp từ nào là từ trái nghĩa?", options: ["To - lớn", "Cao - thấp", "Nhanh - mau", "Đẹp - xinh"], correctIndex: 1, explanation: "'Cao' và 'thấp' có nghĩa trái ngược nhau." },
+  ]),
+  "tieng-viet:3:van-dung-tu-nhieu-nghia-buoc-dau-lam-quen": practiceContent("Vận dụng", "Từ nhiều nghĩa (bước đầu làm quen)", "Hãy nhớ lại: một từ có thể mang nhiều nghĩa tuỳ ngữ cảnh.", [
+    { question: "Từ 'mắt' trong 'mắt bão' mang nghĩa gì?", options: ["Bộ phận cơ thể người", "Tâm của cơn bão", "Một loại quả", "Không có nghĩa"], correctIndex: 1, explanation: "Trong ngữ cảnh này, 'mắt' chỉ tâm của cơn bão." },
+    { question: "Từ nào có thể là từ nhiều nghĩa?", options: ["Mũi (mũi người, mũi thuyền)", "Học sinh", "Con mèo", "Cái bàn"], correctIndex: 0, explanation: "'Mũi' có thể chỉ mũi người hoặc mũi thuyền, mũi kim." },
+    { question: "Để hiểu đúng nghĩa của từ nhiều nghĩa, cần dựa vào đâu?", options: ["Ngữ cảnh câu văn", "Số lượng chữ cái", "Màu sắc của chữ", "Không cần dựa vào gì"], correctIndex: 0, explanation: "Ngữ cảnh giúp xác định đúng nghĩa của từ." },
+    { question: "Từ 'chân' trong 'chân núi' mang nghĩa gì?", options: ["Bộ phận cơ thể người", "Phần dưới cùng của núi", "Một loại đồ vật", "Không có nghĩa"], correctIndex: 1, explanation: "'Chân núi' chỉ phần dưới cùng, nơi núi tiếp giáp mặt đất." },
+  ]),
+  "tieng-viet:3:tro-choi-on-tap-mo-rong-von-tu-ve-nha-truong": practiceContent("Trò chơi ôn tập", "Mở rộng vốn từ về nhà trường", "Hãy nhớ lại các từ ngữ về nhà trường đã học.", [
+    { question: "Từ nào thuộc chủ điểm nhà trường?", options: ["Sân trường", "Cánh đồng", "Con sông", "Ngọn núi"], correctIndex: 0, explanation: "'Sân trường' thuộc chủ điểm nhà trường." },
+    { question: "Ai là người dạy học ở trường?", options: ["Bác sĩ", "Giáo viên", "Công an", "Nông dân"], correctIndex: 1, explanation: "Giáo viên là người dạy học ở trường." },
+    { question: "Nơi nào trong trường dùng để đọc sách?", options: ["Sân bóng", "Thư viện", "Căng tin", "Phòng y tế"], correctIndex: 1, explanation: "Thư viện là nơi đọc sách trong trường." },
+    { question: "Từ nào chỉ hoạt động học tập ở trường?", options: ["Thảo luận nhóm", "Đi chợ", "Nấu ăn", "Đi ngủ"], correctIndex: 0, explanation: "'Thảo luận nhóm' là hoạt động học tập." },
+  ]),
+  "tieng-viet:3:thu-thach-nho-mo-rong-von-tu-ve-thien-nhien": practiceContent("Thử thách nhỏ", "Mở rộng vốn từ về thiên nhiên", "Hãy nhớ lại các từ ngữ về thiên nhiên đã học.", [
+    { question: "Từ nào thuộc chủ điểm thiên nhiên?", options: ["Núi non", "Bàn ghế", "Sách vở", "Xe đạp"], correctIndex: 0, explanation: "'Núi non' là hình ảnh thiên nhiên." },
+    { question: "Từ nào chỉ hiện tượng thời tiết?", options: ["Cơn bão", "Cái bàn", "Quyển vở", "Cây bút"], correctIndex: 0, explanation: "'Cơn bão' là hiện tượng thời tiết." },
+    { question: "Từ nào tả bầu trời?", options: ["Trong xanh", "Chăm chỉ", "Nhanh nhẹn", "Hiền lành"], correctIndex: 0, explanation: "'Trong xanh' thường dùng để tả bầu trời." },
+    { question: "Cảnh đẹp thiên nhiên nào của Việt Nam được UNESCO công nhận?", options: ["Vịnh Hạ Long", "Sân vận động", "Trung tâm thương mại", "Nhà ga"], correctIndex: 0, explanation: "Vịnh Hạ Long được UNESCO công nhận là Di sản Thiên nhiên." },
+  ]),
+  "tieng-viet:3:thuc-hanh-mo-rong-von-tu-ve-le-hoi": practiceContent("Thực hành", "Mở rộng vốn từ về lễ hội", "Hãy nhớ lại các từ ngữ về lễ hội đã học.", [
+    { question: "Từ nào thuộc chủ điểm lễ hội?", options: ["Rước kiệu", "Bàn học", "Quyển vở", "Cây bút"], correctIndex: 0, explanation: "'Rước kiệu' là hoạt động trong lễ hội." },
+    { question: "Lễ hội nào tưởng nhớ các Vua Hùng?", options: ["Lễ hội đền Hùng", "Tết Trung Thu", "Lễ hội chùa Hương", "Tết Dương lịch"], correctIndex: 0, explanation: "Lễ hội đền Hùng tưởng nhớ các Vua Hùng." },
+    { question: "Hoạt động nào thường thấy trong lễ hội?", options: ["Múa lân", "Làm bài kiểm tra", "Đi ngủ", "Học bài mới"], correctIndex: 0, explanation: "Múa lân là hoạt động phổ biến trong lễ hội." },
+    { question: "Dịp nào thường có nhiều lễ hội truyền thống diễn ra?", options: ["Đầu năm mới", "Giữa mùa hè", "Cuối học kỳ 2", "Không có dịp cố định"], correctIndex: 0, explanation: "Đầu năm mới (dịp Tết) thường có nhiều lễ hội truyền thống." },
+  ]),
+  "tieng-viet:3:luyen-tap-mo-rong-von-tu-ve-nghe-nghiep": practiceContent("Luyện tập", "Mở rộng vốn từ về nghề nghiệp", "Hãy nhớ lại các từ ngữ về nghề nghiệp đã học.", [
+    { question: "Nghề nào có nhiệm vụ giữ gìn trật tự an toàn xã hội?", options: ["Bác sĩ", "Công an", "Nông dân", "Ca sĩ"], correctIndex: 1, explanation: "Công an có nhiệm vụ giữ gìn trật tự an toàn xã hội." },
+    { question: "Nghề nào chuyên trồng trọt, chăn nuôi?", options: ["Kỹ sư", "Nông dân", "Bác sĩ", "Giáo viên"], correctIndex: 1, explanation: "Nông dân là nghề chuyên trồng trọt, chăn nuôi." },
+    { question: "Ai là người thiết kế, xây dựng công trình?", options: ["Kỹ sư", "Ca sĩ", "Nông dân", "Công an"], correctIndex: 0, explanation: "Kỹ sư thường thiết kế, xây dựng công trình." },
+    { question: "Từ nào chỉ nghề nghiệp trong lĩnh vực y tế?", options: ["Bác sĩ", "Nông dân", "Công an", "Ca sĩ"], correctIndex: 0, explanation: "Bác sĩ là nghề trong lĩnh vực y tế." },
+  ]),
+  "tieng-viet:3:van-dung-mo-rong-von-tu-ve-the-thao": practiceContent("Vận dụng", "Mở rộng vốn từ về thể thao", "Hãy nhớ lại các từ ngữ về thể thao đã học.", [
+    { question: "Từ nào chỉ nơi tổ chức thi đấu thể thao?", options: ["Sân vận động", "Thư viện", "Bệnh viện", "Chợ"], correctIndex: 0, explanation: "Sân vận động là nơi tổ chức thi đấu thể thao." },
+    { question: "Người thi đấu thể thao chuyên nghiệp được gọi là gì?", options: ["Vận động viên", "Ca sĩ", "Bác sĩ", "Nông dân"], correctIndex: 0, explanation: "Vận động viên là người thi đấu thể thao chuyên nghiệp." },
+    { question: "Môn thể thao nào chơi dưới nước?", options: ["Bơi lội", "Bóng đá", "Cầu lông", "Điền kinh"], correctIndex: 0, explanation: "Bơi lội là môn thể thao dưới nước." },
+    { question: "Phần thưởng cho vận động viên chiến thắng thường là gì?", options: ["Huy chương", "Quyển sách", "Cây bút", "Hộp bút"], correctIndex: 0, explanation: "Huy chương là phần thưởng cho vận động viên chiến thắng." },
+  ]),
+  "tieng-viet:3:tro-choi-on-tap-cau-co-trang-ngu-chi-thoi-gian": practiceContent("Trò chơi ôn tập", "Câu có trạng ngữ chỉ thời gian", "Hãy nhớ lại: trạng ngữ chỉ thời gian trả lời câu hỏi 'Khi nào?'.", [
+    { question: "Trong câu 'Mùa hè năm ngoái, em về quê chơi.', trạng ngữ là gì?", options: ["Em", "Mùa hè năm ngoái", "về quê", "chơi"], correctIndex: 1, explanation: "'Mùa hè năm ngoái' là trạng ngữ chỉ thời gian." },
+    { question: "Trạng ngữ chỉ thời gian trả lời cho câu hỏi nào?", options: ["Ở đâu?", "Khi nào?", "Như thế nào?", "Tại sao?"], correctIndex: 1, explanation: "Trạng ngữ chỉ thời gian trả lời câu hỏi 'Khi nào?'." },
+    { question: "Cụm từ nào có thể làm trạng ngữ chỉ thời gian?", options: ["Trong lớp học", "Buổi tối hôm qua", "Trên bàn học", "Ở sân trường"], correctIndex: 1, explanation: "'Buổi tối hôm qua' chỉ thời gian." },
+    { question: "Trạng ngữ chỉ thời gian thường đứng ở đâu trong câu?", options: ["Luôn ở giữa câu", "Thường ở đầu câu", "Luôn ở cuối câu", "Không có vị trí cố định"], correctIndex: 1, explanation: "Trạng ngữ chỉ thời gian thường đứng ở đầu câu." },
+  ]),
+  "tieng-viet:3:thu-thach-nho-cau-co-trang-ngu-chi-noi-chon": practiceContent("Thử thách nhỏ", "Câu có trạng ngữ chỉ nơi chốn", "Hãy nhớ lại: trạng ngữ chỉ nơi chốn trả lời câu hỏi 'Ở đâu?'.", [
+    { question: "Trong câu 'Ở nhà, em giúp mẹ nấu cơm.', trạng ngữ là gì?", options: ["Em", "Ở nhà", "giúp mẹ", "nấu cơm"], correctIndex: 1, explanation: "'Ở nhà' là trạng ngữ chỉ nơi chốn." },
+    { question: "Trạng ngữ chỉ nơi chốn trả lời cho câu hỏi nào?", options: ["Khi nào?", "Ở đâu?", "Vì sao?", "Bằng cách nào?"], correctIndex: 1, explanation: "Trạng ngữ chỉ nơi chốn trả lời câu hỏi 'Ở đâu?'." },
+    { question: "Cụm từ nào có thể làm trạng ngữ chỉ nơi chốn?", options: ["Hôm qua", "Trong lớp học", "Rất nhanh", "Vì trời mưa"], correctIndex: 1, explanation: "'Trong lớp học' chỉ địa điểm." },
+    { question: "Câu nào có trạng ngữ chỉ nơi chốn?", options: ["Sáng nay, em dậy sớm.", "Trên cánh đồng, các bác nông dân đang làm việc.", "Vì trời lạnh, em mặc áo ấm.", "Em học rất chăm chỉ."], correctIndex: 1, explanation: "'Trên cánh đồng' là trạng ngữ chỉ nơi chốn." },
+  ]),
+  "tieng-viet:3:thuc-hanh-dau-hai-cham-va-cach-dung": practiceContent("Thực hành", "Dấu hai chấm và cách dùng", "Hãy nhớ lại: dấu hai chấm báo hiệu lời giải thích hoặc liệt kê.", [
+    { question: "Câu nào dùng đúng dấu hai chấm?", options: ["Em thích: các môn Toán, Tiếng Việt.", "Em thích các môn: Toán, Tiếng Việt.", "Em: thích các môn Toán, Tiếng Việt.", "Em thích các: môn Toán, Tiếng Việt."], correctIndex: 1, explanation: "Dấu hai chấm đặt trước phần liệt kê các môn học." },
+    { question: "Dấu hai chấm thường xuất hiện trước loại câu nào?", options: ["Lời nói trực tiếp", "Không xuất hiện trước câu nào", "Chỉ trước số", "Chỉ trước tên riêng"], correctIndex: 0, explanation: "Dấu hai chấm thường xuất hiện trước lời nói trực tiếp." },
+    { question: "Sau dấu hai chấm thường là gì?", options: ["Phần giải thích, bổ sung", "Không có gì đặc biệt", "Luôn là một số", "Luôn là một câu hỏi"], correctIndex: 0, explanation: "Sau dấu hai chấm thường là phần giải thích, bổ sung ý." },
+    { question: "Dấu hai chấm còn được dùng trong lĩnh vực nào khác?", options: ["Toán học (phép chia)", "Âm nhạc", "Hội hoạ", "Không dùng ở đâu khác"], correctIndex: 0, explanation: "Dấu hai chấm còn dùng để biểu diễn phép chia trong Toán học." },
+  ]),
+  "tieng-viet:3:luyen-tap-dau-ngoac-kep-va-cach-dung": practiceContent("Luyện tập", "Dấu ngoặc kép và cách dùng", "Hãy nhớ lại: dấu ngoặc kép đánh dấu lời nói trực tiếp.", [
+    { question: "Câu nào dùng đúng dấu ngoặc kép?", options: ["Bạn nói tôi rất vui.", "Bạn nói: \"Tôi rất vui.\"", "Bạn nói \"tôi rất vui", "Bạn nói tôi \"rất\" vui"], correctIndex: 1, explanation: "Lời nói trực tiếp được đặt trong dấu ngoặc kép." },
+    { question: "Dấu ngoặc kép luôn xuất hiện như thế nào?", options: ["Chỉ một dấu duy nhất", "Đi theo cặp (mở và đóng)", "Không cần theo cặp", "Chỉ ở đầu câu"], correctIndex: 1, explanation: "Dấu ngoặc kép luôn có một dấu mở và một dấu đóng." },
+    { question: "Dấu ngoặc kép dùng để làm gì?", options: ["Đánh dấu lời nói trực tiếp hoặc trích dẫn", "Kết thúc câu", "Ngăn cách các ý", "Không có tác dụng gì"], correctIndex: 0, explanation: "Dấu ngoặc kép đánh dấu lời nói trực tiếp hoặc trích dẫn." },
+    { question: "Ngoài lời nói trực tiếp, dấu ngoặc kép còn dùng để làm gì?", options: ["Nhấn mạnh một từ ngữ đặc biệt", "Không có tác dụng gì khác", "Chỉ dùng cho số", "Chỉ dùng cho tên riêng"], correctIndex: 0, explanation: "Dấu ngoặc kép còn dùng để nhấn mạnh từ ngữ đặc biệt." },
+  ]),
+  "tieng-viet:3:van-dung-dau-gach-ngang-trong-loi-thoai": practiceContent("Vận dụng", "Dấu gạch ngang trong lời thoại", "Hãy nhớ lại: dấu gạch ngang đặt đầu dòng trước lời thoại.", [
+    { question: "Dấu gạch ngang trong lời thoại thường đặt ở đâu?", options: ["Cuối dòng", "Đầu dòng, trước lời nói", "Giữa câu", "Không có vị trí cố định"], correctIndex: 1, explanation: "Dấu gạch ngang thường đặt ở đầu dòng trước lời thoại." },
+    { question: "Khi viết đoạn hội thoại nhiều nhân vật, mỗi lời thoại nên viết như thế nào?", options: ["Viết chung một dòng", "Viết trên dòng riêng với dấu gạch ngang", "Không cần phân biệt", "Viết không cần dấu gì"], correctIndex: 1, explanation: "Mỗi lời thoại nên viết trên dòng riêng, có dấu gạch ngang." },
+    { question: "Dấu gạch ngang trong hội thoại có tác dụng gì?", options: ["Kết thúc câu", "Đánh dấu lời nói của từng nhân vật", "Không có tác dụng", "Chỉ để trang trí"], correctIndex: 1, explanation: "Dấu gạch ngang giúp phân biệt lời nói của từng nhân vật." },
+    { question: "Ngoài lời thoại, dấu gạch ngang còn dùng để làm gì?", options: ["Nối các từ trong từ ghép", "Không dùng vào việc gì khác", "Chỉ dùng cho số", "Chỉ dùng cho tên riêng"], correctIndex: 0, explanation: "Dấu gạch ngang còn dùng để nối các từ trong một số từ ghép." },
+  ]),
+  "tieng-viet:3:tro-choi-on-tap-chinh-ta-phan-biet-l-n": practiceContent("Trò chơi ôn tập", "Chính tả phân biệt l/n", "Hãy nhớ lại cách phân biệt âm l và âm n.", [
+    { question: "Từ nào viết đúng chính tả?", options: ["Con lợn", "Con nợn", "Cả hai đều đúng", "Cả hai đều sai"], correctIndex: 0, explanation: "'Con lợn' viết đúng với âm 'l'." },
+    { question: "Từ nào viết đúng chính tả?", options: ["Nóng lực", "Nóng nực", "Cả hai đều đúng", "Cả hai đều sai"], correctIndex: 1, explanation: "'Nóng nực' viết đúng với âm 'n'." },
+    { question: "Từ nào viết đúng chính tả?", options: ["Long lanh", "Nong nanh", "Cả hai đều đúng", "Cả hai đều sai"], correctIndex: 0, explanation: "'Long lanh' viết đúng với âm 'l'." },
+    { question: "Từ nào viết đúng chính tả?", options: ["Nước lon", "Nước non", "Cả hai đều đúng", "Cả hai đều sai"], correctIndex: 1, explanation: "'Nước non' viết đúng với âm 'n'." },
+  ]),
+  "tieng-viet:3:thu-thach-nho-chinh-ta-phan-biet-s-x": practiceContent("Thử thách nhỏ", "Chính tả phân biệt s/x", "Hãy nhớ lại cách phân biệt âm s và âm x.", [
+    { question: "Từ nào viết đúng chính tả?", options: ["Sinh sống", "Xinh xống", "Cả hai đều đúng", "Cả hai đều sai"], correctIndex: 0, explanation: "'Sinh sống' viết đúng với âm 's'." },
+    { question: "Từ nào viết đúng chính tả?", options: ["Xuất sắc", "Suất xắc", "Cả hai đều đúng", "Cả hai đều sai"], correctIndex: 0, explanation: "'Xuất sắc' viết đúng chính tả." },
+    { question: "Từ nào viết đúng chính tả?", options: ["Sản xuất", "Xản suất", "Cả hai đều đúng", "Cả hai đều sai"], correctIndex: 0, explanation: "'Sản xuất' viết đúng chính tả." },
+    { question: "Từ nào viết đúng chính tả?", options: ["Xa xôi", "Sa sôi", "Cả hai đều đúng", "Cả hai đều sai"], correctIndex: 0, explanation: "'Xa xôi' viết đúng với âm 'x'." },
+  ]),
+  "tieng-viet:3:thuc-hanh-chinh-ta-phan-biet-ch-tr": practiceContent("Thực hành", "Chính tả phân biệt ch/tr", "Hãy nhớ lại cách phân biệt âm ch và âm tr.", [
+    { question: "Từ nào viết đúng chính tả?", options: ["Chuyện tranh", "Truyện tranh", "Cả hai đều đúng", "Cả hai đều sai"], correctIndex: 1, explanation: "'Truyện tranh' viết đúng với âm 'tr'." },
+    { question: "Từ nào viết đúng chính tả?", options: ["Chăm học", "Trăm học", "Cả hai đều đúng", "Cả hai đều sai"], correctIndex: 0, explanation: "'Chăm học' viết đúng với âm 'ch'." },
+    { question: "Từ nào viết đúng chính tả?", options: ["Chả lời", "Trả lời", "Cả hai đều đúng", "Cả hai đều sai"], correctIndex: 1, explanation: "'Trả lời' viết đúng với âm 'tr'." },
+    { question: "Từ nào viết đúng chính tả?", options: ["Chăm chú", "Trăm chú", "Cả hai đều đúng", "Cả hai đều sai"], correctIndex: 0, explanation: "'Chăm chú' viết đúng với âm 'ch'." },
+  ]),
+  "tieng-viet:3:luyen-tap-chinh-ta-phan-biet-dau-hoi-dau-nga": practiceContent("Luyện tập", "Chính tả phân biệt dấu hỏi/dấu ngã", "Hãy nhớ lại cách phân biệt dấu hỏi và dấu ngã.", [
+    { question: "Từ nào có nghĩa là 'nghiêng về một phía'?", options: ["Ngã", "Ngả", "Cả hai đều đúng", "Cả hai đều sai"], correctIndex: 1, explanation: "'Ngả' (dấu hỏi) nghĩa là nghiêng về một phía." },
+    { question: "Từ nào viết đúng khi nói về việc 'nhẹ nhàng, dễ dàng'?", options: ["Dễ dàng", "Dể dàng", "Cả hai đều đúng", "Cả hai đều sai"], correctIndex: 0, explanation: "'Dễ dàng' (dấu ngã) viết đúng chính tả." },
+    { question: "Từ nào viết đúng khi nói về 'sức khoẻ tốt'?", options: ["Khoẻ mạnh", "Khỏe mạnh", "Cả hai đều đúng (biến thể vùng miền)", "Cả hai đều sai"], correctIndex: 2, explanation: "'Khoẻ' và 'khỏe' đều được chấp nhận là biến thể chính tả vùng miền." },
+    { question: "Từ nào viết đúng khi nói về 'sự vui vẻ'?", options: ["Vui vẻ", "Vui vẽ", "Cả hai đều đúng", "Cả hai đều sai"], correctIndex: 0, explanation: "'Vui vẻ' (dấu hỏi) viết đúng chính tả." },
+  ]),
+  "tieng-viet:3:van-dung-doc-hieu-bai-bao-thieu-nhi": practiceContent("Vận dụng", "Đọc hiểu bài báo thiếu nhi", "Hãy nhớ lại cách tìm thông tin chính trong bài báo.", [
+    { question: "Để nắm thông tin chính của bài báo, em nên đọc gì trước?", options: ["Tiêu đề bài báo", "Chỉ đọc câu cuối", "Bỏ qua tiêu đề", "Không cần đọc gì"], correctIndex: 0, explanation: "Tiêu đề giúp em biết chủ đề chính của bài báo." },
+    { question: "Bài báo thiếu nhi thường đăng trên loại báo nào?", options: ["Báo Nhi Đồng", "Báo tài chính", "Báo thể thao người lớn", "Không đăng ở đâu"], correctIndex: 0, explanation: "Báo Nhi Đồng là báo dành cho thiếu nhi." },
+    { question: "Sau khi đọc bài báo, em cần làm gì?", options: ["Quên ngay nội dung", "Nắm được thông tin chính", "Không cần suy nghĩ gì", "Chỉ nhớ tên bài báo"], correctIndex: 1, explanation: "Cần nắm được thông tin chính sau khi đọc." },
+    { question: "Bài báo thiếu nhi khác gì so với truyện cổ tích?", options: ["Cung cấp thông tin thực tế", "Luôn có phép thuật", "Không có nội dung", "Không có sự khác biệt"], correctIndex: 0, explanation: "Bài báo cung cấp thông tin thực tế, khác với truyện cổ tích hư cấu." },
+  ]),
+  "tieng-viet:3:tro-choi-on-tap-doc-hieu-truyen-ngu-ngon": practiceContent("Trò chơi ôn tập", "Đọc hiểu truyện ngụ ngôn", "Hãy nhớ lại: truyện ngụ ngôn thường mượn hình ảnh loài vật để gửi gắm bài học.", [
+    { question: "Truyện 'Ếch ngồi đáy giếng' dạy bài học gì?", options: ["Không nên kiêu ngạo, tự mãn", "Cách bơi lội", "Cách nuôi ếch", "Không có bài học gì"], correctIndex: 0, explanation: "Truyện dạy về sự kiêu ngạo, hiểu biết hạn hẹp." },
+    { question: "Truyện ngụ ngôn thường mượn hình ảnh gì?", options: ["Loài vật, đồ vật", "Chỉ con người thật", "Không có hình ảnh nào", "Chỉ số liệu"], correctIndex: 0, explanation: "Truyện ngụ ngôn thường mượn hình ảnh loài vật, đồ vật." },
+    { question: "Đặc điểm nổi bật của truyện ngụ ngôn là gì?", options: ["Luôn mang một bài học ý nghĩa", "Không có ý nghĩa gì", "Chỉ để giải trí", "Không có nhân vật"], correctIndex: 0, explanation: "Truyện ngụ ngôn luôn mang một bài học ý nghĩa." },
+    { question: "Ai là tác giả nổi tiếng với các truyện ngụ ngôn từ thời Hy Lạp cổ đại?", options: ["Aesop", "Andersen", "Grimm", "Perrault"], correctIndex: 0, explanation: "Aesop là tác giả nổi tiếng với các truyện ngụ ngôn cổ." },
+  ]),
+  "tieng-viet:3:thu-thach-nho-doc-hieu-truyen-co-tich-viet-nam": practiceContent("Thử thách nhỏ", "Đọc hiểu truyện cổ tích Việt Nam", "Hãy nhớ lại nội dung, ý nghĩa của các truyện cổ tích Việt Nam.", [
+    { question: "Truyện cổ tích nào có nhân vật Thạch Sanh?", options: ["Tấm Cám", "Thạch Sanh", "Sọ Dừa", "Cây tre trăm đốt"], correctIndex: 1, explanation: "'Thạch Sanh' là tên truyện cổ tích với nhân vật chính cùng tên." },
+    { question: "Truyện cổ tích Việt Nam thường thể hiện ước mơ gì?", options: ["Công bằng, người tốt được đền đáp", "Sự bất công", "Không có ước mơ nào", "Chỉ để giải trí"], correctIndex: 0, explanation: "Truyện cổ tích thường thể hiện ước mơ về công bằng." },
+    { question: "Nhân vật chính trong truyện cổ tích thường có đặc điểm gì?", options: ["Hiền lành, chăm chỉ", "Luôn xấu xa", "Không có tính cách", "Chỉ là đồ vật"], correctIndex: 0, explanation: "Nhân vật chính thường hiền lành, chăm chỉ." },
+    { question: "Truyện cổ tích 'Sọ Dừa' kể về nhân vật có hình dáng như thế nào?", options: ["Tròn như quả dừa", "Cao lớn", "Nhỏ bé như hạt gạo", "Không có hình dáng đặc biệt"], correctIndex: 0, explanation: "Sọ Dừa có hình dáng tròn như quả dừa trong truyện." },
+  ]),
+  "tieng-viet:3:thuc-hanh-ke-chuyen-theo-tranh-minh-hoa": practiceContent("Thực hành", "Kể chuyện theo tranh minh hoạ", "Hãy nhớ lại cách quan sát tranh và kể chuyện mạch lạc.", [
+    { question: "Khi kể chuyện theo tranh, em cần làm gì đầu tiên?", options: ["Kể ngay không cần xem tranh", "Quan sát kỹ từng bức tranh", "Bỏ qua tranh", "Chỉ đọc tên truyện"], correctIndex: 1, explanation: "Cần quan sát kỹ tranh trước khi kể." },
+    { question: "Các bức tranh trong câu chuyện thường sắp xếp theo gì?", options: ["Ngẫu nhiên", "Trình tự câu chuyện", "Không theo trình tự nào", "Theo màu sắc"], correctIndex: 1, explanation: "Tranh minh hoạ thường sắp xếp theo trình tự câu chuyện." },
+    { question: "Từ ngữ nào giúp kể chuyện mạch lạc hơn?", options: ["Sau đó, tiếp theo, cuối cùng", "Không cần từ ngữ nối", "Chỉ dùng một từ duy nhất", "Không có từ nào phù hợp"], correctIndex: 0, explanation: "Từ ngữ chuyển tiếp giúp câu chuyện mạch lạc." },
+    { question: "Kể chuyện theo tranh giúp rèn luyện kỹ năng gì?", options: ["Diễn đạt mạch lạc", "Không rèn luyện kỹ năng gì", "Chỉ rèn kỹ năng vẽ", "Chỉ rèn kỹ năng tính toán"], correctIndex: 0, explanation: "Kể chuyện theo tranh giúp rèn kỹ năng diễn đạt mạch lạc." },
+  ]),
+  "tieng-viet:3:luyen-tap-ke-lai-mot-buoi-tham-quan": practiceContent("Luyện tập", "Kể lại một buổi tham quan", "Hãy nhớ lại trình tự kể chuyện: chuẩn bị, hoạt động, cảm xúc.", [
+    { question: "Khi kể về buổi tham quan, em nên nhớ lại điều gì trước?", options: ["Địa điểm, thời gian, hoạt động đáng nhớ", "Không cần nhớ gì", "Chỉ cần nhớ tên địa điểm", "Chỉ cần nhớ ngày tháng"], correctIndex: 0, explanation: "Cần nhớ đầy đủ địa điểm, thời gian, hoạt động." },
+    { question: "Kể chuyện về buổi tham quan nên theo trình tự nào?", options: ["Chuẩn bị, hoạt động, cảm xúc", "Kể lộn xộn", "Chỉ kể phần kết", "Không cần trình tự"], correctIndex: 0, explanation: "Kể theo trình tự giúp câu chuyện rõ ràng." },
+    { question: "Vì sao nên thể hiện cảm xúc khi kể chuyện?", options: ["Không cần thiết", "Giúp câu chuyện sinh động hơn", "Làm khó hiểu hơn", "Không có tác dụng"], correctIndex: 1, explanation: "Thể hiện cảm xúc giúp câu chuyện sinh động, chân thực." },
+    { question: "Ghi chép gì sau chuyến tham quan giúp lưu giữ kỷ niệm?", options: ["Nhật ký", "Không cần ghi chép gì", "Chỉ cần nhớ trong đầu", "Không có cách nào"], correctIndex: 0, explanation: "Ghi nhật ký là cách hay để lưu giữ kỷ niệm." },
+  ]),
+  "tieng-viet:3:van-dung-ke-ve-mot-ngay-cua-em": practiceContent("Vận dụng", "Kể về một ngày của em", "Hãy nhớ lại cách kể theo trình tự thời gian từ sáng đến tối.", [
+    { question: "Khi kể về một ngày của mình, em nên kể theo trình tự nào?", options: ["Lộn xộn", "Theo trình tự thời gian", "Chỉ kể một hoạt động", "Không cần trình tự"], correctIndex: 1, explanation: "Kể theo trình tự thời gian giúp câu chuyện rõ ràng." },
+    { question: "Hoạt động nào thường diễn ra cuối cùng trong ngày?", options: ["Thức dậy", "Đi học", "Đi ngủ", "Ăn sáng"], correctIndex: 2, explanation: "'Đi ngủ' thường là hoạt động cuối cùng trong ngày." },
+    { question: "Khi kể về một ngày của mình, em nên kể như thế nào?", options: ["Chép văn mẫu", "Tự nhiên, chân thực", "Không cần kể thật", "Kể thật ngắn gọn"], correctIndex: 1, explanation: "Kể tự nhiên, chân thực giúp bài văn gần gũi hơn." },
+    { question: "Bài văn kể về một ngày giúp rèn luyện kỹ năng gì?", options: ["Quan sát và diễn đạt", "Không rèn luyện gì", "Chỉ rèn kỹ năng vẽ", "Chỉ rèn kỹ năng tính toán"], correctIndex: 0, explanation: "Bài văn này giúp rèn kỹ năng quan sát và diễn đạt." },
+  ]),
+  "tieng-viet:3:tro-choi-on-tap-ta-buoi-sang-o-que-em": practiceContent("Trò chơi ôn tập", "Tả buổi sáng ở quê em", "Hãy nhớ lại các hình ảnh quen thuộc của buổi sáng ở quê.", [
+    { question: "Hình ảnh nào thường xuất hiện trong buổi sáng ở quê?", options: ["Tiếng gà gáy", "Đèn giao thông", "Xe buýt", "Toà nhà cao tầng"], correctIndex: 0, explanation: "Tiếng gà gáy là âm thanh quen thuộc buổi sáng ở quê." },
+    { question: "Từ nào phù hợp để tả sương sớm?", options: ["Ồn ào", "Mờ ảo", "Nóng bức", "Chật chội"], correctIndex: 1, explanation: "'Mờ ảo' phù hợp để tả sương sớm." },
+    { question: "Đoạn văn tả buổi sáng nên bắt đầu bằng gì?", options: ["Một câu hỏi bất kỳ", "Khung cảnh chung", "Một phép tính", "Không cần mở đầu"], correctIndex: 1, explanation: "Nên bắt đầu bằng khung cảnh chung." },
+    { question: "Hình ảnh nào KHÔNG phù hợp khi tả buổi sáng ở quê?", options: ["Cánh đồng lúa", "Con đường làng", "Đèn neon quảng cáo", "Ánh nắng sớm"], correctIndex: 2, explanation: "'Đèn neon quảng cáo' là hình ảnh đô thị, không phù hợp với quê." },
+  ]),
+  "tieng-viet:3:thu-thach-nho-ta-canh-san-truong-gio-ra-choi": practiceContent("Thử thách nhỏ", "Tả cảnh sân trường giờ ra chơi", "Hãy nhớ lại không khí nhộn nhịp của giờ ra chơi.", [
+    { question: "Âm thanh nào báo hiệu giờ ra chơi bắt đầu?", options: ["Tiếng chuông điện thoại", "Tiếng trống trường", "Tiếng còi xe", "Tiếng nhạc"], correctIndex: 1, explanation: "Tiếng trống trường báo hiệu giờ ra chơi." },
+    { question: "Từ nào phù hợp tả không khí sân trường giờ ra chơi?", options: ["Yên tĩnh", "Nhộn nhịp", "Buồn bã", "Vắng vẻ"], correctIndex: 1, explanation: "'Nhộn nhịp' phù hợp để tả không khí vui tươi." },
+    { question: "Hoạt động nào thường thấy trong giờ ra chơi?", options: ["Làm bài kiểm tra", "Nhảy dây, đá cầu", "Ngủ trưa", "Học bài mới"], correctIndex: 1, explanation: "Nhảy dây, đá cầu là trò chơi phổ biến giờ ra chơi." },
+    { question: "Giờ ra chơi mang lại lợi ích gì cho học sinh?", options: ["Không có lợi ích gì", "Thư giãn, vận động sau giờ học", "Làm mất thời gian học", "Không liên quan đến sức khoẻ"], correctIndex: 1, explanation: "Giờ ra chơi giúp thư giãn, vận động sau giờ học căng thẳng." },
+  ]),
+  "tieng-viet:3:thuc-hanh-ta-con-mua": practiceContent("Thực hành", "Tả cơn mưa", "Hãy nhớ lại cách miêu tả cơn mưa theo trình tự trước, trong, sau.", [
+    { question: "Từ nào miêu tả âm thanh của mưa rơi trên mái nhà?", options: ["Lộp độp", "Ồn ào", "Yên tĩnh", "Chậm rãi"], correctIndex: 0, explanation: "'Lộp độp' là từ tượng thanh miêu tả tiếng mưa." },
+    { question: "Bầu trời trước khi mưa thường có đặc điểm gì?", options: ["Trong xanh", "Xuất hiện mây đen", "Nắng chói chang", "Không có gì đặc biệt"], correctIndex: 1, explanation: "Trước khi mưa, bầu trời thường xuất hiện mây đen." },
+    { question: "Sau cơn mưa, cảnh vật thường như thế nào?", options: ["Khô cằn", "Tươi mát, trong lành hơn", "Không thay đổi", "Nóng bức hơn"], correctIndex: 1, explanation: "Sau mưa, cảnh vật thường tươi mát, trong lành hơn." },
+    { question: "Mưa rào mang lại lợi ích gì cho cây cối?", options: ["Không có lợi ích gì", "Giúp cây cối tươi tốt", "Làm cây héo úa", "Không liên quan đến cây cối"], correctIndex: 1, explanation: "Mưa rào giúp cây cối tươi tốt hơn." },
+  ]),
+  "tieng-viet:3:luyen-tap-viet-doan-van-gioi-thieu-ban-than": practiceContent("Luyện tập", "Viết đoạn văn giới thiệu bản thân", "Hãy nhớ lại các thông tin cần có khi giới thiệu bản thân.", [
+    { question: "Thông tin nào nên có trong đoạn văn giới thiệu bản thân?", options: ["Tên, tuổi, sở thích", "Chỉ có màu sắc yêu thích", "Không cần thông tin gì", "Chỉ có tên trường"], correctIndex: 0, explanation: "Tên, tuổi, sở thích là thông tin cơ bản cần giới thiệu." },
+    { question: "Đoạn văn giới thiệu bản thân nên bắt đầu bằng gì?", options: ["Sở thích", "Tên của mình", "Một câu hỏi", "Ước mơ tương lai"], correctIndex: 1, explanation: "Nên bắt đầu bằng việc giới thiệu tên." },
+    { question: "Vì sao cần giới thiệu sở thích trong đoạn văn?", options: ["Không cần thiết", "Giúp người đọc hiểu thêm về mình", "Làm đoạn văn dài hơn", "Không có lý do gì"], correctIndex: 1, explanation: "Giới thiệu sở thích giúp người đọc hiểu thêm về em." },
+    { question: "Kỹ năng giới thiệu bản thân có tác dụng gì trong cuộc sống?", options: ["Không có tác dụng gì", "Dùng suốt đời khi giao tiếp", "Chỉ dùng ở trường", "Chỉ dùng một lần"], correctIndex: 1, explanation: "Đây là kỹ năng em sẽ dùng suốt đời khi giao tiếp." },
+  ]),
+  "tieng-viet:3:van-dung-viet-doan-van-ke-ve-uoc-mo": practiceContent("Vận dụng", "Viết đoạn văn kể về ước mơ", "Hãy nhớ lại cách nêu ước mơ và lý do có ước mơ đó.", [
+    { question: "Đoạn văn kể về ước mơ nên có nội dung gì?", options: ["Chỉ nêu tên ước mơ", "Nêu ước mơ và lý do", "Không cần lý do", "Chỉ kể chuyện khác"], correctIndex: 1, explanation: "Cần nêu rõ ước mơ và lý do vì sao có ước mơ đó." },
+    { question: "Ước mơ có thể là gì?", options: ["Một nghề nghiệp trong tương lai", "Không thể là gì cả", "Chỉ là đồ chơi", "Chỉ là món ăn"], correctIndex: 0, explanation: "Ước mơ thường liên quan đến nghề nghiệp tương lai." },
+    { question: "Vì sao nên nêu lý do cho ước mơ của mình?", options: ["Không cần thiết", "Giúp đoạn văn thuyết phục hơn", "Làm đoạn văn dài dòng", "Không có tác dụng gì"], correctIndex: 1, explanation: "Nêu lý do giúp đoạn văn có chiều sâu, thuyết phục hơn." },
+    { question: "Nhiều người thành công thường bắt đầu từ đâu?", options: ["Những ước mơ nhỏ khi còn nhỏ", "Không có khởi đầu nào", "Chỉ từ may mắn", "Không liên quan đến ước mơ"], correctIndex: 0, explanation: "Nhiều người thành công bắt đầu từ ước mơ nhỏ khi còn nhỏ." },
+  ]),
+  "tieng-viet:3:tro-choi-on-tap-viet-loi-cam-on-loi-xin-loi": practiceContent("Trò chơi ôn tập", "Viết lời cảm ơn, lời xin lỗi", "Hãy nhớ lại cách viết lời cảm ơn, xin lỗi chân thành.", [
+    { question: "Lời cảm ơn cần có nội dung gì?", options: ["Chỉ cần nói 'cảm ơn'", "Nêu rõ lý do cảm ơn", "Không cần lý do", "Chỉ cần viết dài"], correctIndex: 1, explanation: "Lời cảm ơn nên nêu rõ lý do để thể hiện chân thành." },
+    { question: "Lời xin lỗi cần có nội dung gì?", options: ["Nêu rõ lỗi đã mắc", "Không cần nêu lỗi gì", "Chỉ cần nói 'xin lỗi'", "Đổ lỗi cho người khác"], correctIndex: 0, explanation: "Lời xin lỗi cần nêu rõ lỗi đã mắc phải." },
+    { question: "Khi viết lời cảm ơn, xin lỗi, em nên dùng ngôn từ như thế nào?", options: ["Thô lỗ", "Lịch sự, chân thành", "Qua loa", "Không cần chú ý"], correctIndex: 1, explanation: "Cần dùng ngôn từ lịch sự, chân thành." },
+    { question: "Biết nói lời cảm ơn, xin lỗi đúng lúc là kỹ năng gì?", options: ["Kỹ năng giao tiếp quan trọng", "Không quan trọng", "Chỉ cần khi còn nhỏ", "Không liên quan đến giao tiếp"], correctIndex: 0, explanation: "Đây là kỹ năng giao tiếp quan trọng trong cuộc sống." },
+  ]),
+  "tieng-viet:3:thu-thach-nho-viet-tin-nhan-loi-nhan-ngan": practiceContent("Thử thách nhỏ", "Viết tin nhắn, lời nhắn ngắn", "Hãy nhớ lại nội dung cần có trong một tin nhắn.", [
+    { question: "Tin nhắn, lời nhắn cần có đặc điểm gì?", options: ["Dài dòng, chi tiết", "Ngắn gọn, rõ ràng", "Không cần rõ ràng", "Viết tuỳ ý"], correctIndex: 1, explanation: "Tin nhắn cần ngắn gọn nhưng đầy đủ thông tin." },
+    { question: "Nội dung nào nên có trong một lời nhắn?", options: ["Người gửi, người nhận, nội dung nhắn", "Chỉ cần một từ", "Không cần thông tin gì", "Chỉ cần ký tên"], correctIndex: 0, explanation: "Cần đầy đủ người gửi, người nhận, nội dung." },
+    { question: "Khi nào em cần viết lời nhắn?", options: ["Khi gặp trực tiếp", "Khi không thể gặp trực tiếp", "Không bao giờ cần viết", "Chỉ khi đi học"], correctIndex: 1, explanation: "Lời nhắn dùng khi không thể gặp trực tiếp." },
+    { question: "Ngày nay, phương tiện nào thường thay thế lời nhắn viết tay?", options: ["Tin nhắn điện thoại", "Không có phương tiện nào", "Chỉ có thư tay", "Chỉ có gọi điện"], correctIndex: 0, explanation: "Tin nhắn điện thoại đã thay thế phần lớn lời nhắn viết tay." },
+  ]),
+  "tieng-viet:3:thuc-hanh-dien-tu-con-thieu-vao-cho-trong": practiceContent("Thực hành", "Điền từ còn thiếu vào chỗ trống", "Hãy nhớ lại cách đọc kỹ câu để chọn từ phù hợp.", [
+    { question: "Khi làm bài điền từ, em cần làm gì đầu tiên?", options: ["Điền ngay không cần đọc câu", "Đọc kỹ cả câu để hiểu nghĩa", "Chọn từ bất kỳ", "Bỏ qua không làm"], correctIndex: 1, explanation: "Cần đọc kỹ câu trước khi điền từ." },
+    { question: "'Chú chó ___ rất to.' Từ nào phù hợp để điền vào chỗ trống?", options: ["sủa", "này", "và", "nhưng"], correctIndex: 0, explanation: "'Sủa' phù hợp về nghĩa và ngữ pháp trong câu này." },
+    { question: "Sau khi điền từ, em nên làm gì?", options: ["Không cần kiểm tra lại", "Đọc lại cả câu để kiểm tra", "Xoá đi ngay", "Không cần làm gì thêm"], correctIndex: 1, explanation: "Nên đọc lại để kiểm tra tính hợp lý." },
+    { question: "Bài tập điền từ giúp ích điều gì cho em?", options: ["Mở rộng vốn từ", "Không có ích gì", "Làm bài khó hơn", "Không liên quan đến từ vựng"], correctIndex: 0, explanation: "Bài tập điền từ giúp mở rộng vốn từ của em." },
+  ]),
+  "tieng-viet:3:luyen-tap-sap-xep-cau-thanh-doan-van-hop-ly": practiceContent("Luyện tập", "Sắp xếp câu thành đoạn văn hợp lý", "Hãy nhớ lại cách nhận biết trình tự hợp lý của các câu.", [
+    { question: "Khi sắp xếp câu thành đoạn văn, em cần chú ý điều gì?", options: ["Sắp xếp ngẫu nhiên", "Trình tự hợp lý", "Không cần chú ý gì", "Chỉ cần đủ số câu"], correctIndex: 1, explanation: "Cần sắp xếp theo trình tự hợp lý." },
+    { question: "Từ ngữ nào giúp nhận biết trình tự các câu?", options: ["Đầu tiên, sau đó, cuối cùng", "Không có từ ngữ nào giúp ích", "Chỉ cần đếm số câu", "Chỉ cần nhìn độ dài câu"], correctIndex: 0, explanation: "Các từ chỉ thứ tự giúp nhận biết trình tự câu." },
+    { question: "Sau khi sắp xếp xong, em nên làm gì?", options: ["Không cần kiểm tra lại", "Đọc lại để kiểm tra tính mạch lạc", "Xoá bỏ đoạn văn", "Không cần làm gì thêm"], correctIndex: 1, explanation: "Đọc lại để kiểm tra đoạn văn mạch lạc." },
+    { question: "Kỹ năng sắp xếp ý theo trình tự logic còn quan trọng ở đâu?", options: ["Trong thuyết trình, giải quyết vấn đề", "Không quan trọng ở đâu khác", "Chỉ trong viết văn", "Không liên quan đến kỹ năng khác"], correctIndex: 0, explanation: "Kỹ năng này quan trọng cả trong thuyết trình và giải quyết vấn đề." },
+  ]),
+  "tieng-viet:3:van-dung-dat-cau-theo-mau-ai-lam-gi": practiceContent("Vận dụng", "Đặt câu theo mẫu Ai làm gì?", "Hãy nhớ lại cấu trúc: phần 'Ai' và phần 'làm gì'.", [
+    { question: "Câu 'Bạn Hùng đang vẽ tranh.' thuộc mẫu câu nào?", options: ["Ai làm gì?", "Ai thế nào?", "Ai là gì?", "Không thuộc mẫu nào"], correctIndex: 0, explanation: "Câu có 'bạn Hùng' (Ai) và 'đang vẽ tranh' (làm gì)." },
+    { question: "Trong câu 'Chim hót líu lo.', phần nào là 'làm gì'?", options: ["Chim", "Hót líu lo", "Cả câu", "Không có phần nào"], correctIndex: 1, explanation: "'Hót líu lo' là hành động, thuộc phần 'làm gì'." },
+    { question: "Câu nào đúng theo mẫu Ai làm gì?", options: ["Trời rất đẹp.", "Em là học sinh.", "Mẹ đang nấu cơm.", "Bầu trời trong xanh."], correctIndex: 2, explanation: "'Mẹ đang nấu cơm' có Ai (Mẹ) và làm gì (đang nấu cơm)." },
+    { question: "Mẫu câu Ai làm gì thường dùng để làm gì?", options: ["Kể về hành động", "Giới thiệu tên gọi", "Tả đặc điểm", "Không có tác dụng gì"], correctIndex: 0, explanation: "Mẫu câu này dùng để kể về hành động của người/vật." },
+  ]),
+  "tieng-viet:3:tro-choi-on-tap-dat-cau-theo-mau-ai-the-nao": practiceContent("Trò chơi ôn tập", "Đặt câu theo mẫu Ai thế nào?", "Hãy nhớ lại cấu trúc: phần 'Ai' và phần 'thế nào'.", [
+    { question: "Câu 'Con đường rất dài.' thuộc mẫu câu nào?", options: ["Ai làm gì?", "Ai thế nào?", "Ai là gì?", "Không thuộc mẫu nào"], correctIndex: 1, explanation: "Câu có 'con đường' (Ai) và 'rất dài' (thế nào)." },
+    { question: "Trong câu 'Bạn Mai rất thông minh.', phần nào là 'thế nào'?", options: ["Bạn Mai", "Rất thông minh", "Cả câu", "Không có phần nào"], correctIndex: 1, explanation: "'Rất thông minh' miêu tả đặc điểm, thuộc phần 'thế nào'." },
+    { question: "Câu nào đúng theo mẫu Ai thế nào?", options: ["Em đang học bài.", "Em là học sinh giỏi.", "Em rất chăm ngoan.", "Em đọc sách."], correctIndex: 2, explanation: "'Em rất chăm ngoan' có Ai (Em) và thế nào (rất chăm ngoan)." },
+    { question: "Mẫu câu Ai thế nào thường dùng loại từ nào ở phần sau?", options: ["Tính từ", "Chỉ số từ", "Chỉ đại từ", "Không dùng từ loại nào"], correctIndex: 0, explanation: "Phần 'thế nào' thường dùng tính từ để miêu tả đặc điểm." },
+  ]),
+  "tieng-viet:3:thu-thach-nho-dat-cau-theo-mau-ai-la-gi": practiceContent("Thử thách nhỏ", "Đặt câu theo mẫu Ai là gì?", "Hãy nhớ lại cấu trúc: phần 'Ai' và phần 'là gì'.", [
+    { question: "Câu 'Việt Nam là một nước ở Đông Nam Á.' thuộc mẫu câu nào?", options: ["Ai làm gì?", "Ai thế nào?", "Ai là gì?", "Không thuộc mẫu nào"], correctIndex: 2, explanation: "Câu có 'Việt Nam' (Ai) và 'là một nước ở Đông Nam Á' (là gì)." },
+    { question: "Trong câu 'Mẹ em là giáo viên.', phần nào là phần 'là gì'?", options: ["Mẹ em", "Là giáo viên", "Cả câu", "Không có phần nào"], correctIndex: 1, explanation: "'Là giáo viên' giới thiệu nghề nghiệp của mẹ." },
+    { question: "Câu nào đúng theo mẫu Ai là gì?", options: ["Con chó đang chạy.", "Con chó là vật nuôi trung thành.", "Con chó rất to.", "Con chó sủa to."], correctIndex: 1, explanation: "'Con chó là vật nuôi trung thành' có Ai và là gì." },
+    { question: "Mẫu câu Ai là gì thường dùng để làm gì?", options: ["Giới thiệu, nhận định về đối tượng", "Kể về hành động", "Tả đặc điểm", "Không có tác dụng gì"], correctIndex: 0, explanation: "Mẫu câu này dùng để giới thiệu, nhận định về đối tượng." },
+  ]),
+  "tieng-viet:3:thuc-hanh-luyen-doc-dien-cam-doan-van": practiceContent("Thực hành", "Luyện đọc diễn cảm đoạn văn", "Hãy nhớ lại cách ngắt nghỉ, lên xuống giọng khi đọc.", [
+    { question: "Đọc diễn cảm là gì?", options: ["Đọc thật nhanh", "Đọc thể hiện đúng ngữ điệu, cảm xúc", "Đọc thật to", "Đọc không cần chú ý gì"], correctIndex: 1, explanation: "Đọc diễn cảm cần thể hiện đúng ngữ điệu, cảm xúc." },
+    { question: "Khi gặp dấu phẩy, em nên làm gì?", options: ["Ngắt hơi ngắn", "Nghỉ hơi dài", "Không ngắt nghỉ gì", "Đọc thật nhanh qua"], correctIndex: 0, explanation: "Dấu phẩy thường yêu cầu ngắt hơi ngắn." },
+    { question: "Khi đọc câu hỏi, giọng đọc nên như thế nào?", options: ["Giữ nguyên giọng", "Lên giọng ở cuối câu", "Hạ giọng thấp", "Đọc thật nhỏ"], correctIndex: 1, explanation: "Câu hỏi thường cần lên giọng ở cuối câu." },
+    { question: "Đọc diễn cảm giúp ích gì cho việc học?", options: ["Không giúp ích gì", "Hiểu bài tốt hơn, rèn kỹ năng thuyết trình", "Làm chậm việc đọc", "Không liên quan đến việc học"], correctIndex: 1, explanation: "Đọc diễn cảm giúp hiểu bài tốt hơn và rèn kỹ năng thuyết trình." },
+  ]),
+  "tieng-viet:3:luyen-tap-luyen-doc-dien-cam-bai-tho": practiceContent("Luyện tập", "Luyện đọc diễn cảm bài thơ", "Hãy nhớ lại cách ngắt nhịp và thể hiện cảm xúc khi đọc thơ.", [
+    { question: "Khi đọc thơ, em cần chú ý điều gì đặc biệt?", options: ["Không cần chú ý gì", "Ngắt nhịp đúng theo cấu trúc câu thơ", "Đọc thật nhanh", "Bỏ qua vần điệu"], correctIndex: 1, explanation: "Ngắt nhịp đúng giúp bài thơ được đọc hay hơn." },
+    { question: "Thơ lục bát thường có nhịp ngắt phổ biến nào?", options: ["1/1/1", "2/2/2 hoặc 2/4", "5/5", "Không có nhịp cố định"], correctIndex: 1, explanation: "Thơ lục bát thường ngắt nhịp 2/2/2 hoặc 2/4." },
+    { question: "Để đọc diễn cảm bài thơ hay, em cần hiểu điều gì trước?", options: ["Không cần hiểu gì", "Nội dung và cảm xúc bài thơ", "Chỉ cần đọc nhanh", "Chỉ cần đọc to"], correctIndex: 1, explanation: "Hiểu nội dung, cảm xúc giúp đọc diễn cảm đúng hơn." },
+    { question: "Nhiều bài thơ thiếu nhi Việt Nam thường được làm gì để dễ nhớ hơn?", options: ["Phổ nhạc thành bài hát", "Không làm gì cả", "Dịch sang tiếng nước ngoài", "Chỉ đọc một lần"], correctIndex: 0, explanation: "Nhiều bài thơ thiếu nhi được phổ nhạc thành bài hát." },
+  ]),
+  "tieng-viet:3:van-dung-tom-tat-noi-dung-mot-doan-van": practiceContent("Vận dụng", "Tóm tắt nội dung một đoạn văn", "Hãy nhớ lại cách xác định ý chính rồi diễn đạt ngắn gọn.", [
+    { question: "Tóm tắt đoạn văn là gì?", options: ["Chép lại nguyên văn", "Trình bày ngắn gọn ý chính", "Bỏ qua không đọc", "Viết dài hơn bản gốc"], correctIndex: 1, explanation: "Tóm tắt là trình bày ngắn gọn ý chính." },
+    { question: "Khi tóm tắt, em cần chú ý điều gì?", options: ["Giữ đúng ý chính", "Thêm ý kiến cá nhân", "Bỏ hết nội dung", "Không cần đọc kỹ"], correctIndex: 0, explanation: "Cần giữ đúng ý chính khi tóm tắt." },
+    { question: "Để tóm tắt tốt, bước đầu tiên em cần làm gì?", options: ["Viết ngay không cần đọc", "Đọc kỹ và xác định ý chính", "Chỉ đọc câu đầu", "Không cần đọc gì"], correctIndex: 1, explanation: "Cần đọc kỹ để xác định đúng ý chính." },
+    { question: "Kỹ năng tóm tắt được sử dụng nhiều khi nào?", options: ["Khi học các môn học khác và đi làm", "Không dùng ở đâu khác", "Chỉ dùng trong môn Tiếng Việt", "Chỉ dùng khi còn nhỏ"], correctIndex: 0, explanation: "Kỹ năng tóm tắt rất hữu ích khi học các môn khác và cả khi đi làm." },
+  ]),
+  "tieng-viet:3:tro-choi-on-tap-nhan-biet-doan-van-va-cau-chu-de": practiceContent("Trò chơi ôn tập", "Nhận biết đoạn văn và câu chủ đề", "Hãy nhớ lại: câu chủ đề nêu ý chính của đoạn văn.", [
+    { question: "Câu chủ đề trong đoạn văn có vai trò gì?", options: ["Không có vai trò gì", "Nêu ý chính của cả đoạn văn", "Chỉ để trang trí", "Luôn là câu cuối cùng"], correctIndex: 1, explanation: "Câu chủ đề nêu ý chính của đoạn văn." },
+    { question: "Câu chủ đề thường xuất hiện ở vị trí nào?", options: ["Chỉ ở giữa đoạn", "Đầu hoặc cuối đoạn", "Không có vị trí cố định", "Luôn ở dòng thứ hai"], correctIndex: 1, explanation: "Câu chủ đề thường đứng ở đầu hoặc cuối đoạn." },
+    { question: "Đoạn văn là gì?", options: ["Một từ đơn lẻ", "Nhiều câu liên kết thể hiện một ý chính", "Một chữ cái", "Không có định nghĩa cụ thể"], correctIndex: 1, explanation: "Đoạn văn gồm nhiều câu liên kết, thể hiện một ý chính." },
+    { question: "Nhận biết câu chủ đề giúp ích gì khi đọc?", options: ["Đọc hiểu nhanh hơn", "Không có ích gì", "Làm bài khó hơn", "Không liên quan đến đọc hiểu"], correctIndex: 0, explanation: "Nhận biết câu chủ đề giúp em đọc hiểu nhanh và hiệu quả hơn." },
+  ]),
+  "tieng-viet:3:thu-thach-nho-viet-doan-van-ta-buoi-le-o-truong": practiceContent("Thử thách nhỏ", "Viết đoạn văn tả buổi lễ ở trường", "Hãy nhớ lại cách tả theo trình tự trước, trong và sau buổi lễ.", [
+    { question: "Buổi lễ nào thường diễn ra vào đầu năm học?", options: ["Lễ khai giảng", "Lễ tổng kết", "Lễ 20/11", "Lễ Giáng sinh"], correctIndex: 0, explanation: "Lễ khai giảng thường diễn ra vào đầu năm học." },
+    { question: "Khi tả buổi lễ ở trường, em nên miêu tả những gì?", options: ["Không khí, hoạt động chính, cảm xúc", "Chỉ cần tên buổi lễ", "Không cần miêu tả chi tiết", "Chỉ cần liệt kê tên người tham gia"], correctIndex: 0, explanation: "Cần miêu tả không khí, hoạt động chính và cảm xúc." },
+    { question: "Ngày 20/11 là ngày lễ gì?", options: ["Ngày Nhà giáo Việt Nam", "Ngày Quốc khánh", "Ngày Phụ nữ Việt Nam", "Ngày Thiếu nhi"], correctIndex: 0, explanation: "Ngày 20/11 là Ngày Nhà giáo Việt Nam." },
+    { question: "Lễ khai giảng ở Việt Nam có nghi thức đặc biệt nào?", options: ["Đánh trống khai trường", "Không có nghi thức nào", "Chỉ có phát biểu", "Chỉ có văn nghệ"], correctIndex: 0, explanation: "Đánh trống khai trường là nghi thức truyền thống của lễ khai giảng." },
+  ]),
+  "tieng-viet:3:thuc-hanh-tu-ngu-chi-dac-diem-ngoai-hinh": practiceContent("Thực hành", "Từ ngữ chỉ đặc điểm ngoại hình", "Hãy nhớ lại các từ ngữ miêu tả khuôn mặt, dáng người, mái tóc.", [
+    { question: "Từ nào miêu tả dáng người cao?", options: ["Thấp bé", "Cao ráo", "Gầy gò", "Tròn trịa"], correctIndex: 1, explanation: "'Cao ráo' miêu tả dáng người cao." },
+    { question: "Từ nào miêu tả mái tóc?", options: ["Đen nhánh", "Chăm chỉ", "Nhanh nhẹn", "Hiền lành"], correctIndex: 0, explanation: "'Đen nhánh' miêu tả màu sắc mái tóc." },
+    { question: "Câu nào miêu tả đúng đặc điểm ngoại hình?", options: ["Bạn ấy rất chăm học.", "Bạn ấy có đôi mắt to tròn.", "Bạn ấy rất tốt bụng.", "Bạn ấy học giỏi Toán."], correctIndex: 1, explanation: "Câu này miêu tả đặc điểm ngoại hình (đôi mắt)." },
+    { question: "Miêu tả ngoại hình sinh động giúp ích gì cho bài văn?", options: ["Giúp người đọc hình dung rõ nét về nhân vật", "Không có tác dụng gì", "Làm bài văn khó hiểu hơn", "Không liên quan đến nhân vật"], correctIndex: 0, explanation: "Miêu tả sinh động giúp người đọc hình dung rõ về nhân vật." },
+  ]),
+  "tieng-viet:3:luyen-tap-tu-ngu-chi-tinh-cach-con-nguoi": practiceContent("Luyện tập", "Từ ngữ chỉ tính cách con người", "Hãy nhớ lại các từ ngữ miêu tả tính cách tốt và tính cách cần rèn luyện.", [
+    { question: "Từ nào miêu tả tính cách tốt?", options: ["Nóng nảy", "Hiền lành", "Lười biếng", "Nhút nhát"], correctIndex: 1, explanation: "'Hiền lành' là từ miêu tả tính cách tốt." },
+    { question: "Từ nào miêu tả tính cách cần rèn luyện thêm?", options: ["Chăm chỉ", "Thật thà", "Lười biếng", "Tốt bụng"], correctIndex: 2, explanation: "'Lười biếng' là tính cách cần rèn luyện." },
+    { question: "Câu nào miêu tả đúng về tính cách?", options: ["Bạn ấy cao 1m30.", "Bạn ấy rất tốt bụng, hay giúp đỡ bạn bè.", "Bạn ấy có mái tóc dài.", "Bạn ấy mặc áo màu xanh."], correctIndex: 1, explanation: "Câu này miêu tả tính cách (tốt bụng)." },
+    { question: "Cách nào giúp miêu tả tính cách thuyết phục hơn?", options: ["Qua hành động cụ thể", "Chỉ dùng tính từ đơn thuần", "Không cần ví dụ", "Không miêu tả gì"], correctIndex: 0, explanation: "Miêu tả qua hành động cụ thể thuyết phục hơn." },
+  ]),
+  "tieng-viet:3:van-dung-on-tap-giua-hoc-ky-1": practiceContent("Vận dụng", "Ôn tập giữa học kỳ 1", "Hãy ôn lại kiến thức trọng tâm giữa học kỳ 1.", [
+    { question: "Từ nào là động từ?", options: ["Học sinh", "Chạy", "Xinh đẹp", "Trường học"], correctIndex: 1, explanation: "'Chạy' chỉ hoạt động, là động từ." },
+    { question: "Câu nào là câu cảm?", options: ["Em đi học.", "Bạn tên là gì?", "Ôi, đẹp quá!", "Em hãy ngồi xuống."], correctIndex: 2, explanation: "Câu cảm bộc lộ cảm xúc, kết thúc bằng dấu chấm than." },
+    { question: "Khi tả con vật, em cần miêu tả những gì?", options: ["Hình dáng và hoạt động", "Không cần miêu tả gì", "Chỉ tên con vật", "Chỉ giá tiền"], correctIndex: 0, explanation: "Cần miêu tả hình dáng và hoạt động của con vật." },
+    { question: "Một bức thư cần có phần nào ở đầu?", options: ["Chữ ký", "Địa điểm, ngày tháng, lời chào", "Kết luận", "Không cần phần đầu"], correctIndex: 1, explanation: "Đầu thư cần có địa điểm, ngày tháng và lời chào." },
+  ]),
+  "tieng-viet:3:tro-choi-on-tap-on-tap-cuoi-hoc-ky-1": practiceContent("Trò chơi ôn tập", "Ôn tập cuối học kỳ 1", "Hãy ôn lại toàn bộ kiến thức Tiếng Việt học kỳ 1.", [
+    { question: "Biện pháp nào so sánh hai sự vật giống nhau?", options: ["Nhân hoá", "So sánh", "Không có biện pháp nào", "Điệp từ"], correctIndex: 1, explanation: "So sánh là đối chiếu hai sự vật có điểm giống nhau." },
+    { question: "Từ nào là tính từ?", options: ["Chạy", "Xinh đẹp", "Học sinh", "Trường học"], correctIndex: 1, explanation: "'Xinh đẹp' chỉ đặc điểm, là tính từ." },
+    { question: "Khi kể chuyện, em nên kể theo trình tự nào?", options: ["Lộn xộn", "Mở đầu, diễn biến, kết thúc", "Chỉ kể kết thúc", "Không cần trình tự"], correctIndex: 1, explanation: "Kể theo trình tự giúp câu chuyện rõ ràng." },
+    { question: "Câu 'Bạn ấy học rất giỏi.' thuộc mẫu câu nào?", options: ["Ai làm gì?", "Ai thế nào?", "Ai là gì?", "Không thuộc mẫu nào"], correctIndex: 1, explanation: "Câu này có Ai (bạn ấy) và thế nào (học rất giỏi)." },
+  ]),
+  "tieng-viet:3:thu-thach-nho-on-tap-giua-hoc-ky-2": practiceContent("Thử thách nhỏ", "Ôn tập giữa học kỳ 2", "Hãy ôn lại kiến thức trọng tâm giữa học kỳ 2.", [
+    { question: "Câu nào là câu khiến?", options: ["Em đi học.", "Em hãy giữ trật tự.", "Em đi học chưa?", "Ôi, đẹp quá!"], correctIndex: 1, explanation: "Câu khiến nêu yêu cầu, có từ 'hãy'." },
+    { question: "Văn bản thông tin khác truyện kể ở điểm nào?", options: ["Cung cấp kiến thức thực tế", "Luôn có nhân vật tưởng tượng", "Không có tiêu đề", "Không có sự khác biệt"], correctIndex: 0, explanation: "Văn bản thông tin cung cấp kiến thức thực tế." },
+    { question: "Khi tả cây cối, em nên tả theo trình tự nào?", options: ["Ngẫu nhiên", "Từ gốc đến ngọn hoặc theo mùa", "Không cần trình tự", "Chỉ tả một chi tiết"], correctIndex: 1, explanation: "Tả theo trình tự giúp bài văn mạch lạc." },
+    { question: "Đọc nhiều bài văn mẫu hay giúp ích gì?", options: ["Học cách dùng từ ngữ phong phú", "Không có ích gì", "Làm bài khó hơn", "Không liên quan đến viết văn"], correctIndex: 0, explanation: "Đọc bài văn mẫu hay giúp học cách dùng từ ngữ phong phú." },
+  ]),
+  "tieng-viet:3:thuc-hanh-thi-ke-chuyen-chuan-bi-va-trinh-bay": practiceContent("Thực hành", "Thi kể chuyện: chuẩn bị và trình bày", "Hãy nhớ lại cách chuẩn bị và trình bày tự tin khi kể chuyện.", [
+    { question: "Trước khi thi kể chuyện, em cần chuẩn bị gì?", options: ["Không cần chuẩn bị gì", "Nắm chắc nội dung câu chuyện", "Chỉ cần nhớ tên truyện", "Không cần luyện tập"], correctIndex: 1, explanation: "Cần nắm chắc nội dung để kể tự tin, mạch lạc." },
+    { question: "Để luyện tập trước khi kể chuyện, em có thể làm gì?", options: ["Không cần luyện tập", "Tập kể trước gương hoặc cho người thân nghe", "Chỉ đọc một lần", "Không cần tập nói to"], correctIndex: 1, explanation: "Luyện tập trước giúp em tự tin hơn." },
+    { question: "Khi kể chuyện trước lớp, em nên có thái độ như thế nào?", options: ["Rụt rè, nói nhỏ", "Tự tin, nói rõ ràng", "Không cần nhìn ai", "Nói thật nhanh"], correctIndex: 1, explanation: "Tự tin và nói rõ ràng giúp bài kể chuyện thuyết phục hơn." },
+    { question: "Kỹ năng kể chuyện trước đám đông là nền tảng cho kỹ năng gì sau này?", options: ["Kỹ năng thuyết trình", "Không liên quan đến kỹ năng nào", "Chỉ dùng khi còn nhỏ", "Kỹ năng vẽ tranh"], correctIndex: 0, explanation: "Đây là nền tảng quan trọng cho kỹ năng thuyết trình sau này." },
+  ]),
+  "tieng-viet:3:luyen-tap-viet-doan-van-ta-mot-buoi-hoat-dong-ngoai-khoa": practiceContent("Luyện tập", "Viết đoạn văn tả một buổi hoạt động ngoại khoá", "Hãy nhớ lại các nội dung cần miêu tả trong đoạn văn.", [
+    { question: "Hoạt động nào là hoạt động ngoại khoá?", options: ["Làm bài kiểm tra", "Cắm trại, dã ngoại", "Ngủ trưa", "Chép bài"], correctIndex: 1, explanation: "Cắm trại, dã ngoại là hoạt động ngoại khoá." },
+    { question: "Khi tả buổi hoạt động ngoại khoá, em nên miêu tả gì?", options: ["Không cần miêu tả gì", "Thời gian, hoạt động, cảm xúc", "Chỉ cần tên hoạt động", "Chỉ cần liệt kê người tham gia"], correctIndex: 1, explanation: "Cần miêu tả đầy đủ thời gian, hoạt động và cảm xúc." },
+    { question: "Đoạn văn tả hoạt động ngoại khoá nên kết thúc bằng gì?", options: ["Một phép tính", "Cảm nghĩ của em", "Không cần kết thúc", "Chỉ cần liệt kê"], correctIndex: 1, explanation: "Nên kết thúc bằng cảm nghĩ để đoạn văn trọn vẹn." },
+    { question: "Hoạt động ngoại khoá giúp học sinh phát triển điều gì?", options: ["Toàn diện, cả kiến thức và kỹ năng sống", "Không giúp ích gì", "Chỉ giúp giải trí", "Không liên quan đến học tập"], correctIndex: 0, explanation: "Hoạt động ngoại khoá giúp phát triển toàn diện cả kiến thức và kỹ năng." },
+  ]),
+  "tieng-viet:3:van-dung-phan-biet-cau-don-va-cau-ghep-buoc-dau": practiceContent("Vận dụng", "Phân biệt câu đơn và câu ghép (bước đầu)", "Hãy nhớ lại: câu đơn có một ý, câu ghép có từ hai ý nối với nhau.", [
+    { question: "Câu nào là câu đơn?", options: ["Em đi học.", "Trời mưa nên em ở nhà.", "Em học bài và anh xem tivi.", "Vì trời lạnh nên em mặc áo ấm."], correctIndex: 0, explanation: "'Em đi học' chỉ có một ý, là câu đơn." },
+    { question: "Câu nào là câu ghép?", options: ["Em đi học.", "Bông hoa đẹp.", "Trời mưa nên em ở nhà.", "Em rất vui."], correctIndex: 2, explanation: "'Trời mưa nên em ở nhà' có hai ý nối với nhau." },
+    { question: "Câu ghép thường có đặc điểm gì?", options: ["Chỉ có một ý", "Có từ hai ý trở lên nối với nhau", "Không có động từ", "Luôn là câu hỏi"], correctIndex: 1, explanation: "Câu ghép có từ hai cụm chủ-vị trở lên." },
+    { question: "Câu ghép giúp ích gì khi diễn đạt?", options: ["Diễn đạt được nhiều ý phức tạp hơn", "Không có tác dụng gì", "Làm câu văn khó hiểu hơn", "Không liên quan đến diễn đạt"], correctIndex: 0, explanation: "Câu ghép giúp diễn đạt được nhiều ý phức tạp trong một câu." },
+  ]),
+  "tieng-viet:3:tro-choi-on-tap-tu-ngu-ve-bao-ve-moi-truong": practiceContent("Trò chơi ôn tập", "Từ ngữ về bảo vệ môi trường", "Hãy nhớ lại các từ ngữ và hành động bảo vệ môi trường.", [
+    { question: "Từ nào thuộc chủ điểm bảo vệ môi trường?", options: ["Tái chế", "Con mèo", "Quyển sách", "Cái bàn"], correctIndex: 0, explanation: "'Tái chế' liên quan đến bảo vệ môi trường." },
+    { question: "Hành động nào giúp bảo vệ môi trường?", options: ["Xả rác bừa bãi", "Trồng cây xanh", "Lãng phí nước", "Chặt phá rừng"], correctIndex: 1, explanation: "Trồng cây xanh là hành động bảo vệ môi trường." },
+    { question: "Từ 'ô nhiễm' có nghĩa là gì?", options: ["Sạch sẽ, trong lành", "Bị bẩn, có hại cho môi trường", "Tươi mát", "Không có nghĩa gì"], correctIndex: 1, explanation: "'Ô nhiễm' nghĩa là bị bẩn, có hại cho môi trường." },
+    { question: "Ngày Môi trường Thế giới được tổ chức vào ngày nào?", options: ["5/6", "1/6", "20/11", "8/3"], correctIndex: 0, explanation: "Ngày Môi trường Thế giới là ngày 5/6 hàng năm." },
+  ]),
+  "tieng-viet:3:thu-thach-nho-tu-ngu-ve-an-toan-giao-thong": practiceContent("Thử thách nhỏ", "Từ ngữ về an toàn giao thông", "Hãy nhớ lại các từ ngữ về phương tiện và an toàn giao thông.", [
+    { question: "Từ nào thuộc chủ điểm an toàn giao thông?", options: ["Mũ bảo hiểm", "Quyển sách", "Con mèo", "Cái bàn"], correctIndex: 0, explanation: "'Mũ bảo hiểm' liên quan đến an toàn giao thông." },
+    { question: "Hành động nào thể hiện an toàn giao thông?", options: ["Vượt đèn đỏ", "Đội mũ bảo hiểm khi đi xe máy", "Đi sai làn đường", "Chạy qua đường bất cẩn"], correctIndex: 1, explanation: "Đội mũ bảo hiểm thể hiện an toàn giao thông." },
+    { question: "Đèn tín hiệu giao thông màu đỏ có ý nghĩa gì?", options: ["Được đi", "Dừng lại", "Đi chậm", "Không có ý nghĩa gì"], correctIndex: 1, explanation: "Đèn đỏ báo hiệu phải dừng lại." },
+    { question: "Đội mũ bảo hiểm đúng cách giúp giảm nguy cơ gì?", options: ["Chấn thương đầu", "Không có tác dụng gì", "Tăng tốc độ", "Không liên quan đến an toàn"], correctIndex: 0, explanation: "Đội mũ bảo hiểm giúp giảm nguy cơ chấn thương đầu." },
+  ]),
+  "tieng-viet:3:thuc-hanh-doc-hieu-van-ban-huong-dan": practiceContent("Thực hành", "Đọc hiểu văn bản hướng dẫn", "Hãy nhớ lại cách đọc các bước theo đúng thứ tự.", [
+    { question: "Văn bản hướng dẫn thường có đặc điểm gì?", options: ["Không có thứ tự", "Trình bày các bước theo thứ tự", "Chỉ có một câu", "Không có nội dung cụ thể"], correctIndex: 1, explanation: "Văn bản hướng dẫn trình bày các bước theo thứ tự." },
+    { question: "Khi đọc văn bản hướng dẫn, em cần chú ý điều gì?", options: ["Không cần chú ý gì", "Thứ tự các bước thực hiện", "Chỉ đọc bước cuối", "Bỏ qua các từ chỉ thứ tự"], correctIndex: 1, explanation: "Cần chú ý thứ tự các bước để thực hiện đúng." },
+    { question: "Ví dụ nào là một văn bản hướng dẫn?", options: ["Truyện cổ tích", "Hướng dẫn cách gấp giấy origami", "Bài thơ về mẹ", "Câu chuyện tưởng tượng"], correctIndex: 1, explanation: "Hướng dẫn gấp giấy trình bày các bước cụ thể." },
+    { question: "Kỹ năng đọc hiểu văn bản hướng dẫn hữu ích khi nào?", options: ["Khi đọc hướng dẫn sử dụng đồ chơi, thiết bị", "Không hữu ích khi nào", "Chỉ khi đi học", "Chỉ khi còn nhỏ"], correctIndex: 0, explanation: "Kỹ năng này rất hữu ích khi đọc hướng dẫn sử dụng đồ vật." },
+  ]),
+  "tieng-viet:3:luyen-tap-viet-doan-van-ta-do-choi-yeu-thich": practiceContent("Luyện tập", "Viết đoạn văn tả đồ chơi yêu thích", "Hãy nhớ lại cách quan sát và miêu tả đồ chơi.", [
+    { question: "Khi tả đồ chơi, em cần quan sát những gì?", options: ["Chỉ tên đồ chơi", "Hình dáng, màu sắc, cách chơi", "Không cần quan sát", "Chỉ giá tiền"], correctIndex: 1, explanation: "Cần quan sát đầy đủ hình dáng, màu sắc, cách chơi." },
+    { question: "Từ nào phù hợp để tả một con gấu bông?", options: ["Sắc nhọn", "Mềm mại", "Cứng ngắc", "Nóng bỏng"], correctIndex: 1, explanation: "'Mềm mại' phù hợp để tả gấu bông." },
+    { question: "Đoạn văn tả đồ chơi nên có thêm nội dung gì?", options: ["Công thức toán học", "Tình cảm của em với đồ chơi", "Không cần thêm gì", "Chỉ cần liệt kê tên"], correctIndex: 1, explanation: "Nên thể hiện tình cảm để đoạn văn thêm sinh động." },
+    { question: "Đồ chơi truyền thống nào của Việt Nam đã có từ hàng trăm năm trước?", options: ["Tò he", "Điện thoại đồ chơi", "Robot", "Máy tính bảng"], correctIndex: 0, explanation: "Tò he là đồ chơi truyền thống có từ lâu đời của Việt Nam." },
+  ]),
+  "tieng-viet:3:van-dung-viet-doan-van-ke-ve-ngay-tet": practiceContent("Vận dụng", "Viết đoạn văn kể về ngày Tết", "Hãy nhớ lại các hoạt động và không khí ngày Tết.", [
+    { question: "Hoạt động nào thường diễn ra trong ngày Tết?", options: ["Đi chúc Tết, nhận lì xì", "Đi học bình thường", "Không có hoạt động gì đặc biệt", "Làm bài kiểm tra"], correctIndex: 0, explanation: "Đi chúc Tết, nhận lì xì là hoạt động quen thuộc ngày Tết." },
+    { question: "Loài hoa nào thường xuất hiện ở miền Bắc vào dịp Tết?", options: ["Hoa mai", "Hoa đào", "Hoa hồng", "Hoa sen"], correctIndex: 1, explanation: "Hoa đào thường xuất hiện ở miền Bắc vào dịp Tết." },
+    { question: "Món ăn nào đặc trưng của ngày Tết miền Bắc?", options: ["Bánh chưng", "Bánh mì", "Phở", "Bún chả"], correctIndex: 0, explanation: "Bánh chưng là món ăn đặc trưng ngày Tết miền Bắc." },
+    { question: "Tết Nguyên Đán đánh dấu điều gì?", options: ["Sự khởi đầu của một năm mới", "Kết thúc năm học", "Ngày lễ tôn giáo", "Không có ý nghĩa gì"], correctIndex: 0, explanation: "Tết Nguyên Đán đánh dấu sự khởi đầu của năm mới." },
+  ]),
+  "tieng-viet:3:tro-choi-on-tap-viet-doan-van-ke-ve-mua-he": practiceContent("Trò chơi ôn tập", "Viết đoạn văn kể về mùa hè", "Hãy nhớ lại các hoạt động và đặc điểm của mùa hè.", [
+    { question: "Loài hoa nào thường nở rộ vào mùa hè, gắn với tuổi học trò?", options: ["Hoa đào", "Hoa phượng", "Hoa mai", "Hoa cúc"], correctIndex: 1, explanation: "Hoa phượng thường nở đỏ rực vào mùa hè." },
+    { question: "Âm thanh nào đặc trưng của mùa hè?", options: ["Tiếng ve kêu", "Tiếng gió lạnh", "Tiếng lá rụng", "Tiếng mưa phùn"], correctIndex: 0, explanation: "Tiếng ve kêu là âm thanh đặc trưng của mùa hè." },
+    { question: "Hoạt động nào thường diễn ra vào mùa hè?", options: ["Đi biển, học bơi", "Mặc áo ấm", "Đón Tết", "Khai giảng năm học"], correctIndex: 0, explanation: "Đi biển, học bơi là hoạt động phổ biến mùa hè." },
+    { question: "Mùa hè ở Việt Nam thường kéo dài từ tháng mấy đến tháng mấy?", options: ["Tháng 5 đến tháng 8", "Tháng 1 đến tháng 3", "Tháng 9 đến tháng 11", "Tháng 12 đến tháng 2"], correctIndex: 0, explanation: "Mùa hè ở Việt Nam thường kéo dài từ tháng 5 đến tháng 8." },
+  ]),
+  "tieng-viet:3:thu-thach-nho-tro-choi-o-chu-tu-vung-tieng-viet": practiceContent("Thử thách nhỏ", "Trò chơi: Ô chữ từ vựng tiếng Việt", "Hãy nhớ lại cách giải ô chữ dựa vào gợi ý.", [
+    { question: "Ô chữ từ vựng giúp ích điều gì cho việc học?", options: ["Không có ích gì", "Ôn luyện từ vựng một cách thú vị", "Làm bài khó hơn", "Không liên quan đến Tiếng Việt"], correctIndex: 1, explanation: "Ô chữ giúp ôn luyện từ vựng thú vị." },
+    { question: "Khi chơi ô chữ, em cần dựa vào đâu để điền từ?", options: ["Đoán ngẫu nhiên", "Gợi ý cho trước", "Không cần gợi ý", "Chỉ đếm số ô trống"], correctIndex: 1, explanation: "Cần dựa vào gợi ý để tìm từ phù hợp." },
+    { question: "Từ điền vào ô chữ cần đảm bảo điều gì?", options: ["Đúng số lượng chữ cái quy định", "Không cần đúng số lượng", "Chỉ cần đúng nghĩa", "Không cần liên quan đến gợi ý"], correctIndex: 0, explanation: "Từ điền cần đúng số lượng chữ cái theo ô chữ." },
+    { question: "Trò chơi ô chữ (crossword) được phát minh từ khoảng thời gian nào?", options: ["Đầu thế kỷ 20", "Thời cổ đại", "Thế kỷ 21", "Không rõ thời gian"], correctIndex: 0, explanation: "Trò chơi ô chữ được phát minh từ đầu thế kỷ 20." },
+  ]),
+  "tieng-viet:3:thuc-hanh-tro-choi-noi-cau-dung-nghia": practiceContent("Thực hành", "Trò chơi: Nối câu đúng nghĩa", "Hãy nhớ lại cách nối các vế câu để tạo thành câu có nghĩa.", [
+    { question: "Trò chơi nối câu giúp rèn luyện kỹ năng gì?", options: ["Kỹ năng vẽ tranh", "Kỹ năng đặt câu có nghĩa", "Kỹ năng tính toán", "Kỹ năng hát"], correctIndex: 1, explanation: "Trò chơi giúp rèn kỹ năng đặt câu có nghĩa." },
+    { question: "Khi nối câu, em cần đảm bảo điều gì?", options: ["Câu có nghĩa hợp lý", "Không cần có nghĩa", "Câu càng dài càng tốt", "Không cần đúng ngữ pháp"], correctIndex: 0, explanation: "Câu nối cần có nghĩa hợp lý, đúng ngữ pháp." },
+    { question: "Câu nào có nghĩa hợp lý?", options: ["Em đi học vì trời đẹp.", "Em ăn cơm vì đói bụng.", "Em ngủ vì học giỏi.", "Em vui vì trời mưa to."], correctIndex: 1, explanation: "'Em ăn cơm vì đói bụng' là câu có nghĩa hợp lý, logic." },
+    { question: "Chơi các trò chơi ngôn ngữ thường xuyên giúp trẻ phát triển điều gì?", options: ["Tư duy ngôn ngữ nhanh hơn", "Không có tác dụng gì", "Làm chậm phát triển", "Không liên quan đến ngôn ngữ"], correctIndex: 0, explanation: "Chơi trò chơi ngôn ngữ giúp phát triển tư duy ngôn ngữ nhanh hơn." },
+  ]),
+  "tieng-viet:3:luyen-tap-luyen-viet-chu-dep-dung-chinh-ta": practiceContent("Luyện tập", "Luyện viết chữ đẹp, đúng chính tả", "Hãy nhớ lại tư thế ngồi, cách cầm bút khi viết chữ đẹp.", [
+    { question: "Để viết chữ đẹp, em cần chú ý điều gì?", options: ["Ngồi đúng tư thế, cầm bút đúng cách", "Viết thật nhanh", "Không cần chú ý gì", "Viết tuỳ ý"], correctIndex: 0, explanation: "Tư thế ngồi và cách cầm bút đúng giúp viết chữ đẹp hơn." },
+    { question: "Để viết đúng chính tả, em nên làm gì?", options: ["Không cần luyện tập", "Ghi nhớ cách viết đúng và luyện tập thường xuyên", "Viết theo cảm tính", "Không cần đọc sách"], correctIndex: 1, explanation: "Ghi nhớ và luyện tập thường xuyên giúp viết đúng chính tả." },
+    { question: "Viết chậm rãi, cẩn thận mang lại lợi ích gì?", options: ["Không có lợi ích gì", "Chữ đẹp hơn, ít lỗi chính tả hơn", "Làm bài chậm hơn", "Không có tác dụng"], correctIndex: 1, explanation: "Viết cẩn thận giúp chữ đẹp hơn, giảm lỗi chính tả." },
+    { question: "Cuộc thi nào từng phổ biến ở trường học Việt Nam liên quan đến chữ viết?", options: ["Thi vở sạch chữ đẹp", "Thi chạy nhanh", "Thi vẽ tranh", "Thi hát"], correctIndex: 0, explanation: "'Thi vở sạch chữ đẹp' từng là cuộc thi phổ biến ở trường học." },
+  ]),
+  "tieng-viet:3:van-dung-phan-biet-cac-dau-cau-da-hoc": practiceContent("Vận dụng", "Phân biệt các dấu câu đã học", "Hãy nhớ lại công dụng của từng loại dấu câu.", [
+    { question: "Dấu nào dùng để kết thúc câu kể?", options: ["Dấu chấm hỏi", "Dấu chấm", "Dấu chấm than", "Dấu phẩy"], correctIndex: 1, explanation: "Dấu chấm dùng để kết thúc câu kể." },
+    { question: "Dấu nào dùng để ngăn cách các thành phần trong câu?", options: ["Dấu chấm", "Dấu phẩy", "Dấu chấm than", "Dấu hai chấm"], correctIndex: 1, explanation: "Dấu phẩy dùng để ngăn cách các thành phần trong câu." },
+    { question: "Dấu nào dùng để kết thúc câu bộc lộ cảm xúc?", options: ["Dấu chấm", "Dấu phẩy", "Dấu chấm than", "Dấu hai chấm"], correctIndex: 2, explanation: "Dấu chấm than dùng để kết thúc câu cảm." },
+    { question: "Nếu viết văn không có dấu câu, điều gì sẽ xảy ra?", options: ["Người đọc dễ hiểu sai ý", "Không ảnh hưởng gì", "Câu văn hay hơn", "Không có tác động gì"], correctIndex: 0, explanation: "Không có dấu câu khiến người đọc khó hiểu, dễ hiểu sai ý." },
+  ]),
+  "tieng-viet:3:tro-choi-on-tap-viet-doan-van-ta-nguoi-ban-than": practiceContent("Trò chơi ôn tập", "Viết đoạn văn tả người bạn thân", "Hãy nhớ lại cách miêu tả ngoại hình, tính cách bạn thân.", [
+    { question: "Khi tả người bạn thân, em cần miêu tả những gì?", options: ["Chỉ tên bạn", "Ngoại hình và tính cách", "Không cần miêu tả gì", "Chỉ địa chỉ nhà bạn"], correctIndex: 1, explanation: "Cần miêu tả cả ngoại hình và tính cách." },
+    { question: "Vì sao nên kể một kỷ niệm khi tả bạn thân?", options: ["Không cần thiết", "Thể hiện tình cảm gắn bó chân thực hơn", "Làm bài dài hơn", "Không có lý do gì"], correctIndex: 1, explanation: "Kỷ niệm giúp thể hiện tình cảm chân thực hơn." },
+    { question: "Câu nào miêu tả tính cách của bạn thân?", options: ["Bạn ấy cao 1m35.", "Bạn ấy rất vui vẻ, hay giúp đỡ mọi người.", "Bạn ấy mặc áo xanh.", "Bạn ấy học lớp 3A."], correctIndex: 1, explanation: "Câu này miêu tả tính cách (vui vẻ, hay giúp đỡ)." },
+    { question: "Tình bạn thời thơ ấu thường để lại điều gì?", options: ["Kỷ niệm đẹp, sâu sắc", "Không để lại gì", "Chỉ là kỷ niệm buồn", "Không có ý nghĩa gì"], correctIndex: 0, explanation: "Tình bạn thời thơ ấu thường để lại kỷ niệm đẹp, sâu sắc." },
+  ]),
+  "tieng-viet:3:thu-thach-nho-on-tap-tong-hop-chuan-bi-kiem-tra-cuoi-nam": practiceContent("Thử thách nhỏ", "Ôn tập tổng hợp chuẩn bị kiểm tra cuối năm", "Hãy ôn lại toàn bộ kiến thức Tiếng Việt trọng tâm trong năm.", [
+    { question: "Từ loại nào chỉ đặc điểm, tính chất của sự vật?", options: ["Danh từ", "Động từ", "Tính từ", "Số từ"], correctIndex: 2, explanation: "Tính từ chỉ đặc điểm, tính chất của sự vật." },
+    { question: "Biện pháp nào so sánh hai sự vật có điểm giống nhau?", options: ["Nhân hoá", "So sánh", "Điệp từ", "Không có biện pháp nào"], correctIndex: 1, explanation: "So sánh là đối chiếu hai sự vật có điểm giống nhau." },
+    { question: "Dạng bài tập làm văn nào em đã học trong năm lớp 3?", options: ["Tả đồ vật, con vật, cây cối, người", "Viết luận văn khoa học", "Viết báo cáo nghiên cứu", "Không học tập làm văn"], correctIndex: 0, explanation: "Em đã học các dạng tả đồ vật, con vật, cây cối, người." },
+    { question: "Kiến thức Tiếng Việt lớp 3 là nền tảng cho môn học nào ở cấp học cao hơn?", options: ["Ngữ văn", "Vật lý", "Hoá học", "Địa lý"], correctIndex: 0, explanation: "Kiến thức Tiếng Việt là nền tảng cho môn Ngữ văn ở cấp học cao hơn." },
+  ]),
+
+  // ─────────────── TIẾNG ANH — LỚP 3 — 60 bài lõi mở rộng ───────────────
+  "tieng-anh:3:greetings-review": {
+    objectives: ["Ôn tập các mẫu câu chào hỏi.", "Chào hỏi tự nhiên trong nhiều tình huống."],
+    sections: [
+      { heading: "1. Greetings", body: ["'Hello!' / 'Hi!' (Xin chào!), 'Good morning!' (Chào buổi sáng!), 'Good afternoon!' (Chào buổi chiều!), 'Goodbye!' (Tạm biệt!)."] },
+      { heading: "2. Asking How Someone Is", body: ["'How are you?' (Bạn khoẻ không?) — 'I'm fine, thank you.' (Em khoẻ, cảm ơn bạn.)"] },
+    ],
+    quiz: [
+      { question: "'Xin chào' trong tiếng Anh là gì?", options: ["Goodbye", "Hello", "Sorry", "Please"], correctIndex: 1, explanation: "'Hello' nghĩa là 'Xin chào'." },
+      { question: "Buổi sáng, em nên nói gì?", options: ["Good night", "Good afternoon", "Good morning", "Goodbye"], correctIndex: 2, explanation: "'Good morning' dùng vào buổi sáng." },
+      { question: "'How are you?' dùng để hỏi điều gì?", options: ["Hỏi tên", "Hỏi sức khoẻ", "Hỏi tuổi", "Hỏi địa chỉ"], correctIndex: 1, explanation: "Câu này hỏi thăm tình trạng sức khoẻ." },
+      { question: "'Tạm biệt' trong tiếng Anh là gì?", options: ["Hello", "Goodbye", "Thanks", "Sorry"], correctIndex: 1, explanation: "'Goodbye' nghĩa là 'Tạm biệt'." },
+    ],
+    funFact: "Người Anh thường chào nhau bằng câu hỏi thăm thời tiết vì thời tiết nước Anh hay thay đổi!",
+  },
+  "tieng-anh:3:classroom-instructions": {
+    objectives: ["Hiểu các mệnh lệnh thường dùng trong lớp học.", "Phản ứng đúng khi nghe chỉ dẫn bằng tiếng Anh."],
+    sections: [
+      { heading: "1. Common Instructions", body: ["'Stand up!' (Đứng lên!), 'Sit down!' (Ngồi xuống!), 'Open your book!' (Mở sách ra!), 'Listen carefully!' (Lắng nghe cẩn thận!)."] },
+      { heading: "2. Responding", body: ["Khi nghe 'Be quiet, please!' (Hãy giữ trật tự!), em nên im lặng và tập trung."] },
+    ],
+    quiz: [
+      { question: "'Stand up!' nghĩa là gì?", options: ["Ngồi xuống", "Đứng lên", "Im lặng", "Mở sách"], correctIndex: 1, explanation: "'Stand up' nghĩa là 'Đứng lên'." },
+      { question: "'Open your book!' nghĩa là gì?", options: ["Đóng sách lại", "Mở sách ra", "Viết bài", "Đọc to"], correctIndex: 1, explanation: "'Open your book' nghĩa là 'Mở sách ra'." },
+      { question: "Khi giáo viên nói 'Be quiet, please!', em nên làm gì?", options: ["Nói to lên", "Giữ trật tự", "Đứng dậy", "Ra khỏi lớp"], correctIndex: 1, explanation: "'Be quiet' yêu cầu giữ trật tự." },
+      { question: "'Listen carefully!' nghĩa là gì?", options: ["Nhìn kỹ", "Lắng nghe cẩn thận", "Viết nhanh", "Đọc to"], correctIndex: 1, explanation: "'Listen carefully' nghĩa là 'Lắng nghe cẩn thận'." },
+    ],
+    funFact: "Nhiều trường học trên thế giới dùng chung các mệnh lệnh tiếng Anh cơ bản này trong lớp!",
+  },
+  "tieng-anh:3:my-body-parts": {
+    objectives: ["Học từ vựng về các bộ phận cơ thể.", "Nói được câu đơn giản về cơ thể."],
+    sections: [
+      { heading: "1. Body Parts", body: ["Head (đầu), eyes (mắt), nose (mũi), mouth (miệng), hands (tay), legs (chân)."] },
+      { heading: "2. Making Sentences", body: ["'I have two eyes.' (Em có hai mắt.) 'This is my hand.' (Đây là tay của em.)"] },
+    ],
+    quiz: [
+      { question: "'Eyes' nghĩa là gì?", options: ["Mũi", "Mắt", "Tay", "Chân"], correctIndex: 1, explanation: "'Eyes' nghĩa là 'Mắt'." },
+      { question: "'Head' nghĩa là gì?", options: ["Đầu", "Chân", "Tay", "Mũi"], correctIndex: 0, explanation: "'Head' nghĩa là 'Đầu'." },
+      { question: "Câu 'I have two eyes.' nghĩa là gì?", options: ["Em có hai tay.", "Em có hai mắt.", "Em có hai chân.", "Em có hai mũi."], correctIndex: 1, explanation: "Câu này nghĩa là 'Em có hai mắt.'" },
+      { question: "'Mouth' nghĩa là gì?", options: ["Miệng", "Mũi", "Tai", "Tóc"], correctIndex: 0, explanation: "'Mouth' nghĩa là 'Miệng'." },
+    ],
+    funFact: "Con người có 5 giác quan chính: nhìn, nghe, ngửi, nếm và chạm!",
+  },
+  "tieng-anh:3:clothes-and-colours": {
+    objectives: ["Học từ vựng về quần áo và màu sắc.", "Nói được câu mô tả trang phục."],
+    sections: [
+      { heading: "1. Clothes", body: ["Shirt (áo sơ mi), dress (váy), shoes (giày), hat (mũ), skirt (chân váy)."] },
+      { heading: "2. Colours + Clothes", body: ["'I have a red shirt.' (Em có một chiếc áo sơ mi màu đỏ.) 'She is wearing a blue dress.' (Cô ấy đang mặc váy màu xanh dương.)"] },
+    ],
+    quiz: [
+      { question: "'Shirt' nghĩa là gì?", options: ["Váy", "Áo sơ mi", "Giày", "Mũ"], correctIndex: 1, explanation: "'Shirt' nghĩa là 'Áo sơ mi'." },
+      { question: "'Shoes' nghĩa là gì?", options: ["Giày", "Mũ", "Áo", "Váy"], correctIndex: 0, explanation: "'Shoes' nghĩa là 'Giày'." },
+      { question: "'I have a red shirt.' nghĩa là gì?", options: ["Em có váy đỏ.", "Em có áo sơ mi đỏ.", "Em có giày đỏ.", "Em có mũ đỏ."], correctIndex: 1, explanation: "Câu này nghĩa là 'Em có áo sơ mi đỏ.'" },
+      { question: "'Is wearing' nghĩa là gì?", options: ["Đang mặc/đội", "Đang chạy", "Đang ăn", "Đang ngủ"], correctIndex: 0, explanation: "'Is wearing' nghĩa là 'đang mặc/đội'." },
+    ],
+    funFact: "Áo dài là trang phục truyền thống nổi tiếng của Việt Nam, tiếng Anh gọi là 'Ao dai'!",
+  },
+  "tieng-anh:3:family-members": {
+    objectives: ["Ôn tập và mở rộng từ vựng về gia đình.", "Giới thiệu về các thành viên trong gia đình."],
+    sections: [
+      { heading: "1. Family Vocabulary", body: ["Grandfather (ông), grandmother (bà), uncle (chú/bác), aunt (cô/dì), cousin (anh/chị/em họ)."] },
+      { heading: "2. Introducing Family", body: ["'This is my grandmother.' (Đây là bà của em.) 'I have one brother and one sister.' (Em có một anh trai và một chị/em gái.)"] },
+    ],
+    quiz: [
+      { question: "'Grandfather' nghĩa là gì?", options: ["Ông", "Bà", "Chú", "Cô"], correctIndex: 0, explanation: "'Grandfather' nghĩa là 'Ông'." },
+      { question: "'Aunt' nghĩa là gì?", options: ["Chú", "Cô/dì", "Anh", "Em"], correctIndex: 1, explanation: "'Aunt' nghĩa là 'Cô/dì'." },
+      { question: "'Cousin' nghĩa là gì?", options: ["Anh/chị/em họ", "Bố", "Mẹ", "Ông"], correctIndex: 0, explanation: "'Cousin' nghĩa là 'anh/chị/em họ'." },
+      { question: "'This is my grandmother.' nghĩa là gì?", options: ["Đây là ông của em.", "Đây là bà của em.", "Đây là chú của em.", "Đây là cô của em."], correctIndex: 1, explanation: "Câu này nghĩa là 'Đây là bà của em.'" },
+    ],
+    funFact: "Ở nhiều nước phương Tây, gia đình thường nhỏ gọn hơn gia đình nhiều thế hệ ở Việt Nam!",
+  },
+  "tieng-anh:3:jobs-and-occupations": {
+    objectives: ["Học từ vựng về một số nghề nghiệp quen thuộc.", "Nói được câu về nghề nghiệp của người thân."],
+    sections: [
+      { heading: "1. Jobs Vocabulary", body: ["Teacher (giáo viên), doctor (bác sĩ), farmer (nông dân), police officer (công an), engineer (kỹ sư)."] },
+      { heading: "2. Talking About Jobs", body: ["'My father is a doctor.' (Bố em là bác sĩ.) 'What does your mother do?' (Mẹ em làm nghề gì?)"] },
+    ],
+    quiz: [
+      { question: "'Teacher' nghĩa là gì?", options: ["Bác sĩ", "Giáo viên", "Nông dân", "Kỹ sư"], correctIndex: 1, explanation: "'Teacher' nghĩa là 'Giáo viên'." },
+      { question: "'Doctor' nghĩa là gì?", options: ["Bác sĩ", "Công an", "Giáo viên", "Kỹ sư"], correctIndex: 0, explanation: "'Doctor' nghĩa là 'Bác sĩ'." },
+      { question: "Câu 'What does your mother do?' dùng để hỏi điều gì?", options: ["Hỏi tuổi mẹ", "Hỏi nghề nghiệp của mẹ", "Hỏi tên mẹ", "Hỏi địa chỉ nhà"], correctIndex: 1, explanation: "Câu này hỏi về nghề nghiệp của mẹ." },
+      { question: "'Police officer' nghĩa là gì?", options: ["Công an", "Nông dân", "Bác sĩ", "Kỹ sư"], correctIndex: 0, explanation: "'Police officer' nghĩa là 'Công an'." },
+    ],
+    funFact: "Trên thế giới có hàng ngàn nghề nghiệp khác nhau, mỗi nghề đều đóng góp cho xã hội!",
+  },
+  "tieng-anh:3:transportation": {
+    objectives: ["Học từ vựng về các phương tiện giao thông.", "Nói được câu về cách em đến trường."],
+    sections: [
+      { heading: "1. Transportation Vocabulary", body: ["Car (ô tô), bus (xe buýt), bicycle (xe đạp), motorbike (xe máy), train (tàu hoả)."] },
+      { heading: "2. Making Sentences", body: ["'I go to school by bike.' (Em đi học bằng xe đạp.) 'How do you go to school?' (Bạn đến trường bằng gì?)"] },
+    ],
+    quiz: [
+      { question: "'Bicycle' nghĩa là gì?", options: ["Ô tô", "Xe đạp", "Xe buýt", "Tàu hoả"], correctIndex: 1, explanation: "'Bicycle' nghĩa là 'Xe đạp'." },
+      { question: "'Bus' nghĩa là gì?", options: ["Xe buýt", "Xe máy", "Tàu hoả", "Máy bay"], correctIndex: 0, explanation: "'Bus' nghĩa là 'Xe buýt'." },
+      { question: "Câu 'I go to school by bike.' nghĩa là gì?", options: ["Em đi học bằng ô tô.", "Em đi học bằng xe đạp.", "Em đi học bằng xe buýt.", "Em đi bộ đến trường."], correctIndex: 1, explanation: "Câu này nghĩa là 'Em đi học bằng xe đạp.'" },
+      { question: "'Train' nghĩa là gì?", options: ["Tàu hoả", "Máy bay", "Thuyền", "Xe máy"], correctIndex: 0, explanation: "'Train' nghĩa là 'Tàu hoả'." },
+    ],
+    funFact: "Xe đạp là phương tiện thân thiện với môi trường vì không tạo ra khí thải!",
+  },
+  "tieng-anh:3:shapes-and-sizes": {
+    objectives: ["Học từ vựng về hình dạng và kích thước.", "Mô tả đồ vật bằng hình dạng, kích thước."],
+    sections: [
+      { heading: "1. Shapes", body: ["Circle (hình tròn), square (hình vuông), triangle (hình tam giác), rectangle (hình chữ nhật)."] },
+      { heading: "2. Sizes", body: ["Big (to), small (nhỏ), long (dài), short (ngắn). 'The ball is round and small.' (Quả bóng tròn và nhỏ.)"] },
+    ],
+    quiz: [
+      { question: "'Circle' nghĩa là gì?", options: ["Hình vuông", "Hình tròn", "Hình tam giác", "Hình chữ nhật"], correctIndex: 1, explanation: "'Circle' nghĩa là 'Hình tròn'." },
+      { question: "'Square' nghĩa là gì?", options: ["Hình vuông", "Hình tròn", "Hình tam giác", "Hình chữ nhật"], correctIndex: 0, explanation: "'Square' nghĩa là 'Hình vuông'." },
+      { question: "'Big' nghĩa là gì?", options: ["Nhỏ", "To", "Dài", "Ngắn"], correctIndex: 1, explanation: "'Big' nghĩa là 'To'." },
+      { question: "'Triangle' nghĩa là gì?", options: ["Hình tam giác", "Hình tròn", "Hình vuông", "Hình chữ nhật"], correctIndex: 0, explanation: "'Triangle' nghĩa là 'Hình tam giác'." },
+    ],
+    funFact: "Biển báo giao thông thường dùng hình tam giác để cảnh báo nguy hiểm!",
+  },
+  "tieng-anh:3:in-the-supermarket": {
+    objectives: ["Học mẫu câu và từ vựng khi đi siêu thị.", "Hỏi giá và mua hàng bằng tiếng Anh đơn giản."],
+    sections: [
+      { heading: "1. Supermarket Vocabulary", body: ["Basket (giỏ hàng), cashier (thu ngân), price (giá tiền), shopping list (danh sách mua sắm)."] },
+      { heading: "2. Useful Sentences", body: ["'How much is this?' (Cái này giá bao nhiêu?) 'I want to buy some apples.' (Em muốn mua vài quả táo.)"] },
+    ],
+    quiz: [
+      { question: "'How much is this?' dùng để hỏi điều gì?", options: ["Hỏi tên món hàng", "Hỏi giá tiền", "Hỏi màu sắc", "Hỏi kích thước"], correctIndex: 1, explanation: "Câu này hỏi về giá tiền của món hàng." },
+      { question: "'Cashier' nghĩa là gì?", options: ["Người bán hàng rong", "Thu ngân", "Khách hàng", "Bảo vệ"], correctIndex: 1, explanation: "'Cashier' nghĩa là 'Thu ngân'." },
+      { question: "'Basket' nghĩa là gì?", options: ["Giỏ hàng", "Túi xách", "Hộp", "Xe đẩy"], correctIndex: 0, explanation: "'Basket' nghĩa là 'Giỏ hàng'." },
+      { question: "'I want to buy some apples.' nghĩa là gì?", options: ["Em muốn ăn táo.", "Em muốn mua vài quả táo.", "Em không thích táo.", "Táo rất ngon."], correctIndex: 1, explanation: "Câu này nghĩa là 'Em muốn mua vài quả táo.'" },
+    ],
+    funFact: "Siêu thị hiện đại đầu tiên trên thế giới xuất hiện ở Mỹ vào năm 1916!",
+  },
+  "tieng-anh:3:at-the-restaurant": {
+    objectives: ["Học mẫu câu và từ vựng khi đi nhà hàng.", "Gọi món ăn bằng tiếng Anh đơn giản."],
+    sections: [
+      { heading: "1. Restaurant Vocabulary", body: ["Menu (thực đơn), waiter (phục vụ nam), order (gọi món), bill (hoá đơn)."] },
+      { heading: "2. Ordering Food", body: ["'Can I have a menu, please?' (Cho em xin thực đơn ạ.) 'I would like some rice, please.' (Em muốn gọi một phần cơm ạ.)"] },
+    ],
+    quiz: [
+      { question: "'Menu' nghĩa là gì?", options: ["Thực đơn", "Hoá đơn", "Bàn ăn", "Ghế ngồi"], correctIndex: 0, explanation: "'Menu' nghĩa là 'Thực đơn'." },
+      { question: "'Bill' nghĩa là gì?", options: ["Thực đơn", "Hoá đơn", "Món ăn", "Đồ uống"], correctIndex: 1, explanation: "'Bill' nghĩa là 'Hoá đơn'." },
+      { question: "'Can I have a menu, please?' nghĩa là gì?", options: ["Cho em xin thực đơn ạ.", "Cho em xin hoá đơn ạ.", "Em muốn ăn cơm.", "Nhà hàng ở đâu?"], correctIndex: 0, explanation: "Câu này nghĩa là 'Cho em xin thực đơn ạ.'" },
+      { question: "'Waiter' nghĩa là gì?", options: ["Đầu bếp", "Phục vụ nam", "Khách hàng", "Chủ nhà hàng"], correctIndex: 1, explanation: "'Waiter' nghĩa là 'Phục vụ nam'." },
+    ],
+    funFact: "Từ 'restaurant' bắt nguồn từ tiếng Pháp, nghĩa gốc là 'phục hồi sức khoẻ'!",
+  },
+  "tieng-anh:3:my-pets": {
+    objectives: ["Học từ vựng về thú cưng quen thuộc.", "Nói được câu giới thiệu thú cưng."],
+    sections: [
+      { heading: "1. Pets Vocabulary", body: ["Dog (chó), cat (mèo), fish (cá), rabbit (thỏ), bird (chim)."] },
+      { heading: "2. Talking About Pets", body: ["'I have a small dog.' (Em có một chú chó nhỏ.) 'My cat is white.' (Con mèo của em màu trắng.)"] },
+    ],
+    quiz: [
+      { question: "'Rabbit' nghĩa là gì?", options: ["Thỏ", "Chó", "Mèo", "Cá"], correctIndex: 0, explanation: "'Rabbit' nghĩa là 'Thỏ'." },
+      { question: "'Fish' nghĩa là gì?", options: ["Chim", "Cá", "Chó", "Mèo"], correctIndex: 1, explanation: "'Fish' nghĩa là 'Cá'." },
+      { question: "'I have a small dog.' nghĩa là gì?", options: ["Em có một chú mèo nhỏ.", "Em có một chú chó nhỏ.", "Em có một con cá nhỏ.", "Em có một con chim nhỏ."], correctIndex: 1, explanation: "Câu này nghĩa là 'Em có một chú chó nhỏ.'" },
+      { question: "'My cat is white.' nghĩa là gì?", options: ["Con mèo của em màu đen.", "Con mèo của em màu trắng.", "Con chó của em màu trắng.", "Con cá của em màu trắng."], correctIndex: 1, explanation: "Câu này nghĩa là 'Con mèo của em màu trắng.'" },
+    ],
+    funFact: "Chó được xem là loài vật được thuần hoá đầu tiên trên thế giới, từ hàng chục nghìn năm trước!",
+  },
+  "tieng-anh:3:wild-animals": {
+    objectives: ["Học từ vựng về động vật hoang dã.", "Mô tả động vật bằng câu đơn giản."],
+    sections: [
+      { heading: "1. Wild Animals Vocabulary", body: ["Lion (sư tử), tiger (hổ), elephant (voi), giraffe (hươu cao cổ), monkey (khỉ)."] },
+      { heading: "2. Describing Animals", body: ["'The lion is strong.' (Con sư tử rất mạnh mẽ.) 'The elephant is very big.' (Con voi rất to.)"] },
+    ],
+    quiz: [
+      { question: "'Tiger' nghĩa là gì?", options: ["Sư tử", "Hổ", "Voi", "Khỉ"], correctIndex: 1, explanation: "'Tiger' nghĩa là 'Hổ'." },
+      { question: "'Giraffe' nghĩa là gì?", options: ["Hươu cao cổ", "Voi", "Sư tử", "Khỉ"], correctIndex: 0, explanation: "'Giraffe' nghĩa là 'Hươu cao cổ'." },
+      { question: "'The elephant is very big.' nghĩa là gì?", options: ["Con voi rất nhỏ.", "Con voi rất to.", "Con voi rất nhanh.", "Con voi rất đẹp."], correctIndex: 1, explanation: "Câu này nghĩa là 'Con voi rất to.'" },
+      { question: "'Monkey' nghĩa là gì?", options: ["Khỉ", "Hổ", "Sư tử", "Voi"], correctIndex: 0, explanation: "'Monkey' nghĩa là 'Khỉ'." },
+    ],
+    funFact: "Hươu cao cổ là loài động vật cao nhất trên cạn, có thể cao tới hơn 5 mét!",
+  },
+  "tieng-anh:3:sports-i-like": {
+    objectives: ["Nói về môn thể thao yêu thích.", "Học từ vựng về các môn thể thao phổ biến."],
+    sections: [
+      { heading: "1. Sports Vocabulary", body: ["Football (bóng đá), swimming (bơi lội), badminton (cầu lông), table tennis (bóng bàn)."] },
+      { heading: "2. Talking About Sports", body: ["'I like playing football.' (Em thích chơi bóng đá.) 'What sport do you like?' (Bạn thích môn thể thao nào?)"] },
+    ],
+    quiz: [
+      { question: "'Football' nghĩa là gì?", options: ["Bóng đá", "Bóng bàn", "Cầu lông", "Bơi lội"], correctIndex: 0, explanation: "'Football' nghĩa là 'Bóng đá'." },
+      { question: "'Swimming' nghĩa là gì?", options: ["Bơi lội", "Chạy bộ", "Nhảy dây", "Đá cầu"], correctIndex: 0, explanation: "'Swimming' nghĩa là 'Bơi lội'." },
+      { question: "'I like playing football.' nghĩa là gì?", options: ["Em thích bơi lội.", "Em thích chơi bóng đá.", "Em thích chơi cầu lông.", "Em không thích thể thao."], correctIndex: 1, explanation: "Câu này nghĩa là 'Em thích chơi bóng đá.'" },
+      { question: "'Table tennis' nghĩa là gì?", options: ["Bóng bàn", "Bóng đá", "Bóng rổ", "Bóng chuyền"], correctIndex: 0, explanation: "'Table tennis' nghĩa là 'Bóng bàn'." },
+    ],
+    funFact: "Bóng đá là môn thể thao được yêu thích nhất thế giới, với hàng tỷ người hâm mộ!",
+  },
+  "tieng-anh:3:free-time-on-weekends": {
+    objectives: ["Nói về hoạt động cuối tuần.", "Sử dụng câu đơn giản để kể về thời gian rảnh."],
+    sections: [
+      { heading: "1. Weekend Activities", body: ["Watch TV (xem tivi), play games (chơi trò chơi), read books (đọc sách), visit grandparents (thăm ông bà)."] },
+      { heading: "2. Making Sentences", body: ["'On weekends, I play games with my friends.' (Vào cuối tuần, em chơi trò chơi với bạn bè.)"] },
+    ],
+    quiz: [
+      { question: "'Watch TV' nghĩa là gì?", options: ["Xem tivi", "Đọc sách", "Chơi trò chơi", "Thăm ông bà"], correctIndex: 0, explanation: "'Watch TV' nghĩa là 'Xem tivi'." },
+      { question: "'Read books' nghĩa là gì?", options: ["Đọc sách", "Xem tivi", "Chơi trò chơi", "Nấu ăn"], correctIndex: 0, explanation: "'Read books' nghĩa là 'Đọc sách'." },
+      { question: "'On weekends' nghĩa là gì?", options: ["Vào các ngày trong tuần", "Vào cuối tuần", "Vào buổi sáng", "Vào buổi tối"], correctIndex: 1, explanation: "'On weekends' nghĩa là 'Vào cuối tuần'." },
+      { question: "'Visit grandparents' nghĩa là gì?", options: ["Thăm ông bà", "Thăm bạn bè", "Đi học", "Đi chợ"], correctIndex: 0, explanation: "'Visit grandparents' nghĩa là 'Thăm ông bà'." },
+    ],
+    funFact: "Ở nhiều nước, cuối tuần bắt đầu từ thứ Bảy, nhưng ở một số nước Trung Đông lại là thứ Sáu!",
+  },
+  "tieng-anh:3:describing-the-weather": {
+    objectives: ["Luyện mô tả thời tiết bằng câu đơn giản.", "Ôn tập từ vựng về thời tiết."],
+    sections: [
+      { heading: "1. Weather Vocabulary", body: ["Sunny (nắng), rainy (mưa), windy (nhiều gió), cloudy (nhiều mây), hot (nóng), cold (lạnh)."] },
+      { heading: "2. Making Sentences", body: ["'It is sunny today.' (Hôm nay trời nắng.) 'It is raining.' (Trời đang mưa.)"] },
+    ],
+    quiz: [
+      { question: "'Sunny' nghĩa là gì?", options: ["Mưa", "Nắng", "Nhiều gió", "Lạnh"], correctIndex: 1, explanation: "'Sunny' nghĩa là 'Nắng'." },
+      { question: "'It is raining.' nghĩa là gì?", options: ["Trời đang nắng.", "Trời đang mưa.", "Trời đang lạnh.", "Trời đang nhiều gió."], correctIndex: 1, explanation: "Câu này nghĩa là 'Trời đang mưa.'" },
+      { question: "'Windy' nghĩa là gì?", options: ["Nhiều gió", "Nhiều mây", "Nắng", "Nóng"], correctIndex: 0, explanation: "'Windy' nghĩa là 'Nhiều gió'." },
+      { question: "'Cold' nghĩa là gì?", options: ["Nóng", "Lạnh", "Nắng", "Mưa"], correctIndex: 1, explanation: "'Cold' nghĩa là 'Lạnh'." },
+    ],
+    funFact: "Nơi lạnh nhất trên Trái Đất là Nam Cực, có lúc nhiệt độ xuống dưới -80°C!",
+  },
+  "tieng-anh:3:seasons-around-the-year": {
+    objectives: ["Ôn tập từ vựng về bốn mùa trong năm.", "Nói được câu về đặc điểm từng mùa."],
+    sections: [
+      { heading: "1. Seasons Vocabulary", body: ["Spring (mùa xuân), summer (mùa hè), autumn/fall (mùa thu), winter (mùa đông)."] },
+      { heading: "2. Making Sentences", body: ["'Summer is hot.' (Mùa hè nóng.) 'I like spring the most.' (Em thích mùa xuân nhất.)"] },
+    ],
+    quiz: [
+      { question: "'Summer' nghĩa là gì?", options: ["Mùa xuân", "Mùa hè", "Mùa thu", "Mùa đông"], correctIndex: 1, explanation: "'Summer' nghĩa là 'Mùa hè'." },
+      { question: "'Winter' nghĩa là gì?", options: ["Mùa đông", "Mùa hè", "Mùa xuân", "Mùa thu"], correctIndex: 0, explanation: "'Winter' nghĩa là 'Mùa đông'." },
+      { question: "'Summer is hot.' nghĩa là gì?", options: ["Mùa hè lạnh.", "Mùa hè nóng.", "Mùa đông nóng.", "Mùa xuân nóng."], correctIndex: 1, explanation: "Câu này nghĩa là 'Mùa hè nóng.'" },
+      { question: "'Autumn' còn được gọi là gì trong tiếng Anh Mỹ?", options: ["Fall", "Spring", "Summer", "Winter"], correctIndex: 0, explanation: "Người Mỹ thường gọi mùa thu là 'Fall'." },
+    ],
+    funFact: "Ở Nam bán cầu, các mùa ngược lại với Bắc bán cầu: khi Việt Nam là mùa đông thì Úc lại là mùa hè!",
+  },
+  "tieng-anh:3:simple-present-tense-daily-habits": {
+    objectives: ["Làm quen thì hiện tại đơn qua thói quen hàng ngày.", "Đặt câu đơn giản với thì hiện tại đơn."],
+    sections: [
+      { heading: "1. Simple Present Tense", body: ["Dùng để nói về thói quen: 'I brush my teeth every morning.' (Em đánh răng mỗi sáng.)"] },
+      { heading: "2. He/She + verb-s", body: ["Với 'he/she/it', động từ thêm 's': 'She goes to school by bus.' (Cô ấy đi học bằng xe buýt.)"] },
+    ],
+    quiz: [
+      { question: "Câu nào đúng thì hiện tại đơn?", options: ["She go to school.", "She goes to school.", "She going to school.", "She gone to school."], correctIndex: 1, explanation: "Với 'she', động từ 'go' cần thêm 's' thành 'goes'." },
+      { question: "'I brush my teeth every morning.' nghĩa là gì?", options: ["Em đánh răng mỗi sáng.", "Em ăn sáng mỗi ngày.", "Em đi ngủ sớm.", "Em đi học mỗi sáng."], correctIndex: 0, explanation: "Câu này nghĩa là 'Em đánh răng mỗi sáng.'" },
+      { question: "Thì hiện tại đơn thường dùng để diễn tả điều gì?", options: ["Hành động đang xảy ra", "Thói quen, sự thật", "Hành động trong quá khứ", "Kế hoạch tương lai"], correctIndex: 1, explanation: "Thì hiện tại đơn diễn tả thói quen, sự thật." },
+      { question: "Câu nào đúng?", options: ["He play football every day.", "He plays football every day.", "He playing football every day.", "He played football every day."], correctIndex: 1, explanation: "Với 'he', động từ 'play' cần thêm 's' thành 'plays'." },
+    ],
+    funFact: "Tiếng Anh chỉ thêm 's' cho động từ với chủ ngữ số ít ngôi thứ ba (he/she/it) ở thì hiện tại đơn!",
+  },
+  "tieng-anh:3:can-can-t-abilities": {
+    objectives: ["Học cách nói về khả năng bằng can/can't.", "Đặt câu khẳng định và phủ định với can."],
+    sections: [
+      { heading: "1. Can (Có thể)", body: ["'I can swim.' (Em có thể bơi.) 'She can ride a bike.' (Cô ấy có thể đi xe đạp.)"] },
+      { heading: "2. Can't (Không thể)", body: ["'I can't fly.' (Em không thể bay.) Câu hỏi: 'Can you swim?' (Bạn có thể bơi không?)"] },
+    ],
+    quiz: [
+      { question: "'I can swim.' nghĩa là gì?", options: ["Em không thể bơi.", "Em có thể bơi.", "Em thích bơi.", "Em đang bơi."], correctIndex: 1, explanation: "'Can' nghĩa là 'có thể'." },
+      { question: "Câu nào diễn tả khả năng KHÔNG làm được?", options: ["I can sing.", "I can dance.", "I can't fly.", "I can run."], correctIndex: 2, explanation: "'Can't' là dạng phủ định, nghĩa là 'không thể'." },
+      { question: "'Can you swim?' dùng để hỏi điều gì?", options: ["Hỏi tuổi", "Hỏi khả năng bơi", "Hỏi tên", "Hỏi sở thích"], correctIndex: 1, explanation: "Câu này hỏi về khả năng bơi lội." },
+      { question: "Câu nào đúng ngữ pháp?", options: ["She can to swim.", "She can swims.", "She can swim.", "She cans swim."], correctIndex: 2, explanation: "Sau 'can' dùng động từ nguyên thể, không chia." },
+    ],
+    funFact: "'Can' là một động từ khuyết thiếu (modal verb) đặc biệt — nó không bao giờ thêm 's', kể cả với he/she/it!",
+  },
+  "tieng-anh:3:prepositions-of-place-review": {
+    objectives: ["Ôn tập các giới từ chỉ vị trí đã học.", "Sử dụng giới từ chỉ vị trí trong câu."],
+    sections: [
+      { heading: "1. Prepositions of Place", body: ["In (trong), on (trên), under (dưới), next to (bên cạnh), between (ở giữa)."] },
+      { heading: "2. Making Sentences", body: ["'The cat is under the table.' (Con mèo ở dưới bàn.) 'The book is on the desk.' (Quyển sách ở trên bàn học.)"] },
+    ],
+    quiz: [
+      { question: "'Under' nghĩa là gì?", options: ["Trên", "Dưới", "Bên cạnh", "Ở giữa"], correctIndex: 1, explanation: "'Under' nghĩa là 'Dưới'." },
+      { question: "'Next to' nghĩa là gì?", options: ["Bên cạnh", "Ở giữa", "Trong", "Trên"], correctIndex: 0, explanation: "'Next to' nghĩa là 'Bên cạnh'." },
+      { question: "'The cat is under the table.' nghĩa là gì?", options: ["Con mèo ở trên bàn.", "Con mèo ở dưới bàn.", "Con mèo ở bên cạnh bàn.", "Con mèo ở trong hộp."], correctIndex: 1, explanation: "Câu này nghĩa là 'Con mèo ở dưới bàn.'" },
+      { question: "'Between' nghĩa là gì?", options: ["Ở giữa", "Bên cạnh", "Trên", "Dưới"], correctIndex: 0, explanation: "'Between' nghĩa là 'Ở giữa' (hai vật)." },
+    ],
+    funFact: "Giới từ tiếng Anh không phải lúc nào cũng dịch giống tiếng Việt, cần học qua nhiều câu ví dụ!",
+  },
+  "tieng-anh:3:this-that-these-those": {
+    objectives: ["Học cách dùng đại từ chỉ định cơ bản.", "Phân biệt this/that với these/those."],
+    sections: [
+      { heading: "1. This / That (số ít)", body: ["'This' (cái này - gần), 'that' (cái kia - xa). 'This is my pen.' (Đây là bút của em.)"] },
+      { heading: "2. These / Those (số nhiều)", body: ["'These' (những cái này - gần), 'those' (những cái kia - xa). 'These are my books.' (Đây là những quyển sách của em.)"] },
+    ],
+    quiz: [
+      { question: "Từ nào dùng cho một vật ở gần?", options: ["That", "This", "Those", "These"], correctIndex: 1, explanation: "'This' dùng cho một vật ở gần." },
+      { question: "Từ nào dùng cho nhiều vật ở xa?", options: ["This", "That", "These", "Those"], correctIndex: 3, explanation: "'Those' dùng cho nhiều vật ở xa." },
+      { question: "'These are my books.' nghĩa là gì?", options: ["Đây là quyển sách của em.", "Đây là những quyển sách của em.", "Kia là quyển sách của em.", "Kia là những quyển sách của em."], correctIndex: 1, explanation: "'These' là số nhiều của 'this'." },
+      { question: "Câu nào đúng?", options: ["This are my pens.", "These is my pen.", "These are my pens.", "That are my pens."], correctIndex: 2, explanation: "'These' đi với danh từ số nhiều và động từ 'are'." },
+    ],
+    funFact: "This/that/these/those được gọi là đại từ/tính từ chỉ định trong ngữ pháp tiếng Anh!",
+  },
+  "tieng-anh:3:plural-nouns": {
+    objectives: ["Học cách tạo danh từ số nhiều đơn giản.", "Nhận biết các quy tắc thêm 's/es'."],
+    sections: [
+      { heading: "1. Adding -s", body: ["Hầu hết danh từ thêm 's': book → books, pen → pens, cat → cats."] },
+      { heading: "2. Adding -es and Irregular", body: ["Danh từ tận cùng bằng s, x, ch, sh thêm 'es': box → boxes. Một số bất quy tắc: child → children, man → men."] },
+    ],
+    quiz: [
+      { question: "Số nhiều của 'book' là gì?", options: ["Book", "Books", "Bookes", "Bookies"], correctIndex: 1, explanation: "Thêm 's' vào 'book' thành 'books'." },
+      { question: "Số nhiều của 'box' là gì?", options: ["Boxs", "Box", "Boxes", "Boxies"], correctIndex: 2, explanation: "Danh từ tận cùng bằng 'x' thêm 'es'." },
+      { question: "Số nhiều của 'child' là gì?", options: ["Childs", "Childes", "Children", "Child"], correctIndex: 2, explanation: "'Child' là danh từ bất quy tắc, số nhiều là 'children'." },
+      { question: "Số nhiều của 'cat' là gì?", options: ["Cates", "Cat", "Cates", "Cats"], correctIndex: 3, explanation: "Thêm 's' vào 'cat' thành 'cats'." },
+    ],
+    funFact: "Một số danh từ tiếng Anh không đổi khi ở số nhiều, ví dụ 'sheep' (con cừu) giữ nguyên!",
+  },
+  "tieng-anh:3:question-words-who-what-where": {
+    objectives: ["Học các từ để hỏi cơ bản.", "Đặt câu hỏi với who/what/where."],
+    sections: [
+      { heading: "1. Who / What", body: ["'Who' (ai): 'Who is that?' (Đó là ai?) 'What' (cái gì): 'What is this?' (Đây là cái gì?)"] },
+      { heading: "2. Where", body: ["'Where' (ở đâu): 'Where do you live?' (Bạn sống ở đâu?)"] },
+    ],
+    quiz: [
+      { question: "Từ để hỏi 'ai' là gì?", options: ["What", "Who", "Where", "When"], correctIndex: 1, explanation: "'Who' nghĩa là 'ai'." },
+      { question: "Từ để hỏi 'ở đâu' là gì?", options: ["Who", "What", "Where", "Why"], correctIndex: 2, explanation: "'Where' nghĩa là 'ở đâu'." },
+      { question: "'What is this?' nghĩa là gì?", options: ["Đây là ai?", "Đây là cái gì?", "Đây ở đâu?", "Đây là khi nào?"], correctIndex: 1, explanation: "Câu này nghĩa là 'Đây là cái gì?'" },
+      { question: "'Where do you live?' nghĩa là gì?", options: ["Bạn tên là gì?", "Bạn sống ở đâu?", "Bạn bao nhiêu tuổi?", "Bạn học lớp mấy?"], correctIndex: 1, explanation: "Câu này hỏi về nơi sinh sống." },
+    ],
+    funFact: "Trong tiếng Anh, các từ để hỏi (who, what, where, when, why, how) được gọi là 'WH-questions'!",
+  },
+  "tieng-anh:3:question-words-when-why-how": {
+    objectives: ["Học thêm các từ để hỏi cơ bản.", "Đặt câu hỏi với when/why/how."],
+    sections: [
+      { heading: "1. When / Why", body: ["'When' (khi nào): 'When is your birthday?' (Sinh nhật bạn khi nào?) 'Why' (tại sao): 'Why are you happy?' (Tại sao bạn vui?)"] },
+      { heading: "2. How", body: ["'How' (như thế nào): 'How do you feel?' (Bạn cảm thấy thế nào?)"] },
+    ],
+    quiz: [
+      { question: "Từ để hỏi 'khi nào' là gì?", options: ["Why", "How", "When", "What"], correctIndex: 2, explanation: "'When' nghĩa là 'khi nào'." },
+      { question: "Từ để hỏi 'tại sao' là gì?", options: ["Why", "Who", "Where", "When"], correctIndex: 0, explanation: "'Why' nghĩa là 'tại sao'." },
+      { question: "'How do you feel?' nghĩa là gì?", options: ["Bạn tên là gì?", "Bạn cảm thấy thế nào?", "Bạn ở đâu?", "Bạn bao nhiêu tuổi?"], correctIndex: 1, explanation: "Câu này hỏi về cảm xúc." },
+      { question: "'When is your birthday?' nghĩa là gì?", options: ["Sinh nhật bạn khi nào?", "Bạn tên là gì?", "Bạn thích gì?", "Bạn ở đâu?"], correctIndex: 0, explanation: "Câu này hỏi về ngày sinh nhật." },
+    ],
+    funFact: "Trả lời cho câu hỏi 'Why' thường bắt đầu bằng 'Because' (Vì)!",
+  },
+  "tieng-anh:3:my-favourite-colour": {
+    objectives: ["Nói về màu sắc yêu thích.", "Ôn tập từ vựng về màu sắc."],
+    sections: [
+      { heading: "1. Colours", body: ["Red (đỏ), blue (xanh dương), green (xanh lá), yellow (vàng), purple (tím), pink (hồng)."] },
+      { heading: "2. Talking About Colours", body: ["'My favourite colour is blue.' (Màu yêu thích của em là màu xanh dương.)"] },
+    ],
+    quiz: [
+      { question: "'Yellow' nghĩa là gì?", options: ["Đỏ", "Vàng", "Xanh lá", "Tím"], correctIndex: 1, explanation: "'Yellow' nghĩa là 'Vàng'." },
+      { question: "'Purple' nghĩa là gì?", options: ["Tím", "Hồng", "Xanh dương", "Đỏ"], correctIndex: 0, explanation: "'Purple' nghĩa là 'Tím'." },
+      { question: "'My favourite colour is blue.' nghĩa là gì?", options: ["Màu yêu thích của em là màu đỏ.", "Màu yêu thích của em là màu xanh dương.", "Màu yêu thích của em là màu vàng.", "Em không thích màu nào."], correctIndex: 1, explanation: "Câu này nghĩa là 'Màu yêu thích của em là màu xanh dương.'" },
+      { question: "'Green' nghĩa là gì?", options: ["Xanh lá", "Xanh dương", "Vàng", "Hồng"], correctIndex: 0, explanation: "'Green' nghĩa là 'Xanh lá'." },
+    ],
+    funFact: "Màu xanh dương là màu được yêu thích nhất trên toàn thế giới theo nhiều khảo sát!",
+  },
+  "tieng-anh:3:my-favourite-animal": {
+    objectives: ["Nói về con vật yêu thích.", "Mô tả con vật bằng câu đơn giản."],
+    sections: [
+      { heading: "1. Making Sentences", body: ["'My favourite animal is the panda.' (Con vật yêu thích của em là gấu trúc.) 'It is black and white.' (Nó có màu đen và trắng.)"] },
+      { heading: "2. Why I Like It", body: ["'I like it because it is cute.' (Em thích nó vì nó dễ thương.)"] },
+    ],
+    quiz: [
+      { question: "'My favourite animal is the panda.' nghĩa là gì?", options: ["Em không thích gấu trúc.", "Con vật yêu thích của em là gấu trúc.", "Gấu trúc rất to.", "Em có một con gấu trúc."], correctIndex: 1, explanation: "Câu này nghĩa là 'Con vật yêu thích của em là gấu trúc.'" },
+      { question: "'It is black and white.' nghĩa là gì?", options: ["Nó có màu đỏ và vàng.", "Nó có màu đen và trắng.", "Nó có màu xanh.", "Nó không có màu."], correctIndex: 1, explanation: "Câu này nghĩa là 'Nó có màu đen và trắng.'" },
+      { question: "'Because' nghĩa là gì?", options: ["Nhưng", "Vì", "Và", "Hoặc"], correctIndex: 1, explanation: "'Because' nghĩa là 'Vì'." },
+      { question: "'Cute' nghĩa là gì?", options: ["Đáng sợ", "Dễ thương", "To lớn", "Nguy hiểm"], correctIndex: 1, explanation: "'Cute' nghĩa là 'Dễ thương'." },
+    ],
+    funFact: "Gấu trúc chỉ ăn tre trúc và có thể ăn tới 12-38 kg mỗi ngày!",
+  },
+  "tieng-anh:3:asking-for-help-politely": {
+    objectives: ["Học cách nhờ giúp đỡ một cách lịch sự.", "Sử dụng 'please' và 'could you' đúng cách."],
+    sections: [
+      { heading: "1. Polite Requests", body: ["'Could you help me, please?' (Bạn có thể giúp em không ạ?) 'Can you open the door, please?' (Bạn mở cửa giúp em được không?)"] },
+      { heading: "2. Thanking", body: ["Sau khi được giúp, nói: 'Thank you very much!' (Cảm ơn bạn rất nhiều!)"] },
+    ],
+    quiz: [
+      { question: "'Could you help me, please?' nghĩa là gì?", options: ["Bạn có khoẻ không?", "Bạn có thể giúp em không ạ?", "Bạn tên là gì?", "Bạn ở đâu?"], correctIndex: 1, explanation: "Câu này là lời đề nghị giúp đỡ lịch sự." },
+      { question: "Từ nào giúp câu nói trở nên lịch sự hơn?", options: ["Please", "No", "Stop", "Never"], correctIndex: 0, explanation: "'Please' làm câu nói lịch sự hơn." },
+      { question: "Khi được giúp đỡ, em nên nói gì?", options: ["Goodbye", "Sorry", "Thank you", "No"], correctIndex: 2, explanation: "'Thank you' dùng để cảm ơn." },
+      { question: "'Can you open the door, please?' nghĩa là gì?", options: ["Bạn đóng cửa giúp em được không?", "Bạn mở cửa giúp em được không?", "Cửa ở đâu?", "Bạn có cửa không?"], correctIndex: 1, explanation: "Câu này nghĩa là lời nhờ mở cửa lịch sự." },
+    ],
+    funFact: "Người Anh được biết đến là rất chú trọng phép lịch sự, họ nói 'please' và 'thank you' rất thường xuyên!",
+  },
+  "tieng-anh:3:making-simple-requests": {
+    objectives: ["Học cách đưa ra yêu cầu đơn giản.", "Sử dụng 'I want' và 'can I' đúng cách."],
+    sections: [
+      { heading: "1. Simple Requests", body: ["'Can I have some water, please?' (Cho em xin ít nước ạ.) 'I want to go outside.' (Em muốn ra ngoài.)"] },
+      { heading: "2. Responding", body: ["Trả lời đồng ý: 'Sure, here you are.' (Được, của bạn đây.)"] },
+    ],
+    quiz: [
+      { question: "'Can I have some water, please?' nghĩa là gì?", options: ["Cho em xin ít nước ạ.", "Nước ở đâu?", "Em không muốn uống nước.", "Bạn có nước không?"], correctIndex: 0, explanation: "Câu này là lời yêu cầu xin nước." },
+      { question: "'I want to go outside.' nghĩa là gì?", options: ["Em muốn ở trong nhà.", "Em muốn ra ngoài.", "Em muốn đi ngủ.", "Em muốn ăn cơm."], correctIndex: 1, explanation: "Câu này nghĩa là 'Em muốn ra ngoài.'" },
+      { question: "'Sure, here you are.' dùng để làm gì?", options: ["Từ chối yêu cầu", "Đồng ý và đưa vật gì đó", "Hỏi lại", "Xin lỗi"], correctIndex: 1, explanation: "Câu này dùng để đồng ý và trao đồ vật." },
+      { question: "'Can I...?' dùng để làm gì?", options: ["Đưa ra lời khen", "Đưa ra yêu cầu, xin phép", "Chào hỏi", "Tạm biệt"], correctIndex: 1, explanation: "'Can I...?' dùng để xin phép hoặc đưa ra yêu cầu." },
+    ],
+    funFact: "Trong tiếng Anh, 'May I...?' cũng dùng để xin phép, nghe trang trọng hơn 'Can I...?'!",
+  },
+  "tieng-anh:3:telling-a-short-story": {
+    objectives: ["Luyện kể một câu chuyện ngắn bằng tiếng Anh.", "Sử dụng từ nối để kể chuyện mạch lạc."],
+    sections: [
+      { heading: "1. Story Words", body: ["First (đầu tiên), then (sau đó), next (tiếp theo), finally (cuối cùng)."] },
+      { heading: "2. Simple Story", body: ["'First, I woke up. Then, I brushed my teeth. Finally, I went to school.' (Đầu tiên, em thức dậy. Sau đó, em đánh răng. Cuối cùng, em đến trường.)"] },
+    ],
+    quiz: [
+      { question: "'First' nghĩa là gì?", options: ["Cuối cùng", "Đầu tiên", "Sau đó", "Tiếp theo"], correctIndex: 1, explanation: "'First' nghĩa là 'Đầu tiên'." },
+      { question: "'Finally' nghĩa là gì?", options: ["Đầu tiên", "Sau đó", "Cuối cùng", "Bây giờ"], correctIndex: 2, explanation: "'Finally' nghĩa là 'Cuối cùng'." },
+      { question: "Từ nào giúp câu chuyện có trình tự rõ ràng?", options: ["First, then, finally", "Red, blue, green", "Big, small, tall", "Happy, sad, angry"], correctIndex: 0, explanation: "Các từ chỉ trình tự giúp câu chuyện mạch lạc." },
+      { question: "'Then' nghĩa là gì?", options: ["Sau đó", "Trước đó", "Không bao giờ", "Luôn luôn"], correctIndex: 0, explanation: "'Then' nghĩa là 'Sau đó'." },
+    ],
+    funFact: "Kể chuyện là một trong những cách học ngôn ngữ tự nhiên và hiệu quả nhất!",
+  },
+  "tieng-anh:3:days-and-dates": {
+    objectives: ["Ôn tập cách nói ngày, tháng bằng tiếng Anh.", "Nói được câu hỏi và trả lời về ngày tháng."],
+    sections: [
+      { heading: "1. Days of the Week", body: ["Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday."] },
+      { heading: "2. Talking About Dates", body: ["'What day is it today?' (Hôm nay là thứ mấy?) 'Today is Monday.' (Hôm nay là thứ Hai.)"] },
+    ],
+    quiz: [
+      { question: "'Monday' nghĩa là gì?", options: ["Thứ Hai", "Thứ Ba", "Chủ nhật", "Thứ Bảy"], correctIndex: 0, explanation: "'Monday' nghĩa là 'Thứ Hai'." },
+      { question: "'Sunday' nghĩa là gì?", options: ["Thứ Bảy", "Chủ nhật", "Thứ Sáu", "Thứ Hai"], correctIndex: 1, explanation: "'Sunday' nghĩa là 'Chủ nhật'." },
+      { question: "'What day is it today?' dùng để hỏi điều gì?", options: ["Hỏi hôm nay là thứ mấy", "Hỏi thời tiết", "Hỏi giờ", "Hỏi tháng"], correctIndex: 0, explanation: "Câu này hỏi về ngày trong tuần." },
+      { question: "Ngày nào đến sau 'Friday'?", options: ["Thursday", "Saturday", "Sunday", "Monday"], correctIndex: 1, explanation: "Sau 'Friday' (thứ Sáu) là 'Saturday' (thứ Bảy)." },
+    ],
+    funFact: "Trong tiếng Anh, tuần thường bắt đầu từ 'Sunday' hoặc 'Monday' tuỳ theo quốc gia!",
+  },
+  "tieng-anh:3:months-of-the-year-review": {
+    objectives: ["Ôn tập tên các tháng trong năm.", "Nói được câu về tháng sinh nhật."],
+    sections: [
+      { heading: "1. Months", body: ["January, February, March, April, May, June, July, August, September, October, November, December."] },
+      { heading: "2. Talking About Months", body: ["'My birthday is in June.' (Sinh nhật em vào tháng Sáu.)"] },
+    ],
+    quiz: [
+      { question: "'January' là tháng mấy?", options: ["Tháng 1", "Tháng 2", "Tháng 12", "Tháng 6"], correctIndex: 0, explanation: "'January' là 'Tháng 1'." },
+      { question: "'December' là tháng mấy?", options: ["Tháng 10", "Tháng 11", "Tháng 12", "Tháng 1"], correctIndex: 2, explanation: "'December' là 'Tháng 12'." },
+      { question: "'My birthday is in June.' nghĩa là gì?", options: ["Sinh nhật em vào tháng Sáu.", "Sinh nhật em vào tháng Bảy.", "Em không có sinh nhật.", "Sinh nhật em vào tháng Một."], correctIndex: 0, explanation: "Câu này nghĩa là 'Sinh nhật em vào tháng Sáu.'" },
+      { question: "Một năm có bao nhiêu tháng?", options: ["10", "11", "12", "13"], correctIndex: 2, explanation: "Một năm có 12 tháng." },
+    ],
+    funFact: "Tên các tháng trong tiếng Anh phần lớn bắt nguồn từ tên các vị thần La Mã cổ đại!",
+  },
+  "tieng-anh:3:my-dream-house": {
+    objectives: ["Nói về ngôi nhà mơ ước của em.", "Sử dụng 'would like' để nói về mong muốn."],
+    sections: [
+      { heading: "1. House Vocabulary", body: ["Garden (vườn), swimming pool (bể bơi), big kitchen (bếp lớn), many rooms (nhiều phòng)."] },
+      { heading: "2. Making Sentences", body: ["'I would like a house with a garden.' (Em muốn có một ngôi nhà có vườn.)"] },
+    ],
+    quiz: [
+      { question: "'Garden' nghĩa là gì?", options: ["Vườn", "Bếp", "Phòng ngủ", "Bể bơi"], correctIndex: 0, explanation: "'Garden' nghĩa là 'Vườn'." },
+      { question: "'Swimming pool' nghĩa là gì?", options: ["Vườn", "Bể bơi", "Sân chơi", "Ga ra"], correctIndex: 1, explanation: "'Swimming pool' nghĩa là 'Bể bơi'." },
+      { question: "'I would like a house with a garden.' nghĩa là gì?", options: ["Em không thích vườn.", "Em muốn có một ngôi nhà có vườn.", "Nhà em có vườn rồi.", "Em muốn có bể bơi."], correctIndex: 1, explanation: "Câu này nghĩa là mong muốn có nhà với vườn." },
+      { question: "'I would like...' dùng để diễn tả điều gì?", options: ["Mệnh lệnh", "Mong muốn", "Câu hỏi", "Lời xin lỗi"], correctIndex: 1, explanation: "'I would like...' dùng để diễn tả mong muốn một cách lịch sự." },
+    ],
+    funFact: "'Would like' lịch sự hơn 'want' và thường được dùng nhiều trong giao tiếp trang trọng!",
+  },
+  "tieng-anh:3:healthy-food": {
+    objectives: ["Học từ vựng về thực phẩm tốt cho sức khoẻ.", "Nói về thói quen ăn uống lành mạnh."],
+    sections: [
+      { heading: "1. Healthy Food Vocabulary", body: ["Vegetables (rau củ), fruit (trái cây), fish (cá), water (nước)."] },
+      { heading: "2. Making Sentences", body: ["'Vegetables are good for health.' (Rau củ tốt cho sức khoẻ.) 'I eat fruit every day.' (Em ăn trái cây mỗi ngày.)"] },
+    ],
+    quiz: [
+      { question: "'Vegetables' nghĩa là gì?", options: ["Trái cây", "Rau củ", "Bánh kẹo", "Nước ngọt"], correctIndex: 1, explanation: "'Vegetables' nghĩa là 'Rau củ'." },
+      { question: "'Vegetables are good for health.' nghĩa là gì?", options: ["Rau củ không tốt cho sức khoẻ.", "Rau củ tốt cho sức khoẻ.", "Em không thích rau củ.", "Rau củ rất đắt."], correctIndex: 1, explanation: "Câu này nghĩa là 'Rau củ tốt cho sức khoẻ.'" },
+      { question: "'Fruit' nghĩa là gì?", options: ["Trái cây", "Rau", "Thịt", "Cá"], correctIndex: 0, explanation: "'Fruit' nghĩa là 'Trái cây'." },
+      { question: "Loại thực phẩm nào tốt cho sức khoẻ?", options: ["Candy", "Vegetables", "Soda", "Chips"], correctIndex: 1, explanation: "'Vegetables' (rau củ) tốt cho sức khoẻ." },
+    ],
+    funFact: "Các chuyên gia khuyên nên ăn ít nhất 5 phần rau củ quả mỗi ngày để có sức khoẻ tốt!",
+  },
+  "tieng-anh:3:unhealthy-food": {
+    objectives: ["Học từ vựng về thực phẩm không tốt cho sức khoẻ.", "Nói về việc hạn chế ăn đồ không lành mạnh."],
+    sections: [
+      { heading: "1. Unhealthy Food Vocabulary", body: ["Candy (kẹo), soda (nước ngọt có ga), chips (khoai tây chiên), fast food (đồ ăn nhanh)."] },
+      { heading: "2. Making Sentences", body: ["'I don't eat too much candy.' (Em không ăn quá nhiều kẹo.) 'Soda is not good for teeth.' (Nước ngọt không tốt cho răng.)"] },
+    ],
+    quiz: [
+      { question: "'Candy' nghĩa là gì?", options: ["Rau", "Kẹo", "Cá", "Trái cây"], correctIndex: 1, explanation: "'Candy' nghĩa là 'Kẹo'." },
+      { question: "'Soda is not good for teeth.' nghĩa là gì?", options: ["Nước ngọt tốt cho răng.", "Nước ngọt không tốt cho răng.", "Em thích nước ngọt.", "Nước ngọt rất ngon."], correctIndex: 1, explanation: "Câu này nghĩa là nước ngọt không tốt cho răng." },
+      { question: "'Fast food' nghĩa là gì?", options: ["Đồ ăn nhanh", "Đồ ăn chậm", "Rau củ", "Trái cây tươi"], correctIndex: 0, explanation: "'Fast food' nghĩa là 'Đồ ăn nhanh'." },
+      { question: "'I don't eat too much candy.' nghĩa là gì?", options: ["Em ăn rất nhiều kẹo.", "Em không ăn quá nhiều kẹo.", "Em không thích kẹo.", "Em ăn kẹo mỗi ngày."], correctIndex: 1, explanation: "Câu này nghĩa là 'Em không ăn quá nhiều kẹo.'" },
+    ],
+    funFact: "Ăn quá nhiều đường có thể gây hại cho răng và sức khoẻ, nên các bác sĩ khuyên hạn chế ăn kẹo!",
+  },
+  "tieng-anh:3:at-the-doctor-s": {
+    objectives: ["Học mẫu câu khi đi khám bác sĩ.", "Nói về các triệu chứng đơn giản."],
+    sections: [
+      { heading: "1. Symptoms Vocabulary", body: ["Headache (đau đầu), stomachache (đau bụng), fever (sốt), cough (ho)."] },
+      { heading: "2. Talking to the Doctor", body: ["'I have a headache.' (Em bị đau đầu.) 'What's wrong?' (Bạn bị làm sao?)"] },
+    ],
+    quiz: [
+      { question: "'Headache' nghĩa là gì?", options: ["Đau bụng", "Đau đầu", "Sốt", "Ho"], correctIndex: 1, explanation: "'Headache' nghĩa là 'Đau đầu'." },
+      { question: "'Fever' nghĩa là gì?", options: ["Sốt", "Ho", "Đau đầu", "Đau bụng"], correctIndex: 0, explanation: "'Fever' nghĩa là 'Sốt'." },
+      { question: "'I have a headache.' nghĩa là gì?", options: ["Em bị đau bụng.", "Em bị đau đầu.", "Em bị sốt.", "Em bị ho."], correctIndex: 1, explanation: "Câu này nghĩa là 'Em bị đau đầu.'" },
+      { question: "'What's wrong?' dùng để hỏi điều gì?", options: ["Hỏi tên", "Hỏi bạn bị làm sao", "Hỏi tuổi", "Hỏi địa chỉ"], correctIndex: 1, explanation: "Câu này hỏi về vấn đề sức khoẻ." },
+    ],
+    funFact: "Ở Anh, người dân thường gọi bác sĩ gia đình là 'GP' (General Practitioner)!",
+  },
+  "tieng-anh:3:feelings-and-emotions": {
+    objectives: ["Học từ vựng diễn tả cảm xúc.", "Nói được câu về cảm xúc của bản thân."],
+    sections: [
+      { heading: "1. Emotions Vocabulary", body: ["Happy (vui), sad (buồn), angry (giận), tired (mệt), excited (hào hứng)."] },
+      { heading: "2. Making Sentences", body: ["'I am happy today.' (Hôm nay em vui.) 'How do you feel?' (Bạn cảm thấy thế nào?)"] },
+    ],
+    quiz: [
+      { question: "'Happy' nghĩa là gì?", options: ["Buồn", "Vui", "Giận", "Mệt"], correctIndex: 1, explanation: "'Happy' nghĩa là 'Vui'." },
+      { question: "'Angry' nghĩa là gì?", options: ["Vui", "Giận", "Hào hứng", "Buồn"], correctIndex: 1, explanation: "'Angry' nghĩa là 'Giận'." },
+      { question: "'I am happy today.' nghĩa là gì?", options: ["Hôm nay em buồn.", "Hôm nay em vui.", "Hôm nay em mệt.", "Hôm nay em giận."], correctIndex: 1, explanation: "Câu này nghĩa là 'Hôm nay em vui.'" },
+      { question: "'Tired' nghĩa là gì?", options: ["Mệt", "Vui", "Hào hứng", "Buồn"], correctIndex: 0, explanation: "'Tired' nghĩa là 'Mệt'." },
+    ],
+    funFact: "Biểu cảm khuôn mặt như nụ cười được hiểu giống nhau ở hầu hết các nền văn hoá trên thế giới!",
+  },
+  "tieng-anh:3:making-new-friends": {
+    objectives: ["Học mẫu câu khi làm quen bạn mới.", "Giới thiệu bản thân và hỏi thông tin bạn mới."],
+    sections: [
+      { heading: "1. Introducing Yourself", body: ["'Hi, my name is Lan. What's your name?' (Chào bạn, tên mình là Lan. Bạn tên gì?)"] },
+      { heading: "2. Asking Questions", body: ["'Where are you from?' (Bạn đến từ đâu?) 'Nice to meet you!' (Rất vui được gặp bạn!)"] },
+    ],
+    quiz: [
+      { question: "'What's your name?' dùng để hỏi điều gì?", options: ["Hỏi tuổi", "Hỏi tên", "Hỏi địa chỉ", "Hỏi sở thích"], correctIndex: 1, explanation: "Câu này hỏi về tên của người khác." },
+      { question: "'Nice to meet you!' nghĩa là gì?", options: ["Tạm biệt bạn!", "Rất vui được gặp bạn!", "Xin lỗi bạn!", "Cảm ơn bạn!"], correctIndex: 1, explanation: "Câu này dùng khi mới gặp ai đó lần đầu." },
+      { question: "'Where are you from?' dùng để hỏi điều gì?", options: ["Hỏi bạn đến từ đâu", "Hỏi bạn đi đâu", "Hỏi bạn làm gì", "Hỏi bạn thích gì"], correctIndex: 0, explanation: "Câu này hỏi về quê quán, nơi xuất thân." },
+      { question: "Khi làm quen bạn mới, em nên có thái độ như thế nào?", options: ["Lạnh lùng", "Thân thiện, cởi mở", "Im lặng", "Trốn tránh"], correctIndex: 1, explanation: "Thái độ thân thiện giúp dễ dàng kết bạn." },
+    ],
+    funFact: "Cách chào hỏi làm quen khác nhau ở mỗi nền văn hoá — ở Nhật Bản người ta thường cúi chào thay vì bắt tay!",
+  },
+  "tieng-anh:3:school-rules": {
+    objectives: ["Học từ vựng và mẫu câu về nội quy trường học.", "Nói được các quy định nên và không nên làm."],
+    sections: [
+      { heading: "1. School Rules Vocabulary", body: ["Must (phải), mustn't (không được), be on time (đúng giờ), wear uniform (mặc đồng phục)."] },
+      { heading: "2. Making Sentences", body: ["'You must be on time.' (Bạn phải đúng giờ.) 'You mustn't run in the corridor.' (Bạn không được chạy trong hành lang.)"] },
+    ],
+    quiz: [
+      { question: "'Must' nghĩa là gì?", options: ["Không được", "Phải", "Có thể", "Không cần"], correctIndex: 1, explanation: "'Must' nghĩa là 'Phải'." },
+      { question: "'Mustn't' nghĩa là gì?", options: ["Phải", "Không được", "Có thể", "Nên"], correctIndex: 1, explanation: "'Mustn't' nghĩa là 'Không được'." },
+      { question: "'You must be on time.' nghĩa là gì?", options: ["Bạn không cần đúng giờ.", "Bạn phải đúng giờ.", "Bạn có thể đến muộn.", "Bạn không được đến."], correctIndex: 1, explanation: "Câu này nghĩa là 'Bạn phải đúng giờ.'" },
+      { question: "'You mustn't run in the corridor.' nghĩa là gì?", options: ["Bạn phải chạy trong hành lang.", "Bạn không được chạy trong hành lang.", "Bạn có thể chạy ở bất cứ đâu.", "Không có hành lang ở trường."], correctIndex: 1, explanation: "Câu này nghĩa là quy định cấm chạy trong hành lang." },
+    ],
+    funFact: "Nhiều trường học trên thế giới đều có quy định chung: đến đúng giờ, tôn trọng thầy cô và bạn bè!",
+  },
+  "tieng-anh:3:my-neighbourhood-review": {
+    objectives: ["Ôn tập từ vựng về khu phố nơi em sống.", "Mô tả các địa điểm quen thuộc gần nhà."],
+    sections: [
+      { heading: "1. Neighbourhood Vocabulary", body: ["Park (công viên), market (chợ), hospital (bệnh viện), post office (bưu điện)."] },
+      { heading: "2. Making Sentences", body: ["'There is a park near my house.' (Có một công viên gần nhà em.)"] },
+    ],
+    quiz: [
+      { question: "'Park' nghĩa là gì?", options: ["Chợ", "Công viên", "Bệnh viện", "Bưu điện"], correctIndex: 1, explanation: "'Park' nghĩa là 'Công viên'." },
+      { question: "'Hospital' nghĩa là gì?", options: ["Bệnh viện", "Trường học", "Công viên", "Chợ"], correctIndex: 0, explanation: "'Hospital' nghĩa là 'Bệnh viện'." },
+      { question: "'There is a park near my house.' nghĩa là gì?", options: ["Không có công viên gần nhà em.", "Có một công viên gần nhà em.", "Công viên rất xa nhà em.", "Em không thích công viên."], correctIndex: 1, explanation: "Câu này nghĩa là 'Có một công viên gần nhà em.'" },
+      { question: "'Post office' nghĩa là gì?", options: ["Bưu điện", "Bệnh viện", "Trường học", "Siêu thị"], correctIndex: 0, explanation: "'Post office' nghĩa là 'Bưu điện'." },
+    ],
+    funFact: "'There is/There are' dùng để nói về sự tồn tại của vật/người ở một nơi nào đó!",
+  },
+  "tieng-anh:3:shopping-for-school-supplies": {
+    objectives: ["Học mẫu câu khi mua đồ dùng học tập.", "Học từ vựng về dụng cụ học tập."],
+    sections: [
+      { heading: "1. School Supplies Vocabulary", body: ["Notebook (vở), pencil case (hộp bút), ruler (thước kẻ), eraser (cục tẩy)."] },
+      { heading: "2. Making Sentences", body: ["'I need a new notebook.' (Em cần một quyển vở mới.) 'How much is this ruler?' (Thước kẻ này giá bao nhiêu?)"] },
+    ],
+    quiz: [
+      { question: "'Notebook' nghĩa là gì?", options: ["Vở", "Bút", "Thước kẻ", "Cục tẩy"], correctIndex: 0, explanation: "'Notebook' nghĩa là 'Vở'." },
+      { question: "'Eraser' nghĩa là gì?", options: ["Thước kẻ", "Cục tẩy", "Bút chì", "Vở"], correctIndex: 1, explanation: "'Eraser' nghĩa là 'Cục tẩy'." },
+      { question: "'I need a new notebook.' nghĩa là gì?", options: ["Em cần một quyển vở mới.", "Em có nhiều vở.", "Em không cần vở.", "Vở của em rất đẹp."], correctIndex: 0, explanation: "Câu này nghĩa là 'Em cần một quyển vở mới.'" },
+      { question: "'Pencil case' nghĩa là gì?", options: ["Hộp bút", "Cặp sách", "Bàn học", "Ghế ngồi"], correctIndex: 0, explanation: "'Pencil case' nghĩa là 'Hộp bút'." },
+    ],
+    funFact: "Bút chì đầu tiên trên thế giới được làm từ than chì, xuất hiện từ thế kỷ 16!",
+  },
+  "tieng-anh:3:describing-a-picture": {
+    objectives: ["Luyện mô tả một bức tranh bằng câu đơn giản.", "Sử dụng 'there is/there are' để mô tả."],
+    sections: [
+      { heading: "1. Describing a Picture", body: ["'There is a dog in the picture.' (Có một con chó trong bức tranh.) 'There are two children.' (Có hai đứa trẻ.)"] },
+      { heading: "2. Adding Details", body: ["'The dog is brown.' (Con chó màu nâu.) 'The children are happy.' (Hai đứa trẻ đang vui vẻ.)"] },
+    ],
+    quiz: [
+      { question: "'There is' dùng khi nào?", options: ["Khi nói về nhiều vật", "Khi nói về một vật", "Khi hỏi câu hỏi", "Không dùng khi nào"], correctIndex: 1, explanation: "'There is' dùng với danh từ số ít." },
+      { question: "'There are' dùng khi nào?", options: ["Khi nói về một vật", "Khi nói về nhiều vật", "Không dùng khi nào", "Chỉ dùng với người"], correctIndex: 1, explanation: "'There are' dùng với danh từ số nhiều." },
+      { question: "'There is a dog in the picture.' nghĩa là gì?", options: ["Không có con chó nào trong tranh.", "Có một con chó trong bức tranh.", "Có hai con chó trong tranh.", "Con chó không có trong tranh."], correctIndex: 1, explanation: "Câu này nghĩa là 'Có một con chó trong bức tranh.'" },
+      { question: "'The children are happy.' nghĩa là gì?", options: ["Hai đứa trẻ đang buồn.", "Hai đứa trẻ đang vui vẻ.", "Không có đứa trẻ nào.", "Đứa trẻ đang ngủ."], correctIndex: 1, explanation: "Câu này nghĩa là 'Hai đứa trẻ đang vui vẻ.'" },
+    ],
+    funFact: "Mô tả tranh là một kỹ năng thường xuất hiện trong các bài thi tiếng Anh quốc tế dành cho thiếu nhi!",
+  },
+  "tieng-anh:3:short-dialogues-practice": {
+    objectives: ["Luyện tập các đoạn hội thoại ngắn.", "Thực hành phản xạ giao tiếp bằng tiếng Anh."],
+    sections: [
+      { heading: "1. Sample Dialogue", body: ["A: 'Hi, how are you?' B: 'I'm fine, thanks. And you?' A: 'I'm good too!'"] },
+      { heading: "2. Practicing", body: ["Luyện đóng vai theo cặp để phản xạ nhanh hơn khi giao tiếp."] },
+    ],
+    quiz: [
+      { question: "'I'm fine, thanks. And you?' nghĩa là gì?", options: ["Em khoẻ, cảm ơn. Còn bạn thì sao?", "Em không khoẻ.", "Tạm biệt bạn.", "Bạn tên là gì?"], correctIndex: 0, explanation: "Câu này là câu trả lời và hỏi lại lịch sự." },
+      { question: "Luyện tập hội thoại theo cặp giúp ích gì?", options: ["Không có ích gì", "Phản xạ giao tiếp nhanh hơn", "Làm mất thời gian", "Không liên quan đến nói"], correctIndex: 1, explanation: "Luyện tập theo cặp giúp phản xạ giao tiếp nhanh hơn." },
+      { question: "'And you?' dùng để làm gì?", options: ["Hỏi lại người kia", "Kết thúc hội thoại", "Từ chối trả lời", "Không có tác dụng"], correctIndex: 0, explanation: "'And you?' dùng để hỏi lại đối phương câu hỏi tương tự." },
+      { question: "Khi luyện hội thoại, em nên chú ý điều gì?", options: ["Nói thật nhanh không cần hiểu", "Phát âm rõ ràng, tự tin", "Không cần nhìn bạn", "Chỉ đọc theo sách"], correctIndex: 1, explanation: "Phát âm rõ ràng, tự tin giúp giao tiếp hiệu quả hơn." },
+    ],
+    funFact: "Luyện tập hội thoại thường xuyên là cách nhanh nhất để tự tin nói tiếng Anh!",
+  },
+  "tieng-anh:3:listening-for-key-words": {
+    objectives: ["Rèn kỹ năng nghe và bắt từ khoá.", "Nhận biết từ quan trọng trong câu nói."],
+    sections: [
+      { heading: "1. Why Key Words Matter", body: ["Khi nghe tiếng Anh, không cần hiểu hết từng từ — hãy tập trung vào từ khoá quan trọng."] },
+      { heading: "2. Practice Tip", body: ["Nghe câu 'I have a red bike.' — từ khoá là 'red' và 'bike', giúp hiểu ý chính dù bỏ lỡ vài từ khác."] },
+    ],
+    quiz: [
+      { question: "Từ khoá trong câu nói giúp ích điều gì?", options: ["Không có ích gì", "Hiểu ý chính dù không nghe hết", "Làm bài khó hơn", "Không liên quan đến nghe hiểu"], correctIndex: 1, explanation: "Từ khoá giúp hiểu ý chính dù không nghe rõ hết câu." },
+      { question: "Trong câu 'I have a red bike.', từ nào là từ khoá quan trọng?", options: ["I, have", "Red, bike", "A", "Không có từ khoá nào"], correctIndex: 1, explanation: "'Red' và 'bike' là các từ mang thông tin chính." },
+      { question: "Khi luyện nghe, em nên làm gì nếu không hiểu hết câu?", options: ["Dừng lại không nghe nữa", "Tập trung vào từ khoá đã nghe được", "Đoán bừa không cần nghe", "Bỏ qua hoàn toàn"], correctIndex: 1, explanation: "Nên tập trung vào từ khoá thay vì cố hiểu từng từ." },
+      { question: "Kỹ năng nghe bắt từ khoá hữu ích khi nào?", options: ["Khi nghe hội thoại tiếng Anh tốc độ nhanh", "Không hữu ích khi nào", "Chỉ khi đọc sách", "Chỉ khi viết bài"], correctIndex: 0, explanation: "Kỹ năng này đặc biệt hữu ích khi nghe hội thoại tốc độ nhanh." },
+    ],
+    funFact: "Người bản xứ cũng thường không nghe rõ từng từ mà dựa vào ngữ cảnh và từ khoá để hiểu!",
+  },
+  "tieng-anh:3:simple-songs-and-chants": {
+    objectives: ["Học tiếng Anh qua bài hát, vần điệu đơn giản.", "Ghi nhớ từ vựng dễ dàng hơn qua âm nhạc."],
+    sections: [
+      { heading: "1. Why Songs Help", body: ["Bài hát có giai điệu lặp lại giúp ghi nhớ từ vựng và mẫu câu dễ dàng hơn."] },
+      { heading: "2. Example Chant", body: ["'Head, shoulders, knees and toes, knees and toes!' — bài hát vui giúp học từ vựng về cơ thể."] },
+    ],
+    quiz: [
+      { question: "Bài hát tiếng Anh giúp ích điều gì cho việc học?", options: ["Không có ích gì", "Ghi nhớ từ vựng dễ dàng hơn", "Làm mất thời gian", "Không liên quan đến học tiếng Anh"], correctIndex: 1, explanation: "Bài hát giúp ghi nhớ từ vựng và mẫu câu tự nhiên hơn." },
+      { question: "'Head, shoulders, knees and toes' là bài hát về chủ đề gì?", options: ["Màu sắc", "Bộ phận cơ thể", "Con vật", "Thức ăn"], correctIndex: 1, explanation: "Bài hát này liệt kê các bộ phận cơ thể." },
+      { question: "Vì sao giai điệu lặp lại giúp học tốt hơn?", options: ["Không có lý do gì", "Giúp não bộ ghi nhớ dễ dàng qua lặp lại", "Làm bài hát dài hơn", "Không liên quan đến trí nhớ"], correctIndex: 1, explanation: "Sự lặp lại giúp não bộ ghi nhớ thông tin tốt hơn." },
+      { question: "'Shoulders' nghĩa là gì?", options: ["Vai", "Đầu gối", "Ngón chân", "Đầu"], correctIndex: 0, explanation: "'Shoulders' nghĩa là 'Vai'." },
+    ],
+    funFact: "Nhiều nghiên cứu cho thấy học ngôn ngữ qua âm nhạc giúp trẻ ghi nhớ lâu hơn so với chỉ học chữ viết!",
+  },
+  "tieng-anh:3:vocabulary-game-word-match": {
+    objectives: ["Ôn luyện từ vựng qua trò chơi ghép từ.", "Củng cố trí nhớ về từ vựng đã học."],
+    sections: [
+      { heading: "1. How to Play", body: ["Ghép từ tiếng Anh với nghĩa tiếng Việt tương ứng, ví dụ: 'Dog' — 'Con chó'."] },
+      { heading: "2. Practice Tip", body: ["Chơi thường xuyên giúp nhớ từ vựng lâu hơn và phản xạ nhanh hơn."] },
+    ],
+    quiz: [
+      { question: "Trò chơi ghép từ giúp ích điều gì?", options: ["Không có ích gì", "Củng cố trí nhớ từ vựng", "Làm bài khó hơn", "Không liên quan đến từ vựng"], correctIndex: 1, explanation: "Trò chơi ghép từ giúp củng cố trí nhớ từ vựng." },
+      { question: "'Cat' ghép với nghĩa tiếng Việt nào?", options: ["Con chó", "Con mèo", "Con cá", "Con thỏ"], correctIndex: 1, explanation: "'Cat' nghĩa là 'Con mèo'." },
+      { question: "Chơi trò chơi từ vựng thường xuyên mang lại lợi ích gì?", options: ["Nhớ từ lâu hơn, phản xạ nhanh hơn", "Không có lợi ích gì", "Làm quên từ nhanh hơn", "Không liên quan đến ghi nhớ"], correctIndex: 0, explanation: "Luyện tập thường xuyên giúp nhớ từ lâu hơn và phản xạ nhanh." },
+      { question: "'Bird' ghép với nghĩa tiếng Việt nào?", options: ["Con chim", "Con cá", "Con mèo", "Con chó"], correctIndex: 0, explanation: "'Bird' nghĩa là 'Con chim'." },
+    ],
+    funFact: "Trò chơi ghép từ (matching game) là một trong những phương pháp học từ vựng phổ biến nhất!",
+  },
+  "tieng-anh:3:review-colours-numbers-animals": {
+    objectives: ["Ôn tập từ vựng về màu sắc, số đếm, con vật.", "Củng cố kiến thức đã học."],
+    sections: [
+      { heading: "1. Review", body: ["Colours: red, blue, green, yellow. Numbers: one, two, three... Animals: dog, cat, elephant, lion."] },
+    ],
+    quiz: [
+      { question: "'Red' nghĩa là gì?", options: ["Xanh", "Đỏ", "Vàng", "Tím"], correctIndex: 1, explanation: "'Red' nghĩa là 'Đỏ'." },
+      { question: "Số 'five' là số mấy?", options: ["3", "4", "5", "6"], correctIndex: 2, explanation: "'Five' là số 5." },
+      { question: "'Elephant' nghĩa là gì?", options: ["Voi", "Sư tử", "Hổ", "Khỉ"], correctIndex: 0, explanation: "'Elephant' nghĩa là 'Voi'." },
+      { question: "'Green' nghĩa là gì?", options: ["Xanh lá", "Đỏ", "Vàng", "Nâu"], correctIndex: 0, explanation: "'Green' nghĩa là 'Xanh lá'." },
+    ],
+    funFact: "Ôn tập thường xuyên giúp từ vựng ghi nhớ lâu dài trong trí nhớ dài hạn!",
+  },
+  "tieng-anh:3:review-family-and-friends": {
+    objectives: ["Ôn tập từ vựng về gia đình và bạn bè.", "Củng cố mẫu câu giới thiệu người thân."],
+    sections: [
+      { heading: "1. Review", body: ["Family: father, mother, brother, sister, grandmother. Friends: best friend, classmate."] },
+    ],
+    quiz: [
+      { question: "'Father' nghĩa là gì?", options: ["Mẹ", "Bố", "Anh", "Em"], correctIndex: 1, explanation: "'Father' nghĩa là 'Bố'." },
+      { question: "'Best friend' nghĩa là gì?", options: ["Bạn thân nhất", "Bạn cùng lớp", "Người lạ", "Hàng xóm"], correctIndex: 0, explanation: "'Best friend' nghĩa là 'Bạn thân nhất'." },
+      { question: "'Sister' nghĩa là gì?", options: ["Anh trai", "Chị/em gái", "Bố", "Ông"], correctIndex: 1, explanation: "'Sister' nghĩa là 'Chị/em gái'." },
+      { question: "'Classmate' nghĩa là gì?", options: ["Bạn cùng lớp", "Giáo viên", "Hiệu trưởng", "Người lạ"], correctIndex: 0, explanation: "'Classmate' nghĩa là 'Bạn cùng lớp'." },
+    ],
+    funFact: "Tình bạn và gia đình là hai chủ đề phổ biến nhất trong các bài học tiếng Anh cho thiếu nhi!",
+  },
+  "tieng-anh:3:review-food-and-drinks": {
+    objectives: ["Ôn tập từ vựng về món ăn, đồ uống.", "Củng cố mẫu câu gọi món."],
+    sections: [
+      { heading: "1. Review", body: ["Food: rice, bread, noodles, fruit. Drinks: water, milk, juice, tea."] },
+    ],
+    quiz: [
+      { question: "'Rice' nghĩa là gì?", options: ["Bánh mì", "Cơm", "Mì", "Trái cây"], correctIndex: 1, explanation: "'Rice' nghĩa là 'Cơm'." },
+      { question: "'Milk' nghĩa là gì?", options: ["Nước", "Sữa", "Trà", "Nước ép"], correctIndex: 1, explanation: "'Milk' nghĩa là 'Sữa'." },
+      { question: "'Noodles' nghĩa là gì?", options: ["Mì", "Cơm", "Bánh mì", "Bánh ngọt"], correctIndex: 0, explanation: "'Noodles' nghĩa là 'Mì'." },
+      { question: "'Juice' nghĩa là gì?", options: ["Nước ép", "Sữa", "Trà", "Nước lọc"], correctIndex: 0, explanation: "'Juice' nghĩa là 'Nước ép'." },
+    ],
+    funFact: "Cơm là món ăn chính của hơn một nửa dân số thế giới!",
+  },
+  "tieng-anh:3:mid-term-review-1": {
+    objectives: ["Ôn tập giữa học kỳ 1.", "Củng cố kiến thức trọng tâm đã học."],
+    sections: [
+      { heading: "1. Review", body: ["Ôn lại: greetings, family, school, numbers, colours, animals."] },
+    ],
+    quiz: [
+      { question: "'Hello' nghĩa là gì?", options: ["Tạm biệt", "Xin chào", "Cảm ơn", "Xin lỗi"], correctIndex: 1, explanation: "'Hello' nghĩa là 'Xin chào'." },
+      { question: "'School' nghĩa là gì?", options: ["Nhà", "Trường học", "Công viên", "Bệnh viện"], correctIndex: 1, explanation: "'School' nghĩa là 'Trường học'." },
+      { question: "'Mother' nghĩa là gì?", options: ["Bố", "Mẹ", "Anh", "Chị"], correctIndex: 1, explanation: "'Mother' nghĩa là 'Mẹ'." },
+      { question: "'Three' là số mấy?", options: ["1", "2", "3", "4"], correctIndex: 2, explanation: "'Three' là số 3." },
+    ],
+    funFact: "Ôn tập giữa kỳ giúp em nhận ra phần nào cần học kỹ hơn trước khi thi!",
+  },
+  "tieng-anh:3:end-of-term-1-review": {
+    objectives: ["Ôn tập cuối học kỳ 1.", "Tổng hợp toàn bộ kiến thức học kỳ 1."],
+    sections: [
+      { heading: "1. Review", body: ["Ôn lại toàn bộ chủ đề học kỳ 1: greetings, school, house, hobbies, weather, friends, numbers, food."] },
+    ],
+    quiz: [
+      { question: "'House' nghĩa là gì?", options: ["Nhà", "Trường học", "Công viên", "Chợ"], correctIndex: 0, explanation: "'House' nghĩa là 'Nhà'." },
+      { question: "'Hobby' nghĩa là gì?", options: ["Sở thích", "Công việc", "Bài tập", "Kỳ nghỉ"], correctIndex: 0, explanation: "'Hobby' nghĩa là 'Sở thích'." },
+      { question: "'Weather' nghĩa là gì?", options: ["Thời tiết", "Thời gian", "Mùa", "Ngày tháng"], correctIndex: 0, explanation: "'Weather' nghĩa là 'Thời tiết'." },
+      { question: "'Friend' nghĩa là gì?", options: ["Bạn bè", "Gia đình", "Thầy cô", "Hàng xóm"], correctIndex: 0, explanation: "'Friend' nghĩa là 'Bạn bè'." },
+    ],
+    funFact: "Ôn tập cuối kỳ giúp em tự tin hơn khi bước vào bài kiểm tra tổng kết!",
+  },
+  "tieng-anh:3:mid-term-review-2": {
+    objectives: ["Ôn tập giữa học kỳ 2.", "Củng cố kiến thức đã học trong nửa đầu học kỳ 2."],
+    sections: [
+      { heading: "1. Review", body: ["Ôn lại: can/can't, prepositions, this/that, jobs, transportation, seasons."] },
+    ],
+    quiz: [
+      { question: "'Doctor' nghĩa là gì?", options: ["Giáo viên", "Bác sĩ", "Nông dân", "Kỹ sư"], correctIndex: 1, explanation: "'Doctor' nghĩa là 'Bác sĩ'." },
+      { question: "'I can swim.' nghĩa là gì?", options: ["Em không thể bơi.", "Em có thể bơi.", "Em thích bơi.", "Em sợ nước."], correctIndex: 1, explanation: "'Can' nghĩa là 'có thể'." },
+      { question: "'Under' nghĩa là gì?", options: ["Trên", "Dưới", "Bên cạnh", "Ở giữa"], correctIndex: 1, explanation: "'Under' nghĩa là 'Dưới'." },
+      { question: "'Bus' nghĩa là gì?", options: ["Xe buýt", "Xe đạp", "Tàu hoả", "Máy bay"], correctIndex: 0, explanation: "'Bus' nghĩa là 'Xe buýt'." },
+    ],
+    funFact: "Càng ôn tập đều đặn, kiến thức càng được ghi nhớ lâu dài trong trí nhớ!",
+  },
+  "tieng-anh:3:reading-short-stories": {
+    objectives: ["Luyện đọc hiểu truyện ngắn đơn giản.", "Trả lời câu hỏi về nội dung truyện."],
+    sections: [
+      { heading: "1. Reading Tip", body: ["Đọc tiêu đề và tranh minh hoạ trước để đoán nội dung truyện."] },
+      { heading: "2. Comprehension", body: ["Sau khi đọc, trả lời câu hỏi: Who? What? Where? để kiểm tra hiểu bài."] },
+    ],
+    quiz: [
+      { question: "Trước khi đọc truyện, em nên làm gì?", options: ["Đọc ngay không cần chuẩn bị", "Xem tiêu đề và tranh minh hoạ", "Bỏ qua tiêu đề", "Không cần làm gì"], correctIndex: 1, explanation: "Xem tiêu đề và tranh giúp đoán trước nội dung." },
+      { question: "Câu hỏi 'Who?' dùng để hỏi về điều gì trong truyện?", options: ["Nhân vật", "Địa điểm", "Thời gian", "Màu sắc"], correctIndex: 0, explanation: "'Who?' hỏi về nhân vật trong truyện." },
+      { question: "Đọc truyện ngắn giúp ích điều gì cho việc học tiếng Anh?", options: ["Không có ích gì", "Mở rộng vốn từ và khả năng đọc hiểu", "Làm mất thời gian", "Không liên quan đến tiếng Anh"], correctIndex: 1, explanation: "Đọc truyện giúp mở rộng vốn từ và khả năng đọc hiểu." },
+      { question: "Câu hỏi 'Where?' dùng để hỏi về điều gì?", options: ["Địa điểm", "Nhân vật", "Thời gian", "Hành động"], correctIndex: 0, explanation: "'Where?' hỏi về địa điểm trong truyện." },
+    ],
+    funFact: "Đọc truyện tranh song ngữ là cách thú vị để vừa học tiếng Anh vừa giải trí!",
+  },
+  "tieng-anh:3:writing-short-sentences": {
+    objectives: ["Luyện viết câu đơn giản bằng tiếng Anh.", "Sử dụng đúng cấu trúc câu cơ bản."],
+    sections: [
+      { heading: "1. Sentence Structure", body: ["Câu tiếng Anh cơ bản có cấu trúc: Subject + Verb + Object. Ví dụ: 'I like apples.' (Em thích táo.)"] },
+      { heading: "2. Practice", body: ["Viết câu bắt đầu bằng chữ hoa và kết thúc bằng dấu chấm: 'She is my friend.'"] },
+    ],
+    quiz: [
+      { question: "Câu tiếng Anh cơ bản có cấu trúc nào?", options: ["Verb + Subject + Object", "Subject + Verb + Object", "Object + Subject + Verb", "Không có cấu trúc cố định"], correctIndex: 1, explanation: "Cấu trúc câu cơ bản là Subject + Verb + Object." },
+      { question: "Câu tiếng Anh cần bắt đầu bằng gì?", options: ["Chữ thường", "Chữ hoa", "Dấu chấm", "Dấu phẩy"], correctIndex: 1, explanation: "Câu tiếng Anh luôn bắt đầu bằng chữ hoa." },
+      { question: "'I like apples.' có cấu trúc nào?", options: ["Subject (I) + Verb (like) + Object (apples)", "Chỉ có Subject", "Chỉ có Verb", "Không theo cấu trúc nào"], correctIndex: 0, explanation: "Câu này đúng cấu trúc Subject + Verb + Object." },
+      { question: "Câu tiếng Anh thường kết thúc bằng dấu gì?", options: ["Dấu phẩy", "Dấu chấm", "Dấu ngoặc", "Dấu gạch ngang"], correctIndex: 1, explanation: "Câu thường kết thúc bằng dấu chấm." },
+    ],
+    funFact: "Luyện viết câu đơn giản mỗi ngày là bước đầu để viết đoạn văn tiếng Anh hoàn chỉnh!",
+  },
+  "tieng-anh:3:my-favourite-season": {
+    objectives: ["Nói về mùa yêu thích trong năm.", "Giải thích lý do yêu thích bằng câu đơn giản."],
+    sections: [
+      { heading: "1. Making Sentences", body: ["'My favourite season is summer.' (Mùa yêu thích của em là mùa hè.) 'I like it because I can swim.' (Em thích vì em có thể đi bơi.)"] },
+    ],
+    quiz: [
+      { question: "'My favourite season is summer.' nghĩa là gì?", options: ["Mùa yêu thích của em là mùa đông.", "Mùa yêu thích của em là mùa hè.", "Em không thích mùa nào.", "Mùa yêu thích của em là mùa xuân."], correctIndex: 1, explanation: "Câu này nghĩa là 'Mùa yêu thích của em là mùa hè.'" },
+      { question: "'I can swim.' nghĩa là gì?", options: ["Em không thể bơi.", "Em có thể bơi.", "Em thích bơi.", "Em sợ nước."], correctIndex: 1, explanation: "Câu này nghĩa là 'Em có thể bơi.'" },
+      { question: "'Because' dùng để làm gì trong câu?", options: ["Nêu lý do", "Nêu kết quả", "Phủ định câu", "Đặt câu hỏi"], correctIndex: 0, explanation: "'Because' dùng để nêu lý do." },
+      { question: "Mùa nào thường có tuyết rơi ở nhiều nước?", options: ["Summer", "Spring", "Winter", "Autumn"], correctIndex: 2, explanation: "'Winter' (mùa đông) thường có tuyết rơi." },
+    ],
+    funFact: "Việt Nam không có tuyết rơi ở hầu hết các vùng, nhưng Sa Pa từng có tuyết vào mùa đông!",
+  },
+  "tieng-anh:3:describing-my-classroom": {
+    objectives: ["Luyện mô tả lớp học bằng tiếng Anh.", "Sử dụng từ vựng về đồ vật trong lớp học."],
+    sections: [
+      { heading: "1. Classroom Vocabulary", body: ["Desk (bàn học), chair (ghế), blackboard (bảng đen), window (cửa sổ)."] },
+      { heading: "2. Making Sentences", body: ["'There is a blackboard in my classroom.' (Có một bảng đen trong lớp học của em.)"] },
+    ],
+    quiz: [
+      { question: "'Blackboard' nghĩa là gì?", options: ["Bảng đen", "Cửa sổ", "Bàn học", "Ghế ngồi"], correctIndex: 0, explanation: "'Blackboard' nghĩa là 'Bảng đen'." },
+      { question: "'Desk' nghĩa là gì?", options: ["Ghế", "Bàn học", "Cửa sổ", "Bảng"], correctIndex: 1, explanation: "'Desk' nghĩa là 'Bàn học'." },
+      { question: "'There is a blackboard in my classroom.' nghĩa là gì?", options: ["Không có bảng đen trong lớp.", "Có một bảng đen trong lớp học.", "Bảng đen ở ngoài sân.", "Em không thích bảng đen."], correctIndex: 1, explanation: "Câu này nghĩa là 'Có một bảng đen trong lớp học của em.'" },
+      { question: "'Window' nghĩa là gì?", options: ["Cửa sổ", "Cửa ra vào", "Tường", "Trần nhà"], correctIndex: 0, explanation: "'Window' nghĩa là 'Cửa sổ'." },
+    ],
+    funFact: "Bảng đen truyền thống dần được thay thế bằng bảng trắng và bảng thông minh ở nhiều trường học hiện đại!",
+  },
+  "tieng-anh:3:talking-about-my-town": {
+    objectives: ["Luyện nói về thị trấn, thành phố nơi em sống.", "Mô tả các địa điểm nổi bật."],
+    sections: [
+      { heading: "1. Making Sentences", body: ["'I live in Hanoi.' (Em sống ở Hà Nội.) 'My town has a big lake.' (Thị trấn của em có một hồ lớn.)"] },
+    ],
+    quiz: [
+      { question: "'I live in Hanoi.' nghĩa là gì?", options: ["Em sống ở Hà Nội.", "Em sống ở Huế.", "Em không sống ở đâu.", "Em thích Hà Nội."], correctIndex: 0, explanation: "Câu này nghĩa là 'Em sống ở Hà Nội.'" },
+      { question: "'Town' nghĩa là gì?", options: ["Thị trấn/thị xã", "Ngôi nhà", "Trường học", "Công viên"], correctIndex: 0, explanation: "'Town' nghĩa là 'Thị trấn/thị xã'." },
+      { question: "'Lake' nghĩa là gì?", options: ["Hồ", "Sông", "Biển", "Núi"], correctIndex: 0, explanation: "'Lake' nghĩa là 'Hồ'." },
+      { question: "'My town has a big lake.' nghĩa là gì?", options: ["Thị trấn của em không có hồ.", "Thị trấn của em có một hồ lớn.", "Thị trấn của em có một ngọn núi.", "Thị trấn của em rất nhỏ."], correctIndex: 1, explanation: "Câu này nghĩa là 'Thị trấn của em có một hồ lớn.'" },
+    ],
+    funFact: "Hồ Gươm ở Hà Nội là một trong những địa danh nổi tiếng nhất Việt Nam, tiếng Anh là 'Sword Lake'!",
+  },
+  "tieng-anh:3:simple-role-play-at-the-shop": {
+    objectives: ["Đóng vai tình huống mua sắm đơn giản.", "Thực hành hội thoại người mua - người bán."],
+    sections: [
+      { heading: "1. Sample Dialogue", body: ["Seller: 'Can I help you?' Buyer: 'Yes, I want a notebook, please.' Seller: 'Here you are. It's 10,000 dong.'"] },
+    ],
+    quiz: [
+      { question: "'Can I help you?' dùng để làm gì?", options: ["Người bán hỏi khách cần gì", "Khách hỏi giá", "Từ chối bán hàng", "Chào tạm biệt"], correctIndex: 0, explanation: "Câu này người bán hàng thường nói để hỏi khách cần gì." },
+      { question: "'I want a notebook, please.' nghĩa là gì?", options: ["Em không cần gì.", "Em muốn mua một quyển vở ạ.", "Vở này rất đẹp.", "Em không thích vở."], correctIndex: 1, explanation: "Câu này nghĩa là yêu cầu mua một quyển vở." },
+      { question: "'Here you are.' dùng để làm gì?", options: ["Đưa đồ vật cho ai đó", "Hỏi giá tiền", "Từ chối", "Chào hỏi"], correctIndex: 0, explanation: "Câu này dùng khi đưa đồ vật cho người khác." },
+      { question: "Đóng vai tình huống mua sắm giúp ích điều gì?", options: ["Không có ích gì", "Luyện phản xạ giao tiếp thực tế", "Làm mất thời gian", "Không liên quan đến tiếng Anh"], correctIndex: 1, explanation: "Đóng vai giúp luyện phản xạ giao tiếp trong tình huống thực tế." },
+    ],
+    funFact: "Đóng vai (role-play) là phương pháp học ngôn ngữ được nhiều giáo viên trên thế giới áp dụng!",
+  },
+  "tieng-anh:3:simple-role-play-at-school": {
+    objectives: ["Đóng vai tình huống ở trường học.", "Thực hành hội thoại giữa học sinh và giáo viên."],
+    sections: [
+      { heading: "1. Sample Dialogue", body: ["Teacher: 'Good morning, class!' Students: 'Good morning, teacher!' Teacher: 'Open your books, please.'"] },
+    ],
+    quiz: [
+      { question: "'Good morning, class!' do ai nói?", options: ["Học sinh", "Giáo viên", "Phụ huynh", "Bảo vệ"], correctIndex: 1, explanation: "Câu này thường do giáo viên nói khi vào lớp." },
+      { question: "'Open your books, please.' nghĩa là gì?", options: ["Đóng sách lại", "Mở sách ra", "Cất sách đi", "Đọc to sách"], correctIndex: 1, explanation: "Câu này nghĩa là 'Mở sách ra'." },
+      { question: "Khi giáo viên chào, học sinh nên đáp lại như thế nào?", options: ["Im lặng", "Chào lại lịch sự", "Bỏ đi", "Nói chuyện riêng"], correctIndex: 1, explanation: "Học sinh nên chào lại lịch sự khi giáo viên chào." },
+      { question: "Đóng vai tình huống ở trường giúp ích điều gì?", options: ["Không có ích gì", "Luyện giao tiếp trong môi trường học đường", "Làm mất thời gian", "Không liên quan đến học tập"], correctIndex: 1, explanation: "Giúp luyện giao tiếp tiếng Anh trong môi trường học đường." },
+    ],
+    funFact: "Ở nhiều trường quốc tế, học sinh chào giáo viên bằng tiếng Anh ngay từ đầu mỗi tiết học!",
+  },
+  "tieng-anh:3:fun-with-rhymes": {
+    objectives: ["Học tiếng Anh vui nhộn qua các vần điệu.", "Ghi nhớ từ vựng qua các câu có vần."],
+    sections: [
+      { heading: "1. Example Rhyme", body: ["'Rain, rain, go away, come again another day!' — vần điệu vui giúp ghi nhớ từ vựng về thời tiết."] },
+    ],
+    quiz: [
+      { question: "'Rain, rain, go away!' nghĩa là gì?", options: ["Mưa ơi, đến đi!", "Mưa ơi, đi đi!", "Trời nắng quá!", "Trời lạnh quá!"], correctIndex: 1, explanation: "Câu này nghĩa là 'Mưa ơi, đi đi!' (mong mưa tạnh)." },
+      { question: "Vần điệu (rhyme) giúp ích điều gì cho việc học?", options: ["Không có ích gì", "Ghi nhớ từ vựng dễ dàng, vui nhộn", "Làm khó hiểu hơn", "Không liên quan đến học"], correctIndex: 1, explanation: "Vần điệu giúp ghi nhớ từ vựng dễ dàng và vui nhộn hơn." },
+      { question: "'Go away' nghĩa là gì?", options: ["Đến đây", "Đi đi/biến đi", "Ở lại", "Ngủ đi"], correctIndex: 1, explanation: "'Go away' nghĩa là 'Đi đi/biến đi'." },
+      { question: "Đặc điểm của một bài vần điệu (rhyme) là gì?", options: ["Các từ cuối câu có âm giống nhau", "Không có quy luật nào", "Luôn buồn bã", "Luôn rất dài"], correctIndex: 0, explanation: "Vần điệu có các từ cuối câu vần với nhau." },
+    ],
+    funFact: "Nhiều bài đồng dao tiếng Anh nổi tiếng ('nursery rhymes') đã tồn tại hàng trăm năm!",
+  },
+  "tieng-anh:3:spelling-practice": {
+    objectives: ["Luyện đánh vần từ vựng đã học.", "Ghi nhớ chính xác cách viết từ tiếng Anh."],
+    sections: [
+      { heading: "1. Spelling Tip", body: ["Đánh vần từng chữ cái: 'C-A-T spells CAT.' giúp ghi nhớ chính tả chính xác."] },
+      { heading: "2. Practice", body: ["Viết đi viết lại từ mới nhiều lần và đọc to từng chữ cái để ghi nhớ tốt hơn."] },
+    ],
+    quiz: [
+      { question: "Đánh vần từ 'CAT' theo từng chữ cái là gì?", options: ["C-A-T", "K-A-T", "C-A-D", "C-E-T"], correctIndex: 0, explanation: "'CAT' được đánh vần là C-A-T." },
+      { question: "Luyện đánh vần giúp ích điều gì?", options: ["Không có ích gì", "Ghi nhớ chính xác cách viết từ", "Làm quên từ nhanh hơn", "Không liên quan đến viết"], correctIndex: 1, explanation: "Luyện đánh vần giúp ghi nhớ chính xác cách viết từ." },
+      { question: "Cách nào giúp ghi nhớ chính tả một từ mới?", options: ["Viết một lần rồi quên", "Viết đi viết lại và đọc to", "Không cần viết", "Chỉ cần nhìn qua"], correctIndex: 1, explanation: "Viết đi viết lại và đọc to giúp ghi nhớ tốt hơn." },
+      { question: "Thi đánh vần (spelling bee) là hoạt động phổ biến ở đâu?", options: ["Trường học tại nhiều nước nói tiếng Anh", "Không phổ biến ở đâu", "Chỉ ở Việt Nam", "Chỉ trong gia đình"], correctIndex: 0, explanation: "Thi đánh vần là hoạt động phổ biến ở các trường học nói tiếng Anh." },
+    ],
+    funFact: "Cuộc thi 'Spelling Bee' ở Mỹ là một trong những cuộc thi đánh vần nổi tiếng nhất thế giới!",
+  },
+  "tieng-anh:3:final-review-my-english-journey": {
+    objectives: ["Ôn tập tổng hợp toàn bộ chương trình đã học.", "Tự tin sử dụng tiếng Anh trong giao tiếp cơ bản."],
+    sections: [
+      { heading: "1. Journey Review", body: ["Nhìn lại hành trình học tiếng Anh: chào hỏi, gia đình, trường học, sở thích, ngữ pháp cơ bản và giao tiếp."] },
+      { heading: "2. Keep Learning!", body: ["Tiếp tục luyện nghe, nói, đọc, viết mỗi ngày để tiếng Anh ngày càng giỏi hơn!"] },
+    ],
+    quiz: [
+      { question: "'Hello' nghĩa là gì?", options: ["Tạm biệt", "Xin chào", "Cảm ơn", "Xin lỗi"], correctIndex: 1, explanation: "'Hello' nghĩa là 'Xin chào'." },
+      { question: "Để giỏi tiếng Anh, em nên làm gì?", options: ["Chỉ học một lần rồi thôi", "Luyện tập đều đặn mỗi ngày", "Không cần luyện tập", "Chỉ học ngữ pháp"], correctIndex: 1, explanation: "Luyện tập đều đặn giúp tiếng Anh ngày càng tiến bộ." },
+      { question: "'Thank you' nghĩa là gì?", options: ["Xin lỗi", "Cảm ơn", "Tạm biệt", "Xin chào"], correctIndex: 1, explanation: "'Thank you' nghĩa là 'Cảm ơn'." },
+      { question: "Kỹ năng nào quan trọng khi học một ngôn ngữ mới?", options: ["Chỉ cần nghe", "Nghe, nói, đọc, viết", "Chỉ cần viết", "Không cần kỹ năng nào"], correctIndex: 1, explanation: "Cần rèn luyện đầy đủ 4 kỹ năng: nghe, nói, đọc, viết." },
+    ],
+    funFact: "Tiếng Anh là ngôn ngữ được sử dụng nhiều nhất trên thế giới để giao tiếp quốc tế!",
+  },
+
+  // ─────────────── TIẾNG ANH — LỚP 3 — 60 bài thực hành mở rộng ───────────────
+  "tieng-anh:3:thuc-hanh-greetings-review": practiceContent("Thực hành", "Greetings Review", "Hãy nhớ lại các mẫu câu chào hỏi: Hello, Good morning, How are you?", [
+    { question: "'Xin chào' trong tiếng Anh là gì?", options: ["Goodbye", "Hello", "Sorry", "Please"], correctIndex: 1, explanation: "'Hello' nghĩa là 'Xin chào'." },
+    { question: "'How are you?' hỏi về điều gì?", options: ["Tên", "Sức khoẻ", "Tuổi", "Địa chỉ"], correctIndex: 1, explanation: "Câu này hỏi thăm sức khoẻ." },
+    { question: "'Tạm biệt' trong tiếng Anh là gì?", options: ["Hello", "Goodbye", "Thanks", "Sorry"], correctIndex: 1, explanation: "'Goodbye' nghĩa là 'Tạm biệt'." },
+    { question: "Buổi sáng nên nói câu chào nào?", options: ["Good night", "Good morning", "Good afternoon", "Goodbye"], correctIndex: 1, explanation: "'Good morning' dùng vào buổi sáng." },
+  ]),
+  "tieng-anh:3:luyen-tap-classroom-instructions": practiceContent("Luyện tập", "Classroom Instructions", "Hãy nhớ lại các mệnh lệnh: Stand up, Sit down, Open your book, Be quiet.", [
+    { question: "'Stand up!' nghĩa là gì?", options: ["Ngồi xuống", "Đứng lên", "Im lặng", "Mở sách"], correctIndex: 1, explanation: "'Stand up' nghĩa là 'Đứng lên'." },
+    { question: "'Be quiet, please!' yêu cầu điều gì?", options: ["Nói to", "Giữ trật tự", "Đứng dậy", "Ra khỏi lớp"], correctIndex: 1, explanation: "'Be quiet' yêu cầu giữ trật tự." },
+    { question: "'Open your book!' nghĩa là gì?", options: ["Đóng sách", "Mở sách ra", "Viết bài", "Đọc to"], correctIndex: 1, explanation: "'Open your book' nghĩa là 'Mở sách ra'." },
+    { question: "'Sit down!' nghĩa là gì?", options: ["Đứng lên", "Ngồi xuống", "Chạy đi", "Im lặng"], correctIndex: 1, explanation: "'Sit down' nghĩa là 'Ngồi xuống'." },
+  ]),
+  "tieng-anh:3:van-dung-my-body-parts": practiceContent("Vận dụng", "My Body Parts", "Hãy nhớ lại từ vựng: head, eyes, nose, mouth, hands, legs.", [
+    { question: "'Eyes' nghĩa là gì?", options: ["Mũi", "Mắt", "Tay", "Chân"], correctIndex: 1, explanation: "'Eyes' nghĩa là 'Mắt'." },
+    { question: "'Head' nghĩa là gì?", options: ["Đầu", "Chân", "Tay", "Mũi"], correctIndex: 0, explanation: "'Head' nghĩa là 'Đầu'." },
+    { question: "'Mouth' nghĩa là gì?", options: ["Miệng", "Mũi", "Tai", "Tóc"], correctIndex: 0, explanation: "'Mouth' nghĩa là 'Miệng'." },
+    { question: "'I have two eyes.' nghĩa là gì?", options: ["Em có hai tay.", "Em có hai mắt.", "Em có hai chân.", "Em có hai mũi."], correctIndex: 1, explanation: "Câu này nghĩa là 'Em có hai mắt.'" },
+  ]),
+  "tieng-anh:3:tro-choi-on-tap-clothes-and-colours": practiceContent("Trò chơi ôn tập", "Clothes and Colours", "Hãy nhớ lại từ vựng về quần áo và màu sắc.", [
+    { question: "'Shirt' nghĩa là gì?", options: ["Váy", "Áo sơ mi", "Giày", "Mũ"], correctIndex: 1, explanation: "'Shirt' nghĩa là 'Áo sơ mi'." },
+    { question: "'Shoes' nghĩa là gì?", options: ["Giày", "Mũ", "Áo", "Váy"], correctIndex: 0, explanation: "'Shoes' nghĩa là 'Giày'." },
+    { question: "'I have a red shirt.' nghĩa là gì?", options: ["Em có váy đỏ.", "Em có áo sơ mi đỏ.", "Em có giày đỏ.", "Em có mũ đỏ."], correctIndex: 1, explanation: "Câu này nghĩa là 'Em có áo sơ mi đỏ.'" },
+    { question: "'Is wearing' nghĩa là gì?", options: ["Đang mặc/đội", "Đang chạy", "Đang ăn", "Đang ngủ"], correctIndex: 0, explanation: "'Is wearing' nghĩa là 'đang mặc/đội'." },
+  ]),
+  "tieng-anh:3:thu-thach-nho-family-members": practiceContent("Thử thách nhỏ", "Family Members", "Hãy nhớ lại từ vựng về gia đình: grandfather, grandmother, uncle, aunt, cousin.", [
+    { question: "'Grandfather' nghĩa là gì?", options: ["Ông", "Bà", "Chú", "Cô"], correctIndex: 0, explanation: "'Grandfather' nghĩa là 'Ông'." },
+    { question: "'Aunt' nghĩa là gì?", options: ["Chú", "Cô/dì", "Anh", "Em"], correctIndex: 1, explanation: "'Aunt' nghĩa là 'Cô/dì'." },
+    { question: "'Cousin' nghĩa là gì?", options: ["Anh/chị/em họ", "Bố", "Mẹ", "Ông"], correctIndex: 0, explanation: "'Cousin' nghĩa là 'anh/chị/em họ'." },
+    { question: "'This is my grandmother.' nghĩa là gì?", options: ["Đây là ông của em.", "Đây là bà của em.", "Đây là chú của em.", "Đây là cô của em."], correctIndex: 1, explanation: "Câu này nghĩa là 'Đây là bà của em.'" },
+  ]),
+  "tieng-anh:3:thuc-hanh-jobs-and-occupations": practiceContent("Thực hành", "Jobs and Occupations", "Hãy nhớ lại từ vựng nghề nghiệp: teacher, doctor, farmer, police officer, engineer.", [
+    { question: "'Teacher' nghĩa là gì?", options: ["Bác sĩ", "Giáo viên", "Nông dân", "Kỹ sư"], correctIndex: 1, explanation: "'Teacher' nghĩa là 'Giáo viên'." },
+    { question: "'Doctor' nghĩa là gì?", options: ["Bác sĩ", "Công an", "Giáo viên", "Kỹ sư"], correctIndex: 0, explanation: "'Doctor' nghĩa là 'Bác sĩ'." },
+    { question: "'Police officer' nghĩa là gì?", options: ["Công an", "Nông dân", "Bác sĩ", "Kỹ sư"], correctIndex: 0, explanation: "'Police officer' nghĩa là 'Công an'." },
+    { question: "'My father is a doctor.' nghĩa là gì?", options: ["Bố em là giáo viên.", "Bố em là bác sĩ.", "Bố em là nông dân.", "Bố em là kỹ sư."], correctIndex: 1, explanation: "Câu này nghĩa là 'Bố em là bác sĩ.'" },
+  ]),
+  "tieng-anh:3:luyen-tap-transportation": practiceContent("Luyện tập", "Transportation", "Hãy nhớ lại từ vựng phương tiện giao thông: car, bus, bicycle, motorbike, train.", [
+    { question: "'Bicycle' nghĩa là gì?", options: ["Ô tô", "Xe đạp", "Xe buýt", "Tàu hoả"], correctIndex: 1, explanation: "'Bicycle' nghĩa là 'Xe đạp'." },
+    { question: "'Bus' nghĩa là gì?", options: ["Xe buýt", "Xe máy", "Tàu hoả", "Máy bay"], correctIndex: 0, explanation: "'Bus' nghĩa là 'Xe buýt'." },
+    { question: "'Train' nghĩa là gì?", options: ["Tàu hoả", "Máy bay", "Thuyền", "Xe máy"], correctIndex: 0, explanation: "'Train' nghĩa là 'Tàu hoả'." },
+    { question: "'I go to school by bike.' nghĩa là gì?", options: ["Em đi học bằng ô tô.", "Em đi học bằng xe đạp.", "Em đi học bằng xe buýt.", "Em đi bộ đến trường."], correctIndex: 1, explanation: "Câu này nghĩa là 'Em đi học bằng xe đạp.'" },
+  ]),
+  "tieng-anh:3:van-dung-shapes-and-sizes": practiceContent("Vận dụng", "Shapes and Sizes", "Hãy nhớ lại từ vựng hình dạng và kích thước: circle, square, triangle, big, small.", [
+    { question: "'Circle' nghĩa là gì?", options: ["Hình vuông", "Hình tròn", "Hình tam giác", "Hình chữ nhật"], correctIndex: 1, explanation: "'Circle' nghĩa là 'Hình tròn'." },
+    { question: "'Square' nghĩa là gì?", options: ["Hình vuông", "Hình tròn", "Hình tam giác", "Hình chữ nhật"], correctIndex: 0, explanation: "'Square' nghĩa là 'Hình vuông'." },
+    { question: "'Big' nghĩa là gì?", options: ["Nhỏ", "To", "Dài", "Ngắn"], correctIndex: 1, explanation: "'Big' nghĩa là 'To'." },
+    { question: "'Triangle' nghĩa là gì?", options: ["Hình tam giác", "Hình tròn", "Hình vuông", "Hình chữ nhật"], correctIndex: 0, explanation: "'Triangle' nghĩa là 'Hình tam giác'." },
+  ]),
+  "tieng-anh:3:tro-choi-on-tap-in-the-supermarket": practiceContent("Trò chơi ôn tập", "In the Supermarket", "Hãy nhớ lại các mẫu câu: How much is this? I want to buy...", [
+    { question: "'How much is this?' hỏi về điều gì?", options: ["Tên món hàng", "Giá tiền", "Màu sắc", "Kích thước"], correctIndex: 1, explanation: "Câu này hỏi về giá tiền." },
+    { question: "'Cashier' nghĩa là gì?", options: ["Người bán hàng rong", "Thu ngân", "Khách hàng", "Bảo vệ"], correctIndex: 1, explanation: "'Cashier' nghĩa là 'Thu ngân'." },
+    { question: "'Basket' nghĩa là gì?", options: ["Giỏ hàng", "Túi xách", "Hộp", "Xe đẩy"], correctIndex: 0, explanation: "'Basket' nghĩa là 'Giỏ hàng'." },
+    { question: "'I want to buy some apples.' nghĩa là gì?", options: ["Em muốn ăn táo.", "Em muốn mua vài quả táo.", "Em không thích táo.", "Táo rất ngon."], correctIndex: 1, explanation: "Câu này nghĩa là 'Em muốn mua vài quả táo.'" },
+  ]),
+  "tieng-anh:3:thu-thach-nho-at-the-restaurant": practiceContent("Thử thách nhỏ", "At the Restaurant", "Hãy nhớ lại từ vựng: menu, waiter, order, bill.", [
+    { question: "'Menu' nghĩa là gì?", options: ["Thực đơn", "Hoá đơn", "Bàn ăn", "Ghế ngồi"], correctIndex: 0, explanation: "'Menu' nghĩa là 'Thực đơn'." },
+    { question: "'Bill' nghĩa là gì?", options: ["Thực đơn", "Hoá đơn", "Món ăn", "Đồ uống"], correctIndex: 1, explanation: "'Bill' nghĩa là 'Hoá đơn'." },
+    { question: "'Waiter' nghĩa là gì?", options: ["Đầu bếp", "Phục vụ nam", "Khách hàng", "Chủ nhà hàng"], correctIndex: 1, explanation: "'Waiter' nghĩa là 'Phục vụ nam'." },
+    { question: "'Can I have a menu, please?' nghĩa là gì?", options: ["Cho em xin thực đơn ạ.", "Cho em xin hoá đơn ạ.", "Em muốn ăn cơm.", "Nhà hàng ở đâu?"], correctIndex: 0, explanation: "Câu này nghĩa là 'Cho em xin thực đơn ạ.'" },
+  ]),
+  "tieng-anh:3:thuc-hanh-my-pets": practiceContent("Thực hành", "My Pets", "Hãy nhớ lại từ vựng thú cưng: dog, cat, fish, rabbit, bird.", [
+    { question: "'Rabbit' nghĩa là gì?", options: ["Thỏ", "Chó", "Mèo", "Cá"], correctIndex: 0, explanation: "'Rabbit' nghĩa là 'Thỏ'." },
+    { question: "'Fish' nghĩa là gì?", options: ["Chim", "Cá", "Chó", "Mèo"], correctIndex: 1, explanation: "'Fish' nghĩa là 'Cá'." },
+    { question: "'My cat is white.' nghĩa là gì?", options: ["Con mèo của em màu đen.", "Con mèo của em màu trắng.", "Con chó của em màu trắng.", "Con cá của em màu trắng."], correctIndex: 1, explanation: "Câu này nghĩa là 'Con mèo của em màu trắng.'" },
+    { question: "'I have a small dog.' nghĩa là gì?", options: ["Em có một chú mèo nhỏ.", "Em có một chú chó nhỏ.", "Em có một con cá nhỏ.", "Em có một con chim nhỏ."], correctIndex: 1, explanation: "Câu này nghĩa là 'Em có một chú chó nhỏ.'" },
+  ]),
+  "tieng-anh:3:luyen-tap-wild-animals": practiceContent("Luyện tập", "Wild Animals", "Hãy nhớ lại từ vựng động vật hoang dã: lion, tiger, elephant, giraffe, monkey.", [
+    { question: "'Tiger' nghĩa là gì?", options: ["Sư tử", "Hổ", "Voi", "Khỉ"], correctIndex: 1, explanation: "'Tiger' nghĩa là 'Hổ'." },
+    { question: "'Giraffe' nghĩa là gì?", options: ["Hươu cao cổ", "Voi", "Sư tử", "Khỉ"], correctIndex: 0, explanation: "'Giraffe' nghĩa là 'Hươu cao cổ'." },
+    { question: "'Monkey' nghĩa là gì?", options: ["Khỉ", "Hổ", "Sư tử", "Voi"], correctIndex: 0, explanation: "'Monkey' nghĩa là 'Khỉ'." },
+    { question: "'The elephant is very big.' nghĩa là gì?", options: ["Con voi rất nhỏ.", "Con voi rất to.", "Con voi rất nhanh.", "Con voi rất đẹp."], correctIndex: 1, explanation: "Câu này nghĩa là 'Con voi rất to.'" },
+  ]),
+  "tieng-anh:3:van-dung-sports-i-like": practiceContent("Vận dụng", "Sports I Like", "Hãy nhớ lại từ vựng thể thao: football, swimming, badminton, table tennis.", [
+    { question: "'Football' nghĩa là gì?", options: ["Bóng đá", "Bóng bàn", "Cầu lông", "Bơi lội"], correctIndex: 0, explanation: "'Football' nghĩa là 'Bóng đá'." },
+    { question: "'Swimming' nghĩa là gì?", options: ["Bơi lội", "Chạy bộ", "Nhảy dây", "Đá cầu"], correctIndex: 0, explanation: "'Swimming' nghĩa là 'Bơi lội'." },
+    { question: "'Table tennis' nghĩa là gì?", options: ["Bóng bàn", "Bóng đá", "Bóng rổ", "Bóng chuyền"], correctIndex: 0, explanation: "'Table tennis' nghĩa là 'Bóng bàn'." },
+    { question: "'I like playing football.' nghĩa là gì?", options: ["Em thích bơi lội.", "Em thích chơi bóng đá.", "Em thích chơi cầu lông.", "Em không thích thể thao."], correctIndex: 1, explanation: "Câu này nghĩa là 'Em thích chơi bóng đá.'" },
+  ]),
+  "tieng-anh:3:tro-choi-on-tap-free-time-on-weekends": practiceContent("Trò chơi ôn tập", "Free Time on Weekends", "Hãy nhớ lại từ vựng: watch TV, play games, read books, visit grandparents.", [
+    { question: "'Watch TV' nghĩa là gì?", options: ["Xem tivi", "Đọc sách", "Chơi trò chơi", "Thăm ông bà"], correctIndex: 0, explanation: "'Watch TV' nghĩa là 'Xem tivi'." },
+    { question: "'Read books' nghĩa là gì?", options: ["Đọc sách", "Xem tivi", "Chơi trò chơi", "Nấu ăn"], correctIndex: 0, explanation: "'Read books' nghĩa là 'Đọc sách'." },
+    { question: "'On weekends' nghĩa là gì?", options: ["Vào các ngày trong tuần", "Vào cuối tuần", "Vào buổi sáng", "Vào buổi tối"], correctIndex: 1, explanation: "'On weekends' nghĩa là 'Vào cuối tuần'." },
+    { question: "'Visit grandparents' nghĩa là gì?", options: ["Thăm ông bà", "Thăm bạn bè", "Đi học", "Đi chợ"], correctIndex: 0, explanation: "'Visit grandparents' nghĩa là 'Thăm ông bà'." },
+  ]),
+  "tieng-anh:3:thu-thach-nho-describing-the-weather": practiceContent("Thử thách nhỏ", "Describing the Weather", "Hãy nhớ lại từ vựng thời tiết: sunny, rainy, windy, cloudy, hot, cold.", [
+    { question: "'Sunny' nghĩa là gì?", options: ["Mưa", "Nắng", "Nhiều gió", "Lạnh"], correctIndex: 1, explanation: "'Sunny' nghĩa là 'Nắng'." },
+    { question: "'Windy' nghĩa là gì?", options: ["Nhiều gió", "Nhiều mây", "Nắng", "Nóng"], correctIndex: 0, explanation: "'Windy' nghĩa là 'Nhiều gió'." },
+    { question: "'Cold' nghĩa là gì?", options: ["Nóng", "Lạnh", "Nắng", "Mưa"], correctIndex: 1, explanation: "'Cold' nghĩa là 'Lạnh'." },
+    { question: "'It is raining.' nghĩa là gì?", options: ["Trời đang nắng.", "Trời đang mưa.", "Trời đang lạnh.", "Trời đang nhiều gió."], correctIndex: 1, explanation: "Câu này nghĩa là 'Trời đang mưa.'" },
+  ]),
+  "tieng-anh:3:thuc-hanh-seasons-around-the-year": practiceContent("Thực hành", "Seasons Around the Year", "Hãy nhớ lại từ vựng bốn mùa: spring, summer, autumn/fall, winter.", [
+    { question: "'Summer' nghĩa là gì?", options: ["Mùa xuân", "Mùa hè", "Mùa thu", "Mùa đông"], correctIndex: 1, explanation: "'Summer' nghĩa là 'Mùa hè'." },
+    { question: "'Winter' nghĩa là gì?", options: ["Mùa đông", "Mùa hè", "Mùa xuân", "Mùa thu"], correctIndex: 0, explanation: "'Winter' nghĩa là 'Mùa đông'." },
+    { question: "'Autumn' còn được gọi là gì trong tiếng Anh Mỹ?", options: ["Fall", "Spring", "Summer", "Winter"], correctIndex: 0, explanation: "Người Mỹ thường gọi mùa thu là 'Fall'." },
+    { question: "'Summer is hot.' nghĩa là gì?", options: ["Mùa hè lạnh.", "Mùa hè nóng.", "Mùa đông nóng.", "Mùa xuân nóng."], correctIndex: 1, explanation: "Câu này nghĩa là 'Mùa hè nóng.'" },
+  ]),
+  "tieng-anh:3:luyen-tap-simple-present-tense-daily-habits": practiceContent("Luyện tập", "Simple Present Tense: Daily Habits", "Hãy nhớ lại: với he/she/it, động từ thêm 's' ở thì hiện tại đơn.", [
+    { question: "Câu nào đúng thì hiện tại đơn?", options: ["She go to school.", "She goes to school.", "She going to school.", "She gone to school."], correctIndex: 1, explanation: "Với 'she', động từ 'go' cần thêm 's' thành 'goes'." },
+    { question: "Thì hiện tại đơn thường dùng để diễn tả điều gì?", options: ["Hành động đang xảy ra", "Thói quen, sự thật", "Hành động trong quá khứ", "Kế hoạch tương lai"], correctIndex: 1, explanation: "Thì hiện tại đơn diễn tả thói quen, sự thật." },
+    { question: "Câu nào đúng?", options: ["He play football every day.", "He plays football every day.", "He playing football every day.", "He played football every day."], correctIndex: 1, explanation: "Với 'he', động từ 'play' cần thêm 's' thành 'plays'." },
+    { question: "'I brush my teeth every morning.' nghĩa là gì?", options: ["Em đánh răng mỗi sáng.", "Em ăn sáng mỗi ngày.", "Em đi ngủ sớm.", "Em đi học mỗi sáng."], correctIndex: 0, explanation: "Câu này nghĩa là 'Em đánh răng mỗi sáng.'" },
+  ]),
+  "tieng-anh:3:van-dung-can-can-t-abilities": practiceContent("Vận dụng", "Can / Can't: Abilities", "Hãy nhớ lại: can (có thể), can't (không thể), sau can dùng động từ nguyên thể.", [
+    { question: "'I can swim.' nghĩa là gì?", options: ["Em không thể bơi.", "Em có thể bơi.", "Em thích bơi.", "Em đang bơi."], correctIndex: 1, explanation: "'Can' nghĩa là 'có thể'." },
+    { question: "Câu nào diễn tả khả năng KHÔNG làm được?", options: ["I can sing.", "I can dance.", "I can't fly.", "I can run."], correctIndex: 2, explanation: "'Can't' là dạng phủ định, nghĩa là 'không thể'." },
+    { question: "Câu nào đúng ngữ pháp?", options: ["She can to swim.", "She can swims.", "She can swim.", "She cans swim."], correctIndex: 2, explanation: "Sau 'can' dùng động từ nguyên thể, không chia." },
+    { question: "'Can you swim?' dùng để hỏi điều gì?", options: ["Hỏi tuổi", "Hỏi khả năng bơi", "Hỏi tên", "Hỏi sở thích"], correctIndex: 1, explanation: "Câu này hỏi về khả năng bơi lội." },
+  ]),
+  "tieng-anh:3:tro-choi-on-tap-prepositions-of-place-review": practiceContent("Trò chơi ôn tập", "Prepositions of Place Review", "Hãy nhớ lại giới từ chỉ vị trí: in, on, under, next to, between.", [
+    { question: "'Under' nghĩa là gì?", options: ["Trên", "Dưới", "Bên cạnh", "Ở giữa"], correctIndex: 1, explanation: "'Under' nghĩa là 'Dưới'." },
+    { question: "'Next to' nghĩa là gì?", options: ["Bên cạnh", "Ở giữa", "Trong", "Trên"], correctIndex: 0, explanation: "'Next to' nghĩa là 'Bên cạnh'." },
+    { question: "'Between' nghĩa là gì?", options: ["Ở giữa", "Bên cạnh", "Trên", "Dưới"], correctIndex: 0, explanation: "'Between' nghĩa là 'Ở giữa' (hai vật)." },
+    { question: "'The cat is under the table.' nghĩa là gì?", options: ["Con mèo ở trên bàn.", "Con mèo ở dưới bàn.", "Con mèo ở bên cạnh bàn.", "Con mèo ở trong hộp."], correctIndex: 1, explanation: "Câu này nghĩa là 'Con mèo ở dưới bàn.'" },
+  ]),
+  "tieng-anh:3:thu-thach-nho-this-that-these-those": practiceContent("Thử thách nhỏ", "This/That/These/Those", "Hãy nhớ lại: this/that dùng cho số ít, these/those dùng cho số nhiều.", [
+    { question: "Từ nào dùng cho một vật ở gần?", options: ["That", "This", "Those", "These"], correctIndex: 1, explanation: "'This' dùng cho một vật ở gần." },
+    { question: "Từ nào dùng cho nhiều vật ở xa?", options: ["This", "That", "These", "Those"], correctIndex: 3, explanation: "'Those' dùng cho nhiều vật ở xa." },
+    { question: "Câu nào đúng?", options: ["This are my pens.", "These is my pen.", "These are my pens.", "That are my pens."], correctIndex: 2, explanation: "'These' đi với danh từ số nhiều và động từ 'are'." },
+    { question: "'These are my books.' nghĩa là gì?", options: ["Đây là quyển sách của em.", "Đây là những quyển sách của em.", "Kia là quyển sách của em.", "Kia là những quyển sách của em."], correctIndex: 1, explanation: "'These' là số nhiều của 'this'." },
+  ]),
+  "tieng-anh:3:thuc-hanh-plural-nouns": practiceContent("Thực hành", "Plural Nouns", "Hãy nhớ lại quy tắc thêm s/es và các từ bất quy tắc.", [
+    { question: "Số nhiều của 'book' là gì?", options: ["Book", "Books", "Bookes", "Bookies"], correctIndex: 1, explanation: "Thêm 's' vào 'book' thành 'books'." },
+    { question: "Số nhiều của 'box' là gì?", options: ["Boxs", "Box", "Boxes", "Boxies"], correctIndex: 2, explanation: "Danh từ tận cùng bằng 'x' thêm 'es'." },
+    { question: "Số nhiều của 'child' là gì?", options: ["Childs", "Childes", "Children", "Child"], correctIndex: 2, explanation: "'Child' là danh từ bất quy tắc, số nhiều là 'children'." },
+    { question: "Số nhiều của 'cat' là gì?", options: ["Cates", "Cat", "Cates", "Cats"], correctIndex: 3, explanation: "Thêm 's' vào 'cat' thành 'cats'." },
+  ]),
+  "tieng-anh:3:luyen-tap-question-words-who-what-where": practiceContent("Luyện tập", "Question Words: Who, What, Where", "Hãy nhớ lại: who (ai), what (cái gì), where (ở đâu).", [
+    { question: "Từ để hỏi 'ai' là gì?", options: ["What", "Who", "Where", "When"], correctIndex: 1, explanation: "'Who' nghĩa là 'ai'." },
+    { question: "Từ để hỏi 'ở đâu' là gì?", options: ["Who", "What", "Where", "Why"], correctIndex: 2, explanation: "'Where' nghĩa là 'ở đâu'." },
+    { question: "'What is this?' nghĩa là gì?", options: ["Đây là ai?", "Đây là cái gì?", "Đây ở đâu?", "Đây là khi nào?"], correctIndex: 1, explanation: "Câu này nghĩa là 'Đây là cái gì?'" },
+    { question: "'Where do you live?' nghĩa là gì?", options: ["Bạn tên là gì?", "Bạn sống ở đâu?", "Bạn bao nhiêu tuổi?", "Bạn học lớp mấy?"], correctIndex: 1, explanation: "Câu này hỏi về nơi sinh sống." },
+  ]),
+  "tieng-anh:3:van-dung-question-words-when-why-how": practiceContent("Vận dụng", "Question Words: When, Why, How", "Hãy nhớ lại: when (khi nào), why (tại sao), how (như thế nào).", [
+    { question: "Từ để hỏi 'khi nào' là gì?", options: ["Why", "How", "When", "What"], correctIndex: 2, explanation: "'When' nghĩa là 'khi nào'." },
+    { question: "Từ để hỏi 'tại sao' là gì?", options: ["Why", "Who", "Where", "When"], correctIndex: 0, explanation: "'Why' nghĩa là 'tại sao'." },
+    { question: "'How do you feel?' nghĩa là gì?", options: ["Bạn tên là gì?", "Bạn cảm thấy thế nào?", "Bạn ở đâu?", "Bạn bao nhiêu tuổi?"], correctIndex: 1, explanation: "Câu này hỏi về cảm xúc." },
+    { question: "'When is your birthday?' nghĩa là gì?", options: ["Sinh nhật bạn khi nào?", "Bạn tên là gì?", "Bạn thích gì?", "Bạn ở đâu?"], correctIndex: 0, explanation: "Câu này hỏi về ngày sinh nhật." },
+  ]),
+  "tieng-anh:3:tro-choi-on-tap-my-favourite-colour": practiceContent("Trò chơi ôn tập", "My Favourite Colour", "Hãy nhớ lại từ vựng màu sắc: red, blue, green, yellow, purple, pink.", [
+    { question: "'Yellow' nghĩa là gì?", options: ["Đỏ", "Vàng", "Xanh lá", "Tím"], correctIndex: 1, explanation: "'Yellow' nghĩa là 'Vàng'." },
+    { question: "'Purple' nghĩa là gì?", options: ["Tím", "Hồng", "Xanh dương", "Đỏ"], correctIndex: 0, explanation: "'Purple' nghĩa là 'Tím'." },
+    { question: "'Green' nghĩa là gì?", options: ["Xanh lá", "Xanh dương", "Vàng", "Hồng"], correctIndex: 0, explanation: "'Green' nghĩa là 'Xanh lá'." },
+    { question: "'My favourite colour is blue.' nghĩa là gì?", options: ["Màu yêu thích của em là màu đỏ.", "Màu yêu thích của em là màu xanh dương.", "Màu yêu thích của em là màu vàng.", "Em không thích màu nào."], correctIndex: 1, explanation: "Câu này nghĩa là 'Màu yêu thích của em là màu xanh dương.'" },
+  ]),
+  "tieng-anh:3:thu-thach-nho-my-favourite-animal": practiceContent("Thử thách nhỏ", "My Favourite Animal", "Hãy nhớ lại cách nói con vật yêu thích và lý do bằng 'because'.", [
+    { question: "'My favourite animal is the panda.' nghĩa là gì?", options: ["Em không thích gấu trúc.", "Con vật yêu thích của em là gấu trúc.", "Gấu trúc rất to.", "Em có một con gấu trúc."], correctIndex: 1, explanation: "Câu này nghĩa là 'Con vật yêu thích của em là gấu trúc.'" },
+    { question: "'Because' nghĩa là gì?", options: ["Nhưng", "Vì", "Và", "Hoặc"], correctIndex: 1, explanation: "'Because' nghĩa là 'Vì'." },
+    { question: "'Cute' nghĩa là gì?", options: ["Đáng sợ", "Dễ thương", "To lớn", "Nguy hiểm"], correctIndex: 1, explanation: "'Cute' nghĩa là 'Dễ thương'." },
+    { question: "'It is black and white.' nghĩa là gì?", options: ["Nó có màu đỏ và vàng.", "Nó có màu đen và trắng.", "Nó có màu xanh.", "Nó không có màu."], correctIndex: 1, explanation: "Câu này nghĩa là 'Nó có màu đen và trắng.'" },
+  ]),
+  "tieng-anh:3:thuc-hanh-asking-for-help-politely": practiceContent("Thực hành", "Asking for Help Politely", "Hãy nhớ lại cách nhờ giúp đỡ lịch sự với 'please' và 'could you'.", [
+    { question: "'Could you help me, please?' nghĩa là gì?", options: ["Bạn có khoẻ không?", "Bạn có thể giúp em không ạ?", "Bạn tên là gì?", "Bạn ở đâu?"], correctIndex: 1, explanation: "Câu này là lời đề nghị giúp đỡ lịch sự." },
+    { question: "Từ nào giúp câu nói trở nên lịch sự hơn?", options: ["Please", "No", "Stop", "Never"], correctIndex: 0, explanation: "'Please' làm câu nói lịch sự hơn." },
+    { question: "Khi được giúp đỡ, em nên nói gì?", options: ["Goodbye", "Sorry", "Thank you", "No"], correctIndex: 2, explanation: "'Thank you' dùng để cảm ơn." },
+    { question: "'Can you open the door, please?' nghĩa là gì?", options: ["Bạn đóng cửa giúp em được không?", "Bạn mở cửa giúp em được không?", "Cửa ở đâu?", "Bạn có cửa không?"], correctIndex: 1, explanation: "Câu này nghĩa là lời nhờ mở cửa lịch sự." },
+  ]),
+  "tieng-anh:3:luyen-tap-making-simple-requests": practiceContent("Luyện tập", "Making Simple Requests", "Hãy nhớ lại cách dùng 'can I' và 'I want' để đưa ra yêu cầu.", [
+    { question: "'Can I have some water, please?' nghĩa là gì?", options: ["Cho em xin ít nước ạ.", "Nước ở đâu?", "Em không muốn uống nước.", "Bạn có nước không?"], correctIndex: 0, explanation: "Câu này là lời yêu cầu xin nước." },
+    { question: "'I want to go outside.' nghĩa là gì?", options: ["Em muốn ở trong nhà.", "Em muốn ra ngoài.", "Em muốn đi ngủ.", "Em muốn ăn cơm."], correctIndex: 1, explanation: "Câu này nghĩa là 'Em muốn ra ngoài.'" },
+    { question: "'Can I...?' dùng để làm gì?", options: ["Đưa ra lời khen", "Đưa ra yêu cầu, xin phép", "Chào hỏi", "Tạm biệt"], correctIndex: 1, explanation: "'Can I...?' dùng để xin phép hoặc đưa ra yêu cầu." },
+    { question: "'Sure, here you are.' dùng để làm gì?", options: ["Từ chối yêu cầu", "Đồng ý và đưa vật gì đó", "Hỏi lại", "Xin lỗi"], correctIndex: 1, explanation: "Câu này dùng để đồng ý và trao đồ vật." },
+  ]),
+  "tieng-anh:3:van-dung-telling-a-short-story": practiceContent("Vận dụng", "Telling a Short Story", "Hãy nhớ lại từ nối: first, then, next, finally.", [
+    { question: "'First' nghĩa là gì?", options: ["Cuối cùng", "Đầu tiên", "Sau đó", "Tiếp theo"], correctIndex: 1, explanation: "'First' nghĩa là 'Đầu tiên'." },
+    { question: "'Finally' nghĩa là gì?", options: ["Đầu tiên", "Sau đó", "Cuối cùng", "Bây giờ"], correctIndex: 2, explanation: "'Finally' nghĩa là 'Cuối cùng'." },
+    { question: "'Then' nghĩa là gì?", options: ["Sau đó", "Trước đó", "Không bao giờ", "Luôn luôn"], correctIndex: 0, explanation: "'Then' nghĩa là 'Sau đó'." },
+    { question: "Từ nào giúp câu chuyện có trình tự rõ ràng?", options: ["First, then, finally", "Red, blue, green", "Big, small, tall", "Happy, sad, angry"], correctIndex: 0, explanation: "Các từ chỉ trình tự giúp câu chuyện mạch lạc." },
+  ]),
+  "tieng-anh:3:tro-choi-on-tap-days-and-dates": practiceContent("Trò chơi ôn tập", "Days and Dates", "Hãy nhớ lại tên các ngày trong tuần.", [
+    { question: "'Monday' nghĩa là gì?", options: ["Thứ Hai", "Thứ Ba", "Chủ nhật", "Thứ Bảy"], correctIndex: 0, explanation: "'Monday' nghĩa là 'Thứ Hai'." },
+    { question: "'Sunday' nghĩa là gì?", options: ["Thứ Bảy", "Chủ nhật", "Thứ Sáu", "Thứ Hai"], correctIndex: 1, explanation: "'Sunday' nghĩa là 'Chủ nhật'." },
+    { question: "Ngày nào đến sau 'Friday'?", options: ["Thursday", "Saturday", "Sunday", "Monday"], correctIndex: 1, explanation: "Sau 'Friday' (thứ Sáu) là 'Saturday' (thứ Bảy)." },
+    { question: "'What day is it today?' dùng để hỏi điều gì?", options: ["Hỏi hôm nay là thứ mấy", "Hỏi thời tiết", "Hỏi giờ", "Hỏi tháng"], correctIndex: 0, explanation: "Câu này hỏi về ngày trong tuần." },
+  ]),
+  "tieng-anh:3:thu-thach-nho-months-of-the-year-review": practiceContent("Thử thách nhỏ", "Months of the Year Review", "Hãy nhớ lại tên 12 tháng trong tiếng Anh.", [
+    { question: "'January' là tháng mấy?", options: ["Tháng 1", "Tháng 2", "Tháng 12", "Tháng 6"], correctIndex: 0, explanation: "'January' là 'Tháng 1'." },
+    { question: "'December' là tháng mấy?", options: ["Tháng 10", "Tháng 11", "Tháng 12", "Tháng 1"], correctIndex: 2, explanation: "'December' là 'Tháng 12'." },
+    { question: "Một năm có bao nhiêu tháng?", options: ["10", "11", "12", "13"], correctIndex: 2, explanation: "Một năm có 12 tháng." },
+    { question: "'My birthday is in June.' nghĩa là gì?", options: ["Sinh nhật em vào tháng Sáu.", "Sinh nhật em vào tháng Bảy.", "Em không có sinh nhật.", "Sinh nhật em vào tháng Một."], correctIndex: 0, explanation: "Câu này nghĩa là 'Sinh nhật em vào tháng Sáu.'" },
+  ]),
+  "tieng-anh:3:thuc-hanh-my-dream-house": practiceContent("Thực hành", "My Dream House", "Hãy nhớ lại cách dùng 'would like' để nói về mong muốn.", [
+    { question: "'Garden' nghĩa là gì?", options: ["Vườn", "Bếp", "Phòng ngủ", "Bể bơi"], correctIndex: 0, explanation: "'Garden' nghĩa là 'Vườn'." },
+    { question: "'Swimming pool' nghĩa là gì?", options: ["Vườn", "Bể bơi", "Sân chơi", "Ga ra"], correctIndex: 1, explanation: "'Swimming pool' nghĩa là 'Bể bơi'." },
+    { question: "'I would like...' dùng để diễn tả điều gì?", options: ["Mệnh lệnh", "Mong muốn", "Câu hỏi", "Lời xin lỗi"], correctIndex: 1, explanation: "'I would like...' dùng để diễn tả mong muốn một cách lịch sự." },
+    { question: "'I would like a house with a garden.' nghĩa là gì?", options: ["Em không thích vườn.", "Em muốn có một ngôi nhà có vườn.", "Nhà em có vườn rồi.", "Em muốn có bể bơi."], correctIndex: 1, explanation: "Câu này nghĩa là mong muốn có nhà với vườn." },
+  ]),
+  "tieng-anh:3:luyen-tap-healthy-food": practiceContent("Luyện tập", "Healthy Food", "Hãy nhớ lại từ vựng: vegetables, fruit, fish, water.", [
+    { question: "'Vegetables' nghĩa là gì?", options: ["Trái cây", "Rau củ", "Bánh kẹo", "Nước ngọt"], correctIndex: 1, explanation: "'Vegetables' nghĩa là 'Rau củ'." },
+    { question: "'Fruit' nghĩa là gì?", options: ["Trái cây", "Rau", "Thịt", "Cá"], correctIndex: 0, explanation: "'Fruit' nghĩa là 'Trái cây'." },
+    { question: "Loại thực phẩm nào tốt cho sức khoẻ?", options: ["Candy", "Vegetables", "Soda", "Chips"], correctIndex: 1, explanation: "'Vegetables' (rau củ) tốt cho sức khoẻ." },
+    { question: "'Vegetables are good for health.' nghĩa là gì?", options: ["Rau củ không tốt cho sức khoẻ.", "Rau củ tốt cho sức khoẻ.", "Em không thích rau củ.", "Rau củ rất đắt."], correctIndex: 1, explanation: "Câu này nghĩa là 'Rau củ tốt cho sức khoẻ.'" },
+  ]),
+  "tieng-anh:3:van-dung-unhealthy-food": practiceContent("Vận dụng", "Unhealthy Food", "Hãy nhớ lại từ vựng: candy, soda, chips, fast food.", [
+    { question: "'Candy' nghĩa là gì?", options: ["Rau", "Kẹo", "Cá", "Trái cây"], correctIndex: 1, explanation: "'Candy' nghĩa là 'Kẹo'." },
+    { question: "'Fast food' nghĩa là gì?", options: ["Đồ ăn nhanh", "Đồ ăn chậm", "Rau củ", "Trái cây tươi"], correctIndex: 0, explanation: "'Fast food' nghĩa là 'Đồ ăn nhanh'." },
+    { question: "'Soda is not good for teeth.' nghĩa là gì?", options: ["Nước ngọt tốt cho răng.", "Nước ngọt không tốt cho răng.", "Em thích nước ngọt.", "Nước ngọt rất ngon."], correctIndex: 1, explanation: "Câu này nghĩa là nước ngọt không tốt cho răng." },
+    { question: "'I don't eat too much candy.' nghĩa là gì?", options: ["Em ăn rất nhiều kẹo.", "Em không ăn quá nhiều kẹo.", "Em không thích kẹo.", "Em ăn kẹo mỗi ngày."], correctIndex: 1, explanation: "Câu này nghĩa là 'Em không ăn quá nhiều kẹo.'" },
+  ]),
+  "tieng-anh:3:tro-choi-on-tap-at-the-doctor-s": practiceContent("Trò chơi ôn tập", "At the Doctor's", "Hãy nhớ lại từ vựng: headache, stomachache, fever, cough.", [
+    { question: "'Headache' nghĩa là gì?", options: ["Đau bụng", "Đau đầu", "Sốt", "Ho"], correctIndex: 1, explanation: "'Headache' nghĩa là 'Đau đầu'." },
+    { question: "'Fever' nghĩa là gì?", options: ["Sốt", "Ho", "Đau đầu", "Đau bụng"], correctIndex: 0, explanation: "'Fever' nghĩa là 'Sốt'." },
+    { question: "'I have a headache.' nghĩa là gì?", options: ["Em bị đau bụng.", "Em bị đau đầu.", "Em bị sốt.", "Em bị ho."], correctIndex: 1, explanation: "Câu này nghĩa là 'Em bị đau đầu.'" },
+    { question: "'What's wrong?' dùng để hỏi điều gì?", options: ["Hỏi tên", "Hỏi bạn bị làm sao", "Hỏi tuổi", "Hỏi địa chỉ"], correctIndex: 1, explanation: "Câu này hỏi về vấn đề sức khoẻ." },
+  ]),
+  "tieng-anh:3:thu-thach-nho-feelings-and-emotions": practiceContent("Thử thách nhỏ", "Feelings and Emotions", "Hãy nhớ lại từ vựng cảm xúc: happy, sad, angry, tired, excited.", [
+    { question: "'Happy' nghĩa là gì?", options: ["Buồn", "Vui", "Giận", "Mệt"], correctIndex: 1, explanation: "'Happy' nghĩa là 'Vui'." },
+    { question: "'Angry' nghĩa là gì?", options: ["Vui", "Giận", "Hào hứng", "Buồn"], correctIndex: 1, explanation: "'Angry' nghĩa là 'Giận'." },
+    { question: "'Tired' nghĩa là gì?", options: ["Mệt", "Vui", "Hào hứng", "Buồn"], correctIndex: 0, explanation: "'Tired' nghĩa là 'Mệt'." },
+    { question: "'I am happy today.' nghĩa là gì?", options: ["Hôm nay em buồn.", "Hôm nay em vui.", "Hôm nay em mệt.", "Hôm nay em giận."], correctIndex: 1, explanation: "Câu này nghĩa là 'Hôm nay em vui.'" },
+  ]),
+  "tieng-anh:3:thuc-hanh-making-new-friends": practiceContent("Thực hành", "Making New Friends", "Hãy nhớ lại mẫu câu làm quen: What's your name? Where are you from?", [
+    { question: "'What's your name?' dùng để hỏi điều gì?", options: ["Hỏi tuổi", "Hỏi tên", "Hỏi địa chỉ", "Hỏi sở thích"], correctIndex: 1, explanation: "Câu này hỏi về tên của người khác." },
+    { question: "'Nice to meet you!' nghĩa là gì?", options: ["Tạm biệt bạn!", "Rất vui được gặp bạn!", "Xin lỗi bạn!", "Cảm ơn bạn!"], correctIndex: 1, explanation: "Câu này dùng khi mới gặp ai đó lần đầu." },
+    { question: "'Where are you from?' dùng để hỏi điều gì?", options: ["Hỏi bạn đến từ đâu", "Hỏi bạn đi đâu", "Hỏi bạn làm gì", "Hỏi bạn thích gì"], correctIndex: 0, explanation: "Câu này hỏi về quê quán, nơi xuất thân." },
+    { question: "Khi làm quen bạn mới, em nên có thái độ như thế nào?", options: ["Lạnh lùng", "Thân thiện, cởi mở", "Im lặng", "Trốn tránh"], correctIndex: 1, explanation: "Thái độ thân thiện giúp dễ dàng kết bạn." },
+  ]),
+  "tieng-anh:3:luyen-tap-school-rules": practiceContent("Luyện tập", "School Rules", "Hãy nhớ lại: must (phải), mustn't (không được).", [
+    { question: "'Must' nghĩa là gì?", options: ["Không được", "Phải", "Có thể", "Không cần"], correctIndex: 1, explanation: "'Must' nghĩa là 'Phải'." },
+    { question: "'Mustn't' nghĩa là gì?", options: ["Phải", "Không được", "Có thể", "Nên"], correctIndex: 1, explanation: "'Mustn't' nghĩa là 'Không được'." },
+    { question: "'You must be on time.' nghĩa là gì?", options: ["Bạn không cần đúng giờ.", "Bạn phải đúng giờ.", "Bạn có thể đến muộn.", "Bạn không được đến."], correctIndex: 1, explanation: "Câu này nghĩa là 'Bạn phải đúng giờ.'" },
+    { question: "'You mustn't run in the corridor.' nghĩa là gì?", options: ["Bạn phải chạy trong hành lang.", "Bạn không được chạy trong hành lang.", "Bạn có thể chạy ở bất cứ đâu.", "Không có hành lang ở trường."], correctIndex: 1, explanation: "Câu này nghĩa là quy định cấm chạy trong hành lang." },
+  ]),
+  "tieng-anh:3:van-dung-my-neighbourhood-review": practiceContent("Vận dụng", "My Neighbourhood Review", "Hãy nhớ lại từ vựng: park, market, hospital, post office.", [
+    { question: "'Park' nghĩa là gì?", options: ["Chợ", "Công viên", "Bệnh viện", "Bưu điện"], correctIndex: 1, explanation: "'Park' nghĩa là 'Công viên'." },
+    { question: "'Hospital' nghĩa là gì?", options: ["Bệnh viện", "Trường học", "Công viên", "Chợ"], correctIndex: 0, explanation: "'Hospital' nghĩa là 'Bệnh viện'." },
+    { question: "'Post office' nghĩa là gì?", options: ["Bưu điện", "Bệnh viện", "Trường học", "Siêu thị"], correctIndex: 0, explanation: "'Post office' nghĩa là 'Bưu điện'." },
+    { question: "'There is a park near my house.' nghĩa là gì?", options: ["Không có công viên gần nhà em.", "Có một công viên gần nhà em.", "Công viên rất xa nhà em.", "Em không thích công viên."], correctIndex: 1, explanation: "Câu này nghĩa là 'Có một công viên gần nhà em.'" },
+  ]),
+  "tieng-anh:3:tro-choi-on-tap-shopping-for-school-supplies": practiceContent("Trò chơi ôn tập", "Shopping for School Supplies", "Hãy nhớ lại từ vựng: notebook, pencil case, ruler, eraser.", [
+    { question: "'Notebook' nghĩa là gì?", options: ["Vở", "Bút", "Thước kẻ", "Cục tẩy"], correctIndex: 0, explanation: "'Notebook' nghĩa là 'Vở'." },
+    { question: "'Eraser' nghĩa là gì?", options: ["Thước kẻ", "Cục tẩy", "Bút chì", "Vở"], correctIndex: 1, explanation: "'Eraser' nghĩa là 'Cục tẩy'." },
+    { question: "'Pencil case' nghĩa là gì?", options: ["Hộp bút", "Cặp sách", "Bàn học", "Ghế ngồi"], correctIndex: 0, explanation: "'Pencil case' nghĩa là 'Hộp bút'." },
+    { question: "'I need a new notebook.' nghĩa là gì?", options: ["Em cần một quyển vở mới.", "Em có nhiều vở.", "Em không cần vở.", "Vở của em rất đẹp."], correctIndex: 0, explanation: "Câu này nghĩa là 'Em cần một quyển vở mới.'" },
+  ]),
+  "tieng-anh:3:thu-thach-nho-describing-a-picture": practiceContent("Thử thách nhỏ", "Describing a Picture", "Hãy nhớ lại cách dùng 'there is/there are' để mô tả tranh.", [
+    { question: "'There is' dùng khi nào?", options: ["Khi nói về nhiều vật", "Khi nói về một vật", "Khi hỏi câu hỏi", "Không dùng khi nào"], correctIndex: 1, explanation: "'There is' dùng với danh từ số ít." },
+    { question: "'There are' dùng khi nào?", options: ["Khi nói về một vật", "Khi nói về nhiều vật", "Không dùng khi nào", "Chỉ dùng với người"], correctIndex: 1, explanation: "'There are' dùng với danh từ số nhiều." },
+    { question: "'There is a dog in the picture.' nghĩa là gì?", options: ["Không có con chó nào trong tranh.", "Có một con chó trong bức tranh.", "Có hai con chó trong tranh.", "Con chó không có trong tranh."], correctIndex: 1, explanation: "Câu này nghĩa là 'Có một con chó trong bức tranh.'" },
+    { question: "'The children are happy.' nghĩa là gì?", options: ["Hai đứa trẻ đang buồn.", "Hai đứa trẻ đang vui vẻ.", "Không có đứa trẻ nào.", "Đứa trẻ đang ngủ."], correctIndex: 1, explanation: "Câu này nghĩa là 'Hai đứa trẻ đang vui vẻ.'" },
+  ]),
+  "tieng-anh:3:thuc-hanh-short-dialogues-practice": practiceContent("Thực hành", "Short Dialogues Practice", "Hãy nhớ lại mẫu hội thoại: How are you? I'm fine, thanks. And you?", [
+    { question: "'I'm fine, thanks. And you?' nghĩa là gì?", options: ["Em khoẻ, cảm ơn. Còn bạn thì sao?", "Em không khoẻ.", "Tạm biệt bạn.", "Bạn tên là gì?"], correctIndex: 0, explanation: "Câu này là câu trả lời và hỏi lại lịch sự." },
+    { question: "'And you?' dùng để làm gì?", options: ["Hỏi lại người kia", "Kết thúc hội thoại", "Từ chối trả lời", "Không có tác dụng"], correctIndex: 0, explanation: "'And you?' dùng để hỏi lại đối phương câu hỏi tương tự." },
+    { question: "Luyện tập hội thoại theo cặp giúp ích gì?", options: ["Không có ích gì", "Phản xạ giao tiếp nhanh hơn", "Làm mất thời gian", "Không liên quan đến nói"], correctIndex: 1, explanation: "Luyện tập theo cặp giúp phản xạ giao tiếp nhanh hơn." },
+    { question: "Khi luyện hội thoại, em nên chú ý điều gì?", options: ["Nói thật nhanh không cần hiểu", "Phát âm rõ ràng, tự tin", "Không cần nhìn bạn", "Chỉ đọc theo sách"], correctIndex: 1, explanation: "Phát âm rõ ràng, tự tin giúp giao tiếp hiệu quả hơn." },
+  ]),
+  "tieng-anh:3:luyen-tap-listening-for-key-words": practiceContent("Luyện tập", "Listening for Key Words", "Hãy nhớ lại: tập trung vào từ khoá quan trọng khi nghe.", [
+    { question: "Từ khoá trong câu nói giúp ích điều gì?", options: ["Không có ích gì", "Hiểu ý chính dù không nghe hết", "Làm bài khó hơn", "Không liên quan đến nghe hiểu"], correctIndex: 1, explanation: "Từ khoá giúp hiểu ý chính dù không nghe rõ hết câu." },
+    { question: "Trong câu 'I have a red bike.', từ nào là từ khoá quan trọng?", options: ["I, have", "Red, bike", "A", "Không có từ khoá nào"], correctIndex: 1, explanation: "'Red' và 'bike' là các từ mang thông tin chính." },
+    { question: "Khi luyện nghe, em nên làm gì nếu không hiểu hết câu?", options: ["Dừng lại không nghe nữa", "Tập trung vào từ khoá đã nghe được", "Đoán bừa không cần nghe", "Bỏ qua hoàn toàn"], correctIndex: 1, explanation: "Nên tập trung vào từ khoá thay vì cố hiểu từng từ." },
+    { question: "Kỹ năng nghe bắt từ khoá hữu ích khi nào?", options: ["Khi nghe hội thoại tiếng Anh tốc độ nhanh", "Không hữu ích khi nào", "Chỉ khi đọc sách", "Chỉ khi viết bài"], correctIndex: 0, explanation: "Kỹ năng này đặc biệt hữu ích khi nghe hội thoại tốc độ nhanh." },
+  ]),
+  "tieng-anh:3:van-dung-simple-songs-and-chants": practiceContent("Vận dụng", "Simple Songs and Chants", "Hãy nhớ lại bài hát 'Head, shoulders, knees and toes'.", [
+    { question: "Bài hát tiếng Anh giúp ích điều gì cho việc học?", options: ["Không có ích gì", "Ghi nhớ từ vựng dễ dàng hơn", "Làm mất thời gian", "Không liên quan đến học tiếng Anh"], correctIndex: 1, explanation: "Bài hát giúp ghi nhớ từ vựng và mẫu câu tự nhiên hơn." },
+    { question: "'Head, shoulders, knees and toes' là bài hát về chủ đề gì?", options: ["Màu sắc", "Bộ phận cơ thể", "Con vật", "Thức ăn"], correctIndex: 1, explanation: "Bài hát này liệt kê các bộ phận cơ thể." },
+    { question: "'Shoulders' nghĩa là gì?", options: ["Vai", "Đầu gối", "Ngón chân", "Đầu"], correctIndex: 0, explanation: "'Shoulders' nghĩa là 'Vai'." },
+    { question: "Vì sao giai điệu lặp lại giúp học tốt hơn?", options: ["Không có lý do gì", "Giúp não bộ ghi nhớ dễ dàng qua lặp lại", "Làm bài hát dài hơn", "Không liên quan đến trí nhớ"], correctIndex: 1, explanation: "Sự lặp lại giúp não bộ ghi nhớ thông tin tốt hơn." },
+  ]),
+  "tieng-anh:3:tro-choi-on-tap-vocabulary-game-word-match": practiceContent("Trò chơi ôn tập", "Vocabulary Game: Word Match", "Hãy nhớ lại cách ghép từ tiếng Anh với nghĩa tiếng Việt.", [
+    { question: "Trò chơi ghép từ giúp ích điều gì?", options: ["Không có ích gì", "Củng cố trí nhớ từ vựng", "Làm bài khó hơn", "Không liên quan đến từ vựng"], correctIndex: 1, explanation: "Trò chơi ghép từ giúp củng cố trí nhớ từ vựng." },
+    { question: "'Cat' ghép với nghĩa tiếng Việt nào?", options: ["Con chó", "Con mèo", "Con cá", "Con thỏ"], correctIndex: 1, explanation: "'Cat' nghĩa là 'Con mèo'." },
+    { question: "'Bird' ghép với nghĩa tiếng Việt nào?", options: ["Con chim", "Con cá", "Con mèo", "Con chó"], correctIndex: 0, explanation: "'Bird' nghĩa là 'Con chim'." },
+    { question: "Chơi trò chơi từ vựng thường xuyên mang lại lợi ích gì?", options: ["Nhớ từ lâu hơn, phản xạ nhanh hơn", "Không có lợi ích gì", "Làm quên từ nhanh hơn", "Không liên quan đến ghi nhớ"], correctIndex: 0, explanation: "Luyện tập thường xuyên giúp nhớ từ lâu hơn và phản xạ nhanh." },
+  ]),
+  "tieng-anh:3:thu-thach-nho-review-colours-numbers-animals": practiceContent("Thử thách nhỏ", "Review: Colours, Numbers, Animals", "Hãy ôn lại từ vựng về màu sắc, số đếm, con vật.", [
+    { question: "'Red' nghĩa là gì?", options: ["Xanh", "Đỏ", "Vàng", "Tím"], correctIndex: 1, explanation: "'Red' nghĩa là 'Đỏ'." },
+    { question: "Số 'five' là số mấy?", options: ["3", "4", "5", "6"], correctIndex: 2, explanation: "'Five' là số 5." },
+    { question: "'Elephant' nghĩa là gì?", options: ["Voi", "Sư tử", "Hổ", "Khỉ"], correctIndex: 0, explanation: "'Elephant' nghĩa là 'Voi'." },
+    { question: "'Green' nghĩa là gì?", options: ["Xanh lá", "Đỏ", "Vàng", "Nâu"], correctIndex: 0, explanation: "'Green' nghĩa là 'Xanh lá'." },
+  ]),
+  "tieng-anh:3:thuc-hanh-review-family-and-friends": practiceContent("Thực hành", "Review: Family and Friends", "Hãy ôn lại từ vựng về gia đình và bạn bè.", [
+    { question: "'Father' nghĩa là gì?", options: ["Mẹ", "Bố", "Anh", "Em"], correctIndex: 1, explanation: "'Father' nghĩa là 'Bố'." },
+    { question: "'Best friend' nghĩa là gì?", options: ["Bạn thân nhất", "Bạn cùng lớp", "Người lạ", "Hàng xóm"], correctIndex: 0, explanation: "'Best friend' nghĩa là 'Bạn thân nhất'." },
+    { question: "'Sister' nghĩa là gì?", options: ["Anh trai", "Chị/em gái", "Bố", "Ông"], correctIndex: 1, explanation: "'Sister' nghĩa là 'Chị/em gái'." },
+    { question: "'Classmate' nghĩa là gì?", options: ["Bạn cùng lớp", "Giáo viên", "Hiệu trưởng", "Người lạ"], correctIndex: 0, explanation: "'Classmate' nghĩa là 'Bạn cùng lớp'." },
+  ]),
+  "tieng-anh:3:luyen-tap-review-food-and-drinks": practiceContent("Luyện tập", "Review: Food and Drinks", "Hãy ôn lại từ vựng về món ăn, đồ uống.", [
+    { question: "'Rice' nghĩa là gì?", options: ["Bánh mì", "Cơm", "Mì", "Trái cây"], correctIndex: 1, explanation: "'Rice' nghĩa là 'Cơm'." },
+    { question: "'Milk' nghĩa là gì?", options: ["Nước", "Sữa", "Trà", "Nước ép"], correctIndex: 1, explanation: "'Milk' nghĩa là 'Sữa'." },
+    { question: "'Noodles' nghĩa là gì?", options: ["Mì", "Cơm", "Bánh mì", "Bánh ngọt"], correctIndex: 0, explanation: "'Noodles' nghĩa là 'Mì'." },
+    { question: "'Juice' nghĩa là gì?", options: ["Nước ép", "Sữa", "Trà", "Nước lọc"], correctIndex: 0, explanation: "'Juice' nghĩa là 'Nước ép'." },
+  ]),
+  "tieng-anh:3:van-dung-mid-term-review-1": practiceContent("Vận dụng", "Mid-term Review 1", "Hãy ôn lại kiến thức giữa học kỳ 1: greetings, family, school, numbers.", [
+    { question: "'Hello' nghĩa là gì?", options: ["Tạm biệt", "Xin chào", "Cảm ơn", "Xin lỗi"], correctIndex: 1, explanation: "'Hello' nghĩa là 'Xin chào'." },
+    { question: "'School' nghĩa là gì?", options: ["Nhà", "Trường học", "Công viên", "Bệnh viện"], correctIndex: 1, explanation: "'School' nghĩa là 'Trường học'." },
+    { question: "'Mother' nghĩa là gì?", options: ["Bố", "Mẹ", "Anh", "Chị"], correctIndex: 1, explanation: "'Mother' nghĩa là 'Mẹ'." },
+    { question: "'Three' là số mấy?", options: ["1", "2", "3", "4"], correctIndex: 2, explanation: "'Three' là số 3." },
+  ]),
+  "tieng-anh:3:tro-choi-on-tap-end-of-term-1-review": practiceContent("Trò chơi ôn tập", "End of Term 1 Review", "Hãy ôn lại toàn bộ chủ đề học kỳ 1.", [
+    { question: "'House' nghĩa là gì?", options: ["Nhà", "Trường học", "Công viên", "Chợ"], correctIndex: 0, explanation: "'House' nghĩa là 'Nhà'." },
+    { question: "'Hobby' nghĩa là gì?", options: ["Sở thích", "Công việc", "Bài tập", "Kỳ nghỉ"], correctIndex: 0, explanation: "'Hobby' nghĩa là 'Sở thích'." },
+    { question: "'Weather' nghĩa là gì?", options: ["Thời tiết", "Thời gian", "Mùa", "Ngày tháng"], correctIndex: 0, explanation: "'Weather' nghĩa là 'Thời tiết'." },
+    { question: "'Friend' nghĩa là gì?", options: ["Bạn bè", "Gia đình", "Thầy cô", "Hàng xóm"], correctIndex: 0, explanation: "'Friend' nghĩa là 'Bạn bè'." },
+  ]),
+  "tieng-anh:3:thu-thach-nho-mid-term-review-2": practiceContent("Thử thách nhỏ", "Mid-term Review 2", "Hãy ôn lại: can/can't, prepositions, this/that, jobs.", [
+    { question: "'Doctor' nghĩa là gì?", options: ["Giáo viên", "Bác sĩ", "Nông dân", "Kỹ sư"], correctIndex: 1, explanation: "'Doctor' nghĩa là 'Bác sĩ'." },
+    { question: "'I can swim.' nghĩa là gì?", options: ["Em không thể bơi.", "Em có thể bơi.", "Em thích bơi.", "Em sợ nước."], correctIndex: 1, explanation: "'Can' nghĩa là 'có thể'." },
+    { question: "'Under' nghĩa là gì?", options: ["Trên", "Dưới", "Bên cạnh", "Ở giữa"], correctIndex: 1, explanation: "'Under' nghĩa là 'Dưới'." },
+    { question: "'Bus' nghĩa là gì?", options: ["Xe buýt", "Xe đạp", "Tàu hoả", "Máy bay"], correctIndex: 0, explanation: "'Bus' nghĩa là 'Xe buýt'." },
+  ]),
+  "tieng-anh:3:thuc-hanh-reading-short-stories": practiceContent("Thực hành", "Reading Short Stories", "Hãy nhớ lại cách đọc hiểu: xem tiêu đề, tranh, trả lời Who/What/Where.", [
+    { question: "Trước khi đọc truyện, em nên làm gì?", options: ["Đọc ngay không cần chuẩn bị", "Xem tiêu đề và tranh minh hoạ", "Bỏ qua tiêu đề", "Không cần làm gì"], correctIndex: 1, explanation: "Xem tiêu đề và tranh giúp đoán trước nội dung." },
+    { question: "Câu hỏi 'Who?' dùng để hỏi về điều gì trong truyện?", options: ["Nhân vật", "Địa điểm", "Thời gian", "Màu sắc"], correctIndex: 0, explanation: "'Who?' hỏi về nhân vật trong truyện." },
+    { question: "Câu hỏi 'Where?' dùng để hỏi về điều gì?", options: ["Địa điểm", "Nhân vật", "Thời gian", "Hành động"], correctIndex: 0, explanation: "'Where?' hỏi về địa điểm trong truyện." },
+    { question: "Đọc truyện ngắn giúp ích điều gì cho việc học tiếng Anh?", options: ["Không có ích gì", "Mở rộng vốn từ và khả năng đọc hiểu", "Làm mất thời gian", "Không liên quan đến tiếng Anh"], correctIndex: 1, explanation: "Đọc truyện giúp mở rộng vốn từ và khả năng đọc hiểu." },
+  ]),
+  "tieng-anh:3:luyen-tap-writing-short-sentences": practiceContent("Luyện tập", "Writing Short Sentences", "Hãy nhớ lại cấu trúc câu: Subject + Verb + Object.", [
+    { question: "Câu tiếng Anh cơ bản có cấu trúc nào?", options: ["Verb + Subject + Object", "Subject + Verb + Object", "Object + Subject + Verb", "Không có cấu trúc cố định"], correctIndex: 1, explanation: "Cấu trúc câu cơ bản là Subject + Verb + Object." },
+    { question: "Câu tiếng Anh cần bắt đầu bằng gì?", options: ["Chữ thường", "Chữ hoa", "Dấu chấm", "Dấu phẩy"], correctIndex: 1, explanation: "Câu tiếng Anh luôn bắt đầu bằng chữ hoa." },
+    { question: "'I like apples.' có cấu trúc nào?", options: ["Subject (I) + Verb (like) + Object (apples)", "Chỉ có Subject", "Chỉ có Verb", "Không theo cấu trúc nào"], correctIndex: 0, explanation: "Câu này đúng cấu trúc Subject + Verb + Object." },
+    { question: "Câu tiếng Anh thường kết thúc bằng dấu gì?", options: ["Dấu phẩy", "Dấu chấm", "Dấu ngoặc", "Dấu gạch ngang"], correctIndex: 1, explanation: "Câu thường kết thúc bằng dấu chấm." },
+  ]),
+  "tieng-anh:3:van-dung-my-favourite-season": practiceContent("Vận dụng", "My Favourite Season", "Hãy nhớ lại cách nói mùa yêu thích và lý do bằng 'because'.", [
+    { question: "'My favourite season is summer.' nghĩa là gì?", options: ["Mùa yêu thích của em là mùa đông.", "Mùa yêu thích của em là mùa hè.", "Em không thích mùa nào.", "Mùa yêu thích của em là mùa xuân."], correctIndex: 1, explanation: "Câu này nghĩa là 'Mùa yêu thích của em là mùa hè.'" },
+    { question: "'I can swim.' nghĩa là gì?", options: ["Em không thể bơi.", "Em có thể bơi.", "Em thích bơi.", "Em sợ nước."], correctIndex: 1, explanation: "Câu này nghĩa là 'Em có thể bơi.'" },
+    { question: "'Because' dùng để làm gì trong câu?", options: ["Nêu lý do", "Nêu kết quả", "Phủ định câu", "Đặt câu hỏi"], correctIndex: 0, explanation: "'Because' dùng để nêu lý do." },
+    { question: "Mùa nào thường có tuyết rơi ở nhiều nước?", options: ["Summer", "Spring", "Winter", "Autumn"], correctIndex: 2, explanation: "'Winter' (mùa đông) thường có tuyết rơi." },
+  ]),
+  "tieng-anh:3:tro-choi-on-tap-describing-my-classroom": practiceContent("Trò chơi ôn tập", "Describing My Classroom", "Hãy nhớ lại từ vựng: desk, chair, blackboard, window.", [
+    { question: "'Blackboard' nghĩa là gì?", options: ["Bảng đen", "Cửa sổ", "Bàn học", "Ghế ngồi"], correctIndex: 0, explanation: "'Blackboard' nghĩa là 'Bảng đen'." },
+    { question: "'Desk' nghĩa là gì?", options: ["Ghế", "Bàn học", "Cửa sổ", "Bảng"], correctIndex: 1, explanation: "'Desk' nghĩa là 'Bàn học'." },
+    { question: "'Window' nghĩa là gì?", options: ["Cửa sổ", "Cửa ra vào", "Tường", "Trần nhà"], correctIndex: 0, explanation: "'Window' nghĩa là 'Cửa sổ'." },
+    { question: "'There is a blackboard in my classroom.' nghĩa là gì?", options: ["Không có bảng đen trong lớp.", "Có một bảng đen trong lớp học.", "Bảng đen ở ngoài sân.", "Em không thích bảng đen."], correctIndex: 1, explanation: "Câu này nghĩa là 'Có một bảng đen trong lớp học của em.'" },
+  ]),
+  "tieng-anh:3:thu-thach-nho-talking-about-my-town": practiceContent("Thử thách nhỏ", "Talking About My Town", "Hãy nhớ lại cách nói về nơi mình sống.", [
+    { question: "'I live in Hanoi.' nghĩa là gì?", options: ["Em sống ở Hà Nội.", "Em sống ở Huế.", "Em không sống ở đâu.", "Em thích Hà Nội."], correctIndex: 0, explanation: "Câu này nghĩa là 'Em sống ở Hà Nội.'" },
+    { question: "'Town' nghĩa là gì?", options: ["Thị trấn/thị xã", "Ngôi nhà", "Trường học", "Công viên"], correctIndex: 0, explanation: "'Town' nghĩa là 'Thị trấn/thị xã'." },
+    { question: "'Lake' nghĩa là gì?", options: ["Hồ", "Sông", "Biển", "Núi"], correctIndex: 0, explanation: "'Lake' nghĩa là 'Hồ'." },
+    { question: "'My town has a big lake.' nghĩa là gì?", options: ["Thị trấn của em không có hồ.", "Thị trấn của em có một hồ lớn.", "Thị trấn của em có một ngọn núi.", "Thị trấn của em rất nhỏ."], correctIndex: 1, explanation: "Câu này nghĩa là 'Thị trấn của em có một hồ lớn.'" },
+  ]),
+  "tieng-anh:3:thuc-hanh-simple-role-play-at-the-shop": practiceContent("Thực hành", "Simple Role-play: At the Shop", "Hãy nhớ lại hội thoại: Can I help you? I want..., Here you are.", [
+    { question: "'Can I help you?' dùng để làm gì?", options: ["Người bán hỏi khách cần gì", "Khách hỏi giá", "Từ chối bán hàng", "Chào tạm biệt"], correctIndex: 0, explanation: "Câu này người bán hàng thường nói để hỏi khách cần gì." },
+    { question: "'I want a notebook, please.' nghĩa là gì?", options: ["Em không cần gì.", "Em muốn mua một quyển vở ạ.", "Vở này rất đẹp.", "Em không thích vở."], correctIndex: 1, explanation: "Câu này nghĩa là yêu cầu mua một quyển vở." },
+    { question: "'Here you are.' dùng để làm gì?", options: ["Đưa đồ vật cho ai đó", "Hỏi giá tiền", "Từ chối", "Chào hỏi"], correctIndex: 0, explanation: "Câu này dùng khi đưa đồ vật cho người khác." },
+    { question: "Đóng vai tình huống mua sắm giúp ích điều gì?", options: ["Không có ích gì", "Luyện phản xạ giao tiếp thực tế", "Làm mất thời gian", "Không liên quan đến tiếng Anh"], correctIndex: 1, explanation: "Đóng vai giúp luyện phản xạ giao tiếp trong tình huống thực tế." },
+  ]),
+  "tieng-anh:3:luyen-tap-simple-role-play-at-school": practiceContent("Luyện tập", "Simple Role-play: At School", "Hãy nhớ lại hội thoại: Good morning, class! Open your books, please.", [
+    { question: "'Good morning, class!' do ai nói?", options: ["Học sinh", "Giáo viên", "Phụ huynh", "Bảo vệ"], correctIndex: 1, explanation: "Câu này thường do giáo viên nói khi vào lớp." },
+    { question: "'Open your books, please.' nghĩa là gì?", options: ["Đóng sách lại", "Mở sách ra", "Cất sách đi", "Đọc to sách"], correctIndex: 1, explanation: "Câu này nghĩa là 'Mở sách ra'." },
+    { question: "Khi giáo viên chào, học sinh nên đáp lại như thế nào?", options: ["Im lặng", "Chào lại lịch sự", "Bỏ đi", "Nói chuyện riêng"], correctIndex: 1, explanation: "Học sinh nên chào lại lịch sự khi giáo viên chào." },
+    { question: "Đóng vai tình huống ở trường giúp ích điều gì?", options: ["Không có ích gì", "Luyện giao tiếp trong môi trường học đường", "Làm mất thời gian", "Không liên quan đến học tập"], correctIndex: 1, explanation: "Giúp luyện giao tiếp tiếng Anh trong môi trường học đường." },
+  ]),
+  "tieng-anh:3:van-dung-fun-with-rhymes": practiceContent("Vận dụng", "Fun with Rhymes", "Hãy nhớ lại vần điệu 'Rain, rain, go away'.", [
+    { question: "'Rain, rain, go away!' nghĩa là gì?", options: ["Mưa ơi, đến đi!", "Mưa ơi, đi đi!", "Trời nắng quá!", "Trời lạnh quá!"], correctIndex: 1, explanation: "Câu này nghĩa là 'Mưa ơi, đi đi!' (mong mưa tạnh)." },
+    { question: "'Go away' nghĩa là gì?", options: ["Đến đây", "Đi đi/biến đi", "Ở lại", "Ngủ đi"], correctIndex: 1, explanation: "'Go away' nghĩa là 'Đi đi/biến đi'." },
+    { question: "Vần điệu (rhyme) giúp ích điều gì cho việc học?", options: ["Không có ích gì", "Ghi nhớ từ vựng dễ dàng, vui nhộn", "Làm khó hiểu hơn", "Không liên quan đến học"], correctIndex: 1, explanation: "Vần điệu giúp ghi nhớ từ vựng dễ dàng và vui nhộn hơn." },
+    { question: "Đặc điểm của một bài vần điệu (rhyme) là gì?", options: ["Các từ cuối câu có âm giống nhau", "Không có quy luật nào", "Luôn buồn bã", "Luôn rất dài"], correctIndex: 0, explanation: "Vần điệu có các từ cuối câu vần với nhau." },
+  ]),
+  "tieng-anh:3:tro-choi-on-tap-spelling-practice": practiceContent("Trò chơi ôn tập", "Spelling Practice", "Hãy nhớ lại cách đánh vần từng chữ cái để ghi nhớ chính tả.", [
+    { question: "Đánh vần từ 'CAT' theo từng chữ cái là gì?", options: ["C-A-T", "K-A-T", "C-A-D", "C-E-T"], correctIndex: 0, explanation: "'CAT' được đánh vần là C-A-T." },
+    { question: "Luyện đánh vần giúp ích điều gì?", options: ["Không có ích gì", "Ghi nhớ chính xác cách viết từ", "Làm quên từ nhanh hơn", "Không liên quan đến viết"], correctIndex: 1, explanation: "Luyện đánh vần giúp ghi nhớ chính xác cách viết từ." },
+    { question: "Cách nào giúp ghi nhớ chính tả một từ mới?", options: ["Viết một lần rồi quên", "Viết đi viết lại và đọc to", "Không cần viết", "Chỉ cần nhìn qua"], correctIndex: 1, explanation: "Viết đi viết lại và đọc to giúp ghi nhớ tốt hơn." },
+    { question: "Thi đánh vần (spelling bee) là hoạt động phổ biến ở đâu?", options: ["Trường học tại nhiều nước nói tiếng Anh", "Không phổ biến ở đâu", "Chỉ ở Việt Nam", "Chỉ trong gia đình"], correctIndex: 0, explanation: "Thi đánh vần là hoạt động phổ biến ở các trường học nói tiếng Anh." },
+  ]),
+  "tieng-anh:3:thu-thach-nho-final-review-my-english-journey": practiceContent("Thử thách nhỏ", "Final Review: My English Journey", "Hãy ôn lại toàn bộ kiến thức tiếng Anh đã học trong năm.", [
+    { question: "'Hello' nghĩa là gì?", options: ["Tạm biệt", "Xin chào", "Cảm ơn", "Xin lỗi"], correctIndex: 1, explanation: "'Hello' nghĩa là 'Xin chào'." },
+    { question: "Để giỏi tiếng Anh, em nên làm gì?", options: ["Chỉ học một lần rồi thôi", "Luyện tập đều đặn mỗi ngày", "Không cần luyện tập", "Chỉ học ngữ pháp"], correctIndex: 1, explanation: "Luyện tập đều đặn giúp tiếng Anh ngày càng tiến bộ." },
+    { question: "'Thank you' nghĩa là gì?", options: ["Xin lỗi", "Cảm ơn", "Tạm biệt", "Xin chào"], correctIndex: 1, explanation: "'Thank you' nghĩa là 'Cảm ơn'." },
+    { question: "Kỹ năng nào quan trọng khi học một ngôn ngữ mới?", options: ["Chỉ cần nghe", "Nghe, nói, đọc, viết", "Chỉ cần viết", "Không cần kỹ năng nào"], correctIndex: 1, explanation: "Cần rèn luyện đầy đủ 4 kỹ năng: nghe, nói, đọc, viết." },
+  ]),
+
 };
 
 export function getLessonContent(subject: string, grade: number, lessonSlug: string) {
